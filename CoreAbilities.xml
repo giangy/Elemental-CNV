@@ -2797,11 +2797,11 @@
             <SpellbookType>Fire</SpellbookType>
         <AbilityBonusOption InternalName="Fire5">
             <DisplayName>Arcimago del Fuoco</DisplayName>
-            <Description>Permette all'unità di lanciare Livello 5 Fire spells like Firestorm e Wall of Fire</Description>
+            <Description>Permette all'unità di lanciare Incantesimi del Fuoco di Livello 5 come Tempesta di Fuoco e Muro di Fuoco</Description>
             <Icon>Ability_FireMaster_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
-                <Provides>Permette all'unità di lanciare Livello 5 Fire spells like Firestorm e Wall of Fire</Provides>
+                <Provides>Permette all'unità di lanciare Incantesimi del Fuoco di Livello 5 come Tempesta di Fuoco e Muro di Fuoco</Provides>
             </GameModifier>
             <HideWhenUpgraded>0</HideWhenUpgraded>
             <Likelihood>600</Likelihood>
@@ -2821,14 +2821,14 @@
     <AbilityBonus InternalName="FireAdept1Ability">
         <AbilityBonusType>Unit_Design</AbilityBonusType>
         <AbilityBonusOption InternalName="FireAdept1">
-            <DisplayName>Fire Adept</DisplayName>
-            <Description>Permette all'unità di lanciare Burning Hands</Description>
+            <DisplayName>Adetto del Fuoco</DisplayName>
+            <Description>Permette all'unità di lanciare Manui Brucianti</Description>
             <Icon>Ability_FireAdeptI_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>BurningHands</StrVal>
-                <Provides>Permette all'unità di lanciare Burning Hands</Provides>
+                <Provides>Permette all'unità di lanciare Manui Brucianti</Provides>
             </GameModifier>
             <AdditionalTrainingTurns>20</AdditionalTrainingTurns>
             <HideWhenUpgraded>1</HideWhenUpgraded>
@@ -2842,14 +2842,14 @@
     <AbilityBonus InternalName="FireAdept2Ability">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="FireAdept2">
-            <DisplayName>Fire Adept II</DisplayName>
-            <Description>Permette all'unità di lanciare Flame Dart</Description>
+            <DisplayName>Adepto del Fuoco II</DisplayName>
+            <Description>Permette all'unità di lanciare Dardo di Fuoco</Description>
             <Icon>Ability_FireAdeptII_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>FlameDart</StrVal>
-                <Provides>Permette all'unità di lanciare Flame Dart</Provides>
+                <Provides>Permette all'unità di lanciare Dardo di Fuoco</Provides>
             </GameModifier>
             <HideWhenUpgraded>1</HideWhenUpgraded>
             <Likelihood>200</Likelihood>
@@ -2868,14 +2868,14 @@
     <AbilityBonus InternalName="FireAdept3Ability">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="FireAdept3">
-            <DisplayName>Fire Adept III</DisplayName>
-            <Description>Permette all'unità di lanciare Burning Hands</Description>
+            <DisplayName>Adepto del Fuoco III</DisplayName>
+            <Description>Permette all'unità di lanciare Manui Brucianti</Description>
             <Icon>Ability_FireAdeptIII_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>Focus</StrVal>
-                <Provides>Permette all'unità di lanciare Burning Hands</Provides>
+                <Provides>Permette all'unità di lanciare Manui Brucianti</Provides>
             </GameModifier>
             <HideWhenUpgraded>0</HideWhenUpgraded>
             <Likelihood>100</Likelihood>
@@ -2893,14 +2893,14 @@
     </AbilityBonus>
     <AbilityBonus InternalName="FireBreathAbility">
         <AbilityBonusOption InternalName="FireBreath">
-            <DisplayName>Fire Breath</DisplayName>
-            <Description>Target unità within a 1 tile radius are enveloped in fire, taking the caster's Attacco in fire damage</Description>
+            <DisplayName>Soffio di Fuoco</DisplayName>
+            <Description>L'unità colpita viene avvolta dal fuoco insieme alle caselle adiacenti, subendo danni da fuoco pari all'Attaco dell'Incantatore</Description>
             <Icon>Ability_FireBreath_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>FireBreath</StrVal>
-                <Provides>Target unità within a 1 tile radius are enveloped in fire, taking the caster's Attacco in fire damage</Provides>
+                <Provides>L'unità colpita viene avvolta dal fuoco insieme alle caselle adiacenti, subendo danni da fuoco pari all'Attaco dell'Incantatore</Provides>
             </GameModifier>
             <CombatRating>300</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -2914,26 +2914,26 @@
     <AbilityBonus InternalName="FleshBoundTomeAbility">
         <AbilityBonusType>Player</AbilityBonusType>
         <AbilityBonusOption InternalName="FleshBoundTome">
-            <DisplayName>Flesh Bound Tome</DisplayName>
-            <Description>Sblocca the Cull the Weak, Death Lash e Candlecloak spells.  Also unlocks the Scar Stone.</Description>
+            <DisplayName>Tomo della Costrizione della Carne</DisplayName>
+            <Description>Sblocca gli incantesimi Cull the Weak, Death Lash e Candlecloak.  Sblocca inoltre Scar Stone.</Description>
             <Icon>Ability_FleshBoundTome_Icon.png</Icon>
             <GameModifier>
                 <ModType>Player</ModType>
                 <Attribute>UnlockSpell</Attribute>
                 <StrVal>CullTheWeak</StrVal>
-                <Provides>Sblocca Cull the Weak, un incantesimo that sacrifices an ally alla regain mana e health</Provides>
+                <Provides>Sblocca Cull the Weak, un incantesimo che sacrifica un alleato per riguadagnare mana e salute</Provides>
             </GameModifier>
             <GameModifier>
                 <ModType>Player</ModType>
                 <Attribute>UnlockSpell</Attribute>
                 <StrVal>DeathLash</StrVal>
-                <Provides>Sblocca Death Lash, un incantesimo that boosts an allies attack e initiative but kills them at the end of combat</Provides>
+                <Provides>Sblocca Death Lash, un incantesimo che aumenta l'attacco e l'iniziativa di un alleato ma lo uccide alla fine dello scontro</Provides>
             </GameModifier>
             <GameModifier>
                 <ModType>Player</ModType>
                 <Attribute>UnlockSpell</Attribute>
                 <StrVal>Candlecloak</StrVal>
-                <Provides>Sblocca Candlecloak, un incantesimo that does fire damage alla anyone who strikes your unità with a melee attack</Provides>
+                <Provides>Sblocca Candlecloak, un incantesimo che provoca danno a tutte le unità che colpiscono l'unita incantata</Provides>
             </GameModifier>
             <Cost>1</Cost>
             <Type>Army</Type>
@@ -2944,7 +2944,7 @@
     </AbilityBonus>
     <AbilityBonus InternalName="FrailAbility">
         <AbilityBonusOption InternalName="Frail">
-            <DisplayName>Frail</DisplayName>
+            <DisplayName>Fragile</DisplayName>
             <Description>-1 Punti per Colpire per livello</Description>
             <Icon>Ability_Frail_Icon.png</Icon>
             <GameModifier>
@@ -2964,7 +2964,7 @@
     <AbilityBonus InternalName="FrenzyAbility">
         <AbilityBonusType>Unit_Design</AbilityBonusType>
         <AbilityBonusOption InternalName="Frenzy">
-            <DisplayName>Frenzy</DisplayName>
+            <DisplayName>Frenesa</DisplayName>
             <Description>+4 Iniziativa</Description>
             <Icon>Ability_Frenzy_Icon.png</Icon>
             <GameModifier>
@@ -2986,13 +2986,13 @@
     <AbilityBonus InternalName="FrostbornAbility">
         <AbilityBonusOption InternalName="Frostborn">
             <DisplayName>Frostborn</DisplayName>
-            <Description>Units struck suffer -3 alla Iniziativa</Description>
+            <Description>Le unità colpite soffrono di -3 alla Iniziativa</Description>
             <Icon>Ability_Blizzard.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>MeleeAppliesSpell</Attribute>
                 <StrVal>Slow_Effect</StrVal>
-                <Provides>Units struck suffer -3 alla Iniziativa</Provides>
+                <Provides>Le unità colpite soffrono di -3 alla Iniziativa</Provides>
             </GameModifier>
             <Cost>-1</Cost>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -3006,8 +3006,8 @@
     <AbilityBonus InternalName="FuryAbility">
         <AbilityBonusType>Unit_Design</AbilityBonusType>
         <AbilityBonusOption InternalName="Fury">
-            <DisplayName>Fury</DisplayName>
-            <Description>+1 alla Attacco, -1 alla Punti per Colpire</Description>
+            <DisplayName>Furia</DisplayName>
+            <Description>+1 all'Attacco, -1 ai Punti per Colpire</Description>
             <Icon>Ability_Fury_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -3033,14 +3033,14 @@
     <AbilityBonus InternalName="GamblersStrikeAbility">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="GamblersStrike">
-            <DisplayName>Gamblers Strike</DisplayName>
-            <Description>Attacco that has a 50% chance alla do triple damage e a 50% chance alla miss</Description>
+            <DisplayName>Colpo Scorretto</DisplayName>
+            <Description>Attacco che ha il 50% di probabilità di produrre il triplo di danno e il 50% di probabilità di mancare</Description>
             <Icon>Ability_GamblersStrike_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>GamblersStrike</StrVal>
-                <Provides>Attacco that has a 50% chance alla do triple damage e a 50% chance alla miss</Provides>
+                <Provides>Attacco che ha il 50% di probabilità di produrre il triplo di danno e il 50% di probabilità di mancare</Provides>
             </GameModifier>
             <HideWhenUpgraded>0</HideWhenUpgraded>
             <IsCombatAbility>1</IsCombatAbility>
@@ -3060,15 +3060,15 @@
     <AbilityBonus InternalName="GracefulAbility">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Graceful">
-            <DisplayName>Graceful</DisplayName>
-            <Description>+2 Iniziativa e this unit cannot be knocked prone</Description>
+            <DisplayName>Grazioso</DisplayName>
+            <Description>+2 Iniziativa e l'unità non può essere buttata a terra</Description>
             <Icon>Ability_Graceful_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_ChanceToAvoidProne</StrVal>
                 <Value>100</Value>
-                <Provides>This unit cannot be knocked prone</Provides>
+                <Provides>L'unità non può essere buttata a terra</Provides>
             </GameModifier>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -3094,11 +3094,11 @@
     <AbilityBonus InternalName="GreatAxesAbility">
         <AbilityBonusType>Player</AbilityBonusType>
         <AbilityBonusOption InternalName="GreatAxes">
-            <DisplayName>Great Axes</DisplayName>
-            <Description>Sblocca the Trog Battle Axe, which has Armor Piercing, e the Great Axe, which has a higher attack than the Great Sword it replaces</Description>
+            <DisplayName>Grande Ascia</DisplayName>
+            <Description>Sblocca l'ascia da battaglia Trog, che ha Armor Piercing, e l'Ascia da Battaglia, che ha un alto attacco pari alla Grande Spada che essa rimpiazza</Description>
             <Icon>Ability_GreatAxes_Icon.png</Icon>
             <GameModifier>
-                <Provides>Sblocca the Trog Battle Axe, which has Armor Piercing, e the Great Axe, which has a higher attack than the Great Sword it replaces</Provides>
+                <Provides>Sblocca l'ascia da battaglia Trog, che ha Armor Piercing, e l'Ascia da Battaglia, che ha un alto attacco pari alla Grande Spada che essa rimpiazza</Provides>
             </GameModifier>
             <Cost>1</Cost>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -3111,11 +3111,11 @@
     <AbilityBonus InternalName="GreatHammersAbility">
         <AbilityBonusType>Player</AbilityBonusType>
         <AbilityBonusOption InternalName="GreatHammers">
-            <DisplayName>Great Hammers</DisplayName>
-            <Description>Sblocca the War Club, which has a higher attack against Men e Fallen, the Battle Hammer, which has a higher attack than a Warhammer, e the Sledge, a Maul that can be wielded one-handed.</Description>
+            <DisplayName>Grande Martello</DisplayName>
+            <Description>Sblocca la Clava da Guerra, che ha un alto attacco contro Uomini e caduti, il Martello da Battaglia, che ha un alto attacco come il Warhammer, e lo Sledge, un Maglio che può essere impugnato a una mano.</Description>
             <Icon>Ability_GreatHammers_Icon.png</Icon>
             <GameModifier>
-                <Provides>Sblocca the War Club, which has a higher attack against Men e Fallen, the Battle Hammer, which has a higher attack than a Warhammer, e the Sledge, a Maul that can be wielded one-handed.</Provides>
+                <Provides>Sblocca la Clava da Guerra, che ha un alto attacco contro Uomini e caduti, il Martello da Battaglia, che ha un alto attacco come il Warhammer, e lo Sledge, un Maglio che può essere impugnato a una mano.</Provides>
             </GameModifier>
             <Cost>1</Cost>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -3128,15 +3128,15 @@
     <AbilityBonus InternalName="Guardian1Ability">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Guardian1">
-            <DisplayName>Guardian I</DisplayName>
-            <Description>+2 alla the Army's Schivata</Description>
+            <DisplayName>Guardiano I</DisplayName>
+            <Description>+2 alla Schivata dell'Esercito</Description>
             <Icon>Ability_GuardianI_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustArmyStat</Attribute>
                 <StrVal>UnitStat_Dodge</StrVal>
                 <Value>2</Value>
-                <Provides>+2 alla the Army's Schivata</Provides>
+                <Provides>+2 alla Schivata dell'Esercito</Provides>
             </GameModifier>
             <Likelihood>200</Likelihood>
             <RarityDisplay>Uncommon</RarityDisplay>
@@ -3154,15 +3154,15 @@
     <AbilityBonus InternalName="Guardian2Ability">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Guardian2">
-            <DisplayName>Guardian II</DisplayName>
-            <Description>+3 alla the Army's Schivata</Description>
+            <DisplayName>Guardiano II</DisplayName>
+            <Description>+3 alla Schivata dell'Esercito</Description>
             <Icon>Ability_GuardianII_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustArmyStat</Attribute>
                 <StrVal>UnitStat_Dodge</StrVal>
                 <Value>3</Value>
-                <Provides>+3 alla the Army's Schivata</Provides>
+                <Provides>+3 alla Schivata dell'Esercito</Provides>
             </GameModifier>
             <Likelihood>100</Likelihood>
             <RarityDisplay>Rare</RarityDisplay>
@@ -3180,15 +3180,15 @@
     <AbilityBonus InternalName="Guardian3Ability">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Guardian3">
-            <DisplayName>Guardian III</DisplayName>
-            <Description>+4 alla the Army's Schivata</Description>
+            <DisplayName>Guardiano III</DisplayName>
+            <Description>+4 alla Schivata dell'Esercito</Description>
             <Icon>Ability_GuardianIII_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustArmyStat</Attribute>
                 <StrVal>UnitStat_Dodge</StrVal>
                 <Value>4</Value>
-                <Provides>+4 alla the Army's Schivata</Provides>
+                <Provides>+4 alla Schivata dell'Esercito</Provides>
             </GameModifier>
             <HideWhenUpgraded>0</HideWhenUpgraded>
             <Likelihood>100</Likelihood>
@@ -3207,15 +3207,15 @@
     <AbilityBonus InternalName="GuileEmpireAbility">
         <AbilityBonusType>Player</AbilityBonusType>
         <AbilityBonusOption InternalName="Guile">
-            <DisplayName>Guile</DisplayName>
-            <Description>Faction earns double the normal Influence</Description>
+            <DisplayName>Astuzia</DisplayName>
+            <Description>La Fazione guadagna il doppio della normale Influenza</Description>
             <Icon>Ability_Guile_Icon.png</Icon>
             <GameModifier>
                 <ModType>Player</ModType>
                 <Attribute>AbilityBonus</Attribute>
                 <StrVal>A_DiplomaticCapital</StrVal>
                 <Value>100</Value>
-                <Provides>Faction earns double the normal Influence</Provides>
+                <Provides>La Fazione guadagna il doppio della normale Influenza</Provides>
             </GameModifier>
             <Cost>1</Cost>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -3228,8 +3228,8 @@
     <AbilityBonus InternalName="HallowedRiteAbility">
         <AbilityBonusType>Unit_Design</AbilityBonusType>
         <AbilityBonusOption InternalName="HallowedRite">
-            <DisplayName>Hallowed Rite</DisplayName>
-            <Description>+3 Mana per unit killed</Description>
+            <DisplayName>Riti Permessi</DisplayName>
+            <Description>+3 Mana per unità uccisa</Description>
             <Icon>Ability_HallowedRite_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
