@@ -895,7 +895,7 @@
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_Attack_Blunt</StrVal>
                 <Multiplier>1.25</Multiplier>
-                <Provides>+25% di Attacco a Percosse contro Nemici Feriti</Provides>
+                <Provides>+25% di Attacco con armi da Percosse contro Nemici Feriti</Provides>
                 <vsDamaged>1</vsDamaged>
             </GameModifier>
             <GameModifier>
@@ -996,14 +996,14 @@
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Bruiser2">
             <DisplayName>Pugile Esperto</DisplayName>
-            <Description>+20% all'Attacco con armi a Percosse (Attcco con martelli e mazze)</Description>
+            <Description>+20% all'Attacco con armi con armi da Percosse (Attcco con martelli e mazze)</Description>
             <Icon>Ability_BruiserII_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_Attack_Blunt</StrVal>
                 <Multiplier>1.2</Multiplier>
-                <Provides>+20% Attacco a Percosse</Provides>
+                <Provides>+20% Attacco con armi da Percosse</Provides>
             </GameModifier>
             <Likelihood>200</Likelihood>
             <RarityDisplay>Uncommon</RarityDisplay>
@@ -1023,14 +1023,14 @@
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Bruiser3">
             <DisplayName>Maestro Pugile</DisplayName>
-            <Description>+25% all'Attacco con armi a Percosse (attacco con martelli e mazze)</Description>
+            <Description>+25% all'Attacco con armi con armi da Percosse (attacco con martelli e mazze)</Description>
             <Icon>Ability_BruiserIII_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_Attack_Blunt</StrVal>
                 <Multiplier>1.25</Multiplier>
-                <Provides>+25% Attacco a Percosse</Provides>
+                <Provides>+25% Attacco con armi da Percosse</Provides>
             </GameModifier>
             <Likelihood>100</Likelihood>
             <RarityDisplay>Rare</RarityDisplay>
@@ -1050,14 +1050,14 @@
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Bruiser">
             <DisplayName>Apprendista Pugile</DisplayName>
-            <Description>+15% Attacco con armi a Percosse (attacco con martelli e mazze)</Description>
+            <Description>+15% Attacco con armi con armi da Percosse (attacco con martelli e mazze)</Description>
             <Icon>Ability_BruiserI_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_Attack_Blunt</StrVal>
                 <Multiplier>1.15</Multiplier>
-                <Provides>+15% Attacco a Percosse</Provides>
+                <Provides>+15% Attacco con armi da Percosse</Provides>
             </GameModifier>
             <Likelihood>200</Likelihood>
             <RarityDisplay>Uncommon</RarityDisplay>
@@ -1084,7 +1084,7 @@
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_Attack_Blunt</StrVal>
                 <Multiplier>2</Multiplier>
-                <Provides>+100% all'Attacco a Percosse</Provides>
+                <Provides>+100% all'Attacco con armi da Percosse</Provides>
             </GameModifier>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -2329,7 +2329,7 @@
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_Attack_Blunt</StrVal>
                 <Multiplier>1.25</Multiplier>
-                <Provides>+25% Attacco con armi a Percosse contro unità di razza opposta (caduti contro umani)</Provides>
+                <Provides>+25% Attacco con armi con armi da Percosse contro unità di razza opposta (caduti contro umani)</Provides>
                 <vsOtherAllegiance>1</vsOtherAllegiance>
             </GameModifier>
             <GameModifier>
@@ -3251,8 +3251,8 @@
     </AbilityBonus>
     <AbilityBonus InternalName="HarbingerAbility">
         <AbilityBonusOption InternalName="Harbinger">
-            <DisplayName>Harbinger</DisplayName>
-            <Description>Units gains 30 life each time it kills a victim</Description>
+            <DisplayName>Precursore</DisplayName>
+            <Description>L'unità guadagna 30 punti vita ogni volta che uccide una vittima</Description>
             <Icon>Ability_Harbinger_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -3272,8 +3272,8 @@
     <AbilityBonus InternalName="HardyAbility">
         <AbilityBonusType>Champion_Talent</AbilityBonusType>
         <AbilityBonusOption InternalName="Hardy">
-            <DisplayName>Hardy</DisplayName>
-            <Description>+1 Punti per Colpire per livello e immune alla poison</Description>
+            <DisplayName>Resistente</DisplayName>
+            <Description>+1 Punti per Colpire per livello e immunità al veleno</Description>
             <Icon>Ability_Hardy_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -3300,15 +3300,15 @@
     <AbilityBonus InternalName="HeartOfStoneAbility">
         <AbilityBonusType>Unit_Design</AbilityBonusType>
         <AbilityBonusOption InternalName="HeartOfStone">
-            <DisplayName>Heart of Stone</DisplayName>
-            <Description>+20 Difesa contro Cutting Attacks</Description>
+            <DisplayName>Cuore di Pietra</DisplayName>
+            <Description>+20 Difesa contro Attacchi da Taglio</Description>
             <Icon>Ability_HeartOfStone_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_Defence_Cutting</StrVal>
                 <Value>20</Value>
-                <Provides>+20 Difesa contro Cutting Attacks</Provides>
+                <Provides>+20 Difesa contro Attacchi da Taglio</Provides>
             </GameModifier>
             <AdditionalTrainingTurns>16</AdditionalTrainingTurns>
             <SupportedUnitModelType>JuggernautMale</SupportedUnitModelType>
@@ -3321,29 +3321,29 @@
     <AbilityBonus InternalName="HeroicAbility">
         <AbilityBonusType>Player</AbilityBonusType>
         <AbilityBonusOption InternalName="Heroic">
-            <DisplayName>Heroic</DisplayName>
-            <Description>Completing a quest provides 50 Influence, +1 Faction Prestige e double the normal experience. </Description>
+            <DisplayName>Eroico</DisplayName>
+            <Description>Completare una quest fornisce 50 punti Influenza, +1 Prestigio della Fazione e raddoppia la normale esperienza.</Description>
             <Icon>Ability_Heroic_Icon.png</Icon>
             <GameModifier>
                 <ModType>Player</ModType>
                 <Attribute>AbilityBonus</Attribute>
                 <StrVal>A_Adventure</StrVal>
                 <Value>100</Value>
-                <Provides>Completing a quest provides double the normal experience.</Provides>
+                <Provides>Completare una quest raddoppia la normale esperienza.</Provides>
             </GameModifier>
             <GameModifier>
                 <ModType>Player</ModType>
                 <Attribute>AbilityBonus</Attribute>
                 <StrVal>A_QuestBonusDiplomaticCapital</StrVal>
                 <Value>50</Value>
-                <Provides>Completing a quest provides 50 Influence</Provides>
+                <Provides>Completare una quest fornisce 50 punti Influenza</Provides>
             </GameModifier>
             <GameModifier>
                 <ModType>Player</ModType>
                 <Attribute>AbilityBonus</Attribute>
                 <StrVal>A_QuestBonusFactionPrestige</StrVal>
                 <Value>1</Value>
-                <Provides>Completing a quest provides +1 Faction Prestige</Provides>
+                <Provides>Completare una quest fornisce +1 al Prestigio della Fazione</Provides>
             </GameModifier>
             <Cost>2</Cost>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -3356,14 +3356,14 @@
     <AbilityBonus InternalName="HobbleAbility">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Hobble">
-            <DisplayName>Hobble</DisplayName>
-            <Description>Unit can use Hobble, which does normal damage e reduces the target's allo Spostamento by 1 for the next 3 actions</Description>
+            <DisplayName>Zoppicare</DisplayName>
+            <Description>L'unità che usa Zoppicare riduce lo Spostamento del target di 1 per le prossime tre azioni</Description>
             <Icon>Ability_Slow.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>Hobble</StrVal>
-                <Provides>Unit can use Hobble, which does normal damage e reduces the target's allo Spostamento by 1 for the next 3 actions</Provides>
+                <Provides>L'unità che usa Zoppicare riduce lo Spostamento del target di 1 per le prossime tre azioni</Provides>
             </GameModifier>
             <CombatRating>10</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -3384,7 +3384,7 @@
     <AbilityBonus InternalName="IgnorePainAbility">
         <AbilityBonusType>Unit_Design</AbilityBonusType>
         <AbilityBonusOption InternalName="IgnorePain">
-            <DisplayName>Ignore Pain</DisplayName>
+            <DisplayName>Ignorare il dolore</DisplayName>
             <Description>+40 Punti per Colpire</Description>
             <Icon>Ability_IgnorePain_Icon.png</Icon>
             <GameModifier>
@@ -3403,15 +3403,15 @@
     </AbilityBonus>
     <AbilityBonus InternalName="ImmuneToColdAbility">
         <AbilityBonusOption InternalName="ImmuneToCold">
-            <DisplayName>Immune alla Cold</DisplayName>
-            <Description>Immune alla Cold</Description>
+            <DisplayName>Immunità al Freddo</DisplayName>
+            <Description>Immunità al Freddo</Description>
             <Icon>Ability_ImmuneToCold_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_ResistCold</StrVal>
                 <Value>100</Value>
-                <Provides>Unit takes no damage from Cold</Provides>
+                <Provides>Le unità non subiscono danni da Freddo</Provides>
             </GameModifier>
             <CombatRating>10</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -3425,13 +3425,13 @@
     <AbilityBonus InternalName="ImmuneToCounterattackAbility">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="ImmuneToCounterattack">
-            <DisplayName>Immune alla Counter</DisplayName>
-            <Description>Immune alla Counterattack</Description>
+            <DisplayName>Immunità al Contrattacco</DisplayName>
+            <Description>Immunità al Contrattacco</Description>
             <Icon>Ability_ImmuneToCounterattack_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>CannotBeCounterattacked</Attribute>
-                <Provides>Unit never gets Counterattacked</Provides>
+                <Provides>Le unità non subiscono danni dal Contrattacco </Provides>
             </GameModifier>
             <CombatRating>10</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -3451,15 +3451,15 @@
     </AbilityBonus>
     <AbilityBonus InternalName="ImmuneToCriticalsAbility">
         <AbilityBonusOption InternalName="ImmuneToCriticals">
-            <DisplayName>Immune alla Criticals</DisplayName>
-            <Description>Immune alla Critical Attacks</Description>
+            <DisplayName>Immunità ai Colpi Critici</DisplayName>
+            <Description>Immunità ai Colpi Critici</Description>
             <Icon>Ability_ImmuneToCriticals_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_ChanceToAvoidCrit</StrVal>
                 <Value>100</Value>
-                <Provides>Unit never suffers a Critical Attacco</Provides>
+                <Provides>Le unità non subiscono colpi critici</Provides>
             </GameModifier>
             <CombatRating>10</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -3473,15 +3473,15 @@
     <AbilityBonus InternalName="ImmuneToCriticalsAbility_Level">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="ImmuneToCriticals_Level">
-            <DisplayName>Immune alla Criticals</DisplayName>
-            <Description>Immune alla Critical attacks</Description>
+            <DisplayName>Immunità ai Colpi Critici</DisplayName>
+            <Description>Immunità ai Colpi Critici</Description>
             <Icon>Ability_ImmuneToCriticals_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_ChanceToAvoidCrit</StrVal>
                 <Value>100</Value>
-                <Provides>Unit never suffers a Critical attack</Provides>
+                <Provides>Le unità non subiscono colpi critici</Provides>
             </GameModifier>
             <CombatRating>10</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -3501,15 +3501,15 @@
     </AbilityBonus>
     <AbilityBonus InternalName="ImmuneToFireAbility">
         <AbilityBonusOption InternalName="ImmuneToFire">
-            <DisplayName>Immune alla Fire</DisplayName>
-            <Description>Immune alla Fire</Description>
+            <DisplayName>Immunità al Fuoco</DisplayName>
+            <Description>Immunità al Fuoco</Description>
             <Icon>Ability_ImmuneToFire_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_ResistFire</StrVal>
                 <Value>100</Value>
-                <Provides>Unit takes no damage from Fire</Provides>
+                <Provides>Le unità non subiscono danno dal Fuoco</Provides>
             </GameModifier>
             <CombatRating>10</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -3522,15 +3522,15 @@
     </AbilityBonus>
     <AbilityBonus InternalName="ImmuneToLightningAbility">
         <AbilityBonusOption InternalName="ImmuneToLightning">
-            <DisplayName>Immune alla Lightning</DisplayName>
-            <Description>Immune alla Lightning</Description>
+            <DisplayName>Immunità all'Elettricità</DisplayName>
+            <Description>Immunità all'Elettricità</Description>
             <Icon>Ability_ImmuneToLightning_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_ResistLightning</StrVal>
                 <Value>100</Value>
-                <Provides>Unit takes no damage from Lightning</Provides>
+                <Provides>Le unità non subiscono danno dall'Elettricità</Provides>
             </GameModifier>
             <CombatRating>10</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -3543,13 +3543,13 @@
     </AbilityBonus>
     <AbilityBonus InternalName="ImmuneToMagicAbility">
         <AbilityBonusOption InternalName="ImmuneToMagic">
-            <DisplayName>Immune alla Magic</DisplayName>
-            <Description>Immune alla Magic</Description>
+            <DisplayName>Immunità alla Magia</DisplayName>
+            <Description>Immunità alla Magia</Description>
             <Icon>Ability_ImmuneToMagic_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>ProtectFromSpells</Attribute>
-                <Provides>Immune alla Magic</Provides>
+                <Provides>Immunità alla Magia</Provides>
             </GameModifier>
             <CombatRating>50</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -3562,15 +3562,15 @@
     </AbilityBonus>
     <AbilityBonus InternalName="ImmuneToPoisonAbility">
         <AbilityBonusOption InternalName="ImmuneToPoison">
-            <DisplayName>Immune alla Poison</DisplayName>
-            <Description>Immune alla Poison</Description>
+            <DisplayName>Immunità al Veleno</DisplayName>
+            <Description>Immunità al Veleno</Description>
             <Icon>Ability_ImmuneToPoison_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_ResistPoison</StrVal>
                 <Value>100</Value>
-                <Provides>Unit takes no damage from Poison</Provides>
+                <Provides>Le unità non subiscono danno dal Veleno</Provides>
             </GameModifier>
             <CombatRating>10</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -3585,15 +3585,15 @@
         <AbilityBonusType>Champion_Talent</AbilityBonusType>
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Impulsive">
-            <DisplayName>Impulsive</DisplayName>
-            <Description>Unit goes first in combattimento</Description>
+            <DisplayName>Impulsivo</DisplayName>
+            <Description>Le unità iniziano per prime in combattimento</Description>
             <Icon>Ability_Charisma_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_CombatSpeed</StrVal>
                 <Value>50</Value>
-                <Provides>Unit goes first in combattimento</Provides>
+                <Provides>Le unità iniziano per prime in combattimento</Provides>
                 <xActions>1</xActions>
             </GameModifier>
             <Cost>1</Cost>
@@ -3613,7 +3613,7 @@
     </AbilityBonus>
     <AbilityBonus InternalName="InaccuracteAbility">
         <AbilityBonusOption InternalName="Inaccurate">
-            <DisplayName>Inaccurate</DisplayName>
+            <DisplayName>Inaccurato</DisplayName>
             <Description>-10 alla Accuratezza</Description>
             <Icon>Ability_Inaccurate_Icon.png</Icon>
             <GameModifier>
@@ -3633,7 +3633,7 @@
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="AfraidOfDying">
             <DisplayName>Afraid of Dying</DisplayName>
-            <Description>-30 Accuratezza contro higher level enemies</Description>
+            <Description>-30 Accuratezza contro nemici di livello alto</Description>
             <Icon>Ability_AfraidOfDying_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -3651,7 +3651,7 @@
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="Amnesia">
             <DisplayName>Amnesia</DisplayName>
-            <Description>-25% alla earned Esperienza Points</Description>
+            <Description>-25% al guadagno di Punti Esperienza</Description>
             <Icon>Ability_Amnesia_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -3666,7 +3666,7 @@
     <AbilityBonus InternalName="Injury_BlindInOneEye">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="BlindInOneEye">
-            <DisplayName>Blind In One Eye</DisplayName>
+            <DisplayName>Cecità da un occhio</DisplayName>
             <Description>-25% Accuratezza</Description>
             <Icon>Ability_BlindInOneEye_Icon.png</Icon>
             <GameModifier>
@@ -3682,7 +3682,7 @@
     <AbilityBonus InternalName="Injury_BrokenLegAbility">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="BrokenLeg">
-            <DisplayName>Broken Leg</DisplayName>
+            <DisplayName>Gamba Rotta</DisplayName>
             <Description>-25% Schivata</Description>
             <Icon>Ability_BrokenLeg_Icon.png</Icon>
             <GameModifier>
@@ -3698,7 +3698,7 @@
     <AbilityBonus InternalName="Injury_BrokenNoseAbility">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="BrokenNose">
-            <DisplayName>Broken Nose</DisplayName>
+            <DisplayName>Naso Rotto</DisplayName>
             <Description>-10% Punti per Colpire</Description>
             <Icon>Ability_BrokenNose_Icon.png</Icon>
             <GameModifier>
@@ -3714,8 +3714,8 @@
     <AbilityBonus InternalName="Injury_ChippedToothAbility">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="ChippedTooth">
-            <DisplayName>Chipped Tooth</DisplayName>
-            <Description>Increased damage from Poison</Description>
+            <DisplayName>Dente Scheggiato</DisplayName>
+            <Description>Aumento del danno da Veleno</Description>
             <Icon>Ability_ChippedTooth_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -3730,15 +3730,15 @@
     <AbilityBonus InternalName="Injury_Concussion">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="Concussion">
-            <DisplayName>Concussion</DisplayName>
-            <Description>+25% the mana cost for incantesimi tattici</Description>
+            <DisplayName>Concussione</DisplayName>
+            <Description>+25% costo Mana per incantesimi tattici</Description>
             <Icon>Ability_Concussion_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_TacticalSpellManaCost_Multiplier</StrVal>
                 <Value>0.25</Value>
-                <Provides>+25% mana cost for incantesimi tattici</Provides>
+                <Provides>+25% costo Mana per incantesimi tattici</Provides>
             </GameModifier>
             <HideWhenUpgraded>0</HideWhenUpgraded>
             <Type>Weakness</Type>
@@ -3747,14 +3747,14 @@
     <AbilityBonus InternalName="Injury_CrackedSkull">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="CrackedSkull">
-            <DisplayName>Cracked Skull</DisplayName>
-            <Description>-10 Esperienza Points</Description>
+            <DisplayName>Testa Fracassata</DisplayName>
+            <Description>-10 di Punti Esperienza</Description>
             <Icon>Ability_CrackedSkull_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>GiveExperience</Attribute>
                 <Value>-10</Value>
-                <Provides>-10 Esperienza Points</Provides>
+                <Provides>-10 di Punti Esperienza</Provides>
             </GameModifier>
             <HideWhenUpgraded>0</HideWhenUpgraded>
             <Type>Weakness</Type>
@@ -3763,7 +3763,7 @@
     <AbilityBonus InternalName="Injury_FleshWound">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="FleshWound">
-            <DisplayName>Flesh Wound</DisplayName>
+            <DisplayName>Carne Ferita</DisplayName>
             <Description>-10% Punti per Colpire</Description>
             <Icon>Ability_FleshWound_Icon.png</Icon>
             <GameModifier>
@@ -3779,7 +3779,7 @@
     <AbilityBonus InternalName="Injury_GangreneHand">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="GangreneHand">
-            <DisplayName>Gangrene Hand</DisplayName>
+            <DisplayName>Mano in Cancrena</DisplayName>
             <Description>-1 Attacco</Description>
             <Icon>Ability_GangreneHand_Icon.png</Icon>
             <GameModifier>
@@ -3795,7 +3795,7 @@
     <AbilityBonus InternalName="Injury_Hallucinations">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="Hallucinations">
-            <DisplayName>Hallucinations</DisplayName>
+            <DisplayName>Allucinazioni</DisplayName>
             <Description>+10 alla Maestria negli Incantesimi, -10 alla Resistenza agli Incantesimi</Description>
             <Icon>Ability_Hallucinations_Icon.png</Icon>
             <GameModifier>
@@ -3817,8 +3817,8 @@
     <AbilityBonus InternalName="Injury_MissingEar">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="MissingEar">
-            <DisplayName>Missing Ear</DisplayName>
-            <Description>"What?"</Description>
+            <DisplayName>Orecchio Mancante</DisplayName>
+            <Description>"Cosa?"</Description>
             <Icon>Ability_MissingEar_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -3833,8 +3833,8 @@
     <AbilityBonus InternalName="Injury_Pneumonia">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="Pneumonia">
-            <DisplayName>Pneumonia</DisplayName>
-            <Description>Increased damage from Cold</Description>
+            <DisplayName>Polmonite</DisplayName>
+            <Description>Aumento del danno da Freddo</Description>
             <Icon>Ability_Pneumonia_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -3849,7 +3849,7 @@
     <AbilityBonus InternalName="Injury_RottingWound">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="RottingWound">
-            <DisplayName>Rotting Wound</DisplayName>
+            <DisplayName>Ferita in putrefazione</DisplayName>
             <Description>-25% Punti per Colpire</Description>
             <Icon>Ability_RottingWound_Icon.png</Icon>
             <GameModifier>
@@ -3865,8 +3865,8 @@
     <AbilityBonus InternalName="Injury_TisButAScratch">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="TisButAScratch">
-            <DisplayName>Tis But a Scratch</DisplayName>
-            <Description>No effect.</Description>
+            <DisplayName>È solo un graffio</DisplayName>
+            <Description>Nessun Effetto.</Description>
             <Icon>Ability_TisButAScratch_Icon.png</Icon>
             <HideWhenUpgraded>0</HideWhenUpgraded>
             <Type>Weakness</Type>
@@ -3875,7 +3875,7 @@
     <AbilityBonus InternalName="Injury_TwistedAnkleAbility">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="TwistedAnkle">
-            <DisplayName>Twisted Ankle</DisplayName>
+            <DisplayName>Distorsione alla caviglia</DisplayName>
             <Description>-1 Iniziativa</Description>
             <Icon>Ability_BrokenLeg_Icon.png</Icon>
             <GameModifier>
@@ -3891,7 +3891,7 @@
     <AbilityBonus InternalName="Injury_TwistedKnee">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="TwistedKnee">
-            <DisplayName>Twisted Knee</DisplayName>
+            <DisplayName>Ginocchio ritorto</DisplayName>
             <Description>-1 Iniziativa</Description>
             <Icon>Ability_RottingWound_Icon.png</Icon>
             <GameModifier>
@@ -3907,15 +3907,15 @@
     <AbilityBonus InternalName="Injury_TyphoidFever">
         <AbilityBonusType>Unit_Injury</AbilityBonusType>
         <AbilityBonusOption InternalName="TyphoidFever">
-            <DisplayName>Typhoid Fever</DisplayName>
-            <Description>-2 alla Army's Punti per Colpire</Description>
+            <DisplayName>Febbre tifoide</DisplayName>
+            <Description>-2 ai Punti per Colpire dell'Esercito</Description>
             <Icon>Ability_TyphoidFever_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustArmyStat</Attribute>
                 <StrVal>UnitStat_HitPoints</StrVal>
                 <Value>-2</Value>
-                <Provides>-2 alla the Army's Punti per Colpire</Provides>
+                <Provides>-2 ai Punti per Colpire dell'Esercito</Provides>
             </GameModifier>
             <HideWhenUpgraded>0</HideWhenUpgraded>
             <Type>Weakness</Type>
@@ -3924,7 +3924,7 @@
     <AbilityBonus InternalName="IronskinAbility">
         <AbilityBonusType>Unit_Design</AbilityBonusType>
         <AbilityBonusOption InternalName="Ironskin">
-            <DisplayName>Ironskin</DisplayName>
+            <DisplayName>Pelle di ferro</DisplayName>
             <Description>+3 Difesa</Description>
             <Icon>Ability_Ironskin_Icon.png</Icon>
             <GameModifier>
@@ -3955,15 +3955,15 @@
     </AbilityBonus>
     <AbilityBonus InternalName="JuggernautAbility">
         <AbilityBonusOption InternalName="Juggernaut">
-            <DisplayName>Juggernaut</DisplayName>
-            <Description>Cannot be knocked Prone, +100% Attacco e 25% Splash damage</Description>
+            <DisplayName>Colosso</DisplayName>
+            <Description>Non può essere buttato a terra, +100% Attacco e 25% danno da Impatto</Description>
             <Icon>Ability_Juggernaut_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_Attack_Blunt</StrVal>
                 <Multiplier>2</Multiplier>
-                <Provides>+100% Attacco a Percosse</Provides>
+                <Provides>+100% Attacco con armi da Percosse</Provides>
             </GameModifier>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -4002,7 +4002,7 @@
     <AbilityBonus InternalName="KnowledgeAbility">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Knowledge">
-            <DisplayName>Knowledge</DisplayName>
+            <DisplayName>Conoscenza</DisplayName>
             <Description>+25% Esperienza</Description>
             <Icon>Ability_Knowledge_Icon.png</Icon>
             <GameModifier>
@@ -4028,15 +4028,15 @@
     </AbilityBonus>
     <AbilityBonus InternalName="LargeAbility">
         <AbilityBonusOption InternalName="Large">
-            <DisplayName>Large</DisplayName>
-            <Description>Cannot be knocked Prone, +5 Punti per Colpire per livello</Description>
+            <DisplayName>Largo</DisplayName>
+            <Description>Non può essere buttato a terra, +5 Punti per Colpire per livello</Description>
             <Icon>Ability_Large_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_ChanceToAvoidProne</StrVal>
                 <Value>100</Value>
-                <Provides>Cannot be knocked Prone</Provides>
+                <Provides>Non può essere buttato a terra</Provides>
             </GameModifier>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -4058,14 +4058,14 @@
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Leadership1">
             <DisplayName>Leadership I</DisplayName>
-            <Description>+5 alla the Army's Accuratezza</Description>
+            <Description>+5 all'Accuratezza dell'Esercito</Description>
             <Icon>Ability_LeadershipI_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustArmyStat</Attribute>
                 <StrVal>UnitStat_Accuracy</StrVal>
                 <Value>5</Value>
-                <Provides>+5 alla the Army's Accuratezza</Provides>
+                <Provides>+5 all'Accuratezza dell'Esercito</Provides>
             </GameModifier>
             <Cost>1</Cost>
             <Likelihood>100</Likelihood>
@@ -4085,14 +4085,14 @@
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Leadership2">
             <DisplayName>Leadership II</DisplayName>
-            <Description>+10 alla the Army's Accuratezza</Description>
+            <Description>+10 all'Accuratezza dell'Esercito</Description>
             <Icon>Ability_LeadershipII_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustArmyStat</Attribute>
                 <StrVal>UnitStat_Accuracy</StrVal>
                 <Value>10</Value>
-                <Provides>+10 alla the Army's Accuratezza</Provides>
+                <Provides>+10 all'Accuratezza dell'Esercito</Provides>
             </GameModifier>
             <Likelihood>100</Likelihood>
             <RarityDisplay>Rare</RarityDisplay>
@@ -4111,14 +4111,14 @@
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Leadership3">
             <DisplayName>Leadership III</DisplayName>
-            <Description>+15 alla the Army's Accuratezza</Description>
+            <Description>+15 all'Accuratezza dell'Esercito</Description>
             <Icon>Ability_LeadershipIII_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustArmyStat</Attribute>
                 <StrVal>UnitStat_Accuracy</StrVal>
                 <Value>15</Value>
-                <Provides>+15 alla the Army's Accuratezza</Provides>
+                <Provides>+15 all'Accuratezza dell'Esercito</Provides>
             </GameModifier>
             <HideWhenUpgraded>0</HideWhenUpgraded>
             <Likelihood>100</Likelihood>
@@ -4137,7 +4137,7 @@
     <AbilityBonus InternalName="LegacyOfSerraneAbility">
         <AbilityBonusType>Player</AbilityBonusType>
         <AbilityBonusOption InternalName="LegacyOfSerrane">
-            <DisplayName>Legacy of Serrane</DisplayName>
+            <DisplayName>Legame di Serrane</DisplayName>
             <Description>Caravans are immune alla attack e generate 3 Influence each time they complete a trip.  This also gives access alla the Bazaar city improvement e the Warhorse, which has a higher weight capacity e initiative than normal mounts.</Description>
             <Icon>Ability_RoadWarriors_Icon.png</Icon>
             <GameModifier>
@@ -5069,14 +5069,14 @@
     <AbilityBonus InternalName="MonsterousAbility">
         <AbilityBonusOption InternalName="Monsterous">
             <DisplayName>Monsterous</DisplayName>
-            <Description>Cannot be knocked Prone, +8 Punti per Colpire per livello</Description>
+            <Description>Non può essere buttato a terra, +8 Punti per Colpire per livello</Description>
             <Icon>Ability_Large_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_ChanceToAvoidProne</StrVal>
                 <Value>100</Value>
-                <Provides>Cannot be knocked Prone</Provides>
+                <Provides>Non può essere buttato a terra</Provides>
             </GameModifier>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -8046,14 +8046,14 @@
         <AbilityBonusType>Unit_Design</AbilityBonusType>
         <AbilityBonusOption InternalName="UncontrolledRage">
             <DisplayName>Uncontrolled Rage</DisplayName>
-            <Description>+50% Splash damage</Description>
+            <Description>+50% danno da Impatto</Description>
             <Icon>Ability_UncontrolledRage_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_SplashDamage</StrVal>
                 <Value>0.5</Value>
-                <Provides>+50% Splash damage</Provides>
+                <Provides>+50% danno da Impatto</Provides>
             </GameModifier>
             <AdditionalTrainingTurns>16</AdditionalTrainingTurns>
             <HideWhenUpgraded>1</HideWhenUpgraded>
@@ -8324,8 +8324,8 @@
     </AbilityBonus>
     <AbilityBonus InternalName="VulnerableToFireAbility">
         <AbilityBonusOption InternalName="VulnerableToFire">
-            <DisplayName>Vulnerable alla Fire</DisplayName>
-            <Description>Suffers double damage from Fire</Description>
+            <DisplayName>Vulnerable al Fuoco</DisplayName>
+            <Description>Suffers double damage dal Fuoco</Description>
             <Icon>Ability_VulnerableToFire_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -8344,8 +8344,8 @@
     </AbilityBonus>
     <AbilityBonus InternalName="VulnerableToLightningAbility">
         <AbilityBonusOption InternalName="VulnerableToLightning">
-            <DisplayName>Vulnerable alla Lightning</DisplayName>
-            <Description>Suffers double damage from Lightning</Description>
+            <DisplayName>Vulnerable all'Elettricità</DisplayName>
+            <Description>Suffers double damage dall'Elettricità</Description>
             <Icon>Ability_VulnerableToLightning_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -8917,7 +8917,7 @@
                 <StrVal>UnitStat_Attack_Blunt</StrVal>
                 <StrVal2>Beast</StrVal2>
                 <Multiplier>1.5</Multiplier>
-                <Provides>+50% Attacco a Percosse contro Beasts</Provides>
+                <Provides>+50% Attacco con armi da Percosse contro Beasts</Provides>
                 <vsUnitType>1</vsUnitType>
             </GameModifier>
             <GameModifier>
