@@ -1,30 +1,29 @@
-
 [TABLEALIAS SaveGames]
 
-[AutoSave] AutoSave
-[PreviousAutoSave] PreviousAutoSave
-[EndGameSave] EndGameSave
-[QuickSave] QuickSave
-[Campaign] Campaign
+[AutoSave] Auto Salvataggio
+[PreviousAutoSave] Previsione Auto Salvataggio
+[EndGameSave] Fine salvataggio gioco
+[QuickSave] Salvataggio veloce
+[Campaign] Campagna
 
 [CampaignPrefix] Scenario
 
 [AI] AI
-[MapSize] Map size:
-[LivingPlayers] Living Players:
-[Version] Game version
-[TimeInGame] Time Played:
+[MapSize] Dim. mappa:
+[LivingPlayers] Giocatori Living:
+[Version] Versione Gioco 
+[TimeInGame] Tempo giocato:
 [TimeInGameHours] h
 [TimeInGameMinutes] m 
 [TimeInGameSeconds] s
 
-[DayOfWeek0] Sun
-[DayOfWeek1] Mon
-[DayOfWeek2] Tue
-[DayOfWeek3] Wed
-[DayOfWeek4] Thu
-[DayOfWeek5] Fri
-[DayOfWeek6] Sat
+[DayOfWeek0] Dom
+[DayOfWeek1] Lun
+[DayOfWeek2] Mar
+[DayOfWeek3] Mer
+[DayOfWeek4] Gio
+[DayOfWeek5] Ven
+[DayOfWeek6] Sab
 
 [TimeOfDayAM] am
 [TimeOfDayPM] pm
@@ -33,377 +32,377 @@
 
 [TABLEALIAS ElementalDefs]
 
-[Rarity_Common] Common
-[Rarity_Uncommon] Uncommon
-[Rarity_Rare] Rare
-[Rarity_UltraRare] Ultra Rare
-[Rarity_Unique] Unique
+[Rarity_Common] Comune
+[Rarity_Uncommon] Non comune
+[Rarity_Rare] Raro
+[Rarity_UltraRare] Ultra Raro
+[Rarity_Unique] Unico
 
-[ThreatLevelName] Threat Level
+[ThreatLevelName] Livello di minaccia
 
-[ThreatLevel_Weak] Weak
-[ThreatLevel_Average] Medium
-[ThreatLevel_Strong] Strong
-[ThreatLevel_Deadly] Deadly
-[ThreatLevel_Epic] Epic
+[ThreatLevel_Weak] Debole
+[ThreatLevel_Average] Medio
+[ThreatLevel_Strong] Forte
+[ThreatLevel_Deadly] Mortale
+[ThreatLevel_Epic] Epico
 
 [TABLEEND]
 
 [TABLEALIAS MainMapViewWindow]
 
-[SelectedUnits:] Selected Units:
+[SelectedUnits:] Unità selezionate:
 
 [TABLEEND]
 
 [TABLEALIAS MainGameWnd]
 
-[Unknown] Unknown
-[MovementCostTooltip] Movement Cost
-[MovementNote_Unknown] Blocked
-[MovementNote_All] Ends Movement
-[MovementNote] x Movement
+[Unknown] Sconosciuto
+[MovementCostTooltip] Movimento dei costi
+[MovementNote_Unknown] Bloccato
+[MovementNote_All] Fine Movimento
+[MovementNote] x Movimento
 
-[ResearchTitle] Researching
-[TaxesTitle] Tax Rate
+[ResearchTitle] Ricercando
+[TaxesTitle] Aliquota d'imposta
 
-[ShowHelpBtn_Tooltip] Show %s
+[ShowHelpBtn_Tooltip] Mostra %s
 
-[SpecialistsInUseOverTotalPopulationTooltip] %s In Use / Total %s
+[SpecialistsInUseOverTotalPopulationTooltip] %s In Uso / Totale %s
 
-[CityDetails_Tooltip] Settlement Details
-[UnitDetails_Tooltip] Unit Details
-[OutpostDetails_Tooltip] View Upgrades
-[ResourceDetails_Tooltip] Details
-[ResourceBuild_Tooltip] Build
-[Resource_Raze] Raze
-[DefendedCityBtn_Tooltip] Expand Stationed Units Menu
-[ArmyBtn_Tooltip] Group Combat Rating: %ld
-[StationedBtn_Tooltip] Select Stationed Settlement
-[Equipment_Tooltip] View Equipment
-[CenterItem_Tooltip] Center Camera
+[CityDetails_Tooltip] Dettagli regolamento
+[UnitDetails_Tooltip] Unità Dettagli
+[OutpostDetails_Tooltip] Visualizza aggiornamenti
+[ResourceDetails_Tooltip] Dettagli
+[ResourceBuild_Tooltip] Costruzioni
+[Resource_Raze] Distruggere
+[DefendedCityBtn_Tooltip] Espandi Stazioni Menu Unità
+[ArmyBtn_Tooltip] Valutazione Gruppo di combattimento: %ld
+[StationedBtn_Tooltip] Seleziona regolamento Stazione
+[Equipment_Tooltip] Visualizza Attrezzature
+[CenterItem_Tooltip] Centra Camera
 
-[KingdomButtonText] Govern
-[KingdomBtnTooltip] Show Kingdom Info (K)
-[SpellbookButtonText] Spells
-[SpellbookBtnTooltip] Show Spellbook (M)
+[KingdomButtonText] Governo
+[KingdomBtnTooltip] Visualizza Info Regno (K)
+[SpellbookButtonText] Magie
+[SpellbookBtnTooltip] Visualizza Libro delle Magie (M)
 [Taxes] Taxes:
-[TaxesTooltip] %ld%% Tax Rate, %ld%% City Unrest
+[TaxesTooltip] %ld%% Aliquota d'imposta, %ld%% disordini Città
 
-[TurnButtonText] Turn
-[EndTurnToolTip] End Turn (ENTER)
+[TurnButtonText] Turno
+[EndTurnToolTip] Fine Turno (INVIO)
 
-[NextCity] Find next idle settlement (SHIFT+C)
-[NextUnit] Find next idle unit (TAB)
+[NextCity] Trova insediamento successivo inattivo (SHIFT+C)
+[NextUnit] Trova unità inattiva successivo (TAB)
 
-[Population] National Population
-[Treasury] National Treasury
+[Population] Popolazione Nazionale
+[Treasury] Tesoreria Nazionale
 
 [TechStatusBar] %s in %ld %s
-[TechStatusBarNever] %s: No research points
-[TechPointBarTooltip] Research: %lu of %lu (%s per %s)
-[TechStatusBarNoResearch] No Research
-[TechPointTooltip] %s Research Per %s
+[TechStatusBarNever] %s: Non ci sono punti di ricerca
+[TechPointBarTooltip] Ricerca: %lu in %lu (%s per %s)
+[TechStatusBarNoResearch] Nessuna ricerca
+[TechPointTooltip] %s Ricerca Per %s
 
-[CityContextBuild] Construct Buildings
-[CityContextTraining] Train Unit
-[CityContextDetails] Details
-[CityContextGovern] Govern Settlement
-[CityContextBuildRoad] Build Road
+[CityContextBuild] Costruire edifici
+[CityContextTraining] Train Unità
+[CityContextDetails] Detagli
+[CityContextGovern] Regolamento governo
+[CityContextBuildRoad] Costruire strada
 
-[ResourceHoardBuild] Build
-[ResourceHoardCannotBuild] Can't Build:
-[ResourceHoardNotSupported] Requires the technology "%s"
-[ResourceHoardOutOfTerritory] Resource is Outside our Influence
-[ResourceHoardRequiresResource] Requires:
-[RazeResource] Raze this Resource
-[RazeResource_OutOfTerritory] Cannot Raze: Resource is Outside Your Territory
-[OutpostUpgradeNoCity] No city to perform upgrade labor
+[ResourceHoardBuild] Costruire
+[ResourceHoardCannotBuild] Non è possibile Costruire:
+[ResourceHoardNotSupported] Richiede la tecnologia "%s"
+[ResourceHoardOutOfTerritory] Le Risorse sono fuori della nostra influenza
+[ResourceHoardRequiresResource] Richiede:
+[RazeResource] Distruggere questo Sito
+[RazeResource_OutOfTerritory] Impossibile Distruggere: Risorse sono fuori dal vostro territorio
+[OutpostUpgradeNoCity] Nessuna città a compiere un lavoro di aggiornamento
 
-[UnitContextDetails] Details
-[UnitContextEquip] Equip
+[UnitContextDetails] Detagli
+[UnitContextEquip] Equip.
 
-[Stats] Stats
-[BuildCity] Settle
+[Stats] Stato
+[BuildCity] Risolvere
 
-[UnitTab1] Items
-[UnitTab2] Spells
-[UnitTab3] Actions
-[UnitTab4] Enchants
-[UnitVitalsTab] Vitals
-[UnitStackTab] Stack
-[UnitStatSpinnerValue] Group %ld of %ld
+[UnitTab1] Articoli
+[UnitTab2] Magie
+[UnitTab3] Azioni
+[UnitTab4] Incanta
+[UnitVitalsTab] Organi vitali
+[UnitStackTab] Accatastare
+[UnitStatSpinnerValue] Gruppo %ld di %ld
 
-[CityTab1] Resources
-[CityTab2] Training
-[CityTab3] Building
-[Actions] Actions
+[CityTab1] Risorse
+[CityTab2] Formazione
+[CityTab3] Edificio
+[Actions] Azioni
 
-[DetailsTab] Details
+[DetailsTab] Detagli
 
-[RollupSovereignData] Collapse Sovereign Data
-[RolldownSovereignData] Expand Sovereign Data
-[SovereignLevel] Your Sovereign's Level
-[SovereignHealth] Sovereign's HP: %lu / %lu HP
-[SovereignXP] Sovereign's Experience: %lu XP To the Next Level
+[RollupSovereignData] Comprimi dati sovrani
+[RolldownSovereignData] Espandi dati sovrani
+[SovereignLevel] Livello del tuo Sovrano
+[SovereignHealth] HP Sovrano: %lu / %lu HP
+[SovereignXP] Esperienza Sovrano: %lu XP al livello successivo
 
-[RollupMiniMap] Collapse Mini-Map
-[RolldownMiniMap] Expand Mini-Map
-[ArmyList] Army List
-[CityList] Settlement List
+[RollupMiniMap] Chiudi Mini-Mappa
+[RolldownMiniMap] Espandi Mini-Map
+[ArmyList] Lista Esercito
+[CityList] Lista regolamento
 
-[PieGraph_Tooltip_Experience] Experience to Next Level: %lu EXP
+[PieGraph_Tooltip_Experience] Esperienza al livello successivo: %lu EXP
 [PieGraph_Tooltip_Mana] Mana: %lu / %lu (current / max)
-[PieGraph_Tooltip_CurrentHealth] Hit Points: %lu / %lu HP
-[PieGraph_Tooltip_Population] Population for next level: %lu
-[PieGraph_Tooltip_Population_Level_Up_Next_Turn] Population will level up next %s.
-[PieGraph_Tooltip_Population_Has_Housing] Population to next level: %lu. Has enough housing.
-[PieGraph_Tooltip_Population_Housing_Limited] Population maxed at: %lu. Population for next level: %lu.
-[PieGraph_Tooltip_Population_Housing_Limited_Not_Full] Population at: %lu. Population maxed at: %lu.
-[PieGraph_Tooltip_AvailableTiles] %lu Available Tiles
-[PieGraph_Tooltip_Construction] %s until construction finished: %lu
-[PieGraph_Tooltip_Training] %s until training finished: %lu
-[PieGraph_Tooltip_Construction_None] No current construction
-[PieGraph_Tooltip_Training_None] No current training
+[PieGraph_Tooltip_CurrentHealth] Punti ferita: %lu / %lu HP
+[PieGraph_Tooltip_Population] Popolazione per livello successivo: %lu
+[PieGraph_Tooltip_Population_Level_Up_Next_Turn] Popolazione può salire di livello successivo %s.
+[PieGraph_Tooltip_Population_Has_Housing] Popolazione al livello successivo: %lu. Dispone di sede a sufficienza.
+[PieGraph_Tooltip_Population_Housing_Limited] Popolazione massima a: %lu. Popolazione per livello successivo: %lu.
+[PieGraph_Tooltip_Population_Housing_Limited_Not_Full] Popolazione a: %lu. Popolazione massima a: %lu.
+[PieGraph_Tooltip_AvailableTiles] %lu Campagne disponibili
+[PieGraph_Tooltip_Construction] %s fino a costruzione terminata: %lu
+[PieGraph_Tooltip_Training] %s fino al termine della formazione: %lu
+[PieGraph_Tooltip_Construction_None] Nessuna costruzione corrente
+[PieGraph_Tooltip_Training_None] Nessuna formazione corrente
 
-[Tooltip_UnitsLevel] Level %lu %s
+[Tooltip_UnitsLevel] Livello %lu %s
 
-[Tooltip_PlayerMight] Power Rating for %s: %lu points
+[Tooltip_PlayerMight] Valutazione Potenza per %s: %lu punti
 
-[Tooltip_NumShards] Amount of each Shard you control
-[Tooltip_AirShards] Air
-[Tooltip_EarthShards] Earth
-[Tooltip_FireShards] Fire
-[Tooltip_WaterShards] Water
-[Tooltip_LifeShards] Life
-[Tooltip_DeathShards] Death
+[Tooltip_NumShards] Importo di ogni Shard che controlli
+[Tooltip_AirShards] Aria
+[Tooltip_EarthShards] Terra
+[Tooltip_FireShards] Fuoco
+[Tooltip_WaterShards] Acqua
+[Tooltip_LifeShards] Vita
+[Tooltip_DeathShards] Morte
 
-[GlobalResource_Stored_Tooltip] Storage of %s is %d, with %s being produced per %s
-[GlobalResource_Gold_Tooltip] Treasury of %d, %s %s per %s
-[GlobalResource_Food_Tooltip] Available surplus %s is %s per %s
-[GlobalResource_Mana_Tooltip] %d %s available for magic spells, with %s %s being generated per %s
+[GlobalResource_Stored_Tooltip] Deposito di %s e %d, con %s prodotta per %s
+[GlobalResource_Gold_Tooltip] Tesoro di %d, %s %s per %s
+[GlobalResource_Food_Tooltip] Avanzo disponibile %s is %s per %s
+[GlobalResource_Mana_Tooltip] %d %s disponibile per magie, con %s %s viene generato per %s
 
 [NetTooltip] %s %s Per %s
-[NetTooltipSiege] Under Siege: %s %s Per %s Locally
+[NetTooltipSiege] Sotto Assedio: %s %s Per %s Locally
 
-[BuildRoad_NotEnoughCities] You need at least two settlements in order to build a road between them.
+[BuildRoad_NotEnoughCities] Hai bisogno di almeno due insediamenti, al fine di costruire una strada tra di loro.
 
-[UnitInfoCard_Immobilize] Immobilized
-[UnitInfoCard_ImmobilizeDescription] Units that are Immobilized cannot perform any actions for a set number of seasons.
+[UnitInfoCard_Immobilize] Immobilizzato
+[UnitInfoCard_ImmobilizeDescription] Le unità che sono immobilizzate non possono eseguire alcuna azione per un determinato numero di stagioni.
 
-[TurnsRemaining] %ld Seasons Remaining
-[TurnsRemainingLast] Last Season
+[TurnsRemaining] %ld Stagioni rimanenti
+[TurnsRemainingLast] La scorsa stagione
 
 [TABLEEND]
 
 [TABLEALIAS GlobalResourceStatEntry]
 
-[Gold_Treasury] Treasury
-[Gold_Income] Net Income
-[Gold_CityIncome] City Income
-[Gold_Treaties] Treaties
-[Gold_UnitIncome] Unit Income
-[Gold_UnitWages] Unit Wages
-[Gold_CityMaintenance] City Maintenance
-[Gold_Description] Your total faction income is primarily determined by the wages of your units and the income of your cities. Click to view the economic ledger for a detailed breakdown.
+[Gold_Treasury] Tesoreria
+[Gold_Income] Risultato Netto
+[Gold_CityIncome] Reddito Città
+[Gold_Treaties] Trattati
+[Gold_UnitIncome] Reddito Unità
+[Gold_UnitWages] Retribuzioni Unità
+[Gold_CityMaintenance] Manutenzione Città
+[Gold_Description] Il vostro reddito fazione complessivo è determinato principalmente dai salari delle tue unità e il reddito delle vostre città. Clicca per visualizzare la contabilità economica per una ripartizione dettagliata.
 
-[Mana_PerTurn] Mana per Turn
-[Mana_Cities] Cities
-[Mana_Units] Units
-[Mana_Enchantments] Enchantments
-[Mana_Summons] Summons
-[Mana_Description] Your total faction mana. The amount of mana your faction gets per turn is determined by the mana gained from your cities and reduced by spells with maintenance costs.
+[Mana_PerTurn] Mana per turno
+[Mana_Cities] Città
+[Mana_Units] Unità
+[Mana_Enchantments] Incantesimi
+[Mana_Summons] Evocazioni
+[Mana_Description] Il totale mana fazione. La quantità di mana della tua fazione ottenuta a sua volta, è determinata dalla mana acquisita dalle vostre città e ridotta di magie con i costi di manutenzione.
 
-[Resource_PerTurn] %s per Turn
-[Resource_Improvements] Wild Improvements
-[Resource_Units] Units
-[Resource_Enchantments] Enchantments
+[Resource_PerTurn] %s per Turno
+[Resource_Improvements] Miglioramenti selvatici
+[Resource_Units] Unità
+[Resource_Enchantments] Incantesimi
 
-[Metal_Description] Your total faction metal. Metal can be obtained from cities attached to Iron Mines and is primarily spent on improvements and equipment for your troops.
-[RefinedCrystal_Description] Your total faction crystal. Crystal can be obtained from cities attached to Crystal Mines and is primarily spent on improvements and magical equipment for your troops.
-[DiplomaticCapital_Description] Your total faction influence. Influence can be obtained from cities attached to Prestigious Locations and is primarily spent to construct wild improvements on lairs and camps.
-[Wargs_Description] Your faction's total supply of wargs. Wargs can be obtained from cities attached to Kennels and are required to train units riding wargs.
-[Horses_Description] Your faction's total supply of horses. Horses can be obtained from cities attached to Stables and are required to train units riding horses.
-[Research_Description] Your faction's research per turn. Research is obtained from cities and modified by your unrest level. Increase you research per turn to speed up your advances in technology.
+[Metal_Description] Il totale di metallo fazione. Il Metallo può essere ottenuto dalle città collegate alle miniere di ferro ed è principalmente speso per il miglioramento e le attrezzature per le tue truppe.
+[RefinedCrystal_Description] Il totale di cristallo fazione. Il Cristallo può essere ottenuto dalle città collegate alle miniere di Cristallo ed è principalmente speso per il miglioramento e le attrezzature di magia per le tue truppe.
+[DiplomaticCapital_Description] Totale tua influenza fazione. L'influenza può essere ottenuta dalle città collegate alle locazioni di prestigio ed è principalmente spesa per costruire miglioramenti selvatici sui covi dei campi.
+[Wargs_Description] Offerta complessiva di Warg alla tua fazione. Warg può essere ottenuto dalle città collegate ai Canili e sono necessari per addestrare le unità a cavallo Warg.
+[Horses_Description] Offerta complessiva di cavalli alla tua fazione. I cavalli possono essere ottenuti dalle città allegati alla Scuderia e sono necessari per addestrare le unità a cavallo.
+[Research_Description] Ricerca della vostra fazione per turno. La ricerca si ottiene dalla città e modificato dal vostro livello di disordini. Aumentare la ricerca per turno per velocizzare i vostri progressi nella tecnologia.
 
-[FireMana_Description] Your faction's total number of Fire Shards, which increases the power of your Fire spells.
-[AirMana_Description] Your faction's total number of Air Shards, which increases the power of your Air spells.
-[EarthMana_Description] Your faction's total number of Earth Shards, which increases the power of your Earth spells.
-[WaterMana_Description] Your faction's total number of Water Shards, which increases the power of your Water spells.
-[LifeMana_Description] Your faction's total number of Life Shards, which increases the power of your Life spells.
-[DeathMana_Description] Your faction's total number of Death Shards, which increases the power of your Death spells.
+[FireMana_Description] Il numero totale di Frammenti del fuoco della fazione, che aumenta la potenza delle magie del fuoco.
+[AirMana_Description] Il numero totale di Frammenti Aria della fazione, che aumenta la potenza delle magie d'aria.
+[EarthMana_Description] Il numero totale di Frammenti Terra della fazione, che aumenta la potenza delle magie della Terra.
+[WaterMana_Description] Il numero totale di Frammenti di Acqua della fazione, che aumenta la potenza delle magie d'acqua.
+[LifeMana_Description] Il numero totale di Frammenti di Vita della fazione, che aumenta la potenza delle magie della vita.
+[DeathMana_Description] Il numero totale di Frammenti di Morte della fazione, che aumenta la potenza delle magie di morte.
 
 [TABLEEND]
 
 [TABLEALIAS EmpireTreeCategoryHeaderEntryWnd]
 
-[Category2] Units
-[Category3] Cities
-[Category4] Quests
+[Category2] Unità
+[Category3] Città
+[Category4] Missioni
 [Category5] Log
 
 [TABLEEND]
 
 [TABLEALIAS NameCityMessageBox]
 
-[Title] Build New Settlement
-[Message] Choose a name for the settlement:
+[Title] Crea nuovo insediamento
+[Message] Scegli un nome per l'insediamento:
 
 [TABLEEND]
 
 [TABLEALIAS NameChildMessageBox]
 
-[TitleMale] It's a boy!
-[TitleFemale] It's a girl!
-[MessageMale] A child has been born to %s and %s, inheriting the magical essence of his parents! Choose a name:
-[MessageFemale] A child has been born to %s and %s, inheriting the magical essence of her parents! Choose a name:
+[TitleMale] E' un maschio!
+[TitleFemale] E' una ragazza!
+[MessageMale] Un bambino è nato per %s e %s, ereditando l'essenza magica dei suoi genitori! Scegli un nome:
+[MessageFemale] Un bambino è nato per %s e %s, ereditando l'essenza magica dei suoi genitori! Scegli un nome:
 
-[TitleMarriage] Marriage
-[WifeMessage] Congratulations, you've married %s!
-[HusbandMessage] Congratulations, you've married %s!
+[TitleMarriage] Matrimonio
+[WifeMessage] Congratulazioni, hai sposato %s!
+[HusbandMessage] Congratulazioni, hai sposato %s!
 
-[GrownChildTitle] Coming of Age
-[GrownChildMessage] %s has grown up!
-[GrownChildWonAllegiance] One of your descendants, %s, originally of %s, has grown up and decided to join your faction!
-[GrownChildLostAllegiance] One of your descendants, %s, has grown up and left your faction for %s!
+[GrownChildTitle] L'età
+[GrownChildMessage] %s è cresciuto!
+[GrownChildWonAllegiance] Uno dei suoi discendenti, %s, originariamente di %s, è cresciuto e ha deciso di iscriversi alla tua fazione!
+[GrownChildLostAllegiance] Uno dei suoi discendenti, %s, è cresciuto e ha lasciato la tua fazione per %s!
 
 [TABLEEND]
 
 [TABLEALIAS RenameCityMessageBox]
 
-[Title] Rename %s
-[Message] Choose a new name for the settlement:
+[Title] Rinomina %s
+[Message] Scegli un nuovo nome per l'insediamento:
 
 [TABLEEND]
 
 [TABLEALIAS RenameUnitMessageBox]
 
-[Title] Rename %s
-[Message] Choose a new name for this unit:
+[Title] Rinomina %s
+[Message] Scegli un nuovo nome per questa unità:
 
 [TABLEEND]
 
 [TABLEALIAS RenameImprovementMessageBox]
 
-[Title] Rename %s
-[Message_Outpost] Choose a new name for this outpost:
-[Message_Improvement] Choose a new name for this improvement:
+[Title] Rinomina %s
+[Message_Outpost] Scegli un nuovo nome per questo avamposto:
+[Message_Improvement] Scegli un nuovo nome per questo miglioramento:
 
 [TABLEEND]
 
 [TABLEALIAS CaravanIsAtHomeMessageBox]
 
-[Title] Caravan Home
-[Message] Can't set up a trade route with the caravan's home city!
+[Title] Inizio Caravan
+[Message] Non si può impostare una rotta commerciale con la città di origine della Carovana!
 
 [TABLEEND]
 
 [TABLEALIAS CaravanNoPathFoundMessageBox]
 
-[Title] No Path Home
-[Message] The caravan cannot find a path home, and therefore cannot create a trade route.
+[Title] Nessun percorso di Inizio
+[Message] La carovana non riesce a trovare una via di casa, e quindi non è possibile creare una via commerciale.
 
 [TABLEEND]
 
 [TABLEALIAS LevelUpWndRemainingBonusPointsMessageBox]
 
-[Title] Warning
-[MessagePlural] You have %lu points remaining to distribute.  If you continue, they will be forever lost.  Continue anyway?
-[MessageSingular] You have %lu point remaining to distribute.  If you continue, it will be forever lost.  Continue anyway?
+[Title] Attenzione
+[MessagePlural] Hai %lu altri punti da distribuire. Se si continua, saranno persi per sempre. Continuare comunque?
+[MessageSingular] Hai %lu punti rimanenti da distribuire.  Se si continua, saranno persi per sempre. Continuare comunque?
 
 [TABLEEND]
 
 [TABLEALIAS CannotDestroyBuildingMessageBox]
 
-[Title] Cannot Destroy!
-[Message] Destroying this improvement would make your settlement non-contiguous.
+[Title] Non può distruggere!
+[Message] Distruggere questo miglioramento potrebbe rendere il vostro insediamento non contiguo.
 
 [TABLEEND]
 
 [TABLEALIAS RejectCaravanWarMessageBox]
 
-[Title] Caravan Rejected
-[Message] As your caravan approached the gates of %s, it was regarded with suspicion and outright hostility.  Fearing the angry shouts of the people outside of the gate, the caravan was forced to turn back.  There will be no trade between your factions while you are at war.
+[Title] Caravan Rifiutato
+[Message] Come il vostro caravan si avvicinava alle porte di %s, è stato considerato con sospetto e ostilità.  Temendo le grida rabbiose delle persone al di fuori del cancello, la carovana è stata costretta a tornare indietro.  Non ci saranno scambi commerciali tra le fazioni mentre si è in guerra.
 
 [TABLEEND]
 
 [TABLEALIAS CaravanExistingRouteMessageBox]
 
-[Title] Existing Trade Route
-[Message] There is already a caravan traveling between %s and %s.  Send this caravan to another city to establish a trade route.
-[MessageRespawn] There is already a caravan traveling between %s and %s, which will respawn in %ld seasons.  Send this caravan to another city to establish a trade route.
+[Title] Percorso Commercio esistente
+[Message] Esiste già una carovana in viaggio tra %s e %s.  Invia questa carovana in un'altra città per stabilire una rotta commerciale.
+[MessageRespawn] Esiste già una carovana in viaggio tra %s e %s, che si rigenererà in %ld stagioni.  Invia questa carovana in un'altra città per stabilire una rotta commerciale.
 
 [TABLEEND]
 
 [TABLEALIAS FoundKingdomMessageBox]
 
-[Title] Founding %s
-[Message] Your sovereign is about to found the capital city for their %s. This can only be done once.\n\nAdditional settlements can be constructed by training Pioneer units.\n\nBuild the capital of your new %s here?
-[CheckboxMsg] Station sovereign in the new city
+[Title] Fondazione %s
+[Message] Il tuo sovrano è in procinto di fondare la città capitale per la loro %s. Questo può essere fatto solo una volta. Insediamenti aggiuntivi possono essere costruiti da formazioni unità di Pionieri. Costruire il capitale del nuovo %s qui?
+[CheckboxMsg] Stazione sovrano nella nuova città
 
 [TABLEEND]
 
 [TABLEALIAS BuildPioneerCityMessageBox]
 
-[Title] Build Settlement
-[Message] The creation of a settlement should not be taken lightly. In order for your Pioneer to build a settlement here, he will need to settle down and will no longer be available for use.\n\nAre you sure this is where you want the settlement to be?
+[Title] Costruzione insediamento
+[Message] La creazione di un insediamento non dovrebbe essere presa alla leggera. Per consentire ai Pionieri di costruire un insediamento qui, avrà il bisogno di fermarsi o non sarà più disponibile per l'uso. Sei sicuro che si desidera che la insediamento sia sia?
 
 [TABLEEND]
 
 
 [TABLEALIAS WantToUseItemMessageBox]
 
-[Title] Are you sure?
-[Message] Are you sure you want to use %s?
+[Title] Sei sicuro?
+[Message] Sei sicuro che lo vuoi utilizzare %s?
 
 [TABLEEND]
 
 [TABLEALIAS CancelEnchantmentMessageBox]
 
-[Title] Dispel Enchantment?
-[Message] Would you like to dispel %s cast on %s?
+[Title] Dissolvi Incantesimo?
+[Message] Ti piacerebbe disperdere %s lanciato su %s?
 
 [TABLEEND]
 
 [TABLEALIAS CastOneTimeSpellMessageBox]
 
-[Title] One Time Spell
-[Message] This spell can only be cast once by this magician.  Continue casting?
+[Title] Magia una sola volta
+[Message] Questo incantesimo può essere lanciato solo una volta da questo mago. Continua la fusione?
 
 [TABLEEND]
 
 [TABLEALIAS RazeCityMessageBox]
 
-[Title] Destroy Settlement?
-[Message] Are you sure you want to destroy %s?
+[Title] Distruggi insediamento ?
+[Message] Sei sicuro di volerlo distruggere %s?
 
 [TABLEEND]
 
 [TABLEALIAS AIChampNPCText]
 
-[UndefendedCity] Ah, %s. The city of %s looks ripe for the taking.
+[UndefendedCity] Ah, %s. La città di %s al punto per distribuire.
 
 [TABLEEND]
 
 [TABLEALIAS ProposeToNPCMessageBox]
 
-[Title] Propose?
-[Message] Would you like to ask %s to marry you?
+[Title] Proporre?
+[Message] Vorrei chiedere %s di sposarti?
 
 [TABLEEND]
 
 [TABLEALIAS RecruitNPCMessageBox]
 
-[Title] Recruit Hero
-[CostMessage] %s has agreed to join you for %ldg.  Do you want to pay?
-[NoCostMessage] %s has agreed to join you.
+[Title] Recluta Eroe
+[CostMessage] %s ha accettato di unirsi a voi per %ldg.  Vuoi pagare?
+[NoCostMessage] %s ha accettato di unirsi a voi.
 
 [TABLEEND]
 
 [TABLEALIAS ConfirmExitGameMessageBox]
 
-[Title] Exit Game
-[Message] Are you sure you'd like to exit? A few more turns couldn't hurt...
-[MessageAlternate] Are you sure you'd like to exit?
+[Title] Uscita Gioco
+[Message] Sei sicuro di voler uscire? Un paio di turni di più non farebbero male...
+[MessageAlternate] Sei sicuro di voler uscire?
 
 [TABLEEND]
 
@@ -454,7 +453,7 @@
 [Title] Turn Limit Reached
 [Message] Though a channeler is long lived, you are not immortal.  Age will claim what war and a world of enemies could not.  You may either end the game now and see your score, or continue playing without any victory conditions or score.
 [NoButton] Keep Playing
-[YesButton] End Game
+[YesButton] Fine Gioco
 
 [TABLEEND]
 
@@ -1016,11 +1015,11 @@
 
 [MultipleTroopName] %s %s
 
-[Individual] Individual
+[Individual] Individuale
 
-[Normal] Normal
-[Veteran] Veteran
-[Expert] Expert
+[Normal] Normale
+[Veteran] Veterano
+[Expert] Esperto
 [Elite] Elite
 
 [Experienced] Experienced
@@ -1110,21 +1109,21 @@
 
 [TABLEALIAS TitleWnd]
 
-[ElementalVersion] Version 
+[ElementalVersion] Versione 
 
-[Skirmish] New Game
-[Campaign] Scenarios
-[ContinueGame] Continue
+[Skirmish] Nuovo Gioco
+[Campaign] Scenari
+[ContinueGame] Continua
 [Multiplayer] Tutorial
-[Library] Library
-[Workshop] Workshop
-[Achievements] Achievements
+[Library] Libreria
+[Workshop] Laboratorio
+[Achievements] Risultati
 
 [PleaseUpdate] Update Required
 [PleaseUpdateTextWorkshop] You must have the latest version of Elemental to use the Workshop.
 [PleaseUpdateTextMultiplayer] You must update to the latest version before you can play multiplayer
 
-[PleaseWait] Please wait
+[PleaseWait] Attendere
 [CheckingForUpdates] Elemental is checking for updates. Please try again in a minute or so as you may be experiencing a slow internet connection.
 [DownloadingMPData] Downloading MP data.  Please try again.
 
@@ -1135,291 +1134,291 @@
 [Error] Error
 
 [WorkshopMsgTitle] Note
-[WorkshopMsg] The workshop tools can be used to create new maps, improvements and spell effects.  These are the internal tools used by Stardock to create many of the games features and are provided "as is" for players and modders that want to try them.
+[WorkshopMsg] Gli strumenti del laboratorio possono essere utilizzati per creare nuove mappe, miglioramenti e effetti degli incantesimi.  Questi sono gli strumenti interni utilizzati da Stardock per creare molte delle caratteristiche dei giochi e vengono forniti "così come sono" per i giocatori e modders che vogliono provarli.
 
 [TABLEEND]
 
 [TABLEALIAS CreditsWnd]
-[BuyBook] Continue the adventure!
-[Done] DONE
+[BuyBook] Continua l'avventura!
+[Done] FATTO
 [TABLEEND]
 
 [TABLEALIAS WorkshopWnd]
 
-[TileEditor] Builder's\nForge
-[MapEditor] Cartographer's\nTable
-[ItemEditor] Item Editor
-[ParticleEditor] Particle\nCauldron
-[FlavorTextEditor] Text Editor
+[TileEditor] Creazione\nElementi
+[MapEditor] Tavolo\nCartografico
+[ItemEditor] Editor Elementi
+[ParticleEditor] Editor\nParticelle
+[FlavorTextEditor] Editor Text 
 
-[FactionEditor] Faction Creator
+[FactionEditor] Crea Fazione
 
-[SecretEditor1] Secret Editor 1
-[SecretEditor2] Secret Editor 2
+[SecretEditor1] Editor Segreto 1
+[SecretEditor2] Editor Segreto 2
 
-[TileEditorDescription] The 'Builders Forge' allows you to design tiles using an assortment of pieces. Your creations can then be hooked to Goodie Huts, Improvements, and Resources to fill the game world.
-[MapEditorDescription] World maps of all sizes can be molded to your will at the Cartographer's Table. 
-[ParticleEditorDescription] Spells and tile designs can all make use of the creations brewed from the Particle Cauldron. This is a difficult tool to master, however...you've been warned.
-[FactionEditorDescription] Gather the wandering people under your banner using the 'Faction Creator'. Establish a name, back story, crest, and divvy out strengths and weaknesses to craft a nation worthy of your rule.
-[ModLibraryDescription] Visit the royal library to browse the available mods, as created by your peers in the Elemental community, or share your own creations for others to behold.
+[TileEditorDescription] La 'Creazione elementi' permette di progettare parti con un assortimento di pezzi. Le vostre creazioni possono poi essere agganciate ai Rifugi Goodie, per miglioramenti, e risorse da aggiungere al gioco.
+[MapEditorDescription] Le Mappe del mondo di tutte le dimensioni possono essere modellate come preferisci sulla tavola del cartografo. 
+[ParticleEditorDescription] Magie e disegni possono essere creati attraverso l'editor di particelle. Questo è uno strumento difficile da padroneggiare, ma ... siete stati avvertiti.
+[FactionEditorDescription] Raggruppare le persone che vagano sotto il tuo stema con il 'Crea fazione'. Stabilire un nome nuovo per la storia, dividendo i punti di forza e di debolezza per realizzare una nazione degna della vostra regola.
+[ModLibraryDescription] Visita la Biblioteca Reale per esplorare le mods disponibili, create da vostri coetanei nel Elemental community, o condividere le vostre creazioni per farle vedere a tutti.
 
-[WorkshopDescription] Welcome to the workshop, where you get to tinker with creations of your own making. Shape a world to your vision...then conquer it yourself, or share it with the Elemental community using the Impulse overlay.
+[WorkshopDescription] Benvenuti nel laboratorio, dove si arriva a sperimentare creazioni di vostra creazione. Forma un mondo per la vostra visione ... poi conquistare se stessi, o condividere con la comunità Elemental usando l'overlay Impulse.
 
 [TABLEEND]
 
 
 [TABLEALIAS ChooseFactionWnd]
 
-[WindowTitle] Choose your Faction
+[WindowTitle] Scegli la tua fazione
 
-[GoodTitle] Kingdom of
-[EvilTitle] Empire of
+[GoodTitle] Regno di
+[EvilTitle] Impero di
 
-[KingdomsOfEle] Kingdoms of Elemental
-[EmpiresOfEle] Empires of Elemental
+[KingdomsOfEle] Regno di Elemental
+[EmpiresOfEle] Impero di Elemental
 
-[None] None
-[Race] Race:
-[Strengths] Strengths
-[Weaknesses] Weaknesses
-[History] History
+[None] Nessuno
+[Race] Gara:
+[Strengths] Punti di forza
+[Weaknesses] Punti di debolezza
+[History] Storia
 
 [TABLEEND]
 
 [TABLEALIAS AdvChooseFactionWnd]
 
-[NewFactionButton] New Faction
-[Kingdoms] Kingdoms
-[Empires] Empires
+[NewFactionButton] Nuova Fazione
+[Kingdoms] Regni
+[Empires] Imperi
 
 [TABLEEND]
 
 [TABLEALIAS ChooseFactionEntryWnd]
 
-[CreateFaction] New Faction
+[CreateFaction] Nuova Fazione
 
 [TABLEEND]
 
 [TABLEALIAS CreateSovereignWnd]
 
-[Title] Create Sovereign
-[GenderLabel] Gender
-[MaleCheckbox] Male
-[FemaleCheckbox] Female
-[NameTitle] Name
-[RaceTitle] Faction
-[PointsTitle] Points
-[FactionInfoCardTitle] Faction Traits
+[Title] Crea Sovrano
+[GenderLabel] Sesso
+[MaleCheckbox] Maschio
+[FemaleCheckbox] Femmina
+[NameTitle] Nome
+[RaceTitle] Fazione
+[PointsTitle] Punti
+[FactionInfoCardTitle] Tratti Fazione
 
-[Attributes] Attributes
-[Talents] Talents
-[Appearance] Appearance
-[Backstory] Backstory
+[Attributes] Attributi
+[Talents] Talento
+[Appearance] Aspetto
+[Backstory] Torna al racconto
 
-[Stats] Stats
+[Stats] Stato
 
 [TABLEEND]
 
 
 [TABLEALIAS ChooseSovereignWnd]
 
-[Title] Who are you?
-[Available] Sovereigns
-[NewSovereign] Create Character
-[Backstory] Backstory
+[Title] Chi vuoi essere ?
+[Available] Sovrani
+[NewSovereign] Crea Personag.
+[Backstory] Retroscena
 
-[AbilitiesHeader] Abilities
+[AbilitiesHeader] Abilità
 
-[FactionRaceHeader] Race
-[FactionStrengthHeader] Strengths
-[FactionWeaknessHeader] Weaknesses
-[UniqueEquipment] Unique Equipment
-[UniqueImprovements] Unique Improvements
+[FactionRaceHeader] Gara
+[FactionStrengthHeader] Punti di forza
+[FactionWeaknessHeader] Punti di debolezza
+[UniqueEquipment] Attrezzature uniche
+[UniqueImprovements] Miglioramenti unici
 
-[UnitStatHeader] Stats
+[UnitStatHeader] Stato
 
 [TABLEEND]
 
 
 [TABLEALIAS CreateSovereignAttributesSubWnd]
 
-[StatsTitle] What are your strengths?
-[SpellbookTitle] What are your Magical Proficiencies?
-[HistoryTitle] What was your profession?
+[StatsTitle] Quali sono i tuoi punti di forza?
+[SpellbookTitle] Quali sono le tue Competenze magiche?
+[HistoryTitle] Qual è la tua professione?
 
 [TABLEEND]
 
 [TABLEALIAS CreateSovereignTalentsSubWnd]
 
-[TalentsTitle] Talents
-[WeaknessesTitle] Weaknesses
+[TalentsTitle] Talento
+[WeaknessesTitle] Punti deboli
 
 [TABLEEND]
 
 [TABLEALIAS CreateSovereignAppearanceSubWnd]
 
-[BodyFilter] Body
-[HeadFilter] Head
-[ClothesFilter] Clothes
-[EquipFilter] Equipment
+[BodyFilter] Corporatura
+[HeadFilter] Testa
+[ClothesFilter] Vestiti
+[EquipFilter] Equipaggiamento
 
-[SkinDefaultTooltip] Skin Color
-[HairDefaultTooltip] Skin and Hair Color
-[ClothesDefaultTooltip] Clothes Color
-[EquipmentDefaultTooltip] Equipment Color
+[SkinDefaultTooltip] Colore della pelle
+[HairDefaultTooltip] Colore dei capelli
+[ClothesDefaultTooltip] Colore Vestiti
+[EquipmentDefaultTooltip] Colore Equipaggiamento
 
-[EquipmentType0] Hair
-[EquipmentType1] Head Accessories
-[EquipmentType2] Face
-[EquipmentType3] Shirts
-[EquipmentType4] Surcoats
-[EquipmentType5] Cloaks
-[EquipmentType6] Wrist Gear
-[EquipmentType7] Weapons
-[EquipmentType8] Hand Items
-[EquipmentType9] Pants
-[EquipmentType10] Boots
-[EquipmentType11] Mount
+[EquipmentType0] Capelli
+[EquipmentType1] Accessori Capo
+[EquipmentType2] Faccia
+[EquipmentType3] Camicie
+[EquipmentType4] Sopravvesti
+[EquipmentType5] Mantelli
+[EquipmentType6] Copri polsi
+[EquipmentType7] Armi
+[EquipmentType8] Articoli d'occasione
+[EquipmentType9] Pantaloni
+[EquipmentType10] Scarpe
+[EquipmentType11] Montate
 
-[AccessoryHeader] Accessories
+[AccessoryHeader] Accessori
 
-[SkinTextureHeader] Skins
-[EyeTextureHeader] Eyes
-[AnimationPackHeader] Animations
+[SkinTextureHeader] Pelli
+[EyeTextureHeader] Occhi
+[AnimationPackHeader] Animazione
 
-[Color1SkinLabel] Skin
-[Color1HairLabel] Hair
-[Color1ClothingLabel] Main
-[Color2ClothingLabel] Trim
-[Color1MetalLabel] Metal
+[Color1SkinLabel] Pelle
+[Color1HairLabel] Capelli
+[Color1ClothingLabel] Principale
+[Color2ClothingLabel] Rifilare
+[Color1MetalLabel] Metallo
 
-[CustomizationCost] Cost: %ld
+[CustomizationCost] Costo: %ld
 
 [TABLEEND]
 
 [TABLEALIAS CreateSovereignParticleEditorSubWnd]
 
-[EffectListTitle] Effects:
-[AttachmentListTitle] Attachment Pts on Object:
-[ObjectListTitle] Objects:
+[EffectListTitle] Effetto:
+[AttachmentListTitle] P.ti su un oggetto Allegato:
+[ObjectListTitle] Oggetti:
 
-[OffsetTitle] Offset:
-[RotationTitle] Rotation (in Degrees):
+[OffsetTitle] Compensato:
+[RotationTitle] Rotazione (in gradi):
 
 [XAxis] X
 [YAxis] Y
 [ZAxis] Z
 
-[Scale] Scale
+[Scale] Scala
 
-[ApplyBtn] Apply
-[ExportBtn] Export
+[ApplyBtn] Applica
+[ExportBtn] Esporta
 
-[DefaultObject] (Root Character Mesh)
-[RootAttach] (Origin)
+[DefaultObject] (Carattere Principale maglia)
+[RootAttach] (Origine)
 
-[MessageTitle] Create Sovereign Particle Editor
-[NoSequencer] You have not selected an effect from the effects list
-[NoAttachmentPoint] You have not selected an attachment point from the attachment points list
+[MessageTitle] Crea Sovrano dall'Editor particelle
+[NoSequencer] Non è stato selezionato un effetto dall'elenco degli effetti
+[NoAttachmentPoint] Non è stato selezionato un punto di collegamento dall'elenco allegati punti
 
 [TABLEEND]
 
 [TABLEALIAS ChooseOpponentWnd]
 
-[WindowTitle] Choose Opponents
+[WindowTitle] Scegli avversari
 
-[SelectedOpponentTitle] Selected Opponents
-[DifficultyTitle] Difficulty
-[TeamTitle] Team
+[SelectedOpponentTitle] Avversari selezionati
+[DifficultyTitle] Difficoltà
+[TeamTitle] Squadra
 
-[TraitListTitle] Traits
+[TraitListTitle] Tratti
 
-[OpponentSpacerTitle] Selected Opponents
-[AvailableSpacerTitle] Available Opponents
+[OpponentSpacerTitle] Avversari selezionati
+[AvailableSpacerTitle] Avversari disponibili
 
 [TABLEEND]
 
 [TABLEALIAS CreateSovereignBackstorySubWnd]
 
-[DefaultBackstoryText] Write the legend of your travels here!
+[DefaultBackstoryText] Scrivi qui la leggenda dei tuoi viaggi!
 
 [TABLEEND]
 
 [TABLEALIAS CustomizeFactionWnd]
 
-[WindowTitle] Customize Your Faction
-[FactionName] Faction Name:
-[ShortName] Short Name:
-[RaceType] Race:
-[Backstory] Backstory:
+[WindowTitle] Personalizza la tua Fazione
+[FactionName] Nome Fazione:
+[ShortName] Nome breve:
+[RaceType] Gara:
+[Backstory] Retroscena:
 
-[RandomNameTip] Randomize your Faction's Name
+[RandomNameTip] Nome della tua fazione Casuale
 
-[Crest] Crest:
+[Crest] Stemma:
 
-[Points] Points:
+[Points] Punti:
 [pts] pts
 
-[Allegiance] Ideology:
+[Allegiance] Ideologia:
 
-[Strengths] Strengths
-[Weaknesses] Weaknesses
-[Colors] Appearance
-[Summary] Summary
+[Strengths] Punti di forza
+[Weaknesses] Punti deboli
+[Colors] Aspetto
+[Summary] Sommario
 
-[FactionAddOnKingdom] Kingdom of
-[FactionAddOnEmpire] Empire of
-[Default_Description] Faction backstory goes here. Make it good!
+[FactionAddOnKingdom] Regno di
+[FactionAddOnEmpire] Impero di
+[Default_Description] Va qui per Retroscena fazione. Fai bene!
 
-[NewRace] New Race
-[NameRaceMessage] Name your new race:
+[NewRace] Nuova Gara
+[NameRaceMessage] Assegna un nome alla nuova gara:
 
-[FactionColor] Faction color
-[FactionColor_Tooltip] Faction color
-[Color0] Skin color
-[Color0_Tooltip] Skin color
-[Color1] Hair color
-[Color1_Tooltip] Hair color
-[Color2] Clothing 1 color
-[Color2_Tooltip] Clothing 1 color
-[Color3] Clothing 2 color
-[Color3_Tooltip] Clothing 2 color
-[Color4] Metal color
-[Color4_Tooltip] Metal color
-[Color5] Primary color
-[Color5_Tooltip] Primary color
-[Color6] Secondary color
-[Color6_Tooltip] Secondary color
-[Color7] Roof color
-[Color7_Tooltip] Roof color
+[FactionColor] Colore Fazione
+[FactionColor_Tooltip] Colore Fazione
+[Color0] Colore pelle
+[Color0_Tooltip] Colore pelle
+[Color1] Colore capelli
+[Color1_Tooltip] Colore capelli
+[Color2] Colore Abbigliamento 1
+[Color2_Tooltip] Colore Abbigliamento 1
+[Color3] Colore Abbigliamento 2
+[Color3_Tooltip] Colore Abbigliamento 2
+[Color4] Colore Metallo
+[Color4_Tooltip] Colore Metallo
+[Color5] Colore Primario
+[Color5_Tooltip] Colore Primario
+[Color6] Colore Secondario
+[Color6_Tooltip] Colore Secondario
+[Color7] Colore tetti
+[Color7_Tooltip] Colore tetti
 
-[ColorUI0] Map color
-[ColorUI0_Tooltip] Map color
-[ColorUI1] Cloth map color
-[ColorUI1_Tooltip] Cloth map color
+[ColorUI0] Colore Mappa
+[ColorUI0_Tooltip] Colore Mappa
+[ColorUI1] Colore stoffa mappa
+[ColorUI1_Tooltip] Colore stoffa mappa
 
-[FactionSaved] Faction Saved
-[SavedFactionMsg] The '%s' is ready to be led into the world.
+[FactionSaved] Fazione Salvata
+[SavedFactionMsg] La '%s' è pronta per essere portata nel mondo.
 
 [TABLEEND]
 
 
 [TABLEALIAS CustomizeCrestWnd]
 
-[WindowTitle] Customize Your Faction Crest
-[Done] Done
-[Load] Load
-[Cancel] Cancel
+[WindowTitle] Personalizza il tuo Stemma fazione
+[Done] Fatto
+[Load] Carica
+[Cancel] Cancella
 
-[LogoTypeTip_0] Single Image, Four Colors 
-[LogoTypeTip_1] Four Images, Four Colors
-[LogoTypeTip_2] Two Images, Two Colors, Vertical
-[LogoTypeTip_3] Two Images, Two Colors, Horizontal
+[LogoTypeTip_0] Immagine singola, quattro colori 
+[LogoTypeTip_1] Quattro immagini, quattro colori
+[LogoTypeTip_2] Due immagini, due colori, verticali
+[LogoTypeTip_3] Due immagini, due colori, orizzontali
 
-[Color] Color:
-[Image] Image:
+[Color] Colore:
+[Image] Immagine:
 
-[LoadCustomFaction] Load Custom Faction
+[LoadCustomFaction] Carica Fazione casuale
 
 [TABLEEND]
 
@@ -1428,63 +1427,63 @@
 
 [WorldName] Elemental
 
-[CreateYourWorld] Where Are You?
+[CreateYourWorld] Dove ti trovi?
 
-[MapSettings] Map Settings
-[MapTitle] Map
-[WorldSize] World Size
-[MapType] Map Type
-[WildlandFreq] Wildland Frequency
-[ChampionFreq] Champion Frequency
-[QuestFreq] Quest Frequency
+[MapSettings] Impostazioni mappa
+[MapTitle] Mappa
+[WorldSize] Dimensione mondo
+[MapType] Tipo di mappa
+[WildlandFreq] Frequenza zone boschive
+[ChampionFreq] Campione di frequenza
+[QuestFreq] Frequenza ricerca
 
-[GameOptions] World Options
-[Difficulty] Difficulty
-[MonsterFreq] Monster Frequency
-[Pacing] Pacing
-[MagicStrength] Magic Strength
-[ResourceFreq] Resource Frequency
-[RandomEventFreq] Random Event Frequency
+[GameOptions] Opzioni mondo
+[Difficulty] Difficoltà
+[MonsterFreq] Frequenza mostri
+[Pacing] Stimolazione
+[MagicStrength] Forza magica
+[ResourceFreq] Frequenza delle risorse
+[RandomEventFreq] Frequenza Evento casuale
 
-[Quantity] Quantity:
-[Density] Density:
+[Quantity] Quantità:
+[Density] Densità:
 
-[Seed] Seed (Debug Only):
+[Seed] Semi (solo debug):
 
-[CustomMapStyle] Custom
+[CustomMapStyle] Uso
 
-[LoadMapTooltip] Choose custom map
-[RandomizeTooltip] Generate a random map
-[RandomMap] Random
+[LoadMapTooltip] Scegli mappa personalizzata
+[RandomizeTooltip] Generare una mappa casuale
+[RandomMap] Casuale
 
-[WorldSize0] Tiny
-[WorldSize1] Small
-[WorldSize2] Medium
-[WorldSize3] Large
-[WorldSize4] Huge
+[WorldSize0] Molto Piccola
+[WorldSize1] Piccola
+[WorldSize2] Media
+[WorldSize3] Grande
+[WorldSize4] Enorme
 
-[WorldSize0Tooltip] A very small map, suitable for 2 players.
-[WorldSize1Tooltip] A small map, recommended for 2-4 players.
-[WorldSize2Tooltip] A medium map, recommended for 4-6 players.
-[WorldSize3Tooltip] A large map, recommended for 6-9 players.
+[WorldSize0Tooltip] Una mappa molto piccola, adatta per 2 giocatori.
+[WorldSize1Tooltip] Una mappa piccola, consigliata per 2-4 giocatori.
+[WorldSize2Tooltip] Una mappa media, consigliata per 4-6 giocatori.
+[WorldSize3Tooltip] Una mappa di grandi dimensioni, consigliata per 6-9 giocatori.
 
-[MapType0Tooltip] A balanced world composed of a fairly even mix of different terrains.
-[MapType1Tooltip] A ravaged world filled with chasms and other rugged terrain.
-[MapType2Tooltip] A random style world.
-[MapType3Tooltip] A temperate world filled with lush forests and fertile land.
-[MapType4Tooltip] A harsh world with a high concentration of swamps and other rugged terrain.
-[MapType5Tooltip] A world of deserts, chasms and other rugged terrain where fertile land will be highly sought after.
-[MapType6Tooltip] A lush world of fertile forests broken apart by mountainous terrain.
-[MapType7Tooltip] A manually tailored world.
+[MapType0Tooltip] Un mondo equilibrato composto da un mix omogeneo di diversi terreni.
+[MapType1Tooltip] Un mondo devastato pieno di voragini e altri terreni accidentati.
+[MapType2Tooltip] Un mondo di stile casuale.
+[MapType3Tooltip] Un mondo temperato, ricco di boschi rigogliosi e terreni fertili.
+[MapType4Tooltip] Un mondo duro con un'alta concentrazione di paludi e di altri terreni accidentati.
+[MapType5Tooltip] Un mondo di deserti, voragini e altri terreni accidentati dove la terra fertile sarà molto ricercata.
+[MapType6Tooltip] Un mondo rigoglioso di foreste fertili spezzate da terreno montagnoso.
+[MapType7Tooltip] Un mondo manualmente su misura.
 
-[WildlandFreq0] None
-[WildlandFreq1] Below Average
-[WildlandFreq2] Balanced
-[WildlandFreq3] Above Average
-[WildlandFreq4] Many
+[WildlandFreq0] Nessuno
+[WildlandFreq1] Sotto la media
+[WildlandFreq2] Bilanciato
+[WildlandFreq3] Sopra la media
+[WildlandFreq4] Molti
 
-[WildlandFreq0Tooltip] No wildlands will appear in the world.
-[WildlandFreq1Tooltip] Fewer wildlands than normal for the map size will be placed in the world.
+[WildlandFreq0Tooltip] Non ci sono terre incolte visualizzate in tutto il mondo.
+[WildlandFreq1Tooltip] Meno terre selvagge del normale per la dimensione della mappa saranno poste nel mondo.
 [WildlandFreq2Tooltip] A balanced number of wildlands will be placed, based on the size of the world.
 [WildlandFreq3Tooltip] More wildlands than normal for the map size will be placed in the world.
 [WildlandFreq4Tooltip] Many wildlands will take up space on the map.
@@ -1828,84 +1827,84 @@
 [OptionalObjectives] Optional Objectives
 
 [Hiergamenon] Hiergamenon
-[Infinite] Infinite
-[Dead] Dead
-[RelationsText0] Unknown
-[RelationsText1] Perm. War
-[RelationsText2] War
-[RelationsText3] Hostile
-[RelationsText4] Unfriendly
-[RelationsText5] Cool
-[RelationsText6] Neutral
-[RelationsText7] Warm
-[RelationsText8] Friendly
-[RelationsText9] Close
-[RelationsText10] Ally
+[Infinite] Infinito
+[Dead] Morto
+[RelationsText0] Sconosciuto
+[RelationsText1] Perm. guerra
+[RelationsText2] Guerra
+[RelationsText3] Ostile
+[RelationsText4] Scortese
+[RelationsText5] Fantastico
+[RelationsText6] Neutrale
+[RelationsText7] Caldo
+[RelationsText8] Amichevole
+[RelationsText9] Chiudi
+[RelationsText10] Alleato
 [RelationsText11] Team
 
-[Season0] Spring
-[Season1] Summer
-[Season2] Fall
-[Season3] Winter
+[Season0] Primavera
+[Season1] Estate
+[Season2] Autunno
+[Season3] Inverno
 
-[WeDeclareWar] We have declared war on the %s
-[WarDeclaredOnUs] The %s have declared war on us
-[OtherDeclaredWar] The %s have declared war on the %s
-[ConqueredCity] %s has conquered the %s city of %s
+[WeDeclareWar] Abbiamo dichiarato guerra alla %s
+[WarDeclaredOnUs] I %s hanno dichiarato guerra a noi
+[OtherDeclaredWar] I %s hanno dichiarato guerra al %s
+[ConqueredCity] %s ha conquistato la %s città di %s
 
-[Done] Done
-[Next] Next
-[Back] Back
-[Continue] Continue
-[Exit] Exit
+[Done] Fatto
+[Next] Avanti
+[Back] Indietro
+[Continue] Continua
+[Exit] Esci
 [Play] Play
-[Design] Design
-[Build] Build
+[Design] Progetto
+[Build] Costruire
 [Train] Train
-[Queue] Queue
-[StartNew] New Scenario
-[Trade] Trade
-[Resign] Resign
-[Quit] Quit
-[Forfeit] Forfeit
-[Leave] Leave
-[Watch] Watch
-[WatchVideo] Watch Video
-[SkipVideo] Skip Video
+[Queue] Coda
+[StartNew] Nuovo Scenario
+[Trade] Commercio
+[Resign] Rassegnati
+[Quit] Uscita
+[Forfeit] Abbandonare
+[Leave] Uscire
+[Watch] Guarda
+[WatchVideo] Guarda Video
+[SkipVideo] Salta Video
 
-[New] New
-[Edit] Edit
-[Remove] Remove
-[Create] Create
+[New] Nuovo
+[Edit] Modifica
+[Remove] Rimuovi
+[Create] Crea
 
-[Yes] Yes
+[Yes] Si
 [No] No
 
-[History] History:
+[History] Storia:
 
 [Ok] Ok
-[Cancel] Cancel
+[Cancel] Cancella
 
-[Save] Save
-[Load] Load
+[Save] Salva
+[Load] Carica
 
-[SaveGame] Save Game
-[LoadGame] Load Game
-[Retire] Retire
+[SaveGame] Salva Gioco
+[LoadGame] Carica Gioco
+[Retire] Ritirarsi
 
-[Apply] Apply
-[Add] Add
-[Clear] Clear
-[Accept] Accept
-[Close] Close
+[Apply] Applica
+[Add] Aggiungi
+[Clear] Cancella
+[Accept] Accetta
+[Close] Chiudi
 
 [Swap] Swap
 
-[Delete] Delete
+[Delete] Elimina
 
-[Options] Options
+[Options] Opzioni
 
-[Forest] Forest
+[Forest] Foresta
 [Mountains] Mountains
 
 [Eclipses] Eclipses
@@ -1955,7 +1954,7 @@
 
 [Details] Details
 
-[Loading] Loading
+[Loading] Caricamento in corso....
 
 [Direction0] South
 [Direction1] Southwest
@@ -2388,8 +2387,8 @@
 [TileTypes] Tile Types
 [Structure] Structural Objects
 [Emitters] Particle Emitters
-[Pedestrians] Pedestrians
-[Landscape] Landscape Objects
+[Pedestrians] Pedoni
+[Landscape] Oggetti Paesaggio
 [Tree] Trees
 [Resources] Resources
 [Special] Special
@@ -2448,12 +2447,12 @@
 [RotationSnap] Rotation Snap:
 [EnvironmentDisplay] Environment:
 
-[RotationSnapValue0] 1�
-[RotationSnapValue1] 2�
-[RotationSnapValue2] 5�
-[RotationSnapValue3] 10�
-[RotationSnapValue4] 45�
-[RotationSnapValue5] 90�
+[RotationSnapValue0] 1°
+[RotationSnapValue1] 2°
+[RotationSnapValue2] 5°
+[RotationSnapValue3] 10°
+[RotationSnapValue4] 45°
+[RotationSnapValue5] 90°
 
 [EnvironmentDisplayValue0] Barren
 [EnvironmentDisplayValue1] Dead
@@ -2531,57 +2530,57 @@
 
 [TABLEALIAS OptionsWnd]
 
-[MainMenuBtn] Main Menu
-[BackToGameBtn] Back to Game
+[MainMenuBtn] Menu
+[BackToGameBtn] Torna al gioco
 
-[AdvancedBtn] Advanced Options
-[AdvancedBtn_Tooltip] Switch to Advanced Options
-[BasicButton] Basic Options
-[BasicButton_Tooltip] Back to Basic Options
+[AdvancedBtn] Opzioni Avanzate
+[AdvancedBtn_Tooltip] Passare alle Opzioni Avanzate
+[BasicButton] Opzioni Base
+[BasicButton_Tooltip] Esegui Opzioni di base
 
-[Header1_Basic] General
-[Header2_Basic] Display
+[Header1_Basic] Generale
+[Header2_Basic] Schermo
 [Header3_Basic] Audio
 
-[Header1_Advanced] General
-[Header2_Advanced] Display
+[Header1_Advanced] Generale
+[Header2_Advanced] Schermo
 [Header3_Advanced] Editor
 
-[NeedsRestartTitle] Restart Needed
-[NeedsRestart] Certain changes require the game be restarted.
+[NeedsRestartTitle] Necessario riavvio
+[NeedsRestart] Alcune modifiche richiedono il riavvio del gioco.
 
-[SkipIntro] Skip Intro Cutscene
-[SkipIntro_Tooltip] Skip the opening cutscene when opening Fallen Enchantress.
-[Resolution] Resolution
-[Resolution_Tooltip] Change the game resolution. Desktop will set the resolution to that of your desktop.
+[SkipIntro] Salta Introduzione scene
+[SkipIntro_Tooltip] Salta il filmato di apertura durante l'apertura di Fallen Enchantress.
+[Resolution] Risoluzione
+[Resolution_Tooltip] Cambiare la risoluzione di gioco. Impostare la risoluzione a quella del desktop.
 [CustomResolution] Custom
 [DesktopResolution] Desktop
-[FullScreen] Use Fullscreen
-[HardwareMouseCursor] Hardware Mouse Cursor
-[HardwareMouseCursor_Tooltip] Use the standard Windows mouse cursor.
+[FullScreen] Usa Schermo Intero
+[HardwareMouseCursor] Hardware cursore del mouse
+[HardwareMouseCursor_Tooltip] Usate il cursore del mouse standard di Windows.
 [Multisample] Anti-Aliasing
 [Multisample_Tooltip] Change the level of anti-aliasing in the game. Lower to increase performance.
 [MultisampleX] x
 [MultisampleOff] Off
-[Brightness] Brightness
-[Brightness_Tooltip] Change the game's brightness.
-[Contrast] Contrast
-[Contrast_Tooltip] Change the game's contrast.
-[AmbientLight] Ambient Light
-[AmbientLight_Tooltip] Change the level of ambient light.
-[ParticleEffects] Particle Effects
-[ParticleEffects_Tooltip] Display particle effects. Disable to increase performance.
+[Brightness] Luminosità
+[Brightness_Tooltip] Modificare la luminosità del gioco.
+[Contrast] Contrasto
+[Contrast_Tooltip] Modificare il contrasto del gioco.
+[AmbientLight] Luce ambiente
+[AmbientLight_Tooltip] Modificare il livello di luce dell'ambiente.
+[ParticleEffects] Effetti particelle
+[ParticleEffects_Tooltip] Visualizzare effetti di particelle. Disabilita per aumentare le prestazioni.
 
 [MaxMipMapLevels] Maximum Mip Map Levels
 [DefaultMipMapLevels] Default
 [MaxMipMapLevelsOption] Levels
 [MaxMipMapLevelsOptionSingular] Level
-[Shadows] Shadows
-[Shadows_Tooltip] Display shadows. Disable to increase performance.
+[Shadows] Ombre
+[Shadows_Tooltip] Visualizzare le ombre. Disabilita per aumentare le prestazioni.
 [FontSmoothing] Font Smoothing
-[HDRLighting] Stylized Lighting
-[HDRLighting_Tooltip] Will allow the game to use advanced lighting. Disable to increase performance.
-[HDRSoftness] Softness (Adv. Lighting)
+[HDRLighting] Illuminazione stilizzato
+[HDRLighting_Tooltip] Permetterà al gioco di utilizzare l'illuminazione avanzata. Disabilita per aumentare le prestazioni.
+[HDRSoftness] Morbidezza (Illuminazione Adv.)
 
 [LevelOfDetailZoomLevel] LOD Zoom Level
 [ShowAutoPilotLines] Show Auto-Pilot Lines
@@ -2612,155 +2611,155 @@
 [HDRBrightnessBias] HDR Brightness Bias
 [HDRBrightnessBias_Tooltip] HDR Brightness Bias
 
-[TextureAtlasSize] Max Texture Atlas Size
-[TextureAtlasSize_Tooltip] Change the size of the texture atlas used to render UI elements. A larger texture will result in improved performance but may not be supported by some video cards.
-[CustomTextureAtlasSize] Custom Texture Atlas Size
-[Outlines] Outlines
-[Outlines_Tooltip] Display outlines on 3D objects. Disable to increase performance.
+[TextureAtlasSize] Dimensione massima texture Atlante
+[TextureAtlasSize_Tooltip] Modificare le dimensioni texture dell'Atlante utilizzate per la prospettiva degli elementi sull'interfaccia utente. Una struttura più grande comporterà migliori prestazioni, ma potrebbe non essere supportato da alcune schede video.
+[CustomTextureAtlasSize] Formato personalizzato Texture Atlante
+[Outlines] Contorni
+[Outlines_Tooltip] Visualizza contorni sugli oggetti 3D. Disabilita per aumentare le prestazioni.
 [Pedestrians] Pedestrians
 [Pedestrians_Tooltip] Display cosmetic pedestrians in tile designs. Disable to increase performance.
-[EnvPropsTitle] Amount of Groundcover
-[EnvPropsTitle_Tooltip] Change the amount of props and other ground cover in the world. Decrease to improve performance.
-[NoEnvProps] None
-[EnvProps1] Sparse (1/2)
-[EnvProps2] Normal
-[EnvProps3] Numerous (2x)
-[EnvProps4] Plentiful (5x)
-[EnvProps5] Overgrown (10x)
-[UnitScale] Unit Scale
-[UnitScale_Tooltip] Change the scale of units in the strategic view.
-[UnitScale0] Proportional
-[UnitScale1] Normal
-[UnitScale2] Large
-[UnitScale3] Huge
-[UnitScale4] Gigantic
-[ScaleOnZoom] Scale Units When Zooming
-[ScaleOnZoom_Tooltip] Will scale units in their tile as you change zoom levels.
+[EnvPropsTitle] Quantità di copertura del terreno
+[EnvPropsTitle_Tooltip] Modificare la quantità di oggetti di scena e la copertura del suolo al mondo. Diminuire per migliorare le prestazioni.
+[NoEnvProps] Nessuno
+[EnvProps1] Scarso (1/2)
+[EnvProps2] Normale
+[EnvProps3] Numerosi (2x)
+[EnvProps4] Abbondante (5x)
+[EnvProps5] Coperto di vegetazione (10x)
+[UnitScale] Scala Unità 
+[UnitScale_Tooltip] Modificare la scala di unità nella vista strategica.
+[UnitScale0] Proporzionale
+[UnitScale1] Normale
+[UnitScale2] Grande
+[UnitScale3] Enorme
+[UnitScale4] Gigante
+[ScaleOnZoom] Unità di scala durante lo zoom
+[ScaleOnZoom_Tooltip] Scalerà l'unità nella piastrella come si cambia livello di zoom.
 
 // Sound
 [SFXVolume] SFX Volume
 [SFXVolume_Tooltip] Change the volume of sound effects.
-[MovieVolume] Movie Volume 
-[MovieVolume_Tooltip] Change the volume of in-game movies.
-[MusicVolume] Music Volume 
-[MusicVolume_Tooltip] Change the volume of background music.
-[EventMusicVolume] Event Music Volume
-[EventMusicVolume_Tooltip] Change the volume of music triggered from in-game events.
-[AmbienceVolume] Ambience Volume
-[AmbienceVolume_Tooltip] Change the volume of ambient sounds.
+[MovieVolume] Volume Filmati  
+[MovieVolume_Tooltip] Modificare il volume filmati del gioco.
+[MusicVolume] Volume Musica
+[MusicVolume_Tooltip] Modificare il volume della musica di sottofondo.
+[EventMusicVolume] Volume Musica Evento
+[EventMusicVolume_Tooltip] Modificare il volume della musica che si innescano sugli eventi del gioco.
+[AmbienceVolume] Volume Ambiente
+[AmbienceVolume_Tooltip] Modificare il volume dei suoni ambientali.
 [Sfx] SFX
-[Sfx_Tooltip] Play sound effects.
-[Music] Music
-[Music_Tooltip] Play background music.
-[EventMusic] Event Music
-[EventMusic_Tooltip] Play music on triggered events.
-[AmbientSound] Ambient Sound
-[AmbientSound_Tooltip] Play ambient sounds.
-[SpeakerConfig] Speaker Configuration
-[SpeakerConfig_Tooltip] Change your speaker configuration.
-[SoundChannel0] System Default
+[Sfx_Tooltip] Riproduci effetti sonori.
+[Music] Musica
+[Music_Tooltip] Ascolta musica di sottofondo.
+[EventMusic] Musica Eventi
+[EventMusic_Tooltip] Ascoltare musica su eventi attivati??.
+[AmbientSound] Suono Ambiente
+[AmbientSound_Tooltip] Riproduci suoni ambientali.
+[SpeakerConfig] Configurazione altoparlanti
+[SpeakerConfig_Tooltip] Cambiare la configurazione degli altoparlanti.
+[SoundChannel0] Sistema di Default
 [SoundChannel1] Mono
-[SoundChannel2] Stereo headphones
-[SoundChannel3] Stereo speakers
+[SoundChannel2] Cuffie stereo
+[SoundChannel3] Altoparlanti Stereo
 [SoundChannel4] Dolby Surround
 [SoundChannel5] SRS Circle Surround
-[SoundChannel6] 4.0 discrete
-[SoundChannel7] 5.1 discrete
-[SoundChannel8] 6.1 discrete
-[SoundChannel9] 7.1 discrete
-[SoundChannel10] 8.1 discrete
+[SoundChannel6] 4.0 discreto
+[SoundChannel7] 5.1 discreto
+[SoundChannel8] 6.1 discreto
+[SoundChannel9] 7.1 discreto
+[SoundChannel10] 8.1 discreto
 
-[DrawGrid] Show Grid
-[DrawGrid_Tooltip] Display the grid.
-[DrawMoveRadius] Show Move Radius
-[MoveRadius_Tooltip] Show move radius in tactical battles.
-[SnapBack] Snap Back When Rotating
-[SnapBack_Tooltip] Return the camera to its default angle after being moved in the strategic view.
-[SmartPlayerColors] Smart Player Colors
-[SmartPlayerColors_Tooltip] Color the other factions in your game based on their relationship with you. Green for friendly, yellow for neutral and red for hostile.
-[ClothMapOnly] Cloth Map Only
-[ClothMapOnly_Tooltip] Make the cloth map visible at all levels of zoom in the strategic window. 
-[FastMapTransition] Fast Map Transition
-[FastMapTransition_Tooltip] Turns off transitional effects when switching to and from cloth map.
-[ShowTileYields] Show Tile Yields
-[ShowTileYields_Tooltip] Display tile yields on the map that a city would receive by being built on each tile.
-[TacticalMapZoom] Cloth Map Zoom Level
-[TacticalMapZoom_Tooltip] Change the amount of zoom required before the cloth map replaces the main strategic view. Higher numbers will result in the cloth map being viewed more.
-[EditorMapZoom] Editor Cloth Zoom Level
-[EditorMapZoom_Tooltip] Change the amount of zoom required before the cloth map replaces the 3D view in the editor. Higher numbers will result in the cloth map being viewed more.
+[DrawGrid] Mostra griglia
+[DrawGrid_Tooltip] Visualizzare la griglia.
+[DrawMoveRadius] Mostra Spostamento Distanza
+[MoveRadius_Tooltip] Mostra spostare il raggio in battaglie tattiche.
+[SnapBack] Scatto Indietro Quando si ruota
+[SnapBack_Tooltip] Riportare la visuale al suo angolo di default dopo essere stati spostati dalla vista strategico.
+[SmartPlayerColors] Colori giocatore intelligente
+[SmartPlayerColors_Tooltip] Colora le altre fazioni nel gioco in base al loro rapporto con voi. Verde per bambini, giallo per neutro e rosso per ostile.
+[ClothMapOnly] Texture mappa
+[ClothMapOnly_Tooltip] Texture mappa visibile a tutti i livelli di zoom nella finestra strategica. 
+[FastMapTransition] Mappa di transizione veloce
+[FastMapTransition_Tooltip] Spegne gli effetti di transizione quando si passa da e per la mappa.
+[ShowTileYields] Visualizza Tile rendimenti
+[ShowTileYields_Tooltip] Visualizzare i rendimenti tessere sulla mappa di una città che avrebbe ricevuto essendo costruita su ogni tessera.
+[TacticalMapZoom] Zoom Livello Texture Mappa
+[TacticalMapZoom_Tooltip] Modificare la quantità di zoom richiesto prima che la mappa sostituisca la vista principale strategica. Numeri più alti si vedranno nella mappa più visualizzata.
+[EditorMapZoom] Editor Livello zoom Texture
+[EditorMapZoom_Tooltip] Modificare la quantità di zoom richiesto prima che la mappa sostituisca la vista 3D nell'editor. Numeri più alti si vedranno nella mappa più visualizzata.
 [MapEditorCampaign] Editor Scenario Data
 [MapEditorCampaign_Tooltip] Display scenario data in the editor.
-[ToolTipsDelay] Tool Tip Delay
-[ToolTipsDelay_Tooltip] Change the amount of time the game will delay before tool-tips are displayed on hover.
-[ClothMapFogBrightness] Cloth FOW Brightness
-[ClothMapFogBrightness_Tooltip] Change the brightness of the fog of war on the cloth map.
-[ZoomLimit] Zoom Limiting
-[ZoomLimit_Tooltip] Limit the amount the camera can zoom in on the strategic view.
-[ShowFactionPowerWnd] Faction Power Window
-[ShowFactionPowerWnd_Tooltip] Display the faction power window on the strategic view.
-[ShowResearchAndTaxInfo] Research and Taxes Info
-[ShowResearchAndTaxInfo_Tooltip] Display the research and tax window on the strategic view.
-[ShowTerrainWnd] Terrain Window
-[ShowTerrainWnd_Tooltip] Display the terrain info window on the strategic view.
-[ShowPointOfInterestHUDsInCloth] Show Point of Interest HUDs in Cloth
-[ShowPointOfInterestHUDsInCloth_Tooltip] Show icons for points of interest on the cloth map.
-[HUDInfo] HUD Information
-[ShowCityHUD_Tooltip] Display city HUD information in the strategic view.
-[ShowQuestHUDs_Tooltip] Display icons over quest locations in the strategic view.
-[ShowGoodieHutHUDs_Tooltip] Display icons over notable locations in the strategic view.
-[ShowNPCHUDs_Tooltip]Display icons over champion camps in the strategic view.
-[ShowMonsterLairHUDs_Tooltip] Display icons over monster lairs in the strategic view.
-[ShowResourceHUDs_Tooltip] Display icons over resource hoards in the strategic view.
-[AutoTurn] Auto Turn
-[AutoTurn_Tooltip] Automatically end your turn if all of your active units have moved and none of your cities are idle.
-[AutoSave] Auto Save
-[AutoSave_Tooltip] Save the game automatically at specific intervals.
-[AutoSaveTurns] Turns Until Auto Save
-[AutoSaveTurns_Tooltip] Change the number of turns between auto saves.
-[EnableMods] Use Mods
-[EnableMods_Tooltip] Allow the use of mods.
-[ScreenShotFormat] Screen Shot Format:
-[ScreenShotFormat_Tooltip] Change the file format of screen shots.
+[ToolTipsDelay] Ritardo Strumento Suggerimento
+[ToolTipsDelay_Tooltip] Modificare la quantità di tempo che il gioco ritarderà i strumenti-consigli che vengono visualizzati al passaggio del mouse.
+[ClothMapFogBrightness] Luminosità Texture FOW
+[ClothMapFogBrightness_Tooltip] Modificare la luminosità della nebbia della guerra sulla mappa.
+[ZoomLimit] Limitazione Zoom
+[ZoomLimit_Tooltip] Limitare lo zoom per l'ingrandimento della visione strategica.
+[ShowFactionPowerWnd] Finestra Potenza Fazione
+[ShowFactionPowerWnd_Tooltip] Visualizzare la finestra di potenza fazione sulla visione strategica.
+[ShowResearchAndTaxInfo] Ricerca e Informazioni Tasse
+[ShowResearchAndTaxInfo_Tooltip] Visualizzare la finestra di ricerca e dell'imposta sulla visione strategica.
+[ShowTerrainWnd] Finestra Terreno
+[ShowTerrainWnd_Tooltip] Visualizzare la finestra informazioni terreno sulla visione strategica.
+[ShowPointOfInterestHUDsInCloth] Mostra Punto di Interesse HUD 
+[ShowPointOfInterestHUDsInCloth_Tooltip] Mostra icone per i punti di interesse sulla mappa.
+[HUDInfo] Informazioni HUD
+[ShowCityHUD_Tooltip] Visualizza informazioni nell'HUD della città nella visione strategica.
+[ShowQuestHUDs_Tooltip] Visualizza le icone di più località nella visione strategica.
+[ShowGoodieHutHUDs_Tooltip] Visualizza le icone più importanti delle posizioni nella vista strategica.
+[ShowNPCHUDs_Tooltip]Visualizza le icone dei campi campione nella visione strategica.
+[ShowMonsterLairHUDs_Tooltip] Visualizza le icone delle tane dei mostri nella vista strategica.
+[ShowResourceHUDs_Tooltip] Visualizza le icone accumuli risorse nella vista strategico.
+[AutoTurn] Turno Automatico
+[AutoTurn_Tooltip] Terminare il turno Automaticamente, se tutte le unità attive sono state spostate e nessuna delle tue città sono inattive.
+[AutoSave] Auto Salvataggio
+[AutoSave_Tooltip] Salvate il gioco automaticamente a intervalli specifici.
+[AutoSaveTurns] Attiva Salvataggio automatico
+[AutoSaveTurns_Tooltip] Modificare il numero di turni di auto salvataggio.
+[EnableMods] Usa le Mods
+[EnableMods_Tooltip] Consenti l'uso delle mods.
+[ScreenShotFormat] Formato Screenshot:
+[ScreenShotFormat_Tooltip] Modificare il formato del file delle schermate.
 [ScreenShotFormatJPG] JPG
 [ScreenShotFormatBMP] BMP
 [ScreenShotFormatTGA] TGA
 [ScreenShotFormatPNG] PNG
 [ScreenShotFormatDIB] DIB
-[FollowSelectedUnit] Follow Selected Unit
-[FollowSelectedUnit_Tooltip] Will cause the camera to follow your units when they move in the strategic view.
-[AutoSelectNextUnit] Auto Select Next Unit
-[AutoSelectNextUnit_Tooltip] Select the next unit with un-spent moves after finishing moving or passing your turn with another unit.
-[AutoStationNewUnits] Auto Station New Units
-[AutoStationNewUnits_Tooltip] Newly trained units will be automatically stationed in the city they were trained in.
-[ZoomToCursor] Zoom to Cursor
-[ZoomToCursor_Tooltip] When zooming in, will cause the camera to move towards the current cursor position.
-[ZoomCityBuildMode] City Build Mode Zoom
-[ZoomCityBuildMode_Tooltip] Zoom in on a city when you are building improvements in it.
-[ManualImprovementPlacement] Manual Improvement Placement
-[ManualImprovementPlacement_Tooltip] Choose where exactly in a city your improvements are built.
-[EnableEdgeScroll] Edge Scroll
-[EnableEdgeScroll_Tooltip] Pan the camera when the mouse cursor is moved to the edge of the screen.
-[EdgeScrollSpeed] Edge Scroll Speed
-[EdgeScrollSpeed_Tooltip] Change the speed the camera pans when you are hovering at the edge of the screen.
-[EdgeScrollDelay] Edge Scroll Delay
-[EdgeScrollDelay_Tooltip] Set how long the cursor needs to be over the edge of the screen before the camera pans.
-[QuickMove] Quick Move
-[QuickMove_Tooltip] Skip movement animations for units in the strategic view.
-[BattleThreshold] Tact-Battle Threshold
-[BattleThreshold_Tooltip] Set the number of units required in a battle before the game will prompt you to have a tactical battle.
-[BattleAnimSpeed] Tact-Battle Animation Speed
-[BattleAnimSpeed_Tooltip] Change the speed of animations in tactical battle.
-[AllowUnitBattleMovementWithinTile] Unit Movement Within Tile
-[AllowUnitBattleMovementWithinTile_Tooltip] During an attack animation, allow units to walk closer to each other to make the attack.
-[BattleAnimSpeed0] Normal (1x) 
-[BattleAnimSpeed1] Fast (2x)
-[BattleAnimSpeed2] Fastest (5x)
-[AutoLogin] Auto Login
-[AutoLogin_Tooltip] Allow the game to automatically log you in.
-[TutorialPopups] Tutorial Popups
-[TutorialPopups_Tooltip] Show interactive tutorial popups at the bottom of the screen the first time you encounter new content.
-[HighlightCursor] Show Highlight Cursor
-[HighlightCursor_Tooltip] Display a highlight on the tile your cursor is currently over.
+[FollowSelectedUnit] Segui l'unità selezionata
+[FollowSelectedUnit_Tooltip] Usa la fotocamera per seguire le vostre unità quando si muovono nella visione strategica.
+[AutoSelectNextUnit] Selezione automatica Unità successiva
+[AutoSelectNextUnit_Tooltip] Selezionare l'unità successiva con mosse inutilizzate dopo aver terminato lo spostamento o passare il turno con un'altra unità.
+[AutoStationNewUnits] Auto Stazionamento Nuove Unità
+[AutoStationNewUnits_Tooltip] Unità recentemente formate saranno automaticamente stazionate nella città .
+[ZoomToCursor] Zoom sul Cursore
+[ZoomToCursor_Tooltip] Quando si ingrandisce, farà sì che la visuale si sposti verso la posizione corrente del cursore.
+[ZoomCityBuildMode] Modalità Zoom Costruzione Città
+[ZoomCityBuildMode_Tooltip] Zoom su una città in cui si sta costruendo il miglioramento.
+[ManualImprovementPlacement] Posizionamento manuale Miglioramento
+[ManualImprovementPlacement_Tooltip] Scegliere esattamente dove i miglioramenti sono costruiti in una città.
+[EnableEdgeScroll] Margine di scorrimento
+[EnableEdgeScroll_Tooltip] Panoramica con la telecamera quando il cursore viene spostato al margine dello schermo.
+[EdgeScrollSpeed] Velocità di scorrimento bordo
+[EdgeScrollSpeed_Tooltip] Modificare la velocità della telecamera quando si ruota sul bordo dello schermo.
+[EdgeScrollDelay] Ritardo scorrimento bordo
+[EdgeScrollDelay_Tooltip] Impostare per quanto tempo il cursore deve essere prima sopra il bordo dello schermo.
+[QuickMove] Muovi veloce
+[QuickMove_Tooltip] Salta le animazioni di movimento per le unità nella vista strategica.
+[BattleThreshold] Soglia Tattica-Battaglia
+[BattleThreshold_Tooltip] Impostare il numero di unità necessarie in una battaglia prima che il gioco vi chieda di avere una battaglia tattica.
+[BattleAnimSpeed] Velocità animazione Battaglia tattica
+[BattleAnimSpeed_Tooltip] Cambiare la velocità delle animazioni in battaglia tattica.
+[AllowUnitBattleMovementWithinTile] Movimento unità all'interno Mura
+[AllowUnitBattleMovementWithinTile_Tooltip] Durante un'animazione d'attacco, consente alle unità di camminare più vicini gli uni agli altri per rendere l'attacco.
+[BattleAnimSpeed0] Normale (1x) 
+[BattleAnimSpeed1] Veloce (2x)
+[BattleAnimSpeed2] Più veloce (5x)
+[AutoLogin] Login automatico
+[AutoLogin_Tooltip] Entrare automaticamente nel gioco.
+[TutorialPopups] Tutorial Popup.
+[TutorialPopups_Tooltip] Mostra popup del tutorial interattivi nella parte inferiore dello schermo, la prima volta che si incontrano nuovi contenuti.
+[HighlightCursor] Selezionare Mostra Cursore
+[HighlightCursor_Tooltip] Visualizzare una luce sulla tessera il cursore attualmente in uso.
 
 [SecondsUnit] s
 
@@ -3412,65 +3411,65 @@
 
 [TABLEALIAS ParticalEditorWnd]
 
-[ParticleEditorTitle] Particle Effect Editor
+[ParticleEditorTitle] Editore Effetto Particella
 
-[ParticleEditorClearButton] Clear
-[ParticleEditorCancelButton] Cancel
-[ParticleEditorDoneButton] Done
-[ParticleEditorSaveButton] Save
+[ParticleEditorClearButton] Rimuo.
+[ParticleEditorCancelButton] Cancella
+[ParticleEditorDoneButton] Fatto
+[ParticleEditorSaveButton] Salva
 
-[ParticleEditorTopButton1] New Emitter
-[ParticleEditorTopButton2] New Beam
-[ParticleEditorTopButton3] Load
-[ParticleEditorTopButton4] New Effect
+[ParticleEditorTopButton1] New emet.
+[ParticleEditorTopButton2] New fascio
+[ParticleEditorTopButton3] Carica
+[ParticleEditorTopButton4] New Effetto
 
-[ParticleEditorKeyframesTab] Animation
-[ParticleEditorColorsTab] Graphics
+[ParticleEditorKeyframesTab] Animazione
+[ParticleEditorColorsTab] Grafica
 
-[ParticleEditorAddEmitters] Add Emitters:
-[ParticleEditorEmitterName] Playback:
+[ParticleEditorAddEmitters] Aggiungi Emettitori:
+[ParticleEditorEmitterName] Riproduzione:
 
-[ParticleEditor_ColorSubWnd_Setting1] Color Interpolation Texture:
-[ParticleEditor_ColorSubWnd_Setting2] Diffuse/Alpha Texture:
-[ParticleEditor_ColorSubWnd_Setting3] Render Order:
-[ParticleEditor_ColorSubWnd_Setting4] Render Technique:
-[ParticleEditor_ColorSubWnd_Setting5] Visibility Mode:
-[ParticleEditor_ColorSubWnd_Setting6] Indefinite
-[ParticleEditor_ColorSubWnd_Setting7] Frames
-[ParticleEditor_ColorSubWnd_DepthBias] Depth Bias
-[ParticleEditor_ColorSubWnd_AnimatedStrip] Animated
-[ParticleEditor_ColorSubWnd_AnimatedStripStartRandom] Start Anim Random Frame
+[ParticleEditor_ColorSubWnd_Setting1] Colore Interpolazione Texture:
+[ParticleEditor_ColorSubWnd_Setting2] Alpha Texture / Diffusa:
+[ParticleEditor_ColorSubWnd_Setting3] Rendere Ordine:
+[ParticleEditor_ColorSubWnd_Setting4] Rendere tecnica:
+[ParticleEditor_ColorSubWnd_Setting5] Modalità Visibilità:
+[ParticleEditor_ColorSubWnd_Setting6] Indefinito
+[ParticleEditor_ColorSubWnd_Setting7] Cornice
+[ParticleEditor_ColorSubWnd_DepthBias] Profondità \npolarizzazione
+[ParticleEditor_ColorSubWnd_AnimatedStrip] Animato
+[ParticleEditor_ColorSubWnd_AnimatedStripStartRandom] Avvio Anim. Cornice casuale
 [ParticleEditor_ColorSubWnd_FPS] FPS
-[ParticleEditor_ColorSubWnd_LocalParticles] Local Particles
+[ParticleEditor_ColorSubWnd_LocalParticles] Particelle\nlocali 
 
-[ParticleEditor_EmitterEntry_Time] Trigger Time:
-[ParticleEditor_EmitterEntry_Duration] Duration:
+[ParticleEditor_EmitterEntry_Time] Tempo attiv.:
+[ParticleEditor_EmitterEntry_Duration] Durata:
 
-[ParticleEditor_EmitterSubWnd_Lifespan] Lifespan:
-[ParticleEditor_EmitterSubWnd_Start] Start:
-[ParticleEditor_EmitterSubWnd_Fade] Fade:
-[ParticleEditor_EmitterSubWnd_End] End:
+[ParticleEditor_EmitterSubWnd_Lifespan] Longevità:
+[ParticleEditor_EmitterSubWnd_Start] Avvio:
+[ParticleEditor_EmitterSubWnd_Fade] Dissolvenza:
+[ParticleEditor_EmitterSubWnd_End] Fine:
 
-[ParticleEditor_KeyframesDirectionSubWnd_Time] Time:
-[ParticleEditor_KeyframesDirectionSubWnd_Yaw] Yaw:
-[ParticleEditor_KeyframesDirectionSubWnd_YawVariation] Yaw Var.:
-[ParticleEditor_KeyframesDirectionSubWnd_Pitch] Pitch:
-[ParticleEditor_KeyframesDirectionSubWnd_PitchVariation] Pitch Var.:
-[ParticleEditor_KeyframesDirectionSubWnd_Roll] Roll:
-[ParticleEditor_KeyframesDirectionSubWnd_RollVariation] Roll Var.:
+[ParticleEditor_KeyframesDirectionSubWnd_Time] Tempo:
+[ParticleEditor_KeyframesDirectionSubWnd_Yaw] Imbardata:
+[ParticleEditor_KeyframesDirectionSubWnd_YawVariation] Var. imbardata:
+[ParticleEditor_KeyframesDirectionSubWnd_Pitch] Beccheggio:
+[ParticleEditor_KeyframesDirectionSubWnd_PitchVariation] Var. Beccheggio:
+[ParticleEditor_KeyframesDirectionSubWnd_Roll] Rotolare:
+[ParticleEditor_KeyframesDirectionSubWnd_RollVariation] Var. Rotolare:
 
-[ParticleEditor_KeyframesScalarSubWnd_Time] Time:
-[ParticleEditor_KeyframesScalarSubWnd_Value] Value:
-[ParticleEditor_KeyframesScalarSubWnd_Variation] Variation:
+[ParticleEditor_KeyframesScalarSubWnd_Time] Tempo:
+[ParticleEditor_KeyframesScalarSubWnd_Value] Valore:
+[ParticleEditor_KeyframesScalarSubWnd_Variation] Variazione:
 
-[ParticleEditor_KeyframesSubWnd_Sets] Keyframe Sets:
-[ParticleEditor_KeyframesSubWnd_Keyframes] Keyframes:
-[ParticleEditor_KeyframesSubWnd_Add] Add
-[ParticleEditor_KeyframesSubWnd_Remove] Remove
-[ParticleEditor_KeyframesSubWnd_Duplicate] Duplicate
+[ParticleEditor_KeyframesSubWnd_Sets] Set di fotogrammi chiave:
+[ParticleEditor_KeyframesSubWnd_Keyframes] Fotogrammi chiave:
+[ParticleEditor_KeyframesSubWnd_Add] Aggiungi
+[ParticleEditor_KeyframesSubWnd_Remove] Rimuovi
+[ParticleEditor_KeyframesSubWnd_Duplicate] Duplica
 
-[ParticleEditor_KeyframeSets_DirName] Direction
-[ParticleEditor_KeyframeSets_DirDesc] Direction:
+[ParticleEditor_KeyframeSets_DirName] Direzione
+[ParticleEditor_KeyframeSets_DirDesc] Direzione:
 [ParticleEditor_KeyframeSets_DirXName] Dir. X
 [ParticleEditor_KeyframeSets_DirXDesc] X-Axis Direction (pitch):
 [ParticleEditor_KeyframeSets_DirYName] Dir. Y
