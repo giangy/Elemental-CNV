@@ -2001,11 +2001,11 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Earth</SpellbookType>
         <AbilityBonusOption InternalName="Earth1">
-            <DisplayName>Earth Apprentice</DisplayName>
-            <Description>Permette the caster alla cast Livello 1 Earth spells like Nature's Cloak e Enchanted Hammers</Description>
+            <DisplayName>Apprendista della Terra</DisplayName>
+            <Description>Permette all'invocatore di lanciare incantesimi della Terra di Livello 1  come Mantello della Natura e Martello Incantato</Description>
             <Icon>Ability_EarthApprentice_Icon.png</Icon>
             <GameModifier>
-                <Provides>Permette the caster alla cast Livello 1 Earth spells like Nature's Cloak e Enchanted Hammers</Provides>
+                <Provides>Permette all'invocatore di lanciare incantesimi della Terra di Livello 1  come Mantello della Natura e Martello Incantato</Provides>
             </GameModifier>
             <Cost>2</Cost>
             <SpellbookRank>1</SpellbookRank>
@@ -2021,11 +2021,11 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Earth</SpellbookType>
         <AbilityBonusOption InternalName="Earth2">
-            <DisplayName>Earth Disciple</DisplayName>
-            <Description>Permette the caster alla cast Livello 2 Earth spells like Stoneskin e Tremor</Description>
+            <DisplayName>Discepolo della Terra</DisplayName>
+            <Description>Permette all'invocatore di lanciare incantesimi della Terra di Livello 2 come Pelle di Pietra e Tremore</Description>
             <Icon>Ability_EarthDisciple_Icon.png</Icon>
             <GameModifier>
-                <Provides>Permette the caster alla cast Livello 2 Earth spells like Tremor e Stoneskin</Provides>
+                <Provides>Permette all'invocatore di lanciare incantesimi della Terra di Livello 2 come Pelle di Pietra e Tremore</Provides>
             </GameModifier>
             <Cost>1</Cost>
             <Likelihood>450</Likelihood>
@@ -2048,11 +2048,11 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Earth</SpellbookType>
         <AbilityBonusOption InternalName="Earth3">
-            <DisplayName>Earth Mage</DisplayName>
-            <Description>Permette the caster alla cast Livello 3 Earth spells like Set In Stone e Shockwave</Description>
+            <DisplayName>Mago della Terra</DisplayName>
+            <Description>Permette all'invocatore di lanciare incantesimi della Terra di Livello 3 come Pietrifica e Onda d'Urto</Description>
             <Icon>Ability_EarthMage_Icon.png</Icon>
             <GameModifier>
-                <Provides>Permette the caster alla cast Livello 3 Earth spells like Set In Stone e Shockwave</Provides>
+                <Provides>Permette all'invocatore di lanciare incantesimi della Terra di Livello 3 come Pietrifica e Onda d'Urto</Provides>
             </GameModifier>
             <Likelihood>500</Likelihood>
             <RarityDisplay>Common</RarityDisplay>
@@ -2073,11 +2073,11 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Earth</SpellbookType>
         <AbilityBonusOption InternalName="Earth4">
-            <DisplayName>Earth Master</DisplayName>
-            <Description>Permette the caster alla cast Livello 4 Earth spells like Fracture e Summon Earth Elemental</Description>
+            <DisplayName>Maestro della Terra</DisplayName>
+            <Description>Permette all'invocatore di lanciare incantesimi della Terra di Livello 4 come Frattura e Evoca Elementale della Terra</Description>
             <Icon>Ability_EarthExpert_Icon.png</Icon>
             <GameModifier>
-                <Provides>Permette the caster alla cast Livello 4 Earth spells like Fracture e Summon Earth Elemental</Provides>
+                <Provides>Permette all'invocatore di lanciare incantesimi della Terra di Livello 4 come Frattura e Evoca Elementale della Terra</Provides>
             </GameModifier>
             <Likelihood>550</Likelihood>
             <RarityDisplay>Common</RarityDisplay>
@@ -2098,11 +2098,11 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Earth</SpellbookType>
         <AbilityBonusOption InternalName="Earth5">
-            <DisplayName>Earth Archmage</DisplayName>
-            <Description>Permette the caster alla cast Livello 5 Earth spells like Earthquake e Giant Form</Description>
+            <DisplayName>Arcimago della Terra</DisplayName>
+            <Description>Permette all'invocatore di lanciare incantesimi della Terra di Livello 5 come Terremoto e Forma Gigante</Description>
             <Icon>Ability_EarthMaster_Icon.png</Icon>
             <GameModifier>
-                <Provides>Permette the caster alla cast Livello 5 Earth spells like Earthquake</Provides>
+                <Provides>Permette all'invocatore di lanciare incantesimi della Terra di Livello 5 come Terremoto e Forma Gigante</Provides>
             </GameModifier>
             <HideWhenUpgraded>0</HideWhenUpgraded>
             <Likelihood>600</Likelihood>
@@ -2122,14 +2122,14 @@
     <AbilityBonus InternalName="EarthAdept1Ability">
         <AbilityBonusType>Unit_Design</AbilityBonusType>
         <AbilityBonusOption InternalName="EarthAdept1">
-            <DisplayName>Earth Adept</DisplayName>
-            <Description>Permette all'unità di lanciare Hurl Boulder</Description>
+            <DisplayName>Adepto della Terra</DisplayName>
+            <Description>Permette all'unità di lanciare Scagliare Massi</Description>
             <Icon>Ability_EarthAdeptI_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>HurlBoulder</StrVal>
-                <Provides>Permette all'unità di lanciare Hurl Boulder</Provides>
+                <Provides>Permette all'unità di lanciare Scagliare Massi</Provides>
             </GameModifier>
             <AdditionalTrainingTurns>20</AdditionalTrainingTurns>
             <HideWhenUpgraded>1</HideWhenUpgraded>
@@ -2143,14 +2143,14 @@
     <AbilityBonus InternalName="EarthAdept2Ability">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="EarthAdept2">
-            <DisplayName>Earth Adept II</DisplayName>
-            <Description>Permette all'unità di lanciare Stoneskin</Description>
+            <DisplayName>Adepto della Terra II</DisplayName>
+            <Description>Permette all'unità di lanciare Pelle di Pietra</Description>
             <Icon>Ability_EarthAdeptII_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>Stoneskin_Tactical</StrVal>
-                <Provides>Permette all'unità di lanciare Stoneskin</Provides>
+                <Provides>Permette all'unità di lanciare Pelle di Pietra</Provides>
             </GameModifier>
             <HideWhenUpgraded>1</HideWhenUpgraded>
             <Likelihood>200</Likelihood>
@@ -2169,14 +2169,14 @@
     <AbilityBonus InternalName="EarthAdept3Ability">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="EarthAdept3">
-            <DisplayName>Earth Adept III</DisplayName>
-            <Description>Permette all'unità di lanciare Shockwave</Description>
+            <DisplayName>Adepto della Terra III</DisplayName>
+            <Description>Permette all'unità di lanciare Onda d'Urto</Description>
             <Icon>Ability_EarthAdeptIII_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
-                <StrVal>Shockwave</StrVal>
-                <Provides>Permette all'unità di lanciare Shockwave</Provides>
+                <StrVal>Onda d'Urto</StrVal>
+                <Provides>Permette all'unità di lanciare Onda d'Urto</Provides>
             </GameModifier>
             <HideWhenUpgraded>0</HideWhenUpgraded>
             <Likelihood>100</Likelihood>
@@ -2195,11 +2195,11 @@
     <AbilityBonus InternalName="EnchantersAbility">
         <AbilityBonusType>Player</AbilityBonusType>
         <AbilityBonusOption InternalName="Enchanters">
-            <DisplayName>Enchanters</DisplayName>
-            <Description>Sblocca the Sindarian Staff, which gives additional Schivata, e the Leht Staff, which fires lightning</Description>
+            <DisplayName>Incantatore</DisplayName>
+            <Description>Sblocca il bastone Sindarian, che da un'addizionale Schivata, e il bastone Leth, che lancia fulmini</Description>
             <Icon>Ability_Runemasters_Icon.png</Icon>
             <GameModifier>
-                <Provides>Sblocca the Sindarian Staff, which gives additional Schivata, e the Leht Staff, which fires lightning</Provides>
+                <Provides>Sblocca il bastone Sindarian, che da un'addizionale Schivata, e il bastone Leth, che lancia fulmini</Provides>
             </GameModifier>
             <Cost>1</Cost>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -2212,7 +2212,7 @@
     <AbilityBonus InternalName="Endurance1Ability">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Endurance1">
-            <DisplayName>Endurance</DisplayName>
+            <DisplayName>Resistenza</DisplayName>
             <Description>+1 Punti per Colpire per livello</Description>
             <Icon>Ability_EnduranceI_Icon.png</Icon>
             <GameModifier>
@@ -2239,7 +2239,7 @@
     </AbilityBonus>
     <AbilityBonus InternalName="Endurance2Ability">
         <AbilityBonusOption InternalName="Endurance2">
-            <DisplayName>Endurance II</DisplayName>
+            <DisplayName>Resistenza II</DisplayName>
             <Description>+1 Punti per Colpire per livello</Description>
             <Icon>Ability_EnduranceII_Icon.png</Icon>
             <GameModifier>
@@ -2266,7 +2266,7 @@
     </AbilityBonus>
     <AbilityBonus InternalName="Endurance3Ability">
         <AbilityBonusOption InternalName="Endurance3">
-            <DisplayName>Endurance III</DisplayName>
+            <DisplayName>Resistenza III</DisplayName>
             <Description>+1 Punti per Colpire per livello</Description>
             <Icon>Ability_EnduranceIII_Icon.png</Icon>
             <GameModifier>
@@ -2293,7 +2293,7 @@
     </AbilityBonus>
     <AbilityBonus InternalName="Endurance4Ability">
         <AbilityBonusOption InternalName="Endurance4">
-            <DisplayName>Endurance IV</DisplayName>
+            <DisplayName>Resistenza IV</DisplayName>
             <Description>+1 Punti per Colpire per livello</Description>
             <Icon>Ability_EnduranceIV_Icon.png</Icon>
             <GameModifier>
@@ -2320,16 +2320,16 @@
     </AbilityBonus>
     <AbilityBonus InternalName="EnmityAbility">
         <AbilityBonusType>Unit_Design</AbilityBonusType>
-        <AbilityBonusOption InternalName="Enmity">
-            <DisplayName>Enmity</DisplayName>
-            <Description>+25% Attacco contro units of the opposite race (fallen contro men)</Description>
+        <AbilityBonusOption InternalName="Inimicizia">
+            <DisplayName>Inimicizia</DisplayName>
+            <Description>+25% Attacco contro unità di razza opposta (caduti contro umani)</Description>
             <Icon>Ability_Enmity_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_Attack_Blunt</StrVal>
                 <Multiplier>1.25</Multiplier>
-                <Provides>+25% Attacco a Percosse contro opponents of the opposite race (fallen contro men)</Provides>
+                <Provides>+25% Attacco con armi a Percosse contro unità di razza opposta (caduti contro umani)</Provides>
                 <vsOtherAllegiance>1</vsOtherAllegiance>
             </GameModifier>
             <GameModifier>
@@ -2337,7 +2337,7 @@
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_Attack_Cutting</StrVal>
                 <Multiplier>1.25</Multiplier>
-                <Provides>+25% Attacco con armi da Taglio contro opponents of the opposite race (fallen contro men)</Provides>
+                <Provides>+25% Attacco con armi da Taglio contro unità di razza opposta (caduti contro umani)</Provides>
                 <vsOtherAllegiance>1</vsOtherAllegiance>
             </GameModifier>
             <GameModifier>
@@ -2345,7 +2345,7 @@
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_Attack_Pierce</StrVal>
                 <Multiplier>1.25</Multiplier>
-                <Provides>+25% Attacco con armi a Punta contro opponents of the opposite race (fallen contro men)</Provides>
+                <Provides>+25% Attacco con armi a Punta contro unità di razza opposta (caduti contro umani)</Provides>
                 <vsOtherAllegiance>1</vsOtherAllegiance>
             </GameModifier>
             <AdditionalTrainingTurns>12</AdditionalTrainingTurns>
@@ -2360,15 +2360,15 @@
     <AbilityBonus InternalName="EnmityAbility_Level">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Enmity_Level">
-            <DisplayName>Enmity</DisplayName>
-            <Description>+25% Attacco contro units of the opposite race (fallen contro men)</Description>
+            <DisplayName>Inimicizia</DisplayName>
+            <Description>+25% Attacco contro unità di razza opposta (caduti contro umani)</Description>
             <Icon>Ability_Enmity_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_Attack_Blunt</StrVal>
                 <Multiplier>1.25</Multiplier>
-                <Provides>+25% Attacco a Percosse contro opponents of the opposite race (fallen contro men)</Provides>
+                <Provides>+25% Attacco con armi Percosse contro unità di razza opposta (caduti contro umani)</Provides>
                 <vsOtherAllegiance>1</vsOtherAllegiance>
             </GameModifier>
             <GameModifier>
@@ -2376,7 +2376,7 @@
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_Attack_Cutting</StrVal>
                 <Multiplier>1.25</Multiplier>
-                <Provides>+25% Attacco con armi da Taglio contro opponents of the opposite race (fallen contro men)</Provides>
+                <Provides>+25% Attacco con armi da Taglio contro unità di razza opposta (caduti contro umani)</Provides>
                 <vsOtherAllegiance>1</vsOtherAllegiance>
             </GameModifier>
             <GameModifier>
@@ -2384,7 +2384,7 @@
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_Attack_Pierce</StrVal>
                 <Multiplier>1.25</Multiplier>
-                <Provides>+25% Attacco con armi a Punta contro opponents of the opposite race (fallen contro men)</Provides>
+                <Provides>+25% Attacco con armi a Punta contro unità di razza opposta (caduti contro umani)</Provides>
                 <vsOtherAllegiance>1</vsOtherAllegiance>
             </GameModifier>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -2400,15 +2400,15 @@
     <AbilityBonus InternalName="Evoker2Ability">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Evoker2">
-            <DisplayName>Evoker II</DisplayName>
-            <Description>+25% Spell Damage</Description>
+            <DisplayName>Evocatore II</DisplayName>
+            <Description>+25% Danno da Incantesimo</Description>
             <Icon>Ability_EvokerII_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_SpellDamage</StrVal>
                 <Value>0.25</Value>
-                <Provides>+25% Spell Damage</Provides>
+                <Provides>+25% Danno da Incantesimo</Provides>
             </GameModifier>
             <IsCombatAbility>1</IsCombatAbility>
             <Likelihood>200</Likelihood>
@@ -2428,15 +2428,15 @@
     <AbilityBonus InternalName="Evoker3Ability">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Evoker3">
-            <DisplayName>Evoker III</DisplayName>
-            <Description>+25% Spell Damage</Description>
+            <DisplayName>Evocatore III</DisplayName>
+            <Description>+25% Danno da Incantesimo</Description>
             <Icon>Ability_EvokerIII_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_SpellDamage</StrVal>
                 <Value>0.25</Value>
-                <Provides>+25% Spell Damage</Provides>
+                <Provides>+25% Danno da Incantesimo</Provides>
             </GameModifier>
             <HideWhenUpgraded>0</HideWhenUpgraded>
             <IsCombatAbility>1</IsCombatAbility>
@@ -2456,16 +2456,16 @@
     </AbilityBonus>
     <AbilityBonus InternalName="EvokerAbility">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
-        <AbilityBonusOption InternalName="Evoker">
-            <DisplayName>Evoker</DisplayName>
-            <Description>+25% Spell Damage</Description>
+        <AbilityBonusOption InternalName="Evocatore">
+            <DisplayName>Evocatore</DisplayName>
+            <Description>+25% Danno da Incantesimo</Description>
             <Icon>Ability_EvokerI_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_SpellDamage</StrVal>
                 <Value>0.25</Value>
-                <Provides>+25% Spell Damage</Provides>
+                <Provides>+25% Danno da Incantesimo</Provides>
             </GameModifier>
             <IsCombatAbility>1</IsCombatAbility>
             <Likelihood>200</Likelihood>
@@ -2485,8 +2485,8 @@
     <AbilityBonus InternalName="Executioner1Ability">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Executioner1">
-            <DisplayName>Executioner I</DisplayName>
-            <Description>+5 Attacco contro Champions</Description>
+            <DisplayName>Boia I</DisplayName>
+            <Description>+5 Attacco contro Campioni</Description>
             <Icon>Ability_ExecutionerI_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -2494,7 +2494,7 @@
                 <StrVal>UnitStat_Attack_Boost</StrVal>
                 <StrVal2>Champion</StrVal2>
                 <Value>5</Value>
-                <Provides>+5 Attacco contro Champions</Provides>
+                <Provides>+5 Attacco contro Campioni</Provides>
                 <vsUnitType>1</vsUnitType>
             </GameModifier>
             <HideWhenUpgraded>1</HideWhenUpgraded>
@@ -2514,8 +2514,8 @@
     <AbilityBonus InternalName="Executioner2Ability">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Executioner2">
-            <DisplayName>Executioner II</DisplayName>
-            <Description>+6 Attacco contro Champions</Description>
+            <DisplayName>Boia II</DisplayName>
+            <Description>+6 Attacco contro Campioni</Description>
             <Icon>Ability_ExecutionerII_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -2523,7 +2523,7 @@
                 <StrVal>UnitStat_Attack_Boost</StrVal>
                 <StrVal2>Champion</StrVal2>
                 <Value>6</Value>
-                <Provides>+6 Attacco contro Champions</Provides>
+                <Provides>+6 Attacco contro Campioni</Provides>
                 <vsUnitType>1</vsUnitType>
             </GameModifier>
             <HideWhenUpgraded>1</HideWhenUpgraded>
@@ -2543,8 +2543,8 @@
     <AbilityBonus InternalName="Executioner3Ability">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Executioner3">
-            <DisplayName>Executioner III</DisplayName>
-            <Description>+7 Attacco contro Champions</Description>
+            <DisplayName>Boia III</DisplayName>
+            <Description>+7 Attacco contro Campioni</Description>
             <Icon>Ability_ExecutionerIII_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -2552,7 +2552,7 @@
                 <StrVal>UnitStat_Attack_Boost</StrVal>
                 <StrVal2>Champion</StrVal2>
                 <Value>7</Value>
-                <Provides>+7 Attacco contro Champions</Provides>
+                <Provides>+7 Attacco contro Campioni</Provides>
                 <vsUnitType>1</vsUnitType>
             </GameModifier>
             <HideWhenUpgraded>1</HideWhenUpgraded>
@@ -2571,9 +2571,9 @@
     </AbilityBonus>
     <AbilityBonus InternalName="ExperiencedAbility">
         <AbilityBonusType>Unit_Design</AbilityBonusType>
-        <AbilityBonusOption InternalName="Experienced">
-            <DisplayName>Experienced</DisplayName>
-            <Description>+1 Level, -1 Gildar per turno</Description>
+        <AbilityBonusOption InternalName="Esperto">
+            <DisplayName>Esperto</DisplayName>
+            <Description>+1 Livello, -1 Gildar per turno</Description>
             <Icon>Ability_Experienced_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -2599,8 +2599,8 @@
     </AbilityBonus>
     <AbilityBonus InternalName="FastAbility">
         <AbilityBonusType>Unit_Design</AbilityBonusType>
-        <AbilityBonusOption InternalName="Fast">
-            <DisplayName>Fast</DisplayName>
+        <AbilityBonusOption InternalName="Veloce">
+            <DisplayName>Veloce</DisplayName>
             <Description>+2 Iniziativa</Description>
             <Icon>Ability_Fast_Icon.png</Icon>
             <GameModifier>
@@ -2619,7 +2619,7 @@
     <AbilityBonus InternalName="FastAbility_Level">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Fast_Level">
-            <DisplayName>Fast</DisplayName>
+            <DisplayName>Veloce</DisplayName>
             <Description>+2 Iniziativa</Description>
             <Icon>Ability_Fast_Icon.png</Icon>
             <GameModifier>
@@ -2643,8 +2643,8 @@
     </AbilityBonus>
     <AbilityBonus InternalName="FinesseAbility">
         <AbilityBonusType>Unit_Design</AbilityBonusType>
-        <AbilityBonusOption InternalName="Finesse">
-            <DisplayName>Finesse</DisplayName>
+        <AbilityBonusOption InternalName="Finezza">
+            <DisplayName>Finezza</DisplayName>
             <Description>+3 Attacco contro opponents with a lower Iniziativa</Description>
             <Icon>Ability_Finesse_Icon.png</Icon>
             <GameModifier>
@@ -2668,7 +2668,7 @@
     <AbilityBonus InternalName="FinesseAbility_Level">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Finesse_Level">
-            <DisplayName>Finesse</DisplayName>
+            <DisplayName>Finezza</DisplayName>
             <Description>+3 Attacco contro opponents with a lower Iniziativa</Description>
             <Icon>Ability_Finesse_Icon.png</Icon>
             <GameModifier>
@@ -2695,12 +2695,12 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Fire</SpellbookType>
         <AbilityBonusOption InternalName="Fire1">
-            <DisplayName>Fire Apprentice</DisplayName>
-            <Description>Permette all'unità di lanciare Livello 1 Fire spells like Burning Hands e Pillar of Flame</Description>
+            <DisplayName>Apprendista del Fuoco</DisplayName>
+            <Description>Permette all'unità di lanciare Incantesimi del Fuoco di Livello 1 come Mani Brucianti e Pilastri di Fiamma</Description>
             <Icon>Ability_FireApprentice_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
-                <Provides>Permette all'unità di lanciare Livello 1 Fire spells like Burning Hands e Pillar of Flame</Provides>
+                <Provides>Permette all'unità di lanciare Incantesimi del Fuoco di Livello 1 come Mani Brucianti e Pilastri di Fiamma<</Provides>
             </GameModifier>
             <Cost>2</Cost>
             <SpellbookRank>1</SpellbookRank>
@@ -2716,12 +2716,12 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Fire</SpellbookType>
         <AbilityBonusOption InternalName="Fire2">
-            <DisplayName>Fire Disciple</DisplayName>
-            <Description>Permette all'unità di lanciare Livello 2 Fire spells like Burning Blade e Flame Dart</Description>
+            <DisplayName>Discepolo del Fuoco</DisplayName>
+            <Description>Permette all'unità di lanciare Incantesimi del Fuoco di Livello 2 come Spada Fiammeggiante e Dardo di Fuoco</Description>
             <Icon>Ability_FireDisciple_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
-                <Provides>Permette all'unità di lanciare Livello 2 Fire spells like Burning Blade e Flame Dart</Provides>
+                <Provides>Permette all'unità di lanciare Incantesimi del Fuoco di Livello 2 come Spada Fiammeggiante e Dardo di Fuoco</Provides>
             </GameModifier>
             <Cost>1</Cost>
             <Likelihood>450</Likelihood>
@@ -2744,12 +2744,12 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Fire</SpellbookType>
         <AbilityBonusOption InternalName="Fire3">
-            <DisplayName>Fire Mage</DisplayName>
-            <Description>Permette all'unità di lanciare Livello 3 Fire spells like Focus e Fireball</Description>
+            <DisplayName>Mago di Fuoco</DisplayName>
+            <Description>Permette all'unità di lanciare Incantesimi del Fuoco di Livello 3 come Focus e Palla di Fuoco</Description>
             <Icon>Ability_FireMage_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
-                <Provides>Permette all'unità di lanciare Livello 3 Fire spells like Focus e Fireball</Provides>
+                <Provides>Permette all'unità di lanciare Incantesimi del Fuoco di Livello 3 come Focus e Palla di Fuoco</Provides>
             </GameModifier>
             <Likelihood>500</Likelihood>
             <RarityDisplay>Common</RarityDisplay>
@@ -2770,12 +2770,12 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Fire</SpellbookType>
         <AbilityBonusOption InternalName="Fire4">
-            <DisplayName>Fire Master</DisplayName>
-            <Description>Permette all'unità di lanciare Livello 4 Fire spells like Summon Fire Elemental e Mantle of Fire</Description>
+            <DisplayName>Maestro del Fuoco</DisplayName>
+            <Description>Permette all'unità di lanciare Incantesimi del Fuoco di Livello 4 come Evoca Elementale del Fuoco e Mantello di Fuoco</Description>
             <Icon>Ability_FireExpert_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
-                <Provides>Permette all'unità di lanciare Livello 4 Fire spells like Summon Fire Elemental e Mantle of Fire</Provides>
+                <Provides>Permette all'unità di lanciare Incantesimi del Fuoco di Livello 4 come Evoca Elementale del Fuoco e Mantello di Fuoco</Provides>
             </GameModifier>
             <Likelihood>550</Likelihood>
             <RarityDisplay>Common</RarityDisplay>
@@ -2796,7 +2796,7 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Fire</SpellbookType>
         <AbilityBonusOption InternalName="Fire5">
-            <DisplayName>Fire Archmage</DisplayName>
+            <DisplayName>Arcimago del Fuoco</DisplayName>
             <Description>Permette all'unità di lanciare Livello 5 Fire spells like Firestorm e Wall of Fire</Description>
             <Icon>Ability_FireMaster_Icon.png</Icon>
             <GameModifier>
@@ -2894,13 +2894,13 @@
     <AbilityBonus InternalName="FireBreathAbility">
         <AbilityBonusOption InternalName="FireBreath">
             <DisplayName>Fire Breath</DisplayName>
-            <Description>Target units within a 1 tile radius are enveloped in fire, taking the caster's Attacco in fire damage</Description>
+            <Description>Target unità within a 1 tile radius are enveloped in fire, taking the caster's Attacco in fire damage</Description>
             <Icon>Ability_FireBreath_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>FireBreath</StrVal>
-                <Provides>Target units within a 1 tile radius are enveloped in fire, taking the caster's Attacco in fire damage</Provides>
+                <Provides>Target unità within a 1 tile radius are enveloped in fire, taking the caster's Attacco in fire damage</Provides>
             </GameModifier>
             <CombatRating>300</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -2933,7 +2933,7 @@
                 <ModType>Player</ModType>
                 <Attribute>UnlockSpell</Attribute>
                 <StrVal>Candlecloak</StrVal>
-                <Provides>Sblocca Candlecloak, un incantesimo that does fire damage alla anyone who strikes your units with a melee attack</Provides>
+                <Provides>Sblocca Candlecloak, un incantesimo that does fire damage alla anyone who strikes your unità with a melee attack</Provides>
             </GameModifier>
             <Cost>1</Cost>
             <Type>Army</Type>
@@ -4302,7 +4302,7 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Life</SpellbookType>
         <AbilityBonusOption InternalName="Life1">
-            <DisplayName>Life Apprentice</DisplayName>
+            <DisplayName>Life Apprendista</DisplayName>
             <Description>Permette the caster alla cast Livello 1 Life spells like Courage e Regeneration</Description>
             <Icon>Ability_LifeApprentice_Icon.png</Icon>
             <GameModifier>
@@ -4327,7 +4327,7 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Life</SpellbookType>
         <AbilityBonusOption InternalName="Life2">
-            <DisplayName>Life Disciple</DisplayName>
+            <DisplayName>Life Discepolo</DisplayName>
             <Description>Permette the caster alla cast Livello 2 Life spells like Aura of Vitality e Heal</Description>
             <Icon>Ability_LifeDisciple_Icon.png</Icon>
             <GameModifier>
@@ -4359,7 +4359,7 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Life</SpellbookType>
         <AbilityBonusOption InternalName="Life3">
-            <DisplayName>Life Mage</DisplayName>
+            <DisplayName>Life Mago</DisplayName>
             <Description>Permette the caster alla cast Livello 3 Life spells like Growth e Shrink</Description>
             <Icon>Ability_LifeMage_Icon.png</Icon>
             <GameModifier>
@@ -4389,7 +4389,7 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Life</SpellbookType>
         <AbilityBonusOption InternalName="Life4">
-            <DisplayName>Life Master</DisplayName>
+            <DisplayName>Life Maestro</DisplayName>
             <Description>Permette the caster alla cast Livello 4 Life spells like Call alla Arms e Wellspring</Description>
             <Icon>Ability_LifeExpert_Icon.png</Icon>
             <GameModifier>
@@ -4419,7 +4419,7 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Life</SpellbookType>
         <AbilityBonusOption InternalName="Life5">
-            <DisplayName>Life Archmage</DisplayName>
+            <DisplayName>Life Arcimago</DisplayName>
             <Description>Permette the caster alla cast Livello 5 Life spells like Crusade e Death Ward</Description>
             <Icon>Ability_LifeMaster_Icon.png</Icon>
             <GameModifier>
@@ -4681,21 +4681,21 @@
         <AbilityBonusType>Player</AbilityBonusType>
         <AbilityBonusOption InternalName="LuckyEmpire">
             <DisplayName>Lucky</DisplayName>
-            <Description>All units have +25% alla Schivata e +25% alla Accuratezza</Description>
+            <Description>All unità have +25% alla Schivata e +25% alla Accuratezza</Description>
             <Icon>Ability_Lucky_Icon.png</Icon>
             <GameModifier>
                 <ModType>Player</ModType>
                 <Attribute>AbilityBonus</Attribute>
                 <StrVal>A_UnitStat_Accuracy</StrVal>
                 <Value>25</Value>
-                <Provides>All units are +25% alla Accuratezza</Provides>
+                <Provides>All unità are +25% alla Accuratezza</Provides>
             </GameModifier>
             <GameModifier>
                 <ModType>Player</ModType>
                 <Attribute>AbilityBonus</Attribute>
                 <StrVal>A_UnitStat_Dodge</StrVal>
                 <Value>25</Value>
-                <Provides>All units are +25% alla Schivata</Provides>
+                <Provides>All unità are +25% alla Schivata</Provides>
             </GameModifier>
             <Cost>1</Cost>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -4742,7 +4742,7 @@
     <AbilityBonus InternalName="Marksman3Ability">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Marksman3">
-            <DisplayName>Master Marksman</DisplayName>
+            <DisplayName>Maestro Marksman</DisplayName>
             <Description>+20% Attacco con armi a Punta (attack with bows e spears) e +10 Accuratezza</Description>
             <Icon>Ability_MarksmanIII_Icon.png</Icon>
             <GameModifier>
@@ -4776,7 +4776,7 @@
     <AbilityBonus InternalName="MarksmanAbility">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Marksman">
-            <DisplayName>Apprentice Marksman</DisplayName>
+            <DisplayName>Apprendista Marksman</DisplayName>
             <Description>+10% Attacco con armi a Punta (attack with bows e spears)</Description>
             <Icon>Ability_MarksmanI_Icon.png</Icon>
             <GameModifier>
@@ -4802,7 +4802,7 @@
     </AbilityBonus>
     <AbilityBonus InternalName="MasterOfArmsAbility">
         <AbilityBonusOption InternalName="MasterOfArms">
-            <DisplayName>Master of Arms</DisplayName>
+            <DisplayName>Maestro of Arms</DisplayName>
             <Description>+1 alla the Army's Critical Chance</Description>
             <Icon>Ability_Weaponsmith_Icon.png</Icon>
             <GameModifier>
@@ -4822,7 +4822,7 @@
     <AbilityBonus InternalName="MasterScoutAbility">
         <AbilityBonusType>Player</AbilityBonusType>
         <AbilityBonusOption InternalName="MasterScout">
-            <DisplayName>Master Scouts</DisplayName>
+            <DisplayName>Maestro Scouts</DisplayName>
             <Description>No Movement penalty in Forests, Swamps, Hills or Rivers</Description>
             <Icon>Ability_MasterScouts_Icon.png</Icon>
             <GameModifier>
@@ -4868,8 +4868,8 @@
     <AbilityBonus InternalName="MasterSmithsAbility">
         <AbilityBonusType>Player</AbilityBonusType>
         <AbilityBonusOption InternalName="MasterSmiths">
-            <DisplayName>Master Smiths</DisplayName>
-            <Description>Armor e weapons cost half the normal production.  Upgrading units is half the cost.  It also unlocks the Golem Shield, a massive tower shield which is as impenetrable as it is heavy</Description>
+            <DisplayName>Maestro Smiths</DisplayName>
+            <Description>Armor e weapons cost half the normal production.  Upgrading unità is half the cost.  It also unlocks the Golem Shield, a massive tower shield which is as impenetrable as it is heavy</Description>
             <Icon>Ability_MasterSmiths_Icon.png</Icon>
             <GameModifier>
                 <ModType>Player</ModType>
@@ -5323,7 +5323,7 @@
     <AbilityBonus InternalName="PathOfTheMageAbility">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="PathOfTheMage">
-            <DisplayName>Path of the Mage</DisplayName>
+            <DisplayName>Path of the Mago</DisplayName>
             <Description>-25% the mana cost for incantesimi tattici, +50% spell damage e unlocks traits that improve spellcasting</Description>
             <Icon>Ability_PathOfTheMage_Icon.png</Icon>
             <GameModifier>
@@ -5341,7 +5341,7 @@
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_SpellDamage</StrVal>
                 <Value>0.5</Value>
-                <Provides>+50% Spell Damage</Provides>
+                <Provides>+50% Danno da Incantesimo</Provides>
             </GameModifier>
             <HideWhenUpgraded>0</HideWhenUpgraded>
             <Likelihood>1</Likelihood>
@@ -5690,7 +5690,7 @@
         <AbilityBonusType>Player</AbilityBonusType>
         <AbilityBonusOption InternalName="QuickEmpire">
             <DisplayName>Quick</DisplayName>
-            <Description>All units get +10% Iniziativa</Description>
+            <Description>All unità get +10% Iniziativa</Description>
             <Icon>Ability_Quick_Icon.png</Icon>
             <GameModifier>
                 <ModType>Player</ModType>
@@ -6124,7 +6124,7 @@
         <AbilityBonusType>Unit_Design</AbilityBonusType>
         <AbilityBonusOption InternalName="Shieldwall">
             <DisplayName>Shieldwall</DisplayName>
-            <Description>+5 Difesa alla all units in this unit's army</Description>
+            <Description>+5 Difesa alla all unità in this unit's army</Description>
             <Icon>Ability_Shieldwall_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -6159,7 +6159,7 @@
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Shieldwall_Level">
             <DisplayName>Shieldwall</DisplayName>
-            <Description>+5 Difesa alla all units in this unit's army</Description>
+            <Description>+5 Difesa alla all unità in this unit's army</Description>
             <Icon>Ability_Shieldwall_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -6408,7 +6408,7 @@
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>ChainLightning</StrVal>
-                <Provides>Creates a lightning storm which does up 1-20 Lighting damage alla all enemy units within the area of effect</Provides>
+                <Provides>Creates a lightning storm which does up 1-20 Lighting damage alla all enemy unità within the area of effect</Provides>
             </GameModifier>
             <CombatRating>50</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -6446,7 +6446,7 @@
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>CoalStones</StrVal>
-                <Provides>Lances of fire strike all enemy units for double the caster's level in fire damage.  This damage is halved if the victim resists.</Provides>
+                <Provides>Lances of fire strike all enemy unità for double the caster's level in fire damage.  This damage is halved if the victim resists.</Provides>
             </GameModifier>
             <CombatRating>200</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -6484,7 +6484,7 @@
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>Contagion_Ability</StrVal>
-                <Provides>All enemy units take 3 poison damage per turno for 10 turns, unless they resist</Provides>
+                <Provides>All enemy unità take 3 poison damage per turno for 10 turns, unless they resist</Provides>
             </GameModifier>
             <CombatRating>50</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -6560,7 +6560,7 @@
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>DelinsBreath</StrVal>
-                <Provides>Delin's Breath summons a fireball that shoots at all enemies.  These fireballs do 18 (+6 per frammento del fuoco) fire damage alla all units within a 1 tile radius.  Damage is halved if the target resists</Provides>
+                <Provides>Delin's Breath summons a fireball that shoots at all enemies.  These fireballs do 18 (+6 per frammento del fuoco) fire damage alla all unità within a 1 tile radius.  Damage is halved if the target resists</Provides>
             </GameModifier>
             <CombatRating>10</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -6655,7 +6655,7 @@
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>Fireball_Ability</StrVal>
-                <Provides>A fireball does 4 fire damage alla all units within a 1 tile radius.  Damage is multiplied by the members of the victims unit</Provides>
+                <Provides>A fireball does 4 fire damage alla all unità within a 1 tile radius.  Damage is multiplied by the members of the victims unit</Provides>
             </GameModifier>
             <CombatRating>50</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -6674,7 +6674,7 @@
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>Howl</StrVal>
-                <Provides>All allied units get +1 Attacco per livello of the Caster for the rest of the battle</Provides>
+                <Provides>All allied unità get +1 Attacco per livello of the Caster for the rest of the battle</Provides>
             </GameModifier>
             <CombatRating>100</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -6758,8 +6758,8 @@
     </AbilityBonus>
     <AbilityBonus InternalName="Spell_ShockwaveAbility">
         <AbilityBonusOption InternalName="Spell_Shockwave">
-            <DisplayName>Shockwave</DisplayName>
-            <Description>Permette all'unità di lanciare Shockwave</Description>
+            <DisplayName>Onda d'Urto</DisplayName>
+            <Description>Permette all'unità di lanciare Onda d'Urto</Description>
             <Icon>T_Shockwave_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -6898,7 +6898,7 @@
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>TitansBreath_Ability</StrVal>
-                <Provides>A gust of wind blows all enemy units back a tile e, unless they resist, knocks them prone.</Provides>
+                <Provides>A gust of wind blows all enemy unità back a tile e, unless they resist, knocks them prone.</Provides>
             </GameModifier>
             <CombatRating>50</CombatRating>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -7129,14 +7129,14 @@
         <AbilityBonusType>Player</AbilityBonusType>
         <AbilityBonusOption InternalName="Stealth">
             <DisplayName>Stealth</DisplayName>
-            <Description>Monsters won't attack this player's units</Description>
+            <Description>Monsters won't attack this player's unità</Description>
             <Icon>Ability_Sneak_Icon.png</Icon>
             <GameModifier>
                 <ModType>Player</ModType>
                 <Attribute>AbilityBonus</Attribute>
                 <StrVal>A_MonsterAggression</StrVal>
                 <Value>-100</Value>
-                <Provides>Monsters won't attack this player's units</Provides>
+                <Provides>Monsters won't attack this player's unità</Provides>
             </GameModifier>
             <Cost>1</Cost>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -7420,7 +7420,7 @@
     <AbilityBonus InternalName="Swordsman3Ability">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Swordsman3">
-            <DisplayName>Master Swordsman</DisplayName>
+            <DisplayName>Maestro Swordsman</DisplayName>
             <Description>+20% Attacco con armi da Taglio (attacks with swords e axes) e +2 Iniziativa</Description>
             <Icon>Ability_SwordsmanIII_Icon.png</Icon>
             <GameModifier>
@@ -7454,7 +7454,7 @@
     <AbilityBonus InternalName="SwordsmanAbility">
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="Swordsman">
-            <DisplayName>Apprentice Swordsman</DisplayName>
+            <DisplayName>Apprendista Swordsman</DisplayName>
             <Description>+10% Attacco con armi da Taglio (attacks with swords e axes)</Description>
             <Icon>Ability_SwordsmanI_Icon.png</Icon>
             <GameModifier>
@@ -7654,14 +7654,14 @@
         <AbilityBonusType>Player</AbilityBonusType>
         <AbilityBonusOption InternalName="ToughEmpire">
             <DisplayName>Tough</DisplayName>
-            <Description>All units get +10% Punti per Colpire</Description>
+            <Description>All unità get +10% Punti per Colpire</Description>
             <Icon>Ability_FactionTough_Icon.png</Icon>
             <GameModifier>
                 <ModType>Player</ModType>
                 <Attribute>AbilityBonus</Attribute>
                 <StrVal>A_UnitStat_HitPoints</StrVal>
                 <Value>10</Value>
-                <Provides>All units get +10% Punti per Colpire</Provides>
+                <Provides>All unità get +10% Punti per Colpire</Provides>
             </GameModifier>
             <Cost>1</Cost>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -7790,10 +7790,10 @@
     <AbilityBonus InternalName="TrainSlavesAbility">
         <AbilityBonusOption InternalName="TrainSlaves">
             <DisplayName>Train Slaves</DisplayName>
-            <Description>This faction can train Slaves.  Slaves don't cost wages e cost less labor alla produce but are weaker than normal units.</Description>
+            <Description>This faction can train Slaves.  Slaves don't cost wages e cost less labor alla produce but are weaker than normal unità.</Description>
             <Icon>Ability_TrainSlaves_Icon.png</Icon>
             <GameModifier>
-                <Provides>This faction can train Slaves.  Slaves don't cost wages e cost less labor alla produce but are weaker than normal units.</Provides>
+                <Provides>This faction can train Slaves.  Slaves don't cost wages e cost less labor alla produce but are weaker than normal unità.</Provides>
             </GameModifier>
             <Type>Army</Type>
             <AIData AIPersonality="AI_General">
@@ -7865,7 +7865,7 @@
         <AbilityBonusType>City_Trophy</AbilityBonusType>
         <AbilityBonusOption InternalName="Trophy_Abeix">
             <DisplayName>Eye of Abeix</DisplayName>
-            <Description>Carved from the carapace of the elemental, the pupil inside this giant yellow orb still moves e looks around. (+10% growth, +5 Attacco for defending units)</Description>
+            <Description>Carved from the carapace of the elemental, the pupil inside this giant yellow orb still moves e looks around. (+10% growth, +5 Attacco for defending unità)</Description>
             <Icon>Trophy_EyeOfAbeix.png</Icon>
             <GameModifier>
                 <ModType>ResourceMultiplier</ModType>
@@ -7888,7 +7888,7 @@
         <AbilityBonusType>City_Trophy</AbilityBonusType>
         <AbilityBonusOption InternalName="Trophy_Amhah">
             <DisplayName>Head of Amhah</DisplayName>
-            <Description>This head is a gruesome reminder of the cost of attempting alla appease the titans. (+10% growth, +1 attack for defending units)</Description>
+            <Description>This head is a gruesome reminder of the cost of attempting alla appease the titans. (+10% growth, +1 attack for defending unità)</Description>
             <Icon>Trophy_AmhahHead.png</Icon>
             <GameModifier>
                 <ModType>ResourceMultiplier</ModType>
@@ -7911,7 +7911,7 @@
         <AbilityBonusType>City_Trophy</AbilityBonusType>
         <AbilityBonusOption InternalName="Trophy_Delin">
             <DisplayName>Heart of Delin</DisplayName>
-            <Description>This fissured black stone still glows with the fire of the elemental lord it used alla be a part of. (+10% growth, 50% fire resistance for defending units)</Description>
+            <Description>This fissured black stone still glows with the fire of the elemental lord it used alla be a part of. (+10% growth, 50% fire resistance for defending unità)</Description>
             <Icon>Trophy_DelinsHeart.png</Icon>
             <GameModifier>
                 <ModType>ResourceMultiplier</ModType>
@@ -7934,7 +7934,7 @@
         <AbilityBonusType>City_Trophy</AbilityBonusType>
         <AbilityBonusOption InternalName="Trophy_Morian">
             <DisplayName>Heart of Morian</DisplayName>
-            <Description>The heart of Morian, Ruin of Summer.  Deep within his corrupted shell was a heart that still remembered verdant forests e unscarred lands.  (+10% growth, +5 hit punti for all units trained in this city)</Description>
+            <Description>The heart of Morian, Ruin of Summer.  Deep within his corrupted shell was a heart that still remembered verdant forests e unscarred lands.  (+10% growth, +5 hit punti for all unità trained in this city)</Description>
             <Icon>Trophy_MoriansHeart.png</Icon>
             <GameModifier>
                 <ModType>ResourceMultiplier</ModType>
@@ -7996,7 +7996,7 @@
         <AbilityBonusType>City_Trophy</AbilityBonusType>
         <AbilityBonusOption InternalName="Trophy_Vetrar">
             <DisplayName>Fist of Vetrar</DisplayName>
-            <Description>Shattered off of the elemental lord, this icy fist is still as cold as the arctic e as hard as granite. (+10% growth, 50% cold resistance for defending units)</Description>
+            <Description>Shattered off of the elemental lord, this icy fist is still as cold as the arctic e as hard as granite. (+10% growth, 50% cold resistance for defending unità)</Description>
             <Icon>Trophy_VetrarsFist.png</Icon>
             <GameModifier>
                 <ModType>ResourceMultiplier</ModType>
@@ -8019,13 +8019,13 @@
         <AbilityBonusType>Unit_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="TrueStrike">
             <DisplayName>True Strike</DisplayName>
-            <Description>Permette the unit alla use the True Strike ability, which never misses e does 75% of the units normal damage</Description>
+            <Description>Permette the unit alla use the True Strike ability, which never misses e does 75% of the unità normal damage</Description>
             <Icon>Ability_TrueStrike_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>UnlockCombatAbility</Attribute>
                 <StrVal>TrueStrike</StrVal>
-                <Provides>Attacco which never misses e does 75% of the units normal damage</Provides>
+                <Provides>Attacco which never misses e does 75% of the unità normal damage</Provides>
             </GameModifier>
             <HideWhenUpgraded>0</HideWhenUpgraded>
             <IsCombatAbility>1</IsCombatAbility>
@@ -8068,7 +8068,7 @@
         <AbilityBonusType>Unit_Design</AbilityBonusType>
         <AbilityBonusOption InternalName="Underdog">
             <DisplayName>Underdog</DisplayName>
-            <Description>+3 Attacco contro higher level units</Description>
+            <Description>+3 Attacco contro higher level unità</Description>
             <Icon>Ability_Underdog_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -8076,7 +8076,7 @@
                 <StrVal>UnitStat_Attack_Boost</StrVal>
                 <StrVal2>UnitStat_Level</StrVal2>
                 <Value>3</Value>
-                <Provides>+3 Attacco contro higher level units</Provides>
+                <Provides>+3 Attacco contro higher level unità</Provides>
                 <vsHigher>1</vsHigher>
             </GameModifier>
             <AdditionalTrainingTurns>10</AdditionalTrainingTurns>
@@ -8090,14 +8090,14 @@
     <AbilityBonus InternalName="UndyingCurseAbility">
         <AbilityBonusOption InternalName="UndyingCurse">
             <DisplayName>Undying Curse</DisplayName>
-            <Description>When this unit kills a victim it adds another member alla its group, alla a maximum of 5 units</Description>
+            <Description>When this unit kills a victim it adds another member alla its group, alla a maximum of 5 unità</Description>
             <Icon>Ability_UndyingCurse_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_MaxTroopsFromKills</StrVal>
                 <Value>5</Value>
-                <Provides>When this unit kills a victim it adds another member alla its group, alla a maximum of 9 units</Provides>
+                <Provides>When this unit kills a victim it adds another member alla its group, alla a maximum of 9 unità</Provides>
             </GameModifier>
             <IsCombatAbility>1</IsCombatAbility>
             <Type>Aggressive</Type>
@@ -8168,12 +8168,12 @@
         <AbilityBonusType>Unit_Design</AbilityBonusType>
         <AbilityBonusOption InternalName="Veteran">
             <DisplayName>Veteran</DisplayName>
-            <Description>+1 Level</Description>
+            <Description>+1 Livello</Description>
             <Icon>Ability_Veteran_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
                 <Attribute>FreeLevel</Attribute>
-                <Provides>+1 Level</Provides>
+                <Provides>+1 Livello</Provides>
             </GameModifier>
             <AdditionalTrainingTurns>18</AdditionalTrainingTurns>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -8187,7 +8187,7 @@
         <AbilityBonusType>Champion_Talent</AbilityBonusType>
         <AbilityBonusOption InternalName="VeteranSovereign">
             <DisplayName>Veteran</DisplayName>
-            <Description>+1 Level</Description>
+            <Description>+1 Livello</Description>
             <Icon>Ability_Veteran_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -8383,14 +8383,14 @@
         <AbilityBonusType>Player</AbilityBonusType>
         <AbilityBonusOption InternalName="WarriorCaste">
             <DisplayName>Warrior Caste</DisplayName>
-            <Description>Trained Units start off at 2nd Level</Description>
+            <Description>Trained Units start off at 2nd Livello</Description>
             <Icon>Ability_WarriorCaste_Icon.png</Icon>
             <GameModifier>
                 <ModType>Player</ModType>
                 <Attribute>AbilityBonus</Attribute>
                 <StrVal>A_TrainedUnitBonusLevels</StrVal>
                 <Value>1</Value>
-                <Provides>+1 Level for Trained Units</Provides>
+                <Provides>+1 Livello for Trained Units</Provides>
             </GameModifier>
             <Cost>1</Cost>
             <HideWhenUpgraded>0</HideWhenUpgraded>
@@ -8425,7 +8425,7 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Water</SpellbookType>
         <AbilityBonusOption InternalName="Water1">
-            <DisplayName>Water Apprentice</DisplayName>
+            <DisplayName>Water Apprendista</DisplayName>
             <Description>Permette all'unità di lanciare Livello 1 Water spells like Inspiration e Slow</Description>
             <Icon>Ability_WaterApprentice_Icon.png</Icon>
             <GameModifier>
@@ -8446,7 +8446,7 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Water</SpellbookType>
         <AbilityBonusOption InternalName="Water2">
-            <DisplayName>Water Disciple</DisplayName>
+            <DisplayName>Water Discepolo</DisplayName>
             <Description>Permette all'unità di lanciare Livello 2 Water spells like Chaos e Freeze</Description>
             <Icon>Ability_WaterDisciple_Icon.png</Icon>
             <GameModifier>
@@ -8474,7 +8474,7 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Water</SpellbookType>
         <AbilityBonusOption InternalName="Water3">
-            <DisplayName>Water Mage</DisplayName>
+            <DisplayName>Water Mago</DisplayName>
             <Description>Permette all'unità di lanciare Livello 3 Water spells like Pandemonium e Summon Ice Elemental</Description>
             <Icon>Ability_WaterMage_Icon.png</Icon>
             <GameModifier>
@@ -8500,7 +8500,7 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Water</SpellbookType>
         <AbilityBonusOption InternalName="Water4">
-            <DisplayName>Water Master</DisplayName>
+            <DisplayName>Water Maestro</DisplayName>
             <Description>Permette all'unità di lanciare Livello 4 Water spells like Blizzard e Tidal Wave</Description>
             <Icon>Ability_WaterExpert_Icon.png</Icon>
             <GameModifier>
@@ -8526,7 +8526,7 @@
         <AbilityBonusType>Unit_Spell_Rank</AbilityBonusType>
             <SpellbookType>Water</SpellbookType>
         <AbilityBonusOption InternalName="Water5">
-            <DisplayName>Water Archmage</DisplayName>
+            <DisplayName>Water Arcimago</DisplayName>
             <Description>Permette all'unità di lanciare Livello 5 Water spells like Grip of Winter e Vetrar's Howl</Description>
             <Icon>Ability_WaterMaster_Icon.png</Icon>
             <GameModifier>
@@ -8704,10 +8704,10 @@
         <AbilityBonusType>Player</AbilityBonusType>
         <AbilityBonusOption InternalName="NoArmor">
             <DisplayName>No Armor</DisplayName>
-            <Description>This faction can't craft any armor beyond Leather.  Champions are still able alla use armor they find.</Description>
+            <Description>This faction can't craft any armor beyond Leather.  Campioni are still able alla use armor they find.</Description>
             <Icon>Ability_NoArmor_Icon.png</Icon>
             <GameModifier>
-                <Provides>This faction can't craft any armor beyond Leather.  Champions are still able alla use armor they find.</Provides>
+                <Provides>This faction can't craft any armor beyond Leather.  Campioni are still able alla use armor they find.</Provides>
             </GameModifier>
             <Cost>-1</Cost>
             <Type>Army</Type>
@@ -8717,10 +8717,10 @@
         </AbilityBonusOption>
         <AbilityBonusOption InternalName="NoRangedWeapons">
             <DisplayName>No Ranged Weapons</DisplayName>
-            <Description>This faction's armies cant use ranged weapons like bows e magical staves.  Champions are still able alla use the ranged weapons they find.</Description>
+            <Description>This faction's armies cant use ranged weapons like bows e magical staves.  Campioni are still able alla use the ranged weapons they find.</Description>
             <Icon>Ability_NoRangedWeapons_Icon.png</Icon>
             <GameModifier>
-                <Provides>This faction's armies cant use ranged weapons like bows e magical staves.  Champions are still able alla use the ranged weapons they find.</Provides>
+                <Provides>This faction's armies cant use ranged weapons like bows e magical staves.  Campioni are still able alla use the ranged weapons they find.</Provides>
             </GameModifier>
             <Cost>-1</Cost>
             <Type>Weakness</Type>
@@ -8748,7 +8748,7 @@
         </AbilityBonusOption>
         <AbilityBonusOption InternalName="VulnerableEmpire">
             <DisplayName>Vulnerable To Magic</DisplayName>
-            <Description>All units get -20% alla Resistenza agli Incantesimi</Description>
+            <Description>All unità get -20% alla Resistenza agli Incantesimi</Description>
             <Icon>Ability_Vulnerable_Icon.png</Icon>
             <GameModifier>
                 <ModType>Player</ModType>
@@ -8788,7 +8788,7 @@
         </AbilityBonusOption>
         <AbilityBonusOption InternalName="Armorer">
             <DisplayName>Armorer</DisplayName>
-            <Description>All units get +25% alla Difesa</Description>
+            <Description>All unità get +25% alla Difesa</Description>
             <Icon>Ability_Armorer_Icon.png</Icon>
             <GameModifier>
                 <ModType>Player</ModType>
@@ -8820,7 +8820,7 @@
         </AbilityBonusOption>
         <AbilityBonusOption InternalName="BanditLord">
             <DisplayName>Bandit Lord</DisplayName>
-            <Description>Player starts with two Bandit units e has the ability alla convert bandits</Description>
+            <Description>Player starts with two Bandit unità e has the ability alla convert bandits</Description>
             <Icon>Ability_Thief_Icon.png</Icon>
             <GameModifier>
                 <Provides>Sblocca the Recruit Bandit spell</Provides>
@@ -8867,7 +8867,7 @@
             <Description>+30% value of trades, +20 Influence e the Silver Tongue ability</Description>
             <Icon>Ability_Diplomatic_Icon.png</Icon>
             <GameModifier>
-                <Provides>Sblocca the Silver Tongue ability which allows the unit alla use Influence alla convert trained units</Provides>
+                <Provides>Sblocca the Silver Tongue ability which allows the unit alla use Influence alla convert trained unità</Provides>
             </GameModifier>
             <GameModifier>
                 <ModType>Player</ModType>
@@ -8998,7 +8998,7 @@
                 <Attribute>AdjustUnitStat</Attribute>
                 <StrVal>UnitStat_SpellDamage</StrVal>
                 <Value>0.5</Value>
-                <Provides>+50% Spell Damage</Provides>
+                <Provides>+50% Danno da Incantesimo</Provides>
             </GameModifier>
             <Cost>1</Cost>
             <Type>Spell</Type>
@@ -9048,7 +9048,7 @@
         </AbilityBonusOption>
         <AbilityBonusOption InternalName="Cowardly">
             <DisplayName>Cowardly</DisplayName>
-            <Description>-30 alla Accuratezza quando attacking higher level units</Description>
+            <Description>-30 alla Accuratezza quando attacking higher level unità</Description>
             <Icon>Ability_Cowardly_Icon.png</Icon>
             <GameModifier>
                 <ModType>Unit</ModType>
@@ -9056,7 +9056,7 @@
                 <StrVal>UnitStat_Accuracy</StrVal>
                 <StrVal2>UnitStat_Level</StrVal2>
                 <Value>-30</Value>
-                <Provides>-30 alla Accuratezza quando attacking higher level units</Provides>
+                <Provides>-30 alla Accuratezza quando attacking higher level unità</Provides>
                 <vsHigher>1</vsHigher>
             </GameModifier>
             <Cost>-1</Cost>
@@ -9172,7 +9172,7 @@
         </AbilityBonusOption>
         <AbilityBonusOption InternalName="UnlockFortress">
             <DisplayName>Fortress</DisplayName>
-            <Description>Enables Fortress improvements e increases the level of units trained here by 1.  Select this alla dedicate your city alla defense e military pursuits.</Description>
+            <Description>Enables Fortress improvements e increases the level of unità trained here by 1.  Select this alla dedicate your city alla defense e military pursuits.</Description>
             <Icon>K_Fortress_Thumb_02.png</Icon>
             <GameModifier>
                 <ModType>City</ModType>
@@ -9244,7 +9244,7 @@
         </AbilityBonusOption>
         <AbilityBonusOption InternalName="UnlockGuildGrocer">
             <DisplayName>Guild Grocer</DisplayName>
-            <Description>Guild Grocers improve the Punti per Colpire of all your units by 10%.</Description>
+            <Description>Guild Grocers improve the Punti per Colpire of all your unità by 10%.</Description>
             <Icon>K_Bakery_Thumb_01.png</Icon>
             <GameModifier>
                 <ModType>City</ModType>
@@ -9267,7 +9267,7 @@
         </AbilityBonusOption>
         <AbilityBonusOption InternalName="UnlockInfirmary">
             <DisplayName>Infirmary</DisplayName>
-            <Description>Infirmaries provide +1 Growth e heal 10 Punti per Colpire per season alla units that are stationed in the city.</Description>
+            <Description>Infirmaries provide +1 Growth e heal 10 Punti per Colpire per season alla unità that are stationed in the city.</Description>
             <Icon>K_Infirmary_Thumb_01.png</Icon>
             <GameModifier>
                 <ModType>City</ModType>
@@ -9359,7 +9359,7 @@
         </AbilityBonusOption>
         <AbilityBonusOption InternalName="UnlockStrikeGarrison">
             <DisplayName>Strike Garrison</DisplayName>
-            <Description>Strike Garrisons give all units trained in this city the Impulsive trait (the ability alla go first in combattimento).</Description>
+            <Description>Strike Garrisons give all unità trained in this city the Impulsive trait (the ability alla go first in combattimento).</Description>
             <Icon>K_Strike_Garrison_Thumb_01.png</Icon>
             <GameModifier>
                 <ModType>City</ModType>
@@ -9405,7 +9405,7 @@
         </AbilityBonusOption>
         <AbilityBonusOption InternalName="UnlockWatchtower">
             <DisplayName>Watchtower</DisplayName>
-            <Description>Watchtowers give defending units +5 alla Iniziativa e provide the city with a free Catapult quando defending.</Description>
+            <Description>Watchtowers give defending unità +5 alla Iniziativa e provide the city with a free Catapult quando defending.</Description>
             <Icon>K_Watchtower_Thumb_01.png</Icon>
             <GameModifier>
                 <ModType>City</ModType>
@@ -9641,7 +9641,7 @@
         <AbilityBonusType>City_Level</AbilityBonusType>
         <AbilityBonusOption InternalName="UnlockGreatArena">
             <DisplayName>Great Arena</DisplayName>
-            <Description>The Great Arena increases your Faction Prestige by 1.  All units trained in this city will have +1 alla Attacco e +3 alla Punti per Colpire.</Description>
+            <Description>The Great Arena increases your Faction Prestige by 1.  All unità trained in this city will have +1 alla Attacco e +3 alla Punti per Colpire.</Description>
             <Icon>K_Great_Arena_Thumb_01.png</Icon>
             <GameModifier>
                 <ModType>City</ModType>
@@ -9802,7 +9802,7 @@
         </AbilityBonusOption>
         <AbilityBonusOption InternalName="UnlockTowerOfTheMagi">
             <DisplayName>Tower of the Magi</DisplayName>
-            <Description>The Tower of the Magi increases the spell resistance of all units produced in this city by 10 e protects the city from the spells of enemy casters.</Description>
+            <Description>The Tower of the Magi increases the spell resistance of all unità produced in this city by 10 e protects the city from the spells of enemy casters.</Description>
             <Icon>K_Tower_of_The_Magi_Thumb_01.png</Icon>
             <GameModifier>
                 <ModType>City</ModType>
