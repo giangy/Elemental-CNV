@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<MountainTypes>
+
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName</Ignore>
+		<Translate>DisplayName,TerrainName</Translate>		
+	</DataChecksum>
+
+	<!--TEMPORARY: Lite Brown and Green Grass Mountains-->
+	<MountainType InternalName="GrassyMountains_Large01">
+		<Model>gfx/characters/Conclave_Mountains.hkb</Model>
+		<IsWaterfall>TRUE</IsWaterfall>
+	</MountainType>
+
+	<MountainType InternalName="GrassyMountains_Large02">
+		<Model>gfx/characters/Conclave_Mountain_Range.hkb</Model>
+	</MountainType>
+
+	<MountainRangeType InternalName="TEMP_GrassyMountainRange01">
+		<Primary>GrassyMountains_Large01</Primary>
+		<Secondary>GrassyMountains_Large02</Secondary>
+		<Tertiary>GrassyMountains_Large02</Tertiary>
+		<AmbientSFX>AmbientSFX_Mountains01</AmbientSFX>
+	</MountainRangeType>
+
+	<!--TEMPORARY: Dark Brown Snow Covered Mountains-->
+	<MountainType InternalName="RockyMountain_Peak01">
+		<Model>gfx/characters/kingdom_mountain_center.hkb</Model>
+	</MountainType>
+
+	<MountainType InternalName="RockyMountain_Secondary01">
+		<Model>gfx/characters/kingdom_mountain_medium.hkb</Model>
+	</MountainType>
+
+	<MountainType InternalName="RockyMountain_Tertiary01">
+		<Model>gfx/characters/kingdom_mountain_medium_secondary.hkb</Model>
+	</MountainType>
+
+	<MountainType InternalName="RockyMountain_Boulder">
+		<Model>gfx/characters/kingdom_boulder.hkb</Model>
+		<Frequency>10</Frequency>
+	</MountainType>
+
+	<MountainType InternalName="RockyMountain_Plateau">
+		<Model>gfx/characters/kingdom_plateau.hkb</Model>
+		<Frequency>30</Frequency>
+	</MountainType>
+	
+	<MountainRangeType InternalName="TEMP_RockyMountainRange01">
+		<Primary>RockyMountain_Peak01</Primary>
+		<Secondary>RockyMountain_Secondary01</Secondary>
+		<Tertiary>RockyMountain_Boulder</Tertiary>
+		<Tertiary>RockyMountain_Plateau</Tertiary>
+		<Tertiary>RockyMountain_Tertiary01</Tertiary>
+		<AmbientSFX>AmbientSFX_Mountains01</AmbientSFX>
+	</MountainRangeType>
+		
+</MountainTypes>

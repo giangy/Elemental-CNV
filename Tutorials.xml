@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Tutorials>
+	<DataChecksum NoParse="1">
+		<Ignore>Description, DisplayName, Icon, EyeTextureFilename, SupportedUnitModelType, Image_Wide, Image_Square</Ignore>
+		<Translate>DisplayName, Description</Translate>
+	</DataChecksum>
+
+	<Tutorial InternalName="Tutorial_Hiergamenon">
+		<Title>Hiergamenon</Title>
+		<Image>Tech_Immortal_Codex.png</Image>
+		<TutorialText>The Hiergamenon is the in-game manual for Elemental: Fallen Enchantress.  Use it to look up the details on monsters, spells, improvements or other aspects of the game that you may have questions about.
+		
+The game concepts section of the Hiergamenon is especially helpful for detailing the game mechanics and includes videos that cover game play.
+</TutorialText>
+	</Tutorial>
+  
+	<Tutorial InternalName="Tutorial_FirstSettlement">
+		<Title>Introduction</Title>
+		<TutorialText>Welcome to the world of Elemental, where your goal is to build a magical kingdom and fight back the nations and creatures that stand in your way.
+ 
+First, you will want to find a plot of land suitable for your Capital. Left click to select your sovereign unit, then right click to move them.
+
+If you run out of moves, you will need to press the turn button to advance to the next season.
+
+Where you place your city is very important. As a general rule, building near resources, rivers and green or purple land is your best bet. Once you find a suitable spot use the Settle action to place your city. 
+
+For more information, check out the city placement tutorial in the basic concepts section of the Hiergamenon.</TutorialText>
+		<Movie>movies\\FE_Tutorial_Welcome.bik</Movie>
+		<TutorialTrigger>GAME_START</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>Welcome to Fallen Enchantress! Watch the tutorial to learn more about your first game.</PopupText>
+		<PopupPriority>1</PopupPriority>
+	</Tutorial>
+
+	<Tutorial InternalName="Tutorial_FirstTrain">
+		<Title>Training Units</Title>
+		<TutorialText>In the train menu you can enlist the help of several types of units.
+      
+If exploration is your goal, select the Scout option and press the TRAIN button. Units being trained will appear in the city queue.
+
+If you are looking to expand your Kingdom, you'll want to train some Pioneer units. They can start new cities and establish outposts on the fringe of civilization.
+
+If you wish to increase your military might, you will find Milita and Spearmen units available.
+
+As your technology improves, these unit types will come outfitted with the best equipment available. Should something more specific be preferred, you can create new unit types by pressing the DESIGN button.</TutorialText>
+    <Movie>movies\\FE_Tutorial_TrainUnits.bik</Movie>
+		<TutorialTrigger>UI_FIRSTPRESS_TRAINUNIT</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>Want to know more about training units?  Watch the tutorial for more info.</PopupText>
+		<PopupPriority>1</PopupPriority>
+	</Tutorial>
+	
+	<Tutorial InternalName="Tutorial_FirstBuild">
+		<Title>Building Improvements</Title>
+		<TutorialText>Improvements can provide your city with a number of bonuses that range from increasing your research to providing every unit trained in the city with a special trait.
+
+In order to construct Improvements you will want to use the City's BUILD menu. Use the list to select an improvement, then left click on the placement grid to add it to the construction queue.
+
+Buildings will take multiple seasons to construct.  As your production increases the number of seasons required will be reduced.
+
+Certain Improvements have a maintenance cost, which will require you to pay Gildar-per-turn once they are constructed. While these costs are generally low they can add up over time.
+
+Some Improvements can only have a limited number of them built. While most of these special improvements are limited to one-per-player, others are limited to one in the entire world.</TutorialText>
+		<Movie>movies\\FE_Tutorial_BuildImprovements.bik</Movie>
+		<TutorialTrigger>UI_FIRSTPRESS_CITYBUILDBTN</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>Want to know more about building Improvements?  Watch the tutorial for more info.</PopupText>
+		<PopupPriority>1</PopupPriority>
+	</Tutorial>
+	
+	<Tutorial InternalName="Tutorial_FirstCity">
+		<Title>Cities</Title>
+		<TutorialText>In a city you can train new units and build up your city by constructing Improvements. Only one unit or Improvement can be constructed at a given time. 
+		
+		The speed you train units and construct Improvements will increase as your production gets higher, you can increase your your production by building Improvements and increasing your population.
+		
+		If you would like to see more detailed information on your city, including its yield, income, reasearch and production breakdowns click its medallion or the "Details" button to open the city details screen.			
+		</TutorialText>
+		<Image>Building_Keep1.png</Image>
+		<!--<Movie>movies\\Logo.bik</Movie>-->
+		<!--<TutorialTrigger>UI_FIRSTSELECT_PLAYERCITY</TutorialTrigger>-->
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>Want to know more about what you can do in a city?  Watch the tutorial for more info.</PopupText>
+		<PopupPriority>1</PopupPriority>
+	</Tutorial>
+	
+	<Tutorial InternalName="Tutorial_CityDetails">
+		<Title>City Details</Title>
+		<TutorialText>The effectiveness of your cities is broken down into four different areas: Growth, Production, Research and Gildar.
+		
+		Your Growth rate dictates the rate your population will increase, which in turn affects your Production, Research and Gildar. 
+		
+		Each city has a maximum population designated by that the food in that city. Your food is derived from the food tile yield of the city's starting tile, along with any technology or Improvement modifiers. 
+		
+		Your Production is calculated from your base value from the production tile yield of the city's starting tile, along with any technology or Improvement modifiers and a bonus for your productive population. 
+		
+		Your Research is provided by your total productive population and can be modified by a number of factors including Technologies, Improvements and Champions.
+		
+		Your Gildar income is primarily provided by your taxing your populace, which is affected by your population and current global tax rate.
+		
+		On this screen you can also see your resource income in this city along with any enchantments or improvements in the city and all of the city's guardian units. The higher population the of a city the more guardians it will have.
+		</TutorialText>
+		<!--<Movie>movies\\Logo.bik</Movie>-->
+		<Image>Building_LargeCity1.png</Image>
+		<TutorialTrigger>UI_FIRSTPRESS_CITYDETAILS</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>Want to know more about how your city functions?  Watch the tutorial for more info.</PopupText>
+		<PopupPositionOrigin>SCREEN_CENTER</PopupPositionOrigin>
+		<PopupXOffset>223</PopupXOffset>
+		<PopupYOffset>177</PopupYOffset>
+		<PopupPriority>1</PopupPriority>
+	</Tutorial>	
+	
+	<Tutorial InternalName="Tutorial_UnitDesign">
+		<Title>Unit Design</Title>
+		<TutorialText>At the unit design screen you can setup the different types of units your faction can make. You can customize current designs, or start from scratch if you would prefer.
+
+		When setting up a unit you can choose what they look like along with the weapons and armor they will come outfitted with. 
+		
+		If you dont want to lock your unit into a specific equipment you can choose to have it always use the best available armor and weapon of a certain type. If you do then as you unlock new armor and weapon technologies you will not have to always make new units. 
+		
+		In addition your units can equip traits to further specialize them: unlock more slots for your designed units in the military tech tree.
+		</TutorialText>
+		<!--<Movie>movies\\Logo.bik</Movie>-->
+		<Image>Archer_Medallion.png</Image>
+		<TutorialTrigger>UI_FIRSTPRESS_DESIGNUNITS</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>Want to know more about designing your own units?  Watch the tutorial for more info.</PopupText>
+		<PopupPositionOrigin>SCREEN_CENTER</PopupPositionOrigin>
+		<PopupXOffset>223</PopupXOffset>
+		<PopupYOffset>177</PopupYOffset>
+		<PopupPriority>1</PopupPriority>
+	</Tutorial>		
+	
+	<Tutorial InternalName="Tutorial_Armies">
+		<Title>Armies</Title>
+		<TutorialText>
+		Armies are composed of a number of trained units or Champions. 
+		
+		You can see how many units are in your army in the context area at the bottom of the screen. Armies have a limited number of slots available for units so be careful with your group composition. 
+		
+		To eject a unit from an army simply select it and click the eject arrow, or right click to move it out manually.
+		</TutorialText>
+		<Image>K_Warfare.png</Image>
+		<!--<Movie>movies\\Logo.bik</Movie>-->
+		<!--<TutorialTrigger>UI_FIRSTSELECT_ARMYUNIT</TutorialTrigger>-->
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>Want to know more about armies?  Watch the tutorial for more info.</PopupText>
+		<PopupPriority>1</PopupPriority>
+	</Tutorial>			
+  
+	<Tutorial InternalName="Tutorial_FirstPioneer">
+		<Title>Pioneers</Title>
+		<TutorialText>Pioneers are a necessity to expand your Kingdom. After your Sovereign has founded your capital they are the only way for you to found new cities. 
+		
+		Where you choose to place a city is very important. Placing a city near monster lairs will cause them the lair to be destroyed when your influence expands over it. While this may seem good at the outset, keep in mind that the monster itself will now be unleashed and looking for vengeance.
+
+		Also, every city you place will have varied potential based on the yields of tile you settle on. You can see the yields of a particular tile by hovering over the settle button or clicking the tile yield icon on the terrain window. 
+		
+		There are two kinds of yields, Grain and Materials. 
+		
+		The higher the Grain yields the more food your city will produce for itself, and thus the city will have a higher possible maximum population. 
+		
+		The higher the Material yields the more production your city will be able to produce, and thus the city will train units and construct improvements faster. At least one Grain is required to found a new city on a tile.
+	
+		In addition to being able found cities, your pioneers can also build outposts. Outposts will provide you with vision of a specific area and spread your influence without being a whole new city. 
+		
+		Choose wisely as either action will consume your Pioneer unit.
+		</TutorialText>
+		<Movie>movies\\FE_Tutorial_Pioneers.bik</Movie>
+		<TutorialTrigger>TRAIN_FIRST_PIONEER</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>You have trained your first Pioneer! Want to know more about Pioneers?  Watch the tutorial for more info.</PopupText>
+	</Tutorial>		
+	
+	<Tutorial InternalName="Tutorial_Research">
+		<Title>Research</Title>
+		<TutorialText>Research is one of the primary ways of advancing your faction. New equipment, improvements, units, spells, and diplomatic options can all be unlocked through researching new technologies.
+
+There are three different technology trees for your scholars to focus on - Civilization, Warfare and Magic.
+
+Civilization will help you improve you cities and strengthen your economy by unlocking new improvements and faction bonuses.
+
+Warfare will help you strengthen your military and Champions by providing you with new weaponry, equipment and training techniques for all your units.
+
+Magic will provide you with increased magical prowess, new spells and magical items. In addition the magic tree unlocks the ability to undertake higher level quests and recruit more powerful Champions around the world.
+
+To research a technology select it then press the DONE button.  Any pre-requisite techs to the one you have selected will be added to the research queue, even those that are in a different tree.
+    </TutorialText>
+		<Movie>movies\\FE_Tutorial_Research.bik</Movie>
+		<!--<TutorialTrigger>UI_FIRSTUNHIDE_RESEARCHWND</TutorialTrigger>-->
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>Want to know more about Research?  Watch the tutorial for more info.</PopupText>
+    <PopupPositionOrigin>SCREEN_CENTER</PopupPositionOrigin>
+    <PopupXOffset>223</PopupXOffset>
+    <PopupYOffset>37</PopupYOffset>
+    <PopupPriority>1</PopupPriority>
+	</Tutorial>		
+
+	<Tutorial InternalName="Tutorial_Shards">
+		<Title>Shards</Title>
+		<TutorialText>
+		Shards are important because they add to the amount of mana a player earns each turn in addition to improving the effect of many of the spells in the game.  For example, "fireball for 6 damage (+3 per fire shard)", means it does 6 damage for a player who doesn't control any fire shards, 9 damage for a player that controls 1 fire shard and 15 damage for a player that controls 3 fire shards.
+
+		The world starts populated with Life shards, but if these fall into Empire territory they are automatically converted to Death shards.  Taking these shards from your enemies both weakens their spells, and strengthens your own.
+
+		There is a world option that controls the frequency of shards in the world.  Having more shards in the world means that players will be receiving more mana and that spells will be more powerful.
+		</TutorialText>
+		<Image>FireCrystal_Medallion.png</Image>
+		<!--<Movie>movies\\Logo.bik</Movie>-->
+		<TutorialTrigger>UI_FIRSTUNCOVERED_SHARD</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>You have discovered your first Shard! Want to know more about Shards?  Watch the tutorial for more info.</PopupText>
+    <ReportItemText>You have discovered your first Elemental Shard! Use them to fuel your magical might.</ReportItemText>
+	</Tutorial>
+  
+	<Tutorial InternalName="Tutorial_Resource">
+		<Title>Wild Resources</Title>
+		<TutorialText>
+		Wild resources can provide you with the materials needed to forge your armies. Plus, many wild resources provide massive bonuses to whatever city they are attached to. 
+		
+		In order to take advantages of these bonus you will need to build a city close enough to the resource for it to end up in the city's influence.
+		
+		Once this has happened you will need to research whatever pre-requisite technology is required for that particular resource, then click on the resource itself and select to build an improvement on it.
+		
+		When the improvement is finished you will gain the benefit of it in your nearest city. Note that you can use outposts to claim resources further from your cities and the bonus will apply to the closest actual city.
+		</TutorialText>
+		<Movie>movies\\FE_Tutorial_Resources.bik</Movie>
+		<TutorialTrigger>UI_FIRSTUNCOVERED_RESOURCEHOARD</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>You have discovered your first Wild Resource! Want to know more about Resources?  Watch the tutorial for more info.</PopupText>
+    <ReportItemText>You have discovered your first Wild Resource! Use them to power your faction.</ReportItemText>
+	</Tutorial>
+  
+	<Tutorial InternalName="Tutorial_Recruitment">
+		<Title>Champion Camps</Title>
+		<TutorialText>
+		The Champions of Elemental are scattered around the world in camps based on their level. 
+		
+		Any Champion of the same Allegiance as you can be recruited by moving a unit next to them, right clicking them, or clicking their recruit button, and paying their requested fee. 
+		
+		Enemy champions can be slain to deny them to your foes and could provide your forces with useful items and experience.
+		
+		Higher level Champions wont be recruitable until you research certain technologies in the Magic research tree.
+		</TutorialText>
+        <Movie>movies\\FE_Tutorial_RecruitChampion.bik</Movie>
+		<TutorialTrigger>UI_FIRSTUNCOVERED_NPCCAMP</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>You have discovered a Champion Camp! To learn more about recruiting Champions click the watch tutorial button.</PopupText>
+	</Tutorial>
+	
+	<Tutorial InternalName="Tutorial_FirstChampion">
+		<Title>Champions</Title>
+		<TutorialText>
+		Champions are the heroes of the world of Elemental. 
+		
+		They are different from your trained units in that they can cast spells, equip new gear and level up, much like your Sovereign. 
+				
+		When they level up you will be able to choose a trait to learn, similarly to your Sovereign. As you unlock new technologies be sure to check out your shops for new weapons and armor for them. You can shop with any champion by clicking the shop button on their action bar while they are in a city's influence.
+		</TutorialText>
+		<Image>FemaleWarrior.png</Image>
+		<!--<Movie>movies\\Logo.bik</Movie>-->
+		<TutorialTrigger>UI_FIRST_NPC_RECRUITED</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>You have recruited your first Champion! Want to know more about Champions?  Watch the tutorial for more info.</PopupText>
+	</Tutorial>
+
+	<Tutorial InternalName="Tutorial_LevelUp">
+		<Title>Leveling Up</Title>
+		<TutorialText>
+		Every time a Champion you control or your Sovereign levels up you will be able to learn a new trait. 
+		
+		Traits provide a variety of effects to improve your units and your options will change every time you level. Some traits are less common than others so keep your eyes peeled for awesome rare traits. 
+		
+		Spellbooks are unique traits you can select that unlock new spells. The more you specialize in a certain spell school the more likely that school's traits will show up in the future.
+		</TutorialText>
+		<Image>Ambrose.png</Image>
+		<!--<Movie>movies\\Logo.bik</Movie>-->
+		<TutorialTrigger>UI_FIRST_UNIT_LEVELUP</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>One of your units has gained a level! Want to know more about leveling up?  Watch the tutorial for more info.</PopupText>
+		<PopupPriority>1</PopupPriority>		
+	</Tutorial>
+	
+	<Tutorial InternalName="Tutorial_Spells">
+		<Title>Spells</Title>
+		<TutorialText>From the SPELLBOOK on the main screen you can cast any strategic spell known by your Sovereign or any imbued champion you control.
+
+Strategic spells include any spell that can be cast on the main map. Tactical spells are your selection of spells that can only be cast in combat.
+
+If you would like to see a unit's list of available spells you can select that unit and click its DETAILS button.
+
+In order to cast a spell simply select it in the spellbook and click the CAST SPELL button. Most spells require a specific target. If so, you will then be prompted to select that target before the spell is cast. If you are unable to cast a spell, the game will explain why you cant via a tool-tip.
+    </TutorialText>
+		<Movie>movies\\FE_Tutorial_Spellbook.bik</Movie>
+		<TutorialTrigger>UI_FIRSTOPEN_SPELLBOOK</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>Want to know more about casting spells?  Watch the tutorial for more info.</PopupText>
+		<PopupPriority>1</PopupPriority>	
+	</Tutorial>	
+	
+	<Tutorial InternalName="Tutorial_MonsterLair">
+		<Title>Monster Lairs</Title>
+		<TutorialText>
+		Monster lairs are the homes of the nasties of the world of Elemental. 
+		
+		From a simple bandit camp to deadly dragon caves, lairs can vary greatly based on their inhabitants. 
+		
+		While most creatures are usually content to remain on or in close proximity to their lair, it is important to note that should you build a city that expands its influence over a monster lair you will cause any creature living there to become homeless. 
+		
+		When a dangerous beast has nothing left to protect there is no telling what it might do, or where it may look to extract it's vengeance.
+		</TutorialText>
+		<Movie>movies\\FE_Tutorial_MonsterLairs.bik</Movie>
+		<TutorialTrigger>UI_FIRSTUNCOVERED_MONSTERLAIR</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>You have discovered a monster lair! Want to know more about monster lairs?  Watch the tutorial for more info.</PopupText>
+	</Tutorial>		
+	
+	<Tutorial InternalName="Tutorial_Quests">
+		<Title>Quests</Title>
+		<TutorialText>
+		Quests are adventures and tasks you can undertake to get treasure and experience for your Champions. 
+		
+		In order to start a quest you need to move a Champion or your Sovereign onto a quest location, note that while trained units cannot start a quest they usually can still assist in their completion. 
+		
+		Once you start a quest the next objective you need to complete will be listed in your quest tracker on the left side of the main UI. 
+		
+		If you ever get lost you can click the icon to focus on the next step in the world. 
+		
+		Each quest will require you to do different things to complete them so get out there and see them all.
+		</TutorialText>
+		<Image>Education.png</Image>
+		<!--<Movie>movies\\Logo.bik</Movie>-->
+		<TutorialTrigger>UI_FIRSTUNCOVERED_QUESTLOCATION</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>You have discovered a quest location! Want to know more about quest?  Watch the tutorial for more info.</PopupText>
+	</Tutorial>		
+
+	<Tutorial InternalName="Tutorial_Wildlands">
+		<Title>Wildlands</Title>
+		<TutorialText>
+		Wildlands are home to creatures of great power. While they are dangerous, they can also reward anyone brave enough to conquer them and discover their secrets. 
+		
+		All Wildlands are different and have different ways to unlock their potential, you will have to explore them each to figure out how to defeat them. 
+		
+		For those that do, expect to find great treasure and powerful resources for your Empire, once a Wildland has been fully cleansed you will be able to build cities in the reformed land.
+		</TutorialText>
+		<Image>P_Chasm_01.png</Image>
+		<!--<Movie>movies\\Logo.bik</Movie>-->
+		<TutorialTrigger>UI_FIRSTUNCOVERED_WILDLAND</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>You have discovered a Wildland! Want to know more about Wildlands?  Watch the tutorial for more info.</PopupText>
+	</Tutorial>		
+
+	<Tutorial InternalName="Tutorial_Goodiehuts">
+		<Title>Goodie Huts</Title>
+		<TutorialText>
+		Goodie huts are points of interest in the world from years past. 
+		
+		They are the remnants of a past battle or traveller and often contain minor treasures. 
+		
+		In order to claim them simply move a Champion or your Sovereign onto them.
+		</TutorialText>
+		<Movie>movies\\FE_Tutorial_GoodieHuts.bik</Movie>
+		<TutorialTrigger>UI_FIRSTUNCOVERED_GOODIEHUT</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>You have discovered a goodie hut! Want to know more about goodie huts?  Watch the tutorial for more info.</PopupText>
+    <ReportItemText>You have discovered your first goodie hut! Visit these locations to claim these lost treasures.</ReportItemText>
+	</Tutorial>			
+	
+	<Tutorial InternalName="Tutorial_Citylevelup">
+		<Title>City Level Up</Title>
+		<TutorialText>
+		You cities will level up as you hit specific population milestones in them over time. 
+		
+		You can check how many more people you need to reach the next level at any time on the main city interface. 
+		
+		When a city levels up you can pick from a selection of unique city improvements. These improvements are only available through city level up bonuses so choose which you want wisely.
+
+		In addition, as you get to higher levels your selection will vary greatly, keep an eye out for rare improvements. 
+		
+		Note that an improvement you select from leveling up will still need to be built in order to get its benefits, selecting it here unlocks it for construction in that city.
+		</TutorialText>
+		<Image>Brilliance_Painting.png</Image>
+		<!--<Movie>movies\\Logo.bik</Movie>-->
+		<TutorialTrigger>FIRST_CITY_LEVEL_UP</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>One of your cities has leveled up! Want to know more about cities leveling up?  Watch the tutorial for more info.</PopupText>
+		<PopupPriority>1</PopupPriority>
+	</Tutorial>	
+	
+
+	
+	<Tutorial InternalName="Tutorial_Equipment">
+		<Title>Equipment and Stats</Title>
+		<TutorialText>
+		On the unit detail screen you can see everything there is to know about a given unit.
+		
+		In the left frame you can see the unit itself, its traits, any items it has equipped and its current encumbrance level. 
+		
+		The top of right frame displays the unit's total stats, if you would like to know what a particular stat does or where the numbers are coming from feel free to hover over it for more information.
+		
+		The bottom of the right frame varies depending on what unit you are looking at. 
+		
+		With your Champions and Sovereign you can click the Equipment button to manage their inventory and equip new items, allowing you to see the direct impact your new gear will have on your character. 
+		
+		For any other unit this area is used to display their history and any spells that unit could cast. This information is still available to you via the Details button for your Champions.
+		</TutorialText>
+		<Image>LeatherArmor.png</Image>
+		<!--<Movie>movies\\Logo.bik</Movie>-->
+		<TutorialTrigger>UI_FIRSTUNHIDE_UNITEQUIPMENT</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>Want to know more about Equipment and Stats?  Watch the tutorial for more info.</PopupText>
+		<PopupPositionOrigin>SCREEN_CENTER</PopupPositionOrigin>
+		<PopupXOffset>223</PopupXOffset>
+		<PopupYOffset>177</PopupYOffset>
+		<PopupPriority>1</PopupPriority>
+	</Tutorial>		
+
+	<Tutorial InternalName="Tutorial_Tradingshopping">
+		<Title>Trading and Shopping</Title>
+		<TutorialText>
+		From this screen you can trade, equip, buy and sell items all from the same window. 
+		
+		If you would like to you can switch which units are trading or shopping by clicking the arrows at the top and bottom of the window. 
+		
+		If you are in a city's influence zone you can shop by switching the bottom unit to the shopkeeper. 
+		
+		If you would like to equip something you can click the equip button or select "Trade and Equip" or "Buy and Equip" as a short cut when you perform your action. Double clicking will perform the default action on an item, which is highlighted in the middle of the screen.
+		</TutorialText>
+		<!--<Movie>movies\\Logo.bik</Movie>-->
+		<Image>Tech_Refined_Armor.png</Image>
+		<TutorialTrigger>UI_FIRSTUNHIDE_TRADEEQUIPMENTWND</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>Want to know more about trading items and shopping?  Watch the tutorial for more info.</PopupText>
+		<PopupPositionOrigin>SCREEN_CENTER</PopupPositionOrigin>
+		<PopupXOffset>223</PopupXOffset>
+		<PopupYOffset>177</PopupYOffset>
+		<PopupPriority>1</PopupPriority>
+	</Tutorial>	
+	
+	<Tutorial InternalName="Tutorial_Govern">
+		<Title>Faction Government</Title>
+		<TutorialText>
+		From the Government screen you can manage all aspects of your Faction. 
+		
+		The design units pane is where you can customize the trained units of your faction, add new designs and retire old ones.
+		
+		The research pane will allow you to change your current research and learn more about the possible technologies you could learn. 
+		
+		The foreign relations screen breaks down your relationships with other factions in the world and allow you to open up lines of communication with both your allies and enemies.
+		
+		The kingdom report is your go to screen for a big picture view of the current state of your faction. You can check your progress towards win conditions, faction bonuses, background and more.
+		
+		The ledger is a great place to see more in depth information about your entire kingdom, broken down into three different sections. For more information, check out the ledger screen entry in the game concepts section of the Hiergamenon.
+		</TutorialText>
+		<Image>Diplomacy_Medallion_Full.png</Image>
+		<!--<Movie>movies\\Logo.bik</Movie>-->
+		<TutorialTrigger>UI_FIRSTPRESS_GOVERNBTN</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>Want to know more about Governing your Faction?  Watch the tutorial for more info.</PopupText>
+		<PopupPositionOrigin>SCREEN_CENTER</PopupPositionOrigin>
+		<PopupXOffset>223</PopupXOffset>
+		<PopupYOffset>177</PopupYOffset>
+		<PopupPriority>1</PopupPriority>
+	</Tutorial>	
+	
+	<Tutorial InternalName="Tutorial_Ledger">
+		<Title>Ledger Screen</Title>
+		<TutorialText>
+		The ledger screen is where you can manage the inner workings of your Faction. The screen is broken into three different tabs, Enchantments, City List and Economy.
+		
+		The Enchantment tab contains a list of all Enchantment spells you are currently maintaining across your forces. Enchantments are spells that persist over time and require mana every turn to maintain. The amount of mana each spell is costing per turn is displayed here, if you find that your overall mana production is low you can easily dispel whichever Enchantments you like from this screen.
+		
+		The City List tab is a quick reference where you can see breakdowns on all your current cities. At a glance you can check what each city is building along with a number of its defining characteristics. If you would like to jump to a city you can double click to zoom to and select it.
+		
+		The Economy tab is a detailed breakdown of the income of your faction. It can be used to get an idea of what is providing you with your Gildar as well as where it is being spent. If your Gildar production is not what you would like you can raise your global Tax Rate or disband some high maintenance units to adjust it. Keep in mind that increasing the Tax Rate will also raise your unrest level which has an adverse effect on city production and research.
+		</TutorialText>
+		<Image>Scroll.png</Image>
+		<!--<Movie>movies\\Logo.bik</Movie>-->
+		<TutorialTrigger>UI_FIRSTUNHIDE_KINGDOMLEDGERTAB</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>Want to know more about using the ledger screen?  Watch the tutorial for more info.</PopupText>
+		<PopupPositionOrigin>SCREEN_CENTER</PopupPositionOrigin>
+		<PopupXOffset>223</PopupXOffset>
+		<PopupYOffset>177</PopupYOffset>
+		<PopupPriority>1</PopupPriority>
+	</Tutorial>
+  
+	<Tutorial InternalName="Tutorial_Enemies">
+		<Title>Enemy Units</Title>
+		<TutorialText>There are many threats in the world of Elemental, including the forces of your enemy factions and the monsters of the world that owe alliegance to no one.
+
+No matter the enemy, there are common things you should watch out for when judging the potential danger of any unit.
+
+As a first indicator, all units in the game are broken into one of five increasing threat levels: Weak, Average, Strong, Deadly and Epic.
+
+In general, units will find a fairly even fight against enemies with the same threat level, while they will struggle against units of a higher level.
+
+Threat levels, however, cannot tell you everything you need to know. It's important to consider the specific spells, special abilities and statistics of units on both sides of a close matchup.
+
+For instance, abilities like immunities to certain damage types can swing a battle dramatically in some fights, yet be completely useless in others.
+
+Choosing the correct battles to engage in, and those you should avoid, will be essential to ensuring your victory.
+    </TutorialText>
+		<Movie>movies\\FE_Tutorial_EnemyUnits.bik</Movie>
+		<TutorialTrigger>UI_FIRSTUNCOVERED_CREATUREUNIT</TutorialTrigger>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>Want to know more about enemy units?  Watch the tutorial for more info.</PopupText>
+	</Tutorial>
+  
+
+	<Tutorial InternalName="Tutorial_Magic">
+		<Title>Magic</Title>
+		<Image>T_SoulBurning_Painting.png</Image>
+		<TutorialText>
+Spell proficiency is an option in sovereign creation.  Players can select or build sovereigns with proficiency in Air, Death, Earth, Fire, Life or Water magic.	
+
+As the sovereign levels, traits can be selected that increase these proficiencies (a sovereign created as an Air Disciple can become an Air Mage).
+
+	Apprentice	Access to level I spells
+	Disciple 	Access to level II spells
+	Mage 		Access to level III spells
+	Expert 		Access to level IV spells
+	Master 		Access to level V spells
+
+Spells require a certain proficiency in their type to be used.  Fireball requires Fire III (ie: A Fire Mage) to be able to cast.
+		</TutorialText>
+	</Tutorial>
+
+	<Tutorial InternalName="Tutorial_Magic_Global_Mana">
+		<Title>Magic- Global Mana</Title>
+		<Image>S_SpellofMaking_Painting.png</Image>
+		<TutorialText>
+Though you may have multiple casters in your empire, there is only one store of mana that they all use to power their spells.  The decision to use your mana to enchant your champions, attack your enemies, move around the world or guard your cities is a critical one to surviving in the world of Elemental.
+
+Your sovereign provides a small amount of mana each turn.  But there is more to be found by building shrines on the world's mana shards.  Spells with maintenance costs like enchantments, city enchantments and summons will detract from your mana each turn. 
+
+Click on the mana symbol in the main screen to get a breakdown on where your mana is going, or to dispel enchantments you no longer need.
+		</TutorialText>
+	</Tutorial>
+	<Tutorial InternalName="Tutorial_Magic_Life_And_Death_Spells">
+		<Title>Magic- Life and Death spells</Title>
+		<Image>S_DeathWard_Painting.png</Image>
+		<TutorialText>
+Although all players can access Air, Earth, Fire and Water spells (if they have units with the appropriate proficiency) Life spells can only be used by Kingdom allegiance players.  Conversely Death spells can only be used by Empire allegiance players.
+		</TutorialText>
+	</Tutorial>
+   
+	<Tutorial InternalName="Tutorial_Magic_Spell Types">
+		<Title>Magic- Spell Types</Title>
+		<Image>S_MantleofFire_Painting.png</Image>
+		<TutorialText>
+There are many types of spells in Fallen Enchantress which determine when they can be cast and who they can be cast upon.
+
+Strategic- Strategic spells can only be cast from the world map (not while in tactical combat).  In general these spells only require that the player has a single unit who can cast the spell to be able to cast the spell anywhere.  If the player has a unit that can cast Tornado (the sovereign or an imbued champion) that player can cast Tornado anywhere.
+
+Tactical- Tactical spells can only be cast in tactical combat.  Unless otherwise specified the duration lasts only for that battle.  If a unit is Hasted in tactical combat, it only gains that bonus for that battle.
+
+Universal- Universal spells can be cast either in tactical combat or from the world map.  Some spells have slightly different effects depending on if they are cast in tactical combat or on the world map.  For example, if an Earth Elemental is summoned in tactical combat it only lasts for that battle.  If an Earth Elemental is summoned on the world map then it stays with that army, but has a mana maintenance cost that must be paid each turn.
+
+Enchantment- Enchantment spells are cast on units and can be used to make your units more powerful or protect them.  Most have a mana maintenance cost that must be paid each turn.
+
+City Enchantment- City enchantments affect cities much as enchantments affect units.  They can boost the research for that city, help defend it, or provide a variety of other benefits.  Most have a maintenance cost.
+		</TutorialText>
+	</Tutorial>
+
+	<Tutorial InternalName="Tutorial_Magic_Casting_Time">
+		<Title>Magic- Casting Time</Title>
+		<Image>S_TimeStop_Painting.png</Image>
+		<TutorialText>
+Some spells take multiple turns to cast.  For strategic spells this means the spell will take multiple turns.  For example, the Spell of Making takes 25 turns to cast.
+
+In tactical combat spells with casting time take that many additional actions before they can be cast.  If a unit casts fireball, which has a casting time of 1, the fireball will go off on the unit's next action.
+
+Plan your spells well, you will be sacrificing actions to cast them, but they can be devastating when they go off.  Also beware of enemy units that are in the middle of casting.  If they can be killed before their spell finishes you can avoid its effect.
+		</TutorialText>
+	</Tutorial>
+
+	<Tutorial InternalName="Tutorial_Unit_Stats">
+		<Title>Unit- Stats</Title>
+		<Image>Kingdom_Sovereign1.png</Image>
+		<TutorialText>
+Strength- Strength modifies the damage you do when attacking with weapons.  Some weapons, such as Maul's double the bonus the unit gets from his strength.  While others, like bows, don't let the unit use their strength bonus at all.
+
+Strength also impacts the unit's weight capacity.  The stronger the unit the heavier weapons and armor they can use.  When designing units you may want to select traits that improve the unit's strength if you want to outfit or upgrade them to heavy armor.
+
+Dexterity- The higher a unit's Dexterity the higher their Dodge.  For champions it also affects their Critical Chance.
+
+Intelligence- Intelligence acts as a percentage modifier to the amount of experience points the unit gains.  The higher the intelligence, the faster the units earns experience points and the faster they gain levels.
+
+Intelligence also determines the units Spell Resist (the unit's ability to ignore or reduce the impact of spells cast against them).
+
+Lastly Intelligence determines the units Spell Mastery, which is a penalty all opponents get to spells this unit casts.  The higher your units Intelligence, the less likely others are to resist your spells.
+
+Constitution- Constitution determines a unit's hit points, both in starting out and in the amount of hit points they gain as they level.
+
+Moves- This is the amount of tiles a unit can travel in one Season on the strategic map, or in one action in Tactical combat.
+
+Sight- Sight is the range of tiles that are unveiled as the unit moves around on the strategic map.  The higher a units Sight, the more of the world is revealed as they explore it.</TutorialText>
+  </Tutorial>
+
+	<Tutorial InternalName="Tutorial_Unit_CombatStats">
+		<Title>Unit- Combat Stats</Title>
+		<Image>Tech_Logistics.png</Image>
+		<TutorialText>
+Accuracy- Accuracy is the unit's ability to hit opponents in combat.  It is primarily affected by the unit's level, though some traits and items may influence it.
+
+Dodge- Dodge is the unit's ability to avoid an attack.  This is compared to the attacking units Accuracy to see if the hit occurs.  If it doesn't the unit has Dodged the attack and no damage is done.  If the attack isn't dodged a role is made to see how much damage is done (the result depends on the attacked Attack and the defenders Defense).
+Some items or spells may also give a Dodge vs Ranged Attacks bonus.  This is just like Dodge but it is only applied vs ranged attacks like from bows or throwing knives.
+
+Attack- Attack determines the damage the unit does when attacking.  Attack primarily comes from the units weapon, though it is also effected by the units strength, traits and enchantments.  Attack is compared to the defenders defense to figure out the actual damage done.
+
+There are several sorts of Attack damage.  Blunt, Cutting and Pierce all come from different weapon types.  Magical items and spells may also have Cold, Fire, Poison and Lightning Attack.
+
+Defense- Defense lowers the damage this unit takes from attacks that hit him.  Most Defense comes from the units armor, but it can also be influenced by spells and traits.
+
+The different attack types are defended against in different ways.  Chain mail offer more Defense against cutting attacks, Plate Mail provides more Defense against blunt attacks.  Magic items and spells are normally needed to protect against the magical attack types.
+
+Hit Points- Hit points are the amount of damage a unit can take before it dies.  It is primarily determined by the units constitution and level.
+
+Initiative- Initiative determines how frequently a unit gets to act in combat.  A unit with a 20 initiative will come up twice as often in the initiative queue as a unit with a 10 initiative.
+
+Getting more actions in tactical combat is a powerful ability since it multiplies all the units other abilities, allowing them to cast spells or attack more often.
+
+Critical Hits- Champions have a chance to score critical hits when they attack.  To do so they must hit their opponent by at least 10 more than needed, then they have a percentage chance equal to their Critical Chance of scoring a critical hit.  Units with a high accuracy, or attacking creatures with a low dodge are more likely to score critical hits.
+
+Critical hits normally double the unit's damage, but some magical weapons and traits can modify the Critical Multiplier, increasing it even further.
+Trained units can't perform critical hits.
+
+Spell Resistance- Spell Resistance is the unit's ability to negate or reduce the effect of spells cast on them.  This is influenced by the units Intelligence and Level, but can also be affected by traits and magical items.
+
+Spell Mastery- Spell Mastery makes it harder for opponents to resist the spells this unit casts.  It is primarily influenced by the casters Intelligence and Level.</TutorialText>
+  </Tutorial>
+
+	<Tutorial InternalName="Tutorial_Unit_Level">
+		<Title>Unit- Level</Title>
+		<Image>Xander.png</Image>
+		<TutorialText>
+If a unit gains enough experience points they will gain a level.  Trained units gain additional Hit Points, Accuracy and Spell Resistance as they gain levels.
+
+Champions gain the same benefits as trained units, as well as being able to choose from a list of five random traits each level.  These traits could improve the champions spell casting ability, increase their combat stats or provide a variety of other bonuses.
+ 
+Some traits are rare and allow unique opportunities to upgrade your champions, and many traits require other traits before they will start showing up.  For example, a unit can't become a Fire Archmage unless they are already a Fire Master.</TutorialText>
+  </Tutorial>
+
+	<Tutorial InternalName="Tutorial_Unit_WeaponStats">
+		<Title>Unit- Weapon Stats</Title>
+		<Image>Tech_Weapons_of_War.png</Image>
+		<TutorialText>
+Strength Mod- Strength mod is a percentage modifier to the amount of the unit's strength bonus that is applied to Attack.  A weapon with a Strength mod of 50 does +50% damage from strength.  For example a unit that gets +4 Attack from strength that is using a Battle Axe (+50% Strength Mod) would get +6 Attack from strength instead.  Likewise a weapon like a Short Bow that does -100% strength mod would have the same Attack regardless of the strength of the unit that uses it.
+
+Normally Strength Mod bonuses come from two-handed weapons.  Units wielding two-handed weapons don't get the benefit of a shield, but the additional Attack can make them very dangerous, especially for units with a high strength.
+
+Armor Piercing- Armor Piercing is the amount of the victims Defense that the weapon ignores.  If you are attacking an opponent with a Defense of 18 with a spear, which has 66% Armor Piercing, that opponent only gets to use 6 Defense against that attack.
+
+Armor Piercing weapons generally have a lower Attack, but their ability to negate Defense makes them very effective against heavily armored opponents.
+
+Special Abilities- Some weapons adjust the wielders attack in special ways including the following examples. 
+
+Backswing- Battle Axes have backswing.  If a unit misses on their first attack they get an immediate second attempt to hit their target.
+
+Maul- Maul is an ability that some magical weapons grant and some creatures (like Bears) have.  Units with it keep attacking until they miss, with each attack receiving a cumulative -3 to Accuracy.  So a unit with Maul may hit any number of times, as long as they keep hitting their opponent.
+
+Bash- Bash is granted by some magical weapons and some creatures have it (like Ogres).  Any opponent hit by a unit with bash has a percentage chance equal to the damage done of being knocked Prone.
+
+Overpower- Overpower is granted by powerful magical weapons and powerful creatures, like Dragons.  It multiplies the characters attack by the amount of opponents in the defending group.  So attacking a single champion does normal Attack damage.  Attacking a group of 3 wolves does triple the units Attack damage and attacking a group of 9 spearmen does nine times the units Attack in damage.</TutorialText>
+	</Tutorial>
+
+	<Tutorial InternalName="Tutorial_TacticalBattle">
+		<Title>Tactical Battles</Title>
+    <Movie>movies\\FE_Tutorial_TacticalBattles.bik</Movie>
+		<TutorialText>Tactical battles pit two opposing forces against each other, giving the player more control over the outcome of combat.
+
+Units take turns based on their Initiative values: the higher the Initiative, the sooner a unit will be able to take its turn.
+
+During a turn the active unit can move a number of tiles up to its maximum "Moves" and then take an action. Actions consist of attacking, casting a spell or using a special ability; and are displayed at the bottom of the screen near the current unit's portrait.
+
+The "Initiative List" on the left side of the screen can be used as a reference for what order units will be taking their turn. In addition, some spells have casting times. When you are channeling a spell with a casting time you can use the initiative list to check when it will finish casting.
+
+If you would like the AI to take over for you, click the Play button at the bottom right of the screen. Press the pause button if you ever wish to resume manual control.
+
+To instantly resolve the rest of a battle, click the X button at the bottom of the screen.
+
+Combat will end when all forces from one side are defeated.</TutorialText>
+    <TutorialTrigger>UI_FIRSTUNHIDE_TACTICALBATTLE</TutorialTrigger>
+		<PopupText>Want to find out more about tactical battles?  Watch the tutorial for more info.</PopupText>
+		<PopupPositionOrigin>LOWER_RIGHT</PopupPositionOrigin>
+		<PopupXOffset>-252</PopupXOffset>
+		<PopupYOffset>-197</PopupYOffset>
+		<PopupPriority>1</PopupPriority>
+	</Tutorial>
+
+  <Tutorial InternalName="Tutorial_Economy">
+    <Title>Economy</Title>
+    <Movie>movies\\FE_Tutorial_Economy.bik</Movie>
+    <TutorialText>Understanding and managing the finances of your kingdom is vital to your nations growth.
+
+Having a steady stream of Gildar is essential in order to pay your army's wages and keep your cities maintained. In addition, surplus Gildar can be used in a variety of ways: from taking advantage of an opportunity in a quest to recruiting and outfitting champions.
+
+The most direct way to control your finances is by changing your tax rate.
+
+As you raise taxes, your income will increase along with your unrest level. The higher the unrest, the less your population will contribute to research and production.
+
+The Tax Slider on the main screen will tell you the potential results of adjusting your tax rate as you change it. To see the details of your economic breakdown, click on your total Gildar at the top of the screen.
+    </TutorialText>
+  </Tutorial>
+
+
+</Tutorials>

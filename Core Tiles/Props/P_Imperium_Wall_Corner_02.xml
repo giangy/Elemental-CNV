@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<TileDesigns>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName</Ignore>
+		<Translate>DisplayName</Translate>
+	</DataChecksum>
+	<TileDesign InternalName="P_Imperium_Wall_Corner_02">
+		<DisplayName>P_Imperium_Wall_Corner_02</DisplayName>
+		<Thumbnail>\Game\Gfx\tile_icon.png</Thumbnail>
+		<LowResShadow>P_Imperium_Wall_Corner_02_shadow_256.png</LowResShadow>
+		<HighResShadow>P_Imperium_Wall_Corner_02_shadow_512.png</HighResShadow>
+		<ShadowTransparency>70</ShadowTransparency>
+		<IsCore>0</IsCore>
+		<IsHiddenFromEditor>0</IsHiddenFromEditor>
+		<SubTileFlags>15</SubTileFlags>
+		<OverrideColorPRIMARY>100,100,100,255</OverrideColorPRIMARY>
+		<OverrideColorSECONDARY>50,50,50,255</OverrideColorSECONDARY>
+		<OverrideColorROOF>100,100,100,255</OverrideColorROOF>
+		<TileDesignObject InternalName="_obj0">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>DarkTreeCard4</ObjectDefName>
+			<ObjectLOD>6</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>29.041382,26.000000,-15.365265</Position>
+			<Rotation>0.000000,0.000000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>1.6800</Scale>
+			<BaseScale>15.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj1">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>F_Keep_WallMidRocks</ObjectDefName>
+			<ObjectLOD>1</ObjectLOD>
+			<IgnoreTerrain>1</IgnoreTerrain>
+			<Position>-22.398939,0.000000,-22.546703</Position>
+			<Rotation>0.174533,-2.400001,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>1.3600</Scale>
+			<BaseScale>1.4000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj2">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>F_Keep_WallTower2</ObjectDefName>
+			<ObjectLOD>1</ObjectLOD>
+			<IgnoreTerrain>1</IgnoreTerrain>
+			<Position>0.762276,0.000000,-49.652584</Position>
+			<Rotation>0.087266,-2.325000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>1.4400</Scale>
+			<BaseScale>5.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj3">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>F_Keep_RockWallLong1</ObjectDefName>
+			<ObjectLOD>5</ObjectLOD>
+			<IgnoreTerrain>1</IgnoreTerrain>
+			<Position>28.442108,-4.000000,-29.447533</Position>
+			<Rotation>-0.261799,-2.063201,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>1.4400</Scale>
+			<BaseScale>0.7000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj4">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>F_Keep_RockWallLong2</ObjectDefName>
+			<ObjectLOD>5</ObjectLOD>
+			<IgnoreTerrain>1</IgnoreTerrain>
+			<Position>-32.053436,-2.000000,27.300941</Position>
+			<Rotation>-0.174533,-2.325000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>1.4400</Scale>
+			<BaseScale>0.7000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj5">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>F_Keep_RockWallMid1</ObjectDefName>
+			<ObjectLOD>5</ObjectLOD>
+			<IgnoreTerrain>1</IgnoreTerrain>
+			<Position>2.429443,-2.000000,3.961967</Position>
+			<Rotation>0.349066,0.376401,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>1.4400</Scale>
+			<BaseScale>0.7000</BaseScale>
+		</TileDesignObject>
+		<TileDesignPath InternalName="_path0"/>
+	</TileDesign>
+</TileDesigns>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Created with the Elemental Editor -->
+<!-- CoreQuestLocations.xml -->
+<!-- -->
+<QuestLocations>
+    <DataChecksum NoParse="1">
+        <Ignore>DispName</Ignore>
+        <Translate>DisplayName,Description</Translate>
+    </DataChecksum>
+    <QuestLocationType InternalName="QuestLoc_Arena">
+        <Name>Arena of the Slakhanan</Name>
+        <Description>Centuries ago, this was where Curgen's failed creations came to fight and die. Others use the arena now; men and women who wager great fortunes upon each battle. Those seeking sport - and the chance to gain a fortune of their own - should not fear to enter.</Description>
+        <Unique>1</Unique>
+        <Rarity>100</Rarity>
+        <MinDistanceFromStartingPoints>12</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>Q_Arena_01</TileDesign>
+        <DrawnIcon>Quest_GreatArena.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Arena</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Q_Arena.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Camp">
+        <Name>Camp</Name>
+        <Description>This is a place of transients, of wanderers who have nowhere else in the world to go, no plot of ground to call their own - wanderers with tales of exotic lands and great treasures. </Description>
+        <Rarity>400</Rarity>
+        <MinDistanceFromStartingPoints>4</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>Q_Camp_01</TileDesign>
+        <DrawnIcon>Quest_Camp.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Campfire</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Q_Camp_01.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Cave">
+        <Name>Cave</Name>
+        <Description>This cave was sealed long ago, but the wooden timbers protecting the entrance are now beginning to rot away…</Description>
+        <Rarity>400</Rarity>
+        <MinDistanceFromStartingPoints>6</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>G_Quest_Cave_01</TileDesign>
+        <DrawnIcon>Quest_Cave1.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Cavern_Wet</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>G_Quest_Cave_01.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Gate1">
+        <Name>Gate</Name>
+        <Description>A black gate bound with ancient magic.</Description>
+        <Unique>1</Unique>
+        <Rarity>-1</Rarity>
+        <MinDistanceFromStartingPoints>0</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>P_Master_Quest_Trigger_01</TileDesign>
+        <DrawnIcon>Quest_Gate.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Magic_Statue</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Q_Gate_01.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Gate2">
+        <Name>Gate</Name>
+        <Description>A black gate bound with ancient magic.</Description>
+        <Unique>1</Unique>
+        <Rarity>-1</Rarity>
+        <MinDistanceFromStartingPoints>0</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>P_Master_Quest_Trigger_01</TileDesign>
+        <DrawnIcon>Quest_Gate.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Magic_Statue</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Q_Gate_01.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Gate3">
+        <Name>Pit of Lost Voices</Name>
+        <Description>The crucible of death</Description>
+        <Unique>1</Unique>
+        <Rarity>-1</Rarity>
+        <MinDistanceFromStartingPoints>0</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>Q_Waerloga_Lair_01</TileDesign>
+        <DrawnIcon>Statue_Dragon1.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Magic_Statue</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Q_DragonStatue1.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Dragon1">
+        <Name>Dragon Statue</Name>
+        <Description>A strange quiet surrounds this place, the sanctity of old gods and ancient rituals.  The statue of a dragon towers over you. It is, you sense, immeasurably ancient, and yet it shows no signs of damage or wear.</Description>
+        <Unique>1</Unique>
+        <Rarity>400</Rarity>
+        <MinDistanceFromStartingPoints>8</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>Q_Dragon_Statue_01</TileDesign>
+        <DrawnIcon>Statue_Dragon1.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Magic_Statue</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Q_DragonStatue1.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Dragon2">
+        <Name>Dragon Statue</Name>
+        <Description>A strange quiet surrounds this place, the sanctity of old gods and ancient rituals.  The statue of a dragon towers over you. It is, you sense, immeasurably ancient, and yet it shows no signs of damage or wear.</Description>
+        <Unique>1</Unique>
+        <Rarity>400</Rarity>
+        <MinDistanceFromStartingPoints>8</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>Q_Dragon_Statue_02</TileDesign>
+        <DrawnIcon>Statue_Dragon2.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Magic_Statue</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Q_DragonStatue2.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Dragon3">
+        <Name>Dragon Statue</Name>
+        <Description>A strange quiet surrounds this place, the sanctity of old gods and ancient rituals.  The statue of a dragon towers over you. It is, you sense, immeasurably ancient, and yet it shows no signs of damage or wear.</Description>
+        <Unique>1</Unique>
+        <Rarity>400</Rarity>
+        <MinDistanceFromStartingPoints>8</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>Q_Dragon_Statue_03</TileDesign>
+        <DrawnIcon>Statue_Dragon3.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Magic_Statue</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Q_DragonStatue3.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Dungeon">
+        <Name>Ancient Dungeon</Name>
+        <Description>A dark and foreboding catacomb; a place where great evil and great power once lived side-by-side. One or the other - or perhaps both - may yet dwell within.</Description>
+        <Rarity>400</Rarity>
+        <MinDistanceFromStartingPoints>12</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>Q_Dungeon_01</TileDesign>
+        <DrawnIcon>Quest_AncientDungeon.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Tower</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Q_Dungeon_01.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Hut">
+        <Name>Odd Hut</Name>
+        <Description>This immaculate, unnaturally clean hut stands on the edge of the wilderness, far from civilization of any kind.  The curious may be inclined to enter, and find out why.</Description>
+        <Rarity>400</Rarity>
+        <MinDistanceFromStartingPoints>4</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>Q_Odd_Hut_01</TileDesign>
+        <DrawnIcon>Quest_OddHut.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Wood_Hut</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Q_OddHut_01.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Utheron">
+        <Name>Pit of Utheron</Name>
+        <Description>A pillar of ice forms the center of this unnaturally cold region.</Description>
+        <Rarity>400</Rarity>
+        <MinDistanceFromStartingPoints>6</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>L_Ice_Elementals_01</TileDesign>
+        <DrawnIcon>Quest_ExileofIce.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Arctic</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>L_Ice_Elementals_01.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Inn1">
+        <Name>A Humble Inn</Name>
+        <Description>A place to eat, and drink, and perhaps rest your bones for the night. Of course, there's no telling what sort of folk you might happen upon here.</Description>
+        <Rarity>400</Rarity>
+        <MinDistanceFromStartingPoints>4</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>Q_Kingdom_Inn_01</TileDesign>
+        <DrawnIcon>Quest_HumbleInn.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Inn</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Q_Kingdom_Inn_01.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Inn2">
+        <Name>A Modest Inn</Name>
+        <Description>A disreputable-looking tavern, with clientele to match. Those that seek adventure - and are not afraid of the trouble that often comes with it - should not hesitate to enter.</Description>
+        <Rarity>400</Rarity>
+        <MinDistanceFromStartingPoints>4</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>Q_Empire_Inn_01</TileDesign>
+        <DrawnIcon>Quest_ModestInn.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Inn</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Q_Empire_Inn_01.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_RefugeeCamp">
+        <Name>Refugee Camp</Name>
+        <Description>Sadly, refugee camps are all too common since the cataclysm. With the lands devastated, people have gathered for mutual aid and protection.</Description>
+        <Rarity>400</Rarity>
+        <MinDistanceFromStartingPoints>4</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>G_Refugee_Camp_01</TileDesign>
+        <DrawnIcon>Treasure_RefugeeCamp.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Refugee_Camp</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>G_Refugee_Camp_01.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Ruin">
+        <Name>Ancient Ruins</Name>
+        <Description>A ruin from another time - from the age before this one, when Pariden himself walked Elemental. This castle's toppled walls hold the promise of great adventure.</Description>
+        <Rarity>400</Rarity>
+        <MinDistanceFromStartingPoints>4</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>Q_Toppled_Castle_01</TileDesign>
+        <DrawnIcon>Quest_AncientRuins.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Ruined_Temple</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>Q_Toppled_Castle_01.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_Shard">
+        <Name>Enchanted Shard</Name>
+        <Description>Strange runes are present on the shard.</Description>
+        <Rarity>400</Rarity>
+        <MinDistanceFromStartingPoints>8</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>S_Air_Shard_02</TileDesign>
+        <DrawnIcon>Quest_EnchantedShard.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Shard</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>AirCrystal_Medallion.png</All>
+        </Medallions>
+    </QuestLocationType>
+    <QuestLocationType InternalName="QuestLoc_StoneRing">
+        <Name>Stone Ring</Name>
+        <Description>A circle of huge stones, the size and shape of a wagon’s flatbed, stand on edge in the clearing.</Description>
+        <Rarity>400</Rarity>
+        <MinDistanceFromStartingPoints>8</MinDistanceFromStartingPoints>
+        <Destructable>0</Destructable>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <TileDesign>L_Air_Elemental_01</TileDesign>
+        <DrawnIcon>Quest_StoneRing.png</DrawnIcon>
+        <IconSize>75</IconSize>
+        <OnSelectSFX>Click_Ruined_Temple</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>L_Air_Elemental_01.png</All>
+        </Medallions>
+    </QuestLocationType>
+</QuestLocations>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CityResourceEffectDefs>
+
+  <CityResourceEffectDef InternalName="PopulationEffectOnResearch">
+    <InputResource>Population</InputResource>
+    <OutputResource>Research</OutputResource>
+    <ResourceForMultiplierOnInput>ResearchPerPopulation</ResourceForMultiplierOnInput>
+    <EffectType>Harvest</EffectType>
+  </CityResourceEffectDef>
+
+  <CityResourceEffectDef InternalName="PopulationEffectOnProduction">
+    <InputResource>Population</InputResource>
+    <OutputResource>Production</OutputResource>
+    <ResourceForMultiplierOnInput>ProductionPerPopulation</ResourceForMultiplierOnInput>
+    <EffectType>Harvest</EffectType>
+  </CityResourceEffectDef>
+
+  <CityResourceEffectDef InternalName="GrainEffectOnGold">
+    <InputResource>TileYieldGrain</InputResource>
+    <OutputResource>Gold</OutputResource>
+    <ResourceForMultiplierOnInput>GoldPerGrain</ResourceForMultiplierOnInput>
+    <EffectType>Harvest</EffectType>
+  </CityResourceEffectDef>
+
+  <CityResourceEffectDef InternalName="GrainEffectOnFood">
+    <InputResource>TileYieldGrain</InputResource>
+    <OutputResource>Food</OutputResource>
+    <ResourceForMultiplierOnInput>FoodPerGrain</ResourceForMultiplierOnInput>
+    <EffectType>Harvest</EffectType>
+  </CityResourceEffectDef>
+
+  <CityResourceEffectDef InternalName="MaterialsEffectOnProduction">
+    <InputResource>TileYieldMaterials</InputResource>
+    <OutputResource>Production</OutputResource>
+    <ResourceForMultiplierOnInput>ProductionPerMaterials</ResourceForMultiplierOnInput>
+    <EffectType>Harvest</EffectType>
+  </CityResourceEffectDef>
+  
+  <CityResourceEffectDef InternalName="MaterialsEffectOnGold">
+    <InputResource>TileYieldMaterials</InputResource>
+    <OutputResource>Gold</OutputResource>
+    <ResourceForMultiplierOnInput>GoldPerMaterials</ResourceForMultiplierOnInput>
+    <EffectType>Harvest</EffectType>
+  </CityResourceEffectDef>
+  
+  <CityResourceEffectDef InternalName="MaterialsEffectOnResearch">
+    <InputResource>TileYieldMaterials</InputResource>
+    <OutputResource>Research</OutputResource>
+    <ResourceForMultiplierOnInput>ResearchPerMaterials</ResourceForMultiplierOnInput>
+    <EffectType>Harvest</EffectType>
+  </CityResourceEffectDef>
+
+  <CityResourceEffectDef InternalName="UnrestEffectOnResearch">
+    <InputResource>Unrest</InputResource>
+    <OutputResource>Research</OutputResource>
+    <ResourceForMultiplierOnInput>ResearchEffectPerUnrest</ResourceForMultiplierOnInput>
+    <EffectType>TotalPenaltyAsPercentage</EffectType>
+  </CityResourceEffectDef>
+
+  <CityResourceEffectDef InternalName="UnrestEffectOnProduction">
+    <InputResource>Unrest</InputResource>
+    <OutputResource>Production</OutputResource>
+    <ResourceForMultiplierOnInput>ProductionEffectPerUnrest</ResourceForMultiplierOnInput>
+    <EffectType>TotalPenaltyAsPercentage</EffectType>
+  </CityResourceEffectDef>
+
+  <CityResourceEffectDef InternalName="TaxPercentageEffectOnGold">
+    <InputResource>TaxPercentage</InputResource>
+    <OutputResource>Gold</OutputResource>
+    <ResourceForMultiplierOnInput>GoldTakeAwayPerTaxPercentage</ResourceForMultiplierOnInput>
+    <EffectType>TotalTakeAwayHarvestAsPercentage</EffectType>
+  </CityResourceEffectDef>
+
+  </CityResourceEffectDefs>

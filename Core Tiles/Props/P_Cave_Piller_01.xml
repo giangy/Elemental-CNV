@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<TileDesigns>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName</Ignore>
+		<Translate>DisplayName</Translate>
+	</DataChecksum>
+	<TileDesign InternalName="P_Cave_Piller_01">
+		<DisplayName>P_Cave_Piller_01</DisplayName>
+		<Thumbnail>\Game\Gfx\tile_icon.png</Thumbnail>
+		<LowResShadow>P_Cave_Piller_01_shadow_256.png</LowResShadow>
+		<HighResShadow>P_Cave_Piller_01_shadow_512.png</HighResShadow>
+		<ShadowTransparency>70</ShadowTransparency>
+		<IsCore>0</IsCore>
+		<IsHiddenFromEditor>0</IsHiddenFromEditor>
+		<SubTileFlags>15</SubTileFlags>
+		<TileDesignObject InternalName="_obj0">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>SmallRockForm</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>1</IgnoreTerrain>
+			<Position>0.000000,1.000000,0.000000</Position>
+			<Rotation>0.000000,0.000000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.6000</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj1">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>GrasslandRock_Small6</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>1</IgnoreTerrain>
+			<Position>-5.643568,-4.000000,2.239101</Position>
+			<Rotation>0.000000,-0.825000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>1.0000</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj2">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>GrasslandRock_Small5</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>1</IgnoreTerrain>
+			<Position>5.574524,-6.000000,-8.908798</Position>
+			<Rotation>0.000000,-3.900002,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>1.0000</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj3">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>GrasslandRock_Small4</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>5.508128,-4.000000,0.735016</Position>
+			<Rotation>0.000000,0.600000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>1.2000</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj4">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>Fallen_GrassPatch1</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>-4.624252,0.000000,-13.457645</Position>
+			<Rotation>0.000000,0.000000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.6000</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj5">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>Fallen_GrassPatch1</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>1.353516,0.000000,11.960123</Position>
+			<Rotation>0.000000,0.150000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.6000</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj6">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>FallenPlant_MushroomPatch1</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>5.251617,0.000000,14.335125</Position>
+			<Rotation>0.000000,-6.824995,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.6400</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj7">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>FallenPlant_MushroomPatch2</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>-7.038809,-1.000000,-14.846722</Position>
+			<Rotation>0.000000,-0.600000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.6400</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj8">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>SmoothRock1</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>15.755787,-1.000000,-6.261101</Position>
+			<Rotation>0.000000,0.000000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.6000</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj9">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>SmoothRock1</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>-11.203232,-1.000000,-8.216537</Position>
+			<Rotation>0.000000,0.150000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.3200</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj10">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>SmoothRock1</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>-9.875732,-1.000000,17.097542</Position>
+			<Rotation>0.000000,-0.375000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.3200</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj11">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>SmoothRock1</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>15.153391,-1.000000,-0.809376</Position>
+			<Rotation>0.000000,-0.600000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.3200</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj12">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>SmoothRock1</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>46.433891,-2.000000,-45.576767</Position>
+			<Rotation>0.000000,-0.750000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.7600</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj13">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>SmoothRock1</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>-44.967209,-2.000000,21.717117</Position>
+			<Rotation>0.000000,0.000000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.7200</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj14">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>SharpRock3</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>21.859121,-2.000000,18.850060</Position>
+			<Rotation>0.000000,-1.050000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>1.0000</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj15">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>SmoothRock1</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>27.574202,-1.000000,23.453758</Position>
+			<Rotation>0.000000,-2.250001,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.4400</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj16">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>SmoothRock1</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>23.354309,-1.000000,26.931732</Position>
+			<Rotation>0.000000,-3.600002,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.3200</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj17">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>SmoothRock1</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>45.526123,-1.000000,48.925735</Position>
+			<Rotation>0.000000,-2.850001,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.3200</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj18">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>SmoothRock1</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>43.534859,-1.000000,-38.063141</Position>
+			<Rotation>0.000000,-2.850001,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.4000</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj19">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>SmoothRock1</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>32.818695,-1.000000,-41.974808</Position>
+			<Rotation>0.000000,-2.850001,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.3600</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj20">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>FallenPlant_Mushroom2</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>47.815418,0.000000,44.789139</Position>
+			<Rotation>0.000000,1.425000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>1.0000</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignObject InternalName="_obj21">
+			<ObjectType>PropModelType</ObjectType>
+			<ObjectDefName>FallenPlant_MushroomPatch2</ObjectDefName>
+			<ObjectLOD>0</ObjectLOD>
+			<IgnoreTerrain>0</IgnoreTerrain>
+			<Position>-46.206238,0.000000,-27.179344</Position>
+			<Rotation>0.000000,-0.225000,0.000000</Rotation>
+			<RotationSpeed>0.000000,0.000000,0.000000</RotationSpeed>
+			<Scale>0.6400</Scale>
+			<BaseScale>1.0000</BaseScale>
+		</TileDesignObject>
+		<TileDesignPath InternalName="_path0"/>
+	</TileDesign>
+</TileDesigns>

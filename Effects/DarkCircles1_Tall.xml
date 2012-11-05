@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<EffectBlueprints>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName</Ignore>
+		<Translate>DisplayName</Translate>
+	</DataChecksum>
+	<EffectSequencer InternalName="DarkCircles1_Tall">
+		<DisplayName>DarkCircles1_Tall</DisplayName>
+		<RepeatIndefinitely>0</RepeatIndefinitely>
+		<EmitterBlueprint InternalName="LifeTempleBlueprint1">
+			<DisplayName>LifeTempleBlueprint1</DisplayName>
+			<TextureName>Gfx\Effect\Shapes\P_SwirlingClouds_1.dds</TextureName>
+			<ColorInterpTextureName>Gfx\Effect\Colors\DarkBluePulse_Desat.dds</ColorInterpTextureName>
+			<TexturesInStrip>4</TexturesInStrip>
+			<RenderTechnique>Particle_XZPlane_AdditiveExclusive</RenderTechnique>
+			<RenderOrder>Mid2</RenderOrder>
+			<EmitterLifetime>1000.0000</EmitterLifetime>
+			<Gravity>0</Gravity>
+			<ApplyDrag>0</ApplyDrag>
+			<Visibility>ExceptMapOverlay</Visibility>
+			<IsIndefinite>1</IsIndefinite>
+			<EnableDepthBias>0</EnableDepthBias>
+			<EmitterPosX>0.000000,0.000000,0.000000</EmitterPosX>
+			<EmitterPosY>0.000000,0.000000,0.000000</EmitterPosY>
+			<EmitterPosZ>0.000000,0.000000,0.000000</EmitterPosZ>
+			<AccelerationX>0.000000,0.000000,0.000000</AccelerationX>
+			<AccelerationY>0.000000,1.000000,0.000000</AccelerationY>
+			<AccelerationZ>0.000000,0.000000,0.000000</AccelerationZ>
+			<OffsetX>0.000000,0.000000,0.000000</OffsetX>
+			<OffsetY>0.000000,50.000000,50.000000</OffsetY>
+			<OffsetZ>0.000000,0.000000,-0.000000</OffsetZ>
+			<DirectionX>0.000000,0.000000,0.000000</DirectionX>
+			<DirectionY>0.000000,0.000000,0.050000</DirectionY>
+			<DirectionZ>0.000000,0.000000,0.000000</DirectionZ>
+			<Speed>0.000000,320.500000,3.000000</Speed>
+			<StartScale>0.000000,40.000000,1.500000</StartScale>
+			<EndScale>0.000000,45.000000,5.500000</EndScale>
+			<InitRotation>0.000000,0.000000,160.000000</InitRotation>
+			<RotationRate>0.000000,0.000000,2.100000</RotationRate>
+			<ParticleLifetime>0.000000,3.000000,0.000000</ParticleLifetime>
+			<SpawnRate>0.000000,16.000000,0.000000</SpawnRate>
+		</EmitterBlueprint>
+		<SequenceFrame>LifeTempleBlueprint1,0.000000</SequenceFrame>
+	</EffectSequencer>
+</EffectBlueprints>

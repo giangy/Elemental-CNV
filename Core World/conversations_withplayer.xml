@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<FlavorTextEntries>
+	<DataChecksum NoParse="1">
+		<Ignore>Text</Ignore>
+		<Translate>Text</Translate>
+	</DataChecksum>
+
+	<!--
+  - STRING PLACEHOLDERS -
+  
+  [S_FactionName] the name of the speaker's faction
+  [S_FactionShortName] the short name of the speaker's faction (Kraxis, Altar, etc)
+  [S_LeaderName] the name of the speaker
+  [S_LastResearchedTech] the most recently unlocked tech milestone of the speaker's faction
+  
+  [L_FactionName] listener's faction name
+  [L_FactionShortName] the short name of the listener's faction (Kraxis, Altar, etc)
+  [L_LeaderName] listener's sovereign name
+  [L_LastResearchedTech] the most recently unlocked tech milestone of the listener's faction
+  
+  [WorldName] the name of the world
+  
+  ____________________________________________
+  
+  - RULES (Mostly for use with Generic Race conversations) -
+  
+  - Race of Men -
+  0  - A Kingdom speaking
+  1  - A Kingdom speaking to another Kingdom
+  2  - A Kingdom speaking to a Fallen nation
+  
+  - Fallen Race -
+  10 - A Fallen race speaking
+  11 - A Fallen race speaking to another Fallen Race
+  12 - A Fallen Race speaking to a Kingdom nation
+  
+  - Military Might -
+  20 - Speaker has a MUCH STRONGER Military than the Listener
+  21 - Speaker has a Slightly STRONGER Military than the Listener
+  22 - Speaker has approximatly EQUAL Military Might as the Listener
+  23 - Speaker has a Slightly WEAKER Military than the Listener
+  24 - Speaker has a MUCH WEAKER Military than the Listeners
+  
+  - Diplomatic Skill -
+  30 - Speaker is MUCH MORE DIPLOMATIC than the Listener
+  31 - Speaker is SLIGHTLY MORE DIPLOMATIC than the Listener
+  31 - Speaker is EQUALLY DIPLOMATIC than the Listener
+  33 - Speaker is SLIGHTLY LESS DIPLOMATIC than the Listener
+  34 - Speaker is MUCH LESS DIPLOMATIC than the Listener
+  
+  <RevisitedTopicBarrier>
+  This is the number of times a topic is triggered by these two races before the given flavor text will be used.
+  
+  <RelationsMax>
+  <RelationsMin>
+  The span of relations that this text will be used for.
+  1- Permanent War
+  2- War
+  3- Hostile
+  4- Unfriendly
+  5- Cool
+  6- Neutral
+  7- Warm
+  8- Friendly
+  9- Close
+  10- Ally
+  11- Team
+  -->
+
+
+
+
+	<FlavorText>
+		<Topic>Talk_WarnPlayerOfOtherPlayer</Topic>
+		<Text>Hail [L_LeaderName], I have come to warn you of the growing power of [S_OtherPlayer]. If we do not act soon, the world will be under their dominion.</Text>
+		<Rule>1</Rule>
+		<R_OK>Talk_WarnPlayerOfOtherPlayer_R</R_OK>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_WarnPlayerOfOtherPlayer</Topic>
+		<Text>Imperial, while we do not care for your kind, we must nevertheless bring dire events to your attention. The [S_OtherPlayer] are growing very powerful. We must look to work together if we're going to keep this world free.</Text>
+		<Rule>2</Rule>
+		<R_OK>Talk_WarnPlayerOfOtherPlayer_R</R_OK>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_WarnPlayerOfOtherPlayer</Topic>
+		<Text>[L_LeaderName], we have come to warn you of the growing threat presented by the [S_OtherPlayer]. As the natural heirs of the Titans, it is our destiny to rule this world. We must act together to bring the [OTHERPLAYER] down.</Text>
+		<Rule>11</Rule>
+		<R_OK>Talk_WarnPlayerOfOtherPlayer_R</R_OK>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_WarnPlayerOfOtherPlayer</Topic>
+		<Text>[L_LeaderName], I generally have little use for Kinglings, I still hold out that you have enough sense to recognize the peril that the [S_OtherPlayer] is putting us all in. Let us be aware of the threat and work to crush them.</Text>
+		<Text>[L_LeaderName], we have a mutual foe: [S_OtherPlayer].</Text>
+		<Rule>12</Rule>
+		<R_OK>Talk_WarnPlayerOfOtherPlayer_R</R_OK>
+	</FlavorText>
+
+
+	<FlavorText>
+		<Topic>Talk_WarnPlayerOfOtherPlayer_R</Topic>
+		<Text>I will take your words under consideration.</Text>
+		<Rule>1</Rule>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_WarnPlayerOfOtherPlayer_R</Topic>
+		<Text>I will remember your warning.</Text>
+		<Text>I'll bear it in mind, Imperial.</Text>
+		<Rule>2</Rule>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_WarnPlayerOfOtherPlayer_R</Topic>
+		<Text>I shall remember this, cousin.</Text>
+		<Rule>11</Rule>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_WarnPlayerOfOtherPlayer_R</Topic>
+		<Text>Noted.</Text>
+		<Rule>12</Rule>
+	</FlavorText>
+	
+
+
+	<FlavorText>
+		<Topic>Talk_LetsGangUp</Topic>
+		<Text>[L_LeaderName], the time has come for the [S_FactionShortName] and the [L_FactionShortName] to destroy the wretched [S_OtherPlayer].</Text>
+		<Text>Greetings, [L_LeaderName], the [S_OtherPlayer] must be wiped out. [S_FactionShortName] and the [L_FactionShortName] can do this.</Text>
+		<Text>It is time to declare war on [S_OtherPlayer].</Text>
+		<Text>[S_OtherPlayer] cannot be permitted to exist on this world any longer. Let us destroy them.</Text>
+		<R_YES>Talk_LetsGangUp_R_Yes</R_YES>
+		<R_NO>Talk_LetsGangUp_R_No</R_NO>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_LetsGangUp_R_Yes</Topic>
+		<Text>I agree. Let us wipe them out.</Text>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_LetsGangUp_R_No</Topic>
+		<Text>That would not be in our best interests.</Text>
+	</FlavorText>
+
+
+	<FlavorText>
+		<Topic>Talk_ThreatenPlayer</Topic>
+		<Text>[L_LeaderName], it is the destiny of this world for the Kingdoms to rule supreme. More specifically, my kingdom. If you wish to continue living, you will need to support this cause with a gift of [S_TributeDemand] gildar.</Text>
+		<Text>As a great Kingdom, it has been our policy to protect the weak (like you) from the strong (like us). Therefore, you will need to pay [S_TributeDemand] gildar in tribute. Now.</Text>
+		<R_YES>Talk_ThreatenPlayer_R_Yes</R_YES>
+		<R_NO>Talk_ThreatenPlayer_R_No</R_NO>
+		<Rule>0</Rule>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_ThreatenPlayer</Topic>
+		<Text>Let me put this plainly, [L_LeaderName]. You will pay us [S_TributeDemand] gildar or you will be destroyed.</Text>
+		<Text>My armies wish to crush you, [L_LeaderName]. But I have convinced them to wait as long as you pay us [S_TributeDemand] gildar.</Text>
+		<R_YES>Talk_ThreatenPlayer_R_Yes</R_YES>
+		<R_NO>Talk_ThreatenPlayer_R_No</R_NO>
+		<Rule>10</Rule>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_ThreatenPlayer_R_Yes</Topic>
+		<Text>Very well, it seems like we have little choice.</Text>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_ThreatenPlayer_R_Yes</Topic>
+		<Text>We shall pay your price. But we shall remember this.</Text>
+		<Rule>1</Rule>
+	</FlavorText>
+	
+	<FlavorText>
+		<Topic>Talk_ThreatenPlayer_R_No</Topic>
+		<Text>I laugh at your threats.</Text>
+	</FlavorText>
+
+
+
+	<FlavorText>
+		<Topic>Talk_AskForPeace</Topic>
+		<Text>[L_LeaderName], we recognize your power and bow before your greatness. We will give you [S_PeaceOffering] to end this war.</Text>
+		<Text>You have beaten us. We will give you [S_PeaceOffering] to end this war.</Text>
+		<R_YES>Talk_AskForPeace_R_Yes</R_YES>
+		<R_NO>Talk_AskForPeace_R_No</R_NO>
+		<Rule>20</Rule>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_AskForPeace</Topic>
+		<Text>[L_LeaderName], the time for peace has come. Let's end the war.</Text>
+		<Text>You have earned my respect, [L_LeaderName]. Now, let us end this war and bring our armies home.</Text>
+		<R_YES>Talk_AskForPeace_R_Yes</R_YES>
+		<R_NO>Talk_AskForPeace_R_No</R_NO>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_AskForPeace_R_Yes</Topic>
+		<Text>Very well, I accept your proposal.</Text>
+		<Text>Peace in our time.</Text>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_AskForPeace_R_No</Topic>
+		<Text>I don't think so.</Text>
+		<Text>We shall not be satisfied until you are utterly ruined.</Text>
+		<Text>Only your destruction will satisfy us at this point.</Text>
+		<Text>It is too late. Your doom is at hand.</Text>
+		<Text>No. Your fate is sealed. I am the instrument of vengeance.</Text>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_ArrangeMarriage</Topic>
+		<Text>I understand you have a child eligible for marriage. Our combined dynasties could rule this world.</Text>
+		<Text>Rumor has it that your child has grown to be eligible for marriage. I confess I don't pay much attention to these details but perhaps we can arrange something...</Text>
+		<R_YES>Talk_Generic_R_YES</R_YES>
+		<R_NO>Talk_Generic_R_NO</R_NO>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_MoreTradeRoutesPlease</Topic>
+		<Text>Caravans not only construct roads between settlements but also are a great way to boost our economies. You have no Caravans coming to my cities, we would welcome your goods.</Text>
+		<Text>I noticed that you have no caravans coming to my cities. Caravans not only build roads but greatly increase the wealth of each side. We would gladly welcome your goods. </Text>
+		<R_OK>Talk_Generic_R_OK</R_OK>
+	</FlavorText>
+
+	<FlavorText>
+
+    <FlavorText>
+      <Topic>Talk_IHateYou</Topic>
+      <Text>Your continued existence is loathsome. Why won't you just die?</Text>
+      <Text>You should surrender now, it is only a matter of time before we destroy you.</Text>
+      <Text>Your head will soon be on a pike.</Text>
+      <R_OK>Talk_Dislike_OK</R_OK>
+    </FlavorText>
+
+    <FlavorText>
+      <Topic>TALK_YOUR_SOVEREIGN_IS_GETTING_CLOSE</Topic>
+      <Text>I do not like how close you are to my city. Back off.</Text>
+      <Text>You are too powerful to be wandering that close to my city.</Text>
+      <Text>I see you nearing my territory. Find another path.</Text>
+      <R_OK>Talk_Generic_R_OK</R_OK>
+    </FlavorText>
+
+    <FlavorText>
+      <Topic>TALK_YOUR_ARMY_IS_GETTING_CLOSE</Topic>
+      <Text>Your soldiers are getting a bit too close to my territory for comfort.</Text>
+      <Text>My scouts have reported your army's presence. We're watching.</Text>
+      <Text>I see your army. Back off.</Text>
+      <R_OK>Talk_Generic_R_OK</R_OK>
+    </FlavorText>
+
+    <FlavorText>
+      <Topic>TALK_I_AM_CASTING_A_POWERFUL_SPELL</Topic>
+      <Text>I am the most powerful being on this world. I have just cast the spell known as [L_SpecificText]. Soon, the world will belong to me.</Text>
+      <R_OK>Talk_Generic_R_OK</R_OK>
+    </FlavorText>
+
+    <FlavorText>
+      <Topic>TALK_I_AM_CASTING_A_CURSE</Topic>
+      <Text>I may not be able to conquer [L_SpecificText] at this moment. However, I shall make your people so miserable that they will soon rise up and destroy themselves.</Text>
+      <Text>I have put a curse on [L_SpecificText]. Soon, the people themselves will be your enemy.</Text>
+      <Text>I have put a curse on [L_SpecificText]. With each curse, your people become angrier until they will sew your destruction.</Text>
+      <R_OK>Talk_Dislike_OK</R_OK>
+    </FlavorText>
+
+
+
+    <FlavorText>
+      <Topic>TALK_I_AM_COMING_FOR_YOUR_CITY</Topic>
+      <Text>[L_SpecificText] is a lovely city. I look forward to adding it to [S_FactionShortName].</Text>
+      <Text>Soon, [L_SpecificText] shall be mine.</Text>
+      <Text>What a fine city [L_SpecificText] appears to be. Soon it will be part of [S_FactionShortName].</Text>
+      <R_OK>Talk_Dislike_OK</R_OK>
+    </FlavorText>
+    
+    <FlavorText>
+      <Topic>TALK_SAY_GOODBYE_TO_YOUR_IMPROVEMENT</Topic>
+      <Text>While you hide in your cities, your countryside shall feel my wrath.</Text>
+      <Text>If you shall not meet me on the field of battle, I shall lay waste to your territory.</Text>
+      <Text>I may not be in a position to take your cities, but I shall wreck your outposts. I shall destroy your mines. I shall break your shards. I shall decimate your lands.</Text>
+      <R_OK>Talk_Dislike_OK</R_OK>
+    </FlavorText>
+
+    <FlavorText>
+      <Topic>TALK_WE_HAVE_BEEN_PAID_TO_KILL_YOU</Topic>
+      <Text>While we don't really like you in the first place, we generally can tolerate you. However, a certain third party has...decided that you need to go away. Prepare to die.</Text>
+      <Text>This is nothing personal, [L_LeaderName]. It's just business. We declare war. </Text>
+      <Text>We have been asked to eliminate you. While we have no love of [L_FactionShortName], we have nothing specifically against you other than the gildar in our pockets now. You shall now be destroyed.</Text>
+      <R_OK>Talk_Dislike_OK</R_OK>
+    </FlavorText>
+
+    <FlavorText>
+      <Topic>TALK_WE_MUST_HELP_OUR_FRIEND</Topic>
+      <Text>Your war with our friend has caused us to enter the conflict on their side. Prepare to die.</Text>
+      <Text>We don't have anything against you personally, [L_LeaderName]. However, your current war with our friend has made us decide that you must be destroyed. </Text>
+      <R_OK>Talk_Dislike_OK</R_OK>
+    </FlavorText>
+
+    <FlavorText>
+      <Topic>TALK_WE_WILL_HELP_YOU_FRIEND</Topic>
+      <Text>We have decided to come to your aid in your war.</Text>
+       <R_OK>Talk_Generic_R_OK</R_OK>
+    </FlavorText>
+
+    <FlavorText>
+      <Topic>TALK_WE_WILL_HONOR_ALLIANCE</Topic>
+      <Text>Our alliance with you demands we come to your aid. So here we are.</Text>
+      <R_OK>Talk_Generic_R_OK</R_OK>
+    </FlavorText>
+    
+    <FlavorText>
+      <Topic>TALK_WE_SURRENDER</Topic>
+      <Text>Our cause is lost. I can hear the drum beat of our enemies closing in. We shall put our cities to the torch. We shall burn our fields. Destroy our mines. The world will never know that the [S_FactionShortName] ever set foot on Elemental.</Text>
+      <Text>There is no hope for us. Even now, I can hear our enemies approaching our gates.  If we cannot control our cities, then no one shall. We shall raze them. The world will never know that the [S_FactionShortName] ever set foot on Elemental.</Text>
+      <Text>We are doomed.  Our people shall disperse into the countryside. The people of [S_FactionShortName] shall fade into myth and legend.</Text>
+      <Text>We are defeated. Our enemies have overwhelmed us.  We shall tear down our cities and flee back into the wilds.  In time, perhaps our day will come.</Text>
+    </FlavorText>
+
+    <Topic>Talk_HelpUs</Topic>
+		<Text>We are slowly being crushed by the [S_OtherPlayer]. We beg of you to send us whatever supplies you can. Will you help us?</Text>
+		<Text>The powerful [S_OtherPlayer] are destroying us. Can you send us anything to help us? Money? Material? Anything? </Text>
+		<R_YES>Talk_Help_R_YES</R_YES>
+		<R_NO>Talk_Help_R_NO</R_NO>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_Help_R_YES</Topic>
+		<Text>Let me see what we can do.</Text>
+		<Text>It is in our interest to help you.</Text>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_Help_R_NO</Topic>
+		<Text>I'm sorry but you are doomed.</Text>
+		<Text>There's nothing we can do for you.</Text>
+	</FlavorText>
+	
+	<FlavorText>
+		<Topic>Talk_LetsDoATreaty</Topic>
+		<Text>Do you think we can come to an agreement on a treaty? I believe we can mutually benefit.</Text>
+		<Text>Let us come to terms on a treaty.</Text>
+		<Text>I think there is much we can do together. Let's see where we can start.</Text>
+		<Text>Setting up a treaty would help bolster our relations.</Text>
+		<Text>We should begin negotiating some treaties.</Text>
+		<Text>Our peoples can both benefit if we set up some treaties amongst ourselves.</Text>
+		<R_YES>Talk_Generic_R_YES</R_YES>
+		<R_NO>Talk_Generic_R_NO</R_NO>
+	</FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_RequestAttackOnPlayer</Topic>
+    <Text>We think it would be best for the world for you to go to war against [S_OtherPlayer].  What do you say?</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_RequestAttackOnPlayer</Topic>
+    <Text>We think it would be best for the world for you to go to war against [S_OtherPlayer].  We would be willing to offer you [S_GoldOffer] to convince you of this.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+    <Required>[S_GoldOffer]</Required>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_RequestGenericTreaty</Topic>
+    <Text>We would like to go into a [TreatyName] with you.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_RequestGenericTreaty</Topic>
+    <Text>We would like to go into a [TreatyName] with you.  We would be willing to offer you [S_GoldOffer] gildar to make this happen.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+    <Required>[S_GoldOffer]</Required>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_RequestGenericTreaty</Topic>
+    <Text>We would like to go into a [TreatyName] with you.  We would like [S_GoldDemand] gildar for this, though.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+    <Required>[S_GoldDemand]</Required>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_AllianceTreaty</Topic>
+    <Text>We would like to go into an [TreatyName] with you.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_AllianceTreaty</Topic>
+    <Text>We would like to go into an [TreatyName] with you.  We would be willing to offer you [S_GoldOffer] gildar to make this happen.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+    <Required>[S_GoldOffer]</Required>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_AllianceTreaty</Topic>
+    <Text>We would like to go into an [TreatyName] with you.  We would like [S_GoldDemand] gildar for this, though.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+    <Required>[S_GoldDemand]</Required>
+  </FlavorText>
+  
+  <FlavorText>
+    <Topic>Talk_PeaceTreaty</Topic>
+    <Text>We could be convinced to end this war between our people.  If you give us [S_GoldDemand] gildar we would be willing to enter a peace treaty.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+    <Required>[S_GoldDemand]</Required>
+  </FlavorText>
+
+
+  <FlavorText>
+    <Topic>Talk_PeaceTreaty</Topic>
+    <Text>It's high time we stopped this futile war. A peace treaty would be mutually beneficial to our people.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_PeaceTreaty</Topic>
+    <Text>We need to end this war.  We are so commited to end the fighting we would be willing to offer you [S_GoldOffer] gildar to facilitate a peace treaty.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+    <Required>[S_GoldOffer]</Required>
+  </FlavorText>
+  
+  <FlavorText>
+    <Topic>Talk_DemandTribute</Topic>
+    <Text>You should humble yourselves to us by paying us tribute.  You are so pitiful we will require [S_GoldDemand] gildar to accept your fealty.</Text>
+    <Text>It is time to pay for your continued existence. A gift of [S_GoldDemand] plus a seasonal delivery of payment should suffice.</Text>
+    <Text>The world is a dangerous place. We can protect you. A gift of [S_GoldDemand] plus a seasonal delivery of payment should suffice.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+    <Required>[S_GoldDemand]</Required>
+  </FlavorText>
+
+
+  <FlavorText>
+    <Topic>Talk_DemandTribute</Topic>
+    <Text>We demand you give us tribute.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_DemandTribute</Topic>
+    <Text>We would like to offer you tribute.  If it pleases you, we would even be willing to give you [S_GoldOffer] gildar up front.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+    <Required>[S_GoldOffer]</Required>
+  </FlavorText>
+  
+  <FlavorText>
+    <Topic>Talk_OfferTribute</Topic>
+    <Text>We would be willing to offer you tribute in the future for help now.  We will need [S_GoldDemand] gildar for this to work for us.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+    <Required>[S_GoldDemand]</Required>
+  </FlavorText>
+
+
+  <FlavorText>
+    <Topic>Talk_OfferTribute</Topic>
+    <Text>We would like to offer you tribute.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_OfferTribute</Topic>
+    <Text>We would like to offer you tribute.  If it pleases you, we would even be willing to give you [S_GoldOffer] gildar up front.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+    <Required>[S_GoldOffer]</Required>
+  </FlavorText>
+  
+  <FlavorText>
+    <Topic>Talk_RequestNonAggPact</Topic>
+    <Text>We could be talked into starting a non-aggression pact with you.  We will need [S_GoldDemand] gildar for this to become a reality, though.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+    <Required>[S_GoldDemand]</Required>
+  </FlavorText>
+
+
+  <FlavorText>
+    <Topic>Talk_RequestNonAggPact</Topic>
+    <Text>We would like start a non-aggression pact with you.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_RequestNonAggPact</Topic>
+    <Text>We would really appreciate starting a non-aggression pact with you.  We would even be willing to offer you [S_GoldOffer] gildar to make this happen.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+    <Required>[S_GoldOffer]</Required>
+  </FlavorText>
+    
+  <FlavorText>
+    <Topic>Talk_RequestTradeRouteTreaty</Topic>
+    <Text>We would like to go into an economic treaty with you, creating a trade route between our two capitals.  We would be willing to offer you [S_GoldOffer] gildar to make this happen.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+    <Required>[S_GoldOffer]</Required>
+  </FlavorText>
+  
+  <FlavorText>
+    <Topic>Talk_RequestTradeRouteTreaty</Topic>
+    <Text>We would like to go into an economic treaty with you, creating a trade route between our two capitals.  Does this sound good to you?</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_RequestTradeRouteTreaty</Topic>
+    <Text>We would like to go into an economic treaty with you, creating a trade route between our two capitals.  However, your empire is weak, and we'd be doing you a favor.  Perhaps a gift of [S_GoldDemand] gildar would make it worth our while, in exchange for the treaty.</Text>
+    <R_YES>Talk_Generic_R_YES</R_YES>
+    <R_NO>Talk_Generic_R_NO</R_NO>
+    <Required>[S_GoldDemand]</Required>
+  </FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_WorldSituation</Topic>
+    <Faction>KingdomOfCapitar</Faction>
+    <Rule>1</Rule>
+    <Text>[L_LeaderName], our people are beings of enlightened self interest. Some call our philosphy selfish but it is one in which we shall bring civilization to this world. We aim to set man free from men.</Text>
+    <Text>[L_LeaderName], we do not wish to do good by force. Our power is derived by the influence we have on others.</Text>
+    <Text>Beware, [L_LeaderName]. Our rights are not subject to some vote or the whims of an alliance or ideology -- whether Kingdom or Empire. We shall do what we think is in our own individual interests.</Text>
+    <Text>You can be certain, [L_LeaderName], that our people shall never live for the sake of others. Nor do we wish others to do the same for us.  It is why we have no animous towards the so-called "Fallen". If they leave us alone, we shall leave them alone.</Text>
+		<Text>[L_LeaderName], I thought you might be interested to learn that the world's most powerful champion is [BEST_CHAMPION]. This being is mightier than any other mortal in this world.</Text>
+		<Text>Greetings, [L_LeaderName]. We have encountered a creature terrible to behold. It is called a [BEST_MONSTER] and it is only [DISTANCE_L_CAPITAL] leagues from your capital. </Text>
+		<Text>We are closing in on the Forge of the Overlord. It is said to be guarded by a mighty dragon. With that power, none shall withstand us.</Text>
+    <Text>The Spell of Making is magic that was thought lost from the world. While the Book of Mastery has been found, no one can yet translate its ancient words. But through Arcane Mastery, we shall soon have this knowledge and with this spell and the power to cast it, the world will be ours.</Text>
+    <Text>Wealth is the gauge of a society's virtue. We have [S_MONEY] gildar. You have [L_MONEY] gildar. Do you see where I'm going with this, [L_LeaderName]?</Text>
+    <Text>We do not allow inheritence in our realm. Only the fittest are worthy to inherit wealth and no fit man would want it.</Text>
+    <Text>We see your moves, [L_LeaderName]. The question isn't if you're going to let us proceed with our strategy. The question is whether you're going to stop us.</Text>
+		<R_OK>Talk_Generic_R_OK</R_OK>
+	</FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_WorldSituation</Topic>
+    <Faction>KingdomOfCapitar</Faction>
+    <Rule>2</Rule>
+    <Text>[L_LeaderName], our people are beings of enlightened self interest. Some call our philosphy selfish but it is one in which we shall bring civilization to this world. We aim to set man free from men.</Text>
+    <Text>[L_LeaderName], unlike your kind, we do not wish to do good by force. Our power is derived by the influence we have on others.</Text>
+    <Text>Do not fool yourself, [L_LeaderName]. The Empires always fail in the long run because power is subject to the whims of the mighty rather than the most able.</Text>
+    <Text>You can be certain, [L_LeaderName], that our people shall never live for the sake of others. Nor do we wish others to do the same for us.  We have no inherit distaste for The Fallen. If you leave us alone, we shall leave you alone.</Text>
+    <Text>[L_LeaderName], I thought you might be interested to learn that the world's most powerful champion is [BEST_CHAMPION]. This being is mightier than any other mortal in this world.</Text>
+    <Text>Greetings, [L_LeaderName]. We have encountered a creature terrible to behold. It is called a [BEST_MONSTER] and it is only [DISTANCE_L_CAPITAL] leagues from your capital. </Text>
+    <Text>We are closing in on the Forge of the Overlord. It is said to be guarded by a mighty dragon. With that power, none shall withstand us.</Text>
+    <Text>The Spell of Making is magic that was thought lost from the world. While the Book of Mastery has been found, no one can yet translate its ancient words. But through Arcane Mastery, we shall soon have this knowledge and with this spell and the power to cast it, the world will be ours.</Text>
+    <Text>Wealth is the gauge of a society's virtue. We have [S_MONEY] gildar. You have [L_MONEY] gildar. Do you see where I'm going with this, [L_LeaderName]?</Text>
+    <Text>We do not allow inheritence in our realm. Only the fittest are worthy to inherit wealth and no fit man would want it.</Text>
+    <Text>We see your moves, [L_LeaderName]. The question isn't if you're going to let us proceed with our strategy. The question is whether you're going to stop us.</Text>
+    <R_OK>Talk_Generic_R_OK</R_OK>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_WorldSituation</Topic>
+    <Faction>KingdomOfPariden</Faction>
+    <Rule>1</Rule>
+    <Text>[L_LeaderName], we are the rightful rulers of this world. If you wish a place in this new order, you would be wise to remember that.</Text>
+    <Text>[L_LeaderName], your so-called Kingdom is little more than a collection of city states. Your objective must be to woo us and eventually ally with us to become part of our greater Kingdom.</Text>
+    <Text>[L_LeaderName]. Your capital, [L_CAPITAL_CITY], is impressive. It will one day be a leading part of our kingdom.</Text>
+    <Text>Make no mistake, [L_LeaderName]. We are impressed with how far you have come. But remember, we are the natural rulers of this world.</Text>
+    <Text>[L_LeaderName], rumor has it that [BEST_CHAMPION] is the greatest of champions. Those who oppose this being would do well to be careful.</Text>
+    <Text>[L_LeaderName]. Your capital is only [DISTANCE_L_CAPITAL] leagues from the most foul monster we've discovered. It is known as a [BEST_MONSTER]. </Text>
+    <Text>It was the Forge of the Overlord that first brought this world to the attention of the Titans. Now, it will be the Forge of the Overlord that returns our people to their rightful glory.</Text>
+    <Text>The Spell of Making is magic that was thought lost from the world. While the Book of Mastery has been found, no one can yet translate its ancient words. But through Arcane Mastery, we shall soon have this knowledge and with this spell and the power to cast it, the world will be ours.</Text>
+    <Text>We have [S_MONEY] gildar. You have [L_MONEY] gildar. You would be wise to provide your money to us, [L_LeaderName]?</Text>
+    <Text>The natural order of the world is derived from the orderly transition of power from one generation to another. This is why we are the most advanced culture in the world.</Text>
+    <Text>[L_LeaderName]. Your security can only be secured through submission to us.</Text>
+    <R_OK>Talk_Generic_R_OK</R_OK>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_WorldSituation</Topic>
+    <Faction>KingdomOfPariden</Faction>
+    <Rule>2</Rule>
+    <Text>[L_LeaderName], we are the rightful rulers of this world. Your kind has no place in it.</Text>
+    <Text>[L_LeaderName], your pitiful little Empire is a disgrace. Shouldn't you be consuming Skath meat or something?</Text>
+    <Text>[L_LeaderName]. Your capital, [L_CAPITAL_CITY], is impressive -- for an Imperial city. Watching you pretend to be civilized amuses me.</Text>
+    <Text>You are very amusing, [L_LeaderName]. You have managed to cobble together a collection of savage villages into a functioning society. But no Empire can match the majesty or civilization of a Kingdom.</Text>
+    <Text>[L_LeaderName], rumor has it that [BEST_CHAMPION] is the greatest of champions. Those who oppose this being would do well to be careful.</Text>
+    <Text>[L_LeaderName]. Your capital is only [DISTANCE_L_CAPITAL] leagues from the most foul monster we've discovered. It is known as a [BEST_MONSTER]. As an Empire, your people will likely want to dine on it.</Text>
+    <Text>It was the Forge of the Overlord that first brought this world to the attention of the Titans. Now, it will be the Forge of the Overlord that returns our people to their rightful glory. This is nothing you need concern yourself over. No doubt you would set fire to it if you came across it.</Text>
+    <Text>The Spell of Making is magic that was thought lost from the world. While the Book of Mastery has been found, no one can yet translate its ancient words. But through Arcane Mastery, we shall soon have this knowledge and with this spell and the power to cast it, the world will be ours.</Text>
+    <Text>We have [S_MONEY] gildaR. You have [L_MONEY] gildar. You would be wise to provide your money to us, [L_LeaderName].</Text>
+    <Text>The natural order of the world is derived from the orderly transition of power from one generation to another. This is why we are the most advanced culture in the world. By contrast, you Empires have the foolish notion that ability is randomly selected each generation. Very untidy.</Text>
+    <Text>[L_LeaderName]. Your security can only be secured through submission to us. Despite being an Empire, we believe you could be converted to some level of civilization.</Text>
+    <R_OK>Talk_Generic_R_OK</R_OK>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_WorldSituation</Topic>
+    <Faction>KingdomOfAltar</Faction>
+    <Rule>1</Rule>
+    <Text>Greetings [L_LeaderName]. This is a new era for our world. It is a time for us to work together to stave off the dark powers that seek to bring only ruin and destruction to the world.</Text>
+    <Text>Hail [L_LeaderName]. We should aim to ally together by creating treaties and eventually build an alliance together.</Text>
+    <Text>Greetings [L_LeaderName]. Your capital, [L_CAPITAL_CITY], is impressive. We look forward to it becoming one of the great wonders of the world.</Text>
+    <Text>Greetings [L_LeaderName]. You seem to be doing well. We hope we can find ways to work together.</Text>
+    <Text>Hail [L_LeaderName]! Rumor has it that [BEST_CHAMPION] is the greatest of champions. Those who oppose this being would do well to be careful.</Text>
+    <Text>I have come to warn you, [L_LeaderName]. Your capital is only [DISTANCE_L_CAPITAL] leagues from the most foul monster we've discovered. It is known as a [BEST_MONSTER]. </Text>
+    <Text>It is said that the Forge of the Overlord is hidden in a most dangerous area of the world. Whoever finds it will be in a place to remake this world as they see fit.</Text>
+    <Text>The Spell of Making is part of the recently found book, "Book of Mastery". Unfortunately, the language it is written in has been long lost. With the right knowledge, it could once again be read and with enough mana, the spell cast.</Text>
+    <Text>We have [S_MONEY] gildar. You have [L_MONEY] gildar. I am not sure whether to be impressed or sad.</Text>
+    <Text>It will not be Kings or Emperors who decide the fate of the world, it will be the common man.</Text>
+    <Text>[L_LeaderName]. Security can only be gained by working together with others.</Text>
+    <R_OK>Talk_Generic_R_OK</R_OK>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_WorldSituation</Topic>
+    <Faction>KingdomOfAltar</Faction>
+    <Rule>2</Rule>
+    <Text>[L_LeaderName], I have seen the brutality of the Empires. The question I ask is this: Is the savagry of the Empires the result of the inherent evil ways of the Fallen or because of a flawed ideology?</Text>
+    <Text>[L_LeaderName], the Empires will never succeed. When the Titans fell, so too went the only reason for any Empire to exist. The future belongs to the Kingdoms.</Text>
+    <Text>[L_LeaderName]. I have been to  your capital, [L_CAPITAL_CITY]. It is fast growing but do not mistake it as being an avatar to be emulated. The Empires will never again rule this world.</Text>
+    <Text>[L_LeaderName]. Your Empire has come far. But the Empires will never win. You do know this right? Your very ideology leads to squabbling and infighting. The Kingdoms, by contrast, will work together to your ruin.</Text>
+    <Text>[L_LeaderName], rumor has it that [BEST_CHAMPION] is the greatest of champions. Those who oppose this being would do well to be careful.</Text>
+    <Text>[L_LeaderName]. Your capital is only [DISTANCE_L_CAPITAL] leagues from the most foul monster we've discovered. It is known as a [BEST_MONSTER]. I don't know why I tell you this. No doubt, you'll immediately send slaves or something to be sacrificed to it.</Text>
+    <Text>They say the Forge of the Overlord brought to this world the Titans. And it was the Titans who it is said brought the rise of the various Fallen races. It will be the Forge of the Overlord that banishes the Fallen from this world and their vile Empires with it.</Text>
+    <Text>The Spell of Making is magic that was thought lost from the world. While the Book of Mastery has been found, no one can yet translate its ancient words. But through Arcane Mastery, we shall soon have this knowledge and with this spell and the power to cast it, the world will be ours.</Text>
+    <Text>We have [S_MONEY] gildar. You have [L_MONEY] gildar. Something to ponder, [L_LeaderName].</Text>
+    <Text>Our people have a natural affinity for the Empire's egalitarian premise. However, at some point, the people need to choose a leader and give that person a chance to lead. There is a difference between equal opportunity and endless tribalism.</Text>
+    <Text>[L_LeaderName]. By definition, an Empire never has any security. You are always waiting for someone stronger to crush you.</Text>
+    <R_OK>Talk_Generic_R_OK</R_OK>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_WorldSituation</Topic>
+    <Faction>KingdomOfTarth</Faction>
+    <Rule>1</Rule>
+    <Text>Ho [L_LeaderName]. Never again will be bow to anyone. We are free and we will fight to maintain our freedom.</Text>
+    <Text>Ho [L_LeaderName]. Others may train archers. But none can match ours. Precision and accuracy are in our blood.</Text>
+    <Text>I have been to your capital, [L_LeaderName]. [L_CAPITAL_CITY] is a beautiful city. But nothing can compare to [S_CAPITAL_CITY].</Text>
+    <Text>Hail [L_LeaderName]! Rumor has it that [BEST_CHAMPION] is the greatest of champions. Those who oppose this being would do well to be careful.</Text>
+    <Text>I have come to warn you, [L_LeaderName]. Your capital is only [DISTANCE_L_CAPITAL] leagues from the most foul monster we've discovered. It is known as a [BEST_MONSTER]. </Text>
+    <Text>They say a Channeler can live for hundreds of years. That is something hard to imagine.</Text>
+    <Text>The Spell of Making is part of the recently found book, "Book of Mastery". Unfortunately, the language it is written in has been long lost. With the right knowledge, it could once again be read and with enough mana, the spell cast.</Text>
+    <Text>We have [S_MONEY] gildar. You have [L_MONEY] gildar. I am not sure whether to be impressed or sad.</Text>
+    <Text>It is through chaos that the old ways can be brought down. If it weren't for chaos, we would still be enslaved by Capitar.</Text>
+    <Text>[L_LeaderName]. Security can only certain by the blade.</Text>
+    <R_OK>Talk_Generic_R_OK</R_OK>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_WorldSituation</Topic>
+    <Faction>KingdomOfTarth</Faction>
+    <Rule>2</Rule>
+    <Text>[L_LeaderName], We shall never be friends with the keepers of slaves.</Text>
+    <Text>[L_LeaderName]. Being strong does not give you the right to subjugate the weak.</Text>
+    <Text>[L_LeaderName]. I have been to  your capital, [L_CAPITAL_CITY]. But in the end, it will burn. And I will be holding the match. Never forget that as an Empire, our people shall always despise you deep down.</Text>
+    <Text>[L_LeaderName]. We shall never support your goals. Might does not make right. You can pretend all you want but an Empire always shows its stripes sooner or later.</Text>
+    <Text>[L_LeaderName], rumor has it that [BEST_CHAMPION] is the greatest of champions. Those who oppose this being would do well to be careful.</Text>
+    <Text>[L_LeaderName]. Your capital is only [DISTANCE_L_CAPITAL] leagues from the most foul monster we've discovered. It is known as a [BEST_MONSTER]. I don't know why I tell you this. No doubt, you'll immediately send slaves or something to be sacrificed to it.</Text>
+    <Text>They say the Forge of the Overlord brought to this world the Titans. And it was the Titans who it is said brought the rise of the various Fallen races. It will be the Forge of the Overlord that banishes the Fallen from this world and their vile Empires with it.</Text>
+    <Text>The Spell of Making is magic that was thought lost from the world. While the Book of Mastery has been found, no one can yet translate its ancient words. But through Arcane Mastery, we shall soon have this knowledge and with this spell and the power to cast it, the world will be ours.</Text>
+    <Text>We have [S_MONEY] gildar. You have [L_MONEY] gildar. Something to ponder, [L_LeaderName].</Text>
+    <Text>Our former masters have compared us to you. They could not be more wrong. For us, the blade means freedom. For you, the blade is what you would use to conquer others. We don't trust you.</Text>
+    <Text>[L_LeaderName]. By definition, an Empire never has any security. You are always waiting to backstab.</Text>
+    <R_OK>Talk_Generic_R_OK</R_OK>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_WorldSituation</Topic>
+	<Rule>0</Rule>
+    <Text>[L_LeaderName]. My spies have visited [L_CAPITAL_CITY]. Impressive. I look forward to adding it to my realm.</Text>
+    <Text>[L_LeaderName], they sing songs of the greatest warrior in the world, [BEST_CHAMPION]. We will all keep an eye out for this being.</Text>
+    <Text>[L_LeaderName]. Your capital is only [DISTANCE_L_CAPITAL] leagues from the most foul monster we've discovered. It is known as a [BEST_MONSTER].</Text>
+    <Text>[L_LeaderName], We have [S_MONEY] gildar. You have [L_MONEY] gildar. Something to laugh about...or cry about, [L_LeaderName].</Text>
+    <Text>Greetings [L_LeaderName]. The kingdoms will ultimately triumph for control of this world.  The time of the Fallen ended with the destruction of the Titans.  It would be useless for any Empire to resist our inevitable victory.</Text>
+	<Text>Hail [L_LeaderName]. The Empires are doomed. You must know this. They see cruelty as strength. They are savages. They have no understanding of the rule of law. And for this reason, they are weak and shall fall.</Text>
+	<Text>I greet you, [L_LeaderName]. The Empires are doomed. You must know this. They see cruelty as strength. They are savages. They have no understanding of the rule of law. And for this reason, they are weak and shall fall.</Text>
+	<Text>It is good to speak with you, [L_LeaderName]. I have advice I would have you listen to. It is ever foolish to believe in the teachings you may have been told from a Sage of the Empire. Their endless strife ensures that civilization will never flourish under them. They do not realize that the Titans rules only through their inherent and unearned might. Without the Titans, the Empires are nothing.</Text>
+	<Text>I have come with a warning, [L_LeaderName]. A [BEST_MONSTER] has been found not far from your capital.  These creatures are powerful beyond compare. Be wary.</Text>
+	<Text>I will confess that your continued survival is impressive, [L_LeaderName]. Our spies continue to inform us what happens in [L_CAPITAL_CITY]. Do not think for a moment that we do not keep an eye on your efforts.</Text>
+	<R_OK>Talk_Generic_R_OK</R_OK>
+  </FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_WorldSituation</Topic>
+		<Rule>10</Rule>
+		<Text>[L_LeaderName]. Our agents have visited [L_CAPITAL_CITY]. Impressive. I look forward to adding it to my empire.</Text>
+		<Text>[L_LeaderName], we are gathering the most powerful beings into our empire. Soon [BEST_CHAMPION], the most powerful of them all shall be ours...or dead.</Text>
+		<Text>[L_LeaderName]. Your capital is only [DISTANCE_L_CAPITAL] leagues from the most foul monster we've discovered. It is known as a [BEST_MONSTER].</Text>
+		<Text>It is with grave news I speak to you today, [L_LeaderName]. Your capital is only [DISTANCE_L_CAPITAL] leagues from the most powerful monster we've discovered. It is known as a [BEST_MONSTER].</Text>
+		<Text>Let us speak candidly, [L_LeaderName]. </Text>
+		<Text>Let me tell you something that few know the whole truth of, [L_LeaderName]. The Dread Lord Talax himself, the very last of the Titans, favored me with his wisdom concerning the inevitable battle between the Kingdoms and the Empires. It is the destiny of the Empires to rule. We are the true inheritors of Curgen's throne and our armies will fulfill his vision.</Text>
+		<Text>I shall share with you tidings, [L_LeaderName]. The people of [L_CAPITAL_CITY] are unaware of the nature of the struggle between the Kingdoms and the Empires. The Kingdoms do not understand the nature of life. It is short. It is harsh. It is a struggle. The world is governed by the laws of scarcity. The Empires understand this and will do whatever is necessary to secure their existence. The Kingdoms, by contrast, will not.</Text>
+		<Text>Let me tell you the true nature of the Kingdoms, [L_LeaderName]. In all things, they are weak. When boldness is required, they vacillate. When action necessary, they deliberate. When words are superflous, they pontificate. It is for these reasons that they shall fail to survive in this world of scarcity.</Text>
+		<Text>The rise of the Empires is ineviable, [L_LeaderName]. These are desperate times. And we are a desperate people. We provide the example. We do not stray our course to aid those less fortunate. If they cannot summon the will to survive, then let them fall. Let them die. There is room for others to take their place.</Text>
+		<R_OK>Talk_Generic_R_OK</R_OK>
+	</FlavorText>
+  
+	<FlavorText>
+		<Topic>Talk_Generic_R_YES</Topic>
+		<Text>Agreed.</Text>
+		<Text>I agree.</Text>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Talk_Generic_R_NO</Topic>
+		<Text>No, I don't think so.</Text>
+		<Text>That won't be happening.</Text>
+	</FlavorText>
+
+
+	<FlavorText>
+		<Topic>Talk_Generic_R_OK</Topic>
+		<Text>Farewell.</Text>
+		<Text>I will consider your words.</Text>
+		<Text>Goodbye.</Text>
+	</FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_Dislike_OK</Topic>
+    <Text>You shall eat your words.</Text>
+    <Text>It will be your head on a pike.</Text>
+    <Text>Then we shall meet in hell.</Text>
+    <Text>We shall see about that.</Text>
+    <Text>Less talk, more kill.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_Tech_R_YES</Topic>
+    <Text>That sounds like a good trade.</Text>
+    <Text>Yes. Both of us can prosper with this trade.</Text>
+    <Text>You have a deal.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_Tech_R_NO</Topic>
+    <Text>No thank you.</Text>
+    <Text>I don't think so.</Text>
+    <Text>Our technology is too valuable to trade.</Text>
+  </FlavorText>
+  
+  <FlavorText>
+    <Topic>TALK_TRADE_KNOWLEDGE_OFFER</Topic>
+    <Text>We would be interested in trading knowledge with you, [L_LeaderName]. Would you consider trading [L_TECHPOINTS] of your knowledge in [L_TECHCATEGORY] for [S_TECHPOINTS] in [S_TECHCATEGORY]?</Text>
+    <Text>We are all scrambling to recover the knowledge lost during the cataclysm. Let's speed the process up. I will give you [S_TECHPOINTS] in [S_TECHCATEGORY] in exchange for [L_TECHPOINTS] of your knowledge in [L_TECHCATEGORY]?</Text>
+    <R_YES>Talk_Tech_R_YES</R_YES>
+    <R_NO>Talk_Tech_R_NO</R_NO>
+  </FlavorText>
+
+	<FlavorText>
+		<Topic>TALK_LOSTCITY_TO_MONSTERS</Topic>
+		<Text>My Lord, we have received reports that [VICTIM_FACTION] has lost one of their cities to the vile creatures of the wilds.</Text>
+		<R_OK>Talk_Generic_R_OK</R_OK>
+	</FlavorText>
+
+  <FlavorText>
+    <Topic>TALK_POTENTIAL_TRADE_ACCEPTED_I_WILL_SURRENDER</Topic>
+    <Text>It appears we have no choice.</Text>
+  </FlavorText>
+  
+	
+</FlavorTextEntries>

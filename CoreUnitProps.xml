@@ -1,0 +1,1877 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<PropTypes>
+  <DataChecksum NoParse="1">
+    <Ignore>DisplayName</Ignore>
+    <Translate>DisplayName,TerrainName</Translate>
+  </DataChecksum>
+
+  <!-- Low Poly Units -->
+
+
+  <!--******************************************** -->
+  <!-- **********   Basic  Pedestrians   ********* -->
+  <!--******************************************** -->
+
+  <!-- ***************** Gaurds Equiped **************** -->
+
+  <PropModelType InternalName="MaleKnightSpearGuard">
+    <DisplayName>Male Knight Spear Guard 01</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\MaleKnightSpearGuard01.png</Thumb>
+    <Tag>Kingdom</Tag>
+    <Model>Gfx\HKB\Pedestrians\K_Soldier_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Soldoer_Texture_01.png</Texture_All>
+    <AnimationPath>MaleMilitiaTowerGuardAnimationPack</AnimationPath>
+    <RHandAttach>gfx/hkb/items/woodenspear.hkb</RHandAttach>
+    <ChestAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom medium armor B\kingdom_medium_chest_guard_B.hkb</ChestAttach>
+    <ShoulderAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom medium armor B\kingdom_medium_shoulder_guard_B.hkb</ShoulderAttach>
+    <ForearmAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom medium armor B\kingdom_medium_vambrace_B.hkb</ForearmAttach>
+    <SkirtAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom medium armor B\kingdom_medium_right_skirting_B.hkb</SkirtAttach>
+    <RearSkirtAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom medium armor B\kingdom_medium_rear_skirting_B.hkb</RearSkirtAttach>
+    <HeadAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom medium armor B\kingdom_medium_helmet_B.hkb</HeadAttach>
+    <FootAttach></FootAttach>
+    <CalfAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom medium armor B\kingdom_medium_greave_B.hkb</CalfAttach>
+    <ThighAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom medium armor B\kingdom_medium_thigh_guard_B.hkb</ThighAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="MaleMilitiaDoorGuard01">
+    <DisplayName>Male Soldier Door Guard 01</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\MaleSoldierDoorGuard1.png</Thumb>
+    <Tag>Kingdom</Tag>
+    <Model>Gfx\HKB\Pedestrians\K_Soldier_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Soldoer_Texture_01.png</Texture_All>
+    <AnimationPath>MaleMilitiaTowerGuardAnimationPack</AnimationPath>
+    <RHandAttach>gfx/hkb/items/woodenspear.hkb</RHandAttach>
+    <ChestAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom leather armor B\kingdom_leather_chest_guard_B.hkb</ChestAttach>
+    <ShoulderAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom leather armor B\kingdom_leather_shoulder_guard_B.hkb</ShoulderAttach>
+    <ForearmAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom leather armor B\kingdom_leather_vambrace_B.hkb</ForearmAttach>
+    <SkirtAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom leather armor B\kingdom_leather_right_skirting_B.hkb</SkirtAttach>
+    <RearSkirtAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom leather armor B\kingdom_leather_rear_skirting_B.hkb</RearSkirtAttach>
+    <HeadAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom leather armor B\kingdom_leather_helmet_B.hkb</HeadAttach>
+    <FootAttach></FootAttach>
+    <CalfAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom leather armor B\kingdom_leather_greave_B.hkb</CalfAttach>
+    <ThighAttach>Gfx\HKB\Items\Armor\Kingdom Armor\kingdom leather armor B\kingdom_leather_thigh_guard_B.hkb</ThighAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <!--**********   Gaurds ********* -->
+
+  <PropModelType InternalName="FarmerGuard01">
+    <DisplayName>Farmer Guard</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\Items\\FarmerOnguard01.png</Thumb>
+    <Tag>Kingdom</Tag>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Farmer_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>MaleMilitiaTowerGuardAnimationPack</AnimationPath>
+    <RHandAttach>gfx/hkb/items/woodenspear.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FemaleFarmerGuard01">
+    <DisplayName>Female Farmer Guard</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FemaleFarmerOnGuard.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>MaleMilitiaTowerGuardAnimationPack</AnimationPath>
+    <RHandAttach>gfx/hkb/items/woodenspear.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="MaleGuard01">
+    <DisplayName>Male Guard</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\Game\Gfx\HKB\Props\Thumbnails\MaleOnGuard.png</Thumb>
+    <Tag>Kingdom</Tag>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Worker_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>MaleMilitiaTowerGuardAnimationPack</AnimationPath>
+    <RHandAttach>gfx/hkb/items/woodenspear.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="WomenGuard01">
+    <DisplayName>Female Guard</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\WomanOnGuard01.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>MaleMilitiaTowerGuardAnimationPack</AnimationPath>
+    <RHandAttach>gfx/hkb/items/woodenspear.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="RobedGuard01">
+    <DisplayName>Robed Pedestrian Guard</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\RobedPedestrianOnGuard.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Hooded_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\props\AirStructure.png</Texture_All>
+    <AnimationPath>MaleMilitiaTowerGuardAnimationPack</AnimationPath>
+    <RHandAttach>gfx/hkb/items/woodenspear.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenMaleGuard01">
+    <DisplayName>Fallen Male Guard</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenMaleGuard01.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Male_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>MaleMilitiaTowerGuardAnimationPack</AnimationPath>
+    <RHandAttach>gfx/hkb/items/woodenspear.hkb</RHandAttach>
+    <Scale>0.135</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleMaleGuard01">
+    <DisplayName>Fallen Female Guard</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleOnGuard.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>MaleMilitiaTowerGuardAnimationPack</AnimationPath>
+    <RHandAttach>gfx/hkb/items/woodenspear.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleWarriorGuard01">
+    <DisplayName>Fallen Female Warrior Guard</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleWarriorOnGuard.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>MaleMilitiaTowerGuardAnimationPack</AnimationPath>
+    <RHandAttach>gfx/hkb/items/woodenspear.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DarklingGuard01">
+    <DisplayName>Darkling (On Guard)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\DarklingOnGuard.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Darkling_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>MaleMilitiaTowerGuardAnimationPack</AnimationPath>
+    <RHandAttach>gfx/hkb/items/woodenspear.hkb</RHandAttach>
+    <Scale>0.11</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <!--**********   Talking   ********* -->
+
+  <PropModelType InternalName="FarmerTalking">
+    <DisplayName>Farmer Talking (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FarmerTalking.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Farmer_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FarmerTalking2">
+    <DisplayName>Farmer Talking (Part 2)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FarmerTalkingPart2.png</Thumb>
+    <Tag>Kingdom</Tag>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Farmer_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack2</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FemaleFarmerTalking1">
+    <DisplayName>Female Farmer Talking (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\FemaleFarmerTalkingPart1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FemaleFarmerTalking2">
+    <DisplayName>Female Farmer Talking (Part 2)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FemaleFarmerTalkingPart2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack2</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="MaleTalking1">
+    <DisplayName>Townsmen Talking Part 1</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Male_Talk1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Worker_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="MaleTalking2">
+    <DisplayName>Townsmen Talking Part 2</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Male_Talk2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Worker_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack2</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FemaleTalking1">
+    <DisplayName>Townswoman Talking (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Female_Talk1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FemaleTalking2">
+    <DisplayName>Townswoman Talking (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Female_Talk2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack2</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="RobedTalking1">
+    <DisplayName>Robed Pedestrian Talking (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\RobedPedestrianTalkingPart1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Hooded_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\props\AirStructure.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="RobedTalking2">
+    <DisplayName>Robed Pedestrian Talking (Part 2)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\RobedPedestrianTalkingPart2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Hooded_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\props\AirStructure.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack2</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenMaleTalking1">
+    <DisplayName>Fallen Male Talking (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenMaleTalkingPart1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Male_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack</AnimationPath>
+    <Scale>0.135</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenMaleTalking2">
+    <DisplayName>Fallen Male Talking (Part 2)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenMaleTalkingPart2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Male_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack2</AnimationPath>
+    <Scale>0.135</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleTalking1">
+    <DisplayName>Fallen female Talking (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleTalkingPart1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>s
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleTalking2">
+    <DisplayName>Fallen Female Talking (Part 2)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleTalkingPart2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Worker_Mesh_01.hkb</Model>
+    <Tag>Fallen</Tag>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack2</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenWarriorFemaleTalking1">
+    <DisplayName>Fallen Warrior female Talking (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenWarriorFemaleTalkingPart1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenWarriorFemaleTalking2">
+    <DisplayName>Fallen Warrior Female Talking (Part 2)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Farmer_Mesh_01.hkb</Model>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenWarriorFemaleTalkingPart2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack2</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DarklingTalking1">
+    <DisplayName>Darkling (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\DarklingPart1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Darkling_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack</AnimationPath>
+    <Scale>0.11</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DarklingTalking2">
+    <DisplayName>Darkling Talking (Part 2)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\DarklingTalkingPart2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Darkling_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianTalkingAnimationPack2</AnimationPath>
+    <Scale>0.11</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+
+  <!--**********    Hoe   ********* -->
+
+  <PropModelType InternalName="MaleFarmer">
+    <DisplayName>Male Farmer (Hoe)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\farmer.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Farmer_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\Characters\\Geometry\\Weapons\\hoe.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FemaleFarmerHoe">
+    <DisplayName>Female Farmer (Hoe)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FemaleFarmerHoe.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\Hoe.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="TownsmenHoe">
+    <DisplayName>Townsman (Hoe)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\TownsmenHoe.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Worker_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\Hoe.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="TownswomenHoe">
+    <DisplayName>Townswoman (Hoe)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\TownswomanHoe.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\Hoe.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="RobedHoe">
+    <DisplayName>Robed Pedestrian (Hoe)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\RobedpedestrianHoe.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Hooded_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\props\AirStructure.png</Texture_All>
+    <AnimationPath>PedestrianFarmerAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\Hoe.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenMaleHoe">
+    <DisplayName>Fallen Male (Hoe)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenMaleHoe.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Male_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\Hoe.hkb</RHandAttach>
+    <Scale>0.135</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleMaleHoe">
+    <DisplayName>Fallen Female (Hoe)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleHoe.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\Hoe.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleWarriorHoe">
+    <DisplayName>Fallen Female Warrior (Hoe)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleWarriorHoe.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\Hoe.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DarklingHoe">
+    <DisplayName>Darkling (Hoe)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\DarklingHoe.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Darkling_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\Hoe.hkb</RHandAttach>
+    <Scale>0.11</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+
+  <!--**********   Digging  ********* -->
+
+  <PropModelType InternalName="MaleMilitiaShovel01">
+    <DisplayName>Male Farmer (Shovel)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Digger.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Farmer_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerDiggingAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\shovel.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FemaleFarmerShovel">
+    <DisplayName>Female Farmer (Shovel)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FemaleFarmerShovel.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerDiggingAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\shovel.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="TownsmenShovel">
+    <DisplayName>Townsmen (Shovel)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\TownsmenShovel.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Worker_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerDiggingAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\shovel.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="TownswomenShovel">
+    <DisplayName>Townswoman (Shovel)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\TownswomanShovel.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerDiggingAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\shovel.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="RobedShovel">
+    <DisplayName>Robed Pedestrian (Shovel)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\RobedpedestrianShovel.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Hooded_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\props\AirStructure.png</Texture_All>
+    <AnimationPath>PedestrianFarmerDiggingAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\shovel.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenMaleshovel">
+    <DisplayName>Falen Male (Shovel)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenMaleshovel.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Male_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerDiggingAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\shovel.hkb</RHandAttach>
+    <Scale>0.135</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleMaleshovel">
+    <DisplayName>Fallen Female (Shovel)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleshovel.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerDiggingAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\shovel.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleWarriorshovel">
+    <DisplayName>Fallen Female Warrior (Shovel)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleWarriorshovel.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerDiggingAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\shovel.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="Darklingshovel">
+    <DisplayName>Darkling (Shovel)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Darklingshovel.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Darkling_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <EyeTexture>gfx\\eyes\\eyeblink_m_brwn.png</EyeTexture>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianFarmerDiggingAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\shovel.hkb</RHandAttach>
+    <Scale>0.11</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+
+
+  <!--**********   Chopping  ********* -->
+
+  <PropModelType InternalName="MaleWorkerChopping">
+    <DisplayName>Male Farmer (Chopping)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\chopper.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Farmer_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <EyeTexture>gfx\\eyes\\eyeblink_m_brwn.png</EyeTexture>
+    <AnimationPath>PedestrianLumberjackAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\Characters\\Geometry\\Weapons\\workman_axe.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FemaleFarmerChopping">
+    <DisplayName>Female Farmer (Chopping)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FemaleFarmerChopping.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianLumberjackAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\workman_axe.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="TownsmenChopping">
+    <DisplayName>Townsman (Chopping)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\TownsmanChopping.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Worker_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianLumberjackAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\workman_axe.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="TownswomenChopping">
+    <DisplayName>Townswoman (Chopping)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\TownswomanChopping.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianLumberjackAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\workman_axe.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="RobedChopping">
+    <DisplayName>Robed Pedestrian (Chopping)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\RobedpedestrianChopping.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Hooded_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\props\AirStructure.png</Texture_All>
+    <AnimationPath>PedestrianLumberjackAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\workman_axe.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenMaleChopping">
+    <DisplayName>Fallen Male (Chopping)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenMaleChopping.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Male_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianLumberjackAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\workman_axe.hkb</RHandAttach>
+    <Scale>0.135</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleMaleChopping">
+    <DisplayName>Fallen Female (Chopping)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleChopping.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianLumberjackAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\workman_axe.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleWarriorChopping">
+    <DisplayName>Fallen Female Warrior (Chopping)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleWarriorChopping.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianLumberjackAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\workman_axe.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DarklingChopping">
+    <DisplayName>Darkling (Chopping)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\DarklingChopping.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Darkling_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianLumberjackAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\\workman_axe.hkb</RHandAttach>
+    <Scale>0.11</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <!--**********   Hammer  ********* -->
+
+  <PropModelType InternalName="MaleFarmerHammeringGround">
+    <DisplayName>Male Farmer (Hammering Ground)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\MaleFarmerHammerGround.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Farmer_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <EyeTexture>gfx\\eyes\\eyeblink_m_brwn.png</EyeTexture>
+    <AnimationPath>PedestrianWorkerGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\Characters\\Geometry\\Weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FemaleFarmerHammeringGround">
+    <DisplayName>Female Farmer (Hammering Ground)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FemaleFarmerHammerGround.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="MaleWorkerHammeringWall">
+    <DisplayName>Male Worker (Hammering Ground)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\builder1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Worker_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\Characters\\Geometry\\Weapons\\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="TownswomenHammeringGround">
+    <DisplayName>Townswoman (Hammering Ground)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\TownswomanHammerGround.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="RobedHammeringGround">
+    <DisplayName>Robed Pedestrian (Hammering Ground)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\RobedPedestrianHammerGround.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Hooded_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\props\AirStructure.png</Texture_All>
+    <AnimationPath>PedestrianWorkerGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenMaleHammeringGround">
+    <DisplayName>Fallen Male (Hammering Ground)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenMaleHammerGround.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Male_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.135</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleMaleHammeringGround">
+    <DisplayName>Fallen Female (Hammering Ground)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleHammerGround.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleWarriorHammeringGround">
+    <DisplayName>Fallen Female Warrior (Hammering Ground)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleWarriorHammerGround.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DarklingHammeringGround">
+    <DisplayName>Darkling (Hammering Ground)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\DarklingHammerGround.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Darkling_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.11</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+
+  <!--**********   Hammer Wall ********* -->
+
+  <PropModelType InternalName="MaleFrarmerHammeringWall">
+    <DisplayName>Male Farmer (Hammering Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\MaleFarmerHammerWall.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Farmer_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <EyeTexture>gfx\\eyes\\eyeblink_m_brwn.png</EyeTexture>
+    <AnimationPath>PedestrianWorkerWallAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\Characters\\Geometry\\Weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FemaleFarmerHammeringWall">
+    <DisplayName>Female Farmer (Hammering Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FemaleFarmerHammerWall.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="MaleWorkerHammeringGround">
+    <DisplayName>Male Worker (Hammering Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\builder3.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Worker_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\Characters\\Geometry\\Weapons\\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="TownswomenHammeringWall">
+    <DisplayName>Townswoman (Hammering Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\TownswomanHammerWall.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="RobedHammeringWall">
+    <DisplayName>Robed Pedestrian (Hammering Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\RobedPedestrianHammerWall.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Hooded_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\props\AirStructure.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenMaleHammeringWall">
+    <DisplayName>Fallen Male (Hammering Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenMaleHammerWall.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Male_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.135</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleMaleHammeringWall">
+    <DisplayName>Fallen Female (Hammering Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleHammerWall.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleWarriorHammeringWall">
+    <DisplayName>Fallen Female Warrior (Hammering Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleWarriorHammerWall.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DarklingHammeringWall">
+    <DisplayName>Darkling (Hammering Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\DarklingHammerWall.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Darkling_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.11</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+
+
+  <!--**********   Hammer Ground Wall ********* -->
+
+  <PropModelType InternalName="MaleFrarmerHammeringGoundandWall">
+    <DisplayName>Male Farmer (Hammering Ground and Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\chopper.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Farmer_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <EyeTexture>gfx\\eyes\\eyeblink_m_brwn.png</EyeTexture>
+    <AnimationPath>PedestrianWorkerWallAndGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\Characters\\Geometry\\Weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FemaleFarmerHammeringGoundandWall">
+    <DisplayName>Female Farmer (Hammering Ground and Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FemaleFarmerHammergroundandWall.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAndGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="MaleWorkerHammeringGroundAndGround">
+    <DisplayName>Male Worker (Hammering Ground and Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\builder2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Worker_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAndGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\Characters\\Geometry\\Weapons\\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="TownswomenHammeringGoundandWall">
+    <DisplayName>Townswoman (Hammering Ground and Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\TownswomanHammerGroundandWall.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAndGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="RobedHammeringGoundandWall">
+    <DisplayName>Robed Pedestrian (Hammering Ground and Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\RobedpedestrianHammerGroundandWall.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Hooded_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\props\AirStructure.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAndGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenMaleHammeringGoundandWall">
+    <DisplayName>Falen Male (Hammering Ground and Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenMaleHammerGroundandWall.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Male_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAndGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.135</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleMaleHammeringGoundandWall">
+    <DisplayName>Fallen Female (Hammering Ground and Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleHammerGroundandWall.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAndGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleWarriorHammeringGoundandWall">
+    <DisplayName>Fallen Female Warrior (Hammering Ground and Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleWarriorHammerGroundandWall.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAndGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DarklingHammeringGoundandWall">
+    <DisplayName>Darkling (Hammering Ground and Wall)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\DarklingHammerGroundandWall.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Darkling_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianWorkerWallAndGroundAnimationPack</AnimationPath>
+    <RHandAttach>gfx\\hkb\\characters\\geometry\\weapons\Hammer.hkb</RHandAttach>
+    <Scale>0.11</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <!--**********   Sitting   ********* -->
+
+  <PropModelType InternalName="FarmerSitting1">
+    <DisplayName>Farmer Sitting (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FarmerSitPart1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Farmer_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack1</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FarmerSitting2">
+    <DisplayName>Farmer Sitting (Part 2)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Male_Sit1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Farmer_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack2</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FemaleFarmerSitting1">
+    <DisplayName>Female Farmer Sitting (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\FemaleFarmerSitPart1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack1</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FemaleFarmerSitting2">
+    <DisplayName>Female Farmer Sitting (Part 2)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FemaleFarmerSitPart2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack2</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="MaleSitting2">
+    <DisplayName>Townsman Sitting Part 1</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Male_Sit3.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Worker_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack1</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="MaleSitting">
+    <DisplayName>Townsmen Sitting Part 2</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Male_Sit2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Worker_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack2</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="Female Sitting">
+    <DisplayName>Townswoman Sitting (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Female_Sit1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack1</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FemaleSitting2">
+    <DisplayName>Townswoman Sitting (Part 2)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\TownswomanSitPart2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack2</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="RobedSitting1">
+    <DisplayName>Robed Pedestrian Sitting (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\RobedPedestrianSitPart1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Hooded_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\props\AirStructure.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack1</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="RobedSitting2">
+    <DisplayName>Robed Pedestrian Sitting (Part 2)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\robedpedestriansitpart2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Hooded_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\props\AirStructure.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack2</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenMaleSitting1">
+    <DisplayName>Fallen Male Sitting (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenMaleSitpart1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Male_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack1</AnimationPath>
+    <Scale>0.135</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenMaleSitting2">
+    <DisplayName>Fallen Male Sitting (Part 2)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenMaleSitpart2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Male_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack2</AnimationPath>
+    <Scale>0.135</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleSitting1">
+    <DisplayName>Fallen female Sitting (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag> 
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleSitpart2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack1</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleSitting2">
+    <DisplayName>Fallen Female Sitting (Part 2)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleSitpart2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack2</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenWarriorFemaleSitting1">
+    <DisplayName>Fallen Warrior female Sitting (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleWarriorSitPart1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack1</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenWarriorFemaleSitting2">
+    <DisplayName>Fallen Warrior Female Sitting (Part 2)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleWarriorSitPart2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack2</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DarklingSitting1">
+    <DisplayName>Darkling (Part 1)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\DarklingSitpart1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Darkling_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack1</AnimationPath>
+    <Scale>0.11</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DarklingSitting2">
+    <DisplayName>Darkling Sitting (Part 2)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\DarklingSitpart2.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Darkling_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>PedestrianSittingAnimationPack2</AnimationPath>
+    <Scale>0.11</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <!--**********   Browsing ********* -->
+
+  <PropModelType InternalName="FarmerAtMarket">
+    <DisplayName>Farmer At Market 01</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FarmerAtMarket.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Farmer_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>WomanAtMarketAnimationPack</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FemaleFarmerAtMarket">
+    <DisplayName>Female Farmer (At Market)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FemaleFarmerAtMarket.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>WomanAtMarketAnimationPack</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="MaleAtMarket">
+    <DisplayName>Townsman (At Market)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\MaleAtMarket1.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Worker_Mesh_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>WomanAtMarketAnimationPack</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="WomenAtMarket">
+    <DisplayName>Women At Market 01</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Kingdom</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\shopper.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Female_Mesh_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\K_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>WomanAtMarketAnimationPack</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="RobedAtMarket">
+    <DisplayName>Robed Pedestrian (At Market)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\RobedpedestrianAtMarket.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\K_Peasant_Hooded_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\props\AirStructure.png</Texture_All>
+    <AnimationPath>WomanAtMarketAnimationPack</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenMaleAtMarket">
+    <DisplayName>Fallen Male (At Market)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenMaleAtMarket.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Male_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>WomanAtMarketAnimationPack</AnimationPath>
+    <Scale>0.135</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleMaleAtMarket">
+    <DisplayName>Fallen Female (At Market)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleatMarket.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>WomanAtMarketAnimationPack</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="FallenFemaleWarriorAtMarket">
+    <DisplayName>Fallen Female Warrior (At Market)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\FallenFemaleWarrioratMarket.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Female_02.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>WomanAtMarketAnimationPack</AnimationPath>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DarklingAtMarket">
+    <DisplayName>Darkling (At Market)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Fallen</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\DarklingAtMarket.png</Thumb>
+    <Model>gfx\hkb\Pedestrians\F_Peasant_Darkling_01.hkb</Model>
+    <Skeleton>gfx\hkb\Pedestrians\K_Peasant_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx\hkb\Pedestrians\F_Peasant_Texture_01.png</Texture_All>
+    <AnimationPath>WomanAtMarketAnimationPack</AnimationPath>
+    <Scale>0.11</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+
+  <!--***************** Animals **************** -->
+
+
+  <PropModelType InternalName="PerchedRat">
+    <DisplayName>Perched Rat</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\PerchedRat.png</Thumb>
+    <Model>Gfx\HKB\Pedestrians\M_Rat_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Pedestrians\M_Rat_Skeleton_01.hkb</Skeleton>
+    <Texture_All>Rat_Prop_Texture_01.png</Texture_All>
+    <AnimationPath>M_Rat_Sitting_AnimationPack</AnimationPath>
+    <Scale>0.35</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="Rat">
+    <DisplayName>Rat</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\PerchedRat.png</Thumb>
+    <Model>Gfx\HKB\Pedestrians\M_Rat_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Pedestrians\M_Rat_Skeleton_01.hkb</Skeleton>
+    <Texture_All>Rat_Prop_Texture_01.png</Texture_All>
+    <AnimationPath>M_Rat_Running_AnimationPack</AnimationPath>
+    <Scale>0.35</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DogProp">
+    <DisplayName>Pet Dog</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\PetDog.png</Thumb>
+    <Model>Gfx\HKB\Monsters\M_Wolf_Dog_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Monsters\M_Wolf_Skeleton_01.hkb</Skeleton>
+    <Texture_All>M_Wolf_Dog_Texture_01.png</Texture_All>
+    <Color_Skin>110,80,50</Color_Skin>
+    <AnimationPath>WolfAnimationPack</AnimationPath>
+    <Scale>0.2</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="WolfProp">
+    <DisplayName>Pet Wolf</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\PetWolf.png</Thumb>
+    <Model>Gfx\HKB\Monsters\M_Wolf_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Monsters\M_Wolf_Skeleton_01.hkb</Skeleton>
+    <Texture_All>M_Wolf_Texture_01.png</Texture_All>
+    <Color_Skin>100,95,95</Color_Skin>
+    <AnimationPath>WolfAnimationPack</AnimationPath>
+    <Scale>0.22</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DogRunningProp">
+    <DisplayName>Spit Dog</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SpitDog.png</Thumb>
+    <Model>Gfx\HKB\Monsters\M_Wolf_Dog_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Monsters\M_Wolf_Skeleton_01.hkb</Skeleton>
+    <Texture_All>M_Wolf_Dog_Texture_01.png</Texture_All>
+    <Color_Skin>110,80,50</Color_Skin>
+    <AnimationPath>WolfWalkingProp_AnimationPack</AnimationPath>
+    <Scale>0.2</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="WolfRunningProp">
+    <DisplayName>Spit Wolf</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SpitWolf.png</Thumb>
+    <Model>Gfx\HKB\Monsters\M_Wolf_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Monsters\M_Wolf_Skeleton_01.hkb</Skeleton>
+    <Texture_All>M_Wolf_Texture_01.png</Texture_All>
+    <Color_Skin>100,95,95</Color_Skin>
+    <AnimationPath>WolfWalkingProp_AnimationPack</AnimationPath>
+    <Scale>0.22</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="HorseProp">
+    <DisplayName>Horse</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>
+    <Thumb>HorseEquipIcon.png</Thumb>
+    <Model>Gfx\HKB\Monsters\M_Horse_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Monsters\M_Horse_Skeleton_01.hkb</Skeleton>
+    <Texture_All>M_Horse_Texture_01.png</Texture_All>
+    <Color_Skin>100,95,95</Color_Skin>
+    <AnimationPath>HorseAnimationPack</AnimationPath>
+    <Scale>0.14</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DarkHorseProp">
+    <DisplayName>Black Horse</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>
+    <Thumb>DarkHorseProp.png</Thumb>
+    <Model>Gfx\HKB\Monsters\M_Horse_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Monsters\M_Horse_Skeleton_01.hkb</Skeleton>
+    <Texture_All>M_Horse_Texture_01.png</Texture_All>
+    <Color_Skin>50,45,45</Color_Skin>
+    <AnimationPath>HorseAnimationPack</AnimationPath>
+    <Scale>0.15</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DearProp">
+    <DisplayName>Dear</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Deer1.png</Thumb>
+    <Model>Gfx\HKB\Monsters\M_Horse_Deer_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Monsters\M_Horse_Skeleton_01.hkb</Skeleton>
+    <Texture_All>M_SuperDemon_Yeti_Texture_01.png</Texture_All>
+    <Color_Skin>110,80,50</Color_Skin>
+    <AnimationPath>HorseAnimationPack</AnimationPath>
+    <Scale>0.08</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="HorseGrazingProp">
+    <DisplayName>HorseGrazing</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\none.png</Thumb>
+    <Model>Gfx\HKB\Monsters\M_Horse_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Monsters\M_Horse_Skeleton_01.hkb</Skeleton>
+    <Texture_All>M_Horse_Texture_01.png</Texture_All>
+    <Color_Skin>100,95,95</Color_Skin>
+    <AnimationPath>HorseAnimationPack</AnimationPath>
+    <Scale>0.14</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="DearGrazingProp">
+    <DisplayName>Dear Grazing</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\deer1.png</Thumb>
+    <Model>Gfx\HKB\Monsters\M_Horse_Deer_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Monsters\M_Horse_Skeleton_01.hkb</Skeleton>
+    <Texture_All>M_SuperDemon_Yeti_Texture_01.png</Texture_All>
+    <Color_Skin>110,80,50</Color_Skin>
+    <AnimationPath>HorseAnimationPack</AnimationPath>
+    <Scale>0.08</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="GragnarProp">
+    <DisplayName>Gragnar (Sand Brute)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\gragnar1.png</Thumb>
+    <Model>Gfx\HKB\Monsters\M_Warg_SandBrute_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Monsters\M_Warg_Skeleton_01.hkb</Skeleton>
+    <Texture_All>M_Warg_SandBrute_Texture_01.png</Texture_All>
+    <Color_Skin>120,95,95</Color_Skin>
+    <AnimationPath>WargAnimationPack</AnimationPath>
+    <Scale>0.35</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="WargProp">
+    <DisplayName>Warg (Prop)</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\gragnar1.png</Thumb>
+    <Model>Gfx\HKB\Monsters\M_Warg_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Monsters\M_Warg_Skeleton_01.hkb</Skeleton>
+    <Texture_All>M_Warg_Texture_01.png</Texture_All>
+    <Color_Skin>120,115,115</Color_Skin>
+    <AnimationPath>WargAnimationPack</AnimationPath>
+    <Scale>0.35</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="SkathProp">
+    <DisplayName>Skathling</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>        
+    <Thumb>BruteProp.png</Thumb>
+    <Model>Gfx\HKB\Monsters\M_Warg_Skath_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Monsters\M_Warg_Skeleton_01.hkb</Skeleton>
+    <Texture_All>M_Warg_Skath_Texture_01.png</Texture_All>
+    <Color_Skin>15,20,5</Color_Skin>
+    <AnimationPath>SkathAnimationPack</AnimationPath>
+    <Scale>0.3</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+
+</PropTypes>

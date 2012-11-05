@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- CoreMonsterProps.xml -->
+<!-- -->
+<UnitTypes>
+    <UnitType InternalName="Prop_GuardianStatue_Empire">
+        <DisplayName>Prop Guardian Statue</DisplayName>
+        <CreatureType>Construct</CreatureType>
+        <Class>GuardianStatue_Empire</Class>
+        <CanBeDesigned>0</CanBeDesigned>
+        <IsSovereign>0</IsSovereign>
+        <AllowGrouping>0</AllowGrouping>
+        <HasWages>0</HasWages>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <SpawnRating>6</SpawnRating>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Attack_Pierce>14</UnitStat_Attack_Pierce>
+            <UnitStat_CombatSpeed>10</UnitStat_CombatSpeed>
+            <UnitStat_Constitution>16</UnitStat_Constitution>
+            <UnitStat_Defense_Blunt>6</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>6</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_Dexterity>2</UnitStat_Dexterity>
+            <UnitStat_Intelligence>8</UnitStat_Intelligence>
+            <UnitStat_Strength>12</UnitStat_Strength>
+        </LevelMilestone>
+        <Medallions InternalName="">
+            <All>M_FallenGuardianWard_Card.png</All>
+        </Medallions>
+        <AnimationPack>PropEmpireGolemAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Stationary</BattleAnimationBehavior>
+        <Color_Skin>40,45,50,55</Color_Skin>
+        <CutSceneDataPack>GolemUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx/eyes/male_brown_eye.png</EyeTexture>
+        <InfoCardBackground>BG28_Capitar</InfoCardBackground>
+        <MaxScaleMainMap>0.8</MaxScaleMainMap>
+        <ModelPath>gfx/hkb/Monsters/M_Fallen_Guardian_Ward_Mesh_01.hkb</ModelPath>
+        <ModelScale>2</ModelScale>
+        <OnAttackParticleName>Golem_Attack</OnAttackParticleName>
+        <OnHitParticleName>Golem_Hit</OnHitParticleName>
+        <ShowAsSingleUnit>1</ShowAsSingleUnit>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Golem1</SoundPack>
+        <TacticalModelScale>3</TacticalModelScale>
+        <Texture_Skin>M_Fallen_Guardian_Texture_01.png</Texture_Skin>
+    </UnitType>
+    <UnitType InternalName="Prop_GuardianStatue_Kingdom">
+        <DisplayName>Prop Guardian Statue</DisplayName>
+        <CreatureType>Construct</CreatureType>
+        <Class>GuardianStatue_Kingdom</Class>
+        <CanBeDesigned>0</CanBeDesigned>
+        <IsSovereign>0</IsSovereign>
+        <AllowGrouping>0</AllowGrouping>
+        <HasWages>0</HasWages>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <SpawnRating>6</SpawnRating>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Attack_Pierce>14</UnitStat_Attack_Pierce>
+            <UnitStat_CombatSpeed>10</UnitStat_CombatSpeed>
+            <UnitStat_Constitution>16</UnitStat_Constitution>
+            <UnitStat_Defense_Blunt>6</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>6</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>6</UnitStat_Defense_Pierce>
+            <UnitStat_Dexterity>2</UnitStat_Dexterity>
+            <UnitStat_Intelligence>8</UnitStat_Intelligence>
+            <UnitStat_Strength>12</UnitStat_Strength>
+        </LevelMilestone>
+        <Medallions InternalName="">
+            <All>M_KingdomGuardianWard_Card.png</All>
+        </Medallions>
+        <AnimationPack>PropKingdomGolemAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Stationary</BattleAnimationBehavior>
+        <Color_Skin>40,45,50,55</Color_Skin>
+        <CutSceneDataPack>GolemUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx/eyes/male_brown_eye.png</EyeTexture>
+        <InfoCardBackground>BG49_FallenCastle</InfoCardBackground>
+        <MaxScaleMainMap>0.8</MaxScaleMainMap>
+        <ModelPath>gfx/hkb/Monsters/M_Kingdom_Guardian_Ward_Mesh_01.hkb</ModelPath>
+        <ModelScale>2</ModelScale>
+        <OnAttackParticleName>Golem_Attack</OnAttackParticleName>
+        <OnHitParticleName>Golem_Hit</OnHitParticleName>
+        <ShowAsSingleUnit>1</ShowAsSingleUnit>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Golem1</SoundPack>
+        <TacticalModelScale>3</TacticalModelScale>
+        <Texture_Skin>M_Kingdom_Guardian_Texture_01.png</Texture_Skin>
+    </UnitType>
+</UnitTypes>

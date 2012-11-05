@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<RiverDataSets>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName</Ignore>
+		<Translate>DisplayName</Translate>		
+	</DataChecksum>
+	
+	<RiverData InternalName="DefaultRiverSet">
+	
+	    <!-- Straight river tiles -->
+		<StraightTile>River_Straight</StraightTile>
+		<StraightTile>River_Straight2</StraightTile>
+		<StraightTile>River_Straight3</StraightTile>
+    		<StraightTile>River_Straight4</StraightTile>
+   		<StraightTile>River_Straight5</StraightTile>
+    		<StraightTile>River_Straight6</StraightTile>
+		
+	    <!-- Left Turn river tiles -->
+		<LeftTurnTile>River_CurveLeft</LeftTurnTile>
+		<LeftTurnTile>River_CurveLeft2</LeftTurnTile>
+		<LeftTurnTile>River_CurveLeft3</LeftTurnTile>
+
+		
+	    <!-- Right Turn river tiles -->
+		<RightTurnTile>River_CurveRight</RightTurnTile>
+    		<RightTurnTile>River_CurveRight2</RightTurnTile>
+    		<RightTurnTile>River_CurveRight3</RightTurnTile>
+		
+	    <!-- Source river tiles -->
+		<SourceTile>River_Spring02</SourceTile>
+		<SourceTile>River_SpringBegin</SourceTile>
+		
+		
+	    <!-- Beach End river tiles -->
+		<BeachEndTile>River_BeachEnd</BeachEndTile>
+		
+	    <!-- Cliff End river tiles -->
+		<CliffEndTile>River_CliffEnd</CliffEndTile>
+		
+	</RiverData>
+	
+</RiverDataSets>

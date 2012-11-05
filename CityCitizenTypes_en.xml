@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CityCitizenTypes>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName,Icon</Ignore>
+		<Translate>DisplayName</Translate>
+	</DataChecksum>
+
+	<CityCitizenType InternalName="CitizenTypeRebel">
+		<Type>Rebel</Type>
+		<DisplayName>Malcontents</DisplayName>
+<!--		<CanBeTaxed>0</CanBeTaxed> -->
+    </CityCitizenType>
+
+    <CityCitizenType InternalName="CitizenTypeFarmer">
+      <Type>Farmer</Type>
+      <DisplayName>Farmers</DisplayName>
+      <ResourceProduction>Food,0</ResourceProduction>
+    </CityCitizenType>
+
+    <CityCitizenType InternalName="CitizenTypeWorker">
+      <Type>Worker</Type>
+      <DisplayName>Peasants</DisplayName>
+<!--      <ResourceProduction>Production,0.0</ResourceProduction>
+      <ResourceProduction>Research,0.0</ResourceProduction> -->
+    </CityCitizenType>
+
+    <CityCitizenType InternalName="CitizenTypeCraftsman">
+      <Type>Craftsman</Type>
+      <DisplayName>Craftsmen</DisplayName>
+<!--      <ResourceProduction>Production,0</ResourceProduction> -->
+    </CityCitizenType>
+
+  </CityCitizenTypes>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Techs>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName,Description,Image,Color,HotColor,Icon</Ignore>
+		<Translate>DisplayName,Description</Translate>
+	</DataChecksum>
+
+	<!-- ***************************** -->
+	<!-- ** Tech Categories ** -->
+	<!-- ***************************** -->
+
+	<!-- ****************** -->
+	<!-- ** Civilization ** -->
+	<!-- ****************** -->
+
+	<TechCategory InternalName="Civilization">
+		<DisplayName>Civilization</DisplayName>
+		<!--This is the image across the top of the breakthrough wnd, it is also on the research wnd.
+		Add one for each research level you plan to have an image for.  Once they get past the number of levels 
+		that you have provided a research level image for, it will simply use the last one in the list-->
+		<Image_ResearchLevel>Civilization_01.png</Image_ResearchLevel>
+		<Image_ResearchLevel>Civilization_01.png</Image_ResearchLevel>
+		<Image_ResearchLevel>Civilization_01.png</Image_ResearchLevel>
+		<Image_ResearchLevel>Civilization_01.png</Image_ResearchLevel>
+		<Image_ResearchLevel>Civilization_01.png</Image_ResearchLevel>
+		<Image_ResearchLevel>Civilization_01.png</Image_ResearchLevel>
+		<!--this is the pic that goes on the medallion for the category on the research wnd-->
+		<Image_Medallion>Gfx/Medallions/Civilization.png</Image_Medallion>
+		<!--this should be a smaller image suitable for using as a very small thumbnail on a listbox entry.
+		For example, it's being used on the kindgom details wnd, tech levels section-->
+		<Image_Thumbnail>Gfx/Medallions/Civilization.png</Image_Thumbnail>
+		<!--research screen UI, darker color-->
+		<Color>117,163,46</Color>
+		<!--research screen UI, lighter color-->
+		<HotColor>250,250,130</HotColor>
+		<ClickSFX>Click_Tech_Civilization_1</ClickSFX>
+		<!--this is the name of a topic of some flavor text to display on the research wnd.  Add one for each
+		research level that you plan to have a topic for.  Once they get past the number of levels
+		that you have provided a research level topic for, it will simply use the last one in the list-->
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory1</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory1</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory1</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory1</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory1</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory2</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory2</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory2</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory2</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory2</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory3</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory3</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory3</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory3</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory3</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory4</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory4</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory4</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory4</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory4</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>CivilizationTechCategory5</FlavorTextTopic_ResearchLevel>
+        <AIData AIPersonality="AI_General">
+            <AITrait>Builder</AITrait>
+        </AIData>
+    </TechCategory>
+
+    <!-- ************* -->
+	<!-- ** Warfare ** -->
+	<!-- ************* -->
+
+	<TechCategory InternalName="Warfare">
+		<DisplayName>Warfare</DisplayName>
+		<Image_ResearchLevel>Warfare_01.png</Image_ResearchLevel>
+		<Image_ResearchLevel>Warfare_01.png</Image_ResearchLevel>
+		<Image_ResearchLevel>Warfare_01.png</Image_ResearchLevel>
+		<Image_ResearchLevel>Warfare_01.png</Image_ResearchLevel>
+		<Image_ResearchLevel>Warfare_01.png</Image_ResearchLevel>
+		<Image_ResearchLevel>Warfare_01.png</Image_ResearchLevel>
+		<Image_Medallion>Gfx/Medallions/K_Warfare.png</Image_Medallion>
+		<Image_Thumbnail>Gfx/Medallions/K_Warfare.png</Image_Thumbnail>
+		<Color>163,38,38</Color>
+		<HotColor>250,250,130</HotColor>
+		<ClickSFX>Click_Tech_Warfare_1</ClickSFX>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory1</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory1</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory1</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory1</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory1</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory2</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory2</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory2</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory2</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory2</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory3</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory3</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory3</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory3</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory3</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory4</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory4</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory4</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory4</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory4</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>WarfareTechCategory5</FlavorTextTopic_ResearchLevel>
+        <AIData AIPersonality="AI_General">
+            <AITrait>WarMonger</AITrait>
+        </AIData>
+	</TechCategory>
+
+	<!-- *********** -->
+	<!-- ** Magic ** -->
+	<!-- *********** -->
+
+	<TechCategory InternalName="Magic">
+		<DisplayName>Magic</DisplayName>
+		<Image_ResearchLevel>Magic_01.png</Image_ResearchLevel>
+		<Image_ResearchLevel>Magic_01.png</Image_ResearchLevel>
+		<Image_ResearchLevel>Magic_01.png</Image_ResearchLevel>
+		<Image_ResearchLevel>Magic_01.png</Image_ResearchLevel>
+		<Image_ResearchLevel>Magic_01.png</Image_ResearchLevel>
+		<Image_ResearchLevel>Magic_01.png</Image_ResearchLevel>
+		<Image_Medallion>Gfx/Medallions/Building_MagicTower.png</Image_Medallion>
+		<Image_Thumbnail>Gfx/Medallions/Building_MagicTower.png</Image_Thumbnail>
+		<Color>41,138,176</Color>
+		<HotColor>250,250,130</HotColor>
+		<ClickSFX>Click_Tech_Magic_1</ClickSFX>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory1</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory1</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory1</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory1</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory1</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory2</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory2</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory2</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory2</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory2</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory3</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory3</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory3</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory3</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory3</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory4</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory4</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory4</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory4</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory4</FlavorTextTopic_ResearchLevel>
+		<FlavorTextTopic_ResearchLevel>MagicTechCategory5</FlavorTextTopic_ResearchLevel>
+        <AIData AIPersonality="AI_General">
+            <AITrait>Sorcerer</AITrait>
+        </AIData>
+	</TechCategory>
+</Techs>

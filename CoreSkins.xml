@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<UnitSkinTextureDefs>
+
+  <DataChecksum NoParse="1">
+    <Ignore>DisplayName, Icon, SkinTextureFilename, SupportedUnitModelType</Ignore>
+    <Translate>DisplayName</Translate>
+  </DataChecksum>
+
+  <!-- ************************************ -->
+  <!-- ** KingdomMale unit type textures ** -->
+  <!-- ************************************ -->
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Slave">
+    <DisplayName>Male Slave - Default</DisplayName>
+    <Icon>K_Male_Default_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Male_Slave_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>100</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>100</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>100</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Sovereign_Plain">
+    <DisplayName>Male Sovereign Skin - Default</DisplayName>
+    <Icon>K_Male_Default_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Male_Default_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Sovereign_Handsome">
+    <DisplayName>Male Sovereign Skin - Handsome</DisplayName>
+    <Icon>K_Male_Handsome_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Male_Handsome_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Sovereign_Freckles">
+    <DisplayName>Male Sovereign Skin - Freckles</DisplayName>
+    <Icon>K_Male_Freckles_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Male_Freckles_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Tatooed">
+    <DisplayName>Male Sovereign Skin - Tatooed</DisplayName>
+    <Icon>K_Male_Tattoo_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Male_Tattoo_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+    <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Tattooed2">
+    <DisplayName>Male Sovereign Skin - Tattooed (2)</DisplayName>
+    <Icon>K_Male_Tattoo_Icon_02.png</Icon>
+    <SkinTextureFilename>K_Male_Tattoo_Texture_02.png</SkinTextureFilename>
+    <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+    <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+    <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Aged">
+    <DisplayName>Male Sovereign Skin - Aged</DisplayName>
+    <Icon>K_Male_Aged_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Male_Aged_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+    <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Groomed">
+    <DisplayName>Male Sovereign Skin - Groomed</DisplayName>
+    <Icon>K_Male_Groomed_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Male_Groomed_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>70</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>30</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>5</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Evil">
+    <DisplayName>Male - Evil</DisplayName>
+    <Icon>K_Male_Evil_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Male_Evil_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+    <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>70</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>30</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>5</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Sovereign_Beard">
+    <DisplayName>Male Sovereign Skin - Beard</DisplayName>
+    <Icon>K_Male_beard_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Male_beard_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>70</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>30</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>5</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Bandit">
+    <DisplayName>Male Bandit Skin</DisplayName>
+    <Icon>K_Male_Bandit_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Male_Bandit_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+    <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_C">
+    <DisplayName>Male Sovereign Skin - Warrior</DisplayName>
+    <Icon>K_Male_Warrior_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Male_Warrior_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+    <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Sovereign_Marcus">
+    <DisplayName>Male Sovereign Skin - Soverign </DisplayName>
+    <Icon>K_Male_Balding_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Male_Balding_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <!-- ************************************** -->
+  <!-- ** KingdomFemale unit type textures ** -->
+  <!-- ************************************** -->
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Female_Thinbrows">
+    <DisplayName>Female Skin - Thin Eyebrows</DisplayName>
+    <Icon>K_Female_Thinbrows_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Female_Thinbrows_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Female_Sovereign_Archer">
+    <DisplayName>Female Archer Skin</DisplayName>
+    <Icon>K_Female_Archer_Icon_01.png</Icon>
+    <SkinTextureFilename>NewTarthGirlSkin.png</SkinTextureFilename>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Female_Freckles">
+    <DisplayName>Female Skin - Freckles</DisplayName>
+    <Icon>K_Female_Freckles_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Female_Freckles_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Female_Thickbrows">
+    <DisplayName>Female Skin - Thick Eyebrows</DisplayName>
+    <Icon>K_Female_Thickbrows_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Female_Thickbrows_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Female_Dark">
+    <DisplayName>Female Skin - Dark</DisplayName>
+    <Icon>K_Female_Dark_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Female_Dark_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Female_Scarred">
+    <DisplayName>Female Skin - Scarred</DisplayName>
+    <Icon>K_Female_Scarred_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Female_Scarred_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+      <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Female_Aristocrat">
+    <DisplayName>Female Skin - Aristocrat</DisplayName>
+    <Icon>K_Female_Aristocrat_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Female_Aristocrat_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>70</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>30</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>5</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Female_Fallen">
+    <DisplayName>Female Skin - Fallen</DisplayName>
+    <Icon>K_Female_Fallen_Icon_01.png</Icon>
+    <SkinTextureFilename>K_Female_Fallen_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="K_Female_Tattoo_01">
+    <DisplayName>Female Skin - Tattoos</DisplayName>
+    <Icon>Tattooed_F_Icon2.png</Icon>
+    <SkinTextureFilename>K_Female_Tattoo_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="K_Female_Tattoo_02">
+    <DisplayName>Female Skin - Tattoos (2)</DisplayName>
+    <Icon>Tattooed_F_Icon.png</Icon>
+    <SkinTextureFilename>K_Female_Tattoo_Texture_02.png</SkinTextureFilename>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="F_Female_Quendar_01">
+    <DisplayName>Female Skin - Quendar</DisplayName>
+    <Icon>Quendar_F.png</Icon>
+    <SkinTextureFilename>Magnar_Skin_F_01.dds</SkinTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>100</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>100</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>100</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+<!--  <UnitSkinTextureDef InternalName="F_Female_Quendar_01a">
+    <DisplayName>Female Skin - Quendar</DisplayName>
+    <Icon>Quendar_F.png</Icon>
+    <SkinTextureFilename>Quendar_Skin_F_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+  
+  <UnitSkinTextureDef InternalName="F_Female_Quendar_02">
+    <DisplayName>Female Skin - Quendar Tattooed</DisplayName>
+    <Icon>Quendar_F_Tattooed.png</Icon>
+    <SkinTextureFilename>Quendar_Skin_F_02.png</SkinTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="F_Female_Quendar_03">
+    <DisplayName>Female Skin - Quendar Patterned</DisplayName>
+    <Icon>Quendar_F_Patterned.png</Icon>
+    <SkinTextureFilename>Quendar_Skin_F_03.png</SkinTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+  
+  <UnitSkinTextureDef InternalName="F_Female_Quendar_04">
+    <DisplayName>Female Skin - Quendar Patterned 2</DisplayName>
+    <Icon>Quendar_F_Patterned2.png</Icon>
+    <SkinTextureFilename>Quendar_Skin_F_04.png</SkinTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef> -->
+
+  <UnitSkinTextureDef InternalName="F_Female_Urxen_01">
+    <DisplayName>Weathered Urxen</DisplayName>
+    <Icon>Urxen_F.png</Icon>
+    <SkinTextureFilename>Urxen_Skin_F_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="F_Female_Urxen_02">
+    <DisplayName>Healthy Urxen</DisplayName>
+    <Icon>Urxen_F2.png</Icon>
+    <SkinTextureFilename>Urxen_Skin_F_02.png</SkinTextureFilename>
+    <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>5</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+
+
+
+
+
+  <!-- ************************************ -->
+  <!-- ** FallenMale unit type textures ** -->
+  <!-- ************************************ -->
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Sovereign_Plain_Fallen">
+    <DisplayName>Fallen Default Skin</DisplayName>
+    <Icon>Trog_M_Default.png</Icon>
+    <SkinTextureFilename>Trog_Skin_M_02.png</SkinTextureFilename>
+    <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="F_Male_Trog_01">
+    <DisplayName>Healthy Trog</DisplayName>
+    <Icon>Trog_M_Healthy.png</Icon>
+    <SkinTextureFilename>Trog_Skin_M_01.png</SkinTextureFilename>
+    
+    <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+
+    <RandomPeasantUnitLiklihood>70</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>30</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>5</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="F_Male_Trog_Tattoo_Texture_01">
+    <DisplayName>Trog</DisplayName>
+    <Icon>Trog_M_Tattooed.png</Icon>
+    <SkinTextureFilename>Trog_Skin_M_03.png</SkinTextureFilename>
+
+    <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+
+    <RandomPeasantUnitLiklihood>70</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>30</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>5</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="F_Male_Trog_Tattoo_Texture_04">
+    <DisplayName>Trog - Spotted</DisplayName>
+    <Icon>Trog_M_Spotted.png</Icon>
+    <SkinTextureFilename>Trog_Skin_M_04.png</SkinTextureFilename>
+
+    <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+
+    <RandomPeasantUnitLiklihood>70</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>30</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>5</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+
+  <UnitSkinTextureDef InternalName="Unit_Skin_Texture_Sovereign_Weathered_Fallen">
+    <DisplayName>Fallen - Weathered Skin</DisplayName>
+    <Icon>Trog_M_Weathered.png</Icon>
+    <SkinTextureFilename>F_Male_Weathered_Texture_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+
+    <RandomPeasantUnitLiklihood>70</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>30</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>5</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="F_Male_Urxen_Texture_01">
+    <DisplayName>Urxen</DisplayName>
+    <Icon>Urxen_M.png</Icon>
+    <SkinTextureFilename>Urxen_Skin_M_01.png</SkinTextureFilename>
+
+
+    <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+
+
+    <RandomPeasantUnitLiklihood>70</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>30</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>5</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="F_Male_Quendar_Texture_01">
+    <DisplayName>Quendar</DisplayName>
+    <Icon>Quendar_M.png</Icon>
+    <SkinTextureFilename>Magnar_Skin_M_01.dds</SkinTextureFilename>
+    <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>100</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>100</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>100</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+<!--  <UnitSkinTextureDef InternalName="F_Male_Quendar_Texture_02">
+    <DisplayName>Quendar</DisplayName>
+    <Icon>Quendar_M.png</Icon>
+    <SkinTextureFilename>Quendar_Skin_M_01.png</SkinTextureFilename>
+    <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>70</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>30</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>5</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="F_Male_Quendar_Texture_03">
+    <DisplayName>Quendar - Patterned</DisplayName>
+    <Icon>Quendar_M_Patterned.png</Icon>
+    <SkinTextureFilename>Quendar_Skin_M_03.png</SkinTextureFilename>
+    <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>70</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>30</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>5</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="F_Male_Quendar_Texture_04">
+    <DisplayName>Quendar - Patterned (2)</DisplayName>
+    <Icon>Quendar_M_Patterned2.png</Icon>
+    <SkinTextureFilename>Quendar_Skin_M_04.png</SkinTextureFilename>
+    <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+	<RandomPeasantUnitLiklihood>70</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>30</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>5</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef> -->
+
+
+  <UnitSkinTextureDef InternalName="F_Male_Urxen_Texture_02">
+    <DisplayName>Young Urxen</DisplayName>
+    <Icon>Urxen_M_Young.png</Icon>
+    <SkinTextureFilename>Urxen_Skin_M_02.png</SkinTextureFilename>
+
+    <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+
+    <RandomPeasantUnitLiklihood>70</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>30</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>5</RandomHeroUnitLiklihood>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="K_Male_Butcherman_01">
+    <DisplayName>Butcherman Skin</DisplayName>
+	<IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+    <Icon></Icon>
+    <SkinTextureFilename>K_Male_ButchermanSkin_Texture_01.dds</SkinTextureFilename>
+  </UnitSkinTextureDef>
+
+  <UnitSkinTextureDef InternalName="K_Male_RitualistSkin_01">
+    <DisplayName>Ritualist Skin</DisplayName>
+	<IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+    <Icon></Icon>
+    <SkinTextureFilename>K_Male_RitualistSkin_Texture_01.dds</SkinTextureFilename>
+  </UnitSkinTextureDef>
+  
+</UnitSkinTextureDefs>
+
+

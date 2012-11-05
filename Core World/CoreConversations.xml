@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Created with the Elemental Editor -->
+<!-- CoreConversations.xml -->
+<!-- -->
+<FlavorTextEntries>
+    <DataChecksum NoParse="1">
+        <Ignore>DisplayName, ShortName, Capitol, Description, UnitSkinColor, UnitHairColor, UnitClothColor, BuildingPrimaryColor, BuildingSecondaryColor, BuildingRoofColor, BuildingStyle, UnitStyle, WorkerName</Ignore>
+        <Translate>DisplayName, ShortName, Capitol, Description, WorkerName</Translate>
+    </DataChecksum>
+    <FlavorText>
+        <Topic>Talk_DeclareWar</Topic>
+        <Faction>EmpireOfKraxis</Faction>
+        <Text>In the name of Karavox, in the name of all peoples of Kraxis - I declare war upon [L_FactionShortName]!</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <Faction>EmpireOfKraxis</Faction>
+        <Text>Soldiers of [L_FactionName] - this land belongs to the Krax and we do not abide trespassers.  Withdrawal now.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfKraxis</Faction>
+        <Text>Welcome to Kraxis, [L_LeaderName]. Here you will be judged by your actions, not your race.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfKraxis</Faction>
+        <ListeningFaction>KingdomOfAltar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>So the ragtags of the Kingdoms have finally gotten together under a single banner. The [S_FactionName] were once aligned with the Kingdoms before the Cataclysm. But then the Kingdoms of men abandoned us to our fate. We have found it necessary to accept the ideology of the Empires. If you are wise, you will do the same, [L_LeaderName].</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfKraxis</Faction>
+        <ListeningFaction>KingdomOfCapitar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>[L_LeaderName] of Capitar. We of Kraxis send our greetings, and our wishes for mutually peaceful, profitable trade between our peoples.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfKraxis</Faction>
+        <ListeningFaction>KingdomOfGilden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>[L_LeaderName], sovereign ruler of Gilden. We of Kraxis send our greetings; we ask you to remember that our ancestors and yours, Krax and Ironeer, were comrades in the great army of the West.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfKraxis</Faction>
+        <ListeningFaction>KingdomOfPariden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>Most noble [L_LeaderName], sovereign of Pariden. We of Kraxis send our greetings; we ask you to remember the time before this one, the days before the Cataclysm, when your ancestors and ours served together in the great army of the West.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfKraxis</Faction>
+        <ListeningFaction>KingdomOfTarth</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>[L_LeaderName] of Tarth; word of your great kingdom, of your fighting prowess, has spread to the peace-loving peoples of Kraxis. We send our greetings.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfKraxis</Faction>
+        <ListeningFaction>EmpireOfMagnar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>Hail, [L_LeaderName]. We of Kraxis send greetings to you and your people, to all who dwell within your great Empire. Let us dwell in peace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfKraxis</Faction>
+        <ListeningFaction>EmpireOfResoln</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>[L_LeaderName] of Yithril; word has reached the peace-loving peoples of Kraxis of your Empire's rise. We send our greetings.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfKraxis</Faction>
+        <ListeningFaction>EmpireOfUmber</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>Hail, [L_LeaderName] of Umber. Word of your empire has spread to the peace-loving peoples of Kraxis. We send our greetings.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfKraxis</Faction>
+        <ListeningFaction>EmpireOfYithril</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>[L_LeaderName] of Yithril; word has reached the peace-loving peoples of Kraxis of your Empire's rise. We send our greetings.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <Faction>EmpireOfKraxis</Faction>
+        <Text>Well met, stranger.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_GenericTrade</Topic>
+        <Faction>EmpireOfKraxis</Faction>
+        <Text>Well met, stranger. What business have you with the Krax?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_DeclareWar</Topic>
+        <Faction>EmpireOfMagnar</Faction>
+        <Text>Your continued existence insults the Emperor! Death to all [L_FactionShortName] who follow [L_LeaderName]!</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <Faction>EmpireOfMagnar</Faction>
+        <Text>In these lands there are only the Quendar and their slaves.  Withdrawal or you will join their ranks.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfMagnar</Faction>
+        <Text>Your name is not known to us, [L_LeaderName]. Why do you seek the Lord of Imperium?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfMagnar</Faction>
+        <ListeningFaction>KingdomOfAltar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>[L_LeaderName] of Altar; your kingdom's swift rise is impressive. But know that your might is nothing next to that of Magnar's; our legions are numerous; our weapons strong; our magics powerful. Keep to your place in the world, and there shall be peace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfMagnar</Faction>
+        <ListeningFaction>KingdomOfCapitar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>[L_LeaderName] of Capitar; your kingdom's swift rise is impressive. But know that your might is nothing next to that of Magnar's; our legions are numerous; our weapons strong; our magics powerful. Keep to your place in the world, and there shall be peace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfMagnar</Faction>
+        <ListeningFaction>KingdomOfGilden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>[L_LeaderName] of Gilden; your kingdom's swift rise is impressive. But know that your might is nothing next to that of Magnar's; our legions are numerous; our weapons strong; our magics powerful. Keep to your place in the world, and there shall be peace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfMagnar</Faction>
+        <ListeningFaction>KingdomOfPariden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>[L_LeaderName] of Pariden; your kingdom's rise is impressive. But know that your might is nothing next to that of Magnar's; our legions are numerous; our weapons strong; our magics powerful. Keep to your place in the world, and there shall be peace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfMagnar</Faction>
+        <ListeningFaction>KingdomOfTarth</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>[L_LeaderName] of Tarth; your kingdom's rise is impressive. But know that your might is nothing next to that of Magnar's; our legions are numerous; our weapons strong; our magics powerful. Keep to your place in the world, and there shall be peace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfMagnar</Faction>
+        <ListeningFaction>EmpireOfKraxis</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>Pinkskins of Kraxis. Your empire grows strong, but your might is nothing next to that of Magnar's. Our legions are numerous; our weapons strong; our magics powerful. Keep to your place in the world, and there shall be peace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfMagnar</Faction>
+        <ListeningFaction>EmpireOfResoln</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>[L_LeaderName] of Resoln. Your empire grows strong, but remember it is [S_LeaderName] of Magnar who now sits upon Curgen's throne.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfMagnar</Faction>
+        <ListeningFaction>EmpireOfUmber</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>[L_LeaderName]; your people are known to us from the time before this one, when we served together in Imperium's legions. Your empire grows strong, but remember it is [S_LeaderName] who now sits upon Curgen's throne.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfMagnar</Faction>
+        <ListeningFaction>EmpireOfYithril</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>[L_LeaderName]; your people are known to us from the time before this one, when we served together in Imperium's legions. Your empire grows strong, but remember it is [S_LeaderName] who now sits upon Curgen's throne.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <Faction>EmpireOfMagnar</Faction>
+        <Text>If you are friend, the Lord of Imperium bids you welcome. If you are foe, he bids you draw your sword!</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_GenericTrade</Topic>
+        <Faction>EmpireOfMagnar</Faction>
+        <Text>You who seek to do business with Magnar, Lord of this Land, Emperor of Imperium, speak now, or be judged an enemy.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_DeclareWar</Topic>
+        <Faction>EmpireOfResoln</Faction>
+        <Text>Your treachery is known to the Oracle. She tasks me to declare war upon your people!</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <Faction>EmpireOfResoln</Faction>
+        <Text>[L_LeaderName] - welcome to Resoln. The Oracle Ceresa has foreseen your arrival.  Withdrawal or drown in the pool of Cyndrum.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfResoln</Faction>
+        <Text>[L_LeaderName] of the [L_FactionName] - long has the Oracle foreseen your coming. I bid you welcome in her name.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfResoln</Faction>
+        <ListeningFaction>KingdomOfAltar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>Straavni, [L_LeaderName] of Altar. Greetings, in the language of our people. Your kingdom is strong; yet surely you know Eldrana's prophecy? It is Empire of Resoln whose rise he foretold, long ago. To be first among all nations... that is our destiny, not yours.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfResoln</Faction>
+        <ListeningFaction>KingdomOfCapitar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>Straavni, [L_LeaderName] of Capitar. Greetings, in the language of our people. Your kingdom is strong; your ancestors were known to us as great traders. Yet Eldrana's prophecy foretells rise of our Empire. To be first among all nations... that is our destiny, not yours.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfResoln</Faction>
+        <ListeningFaction>KingdomOfGilden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>Straavni, [L_LeaderName] of Gilden. Greetings. Your kingdom is strong; yet surely you know Eldrana's prophecy? It is Empire of Resoln whose rise he foretold, long ago. To be first among all nations... that is our destiny, not yours.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfResoln</Faction>
+        <ListeningFaction>KingdomOfPariden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>Straavni, [L_LeaderName] of Pariden. Greetings. You are descended of the Amarians of old, so you know Eldrana's prophecy. It is Empire of Resoln whose rise he foretold. To be first among all nations... that is our destiny, not yours.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfResoln</Faction>
+        <ListeningFaction>KingdomOfTarth</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>Straavni, [L_LeaderName] of Tarth. Greetings. Your kingdom is strong; your people are mighty warriors. Yet surely you know Eldrana's prophecy? It is Empire of Resoln whose rise he foretold, long ago. To be first among all nations... that is our destiny, not yours.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfResoln</Faction>
+        <ListeningFaction>EmpireOfKraxis</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>Pinkskins. You think to be friends with [S_LeaderName] and peoples of Resoln? Know this, [L_LeaderName] of Kraxis. Long ago, a mighty prophet foretold the rise of our Empire. It is we are destined to rule over the East.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfResoln</Faction>
+        <ListeningFaction>EmpireOfMagnar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>[L_LeaderName] of Magnar. You sit upon the Drednir's throne; you rebuild the walls of his cities. But it is we of Resoln who are destined to rule in the East.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfResoln</Faction>
+        <ListeningFaction>EmpireOfUmber</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>[L_LeaderName] of Umber. Your swords are sharp; your cities are strong. But it is we of Resoln who are destined to rule in the East.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <Faction>EmpireOfResoln</Faction>
+        <ListeningFaction>EmpireOfYithril</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>[L_LeaderName] of Yithril; you are seen. I speak for the peoples of Resoln; it is we are destined to rule over all of the East.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_GenericTrade</Topic>
+        <Faction>EmpireOfResoln</Faction>
+        <Text>The Oracle welcomes honest merchants, but will not suffer cheaters or scoundrels. Speak your intentions!</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_DeclareWar</Topic>
+        <Faction>EmpireOfUmber</Faction>
+        <Text>Words are done. Now is war!</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <Faction>EmpireOfUmber</Faction>
+        <Text>You enter the wild lands of Umber where even the beast are subjugated to the will of [S_LeaderName].  Withdrawal or become prey.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfUmber</Faction>
+        <Text>You are a stranger here. [S_LeaderName] will judge you.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfUmber</Faction>
+        <ListeningFaction>KingdomOfAltar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>[L_LeaderName]; the rise of your kingdom has been swift. Yet swifter still are the armies of Umber; remember this, as you sit in your councils.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfUmber</Faction>
+        <ListeningFaction>KingdomOfCapitar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>[L_LeaderName]; the rise of your kingdom has been swift. You have gathered much wealth, and many followers. But the Empire of Umber remains first among all nations.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfUmber</Faction>
+        <ListeningFaction>KingdomOfGilden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>[L_LeaderName]; the rise of your kingdom has been swift. But the Empire of Umber remains first among all nations.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfUmber</Faction>
+        <ListeningFaction>KingdomOfPariden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>[L_LeaderName]; have you picked up the mantle of the Titans of old? Do you wish to challenge Umber for primacy among all nations? Our empire's might is not to be trifled with.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfUmber</Faction>
+        <ListeningFaction>KingdomOfTarth</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>[L_LeaderName]; you have made a mighty nation. Do not trespass onto lands belonging to [S_LeaderName] of Umber, or the kingdom you have built shall crumble to dust.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfUmber</Faction>
+        <ListeningFaction>EmpireOfKraxis</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>Pinkskins; you claim to be building an Empire. Do not think to challenge [S_LeaderName] for primacy in this part of the world, for Umber's power far surpasses yours.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfUmber</Faction>
+        <ListeningFaction>EmpireOfMagnar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>[L_LeaderName] of Magnar. Imperium is yours, yet it is [S_LeaderName] of Umber who is the rightful heir to Curgen's throne.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfUmber</Faction>
+        <ListeningFaction>EmpireOfResoln</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>[L_LeaderName] of Resoln; the rise of your Empire has impressed us. But know that it is [S_LeaderName] of Umber who is the rightful heir to Curgen's throne.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfUmber</Faction>
+        <ListeningFaction>EmpireOfYithril</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>[L_LeaderName] of Yithril; the rise of your Empire has impressed us. But know that it is [S_LeaderName] of Umber who is the rightful heir to Curgen's throne.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <Faction>EmpireOfUmber</Faction>
+        <Text>I like not the look of you, [L_LeaderName]. What are your intentions?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_GenericTrade</Topic>
+        <Faction>EmpireOfUmber</Faction>
+        <Text>The Lord of all Magics sees all. Do not think to cheat him.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_DeclareWar</Topic>
+        <Faction>EmpireOfYithril</Faction>
+        <Text>Lay down your arms, and we promise you a quick death, [L_LeaderName]. For the [L_FactionName] and the armies of Yithril are at war!</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <Faction>EmpireOfYithril</Faction>
+        <Text>Tread most carefully, [L_LeaderName]. [S_LeaderName] claims these lands and unless you intended to challenge that, you should flee from them.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfYithril</Faction>
+        <Text>Know that you stand before soldiers of Yithril, [L_FactionShortName]. We serve the Warlord Verga, at whose command the rivers of the Kandra ebb and flow.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfYithril</Faction>
+        <ListeningFaction>KingdomOfAltar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>Know that you are seen, [L_LeaderName] of Altar. Your cities, your soldiers, Yithril watches them. Your power grows; know that ours is stronger.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfYithril</Faction>
+        <ListeningFaction>KingdomOfCapitar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>You are seen, [L_LeaderName] of Capitar. Your cities, your traders, your soldiers... I watch them. Your power is great; know that ours is stronger still.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfYithril</Faction>
+        <ListeningFaction>KingdomOfGilden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>You are seen, [L_LeaderName] of Gilden. Your cities, your soldiers... Yithril watches them. Perhaps the day will come when our armies meet, and our strength in battle shall be tested.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfYithril</Faction>
+        <ListeningFaction>KingdomOfPariden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>I see you, [L_LeaderName] of Pariden. You are of the Amarians, who brutalized the peoples of our land long ago. Now you raise new cities, form new armies... we wait to judge your true intentions before raising our swords.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfYithril</Faction>
+        <ListeningFaction>KingdomOfTarth</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToEmpire</R_OK>
+        <Text>You are seen, [L_LeaderName] of Tarth. Your cities, your soldiers... the eyes of Yithril watch all you do. Your people are great fighters, but do not think to overcome the armies of Yithril in battle.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfYithril</Faction>
+        <ListeningFaction>EmpireOfKraxis</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>[L_LeaderName] of Kraxis; you are seen. You raise an Empire; you raise an army; know that Yithril's power dwarfs yours. Our is the power of the Dragon. Dare to challenge us, and we will burn your lands to ash.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfYithril</Faction>
+        <ListeningFaction>EmpireOfMagnar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>[L_LeaderName] of Magnar; you are seen. Your cities, your soldiers, your farms, your villages; Yithril watches all. Do not think to raise a sword against us, for ours is the power of the Dragon.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfYithril</Faction>
+        <ListeningFaction>EmpireOfResoln</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>[L_LeaderName] of Resoln; you have been seen. You build cities; you raise armies; you train soldiers. Know that Yithril watches all. Should you raise your swords against ours, the fire of the Dragon will consume you.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>EmpireOfYithril</Faction>
+        <ListeningFaction>EmpireOfUmber</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToEmpire</R_OK>
+        <Text>[L_LeaderName] of Resoln; you have been seen. The cities you build, the armies you raise... Yithril knows all this. Do not think to raise your swords against ours; do not dream of taking our lands, or the fire of the Dragon will consume you.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <Faction>EmpireOfYithril</Faction>
+        <Text>The warriors of Yithril do not fear the [L_FactionShortName].</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_GenericTrade</Topic>
+        <Faction>EmpireOfYithril</Faction>
+        <Text>The warriors of Yithril have little patience for merchants and their ilk. What is it you wish?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_DeclareWar</Topic>
+        <Faction>KingdomOfAltar</Faction>
+        <Text>You have broken the bonds of affection and custom which joined our peoples. Now let it be known - a state of war exists between us.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <Faction>KingdomOfAltar</Faction>
+        <Text>These are the free lands of Altar.  We do not suffer the soldiers of other armies within our borders.  Withdrawal or we will remove you.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfAltar</Faction>
+        <Text>So the rumors are true - another channeler roams the world. Let us work together, [L_FactionName], to make the land safe for our brethren.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfAltar</Faction>
+        <ListeningFaction>KingdomOfCapitar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>[L_LeaderName] of Capitar, I bring greetings from Altar to you and your people. Let us break bread, and drink to our common cause; that of peace in this world.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfAltar</Faction>
+        <ListeningFaction>KingdomOfGilden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>[L_LeaderName] of Gilden, I bring greetings from Altar to you and your people.  In times of old, your forebears the Aivernach crafted the weapons which our ancestors used to battle the Titans. Let us recall that common cause now, and work together to insure peace in this world.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfAltar</Faction>
+        <ListeningFaction>KingdomOfPariden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>[L_LeaderName] of Pariden, I bring greetings from Altar to you and your people. In the time before this one, our ancestors and yours were one people, citizens of fallen Antheros. Let us recall now the ties that bind us to one another, and drink to our common cause; that of peace in this world.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfAltar</Faction>
+        <ListeningFaction>KingdomOfTarth</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>[L_LeaderName] of Tarth, I bring greetings from Altar to you and your people. Let us break bread, and drink to our common cause; that of peace in this world.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfAltar</Faction>
+        <ListeningFaction>EmpireOfKraxis</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>[L_LeaderName] of Kraxis, I bring greetings from Altar to you and your peoples. Let us break bread, and drink to our common cause; that of peace in this world.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfAltar</Faction>
+        <ListeningFaction>EmpireOfMagnar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>[L_LeaderName] sovereign ruler of Magnar.  Greetings from [S_LeaderName] of Altar. We watch the rise of your nation, and hope our kingdom and yours shall co-exist in peace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfAltar</Faction>
+        <ListeningFaction>EmpireOfResoln</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>[L_LeaderName], sovereign ruler of Resoln.  Greetings from [S_LeaderName] of Altar. We watch the rise of your nation, and hope our kingdom and yours shall co-exist in peace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfAltar</Faction>
+        <ListeningFaction>EmpireOfUmber</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>[L_LeaderName], sovereign ruler of Umber.  Greetings from [S_LeaderName] of Altar. We watch the rise of your nation, and hope our kingdom and yours shall co-exist in peace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfAltar</Faction>
+        <ListeningFaction>EmpireOfYithril</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>[L_LeaderName], sovereign ruler of Yithril.  Greetings from [S_LeaderName] of Altar. We watch the rise of your nation, and hope our kingdom and yours shall co-exist in peace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <Faction>KingdomOfAltar</Faction>
+        <Text>Greetings, friend. We are citizens of Altar - loyal subjects of King Relias.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_GenericTrade</Topic>
+        <Faction>KingdomOfAltar</Faction>
+        <Text>Good tidings to you, friend. You have goods to trade?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_DeclareWar</Topic>
+        <Faction>KingdomOfCapitar</Faction>
+        <Text>Your actions prove you enemy to Capitar, [L_LeaderName]. In the name of the Council, I declare war upon you and your peoples.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <Faction>KingdomOfCapitar</Faction>
+        <Text>People of [L_FactionName] - on behalf of General Carrodus and the Council of Merchants, I welcome your gildar, but not your soldiers and arms, into Capitar.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfCapitar</Faction>
+        <Text>Greetings, [L_LeaderName]. The people of [L_FactionName] are known to us. We welcome your business.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfCapitar</Faction>
+        <ListeningFaction>KingdomOfAltar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>Noble [L_LeaderName]. Sovereign of the great Kingdom of Altar. Hail, and well met from the peoples of Capitar, and our great trading houses. It is my hope our countries will enjoy a long, mutually profitable relationship.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfCapitar</Faction>
+        <ListeningFaction>KingdomOfGilden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>To our brethren of the kingdom of Gilden: to their sovereign leader, [L_LeaderName]. I bring greetings from the people of Capitar and the merchant lords of our great trading houses.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfCapitar</Faction>
+        <ListeningFaction>KingdomOfPariden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>To the most magnificent, most noble [L_LeaderName] of Pariden; we of Capitar wish to offer our greetings and our hope that our two nations will enjoy a long, mutually profitable relationship.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfCapitar</Faction>
+        <ListeningFaction>KingdomOfTarth</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>[L_LeaderName], sovereign ruler of Tarth.  We of Capitar have watched the rise of your nation, and now offer our greetings. It is our hope that peace shall prevail between our two peoples.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfCapitar</Faction>
+        <ListeningFaction>EmpireOfKraxis</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>...a message for you, [L_LeaderName], sovereign of Kraxis, from [S_LeaderName], leader of Capitar, and from those who in the past have traded most profitably with your peoples. We trust your intentions are peaceful; we look forward to future tradings with your Empire.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfCapitar</Faction>
+        <ListeningFaction>EmpireOfMagnar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>Greetings to the most noble [L_LeaderName]; greetings to the people of Magnar. We of Capitar stand ready to deal with you in kind; to trade with your traders, to make peace with your peacemakers. But if you send warriors... know that we are not afraid to wage battle, either.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfCapitar</Faction>
+        <ListeningFaction>EmpireOfResoln</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>Empire of Resoln; most noble [L_LeaderName]. I bring greetings from the people of Capitar. We hope for peace between our nations; peace, and mutually profitable trade.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfCapitar</Faction>
+        <ListeningFaction>EmpireOfUmber</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>Greetings to the most noble [L_LeaderName]; greetings to the peoples of Umber as well, from the peoples of Capitar. Our merchant Lords, you know by reputation; [S_LeaderName], our sovereign, stands ready to deal with you as well, to extend the hand of friendship.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfCapitar</Faction>
+        <ListeningFaction>EmpireOfYithril</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>Most noble [L_LeaderName]; merchants and peoples of Yithril. Your nation's rise is swift, and unforeseen. We of Capitar wish you to know our peoples seek only peace, and mutually beneficial trade.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <Faction>KingdomOfCapitar</Faction>
+        <Text>Welcome to Capitar. You will find our marketplace, and our goods, second to none.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_GenericTrade</Topic>
+        <Faction>KingdomOfCapitar</Faction>
+        <Text>People of [L_FactionName] - if you have goods to trade, then let us see them, that we may negotiate a fair and equitable price!</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_DeclareWar</Topic>
+        <Faction>KingdomOfGilden</Faction>
+        <Text>No longer can the [L_FactionName] be trusted. Now the armies of Gilden will destroy you.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <Faction>KingdomOfGilden</Faction>
+        <Text>You have crossed into Gilden. We value peace and don't allow trespassing or raiding in our lands.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfGilden</Faction>
+        <Text>[L_LeaderName] of [L_FactionName] - the people of Gilden greet you in peace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfGilden</Faction>
+        <ListeningFaction>KingdomOfAltar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>Fair weather to you, [L_LeaderName]; we here in Gilden have heard much of the hard, honest work you've done bringing order to the land. Continue that work and you'll have faithful friends among the Ironeers.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfGilden</Faction>
+        <ListeningFaction>KingdomOfCapitar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>Fair weather, stranger.  I'm [S_LeaderName]. Your kingdom and mine, we've had no dealings yet, but your people have always been traders. Honest ones, for the most part. I hope that's a policy you'll be keeping to.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfGilden</Faction>
+        <ListeningFaction>KingdomOfPariden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>Fair weather to you, my friend. These are dark times for our peoples - for all of mankind. You've taken on a heavy burden, [L_LeaderName], donning Amarian's crown. We of Gilden will do all we can to help you.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfGilden</Faction>
+        <ListeningFaction>KingdomOfTarth</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>Fair weather, [L_LeaderName]. You Tarthans, I've heard you're a people of few words, so I'll keep my own message brief. Gilden extends to you the hand of peace. Take it if you so desire.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfGilden</Faction>
+        <ListeningFaction>EmpireOfKraxis</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>You've much history to overcome with us, [L_LeaderName]. There's few among the people of Gilden who have fond feelings towards the Krax.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfGilden</Faction>
+        <ListeningFaction>EmpireOfMagnar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>I'm [S_LeaderName]. I lead the  people of Gilden. We're Ironeers, [L_LeaderName]. We descend from the Aivernach of old. We remember what your people did to ours, in the time that was. Your country may have a new name, but until you prove otherwise, it's run by the same old faces.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfGilden</Faction>
+        <ListeningFaction>EmpireOfResoln</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>We have no history with you, [L_LeaderName], or with the people of Resoln. But we've heard much of you in Gilden these last few seasons; we don't like the things we're being told. So you stick to your lands, and we'll stick to ours.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfGilden</Faction>
+        <ListeningFaction>EmpireOfUmber</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>[L_LeaderName]. You choose a name for your country that has great meaning to us. You know who the Lady Umber was, I take it? What she did to our ancestors, the Aivernach of old? Consider this a warning; we of Gilden are watching you.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfGilden</Faction>
+        <ListeningFaction>EmpireOfYithril</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>Leaders of Yithril; I am [S_LeaderName], sovereign ruler of Gilden. Your country is new to us; your people are not. Your skin marks you as our enemy; we watch your actions to determine if war is necessary.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <Faction>KingdomOfGilden</Faction>
+        <Text>We greet you in the name of the Lord Enil Markin, conquerer of Zad-Zabril, Monarch of all Gilden.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_GenericTrade</Topic>
+        <Faction>KingdomOfGilden</Faction>
+        <Text>Speak if you have business to conduct with the people of Gilden - but be warned. Lord Markin's merchants do not suffer fools.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_DeclareWar</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <Rule>1</Rule>
+        <Text>You are a disgrace to the Kingdom of men. These lands will now be cleansed of the [L_FactionName].</Text>
+        <Text>It is with a heavy heart that [S_FactionShortName] must turn upon one we once called '[L_LeaderBrotherSister]', but your foolish actions have made us kinsmen no longer. Prepare yourself, [L_LeaderName], for war.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_DeclareWar</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <Text>In the name of Procipinee, sovereign ruler of Pariden, let it be known that from this day forth a state of war exists between our peoples.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <Text>You trespass on the sovereign territory of [S_LeaderName]. Honor our borders or we will treat you like the rest of the bandits that skulk about the land.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <Rule>1</Rule>
+        <Text>So the rumors are true - another leader of men roams the wastes. To breathe life into the dying land is a blessed gift, [L_FactionName]. Let us work together to make the world safe for our brethren.</Text>
+        <Text>While my people look to the throne of [S_FactionShortName] as the sublime cornerstone of mankind, I shall not turn my back on your humble nation, [L_LeaderName]. You are a welcome addition to the Kingdom of men.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <Rule>2</Rule>
+        <Text>I have read of your kind, [L_LeaderName]. The people of [L_FactionShortName] were, countless generations ago, not so unlike those I protect. Give me cause, however, and I will cleanse the land of you.</Text>
+        <Text>[L_LeaderName] - my scholars have warned me of the [L_FactionName]. They say you are beyond reprieve; a twisted, dangerous people, for which [S_FactionShortName] should show not mercy. Time will reveal if their fears hold truth.</Text>
+        <Text>For now I will show the mercy of my kind, [L_LeaderName]. Cross me, however, and the forces of [L_FactionShortName] shall descend with unfathomable might.</Text>
+        <Text>The stories have proven true, [L_LeaderName]; you lead a race of monsters, and now you will be struck down as such.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <ListeningFaction>KingdomOfAltar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>[L_LeaderName] of Altar. In the name of the most noble majesty, [S_LeaderName] of Pariden, who carries the blood of ancient Antheros, we bid you welcome to the fraternity of nations.</Text>
+        <Text>How quaint to behold the famed adventurer turned [L_LeaderKingQueen].  My grace towards mankind ends not at the [S_FactionShortName] borders, so if aid is needed, [L_LeaderName] of [L_FactionShortName], then you shall have it.</Text>
+        <Text>So this is what you have managed to cobble together, [L_LeaderName]. You would have done better to stay with us. You might have learned something about real civilization.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <ListeningFaction>KingdomOfCapitar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>[L_LeaderName] of Capitar. I, [S_LeaderName] of Pariden, rightful heir to Amarian's throne, bid you welcome to the fraternity of nations.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <ListeningFaction>KingdomOfGilden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>[L_LeaderName] of Gilden. On behalf of the free peoples of mankind, I welcome you and your countrymen to the fraternity of nations!</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <ListeningFaction>KingdomOfTarth</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>My brothers, my sisters, those of you who serve beneath the banners which honor the gladiator Tarth...  I, [S_LeaderName] of Pariden, rightful heir to Amarian's throne, bid you and your sovereign [L_LeaderName] a most gracious welcome to the fraternity of nations.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <ListeningFaction>EmpireOfKraxis</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>[L_LeaderName]... people of Kraxis... you have much to answer for. Yet know you this; should you, by your words and actions, prove yourselves worthy of trust, I, [S_LeaderName], sovereign ruler of Pariden, shall be the first to extend the hand of friendship to you.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <ListeningFaction>EmpireOfMagnar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>I send greetings, [L_LeaderName] of Magnar, on behalf of the people of Pariden. Know that while we keep our swords at the ready, we are always willing to extend the hand of friendship to those deserving of it.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <ListeningFaction>EmpireOfResoln</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>Greetings, [L_LeaderName] of Resoln. Your people and mine share no history; it is my hope that despite our many differences, we may seek the path of peace together.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <ListeningFaction>EmpireOfUmber</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>[L_LeaderName] of Umber; there are those who would say that we are destined to be enemies, my people and yours, for our countries bear the names of Titans who died warring against one another. For my part, I am willing to seek peace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <ListeningFaction>EmpireOfYithril</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>Greetings, [L_LeaderName] of Yithril. We of Pariden have watched the rise of your people with interest; you have reclaimed much that was lost to savagery and chaos. Should you choose to follow the path of peace, and not war, you will find us willing partners.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <Rule>1</Rule>
+        <Text>What brings you to the grand halls of [S_FactionShortName], [L_LeaderName]?</Text>
+        <Text>Ah, [L_LeaderName] - friend of [S_FactionShortName] - to what do I owe the honor?</Text>
+        <Text>Most would not have my attention so readilly, but for our friends in [L_FactionShortName], I will give it. What matters demand our combined efforts, [L_LeaderName]?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <Text>What brings you to the lands of [S_FactionShortName], [L_LeaderName]?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_GenericTrade</Topic>
+        <Faction>KingdomOfPariden</Faction>
+        <Text>On behalf of Queen Procipinee, I would hear your proposal for trade between our peoples.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_DeclareWar</Topic>
+        <Faction>KingdomOfTarth</Faction>
+        <Text>Your conduct speaks louder than any words, stranger. If it is war you want... it is war you shall have.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <Faction>KingdomOfTarth</Faction>
+        <Text>You stand on land belonging to the free peoples of Tarth.  Whatever you seek, it is not here.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfTarth</Faction>
+        <Text>Halt. The free peoples of Tarth have little need for the company of strangers.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfTarth</Faction>
+        <ListeningFaction>KingdomOfAltar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>[L_LeaderName] of Altar; long have we of Tarth watched your kingdom. About ours, you need know only this; our blades are sharp; our arms strong; our hearts fearless. We welcome peace but we do not shy from war.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfTarth</Faction>
+        <ListeningFaction>KingdomOfCapitar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>[L_LeaderName] of Capitar; we of Tarth know your people. Your kingdom. About us, you need know only this; our blades are sharp; our arms strong; our hearts fearless. We welcome peace but we do not shy from war.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfTarth</Faction>
+        <ListeningFaction>KingdomOfGilden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>[L_LeaderName] of Gilden; long have we of Tarth watched your kingdom. About ours, you need know only this; our blades are sharp; our arms strong; our hearts fearless. We welcome peace but we do not shy from war.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfTarth</Faction>
+        <ListeningFaction>KingdomOfPariden</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_KingdomToKingdom</R_OK>
+        <Text>[L_LeaderName] of Pariden, long have we watched your kingdom. About ours, you need know only this; our blades are sharp, our arms strong, our hearts fearless. We welcome peace but we do not shy from war.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfTarth</Faction>
+        <ListeningFaction>EmpireOfKraxis</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>[L_LeaderName]; people of Kraxis. We watch your Empire rise, and sharpen our blades. None shall catch the warriors of Tarth unaware.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfTarth</Faction>
+        <ListeningFaction>EmpireOfMagnar</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>[L_LeaderName]; people of Magnar. You rebuild Curgen's cities; you take his throne. Know that we of Tarth watch your Empire's rise, and sharpen our blades.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfTarth</Faction>
+        <ListeningFaction>EmpireOfResoln</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>[L_LeaderName] of Resoln. We watch your Empire rise, and sharpen our blades. None shall catch the warriors of Tarth unaware.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfTarth</Faction>
+        <ListeningFaction>EmpireOfUmber</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>[L_LeaderName]; sovereign of Umber. Know that we of Tarth have watched your Empire rise. Know too that our blades our sharp, our arms strong, our hearts fearless; none shall catch us unaware.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Faction>KingdomOfTarth</Faction>
+        <ListeningFaction>EmpireOfYithril</ListeningFaction>
+        <R_OK>Talk_FirstContact_R_OK_EmpireToKingdom</R_OK>
+        <Text>[L_LeaderName] of Yithril; you and your peoples are seen. Know that we of Tarth keep our blades our sharp, our arms strong, our hearts fearless; none shall catch us unaware.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <Faction>KingdomOfTarth</Faction>
+        <Text>Strangers are not welcome here.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_GenericTrade</Topic>
+        <Faction>KingdomOfTarth</Faction>
+        <Text>What business have you in Tarth, stranger?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>RecruitNPC_R_RecruitNo</Topic>
+        <Rule>0</Rule>
+        <Text>I appreciate your offer, but I have no need for you at this time.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>RecruitNPC_R_RecruitNo</Topic>
+        <Rule>10</Rule>
+        <Text>No way!</Text>
+        <Text>Your greed amuses me.</Text>
+        <Text>No.</Text>
+        <Text>I don't think so.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>RecruitNPC_R_RecruitYes</Topic>
+        <Rule>0</Rule>
+        <Text>Excellent. You will make a fine addition to our Kingdom.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>RecruitNPC_R_RecruitYes</Topic>
+        <Rule>10</Rule>
+        <Text>Okay, but cross me and you'll meet the point of my blade.</Text>
+        <Text>You will learn to appreciate my rule.</Text>
+        <Text>If coin is what you desire, coin is what you shall receive.</Text>
+        <Text>OK, but cross me and you'll meet the point of my blade.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_DeclareWar</Topic>
+        <Rule>0</Rule>
+        <Text>The time has come, [L_LeaderName], for us to go to war.</Text>
+        <Text>I have decided that I don't like you.  Prepare to die.</Text>
+        <Text>Your military is so weak that I've decided it's time to conquer you.</Text>
+        <Text>You are too weak to survive in such a hostile world. Your people need my protection. Prepare to die.</Text>
+        <Text>Fair warning. We are now at war with you.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_DeclareWar</Topic>
+        <Rule>10</Rule>
+        <Text>I've never really liked you.  Prepare to die.</Text>
+        <Text>It's time to die.</Text>
+        <Text>Your pitiful little group of rabble are no longer amusing, prepare to be destroyed.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <ListeningFaction>KingdomOfAltar</ListeningFaction>
+        <Rule>1</Rule>
+        <Text>Well, [L_LeaderName] I see you have found our Kingdom. You're not just some lone adventurer anymore. The [L_FactionName] may be used to wandering about freely in the wilds but times are changing. These lands now belong to the [S_FactionName].</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <ListeningFaction>KingdomOfAltar</ListeningFaction>
+        <Rule>12</Rule>
+        <Text>The Empires have pondered what would become of those who chose not to align themselves with the elitists. So, this is the result? [L_FactionName]? This territory belongs to me, [S_LeaderName]. You would do well to remember that.</Text>
+        <Text>The refuse of the Kingdoms of Men have finally united under a single banner, eh? We have little time for manlings of your ilk. The [L_FactionName] would do well to remember that these lands belong to [S_FactionName].</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <RevisitedTopicBarrier>2</RevisitedTopicBarrier>
+        <Rule>0</Rule>
+        <Text>So you return to our borders, [L_LeaderName]. We must ask again for respect of our lands and to turn around at once. As you can understand my people are frightened at any who cannot swear to peace before entering our realm.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <Rule>10</Rule>
+        <Text>You trespass in the lands of the [S_FactionName], [L_LeaderName]. Remove yourself before we're forced to remove you in pieces.</Text>
+        <Text>Those of the [L_FactionName] are welcome not on our soil, [L_LeaderName]. If your life is of value you will leave now, without question.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <RevisitedTopicBarrier>2</RevisitedTopicBarrier>
+        <Rule>10</Rule>
+        <Text>Putrid creature! Have you nothing better to do than hang about our borders?!  Tempt not my wrath, lest I strike you down like an insect! I've got my eye on you...</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <RevisitedTopicBarrier>3</RevisitedTopicBarrier>
+        <Rule>10</Rule>
+        <Text>I'm ignoring you...</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory</Topic>
+        <RevisitedTopicBarrier>4</RevisitedTopicBarrier>
+        <Rule>10</Rule>
+        <Text>Get a life.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory_R_DeclareWar</Topic>
+        <Rule>0</Rule>
+        <Text>Your nation and people will fall by my hand!</Text>
+        <Text>Prepare to die!</Text>
+        <Text>You are doomed.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory_R_DeclareWar</Topic>
+        <Rule>10</Rule>
+        <Text>I shall cleave that grin from your skull!</Text>
+        <Text>I shall put your head on a pike.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory_R_LeaveTile</Topic>
+        <Rule>0</Rule>
+        <Text>Very well. We will leave your lands peacefully.</Text>
+        <Text>As you wish, we shall go.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory_R_LeaveTile</Topic>
+        <Rule>10</Rule>
+        <Text>We shall leave... for now.</Text>
+        <Text>Very well. We will leave you in peace, for now.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory_R_Talk_Passage</Topic>
+        <Rule>0</Rule>
+        <Text>Let us talk about this.</Text>
+        <Text>Let us discuss an arrangement.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_EnteringForeignTerritory_R_Talk_Passage</Topic>
+        <Rule>10</Rule>
+        <Text>While my forces crave your blood and bone, perhaps a less hostile agreement can be discussed.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <Rule>0</Rule>
+        <R_OK>Talk_FirstMeeting_R_OK_GoodFortunesToYou</R_OK>
+        <Text>So, [L_LeaderName], you've taken to adventuring throughout [WorldName]'s vast wastes. May these travels bring many fortunes to you and the people of the [L_FactionName].</Text>
+        <Text>Ah, so I finally come to behold the fabled [L_LeaderName]. Good fortunes to the [L_FactionName], and may our forthcoming meetings bring hope to our people.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <ListeningFaction>KingdomOfCapitar</ListeningFaction>
+        <Rule>1</Rule>
+        <R_OK>Talk_FirstMeeting_R_OK_CapitarMeetingKingdom</R_OK>
+        <Text>Greetings, [L_LeaderName]. The merchants of the [L_FactionName] are known to us. If you find yourself in a tight corner, you can count on us.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <ListeningFaction>KingdomOfAltar</ListeningFaction>
+        <Rule>1</Rule>
+        <R_OK>Talk_FirstMeeting_R_OK_AltarMeetingKingdom</R_OK>
+        <Text>We meet at last, [L_LeaderName]. You do know that few put much hope for the [L_FactionName]. A band of refugees does not make a functioning kingdom.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <ListeningFaction>KingdomOfAltar</ListeningFaction>
+        <Rule>12</Rule>
+        <R_OK>Talk_FirstMeeting_R_OK_KingdomToEmpire</R_OK>
+        <Text>We have heard of you, [L_LeaderName]. A Kingdom made of the rejects of the others. Outcasts. Good luck. You'll need it.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact</Topic>
+        <R_OK>Talk_FirstMeeting_R_OK_OnlyWishPeace</R_OK>
+        <Text>Woe to you, [L_LeaderName], if your wandering hand reaches into lands of the [S_FactionName].</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact_R_OK_KingdomToKingdom</Topic>
+        <Rule>1</Rule>
+        <Text>A pleasure to meet you, [S_LeaderName].</Text>
+        <Text>Safe travels, [S_LeaderName].</Text>
+        <Text>Good to finally meet you, [S_LeaderName]. The Kingdoms must stand together against the Fallen menace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact_R_OK_KingdomToEmpire</Topic>
+        <Rule>2</Rule>
+        <Text>I'll be watching you, [S_LeaderName]. We have little love for the Empires.</Text>
+        <Text>You'll forgive me if I am skeptical of the friendship from an Empire.</Text>
+        <Text>I am hopeful that the Kingdoms and Empires can have peace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact_R_OK_EmpireToEmpire</Topic>
+        <Rule>11</Rule>
+        <Text>A pleasure to meet you, [S_LeaderName].</Text>
+        <Text>Safe travels, [S_LeaderName].</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact_R_OK_EmpireToKingdom</Topic>
+        <Rule>12</Rule>
+        <Text>A pleasure to meet you, [S_LeaderName].</Text>
+        <Text>Safe travels, [S_LeaderName].</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstContact_R_OK</Topic>
+        <Text>A pleasure to meet you, [S_LeaderName].</Text>
+        <Text>Safe travels, [S_LeaderName].</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstMeeting_R_OK_AltarMeetingKingdom</Topic>
+        <Rule>1</Rule>
+        <Text>Good to finally meet you, [S_LeaderName]. The Kingdoms must stand together against the Fallen menace.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstMeeting_R_OK_AltarMeetingPariden</Topic>
+        <Text>We have no wish to return to you.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstMeeting_R_OK_AltarResponse</Topic>
+        <Text>An amiable proposition, [S_LeaderName]. And know I will be there, in turn, for [S_FactionShortName], should the need arise.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstMeeting_R_OK_CapitarMeetingKingdom</Topic>
+        <Text>Thank you for your kind words. Hopefully we can conduct some business soon.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstMeeting_R_OK_GoodFortunesToYou</Topic>
+        <Text>And good fortunes to you, [S_LeaderName].</Text>
+        <Text>[S_LeaderName] - It is an honor. Many blessings upon the [S_FactionName].</Text>
+        <Text>I wish the same towards you and your people, [S_LeaderName].</Text>
+        <Text>The kindness and well wishes of the [S_FactionName] will not go overlooked, [S_LeaderName].</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_FirstMeeting_R_OK_OnlyWishPeace</Topic>
+        <Text>We only wish peace between our two nations, [S_LeaderName]. You have nothing to fear from me or my people.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_DeclaredWarUpon</Topic>
+        <Rule>0</Rule>
+        <Text>It's a shame that it must come to this between us [L_LeaderName].</Text>
+        <Text>I will do what I must to protect the people of [S_FactionShortName].</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_DeclaredWarUpon</Topic>
+        <Rule>10</Rule>
+        <Text>Well then [L_LeaderName], we will cover [WorldName] with the blood of [L_FactionShortName]!</Text>
+        <Text>You'll regret taking on the might of [S_FactionShortName]!</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <Rule>0</Rule>
+        <Text>You have my attention, though my time is precious. Please, state your intentions [L_LeaderName].</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <RelationsMin>7</RelationsMin>
+        <RelationsMax>11</RelationsMax>
+        <Rule>0</Rule>
+        <Text>Greetings, friend! What brings you here today?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <Rule>10</Rule>
+        <Text>So the humbled [L_LeaderName] comes to kneel at the throne of [S_FactionShortName]. State your request and be gone.</Text>
+        <Text>Your eyes glisten with fear, [L_LeaderName]. Lay down your blade and we shall discuss the fate of [WorldName].</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <RelationsMin>7</RelationsMin>
+        <RelationsMax>11</RelationsMax>
+        <Rule>10</Rule>
+        <Text>Consider our weapons sheathed, [L_LeaderName]. To what ends do we assemble?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <RelationsMax>6</RelationsMax>
+        <RevisitedTopicBarrier>0</RevisitedTopicBarrier>
+        <Rule>10</Rule>
+        <Text>Ah, [L_LeaderName]. We've heard tales of your lust for power. Do not take our forces lightly, for we will break you if necessary.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <RelationsMax>6</RelationsMax>
+        <RevisitedTopicBarrier>1</RevisitedTopicBarrier>
+        <Rule>10</Rule>
+        <Text>[L_LeaderName], to what purpose have you requested this meeting?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <RelationsMin>1</RelationsMin>
+        <RelationsMax>2</RelationsMax>
+        <Rule>1</Rule>
+        <Text>[L_LeaderName] - what need have I for negotiations when my blade is upon your throat?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <RelationsMin>1</RelationsMin>
+        <RelationsMax>2</RelationsMax>
+        <Rule>10</Rule>
+        <Text>I was just making plans for your skull, [L_LeaderName]. Come to make peace so soon?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_Generic</Topic>
+        <RelationsMin>1</RelationsMin>
+        <RelationsMax>2</RelationsMax>
+        <RevisitedTopicBarrier>1</RevisitedTopicBarrier>
+        <Text>The time to discuss actions is over. My army should be at your city walls shortly...they will make your death swift.</Text>
+        <Text>War is upon you, [L_LeaderName]! My paticence for your groveling grows thin.</Text>
+        <Text>The blood of the [L_FactionShortName] people is on your hands, [L_LeaderName].  Make your case or be gone.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_GenericTrade</Topic>
+        <Rule>0</Rule>
+        <Text>What have you brought to the table?</Text>
+        <Text>What is it that you're interested in, [L_LeaderName]?</Text>
+        <Text>I'm glad you decided to come [L_LeaderName].  What can I do for you?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_GenericTrade</Topic>
+        <Rule>10</Rule>
+        <Text>Make an offer.</Text>
+        <Text>First of all, what will you give me?</Text>
+        <Text>You'd better make this good, [L_LeaderName].</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_LeftTerritory</Topic>
+        <Rule>0</Rule>
+        <Text>We will withdrawal.</Text>
+        <Text>My troops do not wish you harm.  But we will withdrawal as you request.</Text>
+        <Text>Do not allow your paranoia to see me as anything other than a friend.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_LeftTerritory</Topic>
+        <Rule>10</Rule>
+        <Text>We will leave, this time.</Text>
+        <Text>I will recall my troops, for now.</Text>
+        <Text>The more inconvenient it is to pass through your lands, the more inclined I am to take them for myself.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Offer_Surrender_Accepted</Topic>
+        <Text>Very well, I will surrender and become a vassal.  My spirit is broken.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_RequestingPassage</Topic>
+        <Rule>0</Rule>
+        <Text>So you wish to pass through our lands, [L_LeaderName]? The great people of the [S_FactionName] will require a show of peace between our nations before allowing such an agreement. Let us discuss such terms.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Greeting_RequestingPassage</Topic>
+        <Rule>10</Rule>
+        <Text>Vile intruder. Your hooves stain our soil and yet you demand passage through [S_FactionShortName] territory? Make your case before my soldiers undertake your invasion.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Potential_Trade_Accepted</Topic>
+        <Rule>0</Rule>
+        <Text>Yes, this offer will work well.</Text>
+        <Text>Excellent.</Text>
+        <Text>This will work nicely.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Potential_Trade_Accepted</Topic>
+        <Rule>10</Rule>
+        <Text>This offer is acceptable.</Text>
+        <Text>Your offer pleases me.</Text>
+        <Text>That'll do..</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Potential_Trade_Rejected</Topic>
+        <Rule>0</Rule>
+        <Text>Your offer does not appeal to me.</Text>
+        <Text>Sorry, your offer isn't adequate.</Text>
+        <Text>I cannot accept that proposal.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Potential_Trade_Rejected</Topic>
+        <Rule>10</Rule>
+        <Text>No, you will need to offer more before I can accept this.</Text>
+        <Text>This isn't enough.</Text>
+        <Text>Your proposal is...disappointing.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Trade_Accepted</Topic>
+        <Rule>0</Rule>
+        <Text>Excellent. Shall we trade some more?</Text>
+        <Text>What else are you interested in, [L_LeaderName]?</Text>
+        <Text>Great. What else should we trade?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_Trade_Accepted</Topic>
+        <Rule>10</Rule>
+        <Text>Do you have anything else?</Text>
+        <Text>Have anything else you want to give me?</Text>
+        <Text>Very well, [L_LeaderName].  Now is there any other business you'd like to discuss?</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_WeHaveNewTechs</Topic>
+        <Text>We want to let you know that we have just uncovered the secret of [S_LastResearchedTech]. The secrets of the lost Magi are now ours.</Text>
+        <Text>The [S_FactionName] have rediscovered one of the secrets of the Elder Sages. We now know the secrets of [S_LastResearchedTech].</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_WeHaveNewTechs_R_Goodbye</Topic>
+        <Text>Congratulations.</Text>
+        <Text>Interesting.</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_WeHaveNewTechs_R_TalkTrade</Topic>
+        <Rule>0</Rule>
+        <Text>Let's talk about this new discovery.</Text>
+        <Text>Yes, let us sit down and discuss your findings.</Text>
+        <Text>The [L_FactionShortName] people have always thought we could learn from the [S_FactionName], [S_LeaderName]</Text>
+    </FlavorText>
+    <FlavorText>
+        <Topic>Talk_WeHaveNewTechs_R_TalkTrade</Topic>
+        <Rule>10</Rule>
+        <Text>OK [S_LeaderName], but quickly get to the point or you'll meet the point of my blade.</Text>
+        <Text>I'm listening, [S_LeaderName].</Text>
+        <Text>Oh we can talk, [S_LeaderName], but it will be about a topic of my choosing..</Text>
+        <Text>Don't push it.  Let us discuss what I want first.</Text>
+    </FlavorText>
+</FlavorTextEntries>

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MapTypes>
+  <DataChecksum NoParse="1">
+    <Ignore>DisplayName</Ignore>
+    <Translate>DisplayName</Translate>
+  </DataChecksum>
+  <!-- Tiny Maps (3x2 sectors) -->
+  <MapType InternalName="TinyMaps">
+    <DisplayName>Tiny</DisplayName>
+    <MapSectorWidth>4</MapSectorWidth>
+    <MapSectorHeight>3</MapSectorHeight>
+    <MapSectorMarginWidth>0</MapSectorMarginWidth>
+    <MapSectorMarginHeight>0</MapSectorMarginHeight>
+    <BaseNumNeutralCities>2</BaseNumNeutralCities>
+    <AvailableInMultiplayer>1</AvailableInMultiplayer>
+    <DefaultSupportedPlayers>3</DefaultSupportedPlayers>
+    <TinySeedSpawns>2</TinySeedSpawns>
+    <SmallSeedSpawns>2</SmallSeedSpawns>
+    <MediumSeedSpawns>0</MediumSeedSpawns>
+    <LargeSeedSpawns>0</LargeSeedSpawns>
+    <NumWildlands>0</NumWildlands>
+    <WaterPercentageMin>0</WaterPercentageMin>
+    <WaterPercentageMax>20</WaterPercentageMax>
+    <ResearchRateMultiplier>0.8</ResearchRateMultiplier>
+    <MapStyle InternalName="Balanced">
+      <DisplayName>Balanced</DisplayName>
+      <Generic>1</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>0</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Ravaged">
+      <DisplayName>Ravaged</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>1</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Random">
+      <DisplayName>Random</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>1</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>1</Desert>
+      <Chasms>1</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>1</Fertile>
+      <Swamps>1</Swamps>
+      <Forests>1</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Temperate">
+      <DisplayName>Temperate</DisplayName>
+      <Generic>1</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>0</Rugged>
+      <Fertile>1</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>1</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Swampy">
+      <DisplayName>Swamp</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>1</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <!--<MapStyle InternalName="Arctic">
+      <DisplayName>Arctic</DisplayName>
+      <Generic>1</Generic>
+      <Mountains>1</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>-->
+    <MapStyle InternalName="Desert">
+      <DisplayName>Desert</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>1</Desert>
+      <Chasms>1</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Mountainous">
+      <DisplayName>Mountainous</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>1</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>0</Rugged>
+      <Fertile>1</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>1</Forests>
+    </MapStyle>
+  </MapType>
+  <!-- Small Maps (4x3 sectors) -->
+  <MapType InternalName="SmallMaps">
+    <DisplayName>Small</DisplayName>
+    <MapSectorWidth>5</MapSectorWidth>
+    <MapSectorHeight>4</MapSectorHeight>
+    <MapSectorMarginWidth>0</MapSectorMarginWidth>
+    <MapSectorMarginHeight>0</MapSectorMarginHeight>
+    <BaseNumNeutralCities>4</BaseNumNeutralCities>
+    <AvailableInMultiplayer>1</AvailableInMultiplayer>
+    <DefaultSupportedPlayers>3</DefaultSupportedPlayers>
+    <TinySeedSpawns>4</TinySeedSpawns>
+    <SmallSeedSpawns>2</SmallSeedSpawns>
+    <MediumSeedSpawns>1</MediumSeedSpawns>
+    <LargeSeedSpawns>0</LargeSeedSpawns>
+    <NumWildlands>1</NumWildlands>
+    <WaterPercentageMin>10</WaterPercentageMin>
+    <WaterPercentageMax>30</WaterPercentageMax>
+    <ResearchRateMultiplier>1.0</ResearchRateMultiplier>
+    <MapStyle InternalName="Balanced">
+      <DisplayName>Balanced</DisplayName>
+      <Generic>1</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>0</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Ravaged">
+      <DisplayName>Ravaged</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>1</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Random">
+      <DisplayName>Random</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>1</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>1</Desert>
+      <Chasms>1</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>1</Fertile>
+      <Swamps>1</Swamps>
+      <Forests>1</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Temperate">
+      <DisplayName>Temperate</DisplayName>
+      <Generic>1</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>0</Rugged>
+      <Fertile>1</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>1</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Swampy">
+      <DisplayName>Swamp</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>1</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <!--<MapStyle InternalName="Arctic">
+      <DisplayName>Arctic</DisplayName>
+      <Generic>1</Generic>
+      <Mountains>1</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>-->
+    <MapStyle InternalName="Desert">
+      <DisplayName>Desert</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>1</Desert>
+      <Chasms>1</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Mountainous">
+      <DisplayName>Mountainous</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>1</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>0</Rugged>
+      <Fertile>1</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>1</Forests>
+    </MapStyle>
+  </MapType>
+  <!-- Medium Maps (6x4 sectors) -->
+  <MapType InternalName="MediumMaps">
+    <DisplayName>Medium</DisplayName>
+    <MapSectorWidth>6</MapSectorWidth>
+    <MapSectorHeight>5</MapSectorHeight>
+    <MapSectorMarginWidth>0</MapSectorMarginWidth>
+    <MapSectorMarginHeight>0</MapSectorMarginHeight>
+    <BaseNumNeutralCities>4</BaseNumNeutralCities>
+    <DefaultSupportedPlayers>4</DefaultSupportedPlayers>
+    <TinySeedSpawns>8</TinySeedSpawns>
+    <SmallSeedSpawns>4</SmallSeedSpawns>
+    <MediumSeedSpawns>2</MediumSeedSpawns>
+    <LargeSeedSpawns>1</LargeSeedSpawns>
+    <NumWildlands>1</NumWildlands>
+    <WaterPercentageMin>15</WaterPercentageMin>
+    <WaterPercentageMax>35</WaterPercentageMax>
+    <ResearchRateMultiplier>1.2</ResearchRateMultiplier>
+    <MapStyle InternalName="Balanced">
+      <DisplayName>Balanced</DisplayName>
+      <Generic>1</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>0</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Ravaged">
+      <DisplayName>Ravaged</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>1</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Random">
+      <DisplayName>Random</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>1</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>1</Desert>
+      <Chasms>1</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>1</Fertile>
+      <Swamps>1</Swamps>
+      <Forests>1</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Temperate">
+      <DisplayName>Temperate</DisplayName>
+      <Generic>1</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>0</Rugged>
+      <Fertile>1</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>1</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Swampy">
+      <DisplayName>Swamp</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>1</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <!--<MapStyle InternalName="Arctic">
+      <DisplayName>Arctic</DisplayName>
+      <Generic>1</Generic>
+      <Mountains>1</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>-->
+    <MapStyle InternalName="Desert">
+      <DisplayName>Desert</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>1</Desert>
+      <Chasms>1</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Mountainous">
+      <DisplayName>Mountainous</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>1</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>0</Rugged>
+      <Fertile>1</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>1</Forests>
+    </MapStyle>
+  </MapType>
+  <!-- Large Maps (8x6 sectors) -->
+  <MapType InternalName="LargeMaps">
+    <DisplayName>Large</DisplayName>
+    <MapSectorWidth>7</MapSectorWidth>
+    <MapSectorHeight>6</MapSectorHeight>
+    <MapSectorMarginWidth>0</MapSectorMarginWidth>
+    <MapSectorMarginHeight>0</MapSectorMarginHeight>
+    <BaseNumNeutralCities>10</BaseNumNeutralCities>
+    <DefaultSupportedPlayers>6</DefaultSupportedPlayers>
+    <TinySeedSpawns>12</TinySeedSpawns>
+    <SmallSeedSpawns>8</SmallSeedSpawns>
+    <MediumSeedSpawns>4</MediumSeedSpawns>
+    <LargeSeedSpawns>2</LargeSeedSpawns>
+    <NumWildlands>3</NumWildlands>
+    <WaterPercentageMin>20</WaterPercentageMin>
+    <WaterPercentageMax>40</WaterPercentageMax>
+    <ResearchRateMultiplier>1.5</ResearchRateMultiplier>
+    <MapStyle InternalName="Balanced">
+      <DisplayName>Balanced</DisplayName>
+      <Generic>1</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>0</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Ravaged">
+      <DisplayName>Ravaged</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>1</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Random">
+      <DisplayName>Random</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>1</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>1</Desert>
+      <Chasms>1</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>1</Fertile>
+      <Swamps>1</Swamps>
+      <Forests>1</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Temperate">
+      <DisplayName>Temperate</DisplayName>
+      <Generic>1</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>0</Rugged>
+      <Fertile>1</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>1</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Swampy">
+      <DisplayName>Swamp</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>1</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <!--<MapStyle InternalName="Arctic">
+      <DisplayName>Arctic</DisplayName>
+      <Generic>1</Generic>
+      <Mountains>1</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>-->
+    <MapStyle InternalName="Desert">
+      <DisplayName>Desert</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>0</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>1</Desert>
+      <Chasms>1</Chasms>
+      <Rugged>1</Rugged>
+      <Fertile>0</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>0</Forests>
+    </MapStyle>
+    <MapStyle InternalName="Mountainous">
+      <DisplayName>Mountainous</DisplayName>
+      <Generic>0</Generic>
+      <Mountains>1</Mountains>
+      <Arctic>0</Arctic>
+      <Desert>0</Desert>
+      <Chasms>0</Chasms>
+      <Rugged>0</Rugged>
+      <Fertile>1</Fertile>
+      <Swamps>0</Swamps>
+      <Forests>1</Forests>
+    </MapStyle>
+  </MapType>
+  <!-- Tactical Battle Maps (2x2sectors) -->
+  <MapType InternalName="TacticalBattleMaps">
+    <DisplayName>Tactical Battle</DisplayName>
+    <MapSectorWidth>2</MapSectorWidth>
+    <MapSectorHeight>2</MapSectorHeight>
+    <MapSectorMarginWidth>0.0</MapSectorMarginWidth>
+    <MapSectorMarginHeight>0.0</MapSectorMarginHeight>
+    <BaseNumNeutralCities>0</BaseNumNeutralCities>
+    <TacticalBattle>1</TacticalBattle>
+    <NumWildlands>0</NumWildlands>
+    <WaterPercentageMin>0</WaterPercentageMin>
+    <WaterPercentageMax>0</WaterPercentageMax>
+    <ResearchRateMultiplier>0</ResearchRateMultiplier>
+    <MapStyle InternalName="OneContinent">
+      <DisplayName>Single Continent</DisplayName>
+      <NumMountainsMin>8</NumMountainsMin>
+      <NumMountainsMax>12</NumMountainsMax>
+      <NumForestsMin>11</NumForestsMin>
+      <NumForestsMax>16</NumForestsMax>
+      <NumRiversMin>6</NumRiversMin>
+      <NumRiversMax>10</NumRiversMax>
+      <SmallSpawnSizeMin>4</SmallSpawnSizeMin>
+      <SmallSpawnSizeMax>7</SmallSpawnSizeMax>
+      <LargeSpawnSizeMin>2</LargeSpawnSizeMin>
+      <LargeSpawnSizeMax>3</LargeSpawnSizeMax>
+      <HugeSpawnSizeMin>3</HugeSpawnSizeMin>
+      <HugeSpawnSizeMax>3</HugeSpawnSizeMax>
+      <LinkedSeedPercentage>100</LinkedSeedPercentage>
+      <WaterPercentageMin>25</WaterPercentageMin>
+      <WaterPercentageMax>40</WaterPercentageMax>
+      <ShardBaseQuantityMin>11</ShardBaseQuantityMin>
+      <ShardBaseQuantityMax>15</ShardBaseQuantityMax>
+    </MapStyle>
+  </MapType>
+</MapTypes>

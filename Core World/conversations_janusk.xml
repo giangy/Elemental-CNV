@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<FlavorTextEntries>
+	<DataChecksum NoParse="1">
+		<Ignore>Text</Ignore>
+		<Translate>Text</Translate>
+	</DataChecksum>
+
+	<!--
+  - STRING PLACEHOLDERS -
+  
+  [S_FactionName] the name of the speaker's faction
+  [S_FactionShortName] the short name of the speaker's faction (Kraxis, Altar, etc)
+  [S_LeaderName] the name of the speaker
+  [S_LastResearchedTech] the most recently unlocked tech milestone of the speaker's faction
+  
+  [L_FactionName] listener's faction name
+  [L_FactionShortName] the short name of the listener's faction (Kraxis, Altar, etc)
+  [L_LeaderName] listener's sovereign name
+  [L_LastResearchedTech] the most recently unlocked tech milestone of the listener's faction
+  
+  [WorldName] the name of the world
+  
+  ____________________________________________
+  
+  - RULES (Mostly for use with Generic Race conversations) -
+  
+  - Race of Men -
+  0  - A Kingdom speaking
+  1  - A Kingdom speaking to another Kingdom
+  2  - A Kingdom speaking to a Fallen nation
+  
+  - Fallen Race -
+  10 - A Fallen race speaking
+  11 - A Fallen race speaking to another Fallen Race
+  12 - A Fallen Race speaking to a Kingdom nation
+  
+  - Military Might -
+  20 - Speaker has a MUCH STRONGER Military than the Listener
+  21 - Speaker has a Slightly STRONGER Military than the Listener
+  22 - Speaker has approximatly EQUAL Military Might as the Listener
+  23 - Speaker has a Slightly WEAKER Military than the Listener
+  24 - Speaker has a MUCH WEAKER Military than the Listeners
+  
+  - Diplomatic Skill -
+  30 - Speaker is MUCH MORE DIPLOMATIC than the Listener
+  31 - Speaker is SLIGHTLY MORE DIPLOMATIC than the Listener
+  31 - Speaker is EQUALLY DIPLOMATIC than the Listener
+  33 - Speaker is SLIGHTLY LESS DIPLOMATIC than the Listener
+  34 - Speaker is MUCH LESS DIPLOMATIC than the Listener
+  
+  <RevisitedTopicBarrier>
+  This is the number of times a topic is triggered by these two races before the given flavor text will be used.
+  
+  <RelationsMax>
+  <RelationsMin>
+  The span of relations that this text will be used for.
+  1- Permanent War
+  2- War
+  3- Hostile
+  4- Unfriendly
+  5- Cool
+  6- Neutral
+  7- Warm
+  8- Friendly
+  9- Close
+  10- Ally
+  11- Team
+  -->
+	<FlavorText>
+		<Topic>Introduction_Kingdom</Topic>
+		<Text>Hello, [L_LeaderName]. I am [NPCName]. I'm looking for a good sovereign to aid, and it is obvious to me that you have a great destiny ahead of you.</Text>
+   <!-- <Text>Greetings, [L_LeaderName]. I am Janusk the scribe. I chronicle the events of the world. I can tell that you have a great destiny ahead of you. If you recruit me, I can aid with information about the world.</Text>-->
+	</FlavorText>
+	<FlavorText>
+		<Topic>Introduction_Empire</Topic>
+		<Text>Hello, [L_LeaderName]. I am [NPCName]. I'm looking for a strong sovereign to aid.  If you allow me to join you I will be a loyal member of your growing empire.</Text>
+   <!-- <Text>Greetings, [L_LeaderName]. I am Janusk the scribe. I chronicle the events of the world. I can tell that you have a great destiny ahead of you. If you recruit me, I can aid with information about the world.</Text>-->
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Janusk_Introduction</Topic>
+		<Text>Hello, [L_LeaderName]. I am [NPCName]. I chronicle the events for the world of [WorldName]. I'm looking for a good sovereign to aid, and it is obvious to me that you have a great destiny ahead of you.  </Text>
+   <!-- <Text>Greetings, [L_LeaderName]. I am Janusk the scribe. I chronicle the events of the world. I can tell that you have a great destiny ahead of you. If you recruit me, I can aid with information about the world.</Text>-->
+	</FlavorText>
+
+	<FlavorText>
+    <Topic>Advisor_CreatureUpgrade</Topic>
+    <Text>Terrible news, My Lord. Several adventurers tried to recover one of Morrigan's lost artifacts and set loose mayhem out in the wilds.</Text>
+	<Text>I've received a disturbing report, My Lord. A group of so-called adventurers tried to explore the lost Dungeon of Curgen. In the process, they inadvertently set free a hoard of creatures long thought extinct.</Text>
+	<Text>I am sad to report that travelers are reporting new and more powerful creatures in the wilds. Apparently a local Dark Wizard was attacked by a band of do-gooders. In the process of destroying one another, the Dark Wizard's experiments escaped.</Text>
+	<Text>There are reports of some new dangerous creatures prowling the wilds. We have advised our people to avoid the forests where they tend to be most often found.</Text>
+	<Text>I have some disturbing news, My Lord. A party consisting of a warlock, a warrior, a cleric and a thief attempted to overthrow a local bandit lord. The bandit lord, in desperation, made use of an ancient summoning scroll and brought forth a host of dangerous monsters that are now loose in the wilds.</Text>
+	<Text>I have just gotten word from our rangers that they have spotted some new terrors lurking the woods. We must be wary.</Text>	
+  </FlavorText>
+
+	<FlavorText>
+		<Topic>Advisor_GoodieUpgrade</Topic>
+		<Text>Your majesty, we are getting reports from our scouts that they are finding new notable locations of greater intrigue. These places may contain secrets, long lost or artifacts that may aid us. The scouts refer to these as level [LEVEL] locations.</Text>
+	</FlavorText>	
+	
+</FlavorTextEntries>

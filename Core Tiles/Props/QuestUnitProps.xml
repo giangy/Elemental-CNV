@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<PropTypes>
+  <DataChecksum NoParse="1">
+    <Ignore>DisplayName</Ignore>
+    <Translate>DisplayName,TerrainName</Translate>
+  </DataChecksum>
+
+  <!-- Low Poly Units -->
+
+
+  <!--******************************************** -->
+  <!-- **********     NPC Pedestrians    ********* -->
+  <!--******************************************** -->
+
+  <!-- ***************** NPC Prop **************** -->
+
+
+  <PropModelType InternalName="Waerloga">
+    <DisplayName>Waerloga Prop</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\MaleSoldierDoorGuard1.png</Thumb>
+    <Tag>Fallen</Tag>
+        <Color_Clothing1>80,15,15,255</Color_Clothing1>
+        <Color_Clothing2>40,35,35,255</Color_Clothing2>
+        <Color_Hair>182,182,182,255</Color_Hair>
+        <Color_Metal>60,50,50,255</Color_Metal>
+        <Color_Skin>40,30,20,255</Color_Skin>
+    <Model>F_Female_Magnar_Body_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</Skeleton>
+    <Texture_All>Gfx\HKB\Units\Quendar_Skin_F_01.dds</Texture_All>
+    <AnimationPath>NoblemanAnimationPack</AnimationPath>
+    <RHandAttach>gfx/hkb/Weapons/W_Longsword_Flaming_01.hkb</RHandAttach>
+    <ChestAttach>Gfx\HKB\Armor\verga_Chest_guard.hkb</ChestAttach>
+    <HeadAttach>Gfx\HKB\Armor\verga_helmet.hkb</HeadAttach>
+    <ThighAttach>Gfx\HKB\verga_right_thigh_guard.hkb</ThighAttach>
+    <ForearmAttach>Gfx\hkb\Armor\verga_vambrace.hkb</ForearmAttach>
+    <CalfAttach>gfx/hkb/Armor/verga_right_greave.hkb</CalfAttach>
+    <ShoulderAttach>Gfx\hkb\Armor\verga_vambrace.hkb</ShoulderAttach>
+    <Scale>0.13</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>  
+
+  <PropModelType InternalName="DragonProp">
+    <DisplayName>Waerlogas Dragon</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Deer1.png</Thumb>
+    <Model>gfx/hkb/Dragons/D_Dragon_Mesh_01.hkb</Model>
+    <Skeleton>gfx/hkb/Dragons/D_Dragon_Skeleton_01.hkb</Skeleton>
+    <Texture_All>gfx/hkb/Dragons/D_Dragon_Texture_01.dds</Texture_All>
+    <Color_Skin>80,15,15,255</Color_Skin>
+    <AnimationPath>DragonAnimationPack</AnimationPath>
+    <Scale>0.08</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+  <PropModelType InternalName="WildingWarriorProp">
+    <DisplayName>Wilding Warrior Prop</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Tag>Creature</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Deer1.png</Thumb>
+    <Model>gfx\hkb\Monsters\M_SandCrawler_Warrior_Mesh_01.hkb</Model>
+    <Skeleton>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</Skeleton>
+    <Texture_All>Gfx\HKB\Monsters\M_SandCrawler_Texture_01.png</Texture_All>
+    <Color_Skin>70,50,35,55</Color_Skin>
+    <AnimationPath>DarklingSpearAnimationPack</AnimationPath>
+    <RHandAttach>gfx/hkb/items/woodenspear.hkb</RHandAttach>
+    <Scale>0.08</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+  </PropModelType>
+
+
+</PropTypes>

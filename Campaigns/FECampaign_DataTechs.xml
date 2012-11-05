@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CampaignData>
+
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- TECH TREE -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	
+    <TechTree InternalName="TechTree_Campaign">
+        <DisplayName>The Knowledge of the Amarian Race</DisplayName>
+        <Category>Civilization</Category>
+            <Tech>FEC_TECH_Civics</Tech>
+            <Tech>Restoration</Tech>
+            <Tech>FEC_TECH_Agriculture</Tech>
+            <Tech>FEC_TECH_Administration</Tech>
+        <Category>Warfare</Category>
+            <Tech>FEC_TECH_Advanced_Archery</Tech>
+            <Tech>Archery</Tech>
+            <Tech>Armor</Tech>
+            <Tech>Blacksmithing</Tech>
+            <Tech>FEC_TECH_Heavy_Armor</Tech>
+            <Tech>Leatherworking</Tech>
+            <Tech>Longbows</Tech>
+            <Tech>Training</Tech>
+            <Tech>FEC_TECH_War_Colleges</Tech>
+            <Tech>Weaponry</Tech>
+            <Tech>FEC_TECH_Weapons_Of_War</Tech>
+            <Tech>Weaponsmithing</Tech>
+        <Category>Magic</Category>
+            <Tech>Arcane_Apparel</Tech>
+            <Tech>Arcane_Armor</Tech>
+            <Tech>Arcane_Weapons</Tech>
+            <Tech>Charms</Tech>
+            <Tech>Enchantment</Tech>
+            <Tech>Glyph_Stones</Tech>
+            <Tech>Magical_Forging</Tech>
+            <Tech>Rituals</Tech>
+            <Tech>Shard_Harvesting</Tech>
+            <Tech>Sorcery</Tech>
+            <Tech>FEC_TECH_Summoning</Tech>
+            <Tech>FEC_TECH_Third_Book_Of_The_Magi</Tech>
+     </TechTree>
+	 
+	 
+	 
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- CUSTOM CAMPAIGN TECHS -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	
+    <TechDef InternalName="FEC_TECH_Advanced_Archery">
+        <DisplayName>Advanced Archery</DisplayName>
+        <Description>Developing this skill will allow you to craft Yew Longbows, ranged weapons far more powerful than their lesser counterparts. These bows - the selfsame weapons used by the Archers of Lord Argynn's army in their war against the tribes of the Khulan - are a deadly complement to any army.</Description>
+        <AdviceText>Yew Longbows should allow our troops to decimate the enemy before they even reach us.</AdviceText>
+        <Image>Tech_Advanced_Archery.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>164</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>NoRangedWeapons</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Longbows</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPrefType>AIPrefType_BOW</AIPrefType>
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>3</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+	
+    <TechDef InternalName="FEC_TECH_Civics">
+        <DisplayName>Civics</DisplayName>
+        <Description>This technology allows you to rush production in cities with Gold - but don't forget you can also spend Gold to equip your champions with better weapons, armor and items.</Description>
+        <AdviceText>The ability to finish items quickly with Gold can help us produce more units in a pinch.</AdviceText>
+        <Image>Caravan1_Medallion.png</Image>
+        <Color>161,59,184</Color>
+        <HotColor>240,154,243</HotColor>
+        <Cost>18</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockCityAction</Attribute>
+            <StrVal>RushProduction</StrVal>
+            <Icon>Consumption_Icon.png</Icon>
+            <Provides>Can Rush Production</Provides>
+        </GameModifier>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>900</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+
+    <TechDef InternalName="FEC_TECH_Agriculture">
+        <DisplayName>Agriculture</DisplayName>
+        <Description>Food production will be more efficient; feeding your cities easier and more cost-effective. It was only when the nomadic tribes of the Ancient East settled the Khin-Lo that civilization on Elemental truly began. </Description>
+        <AdviceText>Gardens will greatly increase our food output and allow cities to support additional citizens.</AdviceText>
+        <Image>VegetableGarden.png</Image>
+        <Color>161,59,184</Color>
+        <HotColor>240,154,243</HotColor>
+        <Cost>36</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_Additive_FoodPerGrain</StrVal>
+            <Value>10</Value>
+            <Icon>Res_Icon_Food.png</Icon>
+            <Provides>+10 Food per Grain</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Restoration</Attribute>
+        </Prereq>
+        <AIData AIPersonality="AI_General">
+			<AIPriority>100</AIPriority>
+            <AITradeToGetValue>75</AITradeToGetValue>
+            <AITradeOutValue>90</AITradeOutValue>
+            <AIAtWarMultiplier>1</AIAtWarMultiplier>
+            <AIEarlyBuildUpMultiplier>5</AIEarlyBuildUpMultiplier>
+		</AIData>
+    </TechDef>
+
+    <TechDef InternalName="FEC_TECH_Administration">
+        <DisplayName>Administration</DisplayName>
+        <Description>Learning how to properly administer your cities will allow you to construct the Town Hall improvement, to lower costs, and maintain larger cities; it will also improve your Faction Prestige by 1. As much as her armies, ancient Antheros relied on its civil servants - its Consuls, Praedors, and Bureaucrats - to maintain her vast Empire. </Description>
+        <AdviceText>Upgrading our Bell Towers to Town Halls should provide a significant boost to our city efficiency. </AdviceText>
+        <Image>Tech_Administration.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>72</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_FactionPrestige</StrVal>
+            <Value>1</Value>
+            <Provides>+1 Faction Prestige</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_Additive_Unrest</StrVal>
+            <Value>-10</Value>
+            <Provides>-10 Unrest in all cities</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Civics</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Restoration</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>2</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+
+    <TechDef InternalName="FEC_TECH_Heavy_Armor">
+        <DisplayName>Heavy Armor</DisplayName>
+        <Description>Study in this area allows you to craft Plate Armor and Tower Shields. Metal armor provides greatly superior protection compared to its chain counterpart, but is also more expensive, both in terms of time and material required. Aivernach smiths, it is said, underwent a full decade of training before being certified as masters. </Description>
+        <AdviceText>Plate armor provides good all-around armor and superior blunt defense. It is, however, quite heavy.</AdviceText>
+        <Image>PlateArmor.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>164</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>NoArmor</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Armor</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>2</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+	
+    <TechDef InternalName="FEC_TECH_Summoning">
+        <DisplayName>Summoning</DisplayName>
+        <Description>Research this knowledge to be able to summon weak creatures.</Description>
+        <Image>Tech_Arcane_Apparel.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>22</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>SummonImp</StrVal>
+            <Icon>T_SummonImp_Icon.png</Icon>
+            <Provides>Spell: Summon Imp</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>SummonFamiliar</StrVal>
+            <Icon>T_SummonFamiliar_Icon.png</Icon>
+            <Provides>Spell: Summon Familiar</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Charms</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Shard_Harvesting</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>80</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>2</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>5</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+	
+	<TechDef InternalName="FEC_TECH_Third_Book_Of_The_Magi">
+        <DisplayName>Third Book of the Magi</DisplayName>
+        <Description>Researching the knowledge contained in this volume - said to comprise Argynn's legacy to the West - will grant the channelers of your kingdom powerful new spells to add to their arcane arsenal.</Description>
+        <AdviceText>Falling Star is one of the pinnacles of destructive magic. Use it to decimate the armies of our enemies.</AdviceText>
+        <Image>Tech_Third_Book.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>131</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>FallingStar</StrVal>
+            <Icon>S_FallingStar_Icon.png</Icon>
+            <Provides>Spell: Falling Star</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>PullOfTheEarth</StrVal>
+            <Icon>T_PulloftheEarth_Icon.png</Icon>
+            <Provides>Spell: Pull of the Earth</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>BirthOfSummer</StrVal>
+            <Icon>S_BirthOfSummer_Icon.png</Icon>
+            <Provides>Spell: Birth of Summer</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>BloomOfTwilight</StrVal>
+            <Icon>S_BirthOfSummer_Icon.png</Icon>
+            <Provides>Spell: Bloom of Twilight</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>CurgensVolcano</StrVal>
+            <Icon>S_CurgensVolcano_Icon.png</Icon>
+            <Provides>Spell: Curgen's Volcano</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Magical_Forging</Attribute>
+        </Prereq>
+		<AIData AIPersonality="AI_General">
+			<AIPriority>50</AIPriority>
+			<AITradeToGetValue>75</AITradeToGetValue>
+			<AITradeOutValue>90</AITradeOutValue>
+			<AIAtWarMultiplier>1</AIAtWarMultiplier>
+			<AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+		</AIData>
+    </TechDef>
+
+    <TechDef InternalName="FEC_TECH_War_Colleges">
+        <DisplayName>War Colleges</DisplayName>
+        <Description>Research this knowledge to craft Longswords. Shorten the time it takes to field units by teaching the art of warfare in a disciplined, controlled setting. Though a man of peace, Ereog knew the importance of educating the military; until the Verhallem was built, the Academy was the largest structure in Hallas. </Description>
+        <AdviceText>Longswords are a great option for defensive units because they allow you to wear a shield and counterattack.</AdviceText>
+        <Image>War_Colleges.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>93</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Weaponsmithing</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Armor</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>5</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+	 
+    <TechDef InternalName="FEC_TECH_Weapons_Of_War">
+        <DisplayName>Weapons of War</DisplayName>
+        <Description>Learning these techniques allows you to craft Mauls, Pikes and Greatswords. These weapons require significant resources, time and skill to produce, but armies wielding them gain great advantage on the battlefield; recall the Battle of Caoden, where a single company of Argynn's soldiers - two dozen men - defeated four hundred of the Kallgar.  </Description>
+        <AdviceText>We now can make the most powerful non-magical weapons in the world. Each excel in different ways.</AdviceText>
+        <Image>Tech_Weapons_of_War.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>196</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Weaponsmithing</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPrefType>AIPrefType_Blunt</AIPrefType>
+                <AIPrefType>AIPrefType_Cutting</AIPrefType>
+                <AIPrefType>AIPrefType_Piercing</AIPrefType>
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>5</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+	 
+	 
+	 
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- TECHS THAT NEED NEW PREREQS -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+
+    <TechDef InternalName="Heavy_Armor">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Armor</Attribute>
+        </Prereq>
+    </UnitType>
+	 
+    <TechDef InternalName="Weapons_Of_War">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Weaponsmithing</Attribute>
+        </Prereq>
+    </UnitType>
+	 
+	 
+	 
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- REMOVED UNITS -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+
+    <UnitType InternalName="Unit_Pioneer_Altarian">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </UnitType>
+	
+	
+	 
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- REMOVED IMPROVEMENTS -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+
+    <ImprovementType InternalName="Alchemist">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+
+    <ImprovementType InternalName="Barracks">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+
+    <ImprovementType InternalName="Blacksmith">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+
+    <ImprovementType InternalName="Cleric">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+
+    <ImprovementType InternalName="CommandPost">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+ 
+    <ImprovementType InternalName="CrystalTrove">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+ 
+    <ImprovementType InternalName="GuardianStatue_Kingdom">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+  
+	<ImprovementType InternalName="LoggingCamp">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+    
+	<ImprovementType InternalName="LumberYard">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+
+    <ImprovementType InternalName="Merchant">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+	
+    <ImprovementType InternalName="Monument">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+	
+    <ImprovementType InternalName="Outpost_Abbey">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+	
+    <ImprovementType InternalName="Pier">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+	
+    <ImprovementType InternalName="Shrine">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+	
+    <ImprovementType InternalName="TimberMill">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+	
+    <ImprovementType InternalName="TowerOfDominion">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+	
+    <ImprovementType InternalName="WarCollege">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Warg_Riding</Attribute>
+        </Prereq>
+    </ImprovementType>
+	
+    <ImprovementType InternalName="Weaponsmith">
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Rituals</Attribute>
+        </Prereq>
+    </ImprovementType>
+	
+	 
+	 
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- CUSTOM CAMPAIGN IMPROVEMENTS -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+    
+    <ImprovementType InternalName="FEC_IMP_TownHall">
+        <DisplayName>Town Hall</DisplayName>
+        <Description>A Town Hall expands the borders of the city its built in.</Description>
+        <RequiresCity>1</RequiresCity>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>SwampTerrain</BarredTerrain>
+        <PreferredTerrain>City</PreferredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <PreferredTerrain>Forest</PreferredTerrain>
+        <UpgradesToImprovement>Palace</UpgradesToImprovement>
+        <UpgradeTier>1</UpgradeTier>
+        <ZOCMinRadius>1</ZOCMinRadius>
+        <ZOCMaxRadius>1</ZOCMaxRadius>
+        <ZOCRadiusTurnsBeforeUpdate>0</ZOCRadiusTurnsBeforeUpdate>
+        <LaborToBuild>120</LaborToBuild>
+        <GameModifier>
+            <Value>1</Value>
+            <Provides>+1 Zone of Control</Provides>
+            <UpgradeComparisonID>1</UpgradeComparisonID>
+            <UpgradeComparisonText>Zone of Control</UpgradeComparisonText>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>7</AIPriority>
+            <AITag>Economy</AITag>
+        </AIData>
+        <ArtDef>Art_TownHall</ArtDef>
+    </ImprovementType>
+	
+    <ImprovementType InternalName="FEC_IMP_Monument">
+        <DisplayName>Monument</DisplayName>
+        <Description>A Monument expands the borders of the city its built in.</Description>
+        <RequiresCity>1</RequiresCity>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>SwampTerrain</BarredTerrain>
+        <PreferredTerrain>City</PreferredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <PreferredTerrain>Forest</PreferredTerrain>
+        <UpgradeTier>1</UpgradeTier>
+        <ZOCMinRadius>1</ZOCMinRadius>
+        <ZOCMaxRadius>1</ZOCMaxRadius>
+        <ZOCRadiusTurnsBeforeUpdate>0</ZOCRadiusTurnsBeforeUpdate>
+        <LaborToBuild>60</LaborToBuild>
+        <GameModifier>
+            <Value>1</Value>
+            <Provides>+1 Zone of Control</Provides>
+            <UpgradeComparisonID>1</UpgradeComparisonID>
+            <UpgradeComparisonText>Zone of Control</UpgradeComparisonText>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>5</AIPriority>
+            <AITag>Merchant</AITag>
+        </AIData>
+        <ArtDef>Art_Monument</ArtDef>
+    </ImprovementType>
+	
+	 
+	 
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- CUSTOM CAMPAIGN ITEMS -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	
+    <GameItemType InternalName="FEC_ITEM_Longsword">
+        <DisplayName>Longsword</DisplayName>
+        <Description>A long bladed sword.</Description>
+        <Type>Weapon</Type>
+        <WeaponType>OneHanded</WeaponType>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>20</AdditionalTrainingTurns>
+        <ShopValue>60</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>3</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Cutting</StrVal>
+            <Value>18</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>10</Value>
+        </GameModifier>
+            <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>AdjustUnitStat</Attribute>
+                <StrVal>UnitStat_MaxCounterAttack</StrVal>
+                <Value>1</Value>
+                <Provides>+1 Counterattack per round</Provides>
+            </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_War_Colleges</Attribute>
+        </Prereq>
+        <AIData AIPersonality="AI_General">
+            <AIPrefType>AIPrefType_CUTTING</AIPrefType>
+            <AIPriority>320</AIPriority>
+        </AIData>
+        <ArtDef>Longsword_ArtDef</ArtDef>
+    </GameItemType>
+	
+    <GameItemType InternalName="FEC_ITEM_YewLongbow">
+        <DisplayName>Yew Longbow</DisplayName>
+        <Description>A long bow of yew with iron tipped arrows.</Description>
+        <Type>Weapon</Type>
+        <Type>Defense</Type>
+        <WeaponType>Bow</WeaponType>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>35</AdditionalTrainingTurns>
+        <ShopValue>105</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>1</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Pierce</StrVal>
+            <Value>11</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CombatSpeed</StrVal>
+            <Value>-6</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>10</Value>
+        </GameModifier>
+            <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>UnlockRangedAction</Attribute>
+                <StrVal>BowAttack_Basic</StrVal>
+                <Provides>Ranged attack</Provides>
+            </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <TacticalRange>9</TacticalRange>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>Archers</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Advanced_Archery</Attribute>
+        </Prereq>
+        <AIData AIPersonality="AI_General">
+            <AIPrefType>AIPrefType_BOW</AIPrefType>
+            <AIPriority>140</AIPriority>
+        </AIData>
+        <ArtDef>YewLongbow_ArtDef</ArtDef>
+    </GameItemType>
+	
+    <GameItemType InternalName="FEC_ITEM_ChainBoots_Masterwork">
+        <DisplayName>Masterwork Chain Boots</DisplayName>
+        <Description>The intricate pattern is clearly the work of a master armorsmith and serves to strengthen the armor.</Description>
+        <Type>Boots</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>6</AdditionalTrainingTurns>
+        <ShopValue>140</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>2</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>4</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>8</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>4</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <Prereq>
+            <Type>AbilityBonusOption</Type>
+            <Attribute>MasterworkChain</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Heavy_Armor</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>21</AIPriority>
+            </AIData>
+        <ArtDef>Art_ChainBoots_Masterwork</ArtDef>
+    </GameItemType>
+	
+    <GameItemType InternalName="FEC_ITEM_ChainBreastpiece_Masterwork">
+        <DisplayName>Masterwork Chain Shirt</DisplayName>
+        <Description>This chain shirt was meticulously crafted by a master armorsmith. The fine craftsmanship has led to a lighter fit while actually providing improved protection.</Description>
+        <Type>Torso</Type>
+        <Type>Surcoat</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>10</AdditionalTrainingTurns>
+        <ShopValue>260</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>4</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>6</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>8</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>16</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>8</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <Prereq>
+            <Type>AbilityBonusOption</Type>
+            <Attribute>MasterworkChain</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Heavy_Armor</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>27</AIPriority>
+            </AIData>
+        <ArtDef>Art_ChainBreastpiece_Masterwork</ArtDef>
+    </GameItemType>
+	
+    <GameItemType InternalName="FEC_ITEM_ChainGreaves_Masterwork">
+        <DisplayName>Masterwork Chain Greaves</DisplayName>
+        <Description>The intricate pattern is clearly the work of a master armorsmith and serves to strengthen the armor.</Description>
+        <Type>LowerBody</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>8</AdditionalTrainingTurns>
+        <ShopValue>200</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>2</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>4</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>6</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>12</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>6</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <Prereq>
+            <Type>AbilityBonusOption</Type>
+            <Attribute>MasterworkChain</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Heavy_Armor</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>27</AIPriority>
+            </AIData>
+        <ArtDef>Art_ChainGreaves_Masterwork</ArtDef>
+    </GameItemType>
+	
+    <GameItemType InternalName="FEC_ITEM_ChainHelmet_Masterwork">
+        <DisplayName>Masterwork Chain Coif</DisplayName>
+        <Description>The complex interlaying of chain links on this coif are clearly the efforts of a master armorsmith and have resulted in a more resilient helmet.</Description>
+        <Type>Head</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>6</AdditionalTrainingTurns>
+        <ShopValue>140</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>2</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>4</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>8</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>4</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <Prereq>
+            <Type>AbilityBonusOption</Type>
+            <Attribute>MasterworkChain</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Heavy_Armor</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>21</AIPriority>
+            </AIData>
+        <ArtDef>Art_ChainHelmet_Masterwork</ArtDef>
+    </GameItemType>
+	
+    <GameItemType InternalName="FEC_ITEM_ChainVambraces_Masterwork">
+        <DisplayName>Masterwork Chain Vambraces</DisplayName>
+        <Description>The chain links of this pair of armlets have been woven together in a pattern that reinforces their strength. It is clearly the work of a master armorsmith.</Description>
+        <Type>Forearms</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>6</AdditionalTrainingTurns>
+        <ShopValue>140</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>2</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>4</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>4</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>8</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>4</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <Prereq>
+            <Type>AbilityBonusOption</Type>
+            <Attribute>MasterworkChain</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Heavy_Armor</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>21</AIPriority>
+            </AIData>
+        <ArtDef>Art_ChainVambraces_Masterwork</ArtDef>
+    </GameItemType>
+	
+    <GameItemType InternalName="FEC_ITEM_PlateBoots">
+        <DisplayName>Plate Boots</DisplayName>
+        <Description>Boots made from forged steel and intricately designed to provide additional protection while actually using lighter metals. The design is ancient; a relic of a long lost civilization.</Description>
+        <Type>Boots</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>8</AdditionalTrainingTurns>
+        <ShopValue>220</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>4</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>6</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>10</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>MasterworkChain</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Heavy_Armor</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>27</AIPriority>
+            </AIData>
+        <ArtDef>Art_PlateBoots</ArtDef>
+    </GameItemType>
+	
+    <GameItemType InternalName="FEC_ITEM_PlateBreastpiece">
+        <DisplayName>Plate Cuirass</DisplayName>
+        <Description>A cuirass made from forged steel and intricately designed to provide additional protection while actually using lighter metals. The design is ancient; a relic of a long lost civilization.</Description>
+        <Type>Torso</Type>
+        <Type>Surcoat</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>14</AdditionalTrainingTurns>
+        <ShopValue>420</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>6</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>12</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>20</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>10</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>10</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>MasterworkChain</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Heavy_Armor</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>41</AIPriority>
+            </AIData>
+        <ArtDef>Art_PlateBreastpiece</ArtDef>
+    </GameItemType>
+	
+    <GameItemType InternalName="FEC_ITEM_PlateGreaves">
+        <DisplayName>Plate Greaves</DisplayName>
+        <Description>Greaves made from forged steel and intricately designed to provide additional protection while actually using lighter metals. The design is ancient; a relic of a long lost civilization.</Description>
+        <Type>LowerBody</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>10</AdditionalTrainingTurns>
+        <ShopValue>300</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>4</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>8</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>14</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>7</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>7</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>MasterworkChain</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Heavy_Armor</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>34</AIPriority>
+            </AIData>
+        <ArtDef>Art_PlateGreaves</ArtDef>
+    </GameItemType>
+	
+    <GameItemType InternalName="FEC_ITEM_PlateHelmet">
+        <DisplayName>Plate Helm</DisplayName>
+        <Description>For ages the secrets of the finest helmets was thought to be lost to the world. Now it has been unearthed, bringing back a marvel of protection and efficiency; unrivaled safety with less weight than a standard plate helm.</Description>
+        <Type>Head</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>8</AdditionalTrainingTurns>
+        <ShopValue>220</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>4</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>6</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>10</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>MasterworkChain</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Heavy_Armor</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>27</AIPriority>
+            </AIData>
+        <ArtDef>Art_PlateHelmet</ArtDef>
+    </GameItemType>
+	
+    <GameItemType InternalName="FEC_ITEM_PlateVambraces">
+        <DisplayName>Plate Vambraces</DisplayName>
+        <Description>A design of armlets from a time long forgotten. They are a marvel of efficiency, providing unrivaled protection while remaining lighter than similar armor.</Description>
+        <Type>Forearms</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>8</AdditionalTrainingTurns>
+        <ShopValue>220</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>4</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>8</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>10</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>MasterworkChain</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Heavy_Armor</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>27</AIPriority>
+            </AIData>
+        <ArtDef>Art_PlateVambraces</ArtDef>
+    </GameItemType>
+	
+    <GameItemType InternalName="FEC_ITEM_TowerShield">
+        <DisplayName>Tower Shield</DisplayName>
+        <Description>Tower shields provide unrivaled protection and body coverage. They are quite cumbersome, however, requiring a sure hand and strong back to wield.</Description>
+        <Type>Defense</Type>
+        <WeaponType>Shield</WeaponType>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>20</AdditionalTrainingTurns>
+        <ShopValue>240</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>6</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>15</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>8</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>8</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>8</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Dodge</StrVal>
+            <Value>8</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Tactical_Auto_Defense_Boost</StrVal>
+            <Value>20</Value>
+            <Provides>+20 Defense when Defending</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>MasterSmiths</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Heavy_Armor</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>31</AIPriority>
+            </AIData>
+        <ArtDef>TowerShield_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="TowerShield_ArtDef">
+            <GameItemTypeModelPack InternalName="TowerShield_Default">
+                <IconFile>Armor_TowerShield.png</IconFile>
+                <TintR>207</TintR>
+                <TintG>53</TintG>
+                <TintB>16</TintB>
+                <GameItemTypeModel>
+                    <ModelFile>gfx/hkb/Armor/A_Tower_Shield_01.hkb</ModelFile>
+                    <Texture_All>gfx/hkb/Armor/K_Weapons_02.png</Texture_All>
+                    <Attachment>Shield_left_Lcf</Attachment>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+	
+    <GameItemType InternalName="FEC_ITEM_Pike">
+        <DisplayName>Pike</DisplayName>
+        <Description>A deadly weapon for hunting or war.</Description>
+        <Type>Weapon</Type>
+        <Type>Defense</Type>
+        <WeaponType>Spear</WeaponType>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>20</AdditionalTrainingTurns>
+        <ShopValue>60</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>3</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Pierce</StrVal>
+            <Value>16</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>10</Value>
+        </GameModifier>
+            <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>AdjustUnitStat</Attribute>
+                <StrVal>Unitstat_ArmorPierce</StrVal>
+                <Value>66</Value>
+                <Provides>Ignores 66% of the victim's Defense</Provides>
+            </GameModifier>
+            <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>CannotBeCounterattacked</Attribute>
+                <Value>-1</Value>
+                <Provides>Immune to Counterattack</Provides>
+            </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>Defensive</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Weapons_Of_War</Attribute>
+        </Prereq>
+        <AIData AIPersonality="AI_General">
+            <AIPrefType>AIPrefType_PIERCING</AIPrefType>
+            <AIPriority>260</AIPriority>
+        </AIData>
+        <ArtDef>Pike_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Pike_ArtDef">
+            <GameItemTypeModelPack InternalName="Pike_Default">
+                <IconFile>M_Pike_Icon_01.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <AttackSFX>Hit_MetalSpear1</AttackSFX>
+                <AttackSFX>Hit_MetalSpear2</AttackSFX>
+                <AttackSFX>Hit_MetalSpear3</AttackSFX>
+                <EquipSFX>Equip_WoodenItem_01</EquipSFX>
+                <EquipSFX>Equip_WoodenItem_02</EquipSFX>
+                <EquipSFX>Equip_WoodenItem_03</EquipSFX>
+                <OnHitParticleName>Staff_Attack</OnHitParticleName>
+                <GameItemTypeModel>
+                    <ModelFile>gfx/hkb/weapons/W_Pike_01.hkb</ModelFile>
+                    <Texture_All>gfx/hkb/Weapons/FE_Weapons_01.png</Texture_All>
+                    <Attachment>hand_right_Lcf</Attachment>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+	
+    <GameItemType InternalName="FEC_ITEM_Greatsword">
+        <DisplayName>Greatsword</DisplayName>
+        <Description>A greatsword of surpassing quality, known to cleave through multiple opponents in a single swing, without slowing its bearer to a crawl.</Description>
+        <Type>Weapon</Type>
+        <Type>Defense</Type>
+        <WeaponType>TwoHanded</WeaponType>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>25</AdditionalTrainingTurns>
+        <ShopValue>75</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>4</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Cutting</StrVal>
+            <Value>21</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>20</Value>
+        </GameModifier>
+            <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>AdjustUnitStat</Attribute>
+                <StrVal>UnitStat_MaxCounterAttack</StrVal>
+                <Value>1</Value>
+                <Provides>+1 Counterattack per round</Provides>
+            </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>GreatAxes</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Weapons_Of_War</Attribute>
+        </Prereq>
+        <AIData AIPersonality="AI_General">
+            <AIPrefType>AIPrefType_CUTTING</AIPrefType>
+            <AIPriority>380</AIPriority>
+        </AIData>
+        <ArtDef>Greatsword_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Greatsword_ArtDef">
+            <GameItemTypeModelPack InternalName="Greatsword_Default">
+                <IconFile>W_Greatsword_Icon_01.png</IconFile>
+                <TintR>15</TintR>
+                <TintG>53</TintG>
+                <TintB>230</TintB>
+                <AttackSFX>Hit_BasicSword1</AttackSFX>
+                <AttackSFX>Hit_BasicSword2</AttackSFX>
+                <AttackSFX>Hit_BasicSword3</AttackSFX>
+                <EquipSFX>Equip_Sword_01</EquipSFX>
+                <EquipSFX>Equip_Sword_02</EquipSFX>
+                <EquipSFX>Equip_Sword_03</EquipSFX>
+                <GameItemTypeModel>
+                    <ModelFile>gfx/hkb/Weapons/W_Greatsword_01.hkb</ModelFile>
+                    <Texture_All>gfx/hkb/Weapons/FE_Weapons_01.png</Texture_All>
+                    <Attachment>hand_right_Lcf</Attachment>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+	
+    <GameItemType InternalName="FEC_ITEM_Maul">
+        <DisplayName>Maul</DisplayName>
+        <Description>"If their armor protects from our hammers, build bigger hammers." General Carrodus</Description>
+        <Type>Weapon</Type>
+        <Type>Defense</Type>
+        <WeaponType>BluntTwo</WeaponType>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>30</AdditionalTrainingTurns>
+        <ShopValue>75</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Blunt</StrVal>
+            <Value>28</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CombatSpeed</StrVal>
+            <Value>-6</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>25</Value>
+        </GameModifier>
+            <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>AdjustUnitStat</Attribute>
+                <StrVal>UnitStat_BashChance</StrVal>
+                <Value>100</Value>
+                <Provides>Bash- Has a chance equal to the damage done of knocking the victim prone</Provides>
+            </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>GreatHammers</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>FEC_TECH_Weapons_Of_War</Attribute>
+        </Prereq>
+        <AIData AIPersonality="AI_General">
+            <AIPrefType>AIPrefType_BLUNT</AIPrefType>
+            <AIPriority>300</AIPriority>
+        </AIData>
+        <ArtDef>Maul_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Maul_ArtDef">
+            <GameItemTypeModelPack InternalName="Maul_Default">
+                <IconFile>W_Maul_Icon_01.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <AttackSFX>Hit_HeavyClub1</AttackSFX>
+                <AttackSFX>Hit_HeavyClub2</AttackSFX>
+                <EquipSFX>Equip_WoodenItem_01</EquipSFX>
+                <EquipSFX>Equip_WoodenItem_02</EquipSFX>
+                <EquipSFX>Equip_WoodenItem_03</EquipSFX>
+                <GameItemTypeModel>
+                    <ModelFile>gfx/hkb/Weapons/W_Maul_01.hkb</ModelFile>
+                    <Texture_All>gfx/hkb/Weapons/FE_Weapons_01.png</Texture_All>
+                    <Attachment>hand_right_Lcf</Attachment>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+	
+</CampaignData>

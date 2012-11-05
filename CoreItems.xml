@@ -1,0 +1,4182 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Created with the Elemental Editor -->
+<!-- CoreItems.xml -->
+<!-- -->
+<GameItemTypes>
+    <DataChecksum NoParse="1">
+        <Ignore>DispName</Ignore>
+        <Translate>DisplayName,Description</Translate>
+    </DataChecksum>
+    <GameItemType InternalName="AmuletOfFlames">
+        <DisplayName>Amulet of Flames</DisplayName>
+        <Description>When it is worn even the wearer's caress burns those he or she touches.  Although some see this as a weapon, the Quendar are known to use it for pleasure.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>8</AdditionalTrainingTurns>
+        <ShopValue>180</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>RefinedCrystal</Attribute>
+            <Value>4</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Fire</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Glyph_Stones</Attribute>
+        </Prereq>
+        <ArtDef>AmuletOfFlames_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="AmuletOfFlames_ArtDef">
+            <GameItemTypeModelPack InternalName="AmuletOfFlames_Default">
+                <IconFile>AmuletofFlame_Item.png</IconFile>
+                <TintR>240</TintR>
+                <TintG>10</TintG>
+                <TintB>10</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="AmuletOfFrost">
+        <DisplayName>Amulet of Frost</DisplayName>
+        <Description>Though it pains the wearer when it is first put it on, in time it hurts more to remove it.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>8</AdditionalTrainingTurns>
+        <ShopValue>180</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>RefinedCrystal</Attribute>
+            <Value>4</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Cold</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Glyph_Stones</Attribute>
+        </Prereq>
+        <ArtDef>AmuletOfFrost_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="AmuletOfFrost_ArtDef">
+            <GameItemTypeModelPack InternalName="AmuletOfFrost_Default">
+                <IconFile>AmuletofFrost_Item.png</IconFile>
+                <TintR>240</TintR>
+                <TintG>10</TintG>
+                <TintB>210</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="AmuletOfHaste">
+        <DisplayName>Amulet of Haste</DisplayName>
+        <Description>"What use are training yards or captains when the spirit of Elemental will reach out and command the best from any soldier?" - Queen Procipinee</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>8</AdditionalTrainingTurns>
+        <ShopValue>90</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>RefinedCrystal</Attribute>
+            <Value>4</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CombatSpeed</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Glyph_Stones</Attribute>
+        </Prereq>
+        <ArtDef>AmuletOfHaste_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="AmuletOfHaste_ArtDef">
+            <GameItemTypeModelPack InternalName="AmuletOfHaste_Default">
+                <IconFile>AmuletoftheEagle_Item.png</IconFile>
+                <TintR>240</TintR>
+                <TintG>10</TintG>
+                <TintB>10</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="AmuletOfLife">
+        <DisplayName>Amulet of Life</DisplayName>
+        <Description>This magical amulet will improve the wearer's health.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>115</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_HitPoints</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>AmuletOfLife_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="AmuletOfLife_ArtDef">
+            <GameItemTypeModelPack InternalName="AmuletOfLife_Default">
+                <IconFile>AmuletofLife_Item.png</IconFile>
+                <TintR>140</TintR>
+                <TintG>210</TintG>
+                <TintB>110</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="AmuletOfStrength">
+        <DisplayName>Amulet of Strength</DisplayName>
+        <Description>"What use are training yards or captains when the spirit of Elemental will reach out and command the best from any soldier." - Queen Procipinee</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>8</AdditionalTrainingTurns>
+        <ShopValue>120</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_WeightCapacity</StrVal>
+            <Value>25</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsUsable>0</IsUsable>
+        <ArtDef>AmuletOfStrength_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="AmuletOfStrength_ArtDef">
+            <GameItemTypeModelPack InternalName="AmuletOfStrength_Default">
+                <IconFile>AmuletofWarding_Item.png</IconFile>
+                <TintR>32</TintR>
+                <TintG>255</TintG>
+                <TintB>10</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="AmuletOfTheEagle">
+        <DisplayName>Amulet of the Eagle</DisplayName>
+        <Description>This necklace increases the wearer's sight range.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Sight</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>AmuletOfTheEagle_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="AmuletOfTheEagle_ArtDef">
+            <GameItemTypeModelPack InternalName="AmuletOfTheEagle_Default">
+                <IconFile>AmuletoftheEagle_Item.png</IconFile>
+                <TintR>240</TintR>
+                <TintG>10</TintG>
+                <TintB>10</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="AmuletofWarding">
+        <DisplayName>Amulet of Warding</DisplayName>
+        <Description>This magical amulet will increase the wearer's defense.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>4</AdditionalTrainingTurns>
+        <ShopValue>180</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>RefinedCrystal</Attribute>
+            <Value>4</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_MagicResist</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Glyph_Stones</Attribute>
+        </Prereq>
+        <ArtDef>AmuletofWarding_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="AmuletofWarding_ArtDef">
+            <GameItemTypeModelPack InternalName="AmuletofWarding_Default">
+                <IconFile>AmuletofWarding_Item.png</IconFile>
+                <TintR>240</TintR>
+                <TintG>10</TintG>
+                <TintB>210</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="ArcticWolfCloak">
+        <DisplayName>Arctic Wolf Cloak</DisplayName>
+        <Description>Altar hunters plan excursions into the northern wastes to hunt arctic wolves.  These cloaks are made entirely from the corpse.</Description>
+        <Type>Cloak</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ResistCold</StrVal>
+            <Value>25</Value>
+            <Provides>+25% Cold resistance</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>ArcticWolfCloak_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="ArcticWolfCloak_ArtDef">
+            <GameItemTypeModelPack InternalName="ArcticWolfCloak_Default">
+                <IconFile>ArcticWolfCloak_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+                <GameItemTypeModel>
+                    <ModelFile>Gfx\HKB\Clothes\K_Male_Cloak_Mesh_01.hkb</ModelFile>
+                    <Texture_All>Gfx\HKB\Clothes\K_Male_Cloak_ArcticWolf_Texture_01.png</Texture_All>
+                    <AttachmentType>Skinned</AttachmentType>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BandOfAgility">
+        <DisplayName>Band of Agility</DisplayName>
+        <Description>This ring increases the wearer's Dodge.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>75</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Dodge</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>BandOfAgility_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BandOfAgility_ArtDef">
+            <GameItemTypeModelPack InternalName="BandOfAgility_Default">
+                <IconFile>BandofAgility_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BandOfInsight">
+        <DisplayName>Band of Insight</DisplayName>
+        <Description>These rings were often gifted to young Amarian nobles on their first excursions.  Those that returned often became heroes amongst their people,  those that didn't often found their rings decorating Yithril necklaces.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>75</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ExpBonus</StrVal>
+            <Value>10</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>BandOfInsight_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BandOfInsight_ArtDef">
+            <GameItemTypeModelPack InternalName="BandOfInsight_Default">
+                <IconFile>BandofInsight_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BandOfMight">
+        <DisplayName>Band of Might</DisplayName>
+        <Description>This ring increases the wearer's Attack.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>75</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Boost</StrVal>
+            <Value>1</Value>
+            <Provides>+1 Attack</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>BandOfMight_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BandOfMight_ArtDef">
+            <GameItemTypeModelPack InternalName="BandOfMight_Default">
+                <IconFile>BandofMight_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BandOfTheBerserker">
+        <DisplayName>Band of the Berserker</DisplayName>
+        <Description>This golden ring blazes with a warm crimson light. Its wearer will see their Attack increased, but they will take 1 damage every action when in battle.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>60</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_TacticalHealthRegen</StrVal>
+            <Value>-1</Value>
+            <Provides>1 Damage per Action when in Tactical Combat</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Boost</StrVal>
+            <Value>3</Value>
+            <Provides>+3 Attack</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>BandOfTheBerserker_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BandOfTheBerserker_ArtDef">
+            <GameItemTypeModelPack InternalName="BandOfTheBerserker_Default">
+                <IconFile>BandofBerserker_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BandOfTheStalwart">
+        <DisplayName>Band of the Stalwart</DisplayName>
+        <Description>This golden ring blazes with a warm crimson light. It increases the defense of those that wear it, and is said to protect guards from falling asleep on watch.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>85</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_MagicResist</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>BandOfTheStalwart_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BandOfTheStalwart_ArtDef">
+            <GameItemTypeModelPack InternalName="BandOfTheStalwart_Default">
+                <IconFile>BandoftheStalwart_Item.png</IconFile>
+                <TintR>10</TintR>
+                <TintG>10</TintG>
+                <TintB>60</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BeltOfPrecognition">
+        <DisplayName>Belt of Precognition</DisplayName>
+        <Description>Magnar ordered his archers to fire and the arrows rained down as thick as grass in a field.  Through each volley Queen Procipinee continued forward, blue light radiating from her hands and controlled power in her eyes.  Though an army stood against her, no arrow struck her.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>2</AdditionalTrainingTurns>
+        <ShopValue>115</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>RefinedCrystal</Attribute>
+            <Value>3</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_DodgeAgainstRanged</StrVal>
+            <Value>20</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Charms</Attribute>
+        </Prereq>
+        <ArtDef>BeltOfPrecognition_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BeltOfPrecognition_ArtDef">
+            <GameItemTypeModelPack InternalName="BeltOfPrecognition_Default">
+                <IconFile>BeltOfPrecognition_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BeltOfReinforcing">
+        <DisplayName>Braided Belt</DisplayName>
+        <Description>This belt, also known at the girdle of the lord, is prized for its ability to protect the wearer by crisscrossing the torso with fine steel. Expensive to produce, its presence implies a wealthy opponent.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>2</AdditionalTrainingTurns>
+        <ShopValue>115</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>12</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>4</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>4</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>6</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>4</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Blacksmithing</Attribute>
+        </Prereq>
+        <ArtDef>BeltOfReinforcing_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BeltOfReinforcing_ArtDef">
+            <GameItemTypeModelPack InternalName="BeltOfReinforcing_Default">
+                <IconFile>BraidedBelt_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BeltOfSpeed">
+        <DisplayName>Belt of Speed</DisplayName>
+        <Description>This belt is also known as the Belt of the Wind, the Mancer Belt or the Dancer's Girdle.  No matter the name its impact on the wearer is unquestionable, their reactions and effectiveness in combat is increased.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>2</AdditionalTrainingTurns>
+        <ShopValue>115</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>RefinedCrystal</Attribute>
+            <Value>2</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CombatSpeed</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <ArtDef>BeltOfSpeed_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BeltOfSpeed_ArtDef">
+            <GameItemTypeModelPack InternalName="BeltOfSpeed_Default">
+                <IconFile>BeltofSpeed_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BookOfAttack">
+        <DisplayName>The Art of the Fist</DisplayName>
+        <Description>This first book of Ezmir's Decalon, contains lessons on armed and unarmed combat, many taken from a no longer extant tome called the Creed of the Valorous, written by Aerus Aelmann.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Boost</StrVal>
+            <Value>1</Value>
+            <Provides>+1 Attack</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <ArtDef>BookOfAttack_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BookOfAttack_ArtDef">
+            <GameItemTypeModelPack InternalName="BookOfAttack_Default">
+                <IconFile>BookOfAttack_Item.png</IconFile>
+                <TintR>235</TintR>
+                <TintG>110</TintG>
+                <TintB>28</TintB>
+                <SFX>TurnPageMagical_01</SFX>
+                <SFX>TurnPageMagical_02</SFX>
+                <SFX>TurnPageMagical_03</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BookOfDefense">
+        <DisplayName>Growing a Thicker Skin</DisplayName>
+        <Description>Another book of the Decalon - the ten volumes of Ezmir's journals which he used to teach Procipinee the arts of the sovereign during the Long March.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>1</Value>
+            <Provides>+1 Blunt Defense</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>1</Value>
+            <Provides>+1 Cutting Defense</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>1</Value>
+            <Provides>+1 Pierce Defense</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <ArtDef>BookOfDefense_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BookOfDefense_ArtDef">
+            <GameItemTypeModelPack InternalName="BookOfDefense_Default">
+                <IconFile>BookOfDefense_Item.png</IconFile>
+                <TintR>255</TintR>
+                <TintG>255</TintG>
+                <TintB>255</TintB>
+                <SFX>TurnPageMagical_01</SFX>
+                <SFX>TurnPageMagical_02</SFX>
+                <SFX>TurnPageMagical_03</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BookOfDexterity">
+        <DisplayName>Defense for Fools</DisplayName>
+        <Description>This is sometimes considered the 11th book of the Decalon.  It is a single, lengthy narrative regarding the exploits of a thief named T'Sha Villere. Villere spent most of his time searching the catacombs beneath the Verhaellem for treasure.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Dodge</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <ArtDef>BookOfDexterity_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BookOfDexterity_ArtDef">
+            <GameItemTypeModelPack InternalName="BookOfDexterity_Default">
+                <IconFile>BookOfDexterity_Item.png</IconFile>
+                <TintR>255</TintR>
+                <TintG>255</TintG>
+                <TintB>255</TintB>
+                <SFX>TurnPageMagical_01</SFX>
+                <SFX>TurnPageMagical_02</SFX>
+                <SFX>TurnPageMagical_03</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BookOfExperience1">
+        <DisplayName>The Legend of Tandis</DisplayName>
+        <Description>Tales of the Titans, the great Tandis in particular, as recalled and subsequently written down by Ezmir.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>30</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>GiveExperience</Attribute>
+            <Value>10</Value>
+            <Provides>+10 Experience</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <ArtDef>BookOfExperience1_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BookOfExperience1_ArtDef">
+            <GameItemTypeModelPack InternalName="BookOfExperience1_Default">
+                <IconFile>BookOfExperience_Item.png</IconFile>
+                <TintR>115</TintR>
+                <TintG>32</TintG>
+                <TintB>16</TintB>
+                <SFX>TurnPageMagical_01</SFX>
+                <SFX>TurnPageMagical_02</SFX>
+                <SFX>TurnPageMagical_03</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BookOfExperience2">
+        <DisplayName>Against Az-Adoras</DisplayName>
+        <Description>A biography of the great men and women of the past, and some of their more inspirational deeds - tales of Ereog and the army of men he put together to confront Az-Adoras, the Dark Prince of Al-Ashteroth. It also talks about Ezmir's struggles to keep together the great army of the west, in the time just prior to the Cataclysm.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>45</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>GiveExperience</Attribute>
+            <Value>15</Value>
+            <Provides>+15 Experience</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <ArtDef>BookOfExperience2_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BookOfExperience2_ArtDef">
+            <GameItemTypeModelPack InternalName="BookOfExperience2_Default">
+                <IconFile>BookOfCharisma_Item.png</IconFile>
+                <TintR>115</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <SFX>TurnPageMagical_01</SFX>
+                <SFX>TurnPageMagical_02</SFX>
+                <SFX>TurnPageMagical_03</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BookOfExperience3">
+        <DisplayName>From Tents to Thrones</DisplayName>
+        <Description>From Ezmir's Decalon - this volume contains numerous extracts regarding the formation of the Empire of Hallas, taken from the diaries of Josryn the Elder; given the length of these extracts, many believe that Ezmir copied them directly from a no-longer extant collection of those documents.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>60</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>GiveExperience</Attribute>
+            <Value>20</Value>
+            <Provides>+20 Experience</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <ArtDef>BookOfExperience3_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BookOfExperience3_ArtDef">
+            <GameItemTypeModelPack InternalName="BookOfExperience3_Default">
+                <IconFile>BookOfGreaterCharisma_Item.png</IconFile>
+                <TintR>115</TintR>
+                <TintG>132</TintG>
+                <TintB>16</TintB>
+                <SFX>TurnPageMagical_01</SFX>
+                <SFX>TurnPageMagical_02</SFX>
+                <SFX>TurnPageMagical_03</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BookOfExperience4">
+        <DisplayName>The Adventurers of Breon</DisplayName>
+        <Description>The contents of this book are thought by many to be apocryphal, containing as they do the supposed 'adventures of Breon in the far continent, as told by her daughter Nimmeria.' It is believed that Ezmir used these adventures as teaching parables for his student, the young Procipinee. </Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>GiveExperience</Attribute>
+            <Value>25</Value>
+            <Provides>+25 Experience</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <ArtDef>BookOfExperience4_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BookOfExperience4_ArtDef">
+            <GameItemTypeModelPack InternalName="BookOfExperience4_Default">
+                <IconFile>BookOfGreaterExperience_Item.png</IconFile>
+                <TintR>115</TintR>
+                <TintG>32</TintG>
+                <TintB>16</TintB>
+                <SFX>TurnPageMagical_01</SFX>
+                <SFX>TurnPageMagical_02</SFX>
+                <SFX>TurnPageMagical_03</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BookOfGreaterAttack">
+        <DisplayName>Tandis vs. Talax</DisplayName>
+        <Description>A slim volume, one of the last books of Ezmir's Decalon, drawn from the Creed of the Valorous and elsewhere, containing solely lethal combat techniques.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>150</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ChanceToCrit</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <ArtDef>BookOfGreaterAttack_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BookOfGreaterAttack_ArtDef">
+            <GameItemTypeModelPack InternalName="BookOfGreaterAttack_Default">
+                <IconFile>BookOfGreaterAttack_Item.png</IconFile>
+                <TintR>115</TintR>
+                <TintG>132</TintG>
+                <TintB>16</TintB>
+                <SFX>TurnPageMagical_01</SFX>
+                <SFX>TurnPageMagical_02</SFX>
+                <SFX>TurnPageMagical_03</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BookOfGreaterIntelligence">
+        <DisplayName>Draginol's Journal on Space-Time</DisplayName>
+        <Description>Strangest book of the Decalon, written not by Ezmir, but by a Quendar scholar named Ourannes who became his servant/assistant on the Long March. This book is written as a series of dialogues between Ourannes and the Destiny, and implies that there may be other worlds beyond this one.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>150</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>GiveExperience</Attribute>
+            <Value>30</Value>
+            <Provides>+30 Experience</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <ArtDef>BookOfGreaterIntelligence_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BookOfGreaterIntelligence_ArtDef">
+            <GameItemTypeModelPack InternalName="BookOfGreaterIntelligence_Default">
+                <IconFile>BookOfIntelligence_Item.png</IconFile>
+                <TintR>115</TintR>
+                <TintG>132</TintG>
+                <TintB>16</TintB>
+                <SFX>TurnPageMagical_01</SFX>
+                <SFX>TurnPageMagical_02</SFX>
+                <SFX>TurnPageMagical_03</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BookOfSpellPower">
+        <DisplayName>Codex of Hosten</DisplayName>
+        <Description>Less a book of spells than a discussion of the channeler's technique, supposedly written by Hosten himself, but widely believed to postdate his death by several centuries.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_MagicPower</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <ArtDef>BookOfSpellPower_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BookOfSpellPower_ArtDef">
+            <GameItemTypeModelPack InternalName="BookOfSpellPower_Default">
+                <IconFile>BookOfSpellPower_Item.png</IconFile>
+                <TintR>123</TintR>
+                <TintG>16</TintG>
+                <TintB>255</TintB>
+                <SFX>TurnPageMagical_01</SFX>
+                <SFX>TurnPageMagical_02</SFX>
+                <SFX>TurnPageMagical_03</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BootsOfStealth">
+        <DisplayName>Boots of Stealth</DisplayName>
+        <Description>Beautifully embroidered, utterly silent.</Description>
+        <Type>Boots</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>265</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Dodge</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_DodgeAgainstRanged</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UnlockUnitAbility</Attribute>
+            <StrVal>MasterScout</StrVal>
+            <Provides>Monsters less likely to attack because they can't hear you.</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>5</Attribute>
+        </Prereq>
+        <ArtDef>Art_LeatherBoots</ArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BootsOfTheSpider">
+        <DisplayName>Boots of the Spider</DisplayName>
+        <Description>High black boots with silver spider clasps.  There are no hooks for the clasps, instead the spiders animate and tie the wearer into the boots.</Description>
+        <Type>Boots</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>4</AdditionalTrainingTurns>
+        <ShopValue>190</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>RefinedCrystal</Attribute>
+            <Value>10</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ChanceToAvoidProne</StrVal>
+            <Value>100</Value>
+            <Provides>Immune to being knocked prone</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Arcane_Apparel</Attribute>
+        </Prereq>
+        <ArtDef>Art_BootsOfTheSpider</ArtDef>
+    </GameItemType>
+    <GameItemType InternalName="BottledFire">
+        <DisplayName>Bottled Fire</DisplayName>
+        <Description>A frantic ember dances within the confines of the bottle, waiting to be freed.  Remove the cork to do 16 fire damage to the target.</Description>
+        <ShopValue>135</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>BottledFire</StrVal>
+            <Provides>Remove the cork to do 16 fire damage to the target</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>BottledFire_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="BottledFire_ArtDef">
+            <GameItemTypeModelPack InternalName="BottledFire_Default">
+                <IconFile>Item_BottledFire_Icon.png</IconFile>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Bread">
+        <DisplayName>Bread</DisplayName>
+        <Description>It floats in water.  Much like apples, very small rocks, cider, gravy, cherries, mud and churches.  Eat it to heal 15 damage.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>20</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>CurHealth</Attribute>
+            <Value>15</Value>
+            <Provides>Heals 15 Hit Points</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Bread_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Bread_ArtDef">
+            <GameItemTypeModelPack InternalName="Bread_Default">
+                <IconFile>Bread_Item.png</IconFile>
+                <MapParticle>T_Heal_Particle</MapParticle>
+                <TintR>79</TintR>
+                <TintG>48</TintG>
+                <TintB>20</TintB>
+                <SFX>Eating</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="CloakOfShadows">
+        <DisplayName>Cloak of Shadows</DisplayName>
+        <Description>The wearer's body seems to disappear into this midnight black cloak.</Description>
+        <Type>Cloak</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>4</AdditionalTrainingTurns>
+        <ShopValue>225</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>RefinedCrystal</Attribute>
+            <Value>10</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Dodge</StrVal>
+            <Value>10</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Arcane_Apparel</Attribute>
+        </Prereq>
+        <ArtDef>CloakOfShadows_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="CloakOfShadows_ArtDef">
+            <GameItemTypeModelPack InternalName="CloakOfShadows_Default">
+                <IconFile>CloakOfShadows_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+                <GameItemTypeModel>
+                    <ModelFile>Gfx\HKB\Clothes\K_Male_Cloak_Mesh_01.hkb</ModelFile>
+                    <Texture_All>Gfx\HKB\Clothes\K_Male_CloakOfShadows_Texture_01.png</Texture_All>
+                    <AttachmentType>Skinned</AttachmentType>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="CloakOfStars">
+        <DisplayName>Cloak of Stars</DisplayName>
+        <Description>This dark blue cloak has silver stars twinkling within its depths.</Description>
+        <Type>Cloak</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>825</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_MagicResist</StrVal>
+            <Value>24</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_SpellDamage</StrVal>
+            <Value>0.5</Value>
+            <Provides>+50% Spell Damage</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Unique</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>CloakOfStars_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="CloakOfStars_ArtDef">
+            <GameItemTypeModelPack InternalName="CloakOfStars_Default">
+                <IconFile>CloakOfStars_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+                <GameItemTypeModel>
+                    <ModelFile>Gfx\HKB\Clothes\K_Male_Cloak_Mesh_01.hkb</ModelFile>
+                    <Texture_All>Gfx\HKB\Clothes\K_Male_CloakOfStars_Texture_01.png</Texture_All>
+                    <AttachmentType>Skinned</AttachmentType>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="CloakOfTheNight">
+        <DisplayName>Cloak of the Night</DisplayName>
+        <Description>Lights dim when this cloak comes near.  Candles flicker and go out, torches flutter and fade.</Description>
+        <Type>Cloak</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>315</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Dodge</StrVal>
+            <Value>15</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_MagicResist</StrVal>
+            <Value>6</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>UltraRare</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>5</Attribute>
+        </Prereq>
+        <ArtDef>CloakOfTheNight_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="CloakOfTheNight_ArtDef">
+            <GameItemTypeModelPack InternalName="CloakOfTheNight_Default">
+                <IconFile>CloakOfTheNight_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+                <GameItemTypeModel>
+                    <ModelFile>Gfx\HKB\Clothes\K_Male_Cloak_Mesh_01.hkb</ModelFile>
+                    <Texture_All>Gfx\HKB\Clothes\K_Male_CloakOfNight_Texture_01.png</Texture_All>
+                    <AttachmentType>Skinned</AttachmentType>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Compass">
+        <DisplayName>Compass</DisplayName>
+        <Description>It always points north, leading many to wonder what lies in that direction.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>MovementCostOverride</Attribute>
+            <BoolVal1>1</BoolVal1>
+            <StrVal>Forest</StrVal>
+            <Value>8</Value>
+            <Provides>No movement penalty in Forests</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>MovementCostOverride</Attribute>
+            <BoolVal1>1</BoolVal1>
+            <StrVal>SwampTerrain</StrVal>
+            <Value>8</Value>
+            <Provides>No movement penalty in Swamps</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Compass_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Compass_ArtDef">
+            <GameItemTypeModelPack InternalName="Compass_Default">
+                <IconFile>Compass1.png</IconFile>
+                <TintR>240</TintR>
+                <TintG>10</TintG>
+                <TintB>10</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="DancingBoots">
+        <DisplayName>Dancing Boots</DisplayName>
+        <Description>Beautifully embroidered with gold thread on red satin.</Description>
+        <Type>Boots</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>265</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ChanceToCrit</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Dodge</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Moves</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>5</Attribute>
+        </Prereq>
+        <ArtDef>Art_DancingBoots</ArtDef>
+    </GameItemType>
+    <GameItemType InternalName="DarkCandle">
+        <DisplayName>Dark Candle</DisplayName>
+        <Description>Gathered from the shrines of Resoln, the candle flickers with a pale white fire.  It takes only a breath to summon the Burning Wraith that lies within.</Description>
+        <ShopValue>120</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>SummonBurningWraith_Tactical</StrVal>
+            <Provides>Allows the unit to summon a Burning Wraith in tactical combat</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>DarkCandle_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="DarkCandle_ArtDef">
+            <GameItemTypeModelPack InternalName="DarkCandle_Default">
+                <IconFile>SkullCandle.png</IconFile>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="DarklingCloak">
+        <DisplayName>Darkling Cloak</DisplayName>
+        <Description>These are created in Deorcnysse, by arts that are unknown by men, and held secret by darkling shamans.</Description>
+        <Type>Cloak</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>135</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Dodge</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UnlockCombatAbility</Attribute>
+            <StrVal>Blindness_Ability</StrVal>
+            <Provides>Allows the unit to cast Blindness</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>DarklingCloak_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="DarklingCloak_ArtDef">
+            <GameItemTypeModelPack InternalName="DarklingCloak_Default">
+                <IconFile>DarklingCloak_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+                <GameItemTypeModel>
+                    <ModelFile>Gfx\HKB\Clothes\F_Male_Cloak_Sion_Mesh_01.hkb</ModelFile>
+                    <Texture_All>Gfx\HKB\Clothes\K_Male_DarklingCloak_Texture_01.png</Texture_All>
+                    <AttachmentType>Skinned</AttachmentType>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="DestinySliver">
+        <DisplayName>Destiny's Sliver</DisplayName>
+        <Description>This tiny fragment is said to be a piece of a doomed Mithrilar.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>750</ShopValue>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsQuestItem>1</IsQuestItem>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>0</UsableInBattle>
+        <ArtDef>DestinySliver_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="DestinySliver_ArtDef">
+            <GameItemTypeModelPack InternalName="DestinySliver_Default">
+                <IconFile>DestinySliver_Item.png</IconFile>
+                <TintR>20</TintR>
+                <TintG>20</TintG>
+                <TintB>20</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="DragonHideCloak">
+        <DisplayName>Dragon Hide Cloak</DisplayName>
+        <Description>What some may mistake for a weathered travelers cloak is an object of great value.</Description>
+        <Type>Cloak</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>5</AdditionalTrainingTurns>
+        <ShopValue>240</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>RefinedCrystal</Attribute>
+            <Value>3</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ResistFire</StrVal>
+            <Value>50</Value>
+            <Provides>+50% Fire resistance</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Arcane_Apparel</Attribute>
+        </Prereq>
+        <ArtDef>DragonHideCloak_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="DragonHideCloak_ArtDef">
+            <GameItemTypeModelPack InternalName="DragonHideCloak_Default">
+                <IconFile>DragonHideCloak_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+                <GameItemTypeModel>
+                    <ModelFile>Gfx\HKB\Clothes\K_Male_Cloak_Mesh_01.hkb</ModelFile>
+                    <Texture_All>Gfx\HKB\Clothes\K_Male_DragonHide_Texture_01.png</Texture_All>
+                    <AttachmentType>Skinned</AttachmentType>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Egg_Skath">
+        <DisplayName>Skath Egg</DisplayName>
+        <Description>Breaking open this enchanted egg will cause a baby Skath to fight for you.</Description>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>SummonUnit</Attribute>
+            <Value>2</Value>
+            <Provides>Summons a Mire Skath</Provides>
+            <UnitClass>MireSkath</UnitClass>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <ArtDef>Egg_Skath_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Egg_Skath_ArtDef">
+            <GameItemTypeModelPack InternalName="Egg_Skath_Default">
+                <IconFile>DragonEgg3.png</IconFile>
+                <TintR>128</TintR>
+                <TintG>55</TintG>
+                <TintB>182</TintB>
+                <SFX>Equip_MagicRing_01</SFX>
+                <SFX>Equip_MagicRing_02</SFX>
+                <SFX>Equip_MagicRing_03</SFX>
+                <SFX>Equip_MagicRing_04</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="EmeraldSkullcap">
+        <DisplayName>Emerald Skullcap</DisplayName>
+        <Description>The skullcap instills both brilliance and paranoia in whoever wears it.</Description>
+        <Type>Head</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>125</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_MagicPower</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_MagicResist</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Art_EmeraldSkullcap</ArtDef>
+    </GameItemType>
+    <GameItemType InternalName="EnchantedBackpack">
+        <DisplayName>Enchanted Backpack</DisplayName>
+        <Description>Everything the bearer carries becomes lighter when this backpack is worn.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_WeightCapacity</StrVal>
+            <Value>20</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>EnchantedBackpack_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="EnchantedBackpack_ArtDef">
+            <GameItemTypeModelPack InternalName="EnchantedBackpack_Default">
+                <IconFile>GenericBackpack.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="EnchantedCap">
+        <DisplayName>Lucky Skullcap</DisplayName>
+        <Description>This skullcap brings luck to whoever wears it.</Description>
+        <Type>Head</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>150</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ChanceToCrit</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Dodge</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>EnchantedCap_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="EnchantedCap_ArtDef">
+            <GameItemTypeModelPack InternalName="EnchantedCap_Default">
+                <IconFile>LuckySkullcap_Item.png</IconFile>
+                <TintR>128</TintR>
+                <TintG>32</TintG>
+                <TintB>64</TintB>
+                <GameItemTypeModel>
+                    <ModelFile>F_Emerald_Skullcap_Mesh_01.hkb</ModelFile>
+                    <Texture_All>Gfx\HKB\Armor\lucky_skullcap_texture_01.dds</Texture_All>
+                    <Attachment>head_lcf</Attachment>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="StuddedCollar">
+        <DisplayName>Studded Collar</DisplayName>
+        <Description>The collar works great; it's getting the monster to wear it that is hard.  Use it to take control of an enemy beast unit that is within a 1 tile range in tactical combat.</Description>
+        <ShopValue>180</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>Tame_Ability</StrVal>
+            <Provides>Take control of an enemy beast unit that is within a 1 tile range in tactical combat</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>StuddedCollar_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="StuddedCollar_ArtDef">
+            <GameItemTypeModelPack InternalName="StuddedCollar_Default">
+                <IconFile>Item_StuddedCollar_Icon.png</IconFile>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="EreogsToken">
+        <DisplayName>Ereog's Token</DisplayName>
+        <Description>An ancient artifact that predates even the Forge of the Overlord.  It was once worn by Ereog, a man of peace and learning and has been prized by merchants, scholars and nobles for generations.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>390</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>6</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>6</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>6</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>MeleeDefenseAppliesSpell</Attribute>
+            <StrVal>Curse</StrVal>
+            <Provides>Enemies that strike a unit carrying this item become cursed</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>UltraRare</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>7</Attribute>
+        </Prereq>
+        <ArtDef>EreogsToken_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="EreogsToken_ArtDef">
+            <GameItemTypeModelPack InternalName="EreogsToken_Default">
+                <IconFile>Item_EreogsToken_Icon.png</IconFile>
+                <TintR>240</TintR>
+                <TintG>10</TintG>
+                <TintB>210</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="GarroteCloak">
+        <DisplayName>Garrote Cloak</DisplayName>
+        <Description>Although traditionally made of the fur of a garrote, it is the treatment in the garrote's blood that provides the magic.</Description>
+        <Type>Cloak</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>285</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ResistCold</StrVal>
+            <Value>75</Value>
+            <Provides>+75% Cold resistance</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>GarroteCloak_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="GarroteCloak_ArtDef">
+            <GameItemTypeModelPack InternalName="GarroteCloak_Default">
+                <IconFile>GarroteCloak_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+                <GameItemTypeModel>
+                    <ModelFile>Gfx\HKB\Clothes\K_Male_Cloak_Mesh_01.hkb</ModelFile>
+                    <Texture_All>Gfx\HKB\Clothes\K_Male_Cloak_Garrote_Texture_01.png</Texture_All>
+                    <AttachmentType>Skinned</AttachmentType>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="GoldenBelt">
+        <DisplayName>Golden Belt</DisplayName>
+        <Description>Though it appears to be gold the belt is enchanted to be much stronger.  It has the same effect on whoever wears it.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>115</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_WeightCapacity</StrVal>
+            <Value>20</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>GoldenBelt_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="GoldenBelt_ArtDef">
+            <GameItemTypeModelPack InternalName="GoldenBelt_Default">
+                <IconFile>GoldenBelt_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="HateStone">
+        <DisplayName>Hate Stone</DisplayName>
+        <Description>This vile item is probably not healthy but it causes the soldier to go into a fury during battle.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>120</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CombatSpeed</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>HateStone_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="HateStone_ArtDef">
+            <GameItemTypeModelPack InternalName="HateStone_Default">
+                <IconFile>HateStone_Item.png</IconFile>
+                <TintR>210</TintR>
+                <TintG>110</TintG>
+                <TintB>110</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="HealingNectar">
+        <DisplayName>Healing Nectar</DisplayName>
+        <Description>A revitalizing concoction of various fruit and nectars said to heal the wounded.  Drink it to heal 40 points of damage.</Description>
+        <ShopValue>50</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>CurHealth</Attribute>
+            <Value>40</Value>
+            <Provides>Heals 40 Hit Points</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>HealingNectar_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="HealingNectar_ArtDef">
+            <GameItemTypeModelPack InternalName="HealingNectar_Default">
+                <IconFile>HealingNectar_Icon.png</IconFile>
+                <MapParticle>T_Heal_Particle</MapParticle>
+                <TintR>253</TintR>
+                <TintG>255</TintG>
+                <TintB>82</TintB>
+                <SFX>Potion1_1</SFX>
+                <SFX>Potion1_2</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="IceWargCloak">
+        <DisplayName>Ice Warg Cloak</DisplayName>
+        <Description>The long silver-white fur of the warg cascades down the cloak like snow on the ocean.</Description>
+        <Type>Cloak</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>4</AdditionalTrainingTurns>
+        <ShopValue>210</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>RefinedCrystal</Attribute>
+            <Value>3</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ResistCold</StrVal>
+            <Value>50</Value>
+            <Provides>+50% Cold resistance</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Arcane_Apparel</Attribute>
+        </Prereq>
+        <ArtDef>IceWargCloak_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="IceWargCloak_ArtDef">
+            <GameItemTypeModelPack InternalName="IceWargCloak_Default">
+                <IconFile>IceWargCloak_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>HenchmanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+                <SupportedUnitModelType>SlaveMale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+                <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+                <GameItemTypeModel>
+                    <ModelFile>Gfx\HKB\Clothes\K_Male_Cloak_Mesh_01.hkb</ModelFile>
+                    <Texture_All>Gfx\HKB\Clothes\K_Male_Cloak_IceWarg_Texture_01.png</Texture_All>
+                    <AttachmentType>Skinned</AttachmentType>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Letter_Mark">
+        <DisplayName>Letter of Mark</DisplayName>
+        <Description>Using this letter will summon a mercenary to your group.</Description>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>SummonUnit</Attribute>
+            <StrVal>Wallace</StrVal>
+            <Value>6</Value>
+            <Provides>Summons a Mercenary</Provides>
+            <UnitClass>Mercenary</UnitClass>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <ArtDef>Letter_Mark_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Letter_Mark_ArtDef">
+            <GameItemTypeModelPack InternalName="Letter_Mark_Default">
+                <IconFile>Parchment1.png</IconFile>
+                <TintR>128</TintR>
+                <TintG>55</TintG>
+                <TintB>182</TintB>
+                <SFX>Equip_MagicRing_01</SFX>
+                <SFX>Equip_MagicRing_02</SFX>
+                <SFX>Equip_MagicRing_03</SFX>
+                <SFX>Equip_MagicRing_04</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="LongstriderBoots">
+        <DisplayName>Longstrider Boots</DisplayName>
+        <Description>These pristine longstrider boots allow the wearer to move quickly overland.</Description>
+        <Type>Boots</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Moves</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Art_LongstriderBoots</ArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Loot_AlchemistsTools">
+        <DisplayName>Alchemists's Tools</DisplayName>
+        <Description>This set of alchemist's tools can be sold for a fair bit of coin.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>750</ShopValue>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Loot_AlchemistsTools_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Loot_AlchemistsTools_ArtDef">
+            <GameItemTypeModelPack InternalName="Loot_AlchemistsTools_Default">
+                <IconFile>AlchemistsTools_Item.png</IconFile>
+                <TintR>36</TintR>
+                <TintG>60</TintG>
+                <TintB>42</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Loot_BearPelt">
+        <DisplayName>Bear Pelt</DisplayName>
+        <Description>This bear pelt can be sold for a fair bit of coin.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>45</ShopValue>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Loot_BearPelt_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Loot_BearPelt_ArtDef">
+            <GameItemTypeModelPack InternalName="Loot_BearPelt_Default">
+                <IconFile>WargPelt_Item.png</IconFile>
+                <TintR>200</TintR>
+                <TintG>200</TintG>
+                <TintB>200</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Loot_DeadRat">
+        <DisplayName>Dead Rat</DisplayName>
+        <Description>You've taken one of the rats you've killed as proof that the job is done.</Description>
+        <CanBeEquipped>0</CanBeEquipped>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>0</ShopValue>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsQuestItem>1</IsQuestItem>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Loot_DeadRat_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Loot_DeadRat_ArtDef">
+            <GameItemTypeModelPack InternalName="Loot_DeadRat_Default">
+                <IconFile>DeadRat_Item.png</IconFile>
+                <TintR>254</TintR>
+                <TintG>255</TintG>
+                <TintB>82</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Loot_DemonHorn">
+        <DisplayName>Demon Horn</DisplayName>
+        <Description>These horns are valued by alchemists, ritualists and cabalists.  They are said to be worth more in Resoln and Umber than in other countries, but the truth is there are places to sell them even in idyllic New Pariden for those that look hard enough.</Description>
+        <CanBeEquipped>0</CanBeEquipped>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>80</ShopValue>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Loot_DemonHorn_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Loot_DemonHorn_ArtDef">
+            <GameItemTypeModelPack InternalName="Loot_DemonHorn_Default">
+                <IconFile>DemonHorn.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Loot_DragonEye">
+        <DisplayName>Dragon Eye</DisplayName>
+        <Description>In the facets of this beautiful gemstone you can glimpse the reflections of the creatures of Elemental.  Some are majestic and beautiful, others are monstrous and terrifying.</Description>
+        <CanBeEquipped>0</CanBeEquipped>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>0</ShopValue>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>UltraRare</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsQuestItem>1</IsQuestItem>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Loot_DragonEye_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Loot_DragonEye_ArtDef">
+            <GameItemTypeModelPack InternalName="Loot_DragonEye_Default">
+                <IconFile>Item_DragonsEye.png</IconFile>
+                <TintR>210</TintR>
+                <TintG>110</TintG>
+                <TintB>110</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Loot_DrakeTooth">
+        <DisplayName>Drake Tooth</DisplayName>
+        <Description>Too large to wear as jewelry, these are often carved into delicate tokens and charms by skilled artisans.</Description>
+        <CanBeEquipped>0</CanBeEquipped>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>60</ShopValue>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Loot_DrakeTooth_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Loot_DrakeTooth_ArtDef">
+            <GameItemTypeModelPack InternalName="Loot_DrakeTooth_Default">
+                <IconFile>DrakeTooth.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Loot_SkathFin">
+        <DisplayName>Skath Fin</DisplayName>
+        <Description>Though some use Skath Fins in alchemy or darker arts, they are most commonly used to make Ganoid Soup.</Description>
+        <CanBeEquipped>0</CanBeEquipped>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>60</ShopValue>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Loot_SkathFin_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Loot_SkathFin_ArtDef">
+            <GameItemTypeModelPack InternalName="Loot_SkathFin_Default">
+                <IconFile>SkathFin.png</IconFile>
+                <TintR>200</TintR>
+                <TintG>200</TintG>
+                <TintB>200</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Loot_SpiderSilk">
+        <DisplayName>Spider Silk</DisplayName>
+        <Description>This silk can be sold to your city's weavers.</Description>
+        <CanBeEquipped>0</CanBeEquipped>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>35</ShopValue>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Loot_SpiderSilk_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Loot_SpiderSilk_ArtDef">
+            <GameItemTypeModelPack InternalName="Loot_SpiderSilk_Default">
+                <IconFile>SpiderSilk.png</IconFile>
+                <TintR>200</TintR>
+                <TintG>200</TintG>
+                <TintB>200</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Loot_WargPelt">
+        <DisplayName>Warg Pelt</DisplayName>
+        <Description>This warg pelt can be sold for a fair bit of coin.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>30</ShopValue>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Loot_WargPelt_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Loot_WargPelt_ArtDef">
+            <GameItemTypeModelPack InternalName="Loot_WargPelt_Default">
+                <IconFile>WargPelt_Item.png</IconFile>
+                <TintR>200</TintR>
+                <TintG>200</TintG>
+                <TintB>200</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Loot_WolfPelt">
+        <DisplayName>Wolf Pelt</DisplayName>
+        <Description>This wolf pelt can be sold for a fair bit of coin.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>20</ShopValue>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Loot_WolfPelt_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Loot_WolfPelt_ArtDef">
+            <GameItemTypeModelPack InternalName="Loot_WolfPelt_Default">
+                <IconFile>WolfPelt_Item.png</IconFile>
+                <TintR>200</TintR>
+                <TintG>200</TintG>
+                <TintB>200</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="M4RK">
+        <DisplayName>M4-RK</DisplayName>
+        <Description>This unknown object simply has the characters "M4-RK" on it.</Description>
+        <CanBeEquipped>0</CanBeEquipped>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>2500</ShopValue>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>UltraRare</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <ArtDef>M4RK_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="M4RK_ArtDef">
+            <GameItemTypeModelPack InternalName="M4RK_Default">
+                <IconFile>m4rk.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="MarakataRing">
+        <DisplayName>Marakata Ring</DisplayName>
+        <Description>This ring allows the wearer to cast powerful earth spells.  It also shatters any false gemstones that are held in the bearers hand and is the bane of counterfeiters.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>250</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UnlockCombatAbility</Attribute>
+            <StrVal>Shockwave_Ability</StrVal>
+            <Provides>Allows the unit to cast Shockwave</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>MarakataRing_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="MarakataRing_ArtDef">
+            <GameItemTypeModelPack InternalName="MarakataRing_Default">
+                <IconFile>RingoftheGlacier_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="MidnightStone">
+        <DisplayName>Midnight Stone</DisplayName>
+        <Description>Midnight stones are highly valued as ancient relics of the Titans.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>75</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_MagicResist</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsQuestItem>1</IsQuestItem>
+        <IsUsable>0</IsUsable>
+        <ArtDef>MidnightStone_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="MidnightStone_ArtDef">
+            <GameItemTypeModelPack InternalName="MidnightStone_Default">
+                <IconFile>MidnightStone_Item.png</IconFile>
+                <TintR>20</TintR>
+                <TintG>20</TintG>
+                <TintB>20</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Mushroom">
+        <DisplayName>Mushroom</DisplayName>
+        <Description>A rare type of mushroom that works wonders for the world-weary traveler.  Eat it to heal 25 points of damage.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>40</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>CurHealth</Attribute>
+            <Value>25</Value>
+            <Provides>Heals 25 Hit Points</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Mushroom_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Mushroom_ArtDef">
+            <GameItemTypeModelPack InternalName="Mushroom_Default">
+                <IconFile>Mushroom_Item.png</IconFile>
+                <MapParticle>T_Heal_Particle</MapParticle>
+                <TintR>0</TintR>
+                <TintG>97</TintG>
+                <TintB>0</TintB>
+                <SFX>Eating</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="PoisonVial">
+        <DisplayName>Vial of Poison</DisplayName>
+        <Description>With this the unit can apply poison to his weapons, making even the most glancing blows lethal.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>15</AdditionalTrainingTurns>
+        <ShopValue>15</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>MeleeAppliesSpell</Attribute>
+            <StrVal>Poisoned1</StrVal>
+            <Provides>Melee attacks also do 2 Poison damage per round to the victim</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>AbilityBonusOption</Type>
+            <Attribute>AssassinsTools</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <ArtDef>PoisonVial_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="PoisonVial_ArtDef">
+            <GameItemTypeModelPack InternalName="PoisonVial_Default">
+                <IconFile>DarkConcoction_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Potion_Growth">
+        <DisplayName>Growth Potion</DisplayName>
+        <Description>The liquid changes in volume, at times filling barely half of the bottle and at others threatening to burst out.  Drink it to gain +50% to Attack and -20 to Dodge.</Description>
+        <ShopValue>115</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>Growth_Self</StrVal>
+            <Provides>Gives the unit +50% to Attack and -20 to Dodge</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Potion_Growth_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Potion_Growth_ArtDef">
+            <GameItemTypeModelPack InternalName="Potion_Growth_Default">
+                <IconFile>PotionOfGrowth.png</IconFile>
+                <TintR>255</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <SFX>Potion1_1</SFX>
+                <SFX>Potion1_2</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Potion_Healing">
+        <DisplayName>Healing Potion</DisplayName>
+        <Description>A revitalizing concoction of magical origin that can heal the wounded.  Drink it to heal 60 points of damage.</Description>
+        <ShopValue>100</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>CurHealth</Attribute>
+            <Value>60</Value>
+            <Provides>Heals 60 Hit Points</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Potion_Healing_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Potion_Healing_ArtDef">
+            <GameItemTypeModelPack InternalName="Potion_Healing_Default">
+                <IconFile>Potion1_Item.png</IconFile>
+                <MapParticle>T_Heal_Particle</MapParticle>
+                <TintR>131</TintR>
+                <TintG>185</TintG>
+                <TintB>17</TintB>
+                <SFX>Potion1_1</SFX>
+                <SFX>Potion1_2</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Potion_HealingStrong">
+        <DisplayName>Strong Healing Potion</DisplayName>
+        <Description>A revitalizing concoction of magical origin that can heal the wounded.  Drink it to heal 80 points of damage.</Description>
+        <ShopValue>150</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>CurHealth</Attribute>
+            <Value>80</Value>
+            <Provides>Heals 80 Hit Points</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Potion_HealingStrong_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Potion_HealingStrong_ArtDef">
+            <GameItemTypeModelPack InternalName="Potion_HealingStrong_Default">
+                <IconFile>Potion2_Item.png</IconFile>
+                <MapParticle>T_Heal_Particle</MapParticle>
+                <TintR>131</TintR>
+                <TintG>185</TintG>
+                <TintB>17</TintB>
+                <SFX>Potion1_1</SFX>
+                <SFX>Potion1_2</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="SaltedPork">
+        <DisplayName>Salted Pork</DisplayName>
+        <Description>A rare type of salted pork that works wonders for a weary soul.  Eat it to heal 20 points of damage.</Description>
+        <ShopValue>30</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>CurHealth</Attribute>
+            <Value>20</Value>
+            <Provides>Heals 20 Hit Points</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>SaltedPork_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="SaltedPork_ArtDef">
+            <GameItemTypeModelPack InternalName="SaltedPork_Default">
+                <IconFile>SaltedPork_Item.png</IconFile>
+                <MapParticle>T_Heal_Particle</MapParticle>
+                <TintR>79</TintR>
+                <TintG>48</TintG>
+                <TintB>20</TintB>
+                <SFX>Eating</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="PerformersHorse">
+        <DisplayName>Performers Horse</DisplayName>
+        <Description>A beast of burden.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>0</ShopValue>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsQuestItem>1</IsQuestItem>
+        <IsUsable>0</IsUsable>
+        <ArtDef>PerformersHorse_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="PerformersHorse_ArtDef">
+            <GameItemTypeModelPack InternalName="PerformersHorse_Default">
+                <IconFile>HorseEquipIcon.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Potion_DarkConcoction">
+        <DisplayName>Dark Concoction</DisplayName>
+        <Description>The dark liquid inside smells like it has been filtered through an Ogre's loincloth.  It tastes even worse.</Description>
+        <ShopValue>75</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_HitPoints</StrVal>
+            <Value>-1</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_MagicPower</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_MagicResist</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>0</UsableInBattle>
+        <ArtDef>Potion_DarkConcoction_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Potion_DarkConcoction_ArtDef">
+            <GameItemTypeModelPack InternalName="Potion_DarkConcoction_Default">
+                <IconFile>DarkConcoction_Item.png</IconFile>
+                <TintR>67</TintR>
+                <TintG>22</TintG>
+                <TintB>116</TintB>
+                <SFX>Potion1_1</SFX>
+                <SFX>Potion1_2</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Potion_FireResistance">
+        <DisplayName>Potion of Fire Resistance</DisplayName>
+        <Description>The smooth ceramic bottle is cool to touch and the consistency of the liquid inside is so thick it makes you wonder if you should drink it or rub it on your skin.  Halves fire damage.</Description>
+        <ShopValue>80</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>FireResistance</StrVal>
+            <Provides>Halves the damage the unit takes from Fire for the rest of combat</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Potion_FireResistance_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Potion_FireResistance_ArtDef">
+            <GameItemTypeModelPack InternalName="Potion_FireResistance_Default">
+                <IconFile>CeramicBottle1.png</IconFile>
+                <MapParticle>T_Heal_Particle</MapParticle>
+                <TintR>255</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <SFX>Potion1_1</SFX>
+                <SFX>Potion1_2</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Potion_IroneerAle">
+        <DisplayName>Ironeer Ale</DisplayName>
+        <Description>A hearty brew that bestows some of its vitality on the drinker, if they can get it down.</Description>
+        <ShopValue>80</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_HitPoints</StrVal>
+            <Value>1</Value>
+            <Provides>Increases maximum Hit Points by 1</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>0</UsableInBattle>
+        <ArtDef>Potion_IroneerAle_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Potion_IroneerAle_ArtDef">
+            <GameItemTypeModelPack InternalName="Potion_IroneerAle_Default">
+                <IconFile>Item_IroneerAle_Icon.png</IconFile>
+                <SFX>Potion1_1</SFX>
+                <SFX>Potion1_2</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Potion_ParidenWine">
+        <DisplayName>Pariden Wine</DisplayName>
+        <Description>It brings vibrant dreams where you dance among starlight.  When you awake some of that grace remains.</Description>
+        <ShopValue>180</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Dodge</StrVal>
+            <Value>1</Value>
+            <Provides>Increases Dodge by 1</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>0</UsableInBattle>
+        <ArtDef>Potion_ParidenWine_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Potion_ParidenWine_ArtDef">
+            <GameItemTypeModelPack InternalName="Potion_ParidenWine_Default">
+                <IconFile>Item_ParidenWine_Icon.png</IconFile>
+                <SFX>Potion1_1</SFX>
+                <SFX>Potion1_2</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Potion_Prismatic">
+        <DisplayName>Prismatic Potion</DisplayName>
+        <Description>Light shines through it in a myriad of colors.  It would be prized for its beauty if it wasn't more valuable for its enchantment.  Drinking it makes the unit immune to physical damage for 3 turns.</Description>
+        <ShopValue>140</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>Diamondskin_Self</StrVal>
+            <Provides>Makes the unit immune to physical damage for 3 turns</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Potion_Prismatic_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Potion_Prismatic_ArtDef">
+            <GameItemTypeModelPack InternalName="Potion_Prismatic_Default">
+                <IconFile>Item_PrismaticPotion_Icon.png</IconFile>
+                <TintR>255</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <SFX>Potion1_1</SFX>
+                <SFX>Potion1_2</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Potion_QuendarWine">
+        <DisplayName>Quendar Wine</DisplayName>
+        <Description>Specially grown for those keen on regurgitation -- a fine wine which really opens up the sluices at both ends.  Drinking it gives +3 Attack and a 10% chance of striking the wrong target.</Description>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>QuendarWine</StrVal>
+            <Provides>+3 Attack for the battle, but also gives a 10% chance of striking the wrong target</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Potion_QuendarWine_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Potion_QuendarWine_ArtDef">
+            <GameItemTypeModelPack InternalName="Potion_QuendarWine_Default">
+                <IconFile>Item_QuendarWine_Icon.png</IconFile>
+                <SFX>Potion1_1</SFX>
+                <SFX>Potion1_2</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Potion_Restoration">
+        <DisplayName>Restoration Potion</DisplayName>
+        <Description>This powerful potion not only heals the imbiber, but it removes any injuries a champion may have sustained from escaping from battle.</Description>
+        <ShopValue>200</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>CurHealth</Attribute>
+            <Value>100</Value>
+            <Provides>Heals 100 Hit Points</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>HealInjuries</Attribute>
+            <Provides>Removes all injuries champions have from escaping combat</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Potion_Restoration_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Potion_Restoration_ArtDef">
+            <GameItemTypeModelPack InternalName="Potion_Restoration_Default">
+                <IconFile>CeramicJug01.png</IconFile>
+                <MapParticle>T_Heal_Particle</MapParticle>
+                <TintR>255</TintR>
+                <TintG>255</TintG>
+                <TintB>255</TintB>
+                <SFX>Potion1_1</SFX>
+                <SFX>Potion1_2</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Potion_TrogBlood">
+        <DisplayName>Trog Blood</DisplayName>
+        <Description>The trogs claim that the name isn't literal.  But that would explain the taste.</Description>
+        <ShopValue>115</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ResistPoison</StrVal>
+            <Value>10</Value>
+            <Provides>+10% Poison Resistance</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <ArtDef>Potion_TrogBlood_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Potion_TrogBlood_ArtDef">
+            <GameItemTypeModelPack InternalName="Potion_TrogBlood_Default">
+                <IconFile>TrogBlood_Item.png</IconFile>
+                <TintR>190</TintR>
+                <TintG>30</TintG>
+                <TintB>30</TintB>
+                <SFX>Potion1_1</SFX>
+                <SFX>Potion1_2</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="ProcipineesCrown">
+        <DisplayName>Procipinee's Crown</DisplayName>
+        <Description>Fashioned of silver and amethyst the crown radiates magic, enough to maintain any enchantments on the wearer.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AffectsGlobalResources>1</AffectsGlobalResources>
+        <CustomizationPointCost>1</CustomizationPointCost>
+        <ShopValue>25</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_EnchantmentMaintenanceMultiplier</StrVal>
+            <Multiplier>0</Multiplier>
+            <Provides>Enchantments on this unit have no maintenance</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>1</IsAvailableForSovereignCustomization>
+        <RarityDisplay>UltraRare</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Art_ProcipineesCrown</ArtDef>
+    </GameItemType>
+    <GameItemType InternalName="QuestMap">
+        <DisplayName>Quest Map</DisplayName>
+        <Description>These maps can be used as clues to unique opportunities in the world.</Description>
+        <ShopValue>50</ShopValue>
+        <GameModifier>
+            <ModType>Map</ModType>
+            <Attribute>CreateQuestNearTile</Attribute>
+            <BoolVal1>1</BoolVal1>
+            <Value>3</Value>
+            <Provides>Spawns a new quest</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <Prereq>
+            <Type>AbilityBonusOption</Type>
+            <Attribute>Wanderlust</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Recruiting</Attribute>
+        </Prereq>
+        <ArtDef>QuestMap_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="QuestMap_ArtDef">
+            <GameItemTypeModelPack InternalName="QuestMap_Default">
+                <IconFile>Parchment1.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="RingOfEmbers">
+        <DisplayName>Ring of Embers</DisplayName>
+        <Description>This ring protects the wearer from fire.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>5</AdditionalTrainingTurns>
+        <ShopValue>75</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>RefinedCrystal</Attribute>
+            <Value>2</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Fire</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ResistFire</StrVal>
+            <Value>25</Value>
+            <Provides>+25% Fire Resistance</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Charms</Attribute>
+        </Prereq>
+        <ArtDef>RingOfEmbers_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="RingOfEmbers_ArtDef">
+            <GameItemTypeModelPack InternalName="RingOfEmbers_Default">
+                <IconFile>RingOfEmbers_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="RingOfLife">
+        <DisplayName>Ring of Life</DisplayName>
+        <Description>Fashioned from crystal and imbued with a micron of a Channeler's essence, this ring increases the health of its wearer.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>3</AdditionalTrainingTurns>
+        <ShopValue>75</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>RefinedCrystal</Attribute>
+            <Value>2</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_HitPoints</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Charms</Attribute>
+        </Prereq>
+        <ArtDef>RingOfLife_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="RingOfLife_ArtDef">
+            <GameItemTypeModelPack InternalName="RingOfLife_Default">
+                <IconFile>RingOfLife_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="RingOfMastery">
+        <DisplayName>Ring of Mastery</DisplayName>
+        <Description>Forged in imperium silver these ring has been handed down through generations of channelers.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>735</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_MagicPower</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_SpellDamage</StrVal>
+            <Value>0.25</Value>
+            <Provides>+25% Spell Damage</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>UltraRare</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>7</Attribute>
+        </Prereq>
+        <ArtDef>RingOfMastery_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="RingOfMastery_ArtDef">
+            <GameItemTypeModelPack InternalName="RingOfMastery_Default">
+                <IconFile>SignetRing_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="RingOfStorms">
+        <DisplayName>Ring of Storms</DisplayName>
+        <Description>This ring protects the wearer from lightning.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>75</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Lightning</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ResistLightning</StrVal>
+            <Value>25</Value>
+            <Provides>+25% Lightning Resistance</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>6</Attribute>
+        </Prereq>
+        <ArtDef>RingOfStorms_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="RingOfStorms_ArtDef">
+            <GameItemTypeModelPack InternalName="RingOfStorms_Default">
+                <IconFile>RingOfStorms_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="RingOfTheGlacier">
+        <DisplayName>Ring of the Glacier</DisplayName>
+        <Description>This ring protects the wearer from cold.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>5</AdditionalTrainingTurns>
+        <ShopValue>75</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>RefinedCrystal</Attribute>
+            <Value>2</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Cold</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ResistCold</StrVal>
+            <Value>25</Value>
+            <Provides>+25% Cold Resistance</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Charms</Attribute>
+        </Prereq>
+        <ArtDef>RingOfTheGlacier_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="RingOfTheGlacier_ArtDef">
+            <GameItemTypeModelPack InternalName="RingOfTheGlacier_Default">
+                <IconFile>RingoftheGlacier_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="RingOfWisdom">
+        <DisplayName>Ring of Wisdom</DisplayName>
+        <Description>Gouges mar this rings twisted band.  It is blackened by fire and in places corroded by acid.  Two of the five opals that were once inset in the band are missing.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>150</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ExpBonus</StrVal>
+            <Value>25</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>RingOfWisdom_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="RingOfWisdom_ArtDef">
+            <GameItemTypeModelPack InternalName="RingOfWisdom_Default">
+                <IconFile>Item_RingOfPhoenix_Icon.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="RuneTablet">
+        <DisplayName>Rune Tablet</DisplayName>
+        <Description>Reading from the tablet improves your spell resistance.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>225</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_MagicResist</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <ArtDef>RuneTablet_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="RuneTablet_ArtDef">
+            <GameItemTypeModelPack InternalName="RuneTablet_Default">
+                <IconFile>RuneTablet_Item.png</IconFile>
+                <TintR>150</TintR>
+                <TintG>150</TintG>
+                <TintB>150</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="ScarStone">
+        <DisplayName>Scar Stone</DisplayName>
+        <Description>The Quendar have a ritual where their young grip this stone from a bed of hot coals.  If they maintain their grip on it while it sears their flesh then they are accepted as an adult among their people.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>10</AdditionalTrainingTurns>
+        <ShopValue>15</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Fire</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>AbilityBonusOption</Type>
+            <Attribute>FleshBoundTome</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <ArtDef>ScarStone_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="ScarStone_ArtDef">
+            <GameItemTypeModelPack InternalName="ScarStone_Default">
+                <IconFile>Shard_Fire.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Scroll_AirWalker">
+        <DisplayName>Air Walker Scroll</DisplayName>
+        <Description>The script blurs and shimmers across the page.  The echo of a channeler's commands trapped in velum.  You have only to recite the words to release the spell.</Description>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>ChangeMovementType</Attribute>
+            <StrVal>Air</StrVal>
+            <Value>2</Value>
+            <Provides>Allows unit to walk on any tile</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>UltraRare</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>0</UsableInBattle>
+        <ArtDef>Scroll_AirWalker_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Scroll_AirWalker_ArtDef">
+            <GameItemTypeModelPack InternalName="Scroll_AirWalker_Default">
+                <IconFile>Item_BlizzardScroll_Icon.png</IconFile>
+                <TintR>212</TintR>
+                <TintG>32</TintG>
+                <TintB>200</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Scroll_Blight">
+        <DisplayName>Blight Scroll</DisplayName>
+        <Description>This ancient scroll is so worn it is nearly transparent.  Ash continually falls from it, and where it lands the grass withers and dies.</Description>
+        <ShopValue>180</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>Blight_Ability</StrVal>
+            <Provides>Allows the unit to cast Blight, which kills 50% of the population of all cities</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Rare</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>0</UsableInBattle>
+        <ArtDef>Scroll_Blight_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Scroll_Blight_ArtDef">
+            <GameItemTypeModelPack InternalName="Scroll_Blight_Default">
+                <IconFile>Item_BlightScroll_Icon.png</IconFile>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Scroll_Blizzard">
+        <DisplayName>Blizzard Scroll</DisplayName>
+        <Description>Use this scroll to do 8 cold damage (+2 per water shard) per member to enemy units.</Description>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>Blizzard_Ability</StrVal>
+            <Provides>Allows the unit to cast Blizzard, which does cold damage to all units within a 2 tile radius</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Scroll_Blizzard_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Scroll_Blizzard_ArtDef">
+            <GameItemTypeModelPack InternalName="Scroll_Blizzard_Default">
+                <IconFile>Item_BlizzardScroll_Icon.png</IconFile>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Scroll_Curse">
+        <DisplayName>Curse Scroll</DisplayName>
+        <Description>Use this scroll to cause the target to lose all Defense for 3 turns unless he resists.</Description>
+        <ShopValue>135</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>Curse_Ability</StrVal>
+            <Provides>Removes the target's Defense for 3 turns</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Scroll_Curse_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Scroll_Curse_ArtDef">
+            <GameItemTypeModelPack InternalName="Scroll_Curse_Default">
+                <IconFile>Item_CurseScroll_Icon.png</IconFile>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Scroll_Despair">
+        <DisplayName>Despair Scroll</DisplayName>
+        <Description>Use this scroll to transfer 3 hit points per level from all enemies to the caster.</Description>
+        <ShopValue>100</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>Despair</StrVal>
+            <Provides>Transfers 3 hit points per level from all enemies to the caster</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Scroll_Despair_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Scroll_Despair_ArtDef">
+            <GameItemTypeModelPack InternalName="Scroll_Despair_Default">
+                <IconFile>Item_DespairScroll_Icon.png</IconFile>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Scroll_Escape">
+        <DisplayName>Escape Scroll</DisplayName>
+        <Description>Use the scroll to escape from the battlefield.</Description>
+        <ShopValue>115</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>Escape_Ability</StrVal>
+            <Provides>Allows the unit to cast Escape, which allows you army to escape from tactical combat to your capital</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Scroll_Escape_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Scroll_Escape_ArtDef">
+            <GameItemTypeModelPack InternalName="Scroll_Escape_Default">
+                <IconFile>Item_EscapeScroll_Icon.png</IconFile>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Scroll_Fireball">
+        <DisplayName>Fireball Scroll</DisplayName>
+        <Description>Use this scroll to summon a fireball that does 18 (+4 per fire shard) fire damage to units within a 1 tile radius.</Description>
+        <ShopValue>120</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>Fireball_Ability</StrVal>
+            <Provides>Fireball does 18 (+6 per fire shard) fire damage to units within a 1 tile radius.</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Scroll_Fireball_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Scroll_Fireball_ArtDef">
+            <GameItemTypeModelPack InternalName="Scroll_Fireball_Default">
+                <IconFile>Item_FireballScroll_Icon.png</IconFile>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Scroll_Fortune">
+        <DisplayName>Scroll of Fortune</DisplayName>
+        <Description>This ancient scroll gives the reader the ability to discover money where its least expected.</Description>
+        <ShopValue>180</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UnlockUnitAbility</Attribute>
+            <StrVal>Merchant1</StrVal>
+            <Provides>Grants the unit the Merchant trait (+2 Gildar per season)</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>0</UsableInBattle>
+        <ArtDef>Scroll_Fortune_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Scroll_Fortune_ArtDef">
+            <GameItemTypeModelPack InternalName="Scroll_Fortune_Default">
+                <IconFile>Item_BlightScroll_Icon.png</IconFile>
+                <TintG>255</TintG>
+                <SFX>AirShard_SFX_01</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Scroll_Oratory">
+        <DisplayName>Scroll of Oratory</DisplayName>
+        <Description>This ancient scroll imbues its reader with the ability of a great orator.</Description>
+        <ShopValue>180</ShopValue>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_FactionPrestige</StrVal>
+            <Value>1</Value>
+            <Provides>Increases Faction Prestige by 1</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>0</UsableInBattle>
+        <ArtDef>Scroll_Oratory_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Scroll_Oratory_ArtDef">
+            <GameItemTypeModelPack InternalName="Scroll_Oratory_Default">
+                <IconFile>Item_BlightScroll_Icon.png</IconFile>
+                <TintR>128</TintR>
+                <TintG>32</TintG>
+                <TintB>255</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Scroll_Recall">
+        <DisplayName>Recall Scroll</DisplayName>
+        <Description>Many think the spell works through an emotional connection with one's home.  But it is linked to the base of the caster's power, and will draw the caster's army back to that location.</Description>
+        <ShopValue>180</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>Recall</StrVal>
+            <Provides>Recall your unit, and their army, to your capital</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>0</UsableInBattle>
+        <ArtDef>Scroll_Recall_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Scroll_Recall_ArtDef">
+            <GameItemTypeModelPack InternalName="Scroll_Recall_Default">
+                <IconFile>Scroll1.png</IconFile>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Scroll_SummonAirElemental">
+        <DisplayName>Air Elemental Scroll</DisplayName>
+        <Description>Use the scroll to summon an Air Elemental in battle.</Description>
+        <ShopValue>135</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>SummonAirElemental_Tactical</StrVal>
+            <Provides>Allows the unit to summon an Air Elemental in tactical combat</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Scroll_SummonAirElemental_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Scroll_SummonAirElemental_ArtDef">
+            <GameItemTypeModelPack InternalName="Scroll_SummonAirElemental_Default">
+                <IconFile>Item_SummonAirElementalScroll_Icon.png</IconFile>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Scroll_Wellspring">
+        <DisplayName>Wellspring Scroll</DisplayName>
+        <Description>Use the scroll to heal all allies 12 hit points (+4 per life shard).</Description>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>Wellspring_Ability</StrVal>
+            <Provides>All allies heal 12 hit points (+6 per life shard)</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Scroll_Wellspring_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Scroll_Wellspring_ArtDef">
+            <GameItemTypeModelPack InternalName="Scroll_Wellspring_Default">
+                <IconFile>Item_Wellspring_Icon.png</IconFile>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="SilverFlute">
+        <DisplayName>Silver Flute</DisplayName>
+        <Description>This flute gleams with an inner light and even the slightest wind causes music to whistle through it.  Blow it to cause all enemies to lose their next turn, unless they resist.</Description>
+        <ShopValue>150</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>PlayFlute</StrVal>
+            <Provides>All enemies lose their next turn unless they resist.  Doing this destroys the flute.</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>SilverFlute_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="SilverFlute_ArtDef">
+            <GameItemTypeModelPack InternalName="SilverFlute_Default">
+                <IconFile>SilverFlute_Item.png</IconFile>
+                <TintR>200</TintR>
+                <TintG>200</TintG>
+                <TintB>200</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="SilverGoblet">
+        <DisplayName>Silver Goblet</DisplayName>
+        <Description>While your army may drink out of crude cups or a waterskin this goblet is more suitable for a king.  Liquids placed in it are not only cleansed of poison but become powerful balms against any poisons the bearer may suffer from.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ResistPoison</StrVal>
+            <Value>50</Value>
+            <Provides>+50% Poison Resistance</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>SilverGoblet_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="SilverGoblet_ArtDef">
+            <GameItemTypeModelPack InternalName="SilverGoblet_Default">
+                <IconFile>FancyGoblet_Item.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="SpiderVenom">
+        <DisplayName>Spider Venom Sack</DisplayName>
+        <Description>These are easily sold in any marketplace to merchant and traders.  Though they claim to sell them to healers and sages nearly all of them are sold to assassins and those interested in making poison.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>45</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>MeleeAppliesSpell</Attribute>
+            <StrVal>Poisoned</StrVal>
+            <Provides>Melee attacks also do 1 Poison damage per round to the victim</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>SpiderVenom_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="SpiderVenom_ArtDef">
+            <GameItemTypeModelPack InternalName="SpiderVenom_Default">
+                <IconFile>SpiderVenomSac.png</IconFile>
+                <TintR>200</TintR>
+                <TintG>200</TintG>
+                <TintB>200</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="TearOfCyndrum">
+        <DisplayName>Tear of Cyndrum</DisplayName>
+        <Description>Also known as nightmare stones these are actually slivers of a death shard.  They grow in areas of great pain and suffering and some are known to be harvested in the torture pits of Umber.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>150</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_HPFromKills</StrVal>
+            <Value>3</Value>
+            <Provides>+3 Hit Points whenever an enemy is killed</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>TearOfCyndrum_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="TearOfCyndrum_ArtDef">
+            <GameItemTypeModelPack InternalName="TearOfCyndrum_Default">
+                <IconFile>Death_Shard_Thumb.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Telescope">
+        <DisplayName>Telescope</DisplayName>
+        <Description>This telescope is used to see great distances, increasing your line of sight.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>225</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Sight</StrVal>
+            <Value>1</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Telescope_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Telescope_ArtDef">
+            <GameItemTypeModelPack InternalName="Telescope_Default">
+                <IconFile>Telescope_Item.png</IconFile>
+                <TintR>240</TintR>
+                <TintG>10</TintG>
+                <TintB>10</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="ThrowingKnives">
+        <DisplayName>Throwing Knives</DisplayName>
+        <Description>A set of finely balanced throwing knives.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>10</AdditionalTrainingTurns>
+        <ShopValue>45</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>2</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UnlockCombatAbility</Attribute>
+            <StrVal>ThrowingKnife</StrVal>
+            <Provides>Allows the unit to throw knives at enemies within a range of 3</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Weaponry</Attribute>
+        </Prereq>
+        <ArtDef>ThrowingKnives_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="ThrowingKnives_ArtDef">
+            <GameItemTypeModelPack InternalName="ThrowingKnives_Default">
+                <IconFile>ThrowingKnives_Item.png</IconFile>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="TildaHerbs">
+        <DisplayName>Tilda Herbs</DisplayName>
+        <Description>Tilda Herbs are highly valued for their medicinal uses.</Description>
+        <CanBeEquipped>0</CanBeEquipped>
+        <ShopValue>45</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>CurHealth</Attribute>
+            <Value>30</Value>
+            <Provides>Heals 30 Hit Points</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <ArtDef>TildaHerbs_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="TildaHerbs_ArtDef">
+            <GameItemTypeModelPack InternalName="TildaHerbs_Default">
+                <IconFile>TildaHerbs_Item.png</IconFile>
+                <TintR>147</TintR>
+                <TintG>201</TintG>
+                <TintB>165</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Token_BestFriend">
+        <DisplayName>Token of the Friend</DisplayName>
+        <Description>This token will summon man's best friend.</Description>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>SummonUnit</Attribute>
+            <StrVal>Annie</StrVal>
+            <Value>8</Value>
+            <Provides>Summons a Dog</Provides>
+            <UnitClass>AnnieDog</UnitClass>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <ArtDef>Token_BestFriend_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Token_BestFriend_ArtDef">
+            <GameItemTypeModelPack InternalName="Token_BestFriend_Default">
+                <IconFile>TokenoftheFriend_Item.png</IconFile>
+                <TintR>53</TintR>
+                <TintG>55</TintG>
+                <TintB>182</TintB>
+                <SFX>Equip_MagicRing_01</SFX>
+                <SFX>Equip_MagicRing_02</SFX>
+                <SFX>Equip_MagicRing_03</SFX>
+                <SFX>Equip_MagicRing_04</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Token_Golem">
+        <DisplayName>Token of the Sand Golem</DisplayName>
+        <Description>This token will summon a sand golem to aid you.</Description>
+        <ShopValue>240</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>SummonUnit</Attribute>
+            <StrVal>Sand Golem</StrVal>
+            <Value>3</Value>
+            <Provides>Summons a Sand Golem</Provides>
+            <UnitClass>SandGolem</UnitClass>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <ArtDef>Token_Golem_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Token_Golem_ArtDef">
+            <GameItemTypeModelPack InternalName="Token_Golem_Default">
+                <IconFile>TokenoftheSandGolem_Item.png</IconFile>
+                <TintR>253</TintR>
+                <TintG>255</TintG>
+                <TintB>82</TintB>
+                <SFX>Equip_MagicRing_01</SFX>
+                <SFX>Equip_MagicRing_02</SFX>
+                <SFX>Equip_MagicRing_03</SFX>
+                <SFX>Equip_MagicRing_04</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Token_Wolf">
+        <DisplayName>Token of the Wolf</DisplayName>
+        <Description>This token will summon a wolf to serve you</Description>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>SummonUnit</Attribute>
+            <StrVal>Anna</StrVal>
+            <Value>2</Value>
+            <Provides>Summons a Wolf</Provides>
+            <UnitClass>EbbenWolf</UnitClass>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <ArtDef>Token_Wolf_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Token_Wolf_ArtDef">
+            <GameItemTypeModelPack InternalName="Token_Wolf_Default">
+                <IconFile>Item_TokenoftheWolf.png</IconFile>
+                <TintR>53</TintR>
+                <TintG>55</TintG>
+                <TintB>182</TintB>
+                <SFX>Equip_MagicRing_01</SFX>
+                <SFX>Equip_MagicRing_02</SFX>
+                <SFX>Equip_MagicRing_03</SFX>
+                <SFX>Equip_MagicRing_04</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="TomeoftheInferno">
+        <DisplayName>Tome of the Inferno</DisplayName>
+        <Description>From lava flow and fallen star
+To burning heart of the Quendar
+All light, all fear,
+all pain holds dear
+Is held within the magistar</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UnlockUnitAbility</Attribute>
+            <StrVal>Fire1</StrVal>
+            <Provides>Grants the Fire Apprentice ability</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <Prereq>
+            <Type>AbilityBonusOption</Type>
+            <Attribute>TheDecalon</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Spellbooks</Attribute>
+        </Prereq>
+        <ArtDef>TomeoftheInferno_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="TomeoftheInferno_ArtDef">
+            <GameItemTypeModelPack InternalName="TomeoftheInferno_Default">
+                <IconFile>BookOfAttack_Item.png</IconFile>
+                <TintR>115</TintR>
+                <TintG>32</TintG>
+                <TintB>16</TintB>
+                <SFX>TurnPageMagical_01</SFX>
+                <SFX>TurnPageMagical_02</SFX>
+                <SFX>TurnPageMagical_03</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="TomeoftheMountain">
+        <DisplayName>Tome of the Mountain</DisplayName>
+        <Description>Mountain sons and miners born
+Scattered when the world was torn
+Deaf to shards,
+with iron guards
+Whom the Aivernach mourn</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UnlockUnitAbility</Attribute>
+            <StrVal>Earth1</StrVal>
+            <Provides>Grants the Earth Apprentice ability</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <Prereq>
+            <Type>AbilityBonusOption</Type>
+            <Attribute>TheDecalon</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Spellbooks</Attribute>
+        </Prereq>
+        <ArtDef>TomeoftheMountain_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="TomeoftheMountain_ArtDef">
+            <GameItemTypeModelPack InternalName="TomeoftheMountain_Default">
+                <IconFile>BookOfExperience_Item.png</IconFile>
+                <TintR>115</TintR>
+                <TintG>32</TintG>
+                <TintB>16</TintB>
+                <SFX>TurnPageMagical_01</SFX>
+                <SFX>TurnPageMagical_02</SFX>
+                <SFX>TurnPageMagical_03</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="TomeoftheWaves">
+        <DisplayName>Tome of the Waves</DisplayName>
+        <Description>What has Cyndrum's pool revealed?
+Can wounds of centuries be healed?
+Beneath the waves
+How many graves?
+What darkness has the fool unsealed?</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UnlockUnitAbility</Attribute>
+            <StrVal>Water1</StrVal>
+            <Provides>Grants the Water Apprentice ability</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <Prereq>
+            <Type>AbilityBonusOption</Type>
+            <Attribute>TheDecalon</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Spellbooks</Attribute>
+        </Prereq>
+        <ArtDef>TomeoftheWaves_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="TomeoftheWaves_ArtDef">
+            <GameItemTypeModelPack InternalName="TomeoftheWaves_Default">
+                <IconFile>BookOfGreaterIntelligence_Item.png</IconFile>
+                <TintR>115</TintR>
+                <TintG>32</TintG>
+                <TintB>16</TintB>
+                <SFX>TurnPageMagical_01</SFX>
+                <SFX>TurnPageMagical_02</SFX>
+                <SFX>TurnPageMagical_03</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="TomeoftheWind">
+        <DisplayName>Tome of the Wind</DisplayName>
+        <Description>Sing that dawn will rise each day
+Sing that Hope won't fall away
+That wild men
+Can rise again
+And that the rebel court will stay</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShopValue>90</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UnlockUnitAbility</Attribute>
+            <StrVal>Air1</StrVal>
+            <Provides>Grants the Air Apprentice ability</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <Prereq>
+            <Type>AbilityBonusOption</Type>
+            <Attribute>TheDecalon</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Spellbooks</Attribute>
+        </Prereq>
+        <ArtDef>TomeoftheWind_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="TomeoftheWind_ArtDef">
+            <GameItemTypeModelPack InternalName="TomeoftheWind_Default">
+                <IconFile>BookOfDexterity_Item.png</IconFile>
+                <TintR>115</TintR>
+                <TintG>32</TintG>
+                <TintB>16</TintB>
+                <SFX>TurnPageMagical_01</SFX>
+                <SFX>TurnPageMagical_02</SFX>
+                <SFX>TurnPageMagical_03</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="TrollCharm">
+        <DisplayName>Troll Charm</DisplayName>
+        <Description>This bone charm increases the wearer's heal rate.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>10</AdditionalTrainingTurns>
+        <ShopValue>195</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>RefinedCrystal</Attribute>
+            <Value>2</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_HealthRegen</StrVal>
+            <Value>5</Value>
+            <Provides>+5 Healing per Season</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Glyph_Stones</Attribute>
+        </Prereq>
+        <ArtDef>TrollCharm_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="TrollCharm_ArtDef">
+            <GameItemTypeModelPack InternalName="TrollCharm_Default">
+                <IconFile>TrollCharm_Item.png</IconFile>
+                <TintR>240</TintR>
+                <TintG>10</TintG>
+                <TintB>10</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="TurtleCharm">
+        <DisplayName>Turtle Charm</DisplayName>
+        <Description>When gripped the marble statue animates and the turtles head and legs slip into the shell.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>160</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>8</Attribute>
+        </Prereq>
+        <ArtDef>TurtleCharm_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="TurtleCharm_ArtDef">
+            <GameItemTypeModelPack InternalName="TurtleCharm_Default">
+                <IconFile>DefenseWard.png</IconFile>
+                <TintR>253</TintR>
+                <TintG>255</TintG>
+                <TintB>82</TintB>
+                <SFX>Equip_MagicRing_01</SFX>
+                <SFX>Equip_MagicRing_02</SFX>
+                <SFX>Equip_MagicRing_03</SFX>
+                <SFX>Equip_MagicRing_04</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="WardOfHealth">
+        <DisplayName>Ward of Health</DisplayName>
+        <Description>This enchanted token is made of Irulian Crystaline.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>105</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_HitPoints</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>WardOfHealth_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="WardOfHealth_ArtDef">
+            <GameItemTypeModelPack InternalName="WardOfHealth_Default">
+                <IconFile>WardofHealth_Item.png</IconFile>
+                <TintR>110</TintR>
+                <TintG>110</TintG>
+                <TintB>210</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+    <GameItemType InternalName="Whetstone">
+        <DisplayName>Whetstone</DisplayName>
+        <Description>A handy whetstone helps keep weapons in their perfect, lethal, condition.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>40</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ChanceToCrit</StrVal>
+            <Value>3</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>400</Likelihood>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>0</IsUsable>
+        <ArtDef>Whetstone_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Whetstone_ArtDef">
+            <GameItemTypeModelPack InternalName="Whetstone_Default">
+                <IconFile>Whetstone1.png</IconFile>
+                <TintR>110</TintR>
+                <TintG>110</TintG>
+                <TintB>210</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+</GameItemTypes>

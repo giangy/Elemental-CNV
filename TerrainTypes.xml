@@ -1,0 +1,2128 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TerrainTypes>
+  <DataChecksum NoParse="1">
+    <Ignore>DisplayName</Ignore>
+    <Translate>DisplayName,TerrainName</Translate>
+  </DataChecksum>
+  <!-- Lands -->
+  <TerrainType InternalName="Land">
+    <DisplayName>Plains</DisplayName>
+    <MaxHeight>50</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>1</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>6</MaxBrushRadius>
+    <PlacementOrder>0</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water</CannotBorder>
+    <MapGenPlaceChance>100</MapGenPlaceChance>
+    <GameModifier InternalName="CityTileYield_Fertile">
+      <ModType>Resource</ModType>
+      <Attribute>TileYieldGrain</Attribute>
+      <Value>1.5</Value>
+      <PerTurn>1</PerTurn>
+    </GameModifier>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/barren_ground_rough.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <TerrainPropData>P_Berren_Land_01,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Land_02,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Land_03,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Land_04,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Land_05,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Land_06,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Land_07,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Land_08,100</TerrainPropData>
+      	<TacticalMap>T_Barren_Land_01</TacticalMap>
+	<TacticalMap>T_Barren_Land_02</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>205,185,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/fallen_ground.dds</Texture>
+
+      <TerrainPropData>P_Fallen_Land_01,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Land_02,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Land_03,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Land_04,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Land_05,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Land_06,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Land_07,100</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      	<TacticalMap>T_Fallen_Land_01</TacticalMap>
+      	<TacticalMap>T_Fallen_Land_02</TacticalMap>
+	<TacticalMap>T_Fallen_Land_03</TacticalMap>
+      <DistanceFogColor>83,65,88</DistanceFogColor>
+
+      <ClothMapColor>165,180,190</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/light_grass.dds</Texture>
+
+      <TextureWeight>1.0000</TextureWeight>
+      <TerrainPropData>P_Grassland_01,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_02,50</TerrainPropData>
+      <TerrainPropData>P_Grassland_03,30</TerrainPropData>
+      <TerrainPropData>P_Grassland_04,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_05,90</TerrainPropData>
+      <TerrainPropData>P_Grassland_06,20</TerrainPropData>
+     	<TacticalMap>T_Grassland_Land_01</TacticalMap>
+	<TacticalMap>T_Grassland_Land_02</TacticalMap>
+
+      <DistanceFogColor>200,220,228</DistanceFogColor>
+
+      <ClothMapColor>180,185,120</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <!-- Change to SubTerrain
+
+    <TerrainTypeEnvData>
+      <Environment>Desert</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TerrainPropData>P_Desert_01,10</TerrainPropData>
+      <TerrainPropData>P_Desert_02,100</TerrainPropData>
+      <TerrainPropData>P_Desert_03,100</TerrainPropData>
+      <TerrainPropData>P_Desert_04,100</TerrainPropData>
+      <TerrainPropData>P_Desert_05,10</TerrainPropData>
+      <TerrainPropData>P_Desert_06,100</TerrainPropData>
+      <TerrainPropData>P_Desert_07,10</TerrainPropData>
+      <TerrainPropData>P_Desert_08,5</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Land_Desert_02</TacticalMap>
+      <TacticalMap>T_Land_Desert_01</TacticalMap>
+      <TacticalMapFortify>T_Land_Desert_Fortified_01</TacticalMapFortify>
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Arctic</Environment>
+      <Texture>gfx/terrain/Snow_Grass.dds</Texture>
+      <TerrainPropData>P_Arctic_Land_01_Rocks,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_02_Trees,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_04_Tree,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_05_Tree,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_02_Trees,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_03_Rocks,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_04_Tree,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_05_Tree</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Land_Arctic_01</TacticalMap>
+      <TacticalMapFortify>T_Land_Arctic_Fortified_01</TacticalMapFortify>
+    </TerrainTypeEnvData>
+-->
+  </TerrainType>
+
+
+  <TerrainType InternalName="Rugged_Land">
+    <DisplayName>Plains</DisplayName>
+    <MaxHeight>55</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>1</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>6</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>1</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water</CannotBorder>
+    <MapGenPlaceChance>20</MapGenPlaceChance>
+    <GameModifier InternalName="CityTileYield_Fertile">
+      <ModType>Resource</ModType>
+      <Attribute>TileYieldGrain</Attribute>
+      <Value>1.5</Value>
+      <PerTurn>1</PerTurn>
+    </GameModifier>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/barren_ground_Blighted.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TerrainPropData>P_Berren_Rugged_01,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Rugged_02,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Rugged_03,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Rugged_04,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Rugged_05,100</TerrainPropData>
+      <TacticalMap>T_Barren_Rugged_01</TacticalMap>
+      <TacticalMap>T_Barren_Rugged_02</TacticalMap>
+      <TacticalMap>T_Barren_Rugged_03</TacticalMap>
+      <TacticalMap>T_Barren_Rugged_09</TacticalMap>
+      <TacticalMap>T_Barren_Rugged_10</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>200,165,115</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/fallen_ground_rough.dds</Texture>
+
+      <TerrainPropData>P_Fallen_Rugged_Land_01,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_02,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_03,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_04,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_05,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_06,100</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Fallen_Rugged_01</TacticalMap>
+      <DistanceFogColor>83,65,88</DistanceFogColor>
+
+      <ClothMapColor>150,160,165</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/light_grass_rough.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <TerrainPropData>P_Grassland_01,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_02,50</TerrainPropData>
+      <TerrainPropData>P_Grassland_03,30</TerrainPropData>
+      <TerrainPropData>P_Grassland_04,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_05,90</TerrainPropData>
+      <TacticalMap>T_Grassland_Rugged_01</TacticalMap>
+      <TacticalMap>T_Grassland_Rugged_02</TacticalMap>
+      <TacticalMap>T_Grassland_Rugged_03</TacticalMap>
+      <DistanceFogColor>200,220,228</DistanceFogColor>
+
+      <ClothMapColor>175,170,110</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <!-- Change to SubTerrain
+    <TerrainTypeEnvData>
+      <Environment>Desert</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TerrainPropData>P_Desert_01,10</TerrainPropData>
+      <TerrainPropData>P_Desert_02,100</TerrainPropData>
+      <TerrainPropData>P_Desert_03,100</TerrainPropData>
+      <TerrainPropData>P_Desert_04,100</TerrainPropData>
+      <TerrainPropData>P_Desert_05,10</TerrainPropData>
+      <TerrainPropData>P_Desert_06,100</TerrainPropData>
+      <TerrainPropData>P_Desert_07,10</TerrainPropData>
+      <TerrainPropData>P_Desert_08,5</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Land_Desert_01</TacticalMap>
+      <TacticalMapFortify>T_Land_Desert_Fortified_01</TacticalMapFortify>
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Arctic</Environment>
+      <Texture>gfx/terrain/Snow_Grass_Rough.dds</Texture>
+      <TerrainPropData>P_Arctic_Land_01_Rocks,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_02_Trees,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_04_Tree,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_05_Tree,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_02_Trees,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_03_Rocks,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_04_Tree,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_05_Tree</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>t_arctic_01</TacticalMap>
+    </TerrainTypeEnvData>
+-->
+  </TerrainType>
+
+
+  <TerrainType InternalName="Fertile_Land">
+    <DisplayName>Plains</DisplayName>
+    <MaxHeight>55</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>1</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>4</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>1</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water</CannotBorder>
+    <MapGenPlaceChance>20</MapGenPlaceChance>
+    <!-- City tile yield modifiers -->
+    <GameModifier InternalName="CityTileYield_Fertile">
+      <ModType>Resource</ModType>
+      <Attribute>TileYieldGrain</Attribute>
+      <Value>1.5</Value>
+      <PerTurn>1</PerTurn>
+    </GameModifier>
+    <GameModifier InternalName="CityTileYield_Fertile">
+      <ModType>Resource</ModType>
+      <Attribute>TileYieldEssence</Attribute>
+      <Value>0.15</Value>
+      <PerTurn>1</PerTurn>
+    </GameModifier>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/barren_ground_fertile.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TerrainPropData>P_Berren_Fertile_01,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Fertile_02,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Fertile_03,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Fertile_04,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Fertile_05,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Fertile_06,100</TerrainPropData>
+      <TacticalMap>T_Barren_Fertile_01</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>185,175,120</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/fallen_ground_fertile.dds</Texture>
+      <TerrainPropData>P_Fallen_Fertile_Land_01,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Fertile_Land_02,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Fertile_Land_03,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Fertile_Land_04,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Fertile_Land_05,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Fertile_Land_06,100</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Fallen_Fertile_01</TacticalMap>
+      <TacticalMap>T_Fallen_Fertile_02</TacticalMap>
+      <TacticalMap>T_Fallen_Fertile_03</TacticalMap>
+      <TacticalMap>T_Fallen_Fertile_04</TacticalMap>
+      <DistanceFogColor>83,65,88</DistanceFogColor>
+
+      <ClothMapColor>140,175,170</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/light_grass_fertile.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TerrainPropData>P_Grassland_01,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_02,50</TerrainPropData>
+      <TerrainPropData>P_Grassland_03,30</TerrainPropData>
+      <TerrainPropData>P_Grassland_04,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_05,90</TerrainPropData>
+      <TerrainPropData>P_Grassland_06,20</TerrainPropData>
+      <TacticalMap>T_Grassland_Fertile_01</TacticalMap>
+      <TacticalMap>T_Grassland_Fertile_02</TacticalMap>
+      <TacticalMap>T_Grassland_Fertile_03</TacticalMap>
+      <TacticalMap>T_Grassland_Fertile_04</TacticalMap>
+      <TacticalMap>T_Grassland_Fertile_09</TacticalMap>
+      <DistanceFogColor>200,220,228</DistanceFogColor>
+
+      <ClothMapColor>150,160,80</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <!-- Change to SubTerrain
+    <TerrainTypeEnvData>
+      <Environment>Desert</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TerrainPropData>P_Desert_01,10</TerrainPropData>
+      <TerrainPropData>P_Desert_02,100</TerrainPropData>
+      <TerrainPropData>P_Desert_03,100</TerrainPropData>
+      <TerrainPropData>P_Desert_04,100</TerrainPropData>
+      <TerrainPropData>P_Desert_05,10</TerrainPropData>
+      <TerrainPropData>P_Desert_06,100</TerrainPropData>
+      <TerrainPropData>P_Desert_07,10</TerrainPropData>
+      <TerrainPropData>P_Desert_08,5</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Land_Desert_01</TacticalMap>
+      <TacticalMapFortify>T_Land_Desert_Fortified_01</TacticalMapFortify>
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Arctic</Environment>
+      <Texture>gfx/terrain/Snow_Grass_Rough.dds</Texture>
+      <TerrainPropData>P_Arctic_Land_01_Rocks,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_02_Trees,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_04_Tree,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_05_Tree,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_02_Trees,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_03_Rocks,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_04_Tree,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_05_Tree</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>t_arctic_01</TacticalMap>
+    </TerrainTypeEnvData>
+ -->
+  </TerrainType>
+
+
+
+  <!-- modifying Terrains -->
+  <TerrainType InternalName="Chasm">
+    <DisplayName>Chasm</DisplayName>
+    <MaxHeight>-55</MaxHeight>
+    <MinHeight>-05</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>Blocked</TerrainMovementNote>
+    <Category>Chasm</Category>
+    <SuperCategory>Land</SuperCategory>
+    <IsTerrainFeature>1</IsTerrainFeature>
+    <IsBaseTerrain>0</IsBaseTerrain>
+    <PassableByLandUnits>0</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <PassableByChasmUnits>1</PassableByChasmUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>10</MinTilesPerSplat>
+    <MaxTilesPerSplat>20</MaxTilesPerSplat>
+    <MinBrushRadius>2</MinBrushRadius>
+    <MaxBrushRadius>4</MaxBrushRadius>
+    <GenMethod>Elliptical</GenMethod>
+    <PlacementOrder>5</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water,Distance=4</CannotBorder>
+    <CannotBorder>Category:Mountain,Distance=3</CannotBorder>
+    <MapGenPlaceChance>5</MapGenPlaceChance>
+    <TerrainObjectType>Chasm</TerrainObjectType>
+    <TerrainObjectGraphic>gfx/TacticalIcons/WorldMap_ChasmTiles_1.png</TerrainObjectGraphic>
+    <AmbientColor>20,40,60</AmbientColor>
+    <DiffuseColor>350,350,350</DiffuseColor>
+    <RimLightColor0>0,165,140</RimLightColor0>
+    <RimLightColor1>100,200,255</RimLightColor1>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/Chasm_Floor_01.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TerrainPropData>P_Chasm_01,100</TerrainPropData>
+      <TerrainPropData>P_Chasm_Tower_01,30</TerrainPropData>
+      <TerrainPropData>P_Chasm_Tower_03,30</TerrainPropData>
+      <TerrainPropData>P_Chasm_Tower_02,30</TerrainPropData>
+      <TacticalMap>T_Barren_Chasm_01</TacticalMap>
+      <DistanceFogColor>21,39,49</DistanceFogColor>
+
+      <ClothMapColor>150,165,170</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/Chasm_Floor_01.dds</Texture>
+      <TerrainPropData>P_Chasm_01,100</TerrainPropData>
+      <TerrainPropData>P_Chasm_Tower_01,30</TerrainPropData>
+      <TerrainPropData>P_Chasm_Tower_03,30</TerrainPropData>
+      <TerrainPropData>P_Chasm_Tower_02,30</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Fallen_Chasm_01</TacticalMap>
+      <DistanceFogColor>21,39,49</DistanceFogColor>
+
+      <ClothMapColor>125,160,195</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/Chasm_Floor_01.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TerrainPropData>P_Chasm_01,100</TerrainPropData>
+      <TerrainPropData>P_Chasm_Tower_01,30</TerrainPropData>
+      <TerrainPropData>P_Chasm_Tower_03,30</TerrainPropData>
+      <TerrainPropData>P_Chasm_Tower_02,30</TerrainPropData>
+      <TacticalMap>T_Grassland_Chasm_01</TacticalMap>
+      <DistanceFogColor>21,39,49</DistanceFogColor>
+
+      <ClothMapColor>140,180,170</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <!-- Change to SubTerrain
+    <TerrainTypeEnvData>
+      <Environment>Desert</Environment>
+      <Texture>gfx/terrain/Chasm_Floor_01.dds</Texture>
+      <TerrainPropData>P_Desert_01,10</TerrainPropData>
+      <TerrainPropData>P_Desert_02,100</TerrainPropData>
+      <TerrainPropData>P_Desert_03,100</TerrainPropData>
+      <TerrainPropData>P_Desert_04,100</TerrainPropData>
+      <TerrainPropData>P_Desert_05,10</TerrainPropData>
+      <TerrainPropData>P_Desert_06,100</TerrainPropData>
+      <TerrainPropData>P_Desert_07,10</TerrainPropData>
+      <TerrainPropData>P_Desert_08,5</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Land_Desert_02</TacticalMap>
+      <TacticalMap>T_Land_Desert_01</TacticalMap>
+      <TacticalMapFortify>T_Land_Desert_Fortified_01</TacticalMapFortify>
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Arctic</Environment>
+      <Texture>gfx/terrain/Chasm_Floor_01.dds</Texture>
+      <TerrainPropData>P_Arctic_Land_01_Rocks,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_02_Trees,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_04_Tree,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_05_Tree,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_02_Trees,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_03_Rocks,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_04_Tree,50</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_05_Tree</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Land_Arctic_01</TacticalMap>
+      <TacticalMapFortify>T_Land_Arctic_Fortified_01</TacticalMapFortify>
+    </TerrainTypeEnvData>
+-->
+  </TerrainType>
+
+
+
+  <TerrainType InternalName="ChasmEdge">
+    <DisplayName>Chasm Edge</DisplayName>
+    <MaxHeight>50</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>Blocked</TerrainMovementNote>
+    <Category>ChasmEdge</Category>
+    <SuperCategory>Land</SuperCategory>
+    <IsTerrainFeature>1</IsTerrainFeature>
+    <IsBaseTerrain>0</IsBaseTerrain>
+    <PassableByLandUnits>0</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>0</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>1</MinBrushRadius>
+    <MaxBrushRadius>1</MaxBrushRadius>
+    <PlacementOrder>6</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>1</IsBorderTerrain>
+    <TerrainObjectType>ChasmEdge</TerrainObjectType>
+    <TerrainObjectGraphic>gfx/TacticalIcons/WorldMap_ChasmEdgeTiles_1.png</TerrainObjectGraphic>
+    <MustBorder>Chasm</MustBorder>
+    <MapGenPlaceChance>100</MapGenPlaceChance>
+    <AmbientColor>20,40,60</AmbientColor>
+    <DiffuseColor>350,350,350</DiffuseColor>
+    <RimLightColor0>0,165,140</RimLightColor0>
+    <RimLightColor1>100,200,255</RimLightColor1>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/Chasm_Floor_01.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <DistanceFogColor>21,39,49</DistanceFogColor>
+
+      <ClothMapColor>150,165,170</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/Chasm_Floor_01.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <DistanceFogColor>21,39,49</DistanceFogColor>
+
+      <ClothMapColor>125,160,195</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/Chasm_Floor_01.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <DistanceFogColor>21,39,49</DistanceFogColor>
+
+      <ClothMapColor>140,180,170</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <!-- Change to SubTerrain
+    <TerrainTypeEnvData>
+      <Environment>Desert</Environment>
+      <Texture>gfx/terrain/Chasm_Floor_01.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Arctic</Environment>
+      <Texture>gfx/terrain/Chasm_Wall_Texture_01.png</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+    </TerrainTypeEnvData>
+-->
+  </TerrainType>
+
+
+
+  <TerrainType InternalName="DesertTerrain">
+    <DisplayName>Desert</DisplayName>
+    <MaxHeight>55</MaxHeight>
+    <MinHeight>45</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>0</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>1</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>4</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>2</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <TerrainObjectGraphic>gfx/TacticalIcons/WorldMap_DesertTiles_1.png</TerrainObjectGraphic>
+    <CannotBorder>Category:Water</CannotBorder>
+    <CannotBorder>ArcticTerrain</CannotBorder>
+    <CannotBorder>SwampTerrain</CannotBorder>
+    <MapGenPlaceChance>20</MapGenPlaceChance>
+    <MinTilesPerSplat>30</MinTilesPerSplat>
+    <MaxTilesPerSplat>75</MaxTilesPerSplat>
+    <TerrainObjectType>Desert</TerrainObjectType>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TerrainPropData>P_Desert_01,10</TerrainPropData>
+      <TerrainPropData>P_Desert_02,100</TerrainPropData>
+      <TerrainPropData>P_Desert_03,100</TerrainPropData>
+      <TerrainPropData>P_Desert_04,100</TerrainPropData>
+      <TerrainPropData>P_Desert_05,10</TerrainPropData>
+      <TerrainPropData>P_Desert_06,100</TerrainPropData>
+      <TerrainPropData>P_Desert_07,10</TerrainPropData>
+      <TerrainPropData>P_Desert_08,5</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+	<TacticalMap>T_Barren_Desert_01</TacticalMap>
+	<TacticalMap>T_Barren_Desert_02</TacticalMap>
+	<TacticalMap>T_Barren_Desert_03</TacticalMap>
+	<TacticalMap>T_Barren_Desert_04</TacticalMap>
+	<TacticalMap>T_Barren_Desert_05</TacticalMap>
+	<TacticalMap>T_Barren_Desert_06</TacticalMap>
+	<TacticalMap>T_Barren_Desert_07</TacticalMap>
+
+      <ClothMapColor>235,225,170</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TerrainPropData>P_Desert_01,10</TerrainPropData>
+      <TerrainPropData>P_Desert_02,100</TerrainPropData>
+      <TerrainPropData>P_Desert_03,100</TerrainPropData>
+      <TerrainPropData>P_Desert_04,100</TerrainPropData>
+      <TerrainPropData>P_Desert_05,10</TerrainPropData>
+      <TerrainPropData>P_Desert_06,100</TerrainPropData>
+      <TerrainPropData>P_Desert_07,10</TerrainPropData>
+      <TerrainPropData>P_Desert_08,5</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+	<TacticalMap>T_Fallen_Desert_01</TacticalMap>
+	<TacticalMap>T_Fallen_Desert_02</TacticalMap>
+	<TacticalMap>T_Fallen_Desert_03</TacticalMap>
+	<TacticalMap>T_Fallen_Desert_04</TacticalMap>
+	<TacticalMap>T_Fallen_Desert_05</TacticalMap>
+	<TacticalMap>T_Fallen_Desert_06</TacticalMap>
+	<TacticalMap>T_Fallen_Desert_07</TacticalMap>
+
+      <ClothMapColor>161,177,186</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TerrainPropData>P_Desert_01,10</TerrainPropData>
+      <TerrainPropData>P_Desert_02,100</TerrainPropData>
+      <TerrainPropData>P_Desert_03,100</TerrainPropData>
+      <TerrainPropData>P_Desert_04,100</TerrainPropData>
+      <TerrainPropData>P_Desert_05,10</TerrainPropData>
+      <TerrainPropData>P_Desert_06,100</TerrainPropData>
+      <TerrainPropData>P_Desert_07,10</TerrainPropData>
+      <TerrainPropData>P_Desert_08,5</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+	<TacticalMap>T_Grassland_Desert_01</TacticalMap>
+	<TacticalMap>T_Grassland_Desert_02</TacticalMap>
+	<TacticalMap>T_Grassland_Desert_03</TacticalMap>
+	<TacticalMap>T_Grassland_Desert_04</TacticalMap>
+	<TacticalMap>T_Grassland_Desert_05</TacticalMap>
+	<TacticalMap>T_Grassland_Desert_06</TacticalMap>
+	<TacticalMap>T_Grassland_Desert_07</TacticalMap>
+
+      <ClothMapColor>235,230,155</ClothMapColor>
+
+    </TerrainTypeEnvData>
+  </TerrainType>
+
+
+
+  <TerrainType InternalName="HillsTerrain">
+    <DisplayName>Hills</DisplayName>
+    <MaxHeight>120</MaxHeight>
+    <MinHeight>100</MinHeight>
+    <MovementCost>16</MovementCost>
+    <TerrainMovementNote>0.5x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>1</IsTerrainFeature>
+    <IsBaseTerrain>0</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>1</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>30</MinTilesPerSplat>
+    <MaxTilesPerSplat>100</MaxTilesPerSplat>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>4</MaxBrushRadius>
+    <PlacementOrder>3</PlacementOrder>
+    <SupportsSubTerrain>true</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <TerrainObjectGraphic>gfx/TacticalIcons/WorldMap_HillTiles_1.png</TerrainObjectGraphic>
+    <CannotBorder>Category:Water</CannotBorder>
+    <MapGenPlaceChance>30</MapGenPlaceChance>
+    <TerrainObjectType>Hills</TerrainObjectType>
+    <GenMethod>Radial</GenMethod>
+    <CannotBorder>SwampTerrain</CannotBorder>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/burnt_mountain.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Barren_Hills_01</TacticalMap>
+
+      <ClothMapColor>170,150,90</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/fallen_mountain.dds</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+      <TacticalMap>T_Fallen_Hills_01</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>140,155,165</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/lush_mountain.dds</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+      <TacticalMap>T_Grassland_Hills_01</TacticalMap>
+
+      <ClothMapColor>130,150,85</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainSubTypeData>
+      <SubTerrain>DesertTerrain</SubTerrain>
+      <Texture>gfx/terrain/burnt_mountain.dds</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+	<TacticalMap>T_Barren_Desert_01</TacticalMap>
+	<TacticalMap>T_Barren_Desert_02</TacticalMap>
+	<TacticalMap>T_Barren_Desert_03</TacticalMap>
+	<TacticalMap>T_Barren_Desert_04</TacticalMap>
+	<TacticalMap>T_Barren_Desert_05</TacticalMap>
+	<TacticalMap>T_Barren_Desert_06</TacticalMap>
+	<TacticalMap>T_Barren_Desert_07</TacticalMap>
+
+      <ClothMapColor>235,240,175</ClothMapColor>
+
+    </TerrainSubTypeData>
+    <TerrainSubTypeData>
+      <SubTerrain>ArcticTerrain</SubTerrain>
+      <Texture>gfx/terrain/Mountain_Comp.png</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+	<TacticalMap>T_Grassland_Arctic_01</TacticalMap>
+	<TacticalMap>T_Ruin_Arctic_01</TacticalMap>
+	<TacticalMap>T_Arctic_Arena_01</TacticalMap>
+
+      <ClothMapColor>155,155,155</ClothMapColor>
+
+    </TerrainSubTypeData>
+  </TerrainType>
+
+
+  <TerrainType InternalName="SwampTerrain">
+    <DisplayName>Swamp</DisplayName>
+    <MaxHeight>55</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>16</MovementCost>
+    <TerrainMovementNote>0.5x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>0</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>30</MinTilesPerSplat>
+    <MaxTilesPerSplat>100</MaxTilesPerSplat>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>4</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>2</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <TerrainObjectGraphic>gfx/TacticalIcons/WorldMap_SwampTiles_1.png</TerrainObjectGraphic>
+    <CannotBorder>Category:Water</CannotBorder>
+    <CannotBorder>Category:Mountain</CannotBorder>
+    <CannotBorder>DesertTerrain</CannotBorder>
+    <CannotBorder>ArcticTerrain</CannotBorder>
+    <CannotBorder>HillsTerrain</CannotBorder>
+    <MapGenPlaceChance>20</MapGenPlaceChance>
+    <TerrainObjectType>Swamp</TerrainObjectType>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/swamp.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+     	<TacticalMap>T_Barren_Swamp_01</TacticalMap>
+	<TacticalMap>T_Ruins_Swamp_01</TacticalMap>
+	<TacticalMap>T_Barren_Swamp_02</TacticalMap>
+
+      <ClothMapColor>140,145,105</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/swamp.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+     	<TacticalMap>T_Fallen_Swamp_01</TacticalMap>
+	<TacticalMap>T_Ruins_Swamp_01</TacticalMap>
+	<TacticalMap>T_Fallen_Swamp_02</TacticalMap>
+	
+
+      <ClothMapColor>105,129,148</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/swamp.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      	<TacticalMap>T_Grassland_Swamp_01</TacticalMap>
+	<TacticalMap>T_Ruins_Swamp_01</TacticalMap>
+	<TacticalMap>T_Grassland_Swamp_02</TacticalMap>
+
+      <ClothMapColor>115,135,105</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <!-- Change to SubTerrain
+    <TerrainTypeEnvData>
+      <Environment>Desert</Environment>
+      <Texture>gfx/terrain/swamp.dds</Texture>
+      	<TextureWeight>1.0000</TextureWeight>
+	<TacticalMap>T_Ruins_Swamp_01</TacticalMap>
+      	<TacticalMap>T_Barren_Swamp_01</TacticalMap>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Arctic</Environment>
+      <Texture>gfx/terrain/swamp.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Barren_Swamp_01</TacticalMap>
+    </TerrainTypeEnvData>
+-->
+
+
+  </TerrainType>
+  <TerrainType InternalName="ArcticTerrain">
+    <DisplayName>Arctic</DisplayName>
+    <MaxHeight>55</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>0</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>1</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>30</MinTilesPerSplat>
+    <MaxTilesPerSplat>120</MaxTilesPerSplat>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>4</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>2</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <TerrainObjectGraphic>gfx/TacticalIcons/WorldMap_ArcticTiles_1.png</TerrainObjectGraphic>
+    <CannotBorder>Category:Water</CannotBorder>
+    <CannotBorder>DesertTerrain</CannotBorder>
+    <CannotBorder>SwampTerrain</CannotBorder>
+    <MapGenPlaceChance>20</MapGenPlaceChance>
+    <TerrainObjectType>Arctic</TerrainObjectType>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/Snow_Grass_Rough.dds</Texture>
+      <TerrainPropData>P_Arctic_Land_01_Rocks,10</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_02_Trees,100</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_04_Tree,100</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_05_Tree,100</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+	<TacticalMap>T_Grassland_Arctic_01</TacticalMap>
+	<TacticalMap>T_Ruin_Arctic_01</TacticalMap>
+	<TacticalMap>T_Arctic_Arena_01</TacticalMap>
+
+      <ClothMapColor>255,255,255</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/Snow_Grass_Rough.png</Texture>
+      <TerrainPropData>P_Arctic_Land_01_Rocks,10</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_02_Trees,100</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_04_Tree,100</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_05_Tree,100</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+	<TacticalMap>T_Grassland_Arctic_01</TacticalMap>
+	<TacticalMap>T_Ruin_Arctic_01</TacticalMap>
+	<TacticalMap>T_Arctic_Arena_01</TacticalMap>
+
+      <ClothMapColor>174,194,236</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/Snow_grass.dds</Texture>
+      <TerrainPropData>P_Arctic_Land_G_01_Rocks,10</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_02_Trees,100</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_03_Rocks,100</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_04_Tree,100</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_05_Tree,10</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+	<TacticalMap>T_Grassland_Arctic_01</TacticalMap>
+	<TacticalMap>T_Ruin_Arctic_01</TacticalMap>
+	<TacticalMap>T_Arctic_Arena_01</TacticalMap>
+
+      <ClothMapColor>230,230,230</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <!-- Change to SubTerrain
+    <TerrainTypeEnvData>
+      <Environment>Desert</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TerrainPropData>P_Desert_01,10</TerrainPropData>
+      <TerrainPropData>P_Desert_02,100</TerrainPropData>
+      <TerrainPropData>P_Desert_03,100</TerrainPropData>
+      <TerrainPropData>P_Desert_04,100</TerrainPropData>
+      <TerrainPropData>P_Desert_05,10</TerrainPropData>
+      <TerrainPropData>P_Desert_06,100</TerrainPropData>
+      <TerrainPropData>P_Desert_07,10</TerrainPropData>
+      <TerrainPropData>P_Desert_08,5</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Desert_Desert_01</TacticalMap>
+      <TacticalMapFortify>T_Desert_Desert_Fortified_01</TacticalMapFortify>
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Arctic</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TerrainPropData>P_Desert_01,10</TerrainPropData>
+      <TerrainPropData>P_Desert_02,100</TerrainPropData>
+      <TerrainPropData>P_Desert_03,100</TerrainPropData>
+      <TerrainPropData>P_Desert_04,100</TerrainPropData>
+      <TerrainPropData>P_Desert_05,10</TerrainPropData>
+      <TerrainPropData>P_Desert_06,100</TerrainPropData>
+      <TerrainPropData>P_Desert_07,10</TerrainPropData>
+      <TerrainPropData>P_Desert_08,5</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Desert_Arctic_01</TacticalMap>
+      <TacticalMapFortify>T_Desert_Arctic_Fortified_01</TacticalMapFortify>
+    </TerrainTypeEnvData>
+-->
+
+  </TerrainType>
+  <TerrainType InternalName="MountainRange">
+    <DisplayName>Mountains</DisplayName>
+    <MaxHeight>180</MaxHeight>
+    <MinHeight>110</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>Blocked</TerrainMovementNote>
+    <Category>Mountain</Category>
+    <IsTerrainFeature>1</IsTerrainFeature>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>4</MaxBrushRadius>
+    <SupportsSubTerrain>true</SupportsSubTerrain>
+    <IsBaseTerrain>0</IsBaseTerrain>
+    <PassableByLandUnits>0</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>1</Indestructable>
+    <MapGenPlaceChance>40</MapGenPlaceChance>
+    <MinTilesPerSplat>20</MinTilesPerSplat>
+    <MaxTilesPerSplat>120</MaxTilesPerSplat>
+    <GenMethod>Linear</GenMethod>
+    <PlacementOrder>7</PlacementOrder>
+    <SuperCategory>Land</SuperCategory>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Cliff</CannotBorder>
+    <CannotBorder>SwampTerrain</CannotBorder>
+    <TerrainObjectType>Mountain</TerrainObjectType>
+    <TerrainName>Misty Mountains</TerrainName>
+    <TerrainName>Hills of Shadow</TerrainName>
+    <TerrainName>Hunters' Ridges</TerrainName>
+    <TerrainName>Peaks of Death</TerrainName>
+    <TerrainName>Ash Mountains</TerrainName>
+    <TerrainName>Iron Hills</TerrainName>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/burnt_mountain.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+
+      <ClothMapColor>165,135,65</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/fallen_mountain.dds</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>105,125,145</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/lush_mountain.dds</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+
+      <ClothMapColor>115,125,60</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainSubTypeData>
+      <SubTerrain>DesertTerrain</SubTerrain>
+      <Texture>gfx/terrain/burnt_mountain.dds</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+
+      <ClothMapColor>165,130,65</ClothMapColor>
+    </TerrainSubTypeData>
+    <TerrainSubTypeData>
+      <SubTerrain>ArcticTerrain</SubTerrain>
+      <Texture>gfx/terrain/Mountain_Comp.png</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+
+      <ClothMapColor>200,200,200</ClothMapColor>
+    </TerrainSubTypeData>
+  </TerrainType>
+
+
+  <TerrainType InternalName="MountainSide">
+    <DisplayName>Mountainside</DisplayName>
+    <MaxHeight>95</MaxHeight>
+    <MinHeight>70</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>Blocked</TerrainMovementNote>
+    <Category>Mountain</Category>
+    <IsTerrainFeature>1</IsTerrainFeature>
+    <MinBrushRadius>1</MinBrushRadius>
+    <MaxBrushRadius>1</MaxBrushRadius>
+    <SupportsSubTerrain>true</SupportsSubTerrain>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <IsBorderTerrain>1</IsBorderTerrain>
+    <PassableByLandUnits>0</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>1</Indestructable>
+    <MapGenPlaceChance>100</MapGenPlaceChance>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <GenMethod>Linear</GenMethod>
+    <PlacementOrder>8</PlacementOrder>
+    <SuperCategory>Land</SuperCategory>
+    <MustBorder>MountainRange</MustBorder>
+    <TerrainObjectType>Mountain</TerrainObjectType>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/burnt_mountain.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Barren_MountainSide_01</TacticalMap>
+
+      <ClothMapColor>175,155,95</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/fallen_mountain.dds</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+      <TacticalMap>T_Fallen_MountainSide_01</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>130,150,160</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/lush_mountain.dds</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+      <TacticalMap>T_Grassland_MountainSide_01</TacticalMap>
+
+      <ClothMapColor>125,150,85</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainSubTypeData>
+      <SubTerrain>DesertTerrain</SubTerrain>
+      <Texture>gfx/terrain/burnt_mountain.dds</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+<ClothMapColor>235,225,170</ClothMapColor>
+    </TerrainSubTypeData>
+
+    <TerrainSubTypeData>
+      <SubTerrain>ArcticTerrain</SubTerrain>
+      <Texture>gfx/terrain/Mountain_Comp.png</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <ClothMapColor>155,155,155</ClothMapColor>
+    </TerrainSubTypeData>
+  </TerrainType>
+
+
+  <TerrainType InternalName="Forest">
+    <DisplayName>Forest</DisplayName>
+    <MaxHeight>55</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>16</MovementCost>
+    <TerrainMovementNote>0.5x Movement</TerrainMovementNote>
+    <Category>Forest</Category>
+    <MinTilesPerSplat>30</MinTilesPerSplat>
+    <MaxTilesPerSplat>100</MaxTilesPerSplat>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>4</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <SupportsSubTerrain>true</SupportsSubTerrain>
+    <SuperCategory>Land</SuperCategory>
+    <IsTerrainFeature>1</IsTerrainFeature>
+    <IsBaseTerrain>0</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>1</Indestructable>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water</CannotBorder>
+    <CannotBorder>DesertTerrain</CannotBorder>
+    <MapGenPlaceChance>40</MapGenPlaceChance>
+    <PlacementOrder>4</PlacementOrder>
+    <TerrainObjectType>Forest</TerrainObjectType>
+    <TerrainObjectGraphic>gfx/TacticalIcons/WorldMap_ForestTiles_1.png</TerrainObjectGraphic>
+    <TerrainName>Lakewood</TerrainName>
+    <TerrainName>Mirkwood</TerrainName>
+    <TerrainName>Fangorn Forest</TerrainName>
+    <TerrainName>Tykoski Pines</TerrainName>
+    <!-- City tile yield modifiers -->
+    <GameModifier InternalName="CityTileYield_Forest">
+      <ModType>Resource</ModType>
+      <Attribute>TileYieldMaterials</Attribute>
+      <Value>1.5</Value>
+      <PerTurn>1</PerTurn>
+    </GameModifier>
+    <!-- Unit defense modifiers -->
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/barren_ground_fertile.dds</Texture>
+      <TextureWeight>0.3000</TextureWeight>
+      <TacticalMap>T_Barren_Forest_01</TacticalMap>
+
+      <ClothMapColor>185,175,120</ClothMapColor>
+      <TerrainObjectGraphic>gfx/TacticalIcons/WorldMap_BarrenForestTiles_1.png</TerrainObjectGraphic>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/fallen_ground_fertile.dds</Texture>
+      <TextureWeight>0.5000</TextureWeight>
+      <TacticalMap>T_Fallen_Forest_01</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>95,130,140</ClothMapColor>
+      <TerrainObjectGraphic>gfx/TacticalIcons/WorldMap_DeadForestTiles_1.png</TerrainObjectGraphic>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/light_grass_fertile.dds</Texture>
+      <TacticalMap>T_Grassland_Forest_01</TacticalMap>
+      <TextureWeight>0.3000</TextureWeight>
+
+      <ClothMapColor>135,155,65</ClothMapColor>
+      <TerrainObjectGraphic>gfx/TacticalIcons/WorldMap_GrasslandForestTiles_1.png</TerrainObjectGraphic>
+
+    </TerrainTypeEnvData>
+    <!-- Change to SubTerrain
+
+    <TerrainTypeEnvData>
+      <Environment>Desert</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TextureWeight>0.3000</TextureWeight>
+      <TacticalMap>T_Forest_Desert_01</TacticalMap>
+      <TacticalMapFortify>T_Land_Desert_Fortified_01</TacticalMapFortify>
+    </TerrainTypeEnvData>
+-->
+    <TerrainSubTypeData>
+      <SubTerrain>ArcticTerrain</SubTerrain>
+      <TerrainObjectType>ArcticForest01</TerrainObjectType>
+      <Texture>gfx/terrain/Snow_Grass.dds</Texture>
+	<TacticalMap>T_Grassland_Arctic_01</TacticalMap>
+	<TacticalMap>T_Ruin_Arctic_01</TacticalMap>
+	<TacticalMap>T_Arctic_Arena_01</TacticalMap>
+
+      <ClothMapColor>155,155,155</ClothMapColor>
+      <TacticalMapFortify>T_Forest_Arctic_Fortified_01</TacticalMapFortify>
+      <TextureWeight>0.3000</TextureWeight>
+      <TerrainObjectGraphic>gfx/TacticalIcons/WorldMap_ArcticForestTiles_1.png</TerrainObjectGraphic>
+    </TerrainSubTypeData>
+  </TerrainType>
+  <TerrainType InternalName="Beach">
+    <DisplayName>Beach</DisplayName>
+    <MaxHeight>55</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Beach</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>4</MaxBrushRadius>
+    <PlacementOrder>9</PlacementOrder>
+    <SupportsSubTerrain>true</SupportsSubTerrain>
+    <SuperCategory>Coastal</SuperCategory>
+    <IsBorderTerrain>1</IsBorderTerrain>
+    <MustBorder>Category:Water</MustBorder>
+    <MustBorder>Category:Land</MustBorder>
+    <MapGenPlaceChance>0</MapGenPlaceChance>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TextureWeight>0.8000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <TacticalMapFortify>T_Beach_Barren_Fortify_01</TacticalMapFortify>
+
+      <ClothMapColor>235,225,170</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <TextureWeight>0.8000</TextureWeight>
+
+      <ClothMapColor>230,225,200</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <TextureWeight>0.8000</TextureWeight>
+
+      <ClothMapColor>235,230,155</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainSubTypeData>
+      <SubTerrain>DesertTerrain</SubTerrain>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TextureWeight>0.2000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+    </TerrainSubTypeData>
+    <TerrainSubTypeData>
+      <SubTerrain>ArcticTerrain</SubTerrain>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <TextureWeight>0.8000</TextureWeight>
+    </TerrainSubTypeData>
+  </TerrainType>
+
+
+  <TerrainType InternalName="Cliff">
+    <DisplayName>Cliff</DisplayName>
+    <MaxHeight>0</MaxHeight>
+    <MinHeight>0</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>Blocked</TerrainMovementNote>
+    <Category>Cliff</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>0</IsBaseTerrain>
+    <PassableByLandUnits>0</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>75</MaxTilesPerSplat>
+    <MinBrushRadius>1</MinBrushRadius>
+    <MaxBrushRadius>1</MaxBrushRadius>
+    <PlacementOrder>9</PlacementOrder>
+    <SupportsSubTerrain>true</SupportsSubTerrain>
+    <SuperCategory>Coastal</SuperCategory>
+    <IsBorderTerrain>1</IsBorderTerrain>
+    <MustBorder>Category:Water</MustBorder>
+    <MustBorder>Category:Land</MustBorder>
+    <CannotBorder>Category:Mountain</CannotBorder>
+    <MapGenPlaceChance>100</MapGenPlaceChance>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/barren_ground_rough.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>176,145,75</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/fallen_ground.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>140,155,165</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/light_grass.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <DistanceFogColor>200,220,228</DistanceFogColor>
+
+      <ClothMapColor>125,140,85</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainSubTypeData>
+      <SubTerrain>ArcticTerrain</SubTerrain>
+      <Texture>gfx/terrain/Snow_Grass.dds</Texture>
+      <TacticalMap>T_Forest_Arctic_01</TacticalMap>
+      <TacticalMapFortify>T_Forest_Arctic_Fortified_01</TacticalMapFortify>
+      <TextureWeight>1.000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+    </TerrainSubTypeData>
+    <TerrainSubTypeData>
+      <SubTerrain>DesertTerrain</SubTerrain>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+    </TerrainSubTypeData>
+  </TerrainType>
+
+
+  <TerrainType InternalName="River">
+    <DisplayName>River</DisplayName>
+    <MaxHeight>50</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>48</MovementCost>
+    <TerrainMovementNote>Ends Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>1</IsTerrainFeature>
+    <IsBaseTerrain>0</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>1</MinBrushRadius>
+    <MaxBrushRadius>1</MaxBrushRadius>
+    <PlacementOrder>10</PlacementOrder>
+    <SupportsSubTerrain>true</SupportsSubTerrain>
+    <IsBorderTerrain>1</IsBorderTerrain>
+    <MapGenPlaceChance>0</MapGenPlaceChance>
+    <AmbientColor>10,5,0,255</AmbientColor>
+    <DiffuseColor>350,350,360,255</DiffuseColor>
+    <RimLightColor0>155,150,255,255</RimLightColor0>
+    <RimLightColor1>255,225,50,255</RimLightColor1>
+    <CannotBorder>Chasm</CannotBorder>
+    <CannotBorder>ChasmEdge</CannotBorder>
+    <CannotBorder>Category:Water</CannotBorder>
+    <!-- City tile yield modifiers -->
+    <GameModifier InternalName="CityTileYield_River_Grain">
+      <ModType>Resource</ModType>
+      <Attribute>TileYieldGrain</Attribute>
+      <Value>1.5</Value>
+      <PerTurn>1</PerTurn>
+    </GameModifier>
+    <GameModifier InternalName="CityTileYield_River_Materials">
+      <ModType>Resource</ModType>
+      <Attribute>TileYieldMaterials</Attribute>
+      <Value>1.5</Value>
+      <PerTurn>1</PerTurn>
+    </GameModifier>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/barren_ground_fertile.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Barren_River_01</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>185,175,120</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/fallen_ground_fertile.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Fallen_River_01</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>140,175,170</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/light_grass_fertile.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Grassland_River_01</TacticalMap>
+      <DistanceFogColor>200,220,228</DistanceFogColor>
+
+      <ClothMapColor>155,160,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainSubTypeData>
+      <SubTerrain>DesertTerrain</SubTerrain>
+      <Texture>gfx/terrain/barren_ground_Blighted.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+    </TerrainSubTypeData>
+    <TerrainSubTypeData>
+      <SubTerrain>ArcticTerrain</SubTerrain>
+      <Texture>gfx/Snow_Grass_Rough.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+    </TerrainSubTypeData>
+    <TerrainSubTypeData>
+      <SubTerrain>SwampTerrain</SubTerrain>
+      <Texture>gfx/terrain/swamp.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+    </TerrainSubTypeData>
+  </TerrainType>
+
+
+  <TerrainType InternalName="City">
+    <DisplayName>City</DisplayName>
+    <MaxHeight>50</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>City</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>0</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>0</MinBrushRadius>
+    <MaxBrushRadius>0</MaxBrushRadius>
+    <PlacementOrder>-1</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water</CannotBorder>
+    <MapGenPlaceChance>0</MapGenPlaceChance>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/Terrain_City_Dirt.dds</Texture>
+      <TextureWeight>0.8000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>225,215,180</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/Terrain_City_Dirt.dds</Texture>
+      <TextureWeight>0.8000</TextureWeight>
+      <TacticalMap>T_Fallen_City_01</TacticalMap>
+      <TacticalMap>T_Fallen_City_02</TacticalMap>
+      <TacticalMap>T_Fallen_City_03</TacticalMap>
+      <TacticalMap>T_Fallen_City_09</TacticalMap>
+      <TacticalMap>T_Fallen_City_10</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>200,200,210</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/Terrain_City_Dirt.dds</Texture>
+      <TextureWeight>0.8000</TextureWeight>
+      <TacticalMap>T_Grassland_City_01</TacticalMap>
+      <TacticalMap>T_Grassland_City_02</TacticalMap>
+      <TacticalMap>T_Grassland_City_03</TacticalMap>
+      <TacticalMap>T_Grassland_City_04</TacticalMap>
+      <TacticalMap>T_Grassland_City_05</TacticalMap>
+      <TacticalMap>T_Grassland_City_06</TacticalMap>
+      <TacticalMap>T_Grassland_City_07</TacticalMap>
+      <TacticalMap>T_Grassland_City_08</TacticalMap>
+      <TacticalMap>T_Grassland_City_09</TacticalMap>
+      <TacticalMap>T_Grassland_City_10</TacticalMap>
+      <TacticalMap>T_Grassland_City_11</TacticalMap>
+      <TacticalMap>T_Grassland_City_12</TacticalMap>
+      <TacticalMap>T_Grassland_City_13</TacticalMap>
+      <TacticalMap>T_Grassland_City_14</TacticalMap>
+      <TacticalMap>T_Grassland_City_15</TacticalMap>
+      <DistanceFogColor>200,220,228</DistanceFogColor>
+
+      <ClothMapColor>225,215,180</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <!-- Change to SubTerrain
+    <TerrainTypeEnvData>
+      <Environment>Desert</Environment>
+      <Texture>gfx/terrain/Terrain_City_Dirt.dds</Texture>
+      <TextureWeight>0.8000</TextureWeight>
+      <TacticalMap>t_city_grassland_01</TacticalMap>
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Arctic</Environment>
+      <Texture>gfx/terrain/Terrain_City_Dirt.dds</Texture>
+      <TextureWeight>0.8000</TextureWeight>
+      <TacticalMap>t_city_grassland_01</TacticalMap>
+    </TerrainTypeEnvData>
+-->
+  </TerrainType>
+
+
+  <TerrainType InternalName="Submerged">
+    <DisplayName>Ocean</DisplayName>
+    <MaxHeight>0</MaxHeight>
+    <MinHeight>0</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>Blocked</TerrainMovementNote>
+    <Category>Water</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>0</PassableByLandUnits>
+    <PassableByWaterUnits>1</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>1</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>0</MinBrushRadius>
+    <MaxBrushRadius>0</MaxBrushRadius>
+    <PlacementOrder>0</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Land</CannotBorder>
+    <MapGenPlaceChance>100</MapGenPlaceChance>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TextureWeight>0.2000</TextureWeight>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>205,185,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TextureWeight>0.2000</TextureWeight>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>205,185,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TextureWeight>0.2000</TextureWeight>
+      <DistanceFogColor>200,220,228</DistanceFogColor>
+
+      <ClothMapColor>205,185,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <!-- Change to SubTerrain
+    <TerrainTypeEnvData>
+      <Environment>Desert</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TextureWeight>0.2000</TextureWeight>
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Arctic</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TextureWeight>0.2000</TextureWeight>
+    </TerrainTypeEnvData>
+-->
+  </TerrainType>
+  <!-- Wildlands Only -->
+  <TerrainType InternalName="BurningLands">
+    <DisplayName>Burning Lands</DisplayName>
+    <MaxHeight>80</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>0</MinBrushRadius>
+    <MaxBrushRadius>0</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>-1</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water</CannotBorder>
+    <MapGenPlaceChance>0</MapGenPlaceChance>
+    <AmbientColor>10,0,0</AmbientColor>
+    <DiffuseColor>360,350,300</DiffuseColor>
+    <RimLightColor0>160,0,0</RimLightColor0>
+    <RimLightColor1>200,100,0</RimLightColor1>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/burninglands_ground.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Burninglands_01</TacticalMap>
+      <DistanceFogColor>239,98,54</DistanceFogColor>
+
+      <ClothMapColor>130,115,95</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/fallen_ground_rough.dds</Texture>
+      <TerrainPropData>P_Fallen_Rugged_Land_01,25</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_02,50</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_03,25</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_04,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_05,40</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_06,100</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Burninglands_01</TacticalMap>
+      <DistanceFogColor>170,160,195</DistanceFogColor>
+
+      <ClothMapColor>205,185,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/light_grass_rough.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TerrainPropData>P_Grassland_01,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_02,50</TerrainPropData>
+      <TerrainPropData>P_Grassland_03,30</TerrainPropData>
+      <TerrainPropData>P_Grassland_04,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_05,90</TerrainPropData>
+      <TacticalMap>T_Burninglands_01</TacticalMap>
+      <DistanceFogColor>239,98,54</DistanceFogColor>
+
+      <ClothMapColor>205,185,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+  </TerrainType>
+  <TerrainType InternalName="Fissure">
+    <DisplayName>Bhinadmi Fissure</DisplayName>
+    <MaxHeight>50</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>0</MinBrushRadius>
+    <MaxBrushRadius>0</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>-1</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water</CannotBorder>
+    <MapGenPlaceChance>0</MapGenPlaceChance>
+    <AmbientColor>20,40,60</AmbientColor>
+    <DiffuseColor>350,350,350</DiffuseColor>
+    <RimLightColor0>0,165,140</RimLightColor0>
+    <RimLightColor1>100,200,255</RimLightColor1>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/Chasm_Floor_01.dds</Texture>
+      <TacticalMap>T_Barren_Chasm_01</TacticalMap>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <ClothMapColor>140,180,170</ClothMapColor>
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/fallen_ground_rough.dds</Texture>
+      <TerrainPropData>P_Fallen_Rugged_Land_01,25</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_02,50</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_03,25</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_04,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_05,40</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_06,100</TerrainPropData>
+      <TacticalMap>T_Fallen_Chasm_01</TacticalMap>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <ClothMapColor>125,160,195</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/light_grass_rough.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TerrainPropData>P_Grassland_01,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_02,50</TerrainPropData>
+      <TerrainPropData>P_Grassland_03,30</TerrainPropData>
+      <TerrainPropData>P_Grassland_04,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_05,90</TerrainPropData>
+      <TacticalMap>T_Grassland_Chasm_01</TacticalMap>
+
+      <ClothMapColor>140,180,170</ClothMapColor>
+
+    </TerrainTypeEnvData>
+  </TerrainType>
+  <TerrainType InternalName="CurgensTomb">
+    <DisplayName>Curgens Tomb</DisplayName>
+    <MaxHeight>50</MaxHeight>
+    <MinHeight>60</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>0</MinBrushRadius>
+    <MaxBrushRadius>0</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>-1</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water</CannotBorder>
+    <MapGenPlaceChance>0</MapGenPlaceChance>
+    <AmbientColor>20,40,60</AmbientColor>
+    <DiffuseColor>350,350,350</DiffuseColor>
+    <RimLightColor0>0,165,140</RimLightColor0>
+    <RimLightColor1>100,200,255</RimLightColor1>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/W_Curgens_Tomb_01.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <ClothMapColor>180,180,175</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/W_Curgens_Tomb_01.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <ClothMapColor>180,180,175</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/W_Curgens_Tomb_01.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <ClothMapColor>180,180,175</ClothMapColor>
+
+    </TerrainTypeEnvData>
+  </TerrainType>
+  <TerrainType InternalName="Imperium">
+    <DisplayName>Imperium</DisplayName>
+    <MaxHeight>50</MaxHeight>
+    <MinHeight>60</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>0</MinBrushRadius>
+    <MaxBrushRadius>0</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>-1</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water</CannotBorder>
+    <MapGenPlaceChance>0</MapGenPlaceChance>
+    <GameModifier InternalName="CityTileYield_Fertile">
+      <ModType>Resource</ModType>
+      <Attribute>TileYieldGrain</Attribute>
+      <Value>1.5</Value>
+      <PerTurn>1</PerTurn>
+    </GameModifier>
+    <AmbientColor>10,5,0,255</AmbientColor>
+    <DiffuseColor>350,350,360,255</DiffuseColor>
+    <RimLightColor0>155,150,255,255</RimLightColor0>
+    <RimLightColor1>255,225,50,255</RimLightColor1>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/fallen_ground_rough.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <ClothMapColor>150,160,165</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/fallen_ground_fertile.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <ClothMapColor>150,160,165</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/light_grass_rough.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <ClothMapColor>205,185,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+  </TerrainType>
+  <TerrainType InternalName="Scrapyard">
+    <DisplayName>The Scrapyard</DisplayName>
+    <MaxHeight>50</MaxHeight>
+    <MinHeight>60</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>0</MinBrushRadius>
+    <MaxBrushRadius>0</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>-1</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water</CannotBorder>
+    <MapGenPlaceChance>0</MapGenPlaceChance>
+    <GameModifier InternalName="CityTileYield_Fertile">
+      <ModType>Resource</ModType>
+      <Attribute>TileYieldGrain</Attribute>
+      <Value>1.5</Value>
+      <PerTurn>1</PerTurn>
+    </GameModifier>
+    <AmbientColor>10,5,0,255</AmbientColor>
+    <DiffuseColor>350,350,360,255</DiffuseColor>
+    <RimLightColor0>155,150,255,255</RimLightColor0>
+    <RimLightColor1>255,225,50,255</RimLightColor1>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/Scrapyard_01.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <ClothMapColor>175,120,90</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/Scrapyard_01.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <ClothMapColor>170,160,195</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/Scrapyard_01.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <ClothMapColor>205,185,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+  </TerrainType>
+  <TerrainType InternalName="CaveWall">
+    <DisplayName>Cave Wall</DisplayName>
+    <MaxHeight>30</MaxHeight>
+    <MinHeight>30</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>Blocked</TerrainMovementNote>
+    <Category>Mountain</Category>
+    <IsTerrainFeature>1</IsTerrainFeature>
+    <MinBrushRadius>1</MinBrushRadius>
+    <MaxBrushRadius>1</MaxBrushRadius>
+    <SupportsSubTerrain>true</SupportsSubTerrain>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <IsBorderTerrain>1</IsBorderTerrain>
+    <PassableByLandUnits>0</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>0</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>1</Indestructable>
+    <MapGenPlaceChance>0</MapGenPlaceChance>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <GenMethod>Linear</GenMethod>
+    <PlacementOrder>8</PlacementOrder>
+    <SuperCategory>Land</SuperCategory>
+    <MustBorder>Unknown</MustBorder>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/burnt_mountain.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <ClothMapColor>205,185,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/fallen_mountain.dds</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>205,185,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/lush_mountain.dds</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+
+      <ClothMapColor>205,185,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainSubTypeData>
+      <SubTerrain>DesertTerrain</SubTerrain>
+      <Texture>gfx/terrain/burnt_mountain.dds</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+    </TerrainSubTypeData>
+    <TerrainSubTypeData>
+      <SubTerrain>ArcticTerrain</SubTerrain>
+      <Texture>gfx/terrain/Mountain_Comp.png</Texture>
+      <TextureWeight>1.3000</TextureWeight>
+    </TerrainSubTypeData>
+  </TerrainType>
+  <TerrainType InternalName="Unknown">
+    <DisplayName>Unknown Terrain</DisplayName>
+    <MaxHeight>140</MaxHeight>
+    <MinHeight>140</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>Blocked</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>1</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>0</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>0</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>0</MinBrushRadius>
+    <MaxBrushRadius>0</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>-1</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water</CannotBorder>
+    <MapGenPlaceChance>0</MapGenPlaceChance>
+    <GameModifier InternalName="CityTileYield_Fertile">
+      <ModType>Resource</ModType>
+      <Attribute>TileYieldGrain</Attribute>
+      <Value>1.5</Value>
+      <PerTurn>1</PerTurn>
+    </GameModifier>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/Map_Parchment_Tile_Fog_Black.png</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>205,185,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/Map_Parchment_Tile_Fog_Black.png</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>205,185,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/Map_Parchment_Tile_Fog_Black.png</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <DistanceFogColor>200,220,228</DistanceFogColor>
+
+      <ClothMapColor>205,185,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+
+    <TerrainSubTypeData>
+      <SubTerrain>ArcticTerrain</SubTerrain>
+      <Texture>gfx/Map_Parchment_Tile_Fog_Black.png</Texture>
+      <TacticalMap>T_Forest_Arctic_01</TacticalMap>
+      <TacticalMapFortify>T_Forest_Arctic_Fortified_01</TacticalMapFortify>
+      <TextureWeight>1.000</TextureWeight>
+    </TerrainSubTypeData>
+    <TerrainSubTypeData>
+      <SubTerrain>DesertTerrain</SubTerrain>
+      <Texture>gfx/Map_Parchment_Tile_Fog_Black.png</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+    </TerrainSubTypeData>
+  </TerrainType>
+ <TerrainType InternalName="Tomb">
+    <DisplayName>Tomb</DisplayName>
+    <MaxHeight>50</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>0</MinBrushRadius>
+    <MaxBrushRadius>0</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>-1</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water</CannotBorder>
+    <MapGenPlaceChance>0</MapGenPlaceChance>
+    <AmbientColor>20,40,60</AmbientColor>
+    <DiffuseColor>350,350,350</DiffuseColor>
+    <RimLightColor0>0,165,140</RimLightColor0>
+    <RimLightColor1>100,200,255</RimLightColor1>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/CobblestoneGround.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <ClothMapColor>180,180,175</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/CobblestoneGround.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <ClothMapColor>180,180,175</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/CobblestoneGround.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <ClothMapColor>180,180,175</ClothMapColor>
+
+    </TerrainTypeEnvData>
+  </TerrainType>
+</TerrainTypes>

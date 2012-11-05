@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Created with the Elemental Editor -->
+<!-- CoreWorldResources.xml -->
+<!-- -->
+<ResourceTypes>
+    <DataChecksum NoParse="1">
+        <Ignore>DisplayName</Ignore>
+        <Translate>DisplayName,Description</Translate>
+    </DataChecksum>
+    <ResourceType InternalName="Feature_FloodedGraveyard">
+        <DisplayName>Flooded Graveyard</DisplayName>
+        <Type>FloodedGraveyard</Type>
+        <Description>Build a Monument here to tap into the Death power of this location.</Description>
+        <LongDescription>A great battle was fought here and the unnamed dead were buried where they fell.   When the cataclysm struck, the land flooded, and corpses floated to the surface of the mire and muck.</LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>SwampTerrain</PreferredTerrain>
+        <Rarity>-1</Rarity>
+        <Unique>1</Unique>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Swamp_Tomb</OnSelectSFX>
+        <EnvironmentType>DeadEnvironment</EnvironmentType>
+        <EnvironmentSpreadIntensity>100</EnvironmentSpreadIntensity>
+        <EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>3.5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>3</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Res_FloodedGraveyard.png</All>
+        </Medallions>
+        <Icon>Resource_FloodedGraveyard.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_FloodedGraveyard.png</ClothIcon>
+        <TileDesign>R_Flooded_Graveyard_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Feature_Holhiarn">
+        <DisplayName>Holhiarn</DisplayName>
+        <Type>Holhiarn</Type>
+        <Description>Build a Mine here to produce Metal.</Description>
+        <LongDescription>Here lies a vast, ancient mining complex, rumored to have been dug by the Veladrii of old. It has never been mapped in its entirety; colonies of Earth Shrills are said to nest still in its forgotten corners.</LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <Rarity>100</Rarity>
+        <Unique>1</Unique>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <HarvestType>Mining</HarvestType>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <Stored>0</Stored>
+        <RummagedPerTurn>1</RummagedPerTurn>
+        <OnSelectSFX>Click_Crystal_Rubble</OnSelectSFX>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldMaterials</Attribute>
+            <Value>9</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>10</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Res_Holhiarn.png</All>
+        </Medallions>
+        <Icon>Resource_Holhiarn.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_Holhiarn.png</ClothIcon>
+        <TileDesign>R_Holhiarn_01</TileDesign>
+        <ModelColor>32,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Feature_HowlingChasm">
+        <DisplayName>Howling Chasm</DisplayName>
+        <Type>HowlingChasm</Type>
+        <Description>Build a Monument here to tap into the Air power of this location.</Description>
+        <LongDescription>The storms of the world - powerful winds, a constant, deafening roar of air - rush through this bottomless chasm, as if a hole had been torn in Elemental itself.  </LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <Rarity>100</Rarity>
+        <Unique>1</Unique>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Air_Shard_2</OnSelectSFX>
+        <EnvironmentType>DeadEnvironment</EnvironmentType>
+        <EnvironmentSpreadIntensity>100</EnvironmentSpreadIntensity>
+        <EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>3.5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>3</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Res_HowlingChasm.png</All>
+        </Medallions>
+        <Icon>Resource_HowlingChasm.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_HowlingChasm.png</ClothIcon>
+        <TileDesign>R_Howling_Chasm_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Feature_IruTAlavar">
+        <DisplayName>Iru T'Alavar</DisplayName>
+        <Type>IruTAlavar</Type>
+        <Description>Build a Monument here to tap into the Life power of this location.</Description>
+        <LongDescription>Here is the Valley of the Iru - a land untouched by the cataclysm, a land rippling with power of a world whole and undamaged, a memory of a time - and a place - that is no more. </LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Fertile_Land</PreferredTerrain>
+        <Rarity>100</Rarity>
+        <Unique>1</Unique>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <Stored>0</Stored>
+        <OnSelectSFX>Click_Life_Shard_2</OnSelectSFX>
+        <EnvironmentType>GrasslandEnvironment</EnvironmentType>
+        <EnvironmentSpreadIntensity>100</EnvironmentSpreadIntensity>
+        <EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldGrain</Attribute>
+            <Value>9</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>6</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Res_IruT'Alavar.png</All>
+        </Medallions>
+        <Icon>Resource_IruTAlavar.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Improvement_IruTAlavar.png</ClothIcon>
+        <TileDesign>R_Iru_Talavar_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Feature_PillarOfMascrinthus">
+        <DisplayName>Pillar of Mascrinthus</DisplayName>
+        <Type>PillarOfMascrinthus</Type>
+        <Description>Build a Monument here to tap into the Earth power of this location.</Description>
+        <LongDescription>Here stands a monolith ancient beyond measure, a stone tower bearing the Sigil of Mascrinthus - an immortal being whose power is said to lay dormant in the ground beneath this pillar, waiting to be tapped.</LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <Rarity>100</Rarity>
+        <Unique>1</Unique>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Earth_Shard2</OnSelectSFX>
+        <EnvironmentType>DeadEnvironment</EnvironmentType>
+        <EnvironmentSpreadIntensity>100</EnvironmentSpreadIntensity>
+        <EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>3.5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>3</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Res_PillarofMascrinthus.png</All>
+        </Medallions>
+        <Icon>Resource_PillarsOfMascrinthus.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_PillarsOfMascrinthus.png</ClothIcon>
+        <TileDesign>R_Pillers_of_Mascrinthus_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Feature_PitOfSarpah">
+        <DisplayName>Pit of Sarpah</DisplayName>
+        <Type>PitOfSarpah</Type>
+        <Description>Build a Monument here to tap into the Fire power of this location.</Description>
+        <LongDescription>As the Cataclysm raged, as the fires of civilization were extinguished and Elemental entered a long, dark, savage night, thousands of serpents were drawn here, to the Pit of Sarpah, where they basked in the warmth of its volcanic fissures.</LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <Rarity>100</Rarity>
+        <Unique>1</Unique>
+        <GuardianSpawnChance>100</GuardianSpawnChance>
+        <GuardianSpawn>AshwakeDragon</GuardianSpawn>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Fire_Shard_2</OnSelectSFX>
+        <EnvironmentType>DeadEnvironment</EnvironmentType>
+        <EnvironmentSpreadIntensity>100</EnvironmentSpreadIntensity>
+        <EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>3.5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>3</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Res_PitofSarpah.png</All>
+        </Medallions>
+        <Icon>Resource_PitOfSarpah.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_PitOfSarpah.png</ClothIcon>
+        <TileDesign>R_Pit_of_Sarpah_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Feature_Puraudrah">
+        <DisplayName>Puraudrah</DisplayName>
+        <Type>Puraudrah</Type>
+        <Description>Build a Monument here to tap into the Water power of this location.</Description>
+        <LongDescription>Here is the source of the continent's greatest rivers, the lifeblood of Elemental, the world's largest lake. Puraudrah is said to have been created by the Elemental Lord Poseirys, who summoned the world's waters to him in his hour of need, his battle against the Titan Curgen. </LongDescription>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>River</PreferredTerrain>
+        <Rarity>-1</Rarity>
+        <Unique>1</Unique>
+        <GuardianSpawnChance>100</GuardianSpawnChance>
+        <GuardianSpawn>Slag</GuardianSpawn>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Water_Shard_2</OnSelectSFX>
+        <EnvironmentType>DeadEnvironment</EnvironmentType>
+        <EnvironmentSpreadIntensity>100</EnvironmentSpreadIntensity>
+        <EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldGrain</Attribute>
+            <Value>9</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>3</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Res_Puraudrah.png</All>
+        </Medallions>
+        <Icon>Resource_Puraudrah.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_Puraudrah.png</ClothIcon>
+        <TileDesign>R_Puraudrah_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Feature_TempleOfTheDragon">
+        <DisplayName>Temple of the Dragon</DisplayName>
+        <Type>TempleOfTheDragon</Type>
+        <Description>Rebuild the Temple of the Dragon here to be able to recruit dragons.</Description>
+        <LongDescription>The stone fragments scattered here bear the mark of the Dragon - the symbol of the great beasts who once ruled this world. Long before the Titans came to this world, a Temple devoted to the worship of Elemental's most powerful beings stood here.</LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <Rarity>100</Rarity>
+        <Unique>1</Unique>
+        <GuardianSpawnChance>100</GuardianSpawnChance>
+        <GuardianSpawn>Sarog</GuardianSpawn>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Dragon_Lair_Rocky</OnSelectSFX>
+        <EnvironmentType>DeadEnvironment</EnvironmentType>
+        <EnvironmentSpreadIntensity>100</EnvironmentSpreadIntensity>
+        <EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>3.5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>3</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Res_TempleoftheDragon.png</All>
+        </Medallions>
+        <Icon>Resource_TempleOfTheDragon.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_TempleOfTheDragon.png</ClothIcon>
+        <TileDesign>R_Temple_of_the_Dragon_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Resource_CrystalCrag">
+        <DisplayName>Crystal Crag</DisplayName>
+        <Type>Crystal</Type>
+        <Description>Build a Crystal Foundry here to produce Crystal.</Description>
+        <LongDescription>An outcropping of glittering stones dots the hillside here. These are crystals and rocks which are said to contain the primal, magical essence of Elemental itself.</LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <MinPerPlayer>1.5</MinPerPlayer>
+        <Rarity>400</Rarity>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <HarvestType>Mining</HarvestType>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Crystal_Rubble</OnSelectSFX>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>3</AIPriority>
+            <AITag>Crystal</AITag>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Crystals.png</All>
+        </Medallions>
+        <Icon>Resource_CrystalCrag.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_CrystalCrag.png</ClothIcon>
+        <TileDesign>R_Crystal_Crag_01</TileDesign>
+        <TileDesignForTerrain>CurgensTomb:R_Curgens_Crystals_01</TileDesignForTerrain>
+        <TileDesignForTerrain>DesertTerrain:R_Lombard_Crystals_01</TileDesignForTerrain>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Resource_AncientTemple">
+        <DisplayName>Temple Ruins</DisplayName>
+        <Type>TempleRuins</Type>
+        <Description>Build an Ancient Temple here to produce Mana.</Description>
+        <LongDescription>The Padars of old, those who worshipped the Elemental Lords, constructed their temples in places such as this - locations sacred to their Gods, locations where the mana of this world naturally gathered, and could be tapped. </LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <Rarity>200</Rarity>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <HarvestType>Arcane</HarvestType>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Ruined_Temple</OnSelectSFX>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>8</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>R_Ancient_Temple_02_Card.png</All>
+        </Medallions>
+        <Icon>Resource_AncientTemple.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_AncientTemple.png</ClothIcon>
+        <TileDesign>R_Ancient_Temple_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Resource_Clay">
+        <DisplayName>Clay Pit</DisplayName>
+        <Type>Clay</Type>
+        <Description>Build a Clay Quarry here to add a Material to your city.</Description>
+        <LongDescription>Having abundant resources locally available can greatly reduce the time it takes to construct buildings in a growing city.</LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <MinPerPlayer>1</MinPerPlayer>
+        <Rarity>400</Rarity>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <HarvestType>Mining</HarvestType>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Clay_Mine</OnSelectSFX>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldMaterials</Attribute>
+            <Value>5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>5</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Artifact_Grasslands1.png</All>
+        </Medallions>
+        <Icon>Resource_Clay.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_Clay.png</ClothIcon>
+        <TileDesign>R_Clay_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Resource_FruitGrove">
+        <DisplayName>Fruit Grove</DisplayName>
+        <Type>Fruit</Type>
+        <Description>Build an Orchard here to increase the Grain in your city.</Description>
+        <LongDescription> A sweet, nourishing fruit that, unlike its cousin the apple, can be harvested year round.  </LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Fertile_Land</PreferredTerrain>
+        <MinPerPlayer>0.25</MinPerPlayer>
+        <Rarity>200</Rarity>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <HarvestType>Farming</HarvestType>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Fruit_Grove</OnSelectSFX>
+        <EnvironmentType>GrasslandEnvironment</EnvironmentType>
+        <EnvironmentSpreadIntensity>100</EnvironmentSpreadIntensity>
+        <EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldGrain</Attribute>
+            <Value>9</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>6</AIPriority>
+            <AITag>Food</AITag>
+        </AIData>
+        <Medallions InternalName="">
+            <All>FruitOrchard_Full.png</All>
+        </Medallions>
+        <Icon>Resource_FruitGrove.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_FruitGrove.png</ClothIcon>
+        <TileDesign>R_Fruit_Grove_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Resource_GoldDeposit">
+        <DisplayName>Gold Deposit</DisplayName>
+        <Type>GoldDepositBonusType</Type>
+        <Description>Build a Gold Mine here to produce Gildar.</Description>
+        <LongDescription>The ancestors of the people of Gilden, the Ironeers, were the first to master the art of mining gold. </LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <Rarity>200</Rarity>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <HarvestType>GoldMining</HarvestType>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Iron_Mine</OnSelectSFX>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>8</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>GoldDeposit.png</All>
+        </Medallions>
+        <Icon>Resource_GoldDeposit.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_GoldDeposit.png</ClothIcon>
+        <TileDesign>R_Gold_01</TileDesign>
+        <TileDesignForTerrain>DesertTerrain:R_Lombard_Gold_01</TileDesignForTerrain>
+        <TileDesignForTerrain>SwampTerrain:R_Asag_Gold_01</TileDesignForTerrain>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Resource_Horses">
+        <DisplayName>Wild Horses</DisplayName>
+        <Type>Horses</Type>
+        <Description>Build a Stable here to produce Horses.</Description>
+        <LongDescription>The size of the animals in this herd make it likely they are descendants of the famed Antheran warhorse, gone feral during the collapse of civilization. Trained properly, they will make fearsome mounts.  </LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <MinPerPlayer>0.5</MinPerPlayer>
+        <Rarity>400</Rarity>
+        <CanBeRazed>1</CanBeRazed>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <HarvestType>Mounts</HarvestType>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_WildHorses_01</OnSelectSFX>
+        <EnvironmentType>GrasslandEnvironment</EnvironmentType>
+        <EnvironmentSpreadIntensity>100</EnvironmentSpreadIntensity>
+        <EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldMaterials</Attribute>
+            <Value>6</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPrefType>AIPrefType_MOUNT</AIPrefType>
+            <AIPriority>3</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Res_Horses_Plains.png</All>
+        </Medallions>
+        <Icon>Resource_WildHorses.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_WildHorses.png</ClothIcon>
+        <TileDesign>R_Wild_Horses_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Resource_IronOre">
+        <DisplayName>Iron Ore</DisplayName>
+        <Type>IronOre</Type>
+        <Description>Build a Mine here to produce Metal.</Description>
+        <LongDescription>The ground here has been ripped asunder by the cataclysm; rubble is strewn everywhere, some of it rock shot through with veins of reddish and purple stone. This is iron ore in its raw form.  Build a mine here, and extract it to forge powerful weapons and armor. </LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <MinPerPlayer>2</MinPerPlayer>
+        <Rarity>400</Rarity>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <HarvestType>Mining</HarvestType>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <Stored>0</Stored>
+        <RummagedPerTurn>0.75</RummagedPerTurn>
+        <OnSelectSFX>Click_Iron_Mine</OnSelectSFX>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldMaterials</Attribute>
+            <Value>6</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>3</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Res_Ores_Plains.png</All>
+        </Medallions>
+        <Icon>Resource_IronOre.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_IronOre.png</ClothIcon>
+        <TileDesign>R_Iron_Ore_01</TileDesign>
+        <TileDesignForTerrain>DesertTerrain:R_Lombard_Iron_01</TileDesignForTerrain>
+        <TileDesignForTerrain>Imperium:R_Iron_oar_Imperium_01</TileDesignForTerrain>
+        <TileDesignForTerrain>Scrapyard:R_Scrapyard_Iron_01</TileDesignForTerrain>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Resource_ScenicView">
+        <DisplayName>Prestigious Location</DisplayName>
+        <Type>ScenicViewBonusType</Type>
+        <Description>Build a Monument here to produce Influence.</Description>
+        <LongDescription>The cataclysm has created here, rather than destroyed - it birthed a unique place, a site that can be seen for dozens of miles in any direction - a site that once developed will be a symbol of power and prestige as important as any army. </LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <MinPerPlayer>1</MinPerPlayer>
+        <Rarity>400</Rarity>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Scenic</OnSelectSFX>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <Medallions InternalName="">
+            <All>ScenicView.png</All>
+        </Medallions>
+        <Icon>Resource_ScenicView.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_ScenicView.png</ClothIcon>
+        <TileDesign>R_Scenic_View_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Resource_TwlightBees">
+        <DisplayName>Twilight Bees</DisplayName>
+        <Type>BeeHive</Type>
+        <Description>Build an Apiary here to allow your merchants access to this valuable honey.</Description>
+        <LongDescription>These bees - unique in all the world for their crepuscular tendencies - can nonetheless be domesticated, their honey harvested, by those willing to brave the dusk and build apiaries around their hives.</LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Fertile_Land</PreferredTerrain>
+        <MinPerPlayer>0.25</MinPerPlayer>
+        <Rarity>100</Rarity>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <HarvestType>GoldMining</HarvestType>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Bees</OnSelectSFX>
+        <EnvironmentType>GrasslandEnvironment</EnvironmentType>
+        <EnvironmentSpreadIntensity>100</EnvironmentSpreadIntensity>
+        <EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldGrain</Attribute>
+            <Value>9</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>6</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Res_Beehive.png</All>
+        </Medallions>
+        <Icon>Resource_TwilightBees.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_TwilightBees.png</ClothIcon>
+        <TileDesign>R_Beehives_01</TileDesign>
+        <TileDesignForTerrain>Imperium:R_Beehive_Imperium_01</TileDesignForTerrain>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Resource_Wargs">
+        <DisplayName>Wild Wargs</DisplayName>
+        <Type>Wargs</Type>
+        <Description>Build a Kennel here to produce Wargs.</Description>
+        <LongDescription>It is said that Curgen, who made the Fallen from Man in the depths of N'it'Vaganesh, did also create Wargs from the wolves of the wild. That is why these creatures are often used as mounts by the grayskins. </LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <MinPerPlayer>0.5</MinPerPlayer>
+        <Rarity>300</Rarity>
+        <CanBeRazed>1</CanBeRazed>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <HarvestType>Mounts</HarvestType>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Forest_Wolf</OnSelectSFX>
+        <EnvironmentType>DeadEnvironment</EnvironmentType>
+        <EnvironmentSpreadIntensity>100</EnvironmentSpreadIntensity>
+        <EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldMaterials</Attribute>
+            <Value>4</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPrefType>AIPrefType_MOUNT</AIPrefType>
+            <AIPriority>3</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>M_Warg_PlainsWarg_Card.png</All>
+        </Medallions>
+        <Icon>Resource_WildWargs.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_WildWargs.png</ClothIcon>
+        <TileDesign>R_Wild_Wargs_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Resource_WildGame">
+        <DisplayName>Wild Game</DisplayName>
+        <Type>WildGame</Type>
+        <Description>Build a Pasture here to provide additional grain to the attached city.</Description>
+        <LongDescription>Here lies a dense and verdant woodland - one of the few remaining in a land devastated by the cataclysm. Wild Game can be found in abundance here.</LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Fertile_Land</PreferredTerrain>
+        <MinPerPlayer>0.25</MinPerPlayer>
+        <Rarity>200</Rarity>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <HarvestType>Farming</HarvestType>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Field</OnSelectSFX>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldGrain</Attribute>
+            <Value>9</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>12</AIPriority>
+            <AITag>Food</AITag>
+        </AIData>
+        <Medallions InternalName="">
+            <All>WildGame.png</All>
+        </Medallions>
+        <Icon>Resource_WildGame.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_WildGame.png</ClothIcon>
+        <TileDesign>R_Wild_Game_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Resource_WildGrain">
+        <DisplayName>Wild Grain</DisplayName>
+        <Type>Grain</Type>
+        <Description>Build a Farm here to provide an additional grain for your city.</Description>
+        <LongDescription>Wild grain can be farmed to draw people to your settlements, as well as feed your citizens. </LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Fertile_Land</PreferredTerrain>
+        <MinPerPlayer>0.5</MinPerPlayer>
+        <Rarity>300</Rarity>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <HarvestType>Farming</HarvestType>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Forest_Rustle</OnSelectSFX>
+        <EnvironmentType>GrasslandEnvironment</EnvironmentType>
+        <EnvironmentSpreadIntensity>100</EnvironmentSpreadIntensity>
+        <EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldGrain</Attribute>
+            <Value>9</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>12</AIPriority>
+            <AITag>Food</AITag>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Res_WheatField.png</All>
+        </Medallions>
+        <Icon>Resource_WildWheat.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_WildWheat.png</ClothIcon>
+        <TileDesign>R_Wild_Corn_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Wild_Darklings">
+        <DisplayName>Darkling Village</DisplayName>
+        <Type>WildDarklings</Type>
+        <Description>Build a Camp here to recruit Darklings.</Description>
+        <LongDescription>Figures gather around a fire; short of stature and gray skinned. They are said to have been created by Curgen, in the depths of N'it'Vaganesh. They are the first - and least - of the Fallen.</LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <Rarity>0</Rarity>
+        <CanBeRazed>1</CanBeRazed>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Camp_Darkling</OnSelectSFX>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>1</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>8</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Hut_Medallion.png</All>
+        </Medallions>
+        <Icon>Resource_DarklingShaman.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_DarklingShaman.png</ClothIcon>
+        <TileDesign>R_Darkling_Camp_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Wild_Dragons">
+        <DisplayName>Dragon Cave</DisplayName>
+        <Type>WildDragons</Type>
+        <Description>Build a Camp here to recruit Dragons.</Description>
+        <LongDescription>Here looms a massive cave, a rent in the mountainside in whose darkness huge shapes can be seen moving.</LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <Rarity>0</Rarity>
+        <CanBeRazed>1</CanBeRazed>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Dragon_Lair_Rocky</OnSelectSFX>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>9</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>8</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>CaveEvil_Medallion.png</All>
+        </Medallions>
+        <Icon>Resource_FellDragon.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_FellDragon.png</ClothIcon>
+        <TileDesign>R_Drake_Ruin_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Wild_KnightsOfAsok">
+        <DisplayName>Order of Asok</DisplayName>
+        <Type>WildKnightsOfAsok</Type>
+        <Description>Build a Camp here to recruit Knights of Asok.</Description>
+        <LongDescription>Civilization has at least a foothold here.  Men work in the stables or train on the field.  Women work in the house or the yard, quiet children watch you with wide eyes.  It is as it was before the cataclysm, and for these people little has changed.</LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <Rarity>0</Rarity>
+        <CanBeRazed>1</CanBeRazed>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Bandit_Tent</OnSelectSFX>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>9</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>8</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Building_Keep1.png</All>
+        </Medallions>
+        <Icon>Improvement_Fort.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Improvement_Fort.png</ClothIcon>
+        <TileDesign>K_Fort_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Wild_Mercenaries">
+        <DisplayName>Border Village</DisplayName>
+        <Type>WildMercenaries</Type>
+        <Description>Build a Camp here to recruit Mercenaries.</Description>
+        <LongDescription>Here stands a village of the roughest, rawest kind - a haven for outlaws and those who live life by the sword. These people are dangerous. Properly managed, they can also be good soldiers.</LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <Rarity>0</Rarity>
+        <CanBeRazed>1</CanBeRazed>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Bandit_Tent</OnSelectSFX>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldGrain</Attribute>
+            <Value>1</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>8</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>RefugeeCamp.png</All>
+        </Medallions>
+        <Icon>Resource_Bandit.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_Bandit.png</ClothIcon>
+        <TileDesign>R_Mercenary_Camp_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Wild_Ogres">
+        <DisplayName>Ogre Lair</DisplayName>
+        <Type>WildOgres</Type>
+        <Description>Build a Camp here to recruit Ogres.</Description>
+        <LongDescription>Here stands a crude camp, composed of little more than a firepit and a privy, home to a tribe of massive, monstrous, manlike creatures.</LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <Rarity>0</Rarity>
+        <CanBeRazed>1</CanBeRazed>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Ogre_Cave</OnSelectSFX>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>9</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>8</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>CaveGrassland_Medallion.png</All>
+        </Medallions>
+        <Icon>Resource_Ogre.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_Ogre.png</ClothIcon>
+        <TileDesign>R_Ogres_Den_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Wild_Trolls">
+        <DisplayName>Troll Lair</DisplayName>
+        <Type>WildTrolls</Type>
+        <Description>Build a Camp here to recruit Trolls.</Description>
+        <LongDescription>Here lies the entrance to a warren of caves, home to a tribe of creatures who dwell in darkness beneath the world's surface: Trolls. Like no other race, they know the treasures - and dangers - hidden underground. </LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <Rarity>0</Rarity>
+        <CanBeRazed>1</CanBeRazed>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Troll_Camp</OnSelectSFX>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldMaterials</Attribute>
+            <Value>4</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>8</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>CaveGrassland_Medallion.png</All>
+        </Medallions>
+        <Icon>Resource_TrollShaman.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_TrollShaman.png</ClothIcon>
+        <TileDesign>R_Troll_Camp_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+    <ResourceType InternalName="Wild_Wildings">
+        <DisplayName>Wilding Village</DisplayName>
+        <Type>WildWildings</Type>
+        <Description>Build a Camp here to recruit Wildings.</Description>
+        <LongDescription>Here stands a simple village whose thatched huts, built from wildgrass and shrub, instantly identify the kind and character of its inhabitants Wildings.</LongDescription>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>HillsTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <Rarity>0</Rarity>
+        <CanBeRazed>1</CanBeRazed>
+        <NeedsToBeUnlocked>0</NeedsToBeUnlocked>
+        <Production>1</Production>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <OnSelectSFX>Click_Camp_Darkling</OnSelectSFX>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldMaterials</Attribute>
+            <Value>4</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>8</AIPriority>
+        </AIData>
+        <Medallions InternalName="">
+            <All>Hut_Medallion.png</All>
+        </Medallions>
+        <Icon>Resource_Wilding.png</Icon>
+        <IconColor>0,0,0</IconColor>
+        <ClothIcon>Resource_Wilding.png</ClothIcon>
+        <TileDesign>R_Wilding_Camp_01</TileDesign>
+        <ModelColor>0,0,0</ModelColor>
+    </ResourceType>
+</ResourceTypes>

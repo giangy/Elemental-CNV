@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<TileDesigns>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName</Ignore>
+		<Translate>DisplayName</Translate>
+	</DataChecksum>
+	<TileDesign InternalName="Wall_of_Fire_Outside_Tile">
+		<DisplayName>Wall_of_Fire_Outside_Tile</DisplayName>
+		<Thumbnail>\Game\Gfx\tile_icon.png</Thumbnail>
+		<LowResShadow>Wall_of_Fire_Outside_Tile2_shadow_256.png</LowResShadow>
+		<HighResShadow>Wall_of_Fire_Outside_Tile2_shadow_512.png</HighResShadow>
+		<ShadowTransparency>50</ShadowTransparency>
+		<IsCore>0</IsCore>
+		<IsHiddenFromEditor>0</IsHiddenFromEditor>
+		<SubTileFlags>1</SubTileFlags>
+		<TileDesignPath InternalName="_path0"/>
+		<EffectTrigger InternalName="A_WallOfFire_Particle_02">
+			<EffectName>A_WallOfFire_Particle_02</EffectName>
+			<LocalPosition>-11.004227,11.000000,-13.238240</LocalPosition>
+			<Scale>0.4200</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+		<EffectTrigger InternalName="A_WallOfFire_Particle_03">
+			<EffectName>A_WallOfFire_Particle_03</EffectName>
+			<LocalPosition>11.907829,10.000000,7.049896</LocalPosition>
+			<Scale>0.4200</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+	</TileDesign>
+</TileDesigns>

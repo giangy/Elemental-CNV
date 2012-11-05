@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<TileDesigns>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName</Ignore>
+		<Translate>DisplayName</Translate>
+	</DataChecksum>
+	<TileDesign InternalName="G_Redstone_on_Fire">
+		<DisplayName>G_Redstone_on_Fire</DisplayName>
+		<Thumbnail>\Game\Gfx\tile_icon.png</Thumbnail>
+		<DecalName>Gfx\Decals\DirtSquareLarge.png</DecalName>
+		<LowResShadow>G_Redstone_on_Fire_shadow.png</LowResShadow>
+		<HighResShadow>G_Redstone_on_Fire_shadow.png</HighResShadow>
+		<ShadowTransparency>70</ShadowTransparency>
+		<IsCore>0</IsCore>
+		<IsHiddenFromEditor>0</IsHiddenFromEditor>
+		<SubTileFlags>15</SubTileFlags>
+		<TileDesignPath InternalName="_path0"/>
+		<TileDesignPath InternalName="_path1"/>
+		<EffectTrigger InternalName="A_BurningBattleAxe_Particle">
+			<EffectName>A_BurningBattleAxe_Particle</EffectName>
+			<LocalPosition>-35.629379,22.000000,-33.780888</LocalPosition>
+			<Scale>0.7500</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+		<EffectTrigger InternalName="A_BurningBattleAxe_Particle">
+			<EffectName>A_BurningBattleAxe_Particle</EffectName>
+			<LocalPosition>-33.543907,19.000000,31.102642</LocalPosition>
+			<Scale>0.7500</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+		<EffectTrigger InternalName="A_BurningBattleAxe_Particle">
+			<EffectName>A_BurningBattleAxe_Particle</EffectName>
+			<LocalPosition>38.363041,0.000000,34.776978</LocalPosition>
+			<Scale>0.7500</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+		<EffectTrigger InternalName="A_BurningBattleAxe_Particle">
+			<EffectName>A_BurningBattleAxe_Particle</EffectName>
+			<LocalPosition>0.007336,0.000000,-30.672859</LocalPosition>
+			<Scale>0.9900</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+		<EffectTrigger InternalName="A_BurningBattleAxe_Particle">
+			<EffectName>A_BurningBattleAxe_Particle</EffectName>
+			<LocalPosition>0.369568,33.000000,1.289597</LocalPosition>
+			<Scale>0.9800</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+	</TileDesign>
+</TileDesigns>

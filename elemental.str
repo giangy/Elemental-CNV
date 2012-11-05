@@ -1,0 +1,5628 @@
+
+[TABLEALIAS SaveGames]
+
+[AutoSave] AutoSave
+[PreviousAutoSave] PreviousAutoSave
+[EndGameSave] EndGameSave
+[QuickSave] QuickSave
+[Campaign] Campaign
+
+[CampaignPrefix] Scenario
+
+[AI] AI
+[MapSize] Map size:
+[LivingPlayers] Living Players:
+[Version] Game version
+[TimeInGame] Time Played:
+[TimeInGameHours] h
+[TimeInGameMinutes] m 
+[TimeInGameSeconds] s
+
+[DayOfWeek0] Sun
+[DayOfWeek1] Mon
+[DayOfWeek2] Tue
+[DayOfWeek3] Wed
+[DayOfWeek4] Thu
+[DayOfWeek5] Fri
+[DayOfWeek6] Sat
+
+[TimeOfDayAM] am
+[TimeOfDayPM] pm
+
+[TABLEEND]
+
+[TABLEALIAS ElementalDefs]
+
+[Rarity_Common] Common
+[Rarity_Uncommon] Uncommon
+[Rarity_Rare] Rare
+[Rarity_UltraRare] Ultra Rare
+[Rarity_Unique] Unique
+
+[ThreatLevelName] Threat Level
+
+[ThreatLevel_Weak] Weak
+[ThreatLevel_Average] Medium
+[ThreatLevel_Strong] Strong
+[ThreatLevel_Deadly] Deadly
+[ThreatLevel_Epic] Epic
+
+[TABLEEND]
+
+[TABLEALIAS MainMapViewWindow]
+
+[SelectedUnits:] Selected Units:
+
+[TABLEEND]
+
+[TABLEALIAS MainGameWnd]
+
+[Unknown] Unknown
+[MovementCostTooltip] Movement Cost
+[MovementNote_Unknown] Blocked
+[MovementNote_All] Ends Movement
+[MovementNote] x Movement
+
+[ResearchTitle] Researching
+[TaxesTitle] Tax Rate
+
+[ShowHelpBtn_Tooltip] Show %s
+
+[SpecialistsInUseOverTotalPopulationTooltip] %s In Use / Total %s
+
+[CityDetails_Tooltip] Settlement Details
+[UnitDetails_Tooltip] Unit Details
+[OutpostDetails_Tooltip] View Upgrades
+[ResourceDetails_Tooltip] Details
+[ResourceBuild_Tooltip] Build
+[Resource_Raze] Raze
+[DefendedCityBtn_Tooltip] Expand Stationed Units Menu
+[ArmyBtn_Tooltip] Group Combat Rating: %ld
+[StationedBtn_Tooltip] Select Stationed Settlement
+[Equipment_Tooltip] View Equipment
+[CenterItem_Tooltip] Center Camera
+
+[KingdomButtonText] Govern
+[KingdomBtnTooltip] Show Kingdom Info (K)
+[SpellbookButtonText] Spells
+[SpellbookBtnTooltip] Show Spellbook (M)
+[Taxes] Taxes:
+[TaxesTooltip] %ld%% Tax Rate, %ld%% City Unrest
+
+[TurnButtonText] Turn
+[EndTurnToolTip] End Turn (ENTER)
+
+[NextCity] Find next idle settlement (SHIFT+C)
+[NextUnit] Find next idle unit (TAB)
+
+[Population] National Population
+[Treasury] National Treasury
+
+[TechStatusBar] %s in %ld %s
+[TechStatusBarNever] %s: No research points
+[TechPointBarTooltip] Research: %lu of %lu (%s per %s)
+[TechStatusBarNoResearch] No Research
+[TechPointTooltip] %s Research Per %s
+
+[CityContextBuild] Construct Buildings
+[CityContextTraining] Train Unit
+[CityContextDetails] Details
+[CityContextGovern] Govern Settlement
+[CityContextBuildRoad] Build Road
+
+[ResourceHoardBuild] Build
+[ResourceHoardCannotBuild] Can't Build:
+[ResourceHoardNotSupported] Requires the technology "%s"
+[ResourceHoardOutOfTerritory] Resource is Outside our Influence
+[ResourceHoardRequiresResource] Requires:
+[RazeResource] Raze this Resource
+[RazeResource_OutOfTerritory] Cannot Raze: Resource is Outside Your Territory
+[OutpostUpgradeNoCity] No city to perform upgrade labor
+
+[UnitContextDetails] Details
+[UnitContextEquip] Equip
+
+[Stats] Stats
+[BuildCity] Settle
+
+[UnitTab1] Items
+[UnitTab2] Spells
+[UnitTab3] Actions
+[UnitTab4] Enchants
+[UnitVitalsTab] Vitals
+[UnitStackTab] Stack
+[UnitStatSpinnerValue] Group %ld of %ld
+
+[CityTab1] Resources
+[CityTab2] Training
+[CityTab3] Building
+[Actions] Actions
+
+[DetailsTab] Details
+
+[RollupSovereignData] Collapse Sovereign Data
+[RolldownSovereignData] Expand Sovereign Data
+[SovereignLevel] Your Sovereign's Level
+[SovereignHealth] Sovereign's HP: %lu / %lu HP
+[SovereignXP] Sovereign's Experience: %lu XP To the Next Level
+
+[RollupMiniMap] Collapse Mini-Map
+[RolldownMiniMap] Expand Mini-Map
+[ArmyList] Army List
+[CityList] Settlement List
+
+[PieGraph_Tooltip_Experience] Experience to Next Level: %lu EXP
+[PieGraph_Tooltip_Mana] Mana: %lu / %lu (current / max)
+[PieGraph_Tooltip_CurrentHealth] Hit Points: %lu / %lu HP
+[PieGraph_Tooltip_Population] Population for next level: %lu
+[PieGraph_Tooltip_Population_Level_Up_Next_Turn] Population will level up next %s.
+[PieGraph_Tooltip_Population_Has_Housing] Population to next level: %lu. Has enough housing.
+[PieGraph_Tooltip_Population_Housing_Limited] Population maxed at: %lu. Population for next level: %lu.
+[PieGraph_Tooltip_Population_Housing_Limited_Not_Full] Population at: %lu. Population maxed at: %lu.
+[PieGraph_Tooltip_AvailableTiles] %lu Available Tiles
+[PieGraph_Tooltip_Construction] %s until construction finished: %lu
+[PieGraph_Tooltip_Training] %s until training finished: %lu
+[PieGraph_Tooltip_Construction_None] No current construction
+[PieGraph_Tooltip_Training_None] No current training
+
+[Tooltip_UnitsLevel] Level %lu %s
+
+[Tooltip_PlayerMight] Power Rating for %s: %lu points
+
+[Tooltip_NumShards] Amount of each Shard you control
+[Tooltip_AirShards] Air
+[Tooltip_EarthShards] Earth
+[Tooltip_FireShards] Fire
+[Tooltip_WaterShards] Water
+[Tooltip_LifeShards] Life
+[Tooltip_DeathShards] Death
+
+[GlobalResource_Stored_Tooltip] Storage of %s is %d, with %s being produced per %s
+[GlobalResource_Gold_Tooltip] Treasury of %d, %s %s per %s
+[GlobalResource_Food_Tooltip] Available surplus %s is %s per %s
+[GlobalResource_Mana_Tooltip] %d %s available for magic spells, with %s %s being generated per %s
+
+[NetTooltip] %s %s Per %s
+[NetTooltipSiege] Under Siege: %s %s Per %s Locally
+
+[BuildRoad_NotEnoughCities] You need at least two settlements in order to build a road between them.
+
+[UnitInfoCard_Immobilize] Immobilized
+[UnitInfoCard_ImmobilizeDescription] Units that are Immobilized cannot perform any actions for a set number of seasons.
+
+[TurnsRemaining] %ld Seasons Remaining
+[TurnsRemainingLast] Last Season
+
+[TABLEEND]
+
+[TABLEALIAS GlobalResourceStatEntry]
+
+[Gold_Treasury] Treasury
+[Gold_Income] Net Income
+[Gold_CityIncome] City Income
+[Gold_Treaties] Treaties
+[Gold_UnitIncome] Unit Income
+[Gold_UnitWages] Unit Wages
+[Gold_CityMaintenance] City Maintenance
+[Gold_Description] Your total faction income is primarily determined by the wages of your units and the income of your cities. Click to view the economic ledger for a detailed breakdown.
+
+[Mana_PerTurn] Mana per Turn
+[Mana_Cities] Cities
+[Mana_Units] Units
+[Mana_Enchantments] Enchantments
+[Mana_Summons] Summons
+[Mana_Description] Your total faction mana. The amount of mana your faction gets per turn is determined by the mana gained from your cities and reduced by spells with maintenance costs.
+
+[Resource_PerTurn] %s per Turn
+[Resource_Improvements] Wild Improvements
+[Resource_Units] Units
+[Resource_Enchantments] Enchantments
+
+[Metal_Description] Your total faction metal. Metal can be obtained from cities attached to Iron Mines and is primarily spent on improvements and equipment for your troops.
+[RefinedCrystal_Description] Your total faction crystal. Crystal can be obtained from cities attached to Crystal Mines and is primarily spent on improvements and magical equipment for your troops.
+[DiplomaticCapital_Description] Your total faction influence. Influence can be obtained from cities attached to Prestigious Locations and is primarily spent to construct wild improvements on lairs and camps.
+[Wargs_Description] Your faction's total supply of wargs. Wargs can be obtained from cities attached to Kennels and are required to train units riding wargs.
+[Horses_Description] Your faction's total supply of horses. Horses can be obtained from cities attached to Stables and are required to train units riding horses.
+[Research_Description] Your faction's research per turn. Research is obtained from cities and modified by your unrest level. Increase you research per turn to speed up your advances in technology.
+
+[FireMana_Description] Your faction's total number of Fire Shards, which increases the power of your Fire spells.
+[AirMana_Description] Your faction's total number of Air Shards, which increases the power of your Air spells.
+[EarthMana_Description] Your faction's total number of Earth Shards, which increases the power of your Earth spells.
+[WaterMana_Description] Your faction's total number of Water Shards, which increases the power of your Water spells.
+[LifeMana_Description] Your faction's total number of Life Shards, which increases the power of your Life spells.
+[DeathMana_Description] Your faction's total number of Death Shards, which increases the power of your Death spells.
+
+[TABLEEND]
+
+[TABLEALIAS EmpireTreeCategoryHeaderEntryWnd]
+
+[Category2] Units
+[Category3] Cities
+[Category4] Quests
+[Category5] Log
+
+[TABLEEND]
+
+[TABLEALIAS NameCityMessageBox]
+
+[Title] Build New Settlement
+[Message] Choose a name for the settlement:
+
+[TABLEEND]
+
+[TABLEALIAS NameChildMessageBox]
+
+[TitleMale] It's a boy!
+[TitleFemale] It's a girl!
+[MessageMale] A child has been born to %s and %s, inheriting the magical essence of his parents! Choose a name:
+[MessageFemale] A child has been born to %s and %s, inheriting the magical essence of her parents! Choose a name:
+
+[TitleMarriage] Marriage
+[WifeMessage] Congratulations, you've married %s!
+[HusbandMessage] Congratulations, you've married %s!
+
+[GrownChildTitle] Coming of Age
+[GrownChildMessage] %s has grown up!
+[GrownChildWonAllegiance] One of your descendants, %s, originally of %s, has grown up and decided to join your faction!
+[GrownChildLostAllegiance] One of your descendants, %s, has grown up and left your faction for %s!
+
+[TABLEEND]
+
+[TABLEALIAS RenameCityMessageBox]
+
+[Title] Rename %s
+[Message] Choose a new name for the settlement:
+
+[TABLEEND]
+
+[TABLEALIAS RenameUnitMessageBox]
+
+[Title] Rename %s
+[Message] Choose a new name for this unit:
+
+[TABLEEND]
+
+[TABLEALIAS RenameImprovementMessageBox]
+
+[Title] Rename %s
+[Message_Outpost] Choose a new name for this outpost:
+[Message_Improvement] Choose a new name for this improvement:
+
+[TABLEEND]
+
+[TABLEALIAS CaravanIsAtHomeMessageBox]
+
+[Title] Caravan Home
+[Message] Can't set up a trade route with the caravan's home city!
+
+[TABLEEND]
+
+[TABLEALIAS CaravanNoPathFoundMessageBox]
+
+[Title] No Path Home
+[Message] The caravan cannot find a path home, and therefore cannot create a trade route.
+
+[TABLEEND]
+
+[TABLEALIAS LevelUpWndRemainingBonusPointsMessageBox]
+
+[Title] Warning
+[MessagePlural] You have %lu points remaining to distribute.  If you continue, they will be forever lost.  Continue anyway?
+[MessageSingular] You have %lu point remaining to distribute.  If you continue, it will be forever lost.  Continue anyway?
+
+[TABLEEND]
+
+[TABLEALIAS CannotDestroyBuildingMessageBox]
+
+[Title] Cannot Destroy!
+[Message] Destroying this improvement would make your settlement non-contiguous.
+
+[TABLEEND]
+
+[TABLEALIAS RejectCaravanWarMessageBox]
+
+[Title] Caravan Rejected
+[Message] As your caravan approached the gates of %s, it was regarded with suspicion and outright hostility.  Fearing the angry shouts of the people outside of the gate, the caravan was forced to turn back.  There will be no trade between your factions while you are at war.
+
+[TABLEEND]
+
+[TABLEALIAS CaravanExistingRouteMessageBox]
+
+[Title] Existing Trade Route
+[Message] There is already a caravan traveling between %s and %s.  Send this caravan to another city to establish a trade route.
+[MessageRespawn] There is already a caravan traveling between %s and %s, which will respawn in %ld seasons.  Send this caravan to another city to establish a trade route.
+
+[TABLEEND]
+
+[TABLEALIAS FoundKingdomMessageBox]
+
+[Title] Founding %s
+[Message] Your sovereign is about to found the capital city for their %s. This can only be done once.\n\nAdditional settlements can be constructed by training Pioneer units.\n\nBuild the capital of your new %s here?
+[CheckboxMsg] Station sovereign in the new city
+
+[TABLEEND]
+
+[TABLEALIAS BuildPioneerCityMessageBox]
+
+[Title] Build Settlement
+[Message] The creation of a settlement should not be taken lightly. In order for your Pioneer to build a settlement here, he will need to settle down and will no longer be available for use.\n\nAre you sure this is where you want the settlement to be?
+
+[TABLEEND]
+
+
+[TABLEALIAS WantToUseItemMessageBox]
+
+[Title] Are you sure?
+[Message] Are you sure you want to use %s?
+
+[TABLEEND]
+
+[TABLEALIAS CancelEnchantmentMessageBox]
+
+[Title] Dispel Enchantment?
+[Message] Would you like to dispel %s cast on %s?
+
+[TABLEEND]
+
+[TABLEALIAS CastOneTimeSpellMessageBox]
+
+[Title] One Time Spell
+[Message] This spell can only be cast once by this magician.  Continue casting?
+
+[TABLEEND]
+
+[TABLEALIAS RazeCityMessageBox]
+
+[Title] Destroy Settlement?
+[Message] Are you sure you want to destroy %s?
+
+[TABLEEND]
+
+[TABLEALIAS AIChampNPCText]
+
+[UndefendedCity] Ah, %s. The city of %s looks ripe for the taking.
+
+[TABLEEND]
+
+[TABLEALIAS ProposeToNPCMessageBox]
+
+[Title] Propose?
+[Message] Would you like to ask %s to marry you?
+
+[TABLEEND]
+
+[TABLEALIAS RecruitNPCMessageBox]
+
+[Title] Recruit Hero
+[CostMessage] %s has agreed to join you for %ldg.  Do you want to pay?
+[NoCostMessage] %s has agreed to join you.
+
+[TABLEEND]
+
+[TABLEALIAS ConfirmExitGameMessageBox]
+
+[Title] Exit Game
+[Message] Are you sure you'd like to exit? A few more turns couldn't hurt...
+[MessageAlternate] Are you sure you'd like to exit?
+
+[TABLEEND]
+
+[TABLEALIAS CancelResignQuitMessageBox]
+
+[Title] Leave Game
+[Message] You are about to abandon your current multiplayer game and will lose any unsaved progress. What do you want to do?
+
+[TABLEEND]
+
+[TABLEALIAS StartTutorialGameMessageBox]
+
+[Title] Start Tutorial Game?
+[Message] The Fallen Enchantress tutorial is designed to walk novice players through the basics of leading a magical Kingdom. Building cities, casting spells, and fighting battles are all covered.\n\nDo you want to start a tutorial game?
+
+[TABLEEND]
+
+[TABLEALIAS CloseBuildTrainMessageBox]
+
+[Title] Idle City
+[Message] The city of %s is now idle.  It is neither building any improvements nor training any units.  What do you want to do?
+
+[TABLEEND]
+
+[TABLEALIAS ConfirmAbandonGameMessageBox]
+
+[Title] Abandon Game
+[Message] Are you sure you want to abandon your current game? You will lose any unsaved progress.
+
+[TABLEEND]
+
+[TABLEALIAS ConfirmRetireMessageBox]
+
+[Title] Retire
+[Message] Are you sure you want to retire your current game?
+
+[TABLEEND]
+
+[TABLEALIAS CancelChannellingMessageBox]
+
+[Title] Warning
+[Message] Cancel delayed spell cast for %s?
+
+[TABLEEND]
+
+[TABLEALIAS TurnLimitEndOfGameMessageBox]
+
+[Title] Turn Limit Reached
+[Message] Though a channeler is long lived, you are not immortal.  Age will claim what war and a world of enemies could not.  You may either end the game now and see your score, or continue playing without any victory conditions or score.
+[NoButton] Keep Playing
+[YesButton] End Game
+
+[TABLEEND]
+
+[TABLEALIAS AchievementImprovementBuilt_MessageBox]
+
+[Title] Achievement Built
+[Message] An achievement improvement has been built!
+
+[TABLEEND]
+
+[TABLEALIAS OverwriteTileDesignMessageBox]
+
+[Title] Warning
+[Message] The tile design %s already exists.  Is it okay to overwrite?
+
+[TABLEEND]
+
+[TABLEALIAS DeleteUnitTypeMessageBox]
+
+[Title] Warning
+[Message] Are you sure you want to delete %s?
+
+[TABLEEND]
+
+[TABLEALIAS ConfirmOverwriteSaveMessageBox]
+
+[Title] Overwrite Save
+[Message] Are you sure you'd like to overwrite this save?  
+
+[TABLEEND]
+
+[TABLEALIAS NotEnoughShardsMessageBox]
+[Title] Spell Unavailable
+[Message] You do not have the required shards for this spell.  Build shrine improvements to gather shards.
+[TABLEEND]
+
+[TABLEALIAS NotEnoughManaMessageBox]
+
+[Title] Spell Failed
+[Message] You don't have enough mana to cast this spell!
+
+[DeficitWarningTitle] Mana Deficit
+[DeficitWarningMessage] You are going to run out mana. Cancel some enchantments or they will start expiring due to lack of mana.
+
+[DeficitNoticeTitle] Mana Deficit
+[DeficitNoticeMessage] Some of your enchantments have expired due to lack of mana.
+
+[TABLEEND]
+
+[TABLEALIAS MarriageProposalBox]
+
+[Title] Marriage Proposal
+
+[TABLEEND]
+
+[TABLEALIAS SetResearchPathMessageBox]
+
+[Title] Set Research Path
+[Message] Now that we are acquiring knowledge, we can focus it on relearning lost technologies.
+
+[TABLEEND]
+
+[TABLEALIAS NegativeGoldWarningMessageBox]
+
+[Title] Negative Gildar
+[Message] You are in debt. You will be unable to train new units, and soon your existing troops will begin to desert due to not getting paid.\n\nTo get out of debt, try:\n- Increasing your tax rate\n- Disbanding unwanted troops\n- Selling loot at stores\n- Requesting aid from other factions
+
+[TABLEEND]
+
+[TABLEALIAS CannotAccessResearchScreenMessageBox]
+
+[Title] No Research
+[Message] You have no scholars pursuing research!
+
+[TABLEALIAS CannotAccessSpellScreenMessageBox]
+
+[Title] No Spells
+[Message] You have no lore masters persuing spells! Research and construct arcane laboratories.
+
+[TABLEEND]
+
+[TABLEALIAS CannotCastTacticalSpellScreenMessageBox]
+
+[Title] Cannot Cast Spell
+[Message] You can only cast tactical spells while in a tactical battle.
+
+[TABLEEND]
+
+[TABLEALIAS BuildListWnd] 
+
+[Title] Improvements
+[Done] Done
+[Build] Build
+[Maintenance] Maintenance
+
+[UpgradesInto] Upgrades into
+[Requires] Requires %s Technology
+
+[Tier] Tier
+[Costs] Costs:
+[Provides] Provides:
+[TurnsRequired] %ld %s
+[NoProductionTurns] No Production in City
+[NoProductionTurnsSmall] --
+[TilesRequired] Tiles Required
+[Notes] Notes:
+
+[SightRadius] Sight Radius
+[PrestigePenalty] Prestige Penalty
+
+[NextCity] Next City
+[PreviousCity] Previous City
+[NothingSelected] Nothing Selected
+
+[TABLEEND]
+
+[TABLEALIAS QuickMatchFactionConflictMessageBox]
+
+[Title] Choose a Faction
+[Message] Another player has already chosen this faction, please choose another.
+
+[TABLEEND]
+
+[TABLEALIAS ConnectionLostOrReconnectingMessageBox]
+
+[Title] Reconnecting
+[Message] Connection to server lost.
+
+[TABLEEND]
+
+[TABLEALIAS PlayerDisconnectedMessageBox]
+
+[Title] Player Disconnected
+[Message] %s has left the game.
+
+[TABLEEND]
+
+[TABLEALIAS MainGeneralContextSubWnd]
+
+[CombatRatingTooltip] Combat Rating: %lu
+[ArmyName] %s's Army
+
+[ManaTitle] Mana
+[NoConstruction] No Construction
+[NoTraining] No Training
+[TurnsLeft] %ld %s
+
+[TABLEEND]
+
+[TABLEALIAS MainActionsContextWnd]
+
+[CombatRatingTooltip] Combat Rating: %lu
+[ArmyName] %s's Army
+
+[TABLEEND]
+
+[TABLEALIAS MainDetailsSubWnd]
+
+[MovesTitle] Moves
+[DestinationTitle] Destination:
+
+[Stat1] HP
+[Stat2] ATK
+[Stat3] DEF
+[Stat4] ESS
+
+[HealthTooltip] Hit Points (current / max)
+[AttackTooltip] Attack Strength
+[DefenseTooltip] Defense
+[ManaToolTip] Mana
+[MovesTooltip] Moves
+[LevelProgressTooltip] Experience to level %lu: %lu of %lu
+[Level] Level
+
+[Tooltip_AtWar] At war with this settlement
+
+[TABLEEND]
+
+
+[TABLEALIAS MainCityDetailsSubwnd]
+
+[StatTitle1] Population:
+[StatTitle2] GP/%s:
+[StatTitle3] Research:
+[StatTitle4] Prestige:
+[CityLevel] Settlement Level:
+
+[Tooltip_IsDefended] Settlement is Defended
+[Tooltip_SovereignStationed] Sovereign is stationed here
+
+[Tooltip_AtWar] At war with this settlement
+
+[Tooltip_Pop_Max_Level] At maximum city level
+[Tooltip_Pop_Cap] %ld citizens, %ld needed to reach next level.
+[Tooltip_Gold] %g gildar per %s
+[Tooltip_Food] %g net units of food
+[Tooltip_Prestige] This settlement's population is growing by %s citizens per %s.
+[Tooltip_NegativePrestige] This settlement's population is shrinking by %s citizens per %s.
+[Tooltip_Spellpoints] The buildings of %s are producing %ld units of Arcane Knowledge per %s.
+[Tooltip_Techpoints] The buildings of %s are producing %ld units of Research per %s.
+
+[TABLEEND]
+
+
+[TABLEALIAS MainImageScrollEntryWnd]
+
+[EquippedItemSubtext] E
+[PermanentEnchantmentSubtext] P
+[AvailableSlot] Available Slot
+
+[TABLEEND]
+
+
+[TABLEALIAS DecreeWnd]
+
+[TechWindowTitle] Researchstuffs
+[TrainingWindowTitle] Unit Training
+[SpellWindowTitle] Spellbook
+[BuildRoadWindowTitle] Build Road
+[EnterCityWindowTitle] Enter City
+
+[BuildRoadWindowDesc] Build new road from %s to...
+[EnterCityWindowDesc] What do you want to do?
+
+[TABLEEND]
+
+
+[TABLEALIAS KingdomWnd]
+
+[OptionsTitle] Options
+
+[NoRelationsTitle] Unavailable
+[NoRelations] You have not met any other factions.
+[NoRelationsTitle_Campaign] Scenario
+[NoRelations_Campaign] There are no other factions in this scenario.
+
+[Main] Main
+[CityList] City List
+[Enchantments] Enchantments
+[Economy] Economy
+[Quests] Quests
+[Campaign] Scenario
+
+[CampaignLog] Scenario Log
+[GoToCampaignLog] Go To Scenario Log
+
+[TABLEEND]
+
+[TABLEALIAS KingdomLedgerSubWnd]
+
+[Title] Ledger
+[Taxes] Tax Rate:
+[TaxTooltip] %ld%% unrest in cities
+
+[TABLEEND]
+
+[TABLEALIAS UnitDesignsSubWnd]
+
+[ScreenTitle] Troop Roster
+
+[RetireBtn] Retire
+[HideBtn] Hide
+[UnhideBtn] Unhide
+[ShowHiddenBtn] Show Hidden Designs
+[UpgradeBtn] Edit
+
+[CostsTitle] Cost:
+
+[Wages] Wages
+[WageTooltip] Wages: %s gildar per turn
+
+[TABLEEND]
+
+
+[TABLEALIAS ResearchSubWnd]
+
+[ListTab] What would you like to research?
+[TreeTab] Tech Tree
+
+[ResearchPointsPerTurn] Research Per %s
+[BreakthroughTurns] %s until next breakthrough:
+
+[CurrentTitle] Currently Researching
+[AvailableTitle] Available Technologies
+
+[EmptyResearchSlot] Research Slot Available
+[EmptySlotNotAvailable] Build Settlement To Unlock Slot
+
+[NextBonusDisplay] %s (%ld %s)
+[Unlocked] Unlocked
+
+[InfiniteBonus] Earn %s in %ld %s
+[InfiniteBonusPopup] Increases %s
+
+[CivilizationDesc] Placeholder description for the Civilization research category.
+[WarfareDesc] Placeholder description for the Warfare research category.
+[MagicDesc] Placeholder description for the Magic research category.
+[AdventureDesc] Placeholder description for the Adventure research category.
+[DiplomacyDesc] Placeholder description for the Diplomacy research category.
+
+[TreeButton] Tree View
+[ResearchButton] Research
+[CompareButton] Compare
+[CompletedButton] Completed
+
+[Level] Level:
+
+[PossibleBreakthroughs] Possible Breakthroughs at Next Level
+
+[TechsRequired] Additional Technologies Required:
+
+[Unlocks] Unlocks:
+[LeadsTo] Leads To:
+[Likelihood] Likelihood of being available:
+[Certain] Certain
+[Likely] Likely
+[Unlikely] Unlikely
+[Equipment] Equipment
+[Improvement] Settlement Improvement
+[Unit] Unit
+[AbilityBonus] Ability Bonus
+[CapBonus] Cap Bonus
+
+[UnitActionUnlock] Unit Action: %s
+[CityActionUnlock] Settlement Action: %s
+[SpellbookUnlock] Book of %s
+
+[Learn] Learn
+
+[TABLEEND]
+
+[TABLEALIAS ResearchTreeEntryWnd]
+
+[Tooltip_Unlocks] Unlocks:
+[Tooltip_Requires] Requires:
+[Tooltip_TimeRemaining] %ld Seasons
+[Tooltip_WontFinish] Will Never Finish
+[Tooltip_Completed] Completed
+
+[TABLEEND]
+
+[TABLEALIAS CompletedResearchSubWnd]
+
+[CompletedResearchTitle] Completed Research
+[MessageNextAndEnd] Our scholars have made a major discovery and have completed the research on %s. They will begin research on %s to eventually unlock the secrets of %s.
+[MessageToEnd] Our scholars have made a major discovery and have completed the research on %s. They will begin research on %s.
+[MessageEnd] Our scholars have made a major discovery and have completed the research on %s. They have run out of things to research on this research path.
+
+[TABLEEND]
+
+
+[TABLEALIAS BreakthroughWnd]
+
+[Header] Research Breakthrough
+[Message] Our scholars have made a major discovery! Choose which technology to unlock:
+[ChangeButton] Change Research
+[ImprovementUnlocked] Improvement Unlocked
+[ItemUnlocked] Item Unlocked
+[SetResearch] New Goal
+[ContinueResearch] Continue
+[ChangeResearch] Continue
+[Unlocks] Unlocks
+[Raises] Raises
+
+[AbilityBonus] Ability Bonus
+
+[ResourceCapBonus] Resource Cap Bonus
+
+[TABLEEND]
+
+
+[TABLEALIAS NewTechWnd]
+
+[ChangeResearch] New Goal
+[ContinueResearch] Continue
+[Title] %s Breakthrough
+[Unlocks] Unlocks
+
+[TABLEEND]
+
+
+[TABLEALIAS TechBonus]
+
+[TechUnlock] Unlock Tech: %s
+[ImprovementUnlock] Unlock Improvement: %s
+[ItemUnlock] Unlock Item: %s
+[UnitTypeUnlock] Unlock Unit: %s
+[GenericUnlock] Unlock: %s
+
+[GenericTechBonus] Tech Bonus Unlocked: %s
+
+[TABLEEND]
+
+
+
+[TABLEALIAS ResearchLevelUpWnd]
+
+[ResearchedTechTitle] New Technology Researched
+[MessageNextAndEnd] Our scholars have made a major discovery and have completed the research on %s. They will begin research on %s to eventually unlock the secrets of %s.
+[MessageToEnd] Our scholars have made a major discovery and have completed the research on %s. They will begin research on %s.
+[MessageEnd] Our scholars have made a major discovery and have completed the research on %s. They have run out of things to research on this research path.
+          
+[UnlocksTitle] Unlocks
+[DescriptionTitle] Description
+[QueueTitle] Next Queued Technology
+          
+[ChangeResearch] Change Research
+[OpenResearch] Open Research
+[ResearchNext] Continue Research
+
+[NoNextTech] None Selected
+
+[TABLEEND]
+
+[TABLEALIAS CityLevelUpWnd]
+
+[CityLevelUpTitle] Your settlement has grown a level!
+
+[TABLEEND]
+
+[TABLEALIAS TrophyWnd]
+
+[TrophyWndTitle] %s Awarded!
+
+[TrophyWndDescription_Creature] You have received the %s for defeating: %s!
+[TrophyWndDescription_Quest] You have received the %s upon completing the quest %s!
+
+[TrophyWndCityListDescription] Select the city you would like to place this trophy in.
+
+[TrophyWndAssign] Assign
+
+[TABLEEND]
+
+[TABLEALIAS LevelUpWnd]
+
+[Title_Sovereign] Your sovereign has gained a level
+[Title_Unit] %s has gained a level
+[OKButton] OK
+[NewPerkTitle] Choose your level up trait!
+[ExistingPerkTitle] Current traits:
+
+[AffectedStatsTitle] Affected Stats
+[MaxManaStat] Max Mana
+
+[TABLEEND]
+
+[TABLEALIAS OutpostUpgradeWnd]
+
+[Title] Upgrade Outpost
+[ExistingTitle] Current Upgrades
+[LinkedCityTitle] Linked City:
+
+[TABLEEND]
+
+[TABLEALIAS RecruitWnd]
+
+[Title] Recruit Champion
+[CancelButton] Maybe later
+[RecruitButton] I accept
+
+[LevelTitle] Level:
+[RaceTitle] Race:
+[HPTitle] Hit Points:
+
+[AttributesTitle] Attributes:
+[CombatStatsTitle] Combat Stats:
+[PerkTitle] Abilities:
+[EquipmentTitle] Equipment:
+[DescriptionTitle] Background
+
+[UnknownRace] Unknown
+
+[TABLEEND]
+
+
+[TABLEALIAS UnitDetailsWnd]
+
+//Static stuff
+[ScreenTitle] Unit Details
+[RaceTitle] Race
+[LevelTitle] Level
+[WageTitle] Wages
+[DoneButton] Done
+
+[WageDescription] The amount of Gildar you are required to pay every season in order to retain this unit's services.
+
+[UnknownRace] Unknown
+
+[AttributesHeader] Attributes
+[CombatStatsHeader] Combat Stats
+[SpellsHeader] Spells
+[EnchantmentsHeader] Enchantments
+[BackstoryHeader] History
+
+
+
+[Title] Trade Items
+[NoItems] No Items In Inventory
+[YourGildar] Your Gildar:
+
+[ShopKeeper] Shop Keeper
+
+[Details] Details
+[Equip] Equip
+[Unequip] Unequip
+[TradeShop] Trade/Shop
+[Use] Use
+[Sell] Sell
+[Encumberance] Encumbrance
+
+[Weapons] Weapons
+[Armor] Armor
+[Equipment] Equipment
+[Other] Other Items
+
+[ValueTitle] %s - Value: %lu %s
+[CostTitle] %s - Cost: %lu %s
+
+[CannotEquipEncumberance] You cannot equip this item as it will break this unit's encumbrance threshold.
+[CannotEquipLevelRequirement] This unit does not meet the minimum level requirement to equip this item.
+[CannotEquipMaxAccessories] This unit already has the maximum number of accessories equipped.
+[CannotEquipAccessoryAlreadyEquipped] This unit already has an accessory of this type equipped.
+[CannotEquip] Cannot equip.
+[CannotSellDefault] You cannot sell a unit's default item.
+[CannotUseTactical] Only usable in battle.
+[CannotUse] Item is not usable.
+
+[NoStacking] Cannot Stack Items
+[NoStackingMsg] %s already has a '%s' equipped. Accessories can only be utilized one at a time.
+
+[TABLEEND]
+
+
+[TABLEALIAS TrainUnitWnd]
+
+[TrainUnitWndTitle] Train Units
+
+[GroupingTitle] Quantity:
+
+[ListboxTitle] Unit Types Available:
+
+[UnitStat4]	Moves
+[UnitStat6] Wage
+
+[CostsTitle] Cost:
+
+[EntryCantTrain] Can't train
+[EntryTrainTurns] %ld %s
+
+[PopulationWarning] Not enough population
+[CityResourceWarning] Not enough %s
+[TooManyCaravansKingdom] Settlement cannot support any more caravans (research Diplomacy)
+[TooManyCaravansEmpire] Settlement cannot support any more caravans (research Cooperation)
+[TooManyLimitedUnit] Maximum Trained
+[PlayerResourceWarning] Not enough %s
+[ImprovementWarning] Settlement needs a %s
+[NoTrainingWarning] Settlement cannot provide %s
+[LimitedUnitStatus] %ld/%ld Trained
+
+[MultipleTroopName] %s %s
+
+[Individual] Individual
+
+[Normal] Normal
+[Veteran] Veteran
+[Expert] Expert
+[Elite] Elite
+
+[Experienced] Experienced
+[Zealots] Zealots
+[Shock] Shock
+
+[QuantityTooltip] %s - %ld troops
+
+[PopulationTooltip] The population of the city you have to draw upon.
+[GroupingTooltip] The number of units in the group you wish to train.
+[QualityTooltip] The experience level of the units in the group you wish to train.
+
+[NextCity] Next City
+[PreviousCity] Previous City
+
+[TABLEEND]
+
+[TABLEALIAS BuildListWnd]
+
+[WindowTitle] Available Improvements
+[ImprovementName] Name:
+[TurnsToBuild] Time to Complete: %lu %s
+[Designs] Designs
+
+[DemolishTitle] Demolish
+[DemolishDescription] Destroy an improvement to make room for building.
+[DemolishTooltip] Destroy an improvement
+[DemolishSubtext] Costs %s gildar
+[DemolishSubtextNoImps] No improvements to demolish
+
+[ClearForestTitle] Clear Forest
+[ClearForestDescription] Clear a tile of forest to make room for building.
+[ClearForestTooltip] Clear a forest
+[ClearForestSubtext] Costs %s gildar
+[ClearForestSubtextNoForest] No forests adjacent to the city
+
+[CostsHeader] Costs:
+[BenefitsHeader] Provides:
+[NotesHeader] Notes:
+
+[CityLevel] City Level
+[UnspecializedCityTitle] Village
+[ConclaveCityTitle] Conclave
+[FortressCityTitle] Fortress
+[TradeGuildCityTitle] Town
+[UnspecializedCityDescription] Villages are the start of any city. They have no specialization.
+[ConclaveCityDescription] Conclaves specialize in research and magical pursuits.
+[FortressCityDescription] Fortresses are dedicated to city defense and military pursuits.
+[TradeGuildCityDescription] Towns specialize in growth and financial pursuits.
+
+[LimitedCityPlacement] Allowed %ld per city
+[LimitedFactionPlacement] Allowed %ld per faction
+[LimitedWorldPlacement] World Achievement
+[LimitedUsageSuffix] %s, have built %ld 
+
+[CantBuildSpace] Insufficient space
+[CantBuildResources] Insufficient %s
+[CantBuildCityLevel] Requires level %ld city
+[CantBuildUpgrade] Requires an improvement to upgrade
+
+[TABLEEND]
+
+[TABLEALIAS BuildListEntryWnd]
+
+[DemolishEntry] Demolish Building
+
+[TABLEEND]
+
+[TABLEALIAS DefaultObjectNames]
+
+[Unit] Unit
+[NPCUnit] NPC Unit
+[Improvement] Improvement
+[Mountain] Mountain
+[Forest] Forest
+[GoodieHut] GoodieHut
+[Dungeon] Dungeon
+[ElementalShard] ElementalShard
+[ResourceHoard] ResourceHoard
+[Boat] Boat
+[WorldProp] World Prop
+[RiverObject] River Object
+[Swamp] Swamp
+
+[TABLEEND]
+
+
+[TABLEALIAS TitleWnd]
+
+[ElementalVersion] Version 
+
+[Skirmish] New Game
+[Campaign] Scenarios
+[ContinueGame] Continue
+[Multiplayer] Tutorial
+[Library] Library
+[Workshop] Workshop
+[Achievements] Achievements
+
+[PleaseUpdate] Update Required
+[PleaseUpdateTextWorkshop] You must have the latest version of Elemental to use the Workshop.
+[PleaseUpdateTextMultiplayer] You must update to the latest version before you can play multiplayer
+
+[PleaseWait] Please wait
+[CheckingForUpdates] Elemental is checking for updates. Please try again in a minute or so as you may be experiencing a slow internet connection.
+[DownloadingMPData] Downloading MP data.  Please try again.
+
+[LoggedInAs] Logged in as
+[NotLoggedIn] Not logged in.
+
+[LoginUnavailable] You cannot change your login now because you are in a game.
+[Error] Error
+
+[WorkshopMsgTitle] Note
+[WorkshopMsg] The workshop tools can be used to create new maps, improvements and spell effects.  These are the internal tools used by Stardock to create many of the games features and are provided "as is" for players and modders that want to try them.
+
+[TABLEEND]
+
+[TABLEALIAS CreditsWnd]
+[BuyBook] Continue the adventure!
+[Done] DONE
+[TABLEEND]
+
+[TABLEALIAS WorkshopWnd]
+
+[TileEditor] Builder's\nForge
+[MapEditor] Cartographer's\nTable
+[ItemEditor] Item Editor
+[ParticleEditor] Particle\nCauldron
+[FlavorTextEditor] Text Editor
+
+[FactionEditor] Faction Creator
+
+[SecretEditor1] Secret Editor 1
+[SecretEditor2] Secret Editor 2
+
+[TileEditorDescription] The 'Builders Forge' allows you to design tiles using an assortment of pieces. Your creations can then be hooked to Goodie Huts, Improvements, and Resources to fill the game world.
+[MapEditorDescription] World maps of all sizes can be molded to your will at the Cartographer's Table. 
+[ParticleEditorDescription] Spells and tile designs can all make use of the creations brewed from the Particle Cauldron. This is a difficult tool to master, however...you've been warned.
+[FactionEditorDescription] Gather the wandering people under your banner using the 'Faction Creator'. Establish a name, back story, crest, and divvy out strengths and weaknesses to craft a nation worthy of your rule.
+[ModLibraryDescription] Visit the royal library to browse the available mods, as created by your peers in the Elemental community, or share your own creations for others to behold.
+
+[WorkshopDescription] Welcome to the workshop, where you get to tinker with creations of your own making. Shape a world to your vision...then conquer it yourself, or share it with the Elemental community using the Impulse overlay.
+
+[TABLEEND]
+
+
+[TABLEALIAS ChooseFactionWnd]
+
+[WindowTitle] Choose your Faction
+
+[GoodTitle] Kingdom of
+[EvilTitle] Empire of
+
+[KingdomsOfEle] Kingdoms of Elemental
+[EmpiresOfEle] Empires of Elemental
+
+[None] None
+[Race] Race:
+[Strengths] Strengths
+[Weaknesses] Weaknesses
+[History] History
+
+[TABLEEND]
+
+[TABLEALIAS AdvChooseFactionWnd]
+
+[NewFactionButton] New Faction
+[Kingdoms] Kingdoms
+[Empires] Empires
+
+[TABLEEND]
+
+[TABLEALIAS ChooseFactionEntryWnd]
+
+[CreateFaction] New Faction
+
+[TABLEEND]
+
+[TABLEALIAS CreateSovereignWnd]
+
+[Title] Create Sovereign
+[GenderLabel] Gender
+[MaleCheckbox] Male
+[FemaleCheckbox] Female
+[NameTitle] Name
+[RaceTitle] Faction
+[PointsTitle] Points
+[FactionInfoCardTitle] Faction Traits
+
+[Attributes] Attributes
+[Talents] Talents
+[Appearance] Appearance
+[Backstory] Backstory
+
+[Stats] Stats
+
+[TABLEEND]
+
+
+[TABLEALIAS ChooseSovereignWnd]
+
+[Title] Who are you?
+[Available] Sovereigns
+[NewSovereign] Create Character
+[Backstory] Backstory
+
+[AbilitiesHeader] Abilities
+
+[FactionRaceHeader] Race
+[FactionStrengthHeader] Strengths
+[FactionWeaknessHeader] Weaknesses
+[UniqueEquipment] Unique Equipment
+[UniqueImprovements] Unique Improvements
+
+[UnitStatHeader] Stats
+
+[TABLEEND]
+
+
+[TABLEALIAS CreateSovereignAttributesSubWnd]
+
+[StatsTitle] What are your strengths?
+[SpellbookTitle] What are your Magical Proficiencies?
+[HistoryTitle] What was your profession?
+
+[TABLEEND]
+
+[TABLEALIAS CreateSovereignTalentsSubWnd]
+
+[TalentsTitle] Talents
+[WeaknessesTitle] Weaknesses
+
+[TABLEEND]
+
+[TABLEALIAS CreateSovereignAppearanceSubWnd]
+
+[BodyFilter] Body
+[HeadFilter] Head
+[ClothesFilter] Clothes
+[EquipFilter] Equipment
+
+[SkinDefaultTooltip] Skin Color
+[HairDefaultTooltip] Skin and Hair Color
+[ClothesDefaultTooltip] Clothes Color
+[EquipmentDefaultTooltip] Equipment Color
+
+[EquipmentType0] Hair
+[EquipmentType1] Head Accessories
+[EquipmentType2] Face
+[EquipmentType3] Shirts
+[EquipmentType4] Surcoats
+[EquipmentType5] Cloaks
+[EquipmentType6] Wrist Gear
+[EquipmentType7] Weapons
+[EquipmentType8] Hand Items
+[EquipmentType9] Pants
+[EquipmentType10] Boots
+[EquipmentType11] Mount
+
+[AccessoryHeader] Accessories
+
+[SkinTextureHeader] Skins
+[EyeTextureHeader] Eyes
+[AnimationPackHeader] Animations
+
+[Color1SkinLabel] Skin
+[Color1HairLabel] Hair
+[Color1ClothingLabel] Main
+[Color2ClothingLabel] Trim
+[Color1MetalLabel] Metal
+
+[CustomizationCost] Cost: %ld
+
+[TABLEEND]
+
+[TABLEALIAS CreateSovereignParticleEditorSubWnd]
+
+[EffectListTitle] Effects:
+[AttachmentListTitle] Attachment Pts on Object:
+[ObjectListTitle] Objects:
+
+[OffsetTitle] Offset:
+[RotationTitle] Rotation (in Degrees):
+
+[XAxis] X
+[YAxis] Y
+[ZAxis] Z
+
+[Scale] Scale
+
+[ApplyBtn] Apply
+[ExportBtn] Export
+
+[DefaultObject] (Root Character Mesh)
+[RootAttach] (Origin)
+
+[MessageTitle] Create Sovereign Particle Editor
+[NoSequencer] You have not selected an effect from the effects list
+[NoAttachmentPoint] You have not selected an attachment point from the attachment points list
+
+[TABLEEND]
+
+[TABLEALIAS ChooseOpponentWnd]
+
+[WindowTitle] Choose Opponents
+
+[SelectedOpponentTitle] Selected Opponents
+[DifficultyTitle] Difficulty
+[TeamTitle] Team
+
+[TraitListTitle] Traits
+
+[OpponentSpacerTitle] Selected Opponents
+[AvailableSpacerTitle] Available Opponents
+
+[TABLEEND]
+
+[TABLEALIAS CreateSovereignBackstorySubWnd]
+
+[DefaultBackstoryText] Write the legend of your travels here!
+
+[TABLEEND]
+
+[TABLEALIAS CustomizeFactionWnd]
+
+[WindowTitle] Customize Your Faction
+[FactionName] Faction Name:
+[ShortName] Short Name:
+[RaceType] Race:
+[Backstory] Backstory:
+
+[RandomNameTip] Randomize your Faction's Name
+
+[Crest] Crest:
+
+[Points] Points:
+[pts] pts
+
+[Allegiance] Ideology:
+
+[Strengths] Strengths
+[Weaknesses] Weaknesses
+[Colors] Appearance
+[Summary] Summary
+
+[FactionAddOnKingdom] Kingdom of
+[FactionAddOnEmpire] Empire of
+[Default_Description] Faction backstory goes here. Make it good!
+
+[NewRace] New Race
+[NameRaceMessage] Name your new race:
+
+[FactionColor] Faction color
+[FactionColor_Tooltip] Faction color
+[Color0] Skin color
+[Color0_Tooltip] Skin color
+[Color1] Hair color
+[Color1_Tooltip] Hair color
+[Color2] Clothing 1 color
+[Color2_Tooltip] Clothing 1 color
+[Color3] Clothing 2 color
+[Color3_Tooltip] Clothing 2 color
+[Color4] Metal color
+[Color4_Tooltip] Metal color
+[Color5] Primary color
+[Color5_Tooltip] Primary color
+[Color6] Secondary color
+[Color6_Tooltip] Secondary color
+[Color7] Roof color
+[Color7_Tooltip] Roof color
+
+[ColorUI0] Map color
+[ColorUI0_Tooltip] Map color
+[ColorUI1] Cloth map color
+[ColorUI1_Tooltip] Cloth map color
+
+[FactionSaved] Faction Saved
+[SavedFactionMsg] The '%s' is ready to be led into the world.
+
+[TABLEEND]
+
+
+[TABLEALIAS CustomizeCrestWnd]
+
+[WindowTitle] Customize Your Faction Crest
+[Done] Done
+[Load] Load
+[Cancel] Cancel
+
+[LogoTypeTip_0] Single Image, Four Colors 
+[LogoTypeTip_1] Four Images, Four Colors
+[LogoTypeTip_2] Two Images, Two Colors, Vertical
+[LogoTypeTip_3] Two Images, Two Colors, Horizontal
+
+[Color] Color:
+[Image] Image:
+
+[LoadCustomFaction] Load Custom Faction
+
+[TABLEEND]
+
+
+[TABLEALIAS WorldSetupWnd]
+
+[WorldName] Elemental
+
+[CreateYourWorld] Where Are You?
+
+[MapSettings] Map Settings
+[MapTitle] Map
+[WorldSize] World Size
+[MapType] Map Type
+[WildlandFreq] Wildland Frequency
+[ChampionFreq] Champion Frequency
+[QuestFreq] Quest Frequency
+
+[GameOptions] World Options
+[Difficulty] Difficulty
+[MonsterFreq] Monster Frequency
+[Pacing] Pacing
+[MagicStrength] Magic Strength
+[ResourceFreq] Resource Frequency
+[RandomEventFreq] Random Event Frequency
+
+[Quantity] Quantity:
+[Density] Density:
+
+[Seed] Seed (Debug Only):
+
+[CustomMapStyle] Custom
+
+[LoadMapTooltip] Choose custom map
+[RandomizeTooltip] Generate a random map
+[RandomMap] Random
+
+[WorldSize0] Tiny
+[WorldSize1] Small
+[WorldSize2] Medium
+[WorldSize3] Large
+[WorldSize4] Huge
+
+[WorldSize0Tooltip] A very small map, suitable for 2 players.
+[WorldSize1Tooltip] A small map, recommended for 2-4 players.
+[WorldSize2Tooltip] A medium map, recommended for 4-6 players.
+[WorldSize3Tooltip] A large map, recommended for 6-9 players.
+
+[MapType0Tooltip] A balanced world composed of a fairly even mix of different terrains.
+[MapType1Tooltip] A ravaged world filled with chasms and other rugged terrain.
+[MapType2Tooltip] A random style world.
+[MapType3Tooltip] A temperate world filled with lush forests and fertile land.
+[MapType4Tooltip] A harsh world with a high concentration of swamps and other rugged terrain.
+[MapType5Tooltip] A world of deserts, chasms and other rugged terrain where fertile land will be highly sought after.
+[MapType6Tooltip] A lush world of fertile forests broken apart by mountainous terrain.
+[MapType7Tooltip] A manually tailored world.
+
+[WildlandFreq0] None
+[WildlandFreq1] Below Average
+[WildlandFreq2] Balanced
+[WildlandFreq3] Above Average
+[WildlandFreq4] Many
+
+[WildlandFreq0Tooltip] No wildlands will appear in the world.
+[WildlandFreq1Tooltip] Fewer wildlands than normal for the map size will be placed in the world.
+[WildlandFreq2Tooltip] A balanced number of wildlands will be placed, based on the size of the world.
+[WildlandFreq3Tooltip] More wildlands than normal for the map size will be placed in the world.
+[WildlandFreq4Tooltip] Many wildlands will take up space on the map.
+[WildlandFreq5Tooltip] A random wildlands option will be chosen.
+
+[ChampionFreq0Tooltip] No champions will be placed on the map.
+[ChampionFreq1Tooltip] You will have to fight for champions with opponents of the same allegiance.
+[ChampionFreq2Tooltip] There are enough champions of various levels to go around.
+[ChampionFreq3Tooltip] There are plenty of champions available to recruit.
+[ChampionFreq4Tooltip] A random champion frequency will be chosen.
+
+[QuestFreq0Tooltip] No quests will be placed on the map.
+[QuestFreq1Tooltip] Few quests will be placed on the map.
+[QuestFreq2Tooltip] A balanced number of quests will be placed on the map.
+[QuestFreq3Tooltip] There are plenty of quests available to complete.
+[QuestFreq4Tooltip] A random quest frequency will be chosen.
+
+[MonsterFreq0Tooltip] A world inhabited by very few random monsters.
+[MonsterFreq1Tooltip] A world inhabited by the standard amount of random monsters.
+[MonsterFreq2Tooltip] A world inhabited by a huge number of random monsters.
+[MonsterFreq3Tooltip] A random monster frequency will be chosen.
+
+[Difficulty0Tooltip] Novice AI has handicapped units and economic growth rates along with a very low intelligence.
+[Difficulty1Tooltip] Beginner AI has moderately handicapped units and economic growth rates along with a low intelligence.
+[Difficulty2Tooltip] Easy AI has slightly handicapped units and economic growth rates. It's good for players looking for a casual experience.
+[Difficulty3Tooltip] Normal AI is a good start for experienced strategy game players. The AI gets no bonuses but is not using its best algorithms.
+[Difficulty4Tooltip] Challenging AI is a good place for strong strategy game players. The AI gets no bonuses and is using its best algorithms.
+[Difficulty5Tooltip] Hard AI is the place for very good strategy game players. The AI is using its best algorithms and gets slight economic advantages.
+[Difficulty6Tooltip] Expert AI is the place for expert strategy game players. The AI uses its best algorithms, gets slight economic advantages, and has slightly buffed sovereigns.
+[Difficulty7Tooltip] Ridiculous AI is for players wanting a hard core challenge. The AI is using its best algorithms and gets significant economic and HP advantages.
+[Difficulty8Tooltip] You should probably see someone about this...
+[Difficulty9Tooltip] A random world difficulty will be chosen.
+
+[Pacing0Tooltip] A game with slow technology progression.
+[Pacing1Tooltip] A game with standard technology progression.
+[Pacing2Tooltip] A game with accelerated technology progression.
+[Pacing3Tooltip] A random game pace will be chosen.
+
+[MagicStrength0Tooltip] A world where magical Shards are rare and magic is sparse.
+[MagicStrength1Tooltip] A world where magical Shards are dispersed moderately.
+[MagicStrength2Tooltip] A world packed with magical Shards, magic will flow freely.
+[MagicStrength3Tooltip] A random shard frequency will be chosen.
+
+[ResourceFreq0Tooltip] A world where wild resources are few and far between. You will have to fight tooth and nail for every node.
+[ResourceFreq1Tooltip] A world where wild resources are found around the world at a standard pace. This is the base for resource density.
+[ResourceFreq2Tooltip] A world filled with wild resources ready to be claimed.
+[ResourceFreq3Tooltip] A random resource frequency will be chosen.
+
+[RandomEventFreq_Never] Never
+[RandomEventFreq_LessOften] Less Often
+[RandomEventFreq_Default] Default
+[RandomEventFreq_MoreOften] More Often
+[RandomEventFreq_Def_RANDOM] Random
+
+[RandomEventFreq_Never_Tooltip] No random events will ever occur for the duration of the game.
+[RandomEventFreq_LessOften_Tooltip] Random events are rarer than usual.
+[RandomEventFreq_Default_Tooltip] A balanced number of random events have a chance of occuring during the game
+[RandomEventFreq_MoreOften_Tooltip] More random events than normal will happen during the game.
+[RandomEventFreq_Def_RANDOM_Tooltip] A random frequency of random events will be chosen for this game.
+
+[LandMass0] Oceanic
+[LandMass1] Small Continents
+[LandMass2] Large Continents
+[LandMass3] One Continent
+
+[ForestDensity0] Barren
+[ForestDensity1] Lush
+[ForestDensity2] Overgrown
+
+[ForestQuantity0] Barren
+[ForestQuantity1] Sparse
+[ForestQuantity2] Commonplace
+[ForestQuantity3] Prevalent
+[ForestQuantity4] Bountiful
+
+[MountQuantity0] Sparse
+[MountQuantity1] Hilly
+[MountQuantity2] Towering
+
+[Pacing0] Epic
+[Pacing1] Normal
+[Pacing2] Fast
+
+[EnabledOption0] Disabled
+[EnabledOption1] Enabled
+
+[FrequencyOption0] None
+[FrequencyOption1] Rare
+[FrequencyOption2] Common
+[FrequencyOption3] Frequent
+[FrequencyOption4] Plentiful
+
+[Random] Random
+
+[TABLEEND]
+
+
+[TABLEALIAS OpponentSetupWnd]
+
+[Title] Who Opposes You?
+[CustomizeOpponents] Customize Opponents
+[NextButton] Play!
+
+[OpponentCountTitle] Number of Opponents:
+[OpponentDifficultyTitle] Typical Intelligence of Opponents:
+[AllegianceBalanceTitle] Kingdom vs. Empire Balance:
+[SurrenderThresholdTitle] Opponent Surrender Threshold:
+
+[AllegianceBalance0] All Kingdom
+[AllegianceBalance1] More Kingdom
+[AllegianceBalance2] Even
+[AllegianceBalance3] More Empire
+[AllegianceBalance4] All Empire
+
+[SurrenderThreshold0] Never
+[SurrenderThreshold1] Rarely
+[SurrenderThreshold2] Normal
+[SurrenderThreshold3] Often
+
+[SurrenderThreshold0Tooltip] Opponents never surrender.
+[SurrenderThreshold1Tooltip] Opponents surrender only if vastly overpowered.
+[SurrenderThreshold2Tooltip] Opponents consider surrender if sufficiently overpowered.
+[SurrenderThreshold3Tooltip] Opponents are quick to surrender if overpowered.
+[SurrenderThreshold4Tooltip] A random surrender threshold is chosen for the game.
+
+[Difficulty0Tooltip] Novice AI has handicapped units and economic growth rates along with a very low intelligence.
+[Difficulty1Tooltip] Beginner AI has moderately handicapped units and economic growth rates along with a low intelligence.
+[Difficulty2Tooltip] Easy AI has slightly handicapped units and economic growth rates. It's good for players looking for a casual experience.
+[Difficulty3Tooltip] Normal AI is a good start for experienced strategy game players. The AI gets no bonuses but is not using its best algorithms.
+[Difficulty4Tooltip] Challenging AI is a good place for strong strategy game players. The AI gets no bonuses and is using its best algorithms.
+[Difficulty5Tooltip] Hard AI is the place for very good strategy game players. The AI is using its best algorithms and gets slight economic advantages.
+[Difficulty6Tooltip] Expert AI is the place for expert strategy game players. The AI is using its best algorithms and gets slight economic advantages and enemy sovereigns are slightly buffed.
+[Difficulty7Tooltip] Ridiculous AI is for players wanting a hard core challenge. The AI is using its best algorithms and gets significant economic and HP advantages.
+[Difficulty8Tooltip] You should probably see someone about this...
+[Difficulty9Tooltip] Each opponent is assigned a random intelligence level.
+[Difficulty10Tooltip] AI difficulty has been manually set on the Customize Opponents screen.
+
+[VictoryConditions] Victory Conditions
+
+[VictoryConquest] Conquest
+[VictoryDiplomatic] Diplomatic
+[VictoryQuest] Master Quest
+[VictorySpell] Spell of Making
+
+[VictoryConquestTooltip] Conquest victory enables players to win by eliminating all of their enemies.
+[VictoryDiplomaticTooltip] Diplomatic victory enables players to win by forming an alliance with all players in a game.
+[VictoryQuestTooltip] Master Quest enables players to win by completing the Quest of Mastery, a special epic quest hidden somewhere in the world.
+[VictorySpellTooltip] Spell of Making enables players to win a Magic Victory. It is unlocked through research and requires time and control of multiple shards to cast.
+
+[Custom] Custom
+[Random] Random
+
+[TABLEEND]
+
+
+[TABLEALIAS ColorPickerWnd]
+[Title] Color Palette
+[SelectColor] Select a Color
+
+[TABLEEND]
+
+
+[TABLEALIAS MessageBoxWnd]
+
+[CityLevelUpTitle] Level Up
+[CityLevelUpMsg] Settlement %s has leveled up to a %s
+[DontShowMsg] Don't show this message again
+
+[CantWearItemTitle] Can't Equip
+[CantWearItemMsg] %s doesn't fit this unit
+
+[CantUseItemTitle] Cannot Use
+[CantUseItemMsg] %s is not a usable item
+
+[ObtainedUnusableItem] Unfortunately, it won't fit you, but you can sell it at your settlement's shop.
+
+[EquipItem] Equip
+[UseItem] Use
+[TradeItem] Trade
+[PocketItem] OK
+
+[TABLEEND]
+
+
+[TABLEALIAS ReportWnd]
+
+[ScreenTitle] Daily Report
+
+[TABLEEND]
+
+
+[TABLEALIAS ReportItem]
+
+[BuildingFinishedMsg] Construction completed on %s's %s
+[BuildingFinishedNoCityMsg] Construction has been completed on our %s
+
+[CityIdle] The city of %s is now idle.  It is neither building any improvements nor training any units.
+
+[BuildingRuinedMsg] A %s has fallen into ruin in the city of %s
+
+[UnitTrainingMsg] Training completed for %s in %s
+[UnitTrainingNoCityMsg] Training completed for %s
+
+[ImprovementUnlockedMsg] Improvement type unlocked: %s
+[ItemUnlockedMsg] Item unlocked: %s
+
+[Boy] boy
+[Girl] girl
+
+[ChildBorn] A baby %s has been born to %s of %s
+[ChildGrownNoKingdom] %s has grown up!
+[ChildGrown] %s of %s has grown up!
+[ChildGrownDiffKingdom] %s of %s has grown up, but has decided to ally themselves with %s!
+[CityHasUpgraded_L2] %s has grown into a charming Village!
+[CityHasUpgraded_L3] %s has grown into a thriving Town!
+[CityHasUpgraded_L4] %s has grown into a bustling City!
+[CityHasUpgraded_L5] %s has grown into a massive Metropolis!
+[Marriage] %s of %s has married %s of %s
+[MarriageNoKingdom] %s of %s has married %s
+[NPCRecruited] %s has been recruited to %s
+[PlayerDestroyed] The %s has been destroyed.
+[StationedUnitFullHP] %s, stationed in %s, is completely rested.
+[UnitImmobilizationExpired] %s, stationed in %s, is no longer immobilized.
+[UnitLeveledUp_WithUnitType] %s has gained a level: now a L%lu %s!
+[UnitLeveledUp] %s has reached level %lu!
+
+[TechUnlockedMsg] Tech unlocked: %s
+
+[UnlockedSpell] Unlocked spell: %s
+
+[TreatyExpired] Your %s with %s has expired
+
+[CityUndefended] %s is undefended! Train troops to protect your people.
+
+[ThreatMsg] There are enemies in your territory! Click to cycle through them.
+
+[ResourceMsg] A nearby %s is now within our zone of control. Click on it to attempt to build on it
+
+[TABLEEND]
+
+
+
+[TABLEALIAS Warnings]
+
+[Warning] Warning
+
+[BadGameSave] Unable to load gamesave because it is not compatible with the current version.
+[OldGameSave] This save game was saved with a previous version of the game.  Unexpected results may occur.
+[NoQuickStartFromSaveTitle] Quick Start Disabled
+[NoQuickStartFromSaveMsg] Quick starting a new game from a saved game is not supported.  Please return to the main menu via the options menu to start a new game.
+
+[CityBuildImpassableTerrain] Cannot build on impassable terrain.
+[CityBuildInvalidTerrain] Cannot build this structure on this terrain
+[CityBuildOwnedTile] Cannot build in someone else's territory.
+[CityBuildEmptyTile] Must be built on empty tile
+[CityBuildCityTooClose] Too close to another settlement.  Minimum distance is %d tiles, you are only %d away.
+[OutpostBuildOutpostTooClose] Too close to another outpost.  Minimum distance is %d tiles, you are only %d away.
+[CityBuildImpsTooClose] Can't build improvements within %ld tiles of another city.
+[CityBuildNoMoney] Need %ld gildar for the new settlement
+[CityBuildImpNoMoney] There is not enough money to build this improvement.
+[CityBuildNotOnWater] You cannot found a settlement in the ocean.
+[CityBuildNotEnoughResource] Need %s %s for the new settlement
+[CityBuildNoGrain] Must build on tiles that provide grain
+[EnterTileDeclareWar] You are attempting to move into %s Influence.  By doing so, war will be declared on the %s.  Continue?
+[EnterTileDeclareWarNoPlayer] You are attempting to move into rival Influence.  By doing so, war will be declared on them.  Continue?
+[LaySiegeNotCloseEnough] You must be next to an enemy settlement to lay siege to it.
+[AttackUnitDeclareWar] You are attempting to attack a unit belonging to the %s, who you are not at war with.  Do you wish to declare war on the %s?
+[UnitNoItems] Selected unit has no items to Equip/Unequip.
+
+[ImprovementBuildNoResources] Not enough resources to build this improvement.
+
+[CantRecruitNPC_Gold] This unit requires %ld gildar for recruitment
+[CantRecruitNPC_NotRecruitable] This unit is not available for recruitment
+
+[OpponentWndNoOpponents] You can't continue without any opponents
+[OpponentWndSingleTeam] You can't continue while all the players are on the same team
+
+[NoRoadPath] Can't find a path for a road between these settlements!
+
+[CantTradeItems] To trade items, your champion needs to be within one tile, or on the same tile as, another of your champions
+
+[CantDisbandChampionsInCampaign] You can't disband a champion in this scenario.
+[CantDisbandSov] You can't disband your Sovereign.
+[CantDisbandQuestNPCs] You can't disband quest NPCs.
+
+[CaravanKilledTitle] Caravan Destroyed
+[CaravanKilledMsg] A caravan from %s was destroyed by unit %s of %s
+[CaravanKilledMsgNoCity] Once of your caravans was destroyed by unit %s of %s
+
+[CantRecruitSubUnitTooltip] Must recruit whole army
+[CantRecruitSubUnitMessage] This unit is part of an NPC party. You must recruit the entire party for them to join your side.
+
+[CantRecruitWrongAllegianceTooltip] This unit is allied with the %s
+[CantRecruitWrongAllegianceMessage] This unit is allied with the %s.
+
+[RecruitingTech3] Heroes
+[RecruitingTech4] Ereog's Journals
+[RecruitingTech5] Breon's Letters
+[CantRecruitMoreTechsTooltip] Learn %s to recruit level %ld champions
+
+[CantRecruitTooFarTooltip] Champion is not adjacent to any of your units or cities
+[CantRecruitTooFarMessage] Champion is not adjacent to any of your units or cities.
+
+[CantUpgradeOutsideTerritory] Unit is outside your Influence.
+[CantUpgradeNotEnoughResource] Need %.0f %s for upgrade
+[CantUpgradeNotEnoughCitizens] Need %.0f available citizens for upgrade
+
+[Campaign_CannotAttackOthersTitle] On Second Thought...
+[Campaign_CannotAttackPariden] Relias decides it would not help his cause to attack the great Queen of the West.
+[Campaign_CannotAttackTarth] While the swamp hides much, an attack on Lady Irane and Tarth would be difficult to hide from the other Kingdoms.
+[Campaign_CannotAttackGilden] Relias' friend, Rand Markinn, shows nothing but understanding for the adventurers plight. To attack him and his nation would be insane.
+[Campaign_CannotAttackCapitar] It would be difficult for Relias convince other kingdoms to join his cause if he prances about murdering them. He stays his hand.
+
+[MapSizeTitle] Map Size Exceeds Recommended Size
+[MapSize] The map you are trying to load is larger than the recommended size.  The map is %ld x %ld sectors while the recommended size is %ld x %ld sectors.  You may continue to use this map, but it may cause unexpected memory and/or performance issues.
+
+[SpellChannelingCanceled_Title] Spell Channeling Canceled
+[SpellChannelingCanceled_Message] Casting of %s by %s has failed due to: \n\n %s
+
+[UnitDesigns_BaseRetire] Can't retire built-in unit types
+
+[UnitModifier_PerkNotChampion] Can't add a perk to a non-champion
+[UnitModfier_PerkAlreadyOn] Unit already has this perk
+
+[TABLEEND]
+
+[TABLEALIAS General]
+
+[DefaultNoCostRecruitText] I would gladly join forces with you.
+
+[DontShowCheckboxMsg] Don't show this message again.
+
+[GameYearPostfix] A.C.
+
+[Turn] Season
+[Turns] Seasons
+
+[Objective] Objective
+[Objectives] Objectives
+[OptionalObjective] Optional Objective
+[OptionalObjectives] Optional Objectives
+
+[Hiergamenon] Hiergamenon
+[Infinite] Infinite
+[Dead] Dead
+[RelationsText0] Unknown
+[RelationsText1] Perm. War
+[RelationsText2] War
+[RelationsText3] Hostile
+[RelationsText4] Unfriendly
+[RelationsText5] Cool
+[RelationsText6] Neutral
+[RelationsText7] Warm
+[RelationsText8] Friendly
+[RelationsText9] Close
+[RelationsText10] Ally
+[RelationsText11] Team
+
+[Season0] Spring
+[Season1] Summer
+[Season2] Fall
+[Season3] Winter
+
+[WeDeclareWar] We have declared war on the %s
+[WarDeclaredOnUs] The %s have declared war on us
+[OtherDeclaredWar] The %s have declared war on the %s
+[ConqueredCity] %s has conquered the %s city of %s
+
+[Done] Done
+[Next] Next
+[Back] Back
+[Continue] Continue
+[Exit] Exit
+[Play] Play
+[Design] Design
+[Build] Build
+[Train] Train
+[Queue] Queue
+[StartNew] New Scenario
+[Trade] Trade
+[Resign] Resign
+[Quit] Quit
+[Forfeit] Forfeit
+[Leave] Leave
+[Watch] Watch
+[WatchVideo] Watch Video
+[SkipVideo] Skip Video
+
+[New] New
+[Edit] Edit
+[Remove] Remove
+[Create] Create
+
+[Yes] Yes
+[No] No
+
+[History] History:
+
+[Ok] Ok
+[Cancel] Cancel
+
+[Save] Save
+[Load] Load
+
+[SaveGame] Save Game
+[LoadGame] Load Game
+[Retire] Retire
+
+[Apply] Apply
+[Add] Add
+[Clear] Clear
+[Accept] Accept
+[Close] Close
+
+[Swap] Swap
+
+[Delete] Delete
+
+[Options] Options
+
+[Forest] Forest
+[Mountains] Mountains
+
+[Eclipses] Eclipses
+[StoryEvents] Story Events
+
+[Stats] Stats:
+[Level] Level
+[WildImp] Wild Improvement
+[Faction] Faction
+[CapitalCity] Capital City
+
+[Kingdom] Kingdom
+[Empire] Empire
+
+[DefaultWorkerName] Joe Worker
+
+[Never] Never
+[None] None
+
+[HPFormat] HP: %ld/%ld
+[WeeksFormatPlural] %ld Weeks
+[WeeksFormatSingular] %ld Week
+
+[HideThisWindow] Don't Display this Report
+
+[Him] him
+[His] his
+[Her] her
+
+[He] he
+[She] she
+
+[MLord] M'Lord
+[MLady] M'Lady
+[King] King
+[Queen] Queen
+[Brother] Brother
+[Sister] Sister
+[Woman]Woman
+[Man]Man
+[Boy] boy
+[Girl] girl
+
+[Negotiate] Talk
+
+[Encounter] Encounter
+
+[Details] Details
+
+[Loading] Loading
+
+[Direction0] South
+[Direction1] Southwest
+[Direction2] West
+[Direction3] Northwest
+[Direction4] North
+[Direction5] Northeast
+[Direction6] East
+[Direction7] Southeast
+
+[PlayerKilled] Faction Killed
+[ImpDestroyed] Resource Destroyed
+
+[Level]
+
+[TABLEEND]
+
+[TABLEALIAS CityContextWnd]
+
+[Population] Population: %d
+[CityLevel] City Level: %d
+
+[DailyIncome] Daily Income
+[GoldPerTurnTitle] Gildar
+[GoldPerTurnMetric] +%d
+[RationsPerTurnTitle] Rations
+[RationsPerTurnMetric] +%d
+[CitizensPerTurnTitle] Citizens
+[CitizensPerTurnMetric] +%d
+
+[Training] Training
+[Building] Building
+
+[TABLEEND]
+
+[TABLEALIAS MapEditorSaveStampWnd]
+
+[DefaultStampName] New Stamp
+
+[NoInclusion] No Inclusion
+[Unique] Unique
+[Rare] Rare
+[Uncommon] Uncommon
+[Common] Common
+
+[Generic] Generic
+[Mountains] Mountains
+[Arctic] Arctic 
+[Desert] Desert
+[Chasms] Chasms
+[Rugged] Rugged
+[Fertile] Fertile
+[Swamps] Swamps
+[Forests] Forests
+
+[Usage_Placement_Any_Terrain] Place on Any Terrain
+[Usage_Placement_Water] Place in Water
+[Usage_Placement_Land] Place on Land
+[Usage_Placement_Mountain] Place in Mountains
+[Usage_Placement_Forest] Place in Forest
+[Usage_Placement_Beach] Place on Beach
+[Usage_Placement_Cliff] Place on Cliff
+[Usage_Placement_Coastal] Place on Coast
+[Usage_Placement_Chasm] Place in Chasm
+[Usage_Placement_ChasmEdge] Place on Chasm Edge
+[Usage_Placement_Check_Placement_Tile_Only] Check Placement Tile Only For Terrain
+[Usage_Placement_Center_In_Splat] Center Stamp in Specified Terrain
+[Usage_Placement_Edge_Of_Splat] Place Stamp on Edge of Specified Terrain
+[Usage_Placement_Multiple_Terrain_Categories] Stamp Requires Multiple Terrains
+[Usage_Placement_Check_Terrain_Super_Category] Check Terrain Super Category
+[Usage_Placement_Replace_Splat] Stamp Replaces Terrain
+[Usage_Tiny] Tiny
+[Usage_Small] Small 
+[Usage_Medium] Medium 
+[Usage_Large] Large 
+[Usage_StartingPoint] Starting Point Stamp
+
+[Title] Save Stamp
+[Name] Name
+[Frequency] Frequency
+[Style] Style Tag
+[Rules] Rules
+
+[TABLEEND]
+
+[TABLEALIAS MapEditorTriggerDetailsWnd]
+
+[TriggerTab] Trigger
+[ResultsTab] Results
+[RestrictionsTab] Restrictions
+
+[ResultsTitle] Results
+[ResultsSettings] Result Settings
+
+[TriggerNameEntry] Trigger Name
+[PlayerIDEntry] Player ID ( 0 = human in single-player )
+
+[TABLEEND]
+
+[TABLEALIAS MapEditorNewMapWnd]
+
+[WindowTitle] New Map
+
+[MapSize] Map Size:
+[Landmass] Landmass:
+[Forests] Forests:
+[Mountains] Mountains:
+
+[AllWater] Water-Only Map
+[BlankMap] Blank Map
+[NoObjects]	No Objects
+
+[WorldSize0] Tiny (6x4)
+[WorldSize1] Slight (7x5)
+[WorldSize2] Medium (10x6)
+[WorldSize3] Large (12x8)
+[WorldSize4] Huge (14x10)
+
+[LandMass0] Oceanic
+[LandMass1] Small Continents
+[LandMass2] Large Continents
+[LandMass3] One Continent
+[LandMass4] All Ocean
+[LandMass5] All Land
+
+[MountDensity0] Sparse
+[MountDensity1] Hilly
+[MountDensity2] Towering
+
+[ForestDensity0] Barren
+[ForestDensity1] Lush
+[ForestDensity2] Overgrown  
+
+[TABLEEND]
+
+[TABLEALIAS MapEditorNewTriggerWnd]
+
+[WindowTitle] New Game Trigger
+[TriggerType] Type:
+[TriggerName] Name:
+[DefaultTriggerName] New Trigger
+
+[TriggerType_WorldTile] World Tile
+[TriggerType_Research] Research
+[TriggerType_Conversation] Conversation
+[TriggerType_StartTurn] Start %s
+[TriggerType_RecruitNPC] Recruit NPC
+[TriggerType_NewCity] New City
+[TriggerType_FactionDestroyed] Faction Destroyed
+[TriggerType_StartOfGame] Start of Game
+[TriggerType_UnitKilled] Unit Killed
+[TriggerType_ResourceLevel] Resource Level
+[TriggerType_SpellCast] Spell Cast
+
+[TABLEEND]
+
+[TABLEALIAS MapEditorNewResultWnd]
+
+[WindowTitle] New Game Result
+[ResultType] Type:
+[ResultName] Name:
+[DefaultResultName] New Result
+
+[ResultType_LiftFOW] Lift Fog of War
+[ResultType_PopupDialog] Pop-up Dialog
+[ResultType_UnlockTech] Unlock Tech
+[ResultType_OpenCampaignBook] Open Scenario Book
+[ResultType_PlayCutscene] Play Cutscene
+[ResultType_EndChapter] End Chapter
+[ResultType_SpawnUnit] Spawn Unit
+[ResultType_SimpleConversation] Simple Conversation
+[ResultType_GameModPlayer] Player Game Modifier
+[ResultType_GameModUnit] Unit Game Modifier
+[ResultType_GameModTile] Tile Game Modifier
+[ResultType_CampaignVictory] Scenario Victory
+
+[TABLEEND]
+
+[TABLEALIAS MapEditorNewRestrictionWnd]
+
+[WindowTitle] New Restriction
+[RestrictionType] Type:
+[RestrictionName] Name:
+[DefaultRestrictionName] New Restriction
+
+[RestrictionType_DisableMovement] Disable Movement
+[RestrictionType_DisableUIElement] Disable UI Element
+[RestrictionType_BlockTiles] Block Tiles
+
+[TABLEEND]
+
+[TABLEALIAS MapEditorSaveMapWnd]
+
+[WindowTitle] Save Map
+
+[MapName] Map Name:
+
+[OverwriteText] Overwrite old version.
+[NoObjectsText] Set Spawn No Objects Flag
+[RandStartText] Randomize Player Starting Locations
+
+[TABLEEND]
+
+[TABLEALIAS MapEditorOptionsWnd]
+
+[WindowTitle] Map Editor Options
+
+[ClothMapEnabled] Cloth Map Enabled
+[ClothMapZoomLevel] Zoom Level:
+[ZoomPercentage] %d%%
+
+[CameraSnapBack] Camera Snap-Back Enabled
+[RandomizePropRotation] Randomize Prop Placement Rotation
+[RandomizeTileRotation] Randomize Tile Placement Rotation
+
+[TABLEEND]
+
+[TABLEALIAS TerrainCategoryNames]
+
+[Land] Land
+[Water] Water
+[Mountain] Mountain
+[Forest] Forest
+[Beach] Beach
+[Cliff] Cliff
+[City] City
+[UnknownTerrainCategory] Unknown
+
+[TABLEEND]
+
+[TABLEALIAS MapEditorWnd]
+
+[WindowTitle] Map Editor
+
+[SaveStamp] Save Stamp
+
+[PropWndScale] Scale
+
+[PropWndOffsetX] Offset X
+[PropWndOffsetY] Offset Y
+[PropWndOffsetZ] Offset Z
+
+[PropWndRotateX] Rotate X
+[PropWndRotateY] Rotate Y
+[PropWndRotateZ] Rotate Z
+
+[ListTitleStamps] Stamps
+[ListTitleEnvironments] Environments
+[ListTitleTerrainTypes_Land] Land Terrain Types
+[ListTitleTerrainTypes_Mountain] Mountain Terrain Types
+[ListTitleTerrainTypes_Cliff] Cliff Terrain Types
+[ListTitleTerrainTypes_Cliff] Water Terrain Types
+[ListTitleTerrainTypes_Beach] Beach Terrain Types
+[ListTitleTerrainTypes_Forest] Forest Terrain Types
+[ListTitleMountainOptions] Mountain Options
+
+[ListTitleWildlands] Wildlands
+[ListTitleShards] Shards
+[ListTitleGoodieHuts] Notable Locations
+[ListTitleDungeons] Dungeons
+[ListTitleQuests] Quests
+[ListTitleResources] Resources
+[ListTitleBuildings] Buildings
+[ListTitleUnits] Units
+[ListTitleNPCs] NPCs
+[ListTitleCreatures] Creatures
+[ListTitleProps] Props
+[ListTitleStartingPoints] Starting Points
+[ListTitleTriggers] Game Triggers
+[ListTitleRestrictions] Game Restrictions
+[ListTitleMinorFactions] Minor Factions
+[ListTitleTileModifiers] Tile Modifiers
+
+[TileModifier1] +25% Defense Bonus
+[TileModifier2] +50% Defense Bonus
+[TileModifier3] -25% Defense Penalty
+[TileModifier4] -50% Defense Penalty
+[TileModifier5] +25% Attack Bonus
+[TileModifier6] +50% Attack Bonus
+[TileModifier7] -25% Attack Penalty
+[TileModifier8] -50% Attack Penalty
+[TileModifierEssence] %ld Essence Tile Yield
+
+[SpawnRating] Spawn Rating
+
+[RandomNPC] Random NPC
+[RandomQuest] Random Quest
+[RandomCreature] Random Creature
+[RandomStartingPoint] Random Starting Point
+[RandomResource] Random Resource
+[RandomGoodieHut] Random Notable Location
+[RandomMinorFaction] Random Minor Faction
+
+[TacticalAttackerStartPoint] Tactical Attacker Start
+[TacticalDefenderStartPoint] Tactical Defender Start
+
+[ToolOptionsNPC] NPC Options
+[ToolOptionsQuest] Quest Options
+[ToolOptionsCreature] Creature Options
+[ToolOptionsGoodieHuts] Notable Location Options
+[ToolOptionsImprovements] Improvement Options
+[ToolOptionsSpawnOptions] Spawn Options:
+[ToolOptionsSpawnRatingOverride] Spawn Rating Override:
+[ToolOptionsSpawnOnStart] Spawn on Start
+[ToolOptionsSpawnOnLevelReached] Spawn on Level Reached
+
+[DefaultSpawnRating] Default Spawn Rating
+[RandomSpawnRating] Random Spawn Rating
+[DefaultWanderRadius] Random Wander Radius
+[RandomWanderRadius] Random Wander Radius
+[NoWanderRadius] Don't Wander
+[AIControlled] AI Controlled
+
+[WanderRadius] Wander Radius
+
+[ObjectOwner] Object Owner
+[DefaultOwner] Default Owner
+[OwnerFormatString] Player %lu
+[SpawnCount] Spawn Count
+[SpawnCountFormat] Spawn %lu Units
+[Level] Level:
+[LevelFormat] Level %lu
+
+[ListButtonCancel] Cancel
+[ListButtonDelete] Delete
+[ListButtonSelect] Select
+[ListButtonDetails] Details
+[ListButtonDone] Done
+
+[OptionDialogTitle] Tool Options
+[OptionDialogCheck1] Randomize Size
+[OptionDialogCheck2] Randomize Pitch
+
+[LandButtonTooltip] Land Tool - L
+[MountainButtonTooltip] Mountain Tool - M
+[CliffButtonTooltip] Cliff Tool - C
+[BeachButtonTooltip] Beach Tool - B
+[WaterButtonTooltip] Water Tool - W
+[ForestButtonTooltip] Forest Tool - F
+[RiverButtonTooltip] River Tool - R
+[RoadButtonTooltip] Road Tool
+[StampButtonTooltip] Stamp Tool
+[EnvironmentButtonTooltip] Environment Tool
+
+[ShardButtonTooltip] Elemental Shards
+[GoodieHutButtonTooltip] Notable Locations
+[DungeonButtonTooltip] Dungeons
+[QuestButtonTooltip] Quests
+[ResourceButtonTooltip] Resources
+[StartingPointButtonTooltip] Starting Points
+[BuildingButtonTooltip] Buildings
+[UnitButtonTooltip] Units
+[NPCButtonTooltip] NPCs
+[PropButtonTooltip] Props
+[CreaturesButtonTooltip] Creatures
+[DestroyButtonTooltip] Destroy Objects
+[BlockedTileButtonTooltip] Blocked Tiles
+[EscapeTileButtonTooltip] Escape Tiles (Tactical Battle Only)
+[MinorRaceButtonTooltip] Minor Races
+[TileModifierButtonTooltip] Tile Modifiers
+
+[NewTrigger] New Game Trigger
+[TriggerListButtonTooltip] Game Trigger List
+[NewRestriction] New Game Restriction
+[RestrictionListButtonTooltip] Game Restriction List
+[ShowAllTriggersButtonTooltip] Show All Triggers
+[ShowAllRestrictedTilesButtonTooltip] Show All Restricted Tiles
+
+[ScreenshotButtonTooltip] Save Map Image - Ctrl-I
+[NewMapButtonTooltip] Create New Map
+[LoadMapButtonTooltip] Load Map
+[SaveMapButtonTooltip] Save Map
+[SaveStampButtonTooltip] Save Stamp
+[OptionsButtonTooltip] Map Editor Options
+[ExitButtonTooltip] Exit Map Editor
+[PointerButtonTooltip] Selection Cursor
+[WandButtonTooltip] Selection Wand
+[LabelButtonTooltip] Label Tool
+
+[TerrainToolsButtonTooltip] Terrain Tools
+[ObjectToolsButtonTooltip] Object Tools
+
+[LoadMap] Load Map
+[SaveMap] Save Map
+[Screenshot] PrtScn
+
+[StartingPoint] Starting Point
+
+[NPCInfo] NPC Unit
+[QuestInfo] Quest
+[CreatureInfo] Creature
+[PlayerStartInfo] Starting Location, Player
+[MinorFaction] Minor Faction
+[TileMod] Tile Mod
+
+[TerrainType] Terrain Type:
+
+[TABLEEND]
+
+
+[TABLEALIAS TileEditorWnd]
+
+[WindowTitle] Tile Editor
+
+[New] New
+[Load] Load
+[Save] Save
+[Options] Options
+[Close] Close
+
+[LODVisTitle] LOD:
+[LODVisExclusive] Exclusive
+[LODVisOverride] Override
+
+[LODDistance0] Closest (1)
+[LODDistance1] Closer (2)
+[LODDistance2] Close (3)
+[LODDistance3] Average (4)
+[LODDistance4] Far (5)
+[LODDistance5] Farther (6)
+[LODDistance6] Farthest (7)
+[LodDistance7] Show All
+[LodDistance8] Zoom
+
+[SaveTile] Save Tile
+[LoadTile] Load Tile
+[Cancel] Cancel
+
+[Templates] Templates
+[TileTypes] Tile Types
+[Structure] Structural Objects
+[Emitters] Particle Emitters
+[Pedestrians] Pedestrians
+[Landscape] Landscape Objects
+[Tree] Trees
+[Resources] Resources
+[Special] Special
+[Decals] Decals
+
+[TileProperties] Tile Properties
+
+[Tile1x1] 1x1
+[Tile1x2] 1x2
+[Tile2x2] 2x2
+
+[Terrain] Terrain
+[AmbientSound] Ambient Sound
+
+[Kingdom] Kingdom
+[Fallen] Fallen
+[Misc] Misc.
+
+[Plants] Plants
+[Rocks] Rocks
+[Other] Other
+
+[Favorites] Favorites
+
+[Colors] Colors
+[ColorPrimary] Primary
+[ColorSecondary] Secondary
+[ColorRoofs] Roofs
+
+[Main] Main
+[Secondary] Secondary
+[Misc] Misc.
+
+[OptionDialogTitle] Tool Options
+[OptionDialogCheck1] Randomize Size
+[OptionDialogCheck2] Randomize Pitch
+
+[ContextBarTitle] Description:
+
+[Spinner1Title] LOD
+[Spinner2Title] FX
+[Spinner3Title] Special Type
+[Spinner4Title] Misc. 1
+[Spinner5Title] Misc. 2
+[Spinner6Title] Misc. 3
+
+[TABLEEND]
+
+[TABLEALIAS TileEditorOptionsWnd]
+
+[WindowTitle] Tile Editor Options
+
+[CameraSnap] Camera Snap-Back Enabled
+[ObjectList] Show Object List
+
+[RotationSnap] Rotation Snap:
+[EnvironmentDisplay] Environment:
+
+[RotationSnapValue0] 1°
+[RotationSnapValue1] 2°
+[RotationSnapValue2] 5°
+[RotationSnapValue3] 10°
+[RotationSnapValue4] 45°
+[RotationSnapValue5] 90°
+
+[EnvironmentDisplayValue0] Barren
+[EnvironmentDisplayValue1] Dead
+[EnvironmentDisplayValue2] Grassland
+[EnvironmentDisplayValue3] Swamp
+[EnvironmentDisplayValue4] Desert
+[EnvironmentDisplayValue5] Arctic
+
+[Done] Done
+
+[TABLEEND]
+
+[TABLEALIAS TileEditorTransformSubWnd]
+
+[WindowTitle] Transform
+
+[Scale] Scale:
+
+[OffsetX] Offset X:
+[OffsetY] Offset Y:
+[OffsetZ] Offset Z:
+
+[RotateX] Rotate X:
+[RotateY] Rotate Y:
+[RotateZ] Rotate Z:
+
+[TABLEEND]
+
+[TABLEALIAS TileEditMiscSubWnd]
+
+[WindowTitle] Miscellaneous
+
+[ZoomVisibility] Zoom Visibility
+[HeightPlacement] Height Placement
+
+
+[LODDistance0] Closest (1)
+[LODDistance1] Closer (2)
+[LODDistance2] Close (3)
+[LODDistance3] Average (4)
+[LODDistance4] Far (5)
+[LODDistance5] Farther (6)
+[LODDistance6] Farthest (7)
+[LODInstance8] Always Visible(-1)
+
+[HeightAutomatic] Auto-Adjust Height
+[HeightFixed] Fixed Height
+
+[TABLEEND]
+
+[TABLEALIAS TileEditEmitterSubWnd]
+
+[WindowTitle] Emitter
+
+[Scale] Scale:
+
+[OffsetX] Offset X:
+[OffsetY] Offset Y:
+[OffsetZ] Offset Z:
+
+[EditEffect] Edit Effect
+[CreateEffect] Create New Effect
+
+[TABLEEND]
+
+[TABLEALIAS TileEditAnimationSubWnd]
+
+[WindowTitle] Animation
+
+[XAxisRotation] X Axis Rotation:
+[YAxisRotation] Y Axis Rotation:
+[ZAxisRotation] Z Axis Rotation:
+
+[TABLEEND]
+
+[TABLEALIAS OptionsWnd]
+
+[MainMenuBtn] Main Menu
+[BackToGameBtn] Back to Game
+
+[AdvancedBtn] Advanced Options
+[AdvancedBtn_Tooltip] Switch to Advanced Options
+[BasicButton] Basic Options
+[BasicButton_Tooltip] Back to Basic Options
+
+[Header1_Basic] General
+[Header2_Basic] Display
+[Header3_Basic] Audio
+
+[Header1_Advanced] General
+[Header2_Advanced] Display
+[Header3_Advanced] Editor
+
+[NeedsRestartTitle] Restart Needed
+[NeedsRestart] Certain changes require the game be restarted.
+
+[SkipIntro] Skip Intro Cutscene
+[SkipIntro_Tooltip] Skip the opening cutscene when opening Fallen Enchantress.
+[Resolution] Resolution
+[Resolution_Tooltip] Change the game resolution. Desktop will set the resolution to that of your desktop.
+[CustomResolution] Custom
+[DesktopResolution] Desktop
+[FullScreen] Use Fullscreen
+[HardwareMouseCursor] Hardware Mouse Cursor
+[HardwareMouseCursor_Tooltip] Use the standard Windows mouse cursor.
+[Multisample] Anti-Aliasing
+[Multisample_Tooltip] Change the level of anti-aliasing in the game. Lower to increase performance.
+[MultisampleX] x
+[MultisampleOff] Off
+[Brightness] Brightness
+[Brightness_Tooltip] Change the game's brightness.
+[Contrast] Contrast
+[Contrast_Tooltip] Change the game's contrast.
+[AmbientLight] Ambient Light
+[AmbientLight_Tooltip] Change the level of ambient light.
+[ParticleEffects] Particle Effects
+[ParticleEffects_Tooltip] Display particle effects. Disable to increase performance.
+
+[MaxMipMapLevels] Maximum Mip Map Levels
+[DefaultMipMapLevels] Default
+[MaxMipMapLevelsOption] Levels
+[MaxMipMapLevelsOptionSingular] Level
+[Shadows] Shadows
+[Shadows_Tooltip] Display shadows. Disable to increase performance.
+[FontSmoothing] Font Smoothing
+[HDRLighting] Stylized Lighting
+[HDRLighting_Tooltip] Will allow the game to use advanced lighting. Disable to increase performance.
+[HDRSoftness] Softness (Adv. Lighting)
+
+[LevelOfDetailZoomLevel] LOD Zoom Level
+[ShowAutoPilotLines] Show Auto-Pilot Lines
+[ShowFullCaravanPewterPiece] Show Caravan Pewter Pieces
+[EnableToolTips] Use Tool Tips
+[ClothMapEnvColors] Cloth Color Intensity
+[UseLocalizedData] Use Translated Text
+[EnableTurnTimer] Enable Turn Timer (MP)
+[TurnTimer] Turn Timer Wait Time (MP)
+
+// debug lighting options
+[HDRMinTone] HDR Min Tone
+[HDRMinTone_Tooltip] HDR Min Tone
+[HDRMaxTone] HDR Max Tone
+[HDRMaxTone_Tooltip] HDR Max Tone
+[HDRStride] HDR Stride
+[HDRStride_Tooltip] HDR Stride
+[HDRBloomIntensity] HDR Bloom Intensity
+[HDRBloomIntensity_Tooltip] HDR Bloom Intensity
+[HDRSceneSaturation] HDR Scene Saturation
+[HDRSceneSaturation_Tooltip] HDR Scene Saturation
+[HDRBloomSaturation] HDR Bloom Saturation
+[HDRBloomSaturation_Tooltip] HDR Bloom Saturation
+[HDRExposure] HDR Exposure
+[HDRExposure_Tooltip] HDR Exposure
+[HDRGaussian] HDR Gaussian
+[HDRGaussian_Tooltip] HDR Gaussian
+[HDRBrightnessBias] HDR Brightness Bias
+[HDRBrightnessBias_Tooltip] HDR Brightness Bias
+
+[TextureAtlasSize] Max Texture Atlas Size
+[TextureAtlasSize_Tooltip] Change the size of the texture atlas used to render UI elements. A larger texture will result in improved performance but may not be supported by some video cards.
+[CustomTextureAtlasSize] Custom Texture Atlas Size
+[Outlines] Outlines
+[Outlines_Tooltip] Display outlines on 3D objects. Disable to increase performance.
+[Pedestrians] Pedestrians
+[Pedestrians_Tooltip] Display cosmetic pedestrians in tile designs. Disable to increase performance.
+[EnvPropsTitle] Amount of Groundcover
+[EnvPropsTitle_Tooltip] Change the amount of props and other ground cover in the world. Decrease to improve performance.
+[NoEnvProps] None
+[EnvProps1] Sparse (1/2)
+[EnvProps2] Normal
+[EnvProps3] Numerous (2x)
+[EnvProps4] Plentiful (5x)
+[EnvProps5] Overgrown (10x)
+[UnitScale] Unit Scale
+[UnitScale_Tooltip] Change the scale of units in the strategic view.
+[UnitScale0] Proportional
+[UnitScale1] Normal
+[UnitScale2] Large
+[UnitScale3] Huge
+[UnitScale4] Gigantic
+[ScaleOnZoom] Scale Units When Zooming
+[ScaleOnZoom_Tooltip] Will scale units in their tile as you change zoom levels.
+
+// Sound
+[SFXVolume] SFX Volume
+[SFXVolume_Tooltip] Change the volume of sound effects.
+[MovieVolume] Movie Volume 
+[MovieVolume_Tooltip] Change the volume of in-game movies.
+[MusicVolume] Music Volume 
+[MusicVolume_Tooltip] Change the volume of background music.
+[EventMusicVolume] Event Music Volume
+[EventMusicVolume_Tooltip] Change the volume of music triggered from in-game events.
+[AmbienceVolume] Ambience Volume
+[AmbienceVolume_Tooltip] Change the volume of ambient sounds.
+[Sfx] SFX
+[Sfx_Tooltip] Play sound effects.
+[Music] Music
+[Music_Tooltip] Play background music.
+[EventMusic] Event Music
+[EventMusic_Tooltip] Play music on triggered events.
+[AmbientSound] Ambient Sound
+[AmbientSound_Tooltip] Play ambient sounds.
+[SpeakerConfig] Speaker Configuration
+[SpeakerConfig_Tooltip] Change your speaker configuration.
+[SoundChannel0] System Default
+[SoundChannel1] Mono
+[SoundChannel2] Stereo headphones
+[SoundChannel3] Stereo speakers
+[SoundChannel4] Dolby Surround
+[SoundChannel5] SRS Circle Surround
+[SoundChannel6] 4.0 discrete
+[SoundChannel7] 5.1 discrete
+[SoundChannel8] 6.1 discrete
+[SoundChannel9] 7.1 discrete
+[SoundChannel10] 8.1 discrete
+
+[DrawGrid] Show Grid
+[DrawGrid_Tooltip] Display the grid.
+[DrawMoveRadius] Show Move Radius
+[MoveRadius_Tooltip] Show move radius in tactical battles.
+[SnapBack] Snap Back When Rotating
+[SnapBack_Tooltip] Return the camera to its default angle after being moved in the strategic view.
+[SmartPlayerColors] Smart Player Colors
+[SmartPlayerColors_Tooltip] Color the other factions in your game based on their relationship with you. Green for friendly, yellow for neutral and red for hostile.
+[ClothMapOnly] Cloth Map Only
+[ClothMapOnly_Tooltip] Make the cloth map visible at all levels of zoom in the strategic window. 
+[FastMapTransition] Fast Map Transition
+[FastMapTransition_Tooltip] Turns off transitional effects when switching to and from cloth map.
+[ShowTileYields] Show Tile Yields
+[ShowTileYields_Tooltip] Display tile yields on the map that a city would receive by being built on each tile.
+[TacticalMapZoom] Cloth Map Zoom Level
+[TacticalMapZoom_Tooltip] Change the amount of zoom required before the cloth map replaces the main strategic view. Higher numbers will result in the cloth map being viewed more.
+[EditorMapZoom] Editor Cloth Zoom Level
+[EditorMapZoom_Tooltip] Change the amount of zoom required before the cloth map replaces the 3D view in the editor. Higher numbers will result in the cloth map being viewed more.
+[MapEditorCampaign] Editor Scenario Data
+[MapEditorCampaign_Tooltip] Display scenario data in the editor.
+[ToolTipsDelay] Tool Tip Delay
+[ToolTipsDelay_Tooltip] Change the amount of time the game will delay before tool-tips are displayed on hover.
+[ClothMapFogBrightness] Cloth FOW Brightness
+[ClothMapFogBrightness_Tooltip] Change the brightness of the fog of war on the cloth map.
+[ZoomLimit] Zoom Limiting
+[ZoomLimit_Tooltip] Limit the amount the camera can zoom in on the strategic view.
+[ShowFactionPowerWnd] Faction Power Window
+[ShowFactionPowerWnd_Tooltip] Display the faction power window on the strategic view.
+[ShowResearchAndTaxInfo] Research and Taxes Info
+[ShowResearchAndTaxInfo_Tooltip] Display the research and tax window on the strategic view.
+[ShowTerrainWnd] Terrain Window
+[ShowTerrainWnd_Tooltip] Display the terrain info window on the strategic view.
+[ShowPointOfInterestHUDsInCloth] Show Point of Interest HUDs in Cloth
+[ShowPointOfInterestHUDsInCloth_Tooltip] Show icons for points of interest on the cloth map.
+[HUDInfo] HUD Information
+[ShowCityHUD_Tooltip] Display city HUD information in the strategic view.
+[ShowQuestHUDs_Tooltip] Display icons over quest locations in the strategic view.
+[ShowGoodieHutHUDs_Tooltip] Display icons over notable locations in the strategic view.
+[ShowNPCHUDs_Tooltip]Display icons over champion camps in the strategic view.
+[ShowMonsterLairHUDs_Tooltip] Display icons over monster lairs in the strategic view.
+[ShowResourceHUDs_Tooltip] Display icons over resource hoards in the strategic view.
+[AutoTurn] Auto Turn
+[AutoTurn_Tooltip] Automatically end your turn if all of your active units have moved and none of your cities are idle.
+[AutoSave] Auto Save
+[AutoSave_Tooltip] Save the game automatically at specific intervals.
+[AutoSaveTurns] Turns Until Auto Save
+[AutoSaveTurns_Tooltip] Change the number of turns between auto saves.
+[EnableMods] Use Mods
+[EnableMods_Tooltip] Allow the use of mods.
+[ScreenShotFormat] Screen Shot Format:
+[ScreenShotFormat_Tooltip] Change the file format of screen shots.
+[ScreenShotFormatJPG] JPG
+[ScreenShotFormatBMP] BMP
+[ScreenShotFormatTGA] TGA
+[ScreenShotFormatPNG] PNG
+[ScreenShotFormatDIB] DIB
+[FollowSelectedUnit] Follow Selected Unit
+[FollowSelectedUnit_Tooltip] Will cause the camera to follow your units when they move in the strategic view.
+[AutoSelectNextUnit] Auto Select Next Unit
+[AutoSelectNextUnit_Tooltip] Select the next unit with un-spent moves after finishing moving or passing your turn with another unit.
+[AutoStationNewUnits] Auto Station New Units
+[AutoStationNewUnits_Tooltip] Newly trained units will be automatically stationed in the city they were trained in.
+[ZoomToCursor] Zoom to Cursor
+[ZoomToCursor_Tooltip] When zooming in, will cause the camera to move towards the current cursor position.
+[ZoomCityBuildMode] City Build Mode Zoom
+[ZoomCityBuildMode_Tooltip] Zoom in on a city when you are building improvements in it.
+[ManualImprovementPlacement] Manual Improvement Placement
+[ManualImprovementPlacement_Tooltip] Choose where exactly in a city your improvements are built.
+[EnableEdgeScroll] Edge Scroll
+[EnableEdgeScroll_Tooltip] Pan the camera when the mouse cursor is moved to the edge of the screen.
+[EdgeScrollSpeed] Edge Scroll Speed
+[EdgeScrollSpeed_Tooltip] Change the speed the camera pans when you are hovering at the edge of the screen.
+[EdgeScrollDelay] Edge Scroll Delay
+[EdgeScrollDelay_Tooltip] Set how long the cursor needs to be over the edge of the screen before the camera pans.
+[QuickMove] Quick Move
+[QuickMove_Tooltip] Skip movement animations for units in the strategic view.
+[BattleThreshold] Tact-Battle Threshold
+[BattleThreshold_Tooltip] Set the number of units required in a battle before the game will prompt you to have a tactical battle.
+[BattleAnimSpeed] Tact-Battle Animation Speed
+[BattleAnimSpeed_Tooltip] Change the speed of animations in tactical battle.
+[AllowUnitBattleMovementWithinTile] Unit Movement Within Tile
+[AllowUnitBattleMovementWithinTile_Tooltip] During an attack animation, allow units to walk closer to each other to make the attack.
+[BattleAnimSpeed0] Normal (1x) 
+[BattleAnimSpeed1] Fast (2x)
+[BattleAnimSpeed2] Fastest (5x)
+[AutoLogin] Auto Login
+[AutoLogin_Tooltip] Allow the game to automatically log you in.
+[TutorialPopups] Tutorial Popups
+[TutorialPopups_Tooltip] Show interactive tutorial popups at the bottom of the screen the first time you encounter new content.
+[HighlightCursor] Show Highlight Cursor
+[HighlightCursor_Tooltip] Display a highlight on the tile your cursor is currently over.
+
+[SecondsUnit] s
+
+[TABLEEND]
+
+
+[TABLEALIAS ImpConstructionContextWnd]
+
+[NumTurns] %s Until Complete:
+[NumWorkers] Workers on Project:
+[ReleaseBtn] Release Workers
+[UnderConstruction] Under Construction
+
+[TABLEEND]
+
+
+[TABLEALIAS LoadingWnd]
+
+[StatusTextLoading] Creating World...
+
+[TABLEEND]
+
+[TABLEALIAS UnitEquipmentWnd]
+
+[DropBtn] Drop
+[EquipBtn] Equip
+
+[PersonalInventory] Personal Inventory
+[EmpireInventory] Empire Inventory
+
+[EquipmentTitle] Equipment
+[Level] Level:
+[Stats] Stats:
+
+[HP] HP:
+
+[TABLEEND]
+
+[TABLEALIAS UnitDetailsEquipWnd]
+
+[Weapons] Weapons
+[Armor] Armor
+[Equipment] Equipment
+[Other] Other Items
+
+[EditInfoCard] Edit Info Card
+
+[NoStacking] Cannot Stack Items
+[NoStackingMsg] %s already has a '%s' equipped. Accessories can only be utilized one at a time.
+
+[TABLEEND]
+
+[TABLEALIAS UnitDesignWnd]
+
+[ScreenTitle] Unit Design
+[UnitNameTitle] Unit Name:
+[StatsTitle] Stats
+[EquipmentTitle] Equipment
+[NoCitiesTitle] No Settlements Available For Training
+[NoTrainingTime] NA
+
+[WeaponFilter] Weapons
+[ArmorFilter] Armor
+[EquipmentFilter] Equipment
+[ClothingFilter] Other
+[PerksFilter] Traits
+[NoPerksTooltip] Research techs to unlock traits
+
+[UpgradeCategorySlot0] Helm
+[UpgradeCategorySlot3] Breastplate
+[UpgradeCategorySlot4] Breastplate
+[UpgradeCategorySlot5] Cloak
+[UpgradeCategorySlot6] Bracers
+[UpgradeCategorySlot8] Shields
+[UpgradeCategorySlot9] Greaves
+[UpgradeCategorySlot10] Boots
+[UpgradeCategorySlot11] Mount
+
+[UpgradeCategoryWeaponOneHand] One-handed %s
+[UpgradeCategoryWeaponTwoHand] Two-handed %s
+[UpgradeCategoryWeaponRanged] Ranged
+[UpgradeCategoryWeaponMagical] Magical
+
+[MaleButton] Male
+[FemaleButton] Female
+
+[UpgradeDefDescription] Will upgrade when a piece of equipment with better %s becomes available
+[UpgradeDefDescriptionMagical] Will upgrade when a more powerful magical weapon becomes available
+[UpgradeDefTitle] Upgradeable - %s
+[UpgradeDefTitle_None] Upgradeable - None Available
+[UpgradeDefDescriptionNone] No items of this type can be equipped due to weight restrictions
+[UpgradeDefContextNone] No items of this type are currently available.
+
+
+[EquipButton] Equip
+[UnequipButton] Unequip
+
+[NoItems] No items of this type available
+
+[EquipmentTitle] Equipment
+[Stats] Stats:
+
+[DefaultUnitName] Soldier
+
+[TrainingReqHeader] Training Requirements:\n
+[ResourceReqHeader] Resource Requirements:\n
+
+[TotalCostLabel] Total Cost
+[ItemStatsLabel] Attributes
+[ItemCostLabel] Cost
+[TradingLabel] Trading Required
+[AdditionalTrainingTime] Production Required
+
+[EncumbrancePercentage] Encumbrance
+
+[PerkSlot] Available Perk Slot
+
+[TooltipError_Overencumbered] Will become overencumbered
+[TooltipError_NoUpgrade] No upgrades available to equip
+[TooltipError_PerkSlots] No perk slots available
+[TooltipError_MaxAccessories] Max number of accessories already equipped
+
+[Overencumbered] Can't save an overencumbered unit
+
+[MissingTech] Must research %s
+
+[TABLEEND]
+
+[TABLEALIAS LoreBookWnd]
+
+[TheHiergamenon] The %s:
+[UnitBestiaryTitle] Beastiary
+[UnitNPCTitle] Notable People
+[UnitFactionTitle] People of %s
+[CityTitle] Notable Settlement
+[CityResourceTitle] Resource Breakdown
+[GoodieHutTitle] Notable Location
+[QuestLocationTitle] Quest Location
+[ResourceHoardTitle] Resource Hoard
+[ResourceTypeTitle] Resource Type
+[ImprovementTypeTitle] Settlement Improvement
+[GameItemTypeTitle] Item
+[TechDataTitle] Research
+[SpellDataTitle] Spell
+[SpellbookTitle] Spellbook
+[SpellbookName] Book of %s
+[IndexTitle] Index
+[BasicConcepts] Basic Game Concepts
+[Walkthrough] Walkthrough
+[TechList] Technologies
+[ResourceList] Resources
+[SpellList] Spells
+[MonsterList] Creatures
+[ImproveList] Improvements
+[Combat] Combat
+[Hiergamenon] Hiergamenon
+
+[QuestTitle] Quests
+[NoQuests_SelectedTitle] No Quests
+[NoQuests_Description] You have not started any quests yet.  Find and set your destination to an Inn to find a quest.
+[QuestActive] This is an active quest.
+[QuestFinished] This is a completed quest.
+[QuestFailed] This is a failed quest.
+
+[CampaignTitle] Scenario
+
+[KingdomAIDebugOnly] AI Player, DEBUG only.
+
+[WorldQuote] And so it begins...
+[WorldFirstTurn] It has been a century since the Cataclysm that nearly wiped out all life in the world. The lands are slowly beginning to recover.\n\nYou are a Channeler, one of the few who can still use magic. The people look to you to bring order to the chaos.
+[FallenEnchantress] Fallen Enchantress
+
+[Description] Description
+[Backstory] History
+
+[Notes] Notes
+[OtherNotes] Other Notes
+[Resources] Resources
+[Relations] Relations
+[Domination] Domination
+[NoRelations] Have yet to meet another race.
+[ShardsControlled] Shards
+
+[CityLevelUp] This settlement will level up when its population reaches %1.0f.
+[CityCannotLevelUpMax] This city has reached its maximum level.
+[CityRationing] This settlement is under rationing, and is suffering a production and Prestige penalty.  Reduce faction-wide usage of food.
+[Income] Total Income
+[Taxes] Taxes
+[OccupationUnrest] Occupation Penalty
+[NonContigZOCUnrest] Territory not contiguous to capital
+[CapitalCityBonusIncome] Capital Settlement
+[Buildings] Buildings
+[Units] Units
+[Trade] Trade
+[TreatyBonus] Economic Treaties
+[WorldVariables] World Variables
+[SpawnGoodieHutRating] Notables Lvl
+[PlayerSpawnGoodieHutRating] Our Notables Lvl
+[SpawnNPCRating] World NPC Lvl
+[OurNPCRating] Our NPC Lvl
+[QuestLevel] Our Questing Lvl
+[PlayerReputation] Our Reputation Lvl
+[FactionPrestige] Faction Prestige
+[InputHarvestEffect] +%s per %s (%s)
+
+[ImproveCity] Improve City
+[TrainUnits] Train Units
+[RenameCity] Rename City
+[RazeCity] Raze City
+
+[Actions] Actions
+[Stats] Stats
+[Cities] Settlements
+[PowerRating] Power Rating
+[ResearchLevels] Tech Levels
+[Requires] Requires
+[Adventure] Adventure
+[Questing] Questing
+[Produces] Produces
+[Enchantments] Enchantments
+[Bonuses] Bonuses
+[ProductionCost] Cost
+[ShopValue] Value
+[Unlocks] Unlocks
+[Unlimited] Unlimited
+[Items] Items
+[Improvements] Buildings
+[Bonus] Bonuses
+[Prereq] Prereqs
+[LeadsTo] Leads To
+[Labor] Labor
+[Level] City Level
+[Details] Details
+[Buildings] Buildings
+[Spells] Spells
+[None] None
+[RequiredAllegiance] Requires Allegiance:
+[Strengths] Strengths
+[Weaknesses] Weaknesses
+[NoMonsters] No monsters currently exist in the world.
+
+[Allowed] Allowed
+[PerGame] Per Game
+[PerFaction] Per Faction
+[PerTown] Per Settlement
+
+[Expenses] Total Expenses
+[Wages] Wages
+[CityUsage] City Maintenance
+
+[CaravanSupport] Caravans Available
+[TrainRatio] Train Ratio
+[ConstructionRatio] Construction Ratio
+[OpenPlots] Open Tiles
+
+[CannotBuildImp] You cannot build this improvement (do not meet pre-requisites).
+[CannotBuildRes] Your faction cannot build on this resource type.
+[ImpLocked_PlayerBuildingReq] Needs %s in a city
+
+[TradeRoutes] Trade Routes
+[TradeRouteSiege]  (On hold due to siege)
+[TradeRouteWar]  (Suspended due to war)
+[TradeRouteNoCaravan]  (No caravan sent)
+[TradeRouteRespawning]  (%ld turns until respawn)
+[TradeRouteNoBonus] NA
+[TradeRouteResourceBonus] +%ld%%
+
+[Caravans] Caravans
+[TradesWith] Trades With
+[Destination] Destination
+[Trading] Trading
+[Traded] Traded
+
+[UnitCharisma] Unit Charisma
+[GrowthFoodCap] Growth Capped to 0 by Food Limit
+[UnrestCap] Unrest Capped to %ld%%
+
+[Total] Total
+[Trade] Trade
+[BaseProduction] Base Production
+[BaseHubProduction] Base Hub Production
+[MultiCityPenalty] Multi-City Multiplier
+[Rationing] Rationing
+[AIDifficulty] %s AI Difficulty
+[Production] Production
+[Consumption] Usage
+[Multiplier] Multiplier
+[UsageMultiplier] Usage Multiplier
+[Multipliers] Multipliers
+[UsageMultipliers] Usage Multipliers
+[WeightedProduction] Weighted Production
+[PopulationUsage] Population
+[WeightedUsage] Weighted Usage
+[OtherSources] Other
+[CapitalBonus] Capital Bonus
+[FactionPrestige] Faction Prestige
+[StartingTileYield] Location Yield
+[TotalProduction] Net Production
+[Summary] Summary
+
+[ItemEffect] %s Item Effect
+
+[TABLEEND]
+
+//New Hiergamenon
+[TABLEALIAS HelpWnd]
+
+[Name] Hiergamenon
+
+//Categories
+[Factions] Factions
+[Sovereigns] Sovereigns
+[Technology] Technology
+[Spells] Spells
+[Improvements]  Improvements
+[Equipment] Equipment
+[Locations] Coming Soon
+[Resources] Resources
+[Monsters] Monsters
+[GameConcepts] Game Concepts
+
+[CloseButton] Close
+[Watch] Watch
+
+//Factions
+[FactionStrengthsHeader] Strengths
+[FactionWeaknessesHeader] Weaknesses
+[FactionBackstoryHeader] History
+
+//Units
+[UnitStatsHeader] Stats
+[UnitAbilitiesHeader] Abilities
+[UnitStrengthsHeader] Strengths
+[UnitWeaknessesHeader] Weaknesses
+[UnitBackstoryHeader] History
+[UnitStatsHeader] Stats
+[UnitSpawnRatingLabel] Spawn Rating
+
+//Techs
+[TechUnlocksHeader] Unlocks
+[TechUnlocksNone] None
+[TechPrereqsHeader] Prerequisites
+[TechLeadsToHeader] Leads To
+[TechDescriptionHeader] Description
+[TechMiscHeader] Miscellaneous
+
+//Spells
+[SpellStatsHeader] Stats
+[SpellDetailsHeader] Details
+[SpellRadiusLabel] Radius
+[SpellPrereqsHeader] Prerequisites
+[SpellDescriptionHeader] Description
+
+//Improvements
+[ConstructionHeader] Construction Costs
+[UpgradeHeader] Upgrade Path
+[ImprovementCityLevelLabel] City Level
+[ImprovementLaborLabel] Labor
+[ImprovementLaborTooltip] Total city production points required to complete construction on this improvement
+[ImprovementTypeTechRequirementHeader] Required Tech
+[ImprovementDescriptionHeader] Description
+[FactionLimit] %ld/%ld Per Faction
+[WorldLimit] %ld/%ld Per World
+
+//Equipment
+[EquipmentDescriptionHeader] Description
+[EquipmentStatsHeader] Stats
+[EquipmentDesignHeader] Attributes
+[EquipmentStatsUsableItem] Consumable
+[EquipmentStatsAccessory] Accessory
+[EquipmentStatsEquipment] Equipment
+[EquipmentStatsDesignCost] %s Training Cost
+[AdditionalTrainingTime] Labor
+
+//Resources
+[ResourceDescriptionHeader] Description
+
+[TABLEEND]
+
+// swalls:
+// This is the old unit details window. Commented out fornow
+//[TABLEALIAS UnitDetailsWnd]
+
+//[MiscDetails] Unit Details
+
+//[ItemFilter] Items
+
+//[TABLEEND]
+
+[TABLEALIAS UnitStats]
+
+[UnitsRequirementPoints] Requirement points:
+
+[StandbyMode0] None
+[StandbyMode1] Sentry
+[StandbyMode2] Guarding
+[StandbyMode3] Fortified
+
+[AutoMode0] None
+[AutoMode1] Exploring
+[AutoMode2] Attack
+[AutoMode3] Patrolling
+[AutoMode4] Patrolling
+
+[Stationed] Stationed in %s
+[Training] Training in %s
+[Waiting] Waiting for orders
+[Targeting] Targeting %s
+[Travelling] Travelling to %lu, %lu
+
+[Level] Level
+[Tooltip_BaseStat] Base %s %g
+[Tooltip_NoEquipment] No Special Equipment: 0
+[Tooltip_LevelMultiplier] x %g from a %s of %g
+[Tooltip_LevelBonus] + %g from a %s of %d
+[Tooltip_PrimeStatMultiplier] x %g from a %s of %d
+[Tooltip_PrimeStatBonus] + %g from a %s of %g
+[Tooltip_PlayerAbilityStatBonus] + %ld%% from %s player ability
+[Tooltip_PlayerAbilityStatBonus_New] %s Player Ability
+[Tooltip_Perk] %s Trait:
+[Tooltip_Perk_OnlyWhenStatUnderPercent] (when %s under %ld%%)
+
+[Tooltip_SpellPotionEffect] Effect from %s:
+[Tooltip_BonusFromArmy] Bonus from army: %+g
+[Tooltip_MultiplierFromArmy] Multiplier from army: x %g
+[Tooltip_Encumbrance] %ld%% encumbrance:
+[Tooltip_Damage] Damage: %g
+
+[TooltipBattle_NoBonuses] No Bonuses
+[TooltipBattle_NoTerrainBonuses] No Terrain Bonuses
+[TooltipBattle_Fortification] Fortified: x %g
+[TooltipBattle_CityBonus] Stationed in %s:
+[TooltipBattle_TerrainBonus] On %s terrain:
+[TooltipBattle_PropBonus] On %s:
+[TooltipBattle_FinalBattleStat] = %s %s in battle
+[TooltipBattle_TileBonus] Tile Bonus:
+[TooltipBattle_TilePenalty] Tile Penalty:
+[TooltipBattle_FriendlyKingdomTile] Kingdom Territory Bonus: %d%%
+[TooltipBattle_FriendlyEmpireTile] Empire Territory Bonus: %d%%
+[TooltipBattle_EnemyKingdomTile] Kingdom Territory Penalty: %d%%
+[TooltipBattle_EnemyEmpireTile] Empire Territory Penalty: %d%%
+
+[Tooltip_ArmyStat_Contribution] %s : %s
+[Tooltip_ArmyStat_HitPoints] %s : %d/%s
+[Tooltip_ArmyStat_Moves] Slowest from %s
+[Tooltip_ArmyStat_MovesOrganized] Organized: Moves from %s
+[Tooltip_ArmyStat_Sight] Best from %s
+
+[StatEffect_BaseStat] Base Value
+[StatEffect_Encumbrance] %ld%% Encumbrance
+[StatEffect_LevelBonus] Level %ld Bonus
+[StatEffect_StatBonus] %s Bonus
+[StatEffect_StrengthAttackBonus] Strength Bonus (+%ld%% Strength Mod)
+[StatEffect_HealthRegenStationed] %s (x %s Stationed)
+[StatEffect_AIDifficultyRatio] AI Difficulty %s
+[StatEffect_Prone] Prone
+[StatEffect_TerrainBonus] On %s Terrain
+[StatEffect_TacticalTerrainBonus] On %s Tactical Terrain
+[StatEffect_WorldPropBonus] On %s
+[StatEffect_MapTileBonus] On Tile %ld, %ld
+[StatEffect_FriendlyTerritory] Territory Bonus
+[StatEffect_EnemyTerritory] Territory Penalty
+[StatEffect_Fortification] Fortified
+[StatEffect_CityStation] Bonus from City
+[StatEffect_ArmyLeader] Bonus from Army
+[StatEffect_UnitType] %s Type Bonus
+[StatEffect_OutpostZOC] Outpost Effect
+
+[ArmyStat_Moves_Slow] %s (Slowest)
+[ArmyStat_Moves_Organized] %s (Organized)
+[ArmyStat_Sight_Best] %s (Best)
+
+[PrimeStat_StatBonus] %s Bonus
+[PrimeStat_MeleeAttack] Melee Attack Bonus
+
+[TABLEEND]
+
+[TABLEALIAS ManaTypes]
+
+[ManaType0] Life Mana
+[ManaType1] Death Mana
+[ManaType2] Earth Mana
+[ManaType3] Air Mana
+[ManaType4] Fire Mana
+[ManaType5] Water Mana
+
+[Mana] Mana
+
+[TABLEEND]
+
+[TABLEALIAS MainActionsMoreEntryWnd]
+
+[MoreActions] More Actions
+
+[TABLEEND]
+
+[TABLEALIAS MainActionHotkeyEntryWnd]
+
+[AssignHotkey] Click to assign hotkey
+
+[TABLEEND]
+
+[TABLEALIAS UnitActions]
+
+[BuildTown] Settle
+[BuildTown_Hotkey] Build a City (Hotkey: B)
+[BuildImprovement] %s
+[BuildImprovement_Hotkey] Hotkey: B
+[FoundKingdom] Settle
+[FoundEmpire] Settle
+[FoundKingdom_Hotkey] Found your Kingdom (Hotkey: B)
+[BuildRoad] Road
+[AttackUnit] Attack
+[AttackUnit_Hotkey] Attack an enemy or neutral unit (Hotkey: A)
+[NoAttackStrength] Cannot Attack: No Attack
+[EquipmentWnd] Equip
+[EquipmentWnd_Hotkey] Open the Equipment screen (Hotkey: E)
+[AutoExplore] Explore
+[AutoExplore_Hotkey] Automatically explore the world (Hotkey: X)
+[Disband] Disband
+[Disband_Hotkey] Destroy this unit (Hotkey: DEL)
+[BuildOnResource] Build Pioneer Improvement
+[Recruit] Recruit
+[Recruit_Hotkey] Recruit this Champion to your cause (Hotkey: R)
+[VisitShop] Shop
+[VisitShop_Hotkey] Shop for items in the nearby city
+[CannotShopOutsideRange] Cannot Shop: Unit is Outside Friendly Influence
+[CannotShopEnemyTerritory] Cannot Shop: In Enemy Territory
+[CannotShopNoCity] Cannot Shop: No Settlement Found
+[LaySiege] Lay Siege To Settlement
+[LaySiege_Hotkey] Hotkey: L
+[Negotiate_Hotkey] Initiate diplomacy with this player
+[UpgradeWeaponry] Upgrade Weaponry
+[UpgradeWeaponryCost] Upgrade Weaponry (%s)
+[UpgradeArmor] Upgrade Armor
+[UpgradeArmorCost] Upgrade Armor (%s)
+[UpgradeGroup] Upgrade Group
+[UpgradeGroupCost] Upgrade Group to %ld troops (%.0f citizens, %.0f gildar)
+[Rename] Rename
+
+[Info] Details
+[Info_Hotkey] Hotkey: D
+[Fortify] Fortify
+[Fortify_Hotkey] Hotkey: F
+[Guard] Guard
+[Guard_Hotkey] Guard this tile (Hotkey: G)
+[PassTurn] Pass
+[PassTurn_Hotkey] Skip this turn (Hotkey: SPACE)
+[Propose] Propose
+[Propose_Hotkey] Hotkey: P
+[TradeItems] Trade
+[TradeItems_Hotkey] Trade items between champions (Hotkey: T)
+[CastSpell] Open Spellbook
+[CastSpell_Hotkey] Hotkey: M
+[NotASpellcaster] Not a spellcaster
+[CancelSpellChanneling] Cancel
+[CancelSpellChanneling_Tooltip] Cancel Channeling Current Spell 
+[CannotCastWhileChanneling] Must cancel channeling of current spell to cast a different spell
+
+[TABLEEND]
+
+[TABLEALIAS CityActions]
+
+[BuildMode] Build
+[BuildMode_Hotkey] Hotkey: B
+[ConstructRoad] Construct Road
+[TrainUnit] Train
+[TrainUnit_Hotkey] Hotkey: T
+[BuildImprovementDisabled] %s has disabled building
+[TrainUnitDisabled] %s has disabled training
+[TrainUnitNoMoney] Need gildar for wages
+[GetDetails] Details
+[GetDetails_Hotkey] Hotkey: D
+[VisitShop] Shop
+[RazeCity] Raze
+[RazeCity_Hotkey] Hotkey: X
+[RushProduction] Rush
+[Rename] Rename
+
+[ShopDisabled_NotFriendlyCity] Cannot shop here - this city is not friendly with us
+[ShopDisabled_NoUnitsInArea] Cannot shop here - no units in the area
+[RushProduction_NotEnoughGold] Need %s gildar to rush production on the current project
+[RushProduction_OncePerTurn] Can only rush production in a city once per turn.
+[RushProduction_Valid] Instantly complete first item in queue (%s gildar)
+[RazeDisabled_TooFewTurns] Must own the city for %ld more turns before it can be razed
+
+[TABLEEND]
+
+[TABLEALIAS KingdomActions]
+
+[UnitDesignTitle] Design Units
+[ResearchTitle] Research
+[SpellsTitle] Study Spells
+[RelationsTitle] Foreign Relations
+[ReportTitle] Kingdom Report
+[FamilyTreeTitle] Dynasty
+[LedgerTitle] Ledger
+
+[TABLEEND]
+
+[TABLEALIAS ImprovementActions]
+
+[RazeOutpost] Raze
+[RazeOutpost_Hotkey] Hotkey: X
+[Upgrade] Upgrade
+[UpgradeOutpost] Upgrade
+[Rename] Rename
+
+[TABLEEND]
+
+[TABLEALIAS UnitContextWnd]
+
+[HitPoints] Hitpoints:
+[Moves] Moves:
+[Destination] Destination:
+[SpecialAbility] Special Ability:
+
+[Level] Level
+
+[TABLEEND]
+
+
+[TABLEALIAS DungeonContextWnd]
+[AwayParty] Away Party:
+[Treasure] Treasure:
+[Creatures] Creatures:
+[DungeonLevel] Level:
+[Cleared] Dungeon Cleared
+[TABLEEND]
+
+
+[TABLEALIAS LightingWnd]
+
+[Red] Red
+[Green] Green
+[Blue] Blue
+
+[Rotation] Rotation
+
+[Ambient] Ambient
+[Diffuse] Diffuse
+[Rim1] Rim 1
+[Rim2] Rim 2
+
+[Apply] Apply
+[Close] Close
+
+[TABLEEND]
+
+[TABLEALIAS ParticalEditorWnd]
+
+[ParticleEditorTitle] Particle Effect Editor
+
+[ParticleEditorClearButton] Clear
+[ParticleEditorCancelButton] Cancel
+[ParticleEditorDoneButton] Done
+[ParticleEditorSaveButton] Save
+
+[ParticleEditorTopButton1] New Emitter
+[ParticleEditorTopButton2] New Beam
+[ParticleEditorTopButton3] Load
+[ParticleEditorTopButton4] New Effect
+
+[ParticleEditorKeyframesTab] Animation
+[ParticleEditorColorsTab] Graphics
+
+[ParticleEditorAddEmitters] Add Emitters:
+[ParticleEditorEmitterName] Playback:
+
+[ParticleEditor_ColorSubWnd_Setting1] Color Interpolation Texture:
+[ParticleEditor_ColorSubWnd_Setting2] Diffuse/Alpha Texture:
+[ParticleEditor_ColorSubWnd_Setting3] Render Order:
+[ParticleEditor_ColorSubWnd_Setting4] Render Technique:
+[ParticleEditor_ColorSubWnd_Setting5] Visibility Mode:
+[ParticleEditor_ColorSubWnd_Setting6] Indefinite
+[ParticleEditor_ColorSubWnd_Setting7] Frames
+[ParticleEditor_ColorSubWnd_DepthBias] Depth Bias
+[ParticleEditor_ColorSubWnd_AnimatedStrip] Animated
+[ParticleEditor_ColorSubWnd_AnimatedStripStartRandom] Start Anim Random Frame
+[ParticleEditor_ColorSubWnd_FPS] FPS
+[ParticleEditor_ColorSubWnd_LocalParticles] Local Particles
+
+[ParticleEditor_EmitterEntry_Time] Trigger Time:
+[ParticleEditor_EmitterEntry_Duration] Duration:
+
+[ParticleEditor_EmitterSubWnd_Lifespan] Lifespan:
+[ParticleEditor_EmitterSubWnd_Start] Start:
+[ParticleEditor_EmitterSubWnd_Fade] Fade:
+[ParticleEditor_EmitterSubWnd_End] End:
+
+[ParticleEditor_KeyframesDirectionSubWnd_Time] Time:
+[ParticleEditor_KeyframesDirectionSubWnd_Yaw] Yaw:
+[ParticleEditor_KeyframesDirectionSubWnd_YawVariation] Yaw Var.:
+[ParticleEditor_KeyframesDirectionSubWnd_Pitch] Pitch:
+[ParticleEditor_KeyframesDirectionSubWnd_PitchVariation] Pitch Var.:
+[ParticleEditor_KeyframesDirectionSubWnd_Roll] Roll:
+[ParticleEditor_KeyframesDirectionSubWnd_RollVariation] Roll Var.:
+
+[ParticleEditor_KeyframesScalarSubWnd_Time] Time:
+[ParticleEditor_KeyframesScalarSubWnd_Value] Value:
+[ParticleEditor_KeyframesScalarSubWnd_Variation] Variation:
+
+[ParticleEditor_KeyframesSubWnd_Sets] Keyframe Sets:
+[ParticleEditor_KeyframesSubWnd_Keyframes] Keyframes:
+[ParticleEditor_KeyframesSubWnd_Add] Add
+[ParticleEditor_KeyframesSubWnd_Remove] Remove
+[ParticleEditor_KeyframesSubWnd_Duplicate] Duplicate
+
+[ParticleEditor_KeyframeSets_DirName] Direction
+[ParticleEditor_KeyframeSets_DirDesc] Direction:
+[ParticleEditor_KeyframeSets_DirXName] Dir. X
+[ParticleEditor_KeyframeSets_DirXDesc] X-Axis Direction (pitch):
+[ParticleEditor_KeyframeSets_DirYName] Dir. Y
+[ParticleEditor_KeyframeSets_DirYDesc] Y-Axis Direction (yaw):
+[ParticleEditor_KeyframeSets_DirZName] Dir. Z
+[ParticleEditor_KeyframeSets_DirZDesc] Z-Axis Direction (roll):
+[ParticleEditor_KeyframeSets_AccelXName] Acc. X
+[ParticleEditor_KeyframeSets_AccelXDesc] X-Axis Acceleration:
+[ParticleEditor_KeyframeSets_AccelYName] Acc. Y
+[ParticleEditor_KeyframeSets_AccelYDesc] Y-Axis Acceleration:
+[ParticleEditor_KeyframeSets_AccelZName] Acc. Z
+[ParticleEditor_KeyframeSets_AccelZDesc] Z-Axis Acceleration:
+[ParticleEditor_KeyframeSets_SpawnOffXName] Spawn Off. X
+[ParticleEditor_KeyframeSets_SpawnOffXDesc] X-Axis Spawn Offset (from effect origin):
+[ParticleEditor_KeyframeSets_SpawnOffYName] Spawn Off. Y
+[ParticleEditor_KeyframeSets_SpawnOffYDesc] Y-Axis Spawn Offset (from effect origin):
+[ParticleEditor_KeyframeSets_SpawnOffZName] Spawn Off. Z
+[ParticleEditor_KeyframeSets_SpawnOffZDesc] Z-Axis Spawn Offset (from effect origin):
+[ParticleEditor_KeyframeSets_EmitterPosXName] Emit. Pos. X
+[ParticleEditor_KeyframeSets_EmitterPosXDesc] X-Axis Emitter Position:
+[ParticleEditor_KeyframeSets_EmitterPosYName] Emit. Pos. Y
+[ParticleEditor_KeyframeSets_EmitterPosYDesc] Y-Axis Emitter Position:
+[ParticleEditor_KeyframeSets_EmitterPosZName] Emit. Pos. Z
+[ParticleEditor_KeyframeSets_EmitterPosZDesc] Z-Axis Emitter Position:
+[ParticleEditor_KeyframeSets_SpeedName] Speed
+[ParticleEditor_KeyframeSets_SpeedDesc] Speed (units per second):
+[ParticleEditor_KeyframeSets_StartScaleName] Start Scale
+[ParticleEditor_KeyframeSets_StartScaleDesc] Start Scale (1.0 = normal):
+[ParticleEditor_KeyframeSets_EndScaleName] End Scale
+[ParticleEditor_KeyframeSets_EndScaleDesc] End Scale (1.0 = normal):
+[ParticleEditor_KeyframeSets_InitRotName] Init. Rot.
+[ParticleEditor_KeyframeSets_InitRotDesc] Initial Rotation (in radians):
+[ParticleEditor_KeyframeSets_RotRateName] Rot. Rate
+[ParticleEditor_KeyframeSets_RotRateDesc] Rotation Rate (radians per second):
+[ParticleEditor_KeyframeSets_PartLifeName] Particle Life.
+[ParticleEditor_KeyframeSets_PartLifeDesc] Particle Lifetime (in seconds):
+[ParticleEditor_KeyframeSets_SpawnRateName] Spawn Rate
+[ParticleEditor_KeyframeSets_SpawnRateDesc] Spawn Rate (particles per second):
+[ParticleEditor_KeyframeSets_OriginXName] Origin Offset X
+[ParticleEditor_KeyframeSets_OriginXDesc] X-Axis Origin Offset:
+[ParticleEditor_KeyframeSets_OriginYName] Origin Offset Y
+[ParticleEditor_KeyframeSets_OriginYDesc] Y-Axis Origin Offset:
+[ParticleEditor_KeyframeSets_OriginZName] Origin Offset Z
+[ParticleEditor_KeyframeSets_OriginZDesc] Z-Axis Origin Offset:
+[ParticleEditor_KeyframeSets_TargetXName] Target Offset X
+[ParticleEditor_KeyframeSets_TargetXDesc] X-Axis Target Offset:
+[ParticleEditor_KeyframeSets_TargetYName] Target Offset Y
+[ParticleEditor_KeyframeSets_TargetYDesc] Y-Axis Target Offset:
+[ParticleEditor_KeyframeSets_TargetZName] Target Offset Z
+[ParticleEditor_KeyframeSets_TargetZDesc] Z-Axis Target Offset:
+[ParticleEditor_KeyframeSets_PulseRateName] Pulse Rate
+[ParticleEditor_KeyframeSets_PulseRateDesc] Pulse Rate (pulses per second):
+[ParticleEditor_KeyframeSets_MinPulseScaleName] Min Pulse Scale
+[ParticleEditor_KeyframeSets_MinPulseScaleDesc] Minimum Pulse Scale:
+[ParticleEditor_KeyframeSets_MaxPulseScaleName] Max Pulse Scale
+[ParticleEditor_KeyframeSets_MaxPulseScaleDesc] Maximum Pulse Scale:
+[ParticleEditor_KeyframeSets_TexScaleName] Texture Scale
+[ParticleEditor_KeyframeSets_TexScaleDesc] V-Axis Texture Scale:
+[ParticleEditor_KeyframeSets_ScrollRateName] Scroll Rate
+[ParticleEditor_KeyframeSets_ScrollRateDesc] V-Axis Texture Scroll Rate:
+
+[ParticleEditor_KeyframeSets_DirName_Tooltip] Direction
+[ParticleEditor_KeyframeSets_DirDesc_Tooltip] Direction:
+[ParticleEditor_KeyframeSets_DirXName_Tooltip] Direction X
+[ParticleEditor_KeyframeSets_DirXDesc_Tooltip] X-Axis Direction (pitch):
+[ParticleEditor_KeyframeSets_DirYName_Tooltip] Direction Y
+[ParticleEditor_KeyframeSets_DirYDesc_Tooltip] Y-Axis Direction (yaw):
+[ParticleEditor_KeyframeSets_DirZName_Tooltip] Direction Z
+[ParticleEditor_KeyframeSets_DirZDesc_Tooltip] Z-Axis Direction (roll):
+[ParticleEditor_KeyframeSets_AccelXName_Tooltip] Acceleration X
+[ParticleEditor_KeyframeSets_AccelXDesc_Tooltip] X-Axis Acceleration:
+[ParticleEditor_KeyframeSets_AccelYName_Tooltip] Acceleration Y
+[ParticleEditor_KeyframeSets_AccelYDesc_Tooltip] Y-Axis Acceleration:
+[ParticleEditor_KeyframeSets_AccelZName_Tooltip] Acceleration Z
+[ParticleEditor_KeyframeSets_AccelZDesc_Tooltip] Z-Axis Acceleration:
+[ParticleEditor_KeyframeSets_SpawnOffXName_Tooltip] Spawn Offset X
+[ParticleEditor_KeyframeSets_SpawnOffXDesc_Tooltip] X-Axis Spawn Offset (from effect origin):
+[ParticleEditor_KeyframeSets_SpawnOffYName_Tooltip] Spawn Offset Y
+[ParticleEditor_KeyframeSets_SpawnOffYDesc_Tooltip] Y-Axis Spawn Offset (from effect origin):
+[ParticleEditor_KeyframeSets_SpawnOffZName_Tooltip] Spawn Offset Z
+[ParticleEditor_KeyframeSets_SpawnOffZDesc_Tooltip] Z-Axis Spawn Offset (from effect origin):
+[ParticleEditor_KeyframeSets_EmitterPosXName_Tooltip] Emitter Position X
+[ParticleEditor_KeyframeSets_EmitterPosXDesc_Tooltip] X-Axis Emitter Position:
+[ParticleEditor_KeyframeSets_EmitterPosYName_Tooltip] Emitter Position Y
+[ParticleEditor_KeyframeSets_EmitterPosYDesc_Tooltip] Y-Axis Emitter Position:
+[ParticleEditor_KeyframeSets_EmitterPosZName_Tooltip] Emitter Position Z
+[ParticleEditor_KeyframeSets_EmitterPosZDesc_Tooltip] Z-Axis Emitter Position:
+[ParticleEditor_KeyframeSets_SpeedName_Tooltip] Speed
+[ParticleEditor_KeyframeSets_SpeedDesc_Tooltip] Speed (units per second):
+[ParticleEditor_KeyframeSets_StartScaleName_Tooltip] Start Scale
+[ParticleEditor_KeyframeSets_StartScaleDesc_Tooltip] Start Scale (1.0 = normal):
+[ParticleEditor_KeyframeSets_EndScaleName_Tooltip] End Scale
+[ParticleEditor_KeyframeSets_EndScaleDesc_Tooltip] End Scale (1.0 = normal):
+[ParticleEditor_KeyframeSets_InitRotName_Tooltip] Initial Rotation
+[ParticleEditor_KeyframeSets_InitRotDesc_Tooltip] Initial Rotation (in radians):
+[ParticleEditor_KeyframeSets_RotRateName_Tooltip] Rotation Rate
+[ParticleEditor_KeyframeSets_RotRateDesc_Tooltip] Rotation Rate (radians per second):
+[ParticleEditor_KeyframeSets_PartLifeName_Tooltip] Particle Lifetime
+[ParticleEditor_KeyframeSets_PartLifeDesc_Tooltip] Particle Lifetime (in seconds):
+[ParticleEditor_KeyframeSets_SpawnRateName_Tooltip] Spawn Rate
+[ParticleEditor_KeyframeSets_SpawnRateDesc_Tooltip] Spawn Rate (particles per second):
+[ParticleEditor_KeyframeSets_OriginXName_Tooltip] Origin Offset X
+[ParticleEditor_KeyframeSets_OriginXDesc_Tooltip] X-Axis Origin Offset:
+[ParticleEditor_KeyframeSets_OriginYName_Tooltip] Origin Offset Y
+[ParticleEditor_KeyframeSets_OriginYDesc_Tooltip] Y-Axis Origin Offset:
+[ParticleEditor_KeyframeSets_OriginZName_Tooltip] Origin Offset Z
+[ParticleEditor_KeyframeSets_OriginZDesc_Tooltip] Z-Axis Origin Offset:
+[ParticleEditor_KeyframeSets_TargetXName_Tooltip] Target Offset X
+[ParticleEditor_KeyframeSets_TargetXDesc_Tooltip] X-Axis Target Offset:
+[ParticleEditor_KeyframeSets_TargetYName_Tooltip] Target Offset Y
+[ParticleEditor_KeyframeSets_TargetYDesc_Tooltip] Y-Axis Target Offset:
+[ParticleEditor_KeyframeSets_TargetZName_Tooltip] Target Offset Z
+[ParticleEditor_KeyframeSets_TargetZDesc_Tooltip] Z-Axis Target Offset:
+[ParticleEditor_KeyframeSets_PulseRateName_Tooltip] Pulse Rate
+[ParticleEditor_KeyframeSets_PulseRateDesc_Tooltip] Pulse Rate (pulses per second):
+[ParticleEditor_KeyframeSets_MinPulseScaleName_Tooltip] Min Pulse Scale
+[ParticleEditor_KeyframeSets_MinPulseScaleDesc_Tooltip] Minimum Pulse Scale:
+[ParticleEditor_KeyframeSets_MaxPulseScaleName_Tooltip] Max Pulse Scale
+[ParticleEditor_KeyframeSets_MaxPulseScaleDesc_Tooltip] Maximum Pulse Scale:
+[ParticleEditor_KeyframeSets_TexScaleName_Tooltip] Texture Scale
+[ParticleEditor_KeyframeSets_TexScaleDesc_Tooltip] V-Axis Texture Scale:
+[ParticleEditor_KeyframeSets_ScrollRateName_Tooltip] Scroll Rate
+[ParticleEditor_KeyframeSets_ScrollRateDesc_Tooltip] V-Axis Texture Scroll Rate:
+
+[ParticleEditor_MovementSubWnd_Velocity] Velocity
+[ParticleEditor_MovementSubWnd_VelocityMin] Min
+[ParticleEditor_MovementSubWnd_VelocityMax] Max
+[ParticleEditor_MovementSubWnd_Forces] Forces
+[ParticleEditor_MovementSubWnd_Gravity] Affected by Gravity
+[ParticleEditor_MovementSubWnd_GravityStrength] Strength of Gravity
+[ParticleEditor_MovementSubWnd_Direction] Direction
+[ParticleEditor_MovementSubWnd_Pitch] Pitch
+[ParticleEditor_MovementSubWnd_Roll] Roll
+[ParticleEditor_MovementSubWnd_Yaw] Yaw
+[ParticleEditor_MovementSubWnd_Angle] Angle
+[ParticleEditor_MovementSubWnd_Variation] Variation
+
+[LoadParticleEffect] Load Particle Effect
+[SaveParticleEffect] Save Particle Effect
+
+[TABLEEND]
+
+[TABLEALIAS BattleInitWnd]
+
+[BattleInitTitle] Battle Initiation
+
+[BattleInitHeader_Attack] You attack your enemy's forces!
+[BattleInitHeader_Defense] Your forces have been attacked!
+[BattleInitHeader_DefendCity] Your settlement of %s is under attack!
+[BattleInitHeader_DefendUnit] %s is under attack!
+
+[BattleInitVS] VS
+
+[BattleInitEnemyForces] Enemy Forces:
+[BattleInitYourForces] Your Forces:
+
+[BattleInitAutoResolveButton] Auto Resolve
+[BattleInitFightButton] Battle
+[BattleInitCancelButton] Cancel
+
+[BattleInitStat1] Level
+
+[BattleInitHP1] Hit Points
+[BattleInitHP2] of
+
+[BattleInitYourUnit] Your Unit
+[BattleInitEnemyUnit] Enemy Unit
+
+[Units] Unit Count
+
+[TABLEEND]
+
+[TABLEALIAS CutSceneWnd]
+
+[Reward] Reward:
+[Threat] Threat:
+
+[TABLEEND]
+
+
+[TABLEALIAS BattleResWnd]
+
+[BattleResTitle_Victory] Victory
+[BattleResTitle_Defeat] Defeat
+[BattleResTab1] Results
+[BattleResTab2] Casualties
+[BattleResTab3] Loot
+[BattleResTab4] Details
+[BattleResDone] Done
+
+[SovereignDefeatedTitle] Sovereign Defeated
+[ChampionDefeatedTitle] Champion Defeated
+[SovereignDefeated] %s uses %s power to escape to %s! %ld mana was used to retreat, and the sovereign will be spending %ld turns recovering.
+[ChampionDefeated] %s uses %s power to escape to %s! The champion will be spending %ld turns recovering.
+[ChampionDefeatedInjured] %s uses %s power to escape to %s! The champion will be spending %ld turns to recovering. %s received the following injury:
+[ChampionInjured] %s fell in battle and received the following injury:
+[ChampionInjuryRemovedTitle] Injury Healed
+[ChampionInjuryRemovedMsg] %s has been healed of the following injury:
+
+
+[DeathWardTitle] Warded Against Death
+[DeathWard] Thanks to the power of the Death Ward spell, %s was able to escape to %s and will spend %lu turns recovering.
+
+[EnemySovereignEscapesTitle] Enemy Sovereign Escapes
+[EnemySovereignEscapes] Just as your forces are about to deliver the killing blow, %s uses %s power to escape to safety!
+
+[BonusGildar] 1 gildar ability bonus
+[BonusGildars] %d gildar ability bonus
+
+[TABLEEND]
+
+[TABLEALIAS ItemEditorWnd]
+
+[ItemToEdit] Item To Edit
+
+[ItemEditorWndTitle] Item Workshop
+[WorthSubWndTitle] Set Item Worth
+[EffectsSubWndTitle] Set Item Effects
+[ModifiersSubWndTitle] Set Item Modifiers
+[RaritySubWndTitle] Set Item Rarity
+[UsageSubWndTitle] Set Item Usage
+
+[EffectsBattleBtn1] Button 1
+[EffectsBattleBtn2] Button 2
+[EffectsMapBtn1] Button 1
+[EffectsMapBtn2] Button 2
+
+[ItemEditorTab1] Modifiers
+[ItemEditorTab2] Rarity
+[ItemEditorTab3] Worth
+[ItemEditorTab4] Effects
+[ItemEditorTab5] Usage
+
+[Item] Item
+[GoldValue] Gildar Value:
+[Name] Item Name:
+[ItemClass] Item Class:
+[Description] Item Description:
+[Scale] Scale:
+[SoundFX] Sound Effects:
+[SoundFXDesc] The sound that is played when item is used
+[ParticleFX] Particle Effects:
+[Locations] Locations:
+[RandomCreatureDrops] Random Creature Drops:
+[RarityLimits] This Item's Limit in World:
+[RarityStoreAvab] Store Availability:
+[PFXInBattle] When Used In Battle
+[PFXOnMap] When Used On Map
+
+[LevelReq] Level Requirement:
+[UnitClassReq] Unit Class Requirement:
+[MoralBacklash] Moral Backlash:
+
+[MoralBacklash0] Treacherous
+[MoralBacklash1] Deceptive
+[MoralBacklash2] Neutral 
+[MoralBacklash3] Honest
+[MoralBacklash4] Trustworthy
+
+[UnitClass0] Hero
+[UnitClass1] Archers
+[UnitClass2] Knights
+[UnitClass3] Calvary
+[UnitClass4] War Engines
+[UnitClass5] All Units
+
+[RarityLocation0] Caverns
+[RarityLocation1] Temples
+[RarityLocation2] Ruins
+[RarityLocation3] Notable Locations
+
+[RarityCreature0] Beasts
+[RarityCreature1] Dragons
+[RarityCreature2] Monsters
+[RarityCreature3] Humans
+[RarityCreature4] Constructs
+[RarityCreature5] All
+
+[TABLEEND]
+
+[TABLEALIAS ImageSelectWnd]
+
+[SelectImageTitle] Select %s%sImage
+
+[TABLEEND]
+
+[TABLEALIAS MessageBoxWnd]
+
+[CancelBtn] CANCEL
+[AcceptBtn] ACCEPT
+[OKBtn] OK
+[YesBtn] YES
+[NoBtn] NO
+
+[TABLEEND]
+
+[TABLEALIAS CityTrainingManager]
+
+[TooManyCaravansHeader] Caravan Limit
+[TooManyCaravansMessageKingdom] The Settlement of %s has constructed a Caravan. It has reached the limit of Caravans it can support.
+[TooManyCaravansMessageEmpire] The Settlement of %s has constructed a Caravan. It has reached the limit of Caravans it can support.
+
+[TABLEEND]
+
+[TABLEALIAS ModifierWnd]
+
+[ModWndTitle] %s Modifier
+[ModType] Modifier Type
+
+[TABLEEND]
+
+[TABLEALIAS GameOverWnd]
+
+[Next] Next
+[Back] Back
+[Finish] Finish
+
+[TABLEEND]
+
+[TABLEALIAS EndGameSummerySubWnd]
+
+[Victory_Conquest] Conquest Victory
+[Victory_Campaign] Scenario Victory
+[Victory_Quest] Master Quest Victory
+[Victory_Spell] Spell of Making Victory
+[Victory_Diplomacy] Diplomatic Victory
+[Victory_TurnLimit] Score Victory
+[Loss_Conquest] Loss By Conquest
+[Retire] Retired
+
+[TABLEEND]
+
+[TABLEALIAS EndGameHistorySubWnd]
+
+[History] History
+
+[GraphPop] Population
+[GraphIncome] Income
+[GraphMana] Mana
+[GraphResearch] Research
+[GraphMight] Might
+
+[TABLEEND]
+
+[TABLEALIAS EndGameRankSubWnd]
+
+[Score] Score
+
+[Year] Year
+[Years] Years
+[EpicRanking] Epic Ranking
+[Result] Result
+[Population] Population
+[Time] Time
+[Points] Points
+[GameLength] Game Length
+
+[UnknownRank] ????
+
+[TABLEEND]
+
+
+
+[TABLEALIAS Dungeons]
+
+[DungeonEncounterArmyName] Army of %s
+[DungeonEncounterArmyLeader] %s Leader
+
+[TABLEEND]
+
+
+[TABLEALIAS UnitStatsSubwindow]
+[Health] Hit Points:
+[Attack] Attack Strength:
+[Defense] Defense:
+[Sight] Sight:
+
+[CurrentLevel] Current Level:
+[ExpToNextLevel] Experience to Next Level:
+[TotalExp] Total Experience:
+
+[LifeMana] Life Mana:
+[FireMana] Fire Mana:
+[AirMana] Air Mana:
+[EarthMana] Earth Mana:
+[WaterMana] Water Mana:
+
+[HP] HP
+[MP] MP
+[XP] XP
+
+[TABLEEND]
+
+
+[TABLEALIAS CityStatsSubwindow]
+
+[CurrentPopulation] Population:
+[MaxPopulation] Max Population:
+[CityLevel] Settlement Level:
+[PopulationToUpgrade] Population to Next Level:
+[ExcessFood] Excess Food:
+[StationedUnits] Number of Stationed Units:
+[OpenPlots] Tiles Open to Build Upon:
+[PlotsAvailable] Tiles available:
+
+[Citizens] Citizens
+[Rations] Rations
+
+[CityLevel1] Outpost
+[CityLevel2] Village
+[CityLevel3] Town
+[CityLevel4] City
+[CityLevel5] Great City
+[CityLevel0] Settlement
+
+[TABLEEND]
+
+[TABLEALIAS CityDetailsWnd]
+
+[ScreenTitle] City Details
+[OverviewTitle] Overview
+[OutputTitle] Output
+[ImprovementsHeader] Improvements
+[ResourcesHeader] Resources
+[ShardsHeader] Shards
+[PeopleHeader] People
+[AdditionalStatsHeader] Additional Stats
+[CaravanHeader] Caravans
+[EnchantmentsHeader] Enchantments
+[CityDefenderBonusesHeader] Bonuses to Stationed Units
+[TrainedUnitBonusesHeader] Bonuses to Trained Units
+[GuardianHeader] Guardian Units
+[QueueEmpty] Queue Empty
+
+[EnchantmentDiscount] Enchantment Cost
+[ProtectedFromSpells] Protected From Spells
+[TrainingDiscount] Training Time Modifier
+[BuildingDiscount] Building Time Modifier
+
+[Labor] Labor
+[TrainingResourceDiscount0] Total Item %s Cost
+[TrainingResourceDiscount1] Weapon %s Cost
+[TrainingResourceDiscount2] Armor %s Cost
+[TrainingResourceDiscount3] Accessory %s Cost
+[TrainingResourceDiscount4] Cost for all resources
+[TrainingLevelBonus] Starting Level
+
+[TotalPop] Population: %lu citizens
+[PopGrowth] Growth: %s per %s
+[GoldIncome] Gildar Income: %.1f per %s
+[GoldPerCitizen] - Each citizen is producing %.1f gildar per %s
+[TurnsUntilLevelUp] This settlement will level up in %lu %s (when the population has reached %lu citizens).
+
+[GenericCityProductionBonus] - %g from Settlement Production (%g units harvested x %g %s harvest multiplier)
+[GenericCityProduction] - %g Settlement Production
+[GenericCityProductionPioneer] + %g from claimed resources
+
+[GenericCityHarvestMultiplier] - x%g from improvements and spells
+[GenericCityHarvestMultiplierAbility] - x%g from %s player ability
+[GenericCityMultiplierTradeRoute] - x%g from trade route with %s
+
+[GenericCityUsageBonus] - %g from Settlement Usage (%g units used x %g %s usage bonus)
+[GenericCityUsage] - %g Settlement Usage
+
+[AdminCosts] Administrative Expenses: %g gildar / %s
+
+[ConnectedTo] Road connection to %s
+[AvailableSlot] Available Enchantment Slot
+
+[TABLEEND]
+
+[TABLEALIAS MainTrainUnitEntryWnd]
+
+[PieGraph_TrainingToolTip] Training
+
+[TABLEEND]
+
+[TABLEALIAS MainWndUnitEntry]
+
+[ImmobilizedTitle] Immobilized
+[ImmobilizedMsgCity] This unit is immobilized and can't be unstationed from the city.
+[ImmobilizedMsgArmy] This unit cannot leave the army.
+
+[TABLEEND]
+
+[TABLEALIAS MainUnitVitalsSubWnd]
+
+[ArmyName] %s's Army
+
+[ResourceBonusTitle] %s Bonus
+[NoResourceBonusTooltip] No %s production bonus
+[ResourceBonusTooltip] Provides %s bonus to per %s %s production in %s and %s
+
+[HomeCity] Home: %s
+[HomeCityTooltip] Caravan was trained in %s
+[TradeCity] Trade: %s
+[TradeCityTooltip] Caravan is trading with %s
+[NoCaravanTradeCityTooltip] Send to a city to start trade
+
+[MaxRoadLevelTooltip] Max road level reached
+[NextRoadLevelTooltip] %ld more trips to the next road level
+
+[Channeler] Channeler
+
+[ConstructionTooltip] %ld %s to complete construction
+[UnderConstruction] Not Finished
+
+[PerTurnResourceTooltip] %s %s production per %s
+[PopCapTitle] Population
+[PopCapTooltip] Increases population cap of linked city by %s
+
+[LinkedCityTooltip] Getting production bonuses from city %s
+[NotLinked] Not linked
+[CloseLinkedCityTooltip] Needs to be %ld tiles closer to gain the bonuses of city %s
+[NoLinkedCityTooltip] No city nearby to link to
+
+[MoreDetailsTooltip] More Details
+
+[SpawnLimitedUnitTooltip] %ld %s until recruiting another %s
+[SpawnLimitedUnit] Recruit %s
+[LimitedUnitCapReached] The max limit (%lu) of %s have already been recruited
+[LimitUnitCapReachedShort] Max Reached
+
+[TABLEEND]
+
+[TABLEALIAS MainImageScrollSubWnd]
+
+[NoItems] No Items
+[NoSpells] No Spells
+[NoActions] No Actions
+[NoUnitsTraining] No Units Being Trained
+[NoBuildings] No Buildings Under Construction
+
+[OpenSpellbook] Open Spellbook
+[NoKnownSpells] No spells are available
+
+[SpellNoMana] Not enough mana
+[SpellNoMoves] Not enough action points
+[SpellStatScoreTooLow] Need %s score of %s
+[SpellCooldown] %ld turns left on cooldown
+[SpellInfiniteCooldown] Already cast once
+[EnchantmentMaxCapacity] Maximum capacity for enchantments reached (%lu)
+[SpellNoArmy] Caster cannot be an army
+[SpellAlreadyCastSelf] Already cast on self
+[SpellAlreadyCastSummoned] Already summoned
+[SpellAlreadyActive] Already active
+[SpellTooFarFromRequiredTerrain] Must be within %ld tiles of %s
+
+[NoAirShards] Need %ld air shards
+[NoEarthShards] Need %ld earth shards
+[NoFireShards] Need %ld fire shards
+[NoWaterShards] Need %ld water shards
+[NoLifeShards] Need %ld life shards
+[NoDeathShards] Need %ld death shards
+
+[SpellNotEnoughResource] Not enough %s
+[SpellNotLearned] Spell has not been learned yet
+[SpellRequirements] Do not meet spell requirements
+[NotASpellcaster] Not a spellcaster
+
+[AttackUnavailable] Attack Unavailable
+
+[TABLEEND]
+
+
+[TABLEALIAS CancelDirective]
+
+[MessageTitle] Directive Cancelled
+[DefaultMessage] Directive Cancelled
+
+[StandbyMode0] Error. No standby mode.
+[StandbyMode1] Something has been spotted.
+[StandbyMode2] An enemy has been sighted!
+
+[AutoMode0] Error. No auto move directive.
+[AutoMode1] We could not find another location to explore.
+[AutoMode2] We cannot find any enemies.
+
+[TABLEEND]
+
+[TABLEALIAS UnitDialogMessages]
+
+[AreYouSureTitle] Are you sure?
+
+[AreYouSureYouWantToAttack] Are you sure that you want to attack %s?
+
+[ConqueredCityTitle] Settlement Conquered
+[ConqueredCityMsg] You have conquered the %s %s of %s!
+[ConqueredUserCityMsg] Your %s %s has been conquered by the %s!
+
+[BuildRoadTitle] Build a Road
+[BuildRoadMsg] Are you sure you want to build a road between the settlements %s and %s?  It will take %ld %s and cost %g gildar to complete.
+
+[DestroyImprovementTitle] Demolish
+[DestroyImprovementMsg] Are you sure you want to destroy %s?
+[DestroyImprovementCostSuffix] It will cost %s gildar.
+[DestroyImprovementCostSuffixMaterials] It will cost %s gildar, and provide %s materials.
+[DestoryImprovementCant] You can't demolish this improvement.
+
+[DestroyForestTitle] Clear Forest
+[DestroyForestMsg] Are you sure you want to clear this forest?
+
+[DisbandUnitMsg] Do you wish to disband this unit?
+[DisbandUnitTitle] Disband Unit
+[DisbandSubUnits] Disband all units in the army?
+
+[UnitDesertionHeader] Troops are deserting because there's no money in the treasury to maintain the army.\n
+
+[UnitDesertedToCity] 1 unit deserted to the settlement of %s.
+[UnitsDesertedToCity] %lu troops deserted to the settlement of %s
+
+[TABLEEND]
+
+
+[TABLEALIAS SpellBookWnd]
+
+[Charm] Charms
+[City] City
+[CityCurse] City Curses
+[UnitCurse] Unit Curses
+[UnitDamage] Damage Spells
+[CityEnchantment] City Enchantments
+[UnitEnchantment] Unit Enchantments
+[Heal] Heal Spells
+[Map] Map Spells
+[Movement] Movement Spells
+[Other] Other
+[Summon] Summon
+[Unit] Unit
+[World] World
+
+[CategoryTooltip_All] All
+[CategoryTooltip_City] City Spells
+[CategoryTooltip_Summon] Summons
+[CategoryTooltip_Unit] Unit Spells
+[CategoryTooltip_World] World Spells
+
+[SpellStackWarning_Title] Warning
+[SpellStackWarning_Message] A spell of this exact type has already been cast here.
+
+[MissingRequirementsTitle] Missing Prerequisites:
+[CastingRequirementsTitle] Mana Requirements:
+
+[PurchaseBtn] Learn
+[StopLearnBtn] Remove
+
+[Range] Range:
+[Tooltip_Range] Maximum number of tiles the target can be away from the caster
+[Self] Self
+[Radius] Radius:
+[Tooltip_Radius] Radius of target area
+[CastTime] Cast Time:
+[Tooltip_CastTime] Number of seasons the caster spends preparing the spell
+[SpellpointCost] Spell Level:
+[Cooldown] Cooldown Time:
+[Tooltip_Cooldown] Number of seasons that must pass between consecutive casts of this spell
+[SpellType] Spell Type:
+[Strategic] Strategic
+[Tactical] Tactical
+[Universal] Universal
+[Duration] Duration:
+[Tooltip_Duration] Number of seasons the spell effects last
+[Indefinite] Indefinite
+[Instant] Instant
+[Damage] Damage: 
+[Resistable] Resistible
+[Tooltip_Resistable] The target can resist the spell, reducing or negating the effects
+[SpecialAbility] This is a special combat ability.
+[CasterHeader] Units with Spell
+
+[KnownSpells] Known
+[AvailableSpells] Available
+[UnavailableSpells] Unavailable
+[LearningSpells] Learning
+[StrategicSpells] Strategic
+[TacticalSpells] Tactical
+
+[HaventLearnedSpell] Spell not known yet
+[CantCastTactical] Can't cast tactical spells on map
+[NoCasters] No casters can currently cast this spell
+
+[Details] Details:
+[Requirements] Requirements:
+[Mana] Mana:
+[Shards] Shards:
+
+[ResourceOnCast] %s on Cast:
+[ResourceToMaintain] %s per season:
+[Tooltip_ResourceToMaintain] %s spent each season that this enchantment is active
+
+[RequiredStat] Min %s
+
+[LearnTime] Will take %ld %s to learn
+[WillNeverLearn] Will never learn
+
+[CastSpell] Cast Spell
+[Favorite] Add as Favorite
+[Unfavorite] Remove Favorite
+
+[AirShards] Air Shards
+[EarthShards] Earth Shards
+[FireShards] Fire Shards
+[WaterShards] Water Shards
+[LifeShards] Life Shards
+[DeathShards] Death Shards
+
+[ToolTip_ManaCost] This is how much mana the selected spell costs to cast.
+[ToolTip_ReqAirShards] How many Air Shards your faction needs to control to cast the selected spell.
+[ToolTip_ReqEarthShards] How many Earth Shards your faction needs to control to cast the selected spell.
+[ToolTip_ReqFireShards] How many Fire Shards your faction needs to control to cast the selected spell.
+[ToolTip_ReqWaterShards] How many Water Shards your faction needs to control to cast the selected spell.
+[ToolTip_ReqLifeShards] How many Life Shards your faction needs to control to cast the selected spell.
+[ToolTip_ReqDeathShards] How many Death Shards your faction needs to control to cast the selected spell.
+
+[InvalidTarget] Invalid Target
+
+[TABLEEND]
+
+
+[TABLEALIAS FamilyTreeSubWnd]
+
+[Title] %s's Dynasty
+
+[SuccessionNormal] %ld%s in line for the throne of %s
+[SuccessionDead] DEAD
+[SuccessionKing] King of %s
+[SuccessionQueen]	Queen of %s
+
+[AgeDisplay] Born:
+
+[FirstSuffix] st
+[SecondSuffix] nd
+[ThirdSuffix] rd
+[FourthSuffix] th
+
+[TABLEEND]
+
+[TABLEALIAS DynastyRelationsEntryWnd]
+
+[MarriageTitle] Married to
+[MarriageTitleChild] Betrothed to
+
+[ParentTitleMale] Son of
+[ParentTitleFemale] Daughter of
+
+[ChildrenTitleMale] Father of
+[ChildrenTitleFemale] Mother of
+
+[TABLEEND]
+
+[TABLEALIAS DynastyMember]
+
+[ChildUnitTypeFemale] Princess of %s
+[ChildUnitTypeMale] Prince of %s
+[SpouseUnitTypeFemale] Queen of %s
+[SpouseUnitTypeMale] King of %s
+
+[TABLEEND]
+
+
+[TABLEALIAS RelationsSubWnd]
+
+[EntryText_Population] Population
+[EntryText_Cities] Settlements
+[EntryText_Champions] Champions
+[EntryText_TaxRate] Tax Rate
+[EntryText_Income] Revenue
+[EntryText_PowerRating] Power Rating
+[EntryText_CityIdle] City Idle
+[EntryText_Prestige] Faction Prestige
+
+[EntryText_Level] Level 
+
+[Title] Foreign Relations
+[SpeakButton] Speak To
+
+[GPerTurn] G/%s
+
+[Income] Income:
+[Leader] Leader:
+[PowerRating] Power Rating:
+
+[TreatiesHeader] Active Treaties
+[ForeignPolicy] Foreign Policy
+[RelationsWithUs] Relations With Us
+[LeaderDetails] Leader Details
+[Vitals] Vitals
+[Resources] Resources
+
+[InfiniteDuration] Indefinite
+
+[NoTreatyInfo] No Treaties
+[NoRelationshipInfo] No Relationship Info
+
+[UnknownRelations] Haven't Met Each Other
+
+[TABLEEND]
+
+
+[TABLEALIAS InfoWnd]
+
+[Welcome] And so it begins...
+[FirstTurn] It has been a century since the Cataclysm that nearly wiped out all life in the world. The lands are beginning to recover. You are a Channeler, one of the few who can still use magic. The people look to you to bring order to the chaos.
+
+[TABLEEND]
+
+[TABLEALIAS InfoCardSaveWnd]
+
+[SaveBtn] Save
+[CancelBtn] Cancel
+
+[FlipBackground] Flip Background
+
+[StatsTitle] Stats
+
+[CostsTitle] Cost
+
+[StatsTitle] Stats
+[PosesTitle] Pick a Pose
+[BackgroundTitle] Pick a Background
+
+[TABLEEND]
+
+[TABLEALIAS Errors]
+
+[LoginFailure] Login failed. You may have missing or stale registry data.  Try running Fallen Enchantress with the command line parameters /username "myusername" and /password "mypassword" (replacing the values in quotes with your actual username and password).
+[DownloadDataFailure] Failed to download data file.  Please make sure that you are connected to the internet and that no firewall or anti-virus program is blocking Elemental.
+
+[TABLEEND]
+
+[TABLEALIAS InfoCardWnd]
+
+[ResearchToHarvest] Learn %s to harvest
+[ImprovementToHarvest] Harvest using %s
+[UnavailableToUse] Cannot be used by our faction
+[CastOnceSpell] Can cast this spell only once
+
+[MaintenanceCostStart] Costs
+[MaintenanceCostEnd] per %s to maintain
+
+[Tactical] Tactical
+[Strategic] Strategic
+
+[TABLEEND]
+
+
+[TABLEALIAS UnitDescriptions]
+
+[GenericUnit] Level %lu %s (CR %lu)
+[GenericArmy] %s leading an army of %lu units
+[GenericArmy_TwoUnits] %s leading one unit
+[Attacking_Army] %s leading an army towards an enemy (CCR %lu)
+[Attacking_City] %s leading an army towards an enemy settlement (CCR %lu)
+[Friendly_City] %s leading an army towards a friendly (CCR %lu)
+[Rally_Point] %s leading an army towards a rally point %lu.
+[ArmyUnitCount] Army of %lu units
+
+[Champion] Champion
+[Sovereign] Sovereign
+
+[TABLEEND]
+
+[TABLEALIAS DiplomacyWnd]
+
+[ScreenTitle] Diplomatic Relations
+[RelationsTitle] Relations
+[FriendlyPlayersTitle] Friendly 
+[NeutralPlayersTitle] Neutral
+[UnfriendlyPlayersTitle] Unfriendly
+[EnemyPlayersTitle] Enemy
+[UnknownPlayersTitle] Unknown
+
+[NetIncome] Net Income
+
+[ConversationChoicesTitle] I would like to talk about...
+[TradeOfferTitle] I would like to offer you...
+[TreatyOfferTitle] I would like to propose a...
+[MarriageOfferTitle] I would like to propose a marriage between...
+[TradeForTitle] For
+[MarryWithTitle] And
+[PerceivedValue] Perceived Value
+
+[Goodbye] Goodbye
+[ConversationChoice1] I declare war!
+[ConversationChoice2] Propose Trade
+[ConversationChoice3] Treaties
+[ConversationChoice4] Dynasties
+[ConversationChoice5] Arranged Marriages
+[ConversationChoice6] Leave my territory, or prepare for war!
+[ConversationChoice7] I'm going to do your hair, OK?
+
+[Cancel] I'd like to talk about something else.
+[Accept] It is agreed.
+
+[AddButton] Add
+
+[AvailableTreaties] Available
+[UnavailableTreaties] Unavailable
+[ExistingTreaties] Existing
+
+[Diplomacy] Diplomacy
+[Money] Money
+
+[DefaultNoTreatyText] So what kind of treaty were you thinking of?
+[DefaultTreatyResponse] Sounds good to me!
+
+[AssetsTitle] Assets
+[ResourcesTitle] Resources
+[ChampionsTitle] Champions
+[UnitsTitle] Units
+[TechKnowledgeTitle] Tech Knowledge
+[CitiesTitle] Cities
+[DeclareWarOn] Declare War On...
+
+[AddToOffer] Add to Offer:
+[RemoveFromOffer] Remove from Offer:
+
+[ChildrenTitle] Children
+[FamilyTitle] Family
+
+[DefaultNoTradeText] So what were you thinking of trading?
+[DefaultTradeResponse] Your offer does not appeal to me.
+
+[SuccessfulFemaleMarriageResponse] I would be happy to welcome %s into my family.
+[SuccessfulMaleMarriageResponse] I would be happy for %s to join your family.
+[SameSexMarriageResponse] No, we won't get any heirs out of this arrangement!
+[LowRelationsMarriageResponse] Of course not, why would I ever force one of my family into marriage with YOUR family?
+[RejectedMarriageResponse] I don't think this arrangement is best for our families.
+[NoMarriageResponse] Who would you like to talk about?
+
+[PlayerIsBusy] We are too busy to talk to you right now...
+[PlayerIsBusyTitle] Busy
+
+[TABLEEND]
+
+[TABLEALIAS FlavorTextStrings]
+
+[Speaker] Speaker:
+[Listener] Listener:
+[Generic] Generic
+
+[Rule0] Kingdom speaking
+[Rule1] Kingdom speaking to another Kingdom
+[Rule2] Kingdom speaking to Fallen
+ 
+[Rule10] Fallen speaking
+[Rule11] Fallen speaking to another Fallen
+[Rule12] Fallen speaking to Kingdom
+ 
+[Rule20] Speaker has a MUCH STRONGER Military
+[Rule21] Speaker has a slightly stronger Military
+[Rule22] Speaker and Listener have equal Military Might
+[Rule23] Listener has a slightly stronger Military 
+[Rule24] Listener has a MUCH STRONGER Military
+  
+[Rule30] Speaker is MUCH MORE Diplomatic
+[Rule31] Speaker is slightly more Diplomatic
+[Rule32] Speaker and Listener are equally Diplomatic
+[Rule33] Listener is slightly more Diplomatic
+[Rule34] Listener is MUCH MORE Diplomatic
+
+[RacesSpokeOnTopicBefore] Races have spoke on topic %lu times before
+
+[TABLEEND]
+
+[TABLEALIAS QuestText]
+
+[QuestComplete] Quest Complete!
+[QuestFailed] Quest Failed
+[QuestObjective] Quest Objective
+
+[QuestLimitTitle] Quest Limit Reached
+[QuestLimitReached] You've reached the limit of %lu active quests. Finish your current quests and visit again later!
+
+[DefaultAcceptBtn] Yes
+[DefaultAcceptString] You agree to undertake the quest.
+[DefaultDenyBtn] No
+[DefaultDenyString] You deny the quest request.
+
+[AlreadyVisited] Already Visited
+[AlreadyVisitedText]  This location has already been visited and has no quests.
+
+[QuestingTech2] Exploration
+[QuestingTech3] Heroes
+[QuestingTech4] Ereog's Journals
+[QuestingTech5] Breon's Letters
+[QuestLevelNeeded] Learn %s to go on %s quests
+
+[QuestReqsNotMetTitle] Quest Unavailable
+[QuestReqsNotMet] Something causes you to hesitate venturing further; a feeling that you are unready for what dwells within. Perhaps you should return later.
+[QuestLevelNeeded_Kingdom] Your Quest Level is %d, while this quest requires a minimum level of %d. Quest Levels can be gained through Adventure research.
+[QuestLevelNeeded_Empire] Your Quest Level is %d, and this quest requires a minimum level of %d. Quest Levels can be gained through Domination research.
+
+[QuestInaccessible] Quest Unavailable
+[QuestChampionsOnly] Only champions and your sovereign are able to undertake quests.
+
+[QuestConditionMet] Met
+
+[TABLEEND]
+
+[TABLEALIAS GoodieHutText]
+
+[GoodieHutReqsNotMetTitle] Notable Location Unavailable
+[GoodieHutReqsNotMet] Something in the back of your mind causes you to hesitate from venturing further; a feeling that you are not quite ready for what awaits within. Perhaps you should return later.
+[GoodieHutLevelNeeded_Kingdom] Your Notable Location Level is %d; this location requires a minimum level of %d. Raise your level through Adventure research.
+[GoodieHutLevelNeeded_Empire] Your Notable Location Level is %d; this location requires a minimum level of %d. Raise your level through Domination research.
+
+[GoodieHutChampionsOnly] Only champions and your sovereign are able to visit notable locations.
+
+[TABLEEND]
+
+[TABLEALIAS LocationInfoCards]
+
+[GoodieHutLevel] Notable Location Level: %lu
+[QuestLevel] Quest Location Level: %lu
+[YourLevel] Your Level: %li
+
+[GoodieHutLevelTooLow] Requires notable location level %ld, your level is %ld
+[QuestLevelTooLow] Requires quest level %ld, your level is %ld
+
+[TABLEEND]
+
+[TABLEALIAS ChampionInfoCards]
+
+[Spouse] spouse
+[GreatRelative] great-
+[GrandRelative] grand
+[Son] son
+[Daughter] daughter
+[InLine] of %s
+
+[TABLEEND]
+
+[TABLEALIAS UnitInfoCard]
+
+[Pioneer] Pioneer
+[Mason] Mason
+[Soldier] Soldier
+[Creature] Creature
+[ArmedWith] Armed with
+
+[ChanceToHit] Hit Chance: %.0f%%
+[AverageDamage] Damage: %d-%d (%.0f avg)
+[NumCountersPerRound] Possible Counters per round: %d
+[ChanceToCounter] Counter Hit Chance: %.0f%%
+[AverageCounterDamage] Counter Dmg: %d-%d (%.0f avg)
+[GroupMultiplier] %s x %d
+
+[ActiveEffects] Active Effects
+[Traits] Traits
+
+[TABLEEND]
+
+[TABLEALIAS ItemTypeInfoCard]
+
+[ShopValue] Value: %ld
+[CustomizeValue] Cost: %ld
+[LaborCost] Labor Cost: %ld
+[TwoHanded] Two Handed
+[LevelRequirement] Requires Level %ld
+
+[TABLEEND]
+
+[TABLEALIAS UnitTypeInfoCard]
+
+[ProductionCost] %ld Production Cost
+
+[TABLEEND]
+
+[TABLEALIAS ImprovementTypeInfoCard]
+
+[UnknownResource] Unknown
+[PerTurn] per season
+[BonusInCity] bonus in city
+[WhenCityIdle] (when idle)
+[RequiredImprovement] Requires:
+[ImprovementUpgradesFrom] Upgrades From:
+
+[TABLEEND]
+
+[TABLEALIAS UnitEncumbranceInfoCard]
+
+[WeightTitle] Weight
+[EncumbranceTitle] Encumbrance
+[EncumbranceDescription] Measures how much weight a unit can handle; stronger units can handle heavier loads with fewer penalties.
+[NoEffects] No Penalty
+
+[TABLEEND]
+
+[TABLEALIAS PlayerAbilityBreakdownInfoCard]
+
+[BaseFaction] Base from %s
+[OtherBonuses] Other Bonuses
+
+[TABLEEND]
+
+[TABLEALIAS SpellDefInfoCard]
+
+[CastingTime] Casting Time: %lu
+[Range] Range: %lu
+[RangeSelf] Range: Self
+[MaintenanceCost] %s %s Maintenance
+[Cooldown] Cooldown: %lu Turns
+
+[TABLEEND]
+
+[TABLEALIAS TaxRateInfoCard]
+
+[TaxTitle] Taxes
+[TaxRate] Tax Rate
+[UnrestRate] Unrest Rate
+[Income] Income
+[TaxDescription] The higher your tax rate the more Gildar you will get every turn; however, your Unrest level will also increase, lowering your Research and Production in all your cities.
+
+[TABLEEND]
+
+[TABLEALIAS GameLobbyWnd]
+
+[ScreenTitle] Multiplayer Game Lobby
+
+[PlayerTitle] Player
+[FactionTitle] Faction
+[SovereignTitle] Sovereign
+[TeamTitle] Team
+[ReadyTitle] Ready
+
+[ChatTitle] Lobby Chat
+
+[BackBtn] Cancel
+[OptionsBtn] Settings
+[StartBtn] Start
+
+[KickBtn] Kick
+
+[Open] Open
+[OpenTip] Add AI Player
+[Closed] Open New Player Slot
+[Human] Men
+[HumanTip] Kick Player
+[AI] AI 
+[AITip] Remove AI Player
+
+[StartingGameMsg] Game starting. Waiting for data from server.
+
+[TABLEEND]
+
+[TABLEALIAS MultiplayerGameListWnd]
+
+[ScreenTitle] Available Games
+[LaunchBtn] Launch Server
+[LoadBtn] Load Game
+[BackBtn] Cancel
+[NextBtn] Join
+[CreateBtn] Create Game
+[RefreshBtn] Refresh
+
+[ChatTitle] Player Chat:
+[PlayerTitle] Players: 
+[GameTitle] Game Name:
+[GameSizeTitle] Size:
+[GameTypeTitle] Game Type:
+[PingTitle] Ping:
+
+[LaunchServerTitle] Launch Server
+[LaunchServerMsg] No available server was found.  Do you want to launch your own server?
+
+[MultiplayerPromptTitle] Error
+[NoHostToken] Could not connect to server. Please try again later.
+
+[Ping] Ping
+[Open] Open
+
+[Tiny] Tiny
+[Small] Small
+[Medium] Medium
+[Large] Large
+
+[RandomMap] Random
+
+[TABLEEND]
+
+[TABLEALIAS MultiplayerClient]
+
+[MultiplayerUnavailable] Multiplayer is currently unavailable.  Server returned the following message:
+
+[AvailableServersFormatString] There are %lu available servers.
+[NoAvailableServers] There are no available servers at this time. Please wait...
+
+[PlayersInQueueFormatString] There are currently %ld players waiting for a match.  Please wait...
+[OnlyPlayerInQueue] You are currently the only player waiting for a match.  Please wait...
+
+[AttemptingToConnectToServer] Attempting to connect to server %s on port %s.
+
+[PlayerList] Players in match:
+
+[NoResponse] No response received from server. Please try again later.
+[ServerUnavailable] This server is unavailable. Please try again.
+[IncompatibleVersion] Server is incompatible with your version. Please update and try again.
+[ConnectionAttemptFailed] Could not connect to server. Please check your connection and firewall settings and try again.
+
+[DefaultMultiplayerStatus] Press Find Match to begin searching for a quick match game.
+
+[QuickMatchConnectionSucceeded] Connection succeeded. Waiting for game data from server.
+
+[FailedToLoadSave] Server failed to download save data.  Please try again.
+
+[Error] Error
+
+[LocalPlayerKicked] You have been kicked from the game.
+
+[Alert] Alert
+
+[GameCancelled] The host has cancelled the game.
+
+[League0] New Player
+[League1] Bronze League
+[League2] Silver League
+[League3] Gold League
+[Unranked] Unranked
+
+[SupportedPlayersLabel] Supported Players:
+[DefaultPlayersLabel] Default Players:
+[MapStyleLabel] Map Style:
+[MapTypeLabel] Map Type:
+
+[TinyMaps] Tiny
+[SmallMaps] Small
+[MediumMaps] Medium
+[LargeMaps] Large
+
+[OneContinent] One continent
+[NotSpecified] Not Specified
+
+[TurnTimerTimeToWait] Turn timer wait time: %lu s
+[TurnTimerDisabled] Turn timer disabled.
+
+[StartTurn] Turn %lu: AI is moving.
+
+[AutoLoginPromptTitle] Auto Login?
+[AutoLoginPromptMsg] Do you wish to enable auto login? Logging in will enable achievements.  This prompt will not be displayed again.
+
+[TABLEEND]
+
+
+[TABLEALIAS MainWndUnitListWnd]
+
+[CityTitle] Stationed Units
+[CastingTitle] Select a Caster
+
+[EjectBtn] Eject
+[CastBtn] Cast
+
+[TABLEEND]
+
+
+[TABLEALIAS ItemShopWnd]
+[DoneBtn] Leave Shop
+[SellLootBtn] Sell Loot
+[Shop] Shop
+[ShopGreeting] Welcome to our humble shop. What can I interest you in?
+
+[ShopInventory] Shop Inventory
+[YourInventory] Your Inventory
+[Purchase] Purchase
+[Sell] Sell
+
+[Health] Health
+[Mana] Mana
+[TABLEEND]
+
+[TABLEALIAS ResourceMarketWnd]
+[Buy] Buy
+[Sell] Sell
+[TABLEEND]
+
+[TABLEALIAS AIMessageWnd]
+
+[AMessageFrom] A Message From 
+
+[TABLEEND]
+
+[TABLEALIAS Spellcasting]
+
+[InvalidSpell] Cannot use ability
+[InvalidSpellCreatureTypeTarget] Target creature type is not valid.
+[InvalidZOCType_Neutral] Target must be in Neutral territory
+[InvalidZOCType_Friendly] Target must be in Friendly territory
+[InvalidZOCType_Enemy] Target must be in Enemy territory
+[InvalidSpellTarget] Target is not valid.
+[InvalidSpellDef] Ability is not valid.
+[InvalidTile] Target tile is blocked.
+[InvalidTooClose] Cannot hit friendly targets with this ability.
+[InvalidTerraform] Cannot use terraform abilities on occupied tiles.
+
+[InvalidOccupiedNeedEmpty] Target tile must be empty.
+[InvalidNotOccupied] Need to target a unit.
+[InvalidEmptyNeedFriendly] Need to target one of your units.
+[InvalidEmptyNeedEnemy] Need to target an enemy unit.
+[InvalidFriendlyNeedEnemyOrEmpty] Target tile cannot be occupied by one of your units.
+[InvalidOccupiedObjectNeedEmpty] Target tile must be empty.
+[InvalidEnemyNeedFriendlyOrEmpty] Target tile cannot be occupied by an enemy unit.
+
+[InvalidTargetType] This ability cannot target that unit type.
+[InvalidTargetTypeMonster] Need to target a monster.
+[InvalidTargetTypeEnemy] Need to target an enemy unit.
+[InvalidTargetTypeEnemyCaster] Need to target an enemy unit that is charging a spell cast.
+[InvalidTargetTypeEnemyTrainedUnit] Need to target an enemy trained unit.
+[InvalidTargetTypeFriendly] Need to target one of your units.
+[InvalidTargetTypeFriendlyChampion] Need to target one of your champions.
+[InvalidTargetTypeFriendlyChampionOrSov] Need to target one of your champions or your Sovereign.
+[InvalidTargetTypeFriendlyTrainedUnit] Need to target one of your trained units.
+[InvalidCityMustProduceResource] Target city must be producing %s.
+[InvalidCityFriendly] Need to target one of your cities.
+[InvalidCityEnemy] Need to target an enemy city.
+[InvalidCityNotEnoughEssence] A city can have only as many enchantments as it has Essence.
+[InvalidShardRegular] Need to target a regular shard (air, earth, fire, or water).
+[InvalidFOWHidden] Need to target a hidden tile.
+[InvalidEnemyTerritory] Need to target a tile in enemy territory.
+[InvalidFriendlyTerritoryOnCaster] Can't target the caster's current location.
+[InvalidFriendlyTerritory] Need to target a tile in your territory.
+[InvalidNeutralTerritory] Need to target an unowned tile.
+[InvalidTargetSelf] Need to target the caster.
+
+[InvalidTerrainType] Can't be cast on %s terrain.
+
+[InvalidRange] Target is out of range.
+[InvalidTileType] This ability cannot target tiles of this type.
+[InvalidTargetFriendly] This ability can only be used on friendly targets.
+[InvalidTargetEnemy] This ability can only be used on enemy targets.
+[InvalidNoValidEnemies] This ability must hit enemies.
+[InvalidNoValidEnemiesCasting] This spell must hit enemies that are casting.
+[InvalidFOW] Can't cast on hidden tiles.
+[InvalidCasterWithinOffensive] Caster is within radius of offensive spell.
+[InvalidTargetIsProtected] Target is protected from offensive spells.
+[InvalidNoEnchantments] Target has no negative enchantments.
+
+[NoValidTargets] No valid unit targets at this tile
+
+[CantStack] This spell has already been cast on this unit
+[CantStackCity] This spell has already been cast on this city
+[CantStackTile] This spell has already been cast on this tile
+[NoInjuries] This unit has no injuries to heal
+
+[TABLEEND]
+
+[TABLEALIAS TacticalWnd]
+
+[TacticalTurnTitle] Combat Turn
+[TacticalTurnBtn] End Combat Turn
+[CombatRating] Combat Rating
+[AutoPlay] Toggle Auto Play
+[AutoResolve] Press to have the remainder of this battle auto resolved.
+[TurnNoticeEnemy] Enemy Turn
+[TurnNoticePlayer] Your Turn
+
+[ToggleGridTooltip] Toggle Grid
+[ToggleSpeedTooltip] Animation Speed
+
+[Coward] %s is afraid of %s due to their higher %s.
+[AutoCast] Cast %s
+
+[MovesTowards] moves toward
+
+[HitPointsBar] Hit Points: %ld / %ld
+
+[ChargingSpell_Start] Preparing to cast.
+[ChargingSpell_End] Ready To Cast!
+[ChargingSpell_Cancel] Spell Interrupted!
+
+
+[AssassinStrike] %s Assassin Strike!
+[DMStrike] %s Dungeon Master Strike!
+[CriticalStrike] %s Critical
+[ManaShieldFull] %s (Full Mana Shield)
+[ManaShieldPartial] %s (Partial Mana Shield)
+
+[AIControl] AI Control
+[Bash] Bash
+[Backswing] Backswing
+[Clumsy] Clumsy
+[Maul] Maul
+[CloakofFear] Afraid
+
+[Miss] Miss
+[Panicked] Panicked
+[Terrified] Terrified
+[Resist] Resist
+[Dodge] Dodge
+[Blocked] Blocked
+[Immune] Immune
+[Ping] Clink
+
+[Channeling] Channeling
+[ChannelingCancelled] Channeling Cancelled!
+[CastSpell] %s
+
+[HP] HP:
+[Mana] Mana:
+[HPNextUnit] %i/%i
+
+[ArmyOfWithHP] Army of %s Total Hit Points
+[ArmyOfWithSize] Army of %s (%lu)
+[Adventurers] Adventurers
+[Creatures] Creatures
+[TotalAttack] Total Attack
+[TotalDefense] Total Defense
+[Leader] Leader:
+[Attacker] Attacker
+[Defender] Defender
+[CombinedArmyHP] Combined Army Hit Points: %lu / %lu
+
+[MeleeAttack] Melee Attack
+[RangedAttack] Ranged Attack
+[ActionPointCost] Action Cost:
+[ActionPointCostUpTo] Action Cost: up to
+[SpellcastActionCost] Spellcast Action Cost: 
+[SpellcastActionFormula] Cost = Base (%.1f)
+[SpellcastActionFormula2] ( %.1f )
+
+[CannotOrderEnemyUnit] Cannot issue orders to an enemy unit
+[NoTacticalSpells] No tactical spells are available
+[UnitCannotCastSpells] This unit cannot cast spells
+[OpenSpellbook] Open Spellbook
+
+[LowAction] Not enough action points
+[LowActionMessage] %s does not have the %.1f required action points to %s.
+[TacticalActionMove] move
+[TacticalActionAttack] do a melee attack
+[TacticalActionRangedAttack] do a ranged attack
+[TacticalActionCastSpell] cast a spell
+[TacticalActionAbility] use a special ability
+[TacticalActionInvalid] INVALID
+
+[ComparisonWeak] Vulnerable to %s
+[ComparisonStrong] Resistant to %s
+[ComparisonImmune] Immune to %s
+[ComparisonNeutral] Attack
+[ComparisonNeutral_Counter] Counterattack
+
+[Counterattack] Counterattack
+
+[HitChanceName] Hit Chance
+[HitChanceFormat] %.0f%%
+[ResistChanceName] Resist Chance
+[DamageName] Damage
+[DamageFormat] %d-%d
+[DamageFormat_Even] %d
+
+[PassButton] Pass
+[SpellsButton] Spells
+[SkillsButton] Skills
+[ItemsButton] Items
+[SlotChoice] Select the slot for %s
+
+[TABLEEND]
+
+[TABLEALIAS BattleReport]
+
+[TurnLine] Turn %d.\n
+[AttackStructureLine] %s attacked the defender's %s for %d points structural damage.\n
+[DestroyStructureLine] The %s comes crashing down.\n
+[CastSpellLine] %s casts %s.\n
+[CastSpellTargetLine] %s casts %s on %s.\n
+[CastSpellDamageLine] %s casts %s on %s for %d points damage.\n
+[SpellDamageLine] %s's %s does %d points of damage to %s.\n
+[SpellDamageLine_Crit] %s's %s does %d points of Critical damage to %s.\n
+[AttackLine] %s strikes %s for %d points damage.\n
+[RangedAttackLine] %s strikes %s for %d points damage.\n
+[RangedAttackLine_Crit] %s strikes %s for %d points Critical damage.\n
+[CounterAttackLine] %s counter-attacks %s for %d points damage.\n
+[CounterAttackMissLine] %s counter-attacks %s, but misses.\n
+[MissLine] MISS - %s missed %s.\n
+[DeathLine] %s falls.\n
+[DrawLine] The defenders have outlasted the onslaught.\n
+[AttackerVictoryLine] The attacking forces are victorious.\n
+[DefenderVictoryLine] The defenders have driven back the onslaught!\n
+[GoldDescription] %d gildar
+[BonusGoldDescription] %d gildar bonus
+[EscapeLine] %s escapes the battle.\n
+[ReflectDamageLine] %s reflects %ld damage back to %s.\n
+[SplashDamageLine] The attack on %s by %s does %ld splash damage to %s.\n
+[HealLine] %s heals +%d HP.\n
+
+[ResourceDescription] %ld %s
+[BonusResourceDescription] %ld %s bonus
+
+[EnslaveDefeatedDescription] %ld population sent to %s
+
+[TABLEEND]
+
+[TABLEALIAS DamageResult]
+
+[AttackTypeMelee] attack
+[AttackTypeRanged] ranged attack
+[AttackTypeSpell] spell
+[AttackTypeAbility] ability
+
+[DamageResultTypeNormal] is hit by
+[DamageResultTypeEffective] is effectively hit by
+[DamageResultTypeResist] resists
+[DamageResultTypeDodge] dodges
+[DamageResultTypeMiss] is missed by
+[DamageResultTypeAbsorb] absorbs
+[DamageResultTypeImmune] is immune to
+[DamageResultTypeHeal] is healed by
+
+[CounterAttack] counterattack
+[CritAttack] Critical attack
+
+[CombatText] %s %s %s's %s%s\n
+
+[Resisted] Resisted
+[SpellResist_Full] %s completely resists %s's %s.
+[SpellResist_Partial] %s partially resists %s's %s.
+
+[Damage] %sfor %d points of damage.
+
+[HPFromKill] %s was healed %f for killing %s.\n
+[ManaFromKill] %s regained %f mana for killing %s.\n
+[TroopsFromKill] %s gained a troop for killing %s.\n
+
+[TABLEEND]
+
+
+[TABLEALIAS ConversationPopupWnd]
+[DeclareWar] I declare war!
+[Talk] Let's Talk.
+[Leave] I shall take my leave.
+[OK] OK.
+[Goodbye] Goodbye.
+[Yes] Sounds Good.
+[No] No.
+[TABLEEND]
+
+[TABLEALIAS TradeProposalWnd]
+
+[Title] Trade Proposal
+[TreatyTitle] Treaty:
+[OfferTitle] Offer:
+[DemandTitle] Demand:
+
+[TABLEEND]
+
+[TABLEALIAS CampaignManagementWnd]
+
+[Title] Scenarios
+
+[StartNewButton_ToolTip] Begin a new adventure!
+[ContinueButton_ToolTip] Continue from the most recent turn of an ongoing scenario.
+
+[TABLEEND]
+
+
+[TABLEALIAS MainResourcesSubWnd]
+
+[Citizens] Citizens
+[Research] Research
+[More] More
+[PerTurnTooltip] %s %s per %s
+[Rationing] Under Rationing
+[Tooltip_PopToNextLevel] %ld More Population to Level %ld
+[Tooltip_PopCap] Capped at %ld due to food
+[Tooltip_MaxLevel] City at Max Level
+[Tooltip_CitizenNoEffect] No Contribution
+
+[TABLEEND]
+
+[TABLEALIAS ChatDialogWnd]
+
+[GeneralChatTitle] To all:
+[CloseBtn] Close
+[SendBtn] Send
+
+[TABLEEND]
+
+[TABLEALIAS PasswordDialogWnd]
+
+[TitleCreate] Enter game name 
+[TitleJoin] Enter password
+[GameName] Game Name:
+[Password] Password:
+
+[DoneBtn] OK
+
+[ContinueBtn] Continue
+[SetBtn] Set
+
+[CancelBtn] Cancel
+
+[IncorrectPassword] Incorrect password
+
+[TABLEEND]
+
+[TABLEALIAS TradeEquipmentWnd]
+
+[Title] Trade Items
+[TitleShop] Shop For Items
+[NoItems] No Items In Inventory
+[YourGildar] Your Gildar:
+
+[ShopKeeper] Shop Keeper
+
+[Equip] Equip
+[Unequip] Unequip
+[Use] Use
+[Trade] Trade
+[VisitShop] Shop
+[Buy] Buy
+[Sell] Sell
+[Trade&Equip] Trade & Equip
+[Buy&Equip] Buy & Equip
+[Encumberance] Encumbrance
+
+[Weapons] Weapons
+[Armor] Armor
+[Equipment] Equipment
+[Other] Other Items
+
+[CannotBuyNotEnoughGold] You do not have enough gildar for this purchase.
+
+[CannotEquipEncumberance] You cannot equip this item as it will break this unit's encumbrance threshold.
+[CannotEquipLevelRequirement] This unit does not meet the minimum level requirement to equip this item.
+[CannotEquipMaxAccessories] This unit already has the maximum number of accessories equipped.
+[CannotEquipAccessoryAlreadyEquipped] This unit already has an accessory of this type equipped.
+[CannotTradeDefault] You cannot trade a unit's default item.
+[CannotUnequipDefault] You cannot unequip a unit's default item.
+[CannotSellDefault] You cannot sell a unit's default item.
+[CannotEquip] Cannot equip this item.
+
+[NoStacking] Cannot Stack Items
+[NoStackingMsg] %s already has a '%s' equipped. Accessories can only be utilized one at a time.
+
+
+[TABLEEND]
+
+[TABLEALIAS MessageBox3ButtonWnd]
+
+[ResignBtnToolTip] Forfeits your place in the game and kills off your player
+[QuitBtnToolTip] Allows you to leave the game without killing your player so that you can resume from a save game
+
+[TABLEEND]
+
+[TABLEALIAS CityListWnd]
+
+[CityColumn] City
+[BuildingColumn] Building
+[TrainingColumn] Training
+
+[TotalTitle] Totals:
+
+[CityNameTooltip] Name of City
+[CityLevelTooltip] City Level
+[CityCombatRatingTooltip] Combat rating of city defenders
+[DefenderBonusTooltip] Defender defense bonus
+[EnchantmentsTooltip] Enchantments
+[BuildQueueTooltip] What is currently being constructed/trained in the city
+
+[EnoughHousingTip] Population: %lu\nWill reach next level in %lu %s
+[NoGrowthTip] Population: %lu\nLack of food is limiting growth
+
+[CategoryName0] Villages
+[CategoryName1] Conclaves
+[CategoryName2] Fortresses
+[CategoryName3] Towns
+
+[CategoryIcon0] gfx/icons/Anti_Icon.png
+[CategoryIcon1] gfx/icons/City_Hud_Book_64.png
+[CategoryIcon2] gfx/icons/City_Hud_Shield_64.png
+[CategoryIcon3] gfx/icons/City_Hud_Scales_64.png
+
+[TABLEEND]
+
+[TABLEALIAS EnchantmentListWnd]
+
+[SpellColumn] Enchantment
+[TargetColumn] Target
+[DispelColumn] Dispel
+[ManaColumn] Mana
+
+[SpellTooltip] Name of enchantment
+[CasterTooltip] Unit that cast the enchantment, and is responsible for maintaining it
+[TargetTooltip] Object this enchantment is affecting
+[DispelTooltip] Click an entry's dispel button to cancel the enchantment
+[ManaTooltip] Amount of mana per season needed to maintain the enchantment
+
+[SpellDetails] Click for spell details
+[TargetDetails] Click for target details
+[DispelDetails] Click to dispel
+
+[TotalManaTitle] Total mana use per season:
+
+[TABLEEND]
+
+[TABLEALIAS EconomyLedgerWnd]
+
+[SubjectTitle] Name
+[DescriptionTitle] Description
+[ActionTitle] Action
+
+[TotalTitle] Total %s Per Season
+
+[UnitsHeaderTitle] Units
+[UnitsHeaderDescription] Trained units must be paid wages every turn or be disbanded.  Some champions also produce gildar.
+[ArmyTitleCount] %s (%ld units)
+[ArmyDisband] Disband All
+[UnitDisband] Disband
+[UnitDisband_Tooltip] Disband this unit.
+[UnitLevel] Level %ld
+
+[CitiesHeaderTitle] Cities
+[CitiesHeaderDescription] Cities generate income with improvements and taxes and spend gildar on building maintenance.
+[GoToCity] Go To City
+[GoToCity_Tooltip] Close this screen and go to city.
+[CityLevel] Level %ld - %s
+
+[TreatiesHeaderTitle] Treaties
+[TreatiesHeaderDescription] Economic treaties with other factions can provide income bonuses for both factions involved.
+
+[TABLEEND]
+
+[TABLEALIAS MPPlayerStatusEntryWnd]
+
+[AIPlayer] AI
+
+[TABLEEND]
+
+[TABLEALIAS Factions]
+
+[WildCreatures] Creatures
+[NPCs] NPCs
+
+[TABLEEND]
+
+[TABLEALIAS FactionPowerWnd]
+
+[Title] Faction Power
+
+[TABLEEND]
+
+[TABLEALIAS FactionPowerWndEntry]
+
+[Relations] Relations towards you: %s
+[CastingProgress] %ld turns until spell cast
+
+[TABLEEND]
+
+[TABLEALIAS PrereqToolTip]
+
+[Requirements] Requirements:
+[Tech] Tech:
+[Improvement] Improvement:
+
+[TABLEEND]
+
+[TABLEALIAS AnimationNames]
+[AnimationName0]IDLE
+[AnimationName1]STAFF_IDLE
+[AnimationName2]EQUIP_IDLE
+[AnimationName3]BATTLE_IDLE
+[AnimationName4]BATTLE_IDLE_TWO	
+[AnimationName5]BATTLE_IDLE_SPEAR
+[AnimationName6]BATTLE_IDLE_BOW
+[AnimationName7]BATTLE_IDLE_SHIELD
+[AnimationName8]BATTLE_IDLE_BLUNT
+[AnimationName9]BATTLE_IDLE_BLUNT_TWO
+[AnimationName10]CLOTH_POSE
+[AnimationName11]GREETING
+[AnimationName12]WALK
+[AnimationName13]RUN
+[AnimationName14]DEATH
+[AnimationName15]DEATH_FLY_BACK
+[AnimationName16]ATTACK
+[AnimationName17]ATTACK_TWO
+[AnimationName18]ATTACK_SPEAR
+[AnimationName19]ATTACK_BOW
+[AnimationName20]ATTACK_SHIELD
+[AnimationName21]ATTACK_BLUNT
+[AnimationName22]ATTACK_BLUNT_TWO
+[AnimationName23]ATTACK_KILL
+[AnimationName24]ATTACK_KILL_TWO
+[AnimationName25]ATTACK_KILL_SPEAR
+[AnimationName26]ATTACK_KILL_BOW
+[AnimationName27]ATTACK_KILL_SHIELD
+[AnimationName28]ATTACK_KILL_BLUNT
+[AnimationName29]ATTACK_KILL_BLUNT_TWO
+[AnimationName30]ON_HIT
+[AnimationName31]ON_HIT_TWO
+[AnimationName32]ON_HIT_SPEAR
+[AnimationName33]ON_HIT_BOW
+[AnimationName34]ON_HIT_SHIELD
+[AnimationName35]ON_HIT_BLUNT
+[AnimationName36]ON_HIT_BLUNT_TWO
+[AnimationName37]DODGE
+[AnimationName38]DODGE_TWO
+[AnimationName39]DODGE_SPEAR
+[AnimationName40]DODGE_BOW
+[AnimationName41]DODGE_SHIELD
+[AnimationName42]DODGE_BLUNT
+[AnimationName43]DODGE_BLUNT_TWO
+[AnimationName44]CAST_SPELL_RANGED
+[AnimationName45]CAST_SPELL_MELEE
+[AnimationName46]MIRROR_IDLE
+[AnimationName47]MIRROR_IDLE_HAPPY
+[AnimationName48]MIRROR_IDLE_MAD
+[AnimationName49]HERO_POSE_FRONT
+[AnimationName50]HERO_POSE_LEFT
+[AnimationName51]HERO_POSE_RIGHT
+[AnimationName52]VICTORY
+[AnimationName53]WORKER_DIG
+[AnimationName54]EQUIP_HEAD
+[AnimationName55]EQUIP_LOWER_BODY
+[AnimationName56]EQUIP_TORSO
+[AnimationName57]EQUIP_FOREARMS
+[AnimationName58]EQUIP_RIGHT_HAND
+[AnimationName59]EQUIP_LEFT_HAND
+[AnimationName60]EQUIP_DUAL_WIELD
+[AnimationName61]EQUIP_IDLE_TWO	
+[AnimationName62]EQUIP_IDLE_SPEAR
+[AnimationName63]EQUIP_IDLE_BOW
+[AnimationName64]EQUIP_IDLE_SHIELD
+[AnimationName65]EQUIP_IDLE_BLUNT
+[AnimationName66]EQUIP_IDLE_BLUNT_TWO
+[AnimationName67]EQUIP_IDLE_STAFF
+[AnimationName68]BATTLE_IDLE_STAFF
+[AnimationName69]ATTACK_STAFF
+[AnimationName70]ATTACK_KILL_STAFF
+[AnimationName71]DODGE_STAFF
+[AnimationName72]ON_HIT_STAFF
+[AnimationName73]AWAKEN
+[AnimationName74]BATTLE_RUN
+[AnimationName75]PRONE_IDLE
+[AnimationName76]ON_HIT_PRONE
+[AnimationName77]KNOCKED_PRONE
+[AnimationName78]KNOCKED_PRONE_TWO
+[AnimationName79]KNOCKED_PRONE_SPEAR
+[AnimationName80]KNOCKED_PRONE_BOW
+[AnimationName81]KNOCKED_PRONE_SHIELD
+[AnimationName82]KNOCKED_PRONE_BLUNT
+[AnimationName83]KNOCKED_PRONE_BLUNT_TWO
+[AnimationName84]KNOCKED_PRONE_STAFF
+[AnimationName85]PRONE_DEATH
+[AnimationName86]STUNNED
+[AnimationName87]STUNNED_TWO
+[AnimationName88]STUNNED_SPEAR
+[AnimationName89]STUNNED_BOW
+[AnimationName90]STUNNED_SHIELD
+[AnimationName91]STUNNED_BLUNT
+[AnimationName92]STUNNED_BLUNT_TWO
+[AnimationName93]STUNNED_STAFF
+[AnimationName94]RECOVER
+[AnimationName95]RECOVER_TWO
+[AnimationName96]RECOVER_SPEAR
+[AnimationName97]RECOVER_BOW
+[AnimationName98]RECOVER_SHIELD
+[AnimationName99]RECOVER_BLUNT
+[AnimationName100]RECOVER_BLUNT_TWO
+[AnimationName101]RECOVER_STAFF
+
+[AnimationName102]SPELL_CHARGE
+[AnimationName103]BLOCK
+[AnimationName104]BLOCK_TWO
+[AnimationName105]BLOCK_SPEAR
+[AnimationName106]BLOCK_BOW
+[AnimationName107]BLOCK_SHIELD
+[AnimationName108]BLOCK_BLUNT
+[AnimationName109]BLOCK_BLUNT_TWO
+[AnimationName110]BLOCK_STAFF
+
+[AnimationName111]CAST_RANGEDSPELL
+[AnimationName112]CAST_RANGEDSPELL_TWO
+[AnimationName113]CAST_RANGEDSPELL_SPEAR
+[AnimationName114]CAST_RANGEDSPELL_STAFF
+[AnimationName115]CAST_RANGEDSPELL_BOW
+[AnimationName116]CAST_RANGEDSPELL_SHIELD
+[AnimationName117]CAST_RANGEDSPELL_BLUNT
+[AnimationName118]CAST_RANGEDSPELL_BLUNT_TWO
+
+[AnimationName119]CAST_GLOBALSPELL
+[AnimationName120]CAST_GLOBALSPELL_TWO
+[AnimationName121]CAST_GLOBALSPELL_SPEAR
+[AnimationName122]CAST_GLOBALSPELL_STAFF
+[AnimationName123]CAST_GLOBALSPELL_BOW
+[AnimationName124]CAST_GLOBALSPELL_SHIELD
+[AnimationName125]CAST_GLOBALSPELL_BLUNT
+[AnimationName126]CAST_GLOBALSPELL_BLUNT_TWO
+
+[AnimationName127]CRUSHING_BLOW
+[AnimationName128]CRUSHING_BLOW_TWO
+[AnimationName129]CRUSHING_BLOW_SPEAR
+
+[AnimationName130]DOUBLE_STRIKE
+[AnimationName131]DOUBLE_STRIKE_TWO
+[AnimationName132]DOUBLE_STRIKE_SPEAR
+[AnimationName133]DOUBLE_STRIKE_BOW
+	
+[AnimationName134]SWEEP_ATTACK
+[AnimationName135]SWEEP_ATTACK_TWO
+[AnimationName136]SWEEP_ATTACK_SPEAR
+
+[AnimationName137]GAMBLERS_STRIKE
+[AnimationName138]GAMBLERS_STRIKE_TWO
+[AnimationName139]GAMBLERS_STRIKE_SPEAR
+[AnimationName140]GAMBLERS_STRIKE_BOW
+	
+[AnimationName141]STUN_STRIKE
+[AnimationName142]STUN_STRIKE_TWO
+[AnimationName143]STUN_STRIKE_SPEAR
+[AnimationName144]STUN_STRIKE_BOW
+
+[AnimationName145]TRUE_STRIKE
+[AnimationName146]TRUE_STRIKE_TWO
+[AnimationName147]TRUE_STRIKE_SPEAR
+[AnimationName148]TRUE_STRIKE_BOW
+
+[AnimationName149]DEFEND
+
+[TABLEEND]
+
+[TABLEALIAS PerformanceTestNames]
+
+[PerformanceTest0] Disable Update Scene
+[PerformanceTest1] Hide Tile Designs
+[PerformanceTest2] Pause Tile Design Animations
+[PerformanceTest3] Hide Character Gfx
+[PerformanceTest4] Pause Character Animation
+[PerformanceTest5] Disable Update Object Gfx
+[PerformanceTest6] Disable Decal Gfx
+[PerformanceTest7] Limit Model Batches
+[PerformanceTest8] Limit Tile Designs
+[PerformanceTest9] Disable Leaf Batches
+[PerformanceTest10] Disable Node Attachments
+
+
+[TABLEEND]
+
+[TABLEALIAS DemoText]
+[DemoVersionStr] Demo
+[NotInDemo] Full Version Only
+[NoCampaign] Scenarios are only available in the full version of Fallen Enchantress.
+[NoMultiplayer] Multiplayer is only available in the full version of Elemental: War of Magic.
+[NoEditors] The editors are only available in the full version of Fallen Enchantress.
+[OnlyOneMapsize] Tiny, Medium, Large, and Huge maps are available in the full version.
+[NoLoadingMaps] The loading of custom maps is only available in the full version of Fallen Enchantress.
+
+[OnlyAltar] Only the Kingdom of Altar is playable in this demo.
+[OnlyRelias] Play as Relias or create a custom sovereign - all other leaders are unavailable in this demo.
+[TABLEEND]
+
+[TABLEALIAS DemoWnd]
+[BuyButton] Get It Now!
+[CloseButton] No Thanks
+[TABLEEND]
+
+[TABLEALIAS ArmyUnitListWnd]
+
+[TargetTitle] Select Target
+
+[SelectBtn] Select
+[CancelBtn] Cancel
+
+[TABLEEND]
+
+[TABLEALIAS GenericMultiChoiceListWnd]
+
+[ScreenTitle_StealSpirit] You have torn the spirit from your victim!
+[ListboxTitle_StealSpirit] Choose one spell rank to steal:
+[ButtonText_StealSpirit] Steal
+
+[TABLEEND]
+
+[TABLEALIAS TutorialPopupWnd]
+[WatchButton] Watch Tutorial
+[DoneButton] Close
+[NoMorePopupsCheckbox] Hide Tutorial Popups
+[TABLEEND]
+
+
+[TABLEALIAS KingdomVictorySubWnd]
+[Sovereign] Sovereign:
+[Faction] Faction:
+[Level] Level:
+
+[Population] Population:
+[Settlements] Settlements:
+[PowerLevel] Power Level:
+[ChampionLevel] Can recruit level %lu Champions.
+[TurnLimit] On season %ld of %ld.
+
+[Timeline] Timeline
+[SeasonsRemaining] Seasons Remaining
+[Season] Season
+[NoTurnLimit] No Turn Limit
+
+[Dead] Dead
+
+[QuestLevel1] Can start Basic quests.
+[QuestLevel2] Can start Medium quests.
+[QuestLevel3] Can embark upon Strong quests.
+[QuestLevel4] Can embark upon Deadly quests.
+[QuestLevel5] Can voyage upon Epic quests.
+
+[ConquestVictory_Title] Conquest Victory
+[ConquestVictory_Desc] A Conquest Victory is achieved when all other factions have been eliminated.
+[ConquestVictory_ListTitle] Faction Military Ratings
+[FactionsDestroyed] %lu / %lu Factions Destroyed
+
+[DiplomaticVictory_Title] Diplomatic Victory
+[DiplomaticVictory_Desc] A Diplomatic Victory is achieved when you are allied with all remaining factions.
+[DiplomaticVictory_ListTitle] Current Relations
+[FactionsAllied] %lu / %lu Factions Allied
+
+[QuestVictory_Title] Master Quest
+[QuestVictory_Desc] The Master Quest victory is achieved by completing 'The Black Gate' quest, entering the Pit of Lost Voices and defeating its guardian.\n\nTo do this you will have to complete the quests 'The Black Gate', 'The Second Gate' and 'The Pit of Lost Voices' quests.\n\nThe quests are Epic level and will require a powerful army to defeat.
+[QuestResearch] Quest Research
+[Quest1] The Black Gate
+[Quest2]  The Second Gate
+[Quest3]  The Pit of Lost Voices
+
+[SpellVictory_Title] Spell of Making
+[SpellVictory_Desc] A magical victory can be achieved by successfully casting the Spell of Making and unlocking the full power of Elemental's magic.\n\nTo cast the Spell of Making you will need the tech 'Book of Mastery' and to control a Fire, Earth, Water, and Air Shard.\n\nIt will take 25 seasons to finish casting the Spell of Making once you have started.
+[SpellResearch] Spell Research
+[Construction] Construction
+[SpellCastingTime] Spell Casting Time
+
+[SpellTooltip_Research] You've researched %lu%% of the necessary spell technologies.
+[SpellTooltip_ResearchDone] All spell research has been completed. You can now build the improvements required to cast the Spell of Making.
+
+[SpellTooltip_Construction] You've built %lu%% of the necessary improvements.
+[SpellTooltip_ConstructionDone] All improvements have been completed. Your sovereign can now cast the Spell of Making when enough mana has been gathered.
+
+[SpellTooltip_SpellNotBeingCast] You are not casting the Spell of Making at this time. 
+[SpellTooltip_SpellBeingCast] The Spell of Making will be cast in %lu seasons.
+
+[SpellTooltip_ConstructionIcon_NotBeingBuilt] %s is Not Under Construction
+[SpellTooltip_ConstructionIcon_Status] %s is %lu%% Complete
+[SpellTooltip_ConstructionIcon_Complete] Construction Complete on %s
+
+[TABLEEND]
+
+
+[TABLEALIAS Tutorial]
+
+[BossGoodieHut] Earth Elemental's Sanctum
+[ChampionGoodieHut] Champion Camp
+
+[BuildYourFirstCity] Current Objective: Build your First City.
+[BuildYourFirstCity_Title] The First Step
+[BuildYourFirstCity_Msg] Your first step is to found your Capital.\n\nTo do so, select your Sovereign and click the 'Settle' button.
+
+[BuildYourFirstImprovement] Current Objective: Build an Improvement in your City.
+[BuildYourFirstImprovement_Title] Build an Improvement
+[BuildYourFirstImprovement_Msg] You've built your Capital, giving the wandering people of the world safe haven.\n\nSelect your city, and then click the 'Build' button to construct your first improvement.
+
+[ResearchMining] Current Objective: Select 'Mining' as the Technology being Researched.
+[ResearchMining_Title] Research Mining
+[ResearchMining_Msg] Many have flocked to your city; amongst them are several scholars who wish to aid in the pursuit of new knowledge.\n\nIt would be wise to research mining, which will allow us to tap into the precious metals of the world.\n\nClick the Research bar at the top of the screen and select 'Mining' as your technology to be researched.
+
+[CastCitySpell] Current Objective: Cast 'Inspiration' on your City to Improve Research Time
+[CastCitySpell_Title] Cast the Spell 'Inspiration'
+[CastCitySpell_Msg] While Improvements can help specialize your cities, there are several spells that can provide bonuses as well.\n\nClick on the 'Spellbook' button to cast the spell 'Inspiration' on your city to magically aid your research.
+
+[GetGoodieHut] Current Objective: Capture the Equipment Cache to the East.
+[GetGoodieHut_Title] Your First Notable Location
+[GetGoodieHut_Msg] Now that your city is growing and you are researching, it's time to explore the world.\n\nMove your Sovereign to the east where an 'Equipment Cache' is rumored to hold lost treasure.
+
+[QueuePioneer] Current Objective: Train a Pioneer Unit at your City.
+[QueuePioneer_Title] Train a Pioneer
+[QueuePioneer_Msg] There appears to be an Iron Ore deposit to the east. Before we can build a mine there, we will need to prepare a Pioneer to expand your borders.\n\nSelect your city and click 'Train' to start training a Pioneer unit.
+
+[AdjustTaxes] Current Objective: Lower your Tax Rate to speed up Training.
+[AdjustTaxes_Title] Lower Your Taxes
+[AdjustTaxes_Msg] Your advisors have suggested that you lower your tax rate to speed up production of your Pioneer units. Use the Tax Slider at the top of the screen to do this.
+
+[BuildPioneer] Current Objective: Explore the East while Training your Pioneer.
+[BuildPioneer_Title] Pioneer in Training
+[BuildPioneer_Msg] Even at the lower tax rate, it will take several seasons for your Pioneer unit to be trained.\n\nUse this time to explore the east and see what other mysteries lie beneath the fog.
+
+[BuildOutpost] Current Objective: Send your pioneers to build an outpost by the Iron Ore.
+[BuildOutpost_Title] Build an Outpost
+[BuildOutpost_Msg] To build an Outpost, send your newly trained Pioneer to the east. When next to the Iron Ore deposit, select the Pioneer unit and press the 'Outpost' button in the lower left corner.
+[BuildOutpost_EventText] Send your Pioneer to build an Outpost next to the Iron Ore deposit.
+
+[BuildMine] Current Objective: Build a Mine on the Iron Deposit.
+[BuildMine_Title] Build a Mine
+[BuildMine_Msg] Once you've researched Mining and have built your Outpost next to the Iron Ore deposit, you're ready to start gathering metal.\n\nTo build a mine, simply click on the Iron Ore and press the 'Build' button at the lower left.
+
+[Gather10Metal] Current Objective: Explore the Northeast while your miners gather 5 Metal.
+[Gather10Metal_Title] Gather 5 Metal
+[Gather10Metal_Msg] It will take a few seasons to complete your mine and begin gathering ore, so while those tasks are dealt with by your workers, you should take this time to explore the area to the Northeast.\n\n\nRumors tell of additional Notable Locations that hold several useful relics.
+
+[RecruitChampion] Current Objective: Recruit the Champion to the East of your Outpost.
+[RecruitChampion_Title] Recruit a Champion
+[RecruitChampion_Msg] There are rumors of a gathering darkness in the forest east of your realm.\n\n\nHead to the east of your newly found outpost to meet and recruit a champion that can help you against the threat.
+
+[KillBandits] Current Objective: Dispatch the Earth Elemental in the Eastern Forest.
+[KillBandits_Title] Fight the Earth Elemental
+[KillBandits_Msg]The rumors are true; a deadly Earth Elemental has awoken in the eastern forest.\n\n\nSend your Sovereign and Champion to attack this monster before it threatens your kingdom.
+
+[Battle_Title] Defeat the Earth Elemental
+[Battle_Msg]It is time to confront the monster that threatens your realm.\n\nMove your units into range and, once adjacent, right click to attack the Earth Elemental.
+
+[TABLEEND]
+
+[TABLEALIAS EmpireTreeLargeEntryWnd]
+
+[Research] Research
+[Gildar] Gildar
+[Growth] Growth
+
+[TABLEEND]
+
+[TABLEALIAS PostToFacebookWnd]
+
+[Title] Post to Facebook
+[TitleAuthorizing] Authorizing...
+[TitleSaving] Saving...
+[TitleUploading] Uploading...
+[TitleError] Failed!
+[Post] Post
+[PostRetry] Retry
+[Cancel] Cancel
+[DefaultPlaceholderMessage] Type your caption here...
+[DefaultMessage] Posted from Elemental Fallen Enchantress
+
+[TABLEEND]
+
+[TABLEALIAS FacebookPopupWnd]
+
+[Title] Connecting...
+[Cancel] Cancel
+[Timeout] Timed Out
+
+[TABLEEND]
+
+[TABLEALIAS FacebookSnapshotPopupWnd]
+
+[Save] Save
+[Cancel] Cancel
+
+[FileName] Snapshot
+
+[TABLEEND]
+
+[TABLEALIAS CampaignDetailsWnd]
+
+[PreviousPage] Previous Page
+[NextPage] Next Page
+
+[TABLEEND]
+
+[TABLEALIAS FaceBookGeneral]
+
+[FaceBook] Post to Facebook
+
+[TABLEEND]

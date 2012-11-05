@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<EffectBlueprints>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName</Ignore>
+		<Translate>DisplayName</Translate>
+	</DataChecksum>
+	<EffectSequencer InternalName="A_WallOfFire_Particle_02">
+		<DisplayName>A_WallOfFire_Particle_02</DisplayName>
+		<RepeatIndefinitely>1</RepeatIndefinitely>
+		<EmitterBlueprint InternalName="Emitter1">
+			<DisplayName>Emitter1</DisplayName>
+			<TextureName>Gfx\Effect\Shapes\Magic10.png</TextureName>
+			<ColorInterpTextureName>Gfx\Effect\Colors\FirewallInterp.png</ColorInterpTextureName>
+			<TexturesInStrip>1</TexturesInStrip>
+			<RenderTechnique>ParticleAdditiveExclusive</RenderTechnique>
+			<RenderOrder>Mid3</RenderOrder>
+			<EmitterLifetime>10.0000</EmitterLifetime>
+			<Gravity>0</Gravity>
+			<ApplyDrag>0</ApplyDrag>
+			<Visibility>ExceptMapOverlay</Visibility>
+			<IsIndefinite>1</IsIndefinite>
+			<EnableDepthBias>0</EnableDepthBias>
+			<EmitterPosX>0.000000,0.000000,0.000000</EmitterPosX>
+			<EmitterPosY>0.000000,7.500000,0.000000</EmitterPosY>
+			<EmitterPosZ>0.000000,0.000000,0.000000</EmitterPosZ>
+			<AccelerationX>0.000000,0.000000,1.500000</AccelerationX>
+			<AccelerationY>0.000000,2.000000,5.000000</AccelerationY>
+			<AccelerationZ>0.000000,0.000000,0.000000</AccelerationZ>
+			<OffsetX>0.000000,0.000000,90.000000</OffsetX>
+			<OffsetY>0.000000,0.000000,15.000000</OffsetY>
+			<OffsetZ>0.000000,0.000000,0.000000</OffsetZ>
+			<DirectionX>0.000000,0.000000,0.000000</DirectionX>
+			<DirectionY>0.000000,0.000000,0.000000</DirectionY>
+			<DirectionZ>0.000000,0.000000,0.000000</DirectionZ>
+			<Speed>0.000000,10.000000,3.000000</Speed>
+			<StartScale>0.000000,35.000000,10.000000</StartScale>
+			<EndScale>0.000000,30.000000,5.000000</EndScale>
+			<InitRotation>0.000000,0.000000,400.000000</InitRotation>
+			<RotationRate>0.000000,0.000000,0.300000</RotationRate>
+			<ParticleLifetime>0.000000,5.400000,0.000000</ParticleLifetime>
+			<SpawnRate>0.000000,6.000000,0.000000</SpawnRate>
+		</EmitterBlueprint>
+		<SequenceFrame>Emitter1,0.000000</SequenceFrame>
+	</EffectSequencer>
+</EffectBlueprints>

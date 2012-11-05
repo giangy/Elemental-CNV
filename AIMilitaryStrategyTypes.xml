@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- XML file to define some AI Strategies that influence AI decision making-->
+<AIMilitaryStrategyTypes>
+    <AIMilitaryStrategyType InternalName="MobileWarfare">
+        <DisplayName>Guerra Mobile</DisplayName>
+        <Description>Valore che porta all'aumento delle unità montate e delle risorse montabili di 3x</Description>
+        <Icon>NonExistantPlaceHolderIcon.png</Icon>
+        <PrefMult_Mount>3.0</PrefMult_Mount>
+        <PrefMult_Bow>0.5</PrefMult_Bow>
+        <PrefMult_Pierce>0.5</PrefMult_Pierce>
+        <PrefMult_Cutting>0.5</PrefMult_Cutting>
+        <PrefMult_Blunt>0.5</PrefMult_Blunt>
+    </AIMilitaryStrategyType>
+    <AIMilitaryStrategyType InternalName="Archer">
+        <DisplayName>Arciere</DisplayName>
+        <Description>Valore che porta all'aumento delle unità con armi ad arco di 3x</Description>
+        <Icon>NonExistantPlaceHolderIcon.png</Icon>
+        <PrefMult_Mount>0.5</PrefMult_Mount>
+        <PrefMult_Bow>3.0</PrefMult_Bow>
+        <PrefMult_Pierce>1.0</PrefMult_Pierce>
+        <PrefMult_Cutting>0.5</PrefMult_Cutting>
+        <PrefMult_Blunt>0.5</PrefMult_Blunt>
+    </AIMilitaryStrategyType>
+    <AIMilitaryStrategyType InternalName="Swordsman">
+        <DisplayName>Spadaccino</DisplayName>
+        <Description>Valore che porta all'aumento delle unità con armi da taglio di 3x</Description>
+        <Icon>NonExistantPlaceHolderIcon.png</Icon>
+        <PrefMult_Mount>0.5</PrefMult_Mount>
+        <PrefMult_Bow>0.5</PrefMult_Bow>
+        <PrefMult_Pierce>0.5</PrefMult_Pierce>
+        <PrefMult_Cutting>3.0</PrefMult_Cutting>
+        <PrefMult_Blunt>0.5</PrefMult_Blunt>
+    </AIMilitaryStrategyType>
+    <AIMilitaryStrategyType InternalName="Clubber">
+        <DisplayName>Bastonatore</DisplayName>
+        <Description>Valore che porta all'aumento delle unità con armi a percossa di 3x</Description>
+        <Icon>NonExistantPlaceHolderIcon.png</Icon>
+        <PrefMult_Mount>0.5</PrefMult_Mount>
+        <PrefMult_Bow>0.5</PrefMult_Bow>
+        <PrefMult_Pierce>0.5</PrefMult_Pierce>
+        <PrefMult_Cutting>0.5</PrefMult_Cutting>
+        <PrefMult_Blunt>3.0</PrefMult_Blunt>
+    </AIMilitaryStrategyType>
+    <AIMilitaryStrategyType InternalName="Piercer">
+        <DisplayName>Lanciere</DisplayName>
+        <Description>Valore che porta all'aumento delle unità con armi a punta di 3x</Description>
+        <Icon>NonExistantPlaceHolderIcon.png</Icon>
+        <PrefMult_Mount>0.5</PrefMult_Mount>
+        <PrefMult_Bow>2.5</PrefMult_Bow>
+        <PrefMult_Pierce>3.0</PrefMult_Pierce>
+        <PrefMult_Cutting>0.5</PrefMult_Cutting>
+        <PrefMult_Blunt>0.5</PrefMult_Blunt>
+    </AIMilitaryStrategyType>
+</AIMilitaryStrategyTypes>

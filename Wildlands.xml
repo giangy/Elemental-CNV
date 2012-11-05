@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<WildlandsTypes>
+  <WildlandsType InternalName="Master_Quest">
+    <Stamp>W_Master_Quest_01</Stamp>
+    <DisplayName>Pit of Lost Voices</DisplayName>
+    <Image>HeroSlain.png</Image>
+    <ConquerCondition>DefeatGuardian</ConquerCondition>
+    <ConquerConditionDescription>Defeat Waerloga the Dragonlord</ConquerConditionDescription>
+    <GuardianUnitType>Champion_Waerloga</GuardianUnitType>
+
+    <MiniCutSceneData>
+      <FirstTimeEncounterCutscene_Kingdom>Minicut_PitOfLostVoices</FirstTimeEncounterCutscene_Kingdom>
+      <FirstTimeEncounterCutscene_Fallen>Minicut_PitOfLostVoices</FirstTimeEncounterCutscene_Fallen>
+      <FirstTimeEncounterCutscene_TitleTag>MiniCutscene_PitOfLostVoices_Title</FirstTimeEncounterCutscene_TitleTag>
+      <FirstTimeEncounterCutscene_TextTag>MiniCutscene_PitOfLostVoices_Text</FirstTimeEncounterCutscene_TextTag>
+    </MiniCutSceneData>
+  
+  </WildlandsType>
+  <WildlandsType InternalName="Bhinadmi_Fissure">
+    <Stamp>W_Bhinadmi_Fissure_01</Stamp>
+    <DisplayName>Bhinadmi Fissure</DisplayName>
+    <Image>HeroSlain.png</Image>
+    <ConquerCondition>DefeatGuardian</ConquerCondition>
+    <ConquerConditionDescription>Defeat Abeix, who Dwells Beneath.</ConquerConditionDescription>
+    <GuardianUnitType>Abeix</GuardianUnitType>
+    <MiniCutSceneData>
+      <FirstTimeEncounterCutscene_Kingdom>Minicut_BhinadmiFissure</FirstTimeEncounterCutscene_Kingdom>
+      <FirstTimeEncounterCutscene_Fallen>Minicut_BhinadmiFissure</FirstTimeEncounterCutscene_Fallen>
+      <FirstTimeEncounterCutscene_TitleTag>MiniCutscene_EncounterBhinadmiFissure_Title</FirstTimeEncounterCutscene_TitleTag>
+      <FirstTimeEncounterCutscene_TextTag>MiniCutscene_EncounterBhinadmiFissure_Text</FirstTimeEncounterCutscene_TextTag>
+    </MiniCutSceneData>
+  </WildlandsType>
+  <WildlandsType InternalName="Burning_Lands">
+    <Stamp>W_Burning_Lands_01</Stamp>
+    <DisplayName>Burning Lands</DisplayName>
+    <Image>HeroSlain.png</Image>
+    <ConquerCondition>DefeatGuardian</ConquerCondition>
+    <ConquerConditionDescription>Defeat Delin, the Pyre of Man.</ConquerConditionDescription>
+    <GuardianUnitType>Delin</GuardianUnitType>
+	<TacticalMap>T_Burninglands_01</TacticalMap>
+    <MiniCutSceneData>
+      <FirstTimeEncounterCutscene_Kingdom>Minicut_BurningLands</FirstTimeEncounterCutscene_Kingdom>
+      <FirstTimeEncounterCutscene_Fallen>Minicut_BurningLands</FirstTimeEncounterCutscene_Fallen>
+      <FirstTimeEncounterCutscene_TitleTag>MiniCutscene_EncounterBurningLands_Title</FirstTimeEncounterCutscene_TitleTag>
+      <FirstTimeEncounterCutscene_TextTag>MiniCutscene_EncounterBurningLands_Text</FirstTimeEncounterCutscene_TextTag>
+    </MiniCutSceneData>
+  </WildlandsType>
+  <WildlandsType InternalName="Curgens_Tomb">
+    <Stamp>W_Curgens_Tomb_01</Stamp>
+    <DisplayName>Curgens Tomb</DisplayName>
+    <Image>HeroSlain.png</Image>
+    <ConquerCondition>ClearGoodieHuts</ConquerCondition>
+    <ConquerConditionDescription>Slay all the monsters within this wasteland.</ConquerConditionDescription>
+	<TacticalMap>T_Curgens_Tomb_01</TacticalMap>
+    <MiniCutSceneData>
+      <FirstTimeEncounterCutscene_Kingdom>Minicut_CurgensTomb</FirstTimeEncounterCutscene_Kingdom>
+      <FirstTimeEncounterCutscene_Fallen>Minicut_CurgensTomb</FirstTimeEncounterCutscene_Fallen>
+      <FirstTimeEncounterCutscene_TitleTag>MiniCutscene_CurgensTomb_Title</FirstTimeEncounterCutscene_TitleTag>
+      <FirstTimeEncounterCutscene_TextTag>MiniCutscene_EncounterCurgensTomb_Text</FirstTimeEncounterCutscene_TextTag>
+    </MiniCutSceneData>
+  </WildlandsType>
+  <WildlandsType InternalName="Lombard_Desert">
+    <Stamp>W_Lombard_Desert_01</Stamp>
+    <DisplayName>Lombard Desert</DisplayName>
+    <Image>HeroSlain.png</Image>
+    <ConquerCondition>DefeatGuardian</ConquerCondition>
+    <ConquerConditionDescription>Defeat Torax, Who Grinds Mountains to Dust.</ConquerConditionDescription>
+    <GuardianUnitType>Torax</GuardianUnitType>
+	<TacticalMap>T_Lombard_Desert_01</TacticalMap>
+    <MiniCutSceneData>
+      <FirstTimeEncounterCutscene_Kingdom>Minicut_LombardDesert</FirstTimeEncounterCutscene_Kingdom>
+      <FirstTimeEncounterCutscene_Fallen>Minicut_LombardDesert</FirstTimeEncounterCutscene_Fallen>
+      <FirstTimeEncounterCutscene_TitleTag>MiniCutscene_EncounterLombardDesert_Title</FirstTimeEncounterCutscene_TitleTag>
+      <FirstTimeEncounterCutscene_TextTag>MiniCutscene_EncounterLombardDesert_Text</FirstTimeEncounterCutscene_TextTag>
+    </MiniCutSceneData>
+  </WildlandsType>
+  <WildlandsType InternalName="Pits_of_Namtur">
+    <Stamp>W_Pits_of_Namtur_01</Stamp>
+    <DisplayName>Pits of Namtur</DisplayName>
+    <Image>HeroSlain.png</Image>
+    <ConquerCondition>ClearGoodieHuts</ConquerCondition>
+    <ConquerConditionDescription>Explore all the caves in the Pits of Namtur.</ConquerConditionDescription>
+	<TacticalMap>T_Pits_of_Namtur_01</TacticalMap>
+    <MiniCutSceneData>
+      <FirstTimeEncounterCutscene_Kingdom>Minicut_PitsOfNamtur</FirstTimeEncounterCutscene_Kingdom>
+      <FirstTimeEncounterCutscene_Fallen>Minicut_PitsOfNamtur</FirstTimeEncounterCutscene_Fallen>
+      <FirstTimeEncounterCutscene_TitleTag>MiniCutscene_EncounterPitsOfNamtur_Title</FirstTimeEncounterCutscene_TitleTag>
+      <FirstTimeEncounterCutscene_TextTag>MiniCutscene_EncounterPitsOfNamtur_Text</FirstTimeEncounterCutscene_TextTag>
+    </MiniCutSceneData>
+  </WildlandsType>
+  <WildlandsType InternalName="Ruins_of_the_Imperium">
+    <Stamp>W_Ruins_of_the_Imperium_01</Stamp>
+    <DisplayName>Ruins of the Imperium</DisplayName>
+    <Image>HeroSlain.png</Image>
+    <ConquerCondition>BuildCity</ConquerCondition>
+    <ConquerConditionDescription>Build a new city on the ruins of the Imperium.</ConquerConditionDescription>
+	<TacticalMap>T_Imperium_01</TacticalMap>
+    <MiniCutSceneData>
+      <FirstTimeEncounterCutscene_Kingdom>Minicut_RuinsOfTheImperium</FirstTimeEncounterCutscene_Kingdom>
+      <FirstTimeEncounterCutscene_Fallen>Minicut_RuinsOfTheImperium</FirstTimeEncounterCutscene_Fallen>
+      <FirstTimeEncounterCutscene_TitleTag>MiniCutscene_EncounterRuinsOfTheImperium_Title</FirstTimeEncounterCutscene_TitleTag>
+      <FirstTimeEncounterCutscene_TextTag>MiniCutscene_EncounterRuinsOfTheImperium_Text</FirstTimeEncounterCutscene_TextTag>
+    </MiniCutSceneData>
+  </WildlandsType>
+  <WildlandsType InternalName="The_Shroud">
+    <Stamp>W_Shroud_01</Stamp>
+    <DisplayName>The Shroud</DisplayName>
+    <Image>HeroSlain.png</Image>
+    <ConquerCondition>ConquerCity</ConquerCondition>
+    <ConquerConditionDescription>Conquer the Darkling City and claim it as your own.</ConquerConditionDescription>
+	<TacticalMap>T_Shroud_01</TacticalMap>
+    <MiniCutSceneData>
+      <FirstTimeEncounterCutscene_Kingdom>Minicut_Shroud</FirstTimeEncounterCutscene_Kingdom>
+      <FirstTimeEncounterCutscene_Fallen>Minicut_Shroud</FirstTimeEncounterCutscene_Fallen>
+      <FirstTimeEncounterCutscene_TitleTag>MiniCutscene_TheShroud_Title</FirstTimeEncounterCutscene_TitleTag>
+      <FirstTimeEncounterCutscene_TextTag>MiniCutscene_TheShroud_Text</FirstTimeEncounterCutscene_TextTag>
+    </MiniCutSceneData>
+  </WildlandsType>
+  <WildlandsType InternalName="Scrapyard">
+    <Stamp>W_Scrapyard_01</Stamp>
+    <DisplayName>The Scrapyard</DisplayName>
+    <Image>HeroSlain.png</Image>
+    <ConquerCondition>ClearGoodieHuts</ConquerCondition>
+    <ConquerConditionDescription>Search through the scrapyard for valuable materials and treasure.</ConquerConditionDescription>
+	<TacticalMap>T_Scrapyard_01</TacticalMap>
+    <MiniCutSceneData>
+      <FirstTimeEncounterCutscene_Kingdom>Minicut_Scrapyard</FirstTimeEncounterCutscene_Kingdom>
+      <FirstTimeEncounterCutscene_Fallen>Minicut_Scrapyard</FirstTimeEncounterCutscene_Fallen>
+      <FirstTimeEncounterCutscene_TitleTag>MiniCutscene_EncounterScrapyard_Title</FirstTimeEncounterCutscene_TitleTag>
+      <FirstTimeEncounterCutscene_TextTag>MiniCutscene_EncounterScrapyard_Text</FirstTimeEncounterCutscene_TextTag>
+    </MiniCutSceneData>
+  </WildlandsType>
+  <WildlandsType InternalName="Asag">
+    <Stamp>W_Asag_01</Stamp>
+    <DisplayName>Asag</DisplayName>
+    <Image>HeroSlain.png</Image>
+    <ConquerCondition>ClearGoodieHuts</ConquerCondition>
+    <ConquerConditionDescription>Clear the scarred tiles to heal this diseased land.</ConquerConditionDescription>
+	<TacticalMap>T_Asaq_01</TacticalMap>
+    <MiniCutSceneData>
+      <FirstTimeEncounterCutscene_Kingdom>Minicut_TheAsag</FirstTimeEncounterCutscene_Kingdom>
+      <FirstTimeEncounterCutscene_Fallen>Minicut_TheAsag</FirstTimeEncounterCutscene_Fallen>
+      <FirstTimeEncounterCutscene_TitleTag>MiniCutscene_EncounterTheAsag_Title</FirstTimeEncounterCutscene_TitleTag>
+      <FirstTimeEncounterCutscene_TextTag>MiniCutscene_EncounterTheAsag_Text</FirstTimeEncounterCutscene_TextTag>
+    </MiniCutSceneData>
+  </WildlandsType>
+	<WildlandsType InternalName="Northern_Waste">
+		<Stamp>W_Northern_Wastes_01</Stamp>
+		<DisplayName>Northern Wastes</DisplayName>
+		<Image>HeroSlain.png</Image>
+		<ConquerCondition>DefeatGuardian</ConquerCondition>
+		<ConquerConditionDescription>Defeat Vetrar, the Guardian of the World's End.</ConquerConditionDescription>
+		<GuardianUnitType>Vetrar</GuardianUnitType>
+		<TacticalMap>T_Arctic_Arena_01</TacticalMap>
+		<MiniCutSceneData>
+			<FirstTimeEncounterCutscene_Kingdom>Minicut_NorthernWastes</FirstTimeEncounterCutscene_Kingdom>
+			<FirstTimeEncounterCutscene_Fallen>Minicut_NorthernWastes</FirstTimeEncounterCutscene_Fallen>
+			<FirstTimeEncounterCutscene_TitleTag>MiniCutscene_EncounterNorthernWaste_Title</FirstTimeEncounterCutscene_TitleTag>
+			<FirstTimeEncounterCutscene_TextTag>MiniCutscene_EncounterNorthernWaste_Text</FirstTimeEncounterCutscene_TextTag>
+		</MiniCutSceneData>
+	</WildlandsType>
+</WildlandsTypes>

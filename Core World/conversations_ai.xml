@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<FlavorTextEntries>
+	<DataChecksum NoParse="1">
+		<Ignore>Text</Ignore>
+		<Translate>Text</Translate>
+	</DataChecksum>
+
+	<!--
+  - STRING PLACEHOLDERS -
+  
+  [S_FactionName] the name of the speaker's faction
+  [S_FactionShortName] the short name of the speaker's faction (Kraxis, Altar, etc)
+  [S_LeaderName] the name of the speaker
+  [S_LastResearchedTech] the most recently unlocked tech milestone of the speaker's faction
+  
+  [L_FactionName] listener's faction name
+  [L_FactionShortName] the short name of the listener's faction (Kraxis, Altar, etc)
+  [L_LeaderName] listener's sovereign name
+  [L_LastResearchedTech] the most recently unlocked tech milestone of the listener's faction
+  
+  [WorldName] the name of the world
+  
+  ____________________________________________
+  
+  - RULES (Mostly for use with Generic Race conversations) -
+  
+  - Race of Men -
+  0  - A Kingdom speaking
+  1  - A Kingdom speaking to another Kingdom
+  2  - A Kingdom speaking to a Fallen nation
+  
+  - Fallen Race -
+  10 - A Fallen race speaking
+  11 - A Fallen race speaking to another Fallen Race
+  12 - A Fallen Race speaking to a Kingdom nation
+  
+  - Military Might -
+  20 - Speaker has a MUCH STRONGER Military than the Listener
+  21 - Speaker has a Slightly STRONGER Military than the Listener
+  22 - Speaker has approximatly EQUAL Military Might as the Listener
+  23 - Speaker has a Slightly WEAKER Military than the Listener
+  24 - Speaker has a MUCH WEAKER Military than the Listeners
+  
+  - Diplomatic Skill -
+  30 - Speaker is MUCH MORE DIPLOMATIC than the Listener
+  31 - Speaker is SLIGHTLY MORE DIPLOMATIC than the Listener
+  31 - Speaker is EQUALLY DIPLOMATIC than the Listener
+  33 - Speaker is SLIGHTLY LESS DIPLOMATIC than the Listener
+  34 - Speaker is MUCH LESS DIPLOMATIC than the Listener
+  
+  <RevisitedTopicBarrier>
+  This is the number of times a topic is triggered by these two races before the given flavor text will be used.
+  
+  <RelationsMax>
+  <RelationsMin>
+  The span of relations that this text will be used for.
+  1- Permanent War
+  2- War
+  3- Hostile
+  4- Unfriendly
+  5- Cool
+  6- Neutral
+  7- Warm
+  8- Friendly
+  9- Close
+  10- Ally
+  11- Team
+  -->
+    
+	<FlavorText>
+		<Topic>Bandits_Welcome</Topic>
+		<Text>Well, well, well. What do we have here? Someone has gone and tried to organize a new realm eh? The world has changed. You will soon learn that.</Text>
+		<Text>So you're [L_LeaderName]? You will wish you had never been born when the wilds are done with you.</Text>
+		<Text>What's this we have here? Someone is trying to gather the peasant folk to form a society? I don't think so.</Text>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Bandits_Warning</Topic>
+		<Text>Your little village of [CITYNAME] isn't even defended. Perhaps it will do better under new management.</Text>
+		<Text>Look at that, the little town of [CITYNAME] hasn't even trained a bloody peasant to defend its gates. Don't worry, we'll be there soon.</Text>
+	</FlavorText>
+  
+	<FlavorText>
+		<Topic>Monster_Dumb</Topic>
+		<Text>Looks like dinner is coming to me today.</Text>
+    <Text>This land belongs to me!</Text>
+    <Text>Stay away from my stuff!</Text>
+	</FlavorText>
+
+  <FlavorText>
+    <Topic>Monster_Syndicate</Topic>
+    <Text>These lands belong to the syndicate.</Text>
+    <Text>What do we have here? Another would-be adventurer?</Text>
+    <Text>This is Syndicate territory.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Monster_Bandit</Topic>
+    <Text>You have some nice gear. I can't wait to take it from you.</Text>
+    <Text>This is our turf, find your own area.</Text>
+    <Text>I hear the jingle of gildar. Come closer.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Monster_DarkWizard</Topic>
+    <Text>Come to my abode for a visit. I won't harm you. Much.</Text>
+    <Text>Ah, another visitor. Stay awhile. Stay..forever.</Text>
+    <Text>I sense there is a power in you. A power I would take.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Monster_Wildings</Topic>
+    <Text>You trespass on our hunting grounds. You must pay the price.</Text>
+    <Text>The time of cities is over. The world is ours now.</Text>
+    <Text>It has shinies. Maybe we can take the shinies from it.</Text>
+  </FlavorText>
+  
+	<FlavorText>
+		<Topic>Monster_Smart_Stronger</Topic>
+		<Text>Your gear will fetch a pretty gildar.</Text>
+    <Text>Your gear will fetch a pretty gildar.</Text>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Monster_Smart_Weaker</Topic>
+		<Text>Look at you, lording through the wilds as if you own them!</Text>
+	</FlavorText>
+
+  
+</FlavorTextEntries>

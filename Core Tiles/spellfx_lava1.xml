@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<TileDesigns>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName</Ignore>
+		<Translate>DisplayName</Translate>
+	</DataChecksum>
+
+
+
+	<TileDesign InternalName="spellfx_lava">
+		<DisplayName>SpellFX_Lava</DisplayName>
+		<Thumbnail>\Game\Gfx\tile_icon.png</Thumbnail>
+		<ShadowTransparency>50</ShadowTransparency>
+		<IsCore>0</IsCore>
+		<SubTileFlags>15</SubTileFlags>
+		<TileDesignPath InternalName="_path0"/>
+		<EffectTrigger InternalName="Lava1">
+			<EffectName>Lava1</EffectName>
+			<LocalPosition>-4.633484,55.000000,0.008484</LocalPosition>
+			<Scale>0.5000</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+	</TileDesign>
+
+
+</TileDesigns>

@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<UnitEyeTextureDefs>
+
+  <DataChecksum NoParse="1">
+    <Ignore>DisplayName, Icon, EyeTextureFilename, SupportedUnitModelType</Ignore>
+    <Translate>DisplayName</Translate>
+  </DataChecksum>
+
+  <!-- ************************************ -->
+  <!-- ** KingdomMale unit type textures ** -->
+  <!-- ************************************ -->
+
+  <!-- Male Eye 1 -->
+  
+  <!-- Blue -->
+  <UnitEyeTextureDef InternalName="MaleEye1_Blue">    
+    <DisplayName>Male Eye 1 - Blue</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m1_blue.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m1_blue.png</EyeTextureFilename>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Brown-->
+  <UnitEyeTextureDef InternalName="MaleEye1_Brown">
+    <DisplayName>Male Eye 1 - Brown</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m1_brwn.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m1_brwn.png</EyeTextureFilename>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Green -->
+  <UnitEyeTextureDef InternalName="MaleEye1_Green">
+    <DisplayName>Male Eye 1 - Green</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m1_grn.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m1_grn.png</EyeTextureFilename>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Gold -->
+  <UnitEyeTextureDef InternalName="MaleEye1_Gold">
+    <DisplayName>Male Eye 1 - Gold</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m1_gold.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m1_gold.png</EyeTextureFilename>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+    <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Male Eye 2 -->
+
+  <!-- Brown -->
+  <UnitEyeTextureDef InternalName="MaleEye2_Brown">
+    <DisplayName>Male Eye 2 - Brown</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m2_brwn.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m2_brwn.png</EyeTextureFilename>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Gray Blue -->
+  <UnitEyeTextureDef InternalName="MaleEye2_GrayBlue">
+    <DisplayName>Male Eye 2 - Gray Blue</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m2_grayblue.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m2_grayblue.png</EyeTextureFilename>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Olive -->
+  <UnitEyeTextureDef InternalName="MaleEye2_Olive">
+    <DisplayName>Male Eye 2 - Olive</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m2_olive.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m2_olive.png</EyeTextureFilename>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Light Blue -->
+  <UnitEyeTextureDef InternalName="MaleEye2_LightBlue">
+    <DisplayName>Male Eye 2 - LtBlue</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m2_ltblue.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m2_ltblue.png</EyeTextureFilename>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+
+
+  <!-- Male Eye 3 -->
+
+  <!--Blue-->
+  <UnitEyeTextureDef InternalName="MaleEye3_Blue">
+    <DisplayName>Male Eye 3 - Blue</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m3_blue.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m3_blue.png</EyeTextureFilename>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Brown -->
+  <UnitEyeTextureDef InternalName="MaleEye3_Brown">
+    <DisplayName>Male Eye 3 - Brown</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m3_brwn.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m3_brwn.png</EyeTextureFilename>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Green -->
+  <UnitEyeTextureDef InternalName="MaleEye3_Green">
+    <DisplayName>Male Eye 3 -Green</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m3_grn.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m3_grn.png</EyeTextureFilename>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Cataracts -->
+  <UnitEyeTextureDef InternalName="MaleEye3_Cataracts">
+    <DisplayName>Male Eye 3 - Cataracts</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m3_cataract.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m3_cataract.png</EyeTextureFilename>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+    <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+
+  <!-- Male Eye 4 -->
+
+  <!--Black-->
+  <UnitEyeTextureDef InternalName="MaleEye4_Black">
+    <DisplayName>Male Eye 4 - Black</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m4_blk.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m4_blk.png</EyeTextureFilename>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+     <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!--Brown-->
+  <UnitEyeTextureDef InternalName="MaleEye4_Brown">
+    <DisplayName>Male Eye 4 - Brown</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m4_brwn.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m4_brwn.png</EyeTextureFilename>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!--Blue-->
+  <UnitEyeTextureDef InternalName="MaleEye4_Blue">
+    <DisplayName>Male Eye 4 - Blue</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m4_blue.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m4_blue.png</EyeTextureFilename>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!--Green-->
+  <UnitEyeTextureDef InternalName="MaleEye4_Green">
+    <DisplayName>Male Eye 4 - Green</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m4_grn.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m4_grn.png</EyeTextureFilename>
+    <SupportedUnitModelType>KingdomMale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>AmarianMale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanMale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!--Gold-->
+  <UnitEyeTextureDef InternalName="MaleEye4_Gold">
+    <DisplayName>Male Eye 4 - Gold</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m4_gold.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m4_gold.png</EyeTextureFilename>
+    <SupportedUnitModelType>IroneerMale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+    <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Male Eye 5 -->
+
+  <!--Amber-->
+  <UnitEyeTextureDef InternalName="MaleEye5_Amber">
+    <DisplayName>Male Eye 5 - Amber</DisplayName>
+    <Icon>gfx\eyes\icons\Eye_M5_amber.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m5_Amber.png</EyeTextureFilename>
+    <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+    <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!--White-->
+  <UnitEyeTextureDef InternalName="MaleEye5_White">
+    <DisplayName>Male Eye 5 - White</DisplayName>
+    <Icon>gfx\eyes\icons\Eye_M5_White.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m5_White.png</EyeTextureFilename>
+    <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+    <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+     <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!--White-->
+  <UnitEyeTextureDef InternalName="eyeblink_m5_Black">
+    <DisplayName>Male Eye 5 - Black</DisplayName>
+    <Icon>gfx\eyes\icons\Eye_M5_black.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m5_Black.png</EyeTextureFilename>
+    <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+    <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!--White-->
+  <UnitEyeTextureDef InternalName="eyeblink_m5_gold">
+    <DisplayName>Male Eye 5 - Gold</DisplayName>
+    <Icon>gfx\eyes\icons\Eye_M5_gold.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m5_gold.png</EyeTextureFilename>
+    <SupportedUnitModelType>WraithMale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenMale</SupportedUnitModelType>
+    <SupportedUnitModelType>UrxenMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+  
+  <!-- Male Eye 6 -->
+
+  <!--Orange-->
+  <UnitEyeTextureDef InternalName="Quendar_Male_Eye_Orange">
+    <DisplayName>Male Quendar Eye - Orange</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m6_orange.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m6_Orange.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+  
+  <!--Red-->
+  <UnitEyeTextureDef InternalName="Quendar_Male_Eye_Red">
+    <DisplayName>Male Quendar Eye - Red</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m6_Red.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m6_Red.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!--Red-->
+  <UnitEyeTextureDef InternalName="Quendar_Male_Eye_Lime">
+    <DisplayName>Male Quendar Eye - Lime</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m6_Lime.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m6_Lime.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!--Black-->
+  <UnitEyeTextureDef InternalName="Quendar_Male_Eye_Black">
+    <DisplayName>Male Quendar Eye - Black</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m6_Black.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m6_Black.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+  
+  <!--White-->
+  <UnitEyeTextureDef InternalName="Quendar_Male_Eye_White">
+    <DisplayName>Male Quendar Eye - White</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m6_White.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m6_White.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Male Eye 7 -->
+
+  <!--Red-->
+  <UnitEyeTextureDef InternalName="Quendar_Male_Eye_2_Red">
+    <DisplayName>Male Quendar Eye 2 - Red</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m7_Red.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m7_Red.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+  
+  <!--Orange-->
+  <UnitEyeTextureDef InternalName="Quendar_Male_Eye_2_Orange">
+    <DisplayName>Male Quendar Eye 2 - Orange</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m7_Orange.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m7_Orange.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+  
+
+
+  <!--Yellow-->
+  <UnitEyeTextureDef InternalName="Quendar_Male_Eye_2_Yellow">
+    <DisplayName>Male Quendar Eye 2 - Yellow</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m7_Yellow.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m7_Yellow.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!--Green-->
+  <UnitEyeTextureDef InternalName="Quendar_Male_Eye_2_Green>">
+    <DisplayName>Male Quendar Eye 2 - Green</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m7_Green.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m7_Green.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!--White-->
+  <UnitEyeTextureDef InternalName="Quendar_Male_Eye_2_White>">
+    <DisplayName>Male Quendar Eye 2 - White</DisplayName>
+    <Icon>gfx\eyes\icons\eye_m7_white.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_m7_white.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+
+
+
+
+
+
+  <!-- ************************************** -->
+  <!-- ** KingdomFeMale unit type textures ** -->
+  <!-- ************************************** -->
+
+  <!-- Female Eye 1 -->
+
+  <!-- Blue -->
+  <UnitEyeTextureDef InternalName="FemaleEye1_Blue">
+    <DisplayName>Female Eye 1 - Blue</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f1_blue.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_f1_blue.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Brown -->
+  <UnitEyeTextureDef InternalName="FemaleEye1_Brown">
+    <DisplayName>Female Eye 1 - Brown</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f1_brwn.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_f1_brwn.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Green -->
+  <UnitEyeTextureDef InternalName="FemaleEye1_Green">
+    <DisplayName>Female Eye 1 - Green</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f1_grn.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_f1_grn.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Gold -->
+  <UnitEyeTextureDef InternalName="FemaleEye1_Gold">
+    <DisplayName>Female Eye 1 - Gold</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f1_gold.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_f1_gold.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Black -->
+  <UnitEyeTextureDef InternalName="FemaleEye1_Black">
+    <DisplayName>Black</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f1_blk.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_f1_blk.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Female Eye 2 -->
+
+  <!-- Green-->
+  <UnitEyeTextureDef InternalName="FemaleEye2_Green">
+    <DisplayName>Female Eye 2 - Green</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f2_grn.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_f2_grn.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Brown -->
+  <UnitEyeTextureDef InternalName="FemaleEye2_Brown">
+    <DisplayName>Female Eye 2 - Brown</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f2_brwn.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_f2_brwn.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Blue -->
+  <UnitEyeTextureDef InternalName="FemaleEye2_Blue">
+    <DisplayName>Female Eye 2 - Blue</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f2_blue.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_f2_blue.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Light Blue -->
+  <UnitEyeTextureDef InternalName="FemaleEye2_LightBlue">
+    <DisplayName>Female Eye 2 - Light Blue</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f2_ltblue.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_f2_ltblue.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Violet -->
+  <UnitEyeTextureDef InternalName="FemaleEye2_Violet">
+    <DisplayName>Female Eye 2 - Violet</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f2_violet.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_f2_violet.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+
+  <!-- Female Eye 3 -->
+
+  <!-- Blue -->
+  <UnitEyeTextureDef InternalName="FemaleEye3_Blue">
+    <DisplayName>Female Eye 3 - Blue</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f3_blue.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_f3_blue.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Brown -->
+  <UnitEyeTextureDef InternalName="FemaleEye3_Brown">
+    <DisplayName>Female Eye 3 - Brown</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f3_brwn.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_f3_brwn.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Green -->
+  <UnitEyeTextureDef InternalName="FemaleEye3_Green">
+    <DisplayName>Female Eye 3 - Green</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f3_grn.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_f3_grn.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Hazel -->
+  <UnitEyeTextureDef InternalName="FemaleEye3_Hazel">
+    <DisplayName>Female Eye 3 - Hazel</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f3_hazel.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_f3_hazel.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>TarthanFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>EmpireFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Black -->
+  <UnitEyeTextureDef InternalName="FemaleEye3_Black">
+    <DisplayName>Black</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f3_blk.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\eyeblink_f3_blk.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+
+  <!-- Female Eye 4 (Fallen) -->
+
+  <!-- Amber -->
+  <UnitEyeTextureDef InternalName="K_Female_Eyes_Amber">
+    <DisplayName>Fallen Eyes - Amber</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f4_Amber.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F4_Amber.png</EyeTextureFilename>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Gold -->
+  <UnitEyeTextureDef InternalName="K_Female_Eyes_Gold">
+    <DisplayName>Fallen Eyes - Gold</DisplayName>
+    <Icon>gfx\eyes\icons\Eye_F4_Gold.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F4_Gold.png</EyeTextureFilename>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Red -->
+  <UnitEyeTextureDef InternalName="K_Female_Eyes_Red">
+    <DisplayName>Fallen Eyes - Red</DisplayName>
+    <Icon>gfx\eyes\icons\Eye_F4_Red.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F4_Red.png</EyeTextureFilename>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Black -->
+  <UnitEyeTextureDef InternalName="K_Female_Eyes_Black">
+    <DisplayName>Fallen Eyes - Black</DisplayName>
+    <Icon>gfx\eyes\icons\Eye_F4_Blk.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F4_Blk.png</EyeTextureFilename>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>IroneerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Gray -->
+  <UnitEyeTextureDef InternalName="K_Female_Eyes_Gray">
+    <DisplayName>Fallen Eyes - Gray</DisplayName>
+    <Icon>gfx\eyes\icons\Eye_F4_Gray.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F4_Gray.png</EyeTextureFilename>
+    <SupportedUnitModelType>AmarianFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>MancerFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>KingdomFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- White -->
+  <UnitEyeTextureDef InternalName="K_Female_Eyes_White">
+    <DisplayName>Fallen Eyes - White</DisplayName>
+    <Icon>gfx\eyes\icons\Eye_F4_Wht.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F4_Wht.png</EyeTextureFilename>
+    <SupportedUnitModelType>FallenFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>UrxenFemale</SupportedUnitModelType>
+    <SupportedUnitModelType>WraithFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Female Eye 5 (Quendar) -->
+
+  <!-- Orange -->
+  <UnitEyeTextureDef InternalName="Quendar_Female_Eyes_Orange">
+    <DisplayName>Quendar Eyes - Orange</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f5_Orange.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F5_Orange.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Red -->
+  <UnitEyeTextureDef InternalName="Quendar_Female_Eyes_Red">
+    <DisplayName>Quendar Eyes - Red</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f5_Red.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F5_Red.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+  
+  <!-- Lime -->
+  <UnitEyeTextureDef InternalName="Quendar_Female_Eyes_Lime">
+    <DisplayName>Quendar Eyes - Lime</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f5_lime.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F5_lime.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+  
+  <!-- Black -->
+  <UnitEyeTextureDef InternalName="Quendar_Female_Eyes_Black">
+    <DisplayName>Quendar Eyes - Black</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f5_black.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F5_black.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- White -->
+  <UnitEyeTextureDef InternalName="Quendar_Female_Eyes_White">
+    <DisplayName>Quendar Eyes - White</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f5_white.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F5_white.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+
+  <!-- Female Eye 6 (Quendar) -->
+
+  <!-- Orange -->
+  <UnitEyeTextureDef InternalName="Quendar_Female_Eyes_2_Orange">
+    <DisplayName>Quendar Eyes 2 - Orange</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f6_Orange.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F6_Orange.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Red-->
+  <UnitEyeTextureDef InternalName="Quendar_Female_Eyes_2_Red">
+    <DisplayName>Quendar Eyes 2 - red</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f6_red.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F6_red.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+     </UnitEyeTextureDef>
+
+  <!-- yellow -->
+  <UnitEyeTextureDef InternalName="Quendar_Female_Eyes_2_yellow">
+    <DisplayName>Quendar Eyes 2 - yellow</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f6_yellow.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F6_yellow.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+
+
+  <!-- green -->
+  <UnitEyeTextureDef InternalName="Quendar_Female_Eyes_2_green">
+    <DisplayName>Quendar Eyes 2 - green</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f6_green.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F6_green.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+
+  <!-- black-->
+  <UnitEyeTextureDef InternalName="Quendar_Female_Eyes_2_black">
+    <DisplayName>Quendar Eyes 2 - black</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f6_black.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F6_black.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+  
+      <!-- white -->
+  <UnitEyeTextureDef InternalName="Quendar_Female_Eyes_2_white">
+    <DisplayName>Quendar Eyes 2 - white</DisplayName>
+    <Icon>gfx\eyes\icons\eye_f6_white.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_F6_white.png</EyeTextureFilename>
+    <SupportedUnitModelType>QuendarFemale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>
+  </UnitEyeTextureDef>
+
+  <!-- Male Eyes - Dead -->
+
+  <!--Dead-->
+  <UnitEyeTextureDef InternalName="Male_Eye_Dead">
+    <DisplayName>Male Eye - Dead</DisplayName>
+	<IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+    <Icon>gfx\eyes\icons\eye_m6_orange.png</Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_M_Dead.png</EyeTextureFilename>
+    <!--<SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>-->
+  </UnitEyeTextureDef>
+
+  <!--Dead Glow-->
+  <UnitEyeTextureDef InternalName="Male_Eye_DeadGlow">
+    <DisplayName>Male Eye - Dead Glow</DisplayName>
+	<IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+    <Icon></Icon>
+    <EyeTextureFilename>gfx\eyes\blinks\Eyeblink_M_DeadGlow.png</EyeTextureFilename>
+    <!--<SupportedUnitModelType>QuendarMale</SupportedUnitModelType>
+    <RandomPeasantUnitLiklihood>50</RandomPeasantUnitLiklihood>
+    <RandomMerchantUnitLiklihood>50</RandomMerchantUnitLiklihood>
+    <RandomHeroUnitLiklihood>50</RandomHeroUnitLiklihood>-->
+  </UnitEyeTextureDef>
+
+
+
+
+
+
+</UnitEyeTextureDefs>

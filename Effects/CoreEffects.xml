@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EffectBlueprints>
+	
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName</Ignore>
+		<Translate>DisplayName</Translate>		
+	</DataChecksum>
+	
+	
+	
+	
+	<EffectSequencer InternalName="FireballTrailSequence">
+		<DisplayName>Fireball Trail Sequence</DisplayName>
+		<RepeatIndefinitely>1</RepeatIndefinitely>
+	
+		<EmitterBlueprint InternalName="FireballBlueprint">
+			<DisplayName>Fireball Blueprint</DisplayName>
+			<TextureName>gfx/Effect/Shapes/AlphaCircle.png</TextureName>
+			<ColorInterpTextureName>gfx/Effect/Colors/ExplosionColorInterp0001.png</ColorInterpTextureName>
+			<TexturesInStrip>1</TexturesInStrip>
+			<RenderTechnique>ParticleAdditiveExclusive</RenderTechnique>
+			<RenderOrder>Back</RenderOrder>
+			<EmitterLifetime>1000</EmitterLifetime>
+			<Gravity>0</Gravity>
+			<ApplyDrag>0</ApplyDrag>
+			<Visibility>ExceptMapOverlay</Visibility>
+			<IsIndefinite>1</IsIndefinite>
+			
+			<!--Keyframe sets-->
+		
+			<!--EmitterPosition-->
+			<EmitterPosX>0.0000,0.0000,0.0000</EmitterPosX>
+			<EmitterPosY>0.0000,0.0000,0.0000</EmitterPosY>
+			<EmitterPosY>0.0000,0.0000,0.0000</EmitterPosY>
+			<EmitterPosZ>0.0000,0.0000,0.0000</EmitterPosZ>
+			
+			<!--Acceleration-->
+			<AccelerationX>0.0000,0.0000,0.0000</AccelerationX>
+			<AccelerationY>0.0000,0.0000,0.0000</AccelerationY>
+			<AccelerationZ>0.0000,0.0000,0.0000</AccelerationZ>
+			
+			<!--Particle Offset-->
+			<OffsetX>0.0000,0.0000,12.0000</OffsetX>
+			<OffsetY>0.0000,0.0000,0.0000</OffsetY>
+			<OffsetZ>0.0000,0.0000,12.0000</OffsetZ>
+			
+			<!--Direction-->
+			<DirectionX>0.0000,0.0000,0.0000</DirectionX>
+			<DirectionY>0.0000,0.0000,0.0000</DirectionY>
+			<DirectionZ>0.0000,0.0000,0.0000</DirectionZ>
+			
+			<!--Speed-->
+			<Speed>0.0000,0.0000,0.0000</Speed>
+			
+			<!--Start Scale-->
+			<StartScale>0.0000,12.0000,2.0000</StartScale>
+			
+			<!--End Scale-->
+			<EndScale>0.0000,48.0000,8.0000</EndScale>
+			
+			<!--Initial Rotation-->
+			<InitRotation>0.0000,0.0000,0.0000</InitRotation>
+			
+			<!--Rotation Rate-->
+			<RotationRate>0.0000,0.0000,0.0000</RotationRate>
+			
+			<!--Particle Lifetime-->
+			<ParticleLifetime>0.0000,0.7000,0.0500</ParticleLifetime>
+			
+			<!--Spawn Rate-->
+			<SpawnRate>0.0000,70.0000,0.0000</SpawnRate>
+		</EmitterBlueprint>
+		
+		<SequenceFrame>FireballBlueprint,0.0000</SequenceFrame>
+	</EffectSequencer>
+		
+	<EffectSequencer InternalName="ChimneySmokeSequence">
+		<DisplayName>Chimney Smoke Sequence</DisplayName>
+		<RepeatIndefinitely>0</RepeatIndefinitely>
+		
+		<EmitterBlueprint InternalName="ChimneySmokeBlueprint">
+			<DisplayName>Chimney Smoke Blueprint</DisplayName>
+			<TextureName>gfx/Effect/Shapes/AlphaCircle.png</TextureName>
+			<ColorInterpTextureName>gfx/Effect/Colors/SmokeColorInterp0002.png</ColorInterpTextureName>
+			<TexturesInStrip>1</TexturesInStrip>
+			<RenderTechnique>ParticleDefault</RenderTechnique>
+			<RenderOrder>Mid2</RenderOrder>
+			<EmitterLifetime>10.0000</EmitterLifetime>
+			<Gravity>0</Gravity>
+			<ApplyDrag>0</ApplyDrag>
+			<Visibility>ExceptMapOverlay</Visibility>
+			<IsIndefinite>1</IsIndefinite>
+			<EmitterPosX>0.000000,0.000000,0.000000</EmitterPosX>
+			<EmitterPosY>0.000000,0.000000,0.000000</EmitterPosY>
+			<EmitterPosZ>0.000000,0.000000,0.000000</EmitterPosZ>
+			<AccelerationX>0.000000,0.000000,0.000000</AccelerationX>
+			<AccelerationY>0.000000,0.000000,0.000000</AccelerationY>
+			<AccelerationZ>0.000000,0.000000,0.000000</AccelerationZ>
+			<OffsetX>0.000000,0.000000,0.500000</OffsetX>
+			<OffsetY>0.000000,0.000000,0.250000</OffsetY>
+			<OffsetZ>0.000000,0.000000,0.500000</OffsetZ>
+			<DirectionX>0.000000,0.250000,0.250000</DirectionX>
+			<DirectionY>0.000000,1.000000,0.100000</DirectionY>
+			<DirectionZ>0.000000,0.000000,0.100000</DirectionZ>
+			<Speed>0.000000,12.499990,3.000000</Speed>
+			<StartScale>0.000000,5.000000,0.000000</StartScale>
+			<EndScale>0.000000,25.000000,2.000000</EndScale>
+			<InitRotation>0.000000,0.000000,0.000000</InitRotation>
+			<RotationRate>0.000000,0.000000,0.000000</RotationRate>
+			<ParticleLifetime>0.000000,13.000011,0.250000</ParticleLifetime>
+			<SpawnRate>0.000000,4.000000,0.000000</SpawnRate>
+		</EmitterBlueprint>
+		
+		<SequenceFrame>ChimneySmokeBlueprint,0.0000</SequenceFrame>
+	</EffectSequencer>
+	
+  <!-- Improvement Effects -->
+  <EffectSequencer InternalName="LifeTemple1">
+    <DisplayName>Life Temple 1</DisplayName>
+    <RepeatIndefinitely>0</RepeatIndefinitely>
+    <EmitterBlueprint InternalName="LifeTempleBlueprint1">
+      <DisplayName>EarthShardGlowBlueprint1</DisplayName>
+      <TextureName>Gfx\Effect\Shapes\LightStreaks1.png</TextureName>
+      <ColorInterpTextureName>Gfx\Effect\Colors\BlueInterp1.png</ColorInterpTextureName>
+	  <TexturesInStrip>1</TexturesInStrip>
+	  <RenderTechnique>ParticleAdditive</RenderTechnique>
+      <RenderOrder>Mid2</RenderOrder>
+      <EmitterLifetime>10.0000</EmitterLifetime>
+      <Gravity>0</Gravity>
+      <ApplyDrag>0</ApplyDrag>
+      <Visibility>ExceptMapOverlay</Visibility>
+      <IsIndefinite>1</IsIndefinite>
+      <EmitterPosX>0.000000,0.000000,0.000000</EmitterPosX>
+      <EmitterPosY>0.000000,0.000000,0.000000</EmitterPosY>
+      <EmitterPosZ>0.000000,0.000000,0.000000</EmitterPosZ>
+      <AccelerationX>0.000000,0.000000,0.000000</AccelerationX>
+      <AccelerationY>0.000000,0.000000,0.000000</AccelerationY>
+      <AccelerationZ>0.000000,0.000000,0.000000</AccelerationZ>
+      <OffsetX>0.000000,0.000000,0.000000</OffsetX>
+      <OffsetY>0.000000,0.000000,0.000000</OffsetY>
+      <OffsetZ>0.000000,0.000000,0.000000</OffsetZ>
+      <DirectionX>0.000000,0.000000,0.000000</DirectionX>
+      <DirectionY>0.000000,1.000000,0.500000</DirectionY>
+      <DirectionZ>0.000000,0.000000,0.000000</DirectionZ>
+      <Speed>0.000000,20.500000,3.000000</Speed>
+      <StartScale>0.000000,5.000000,10.500000</StartScale>
+      <EndScale>0.000000,5.000000,2.500000</EndScale>
+      <InitRotation>0.000000,0.000000,0.000000</InitRotation>
+      <RotationRate>0.000000,0.000000,0.000000</RotationRate>
+      <ParticleLifetime>0.000000,3.000000,0.250000</ParticleLifetime>
+      <SpawnRate>0.000000,7.000000,0.000000</SpawnRate>
+      </EmitterBlueprint>
+    <SequenceFrame>LifeTempleBlueprint1,0.000000</SequenceFrame>
+  </EffectSequencer>
+  
+</EffectBlueprints>

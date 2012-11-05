@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<PropTypes>
+  <DataChecksum NoParse="1">
+    <Ignore>DisplayName</Ignore>
+    <Translate>DisplayName,TerrainName</Translate>
+  </DataChecksum>
+
+  <!-- **************************************** -->
+  <!-- ******* structures: Structures ********* -->
+  <!-- **************************************** -->
+
+  <!-- ******* Temp Fallen Parts ********* -->
+
+  <PropModelType InternalName="F_BuildBlock_Stone_Large_01">
+    <DisplayName>Building Block Stone (Large)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\Buildingblockstonelarge.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_BuildBlock_Stone_Large_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_BuildBlock_Stone_Medium_01">
+    <DisplayName>Building Block Stone (Medium)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\Buildingblockstonemedium.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_BuildBlock_Stone_Medium_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_BuildBlock_Stone_Small_01">
+    <DisplayName>Building Block Stone (Small)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\Buildingblockstonesmallpng.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_BuildBlock_Stone_Small_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_BuildBlock_Wood_Large_01">
+    <DisplayName>Building Block Wood (Large)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\Buildingblockwoodlarge.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_BuildBlock_Wood_Large_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_BuildBlock_Wood_Medium_01">
+    <DisplayName>Building Block Wood (Medium)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\Buildingblockwoodmedium.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_BuildBlock_Wood_Medium_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+  
+  <PropModelType InternalName="F_BuildBlock_Wood_Small_01">
+    <DisplayName>Building Block Wood (Small)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\Buildingblockwoodsmall.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_BuildBlock_Wood_Small_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Tower_Tall_01">
+    <DisplayName>Tower (Tall)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\TowerTall.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Tower_Tall_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Tower_Medium_01">
+    <DisplayName>Tower (Medium)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\TowerMedium.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Tower_Medium_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Tower_Small_01">
+    <DisplayName>Tower (Small)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\TowerSmall.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Tower_Small_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Tower_Fat_01">
+    <DisplayName>Tower (Fat)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\TowerFat.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Tower_Fat_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Roof_Tile_Large_01">
+    <DisplayName>Tile Roof (Large)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\TileRoofLarge.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Roof_Tile_Large_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Roof_Tile_Medium_01">
+    <DisplayName>Tile Roof (Medium)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\TileRoofMedium.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Roof_Tile_Medium_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Roof_Tile_Small_01">
+    <DisplayName>Tile Roof (Small)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\TileRoofSmall.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Roof_Tile_Small_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Roof_Wood_Large_01">
+    <DisplayName>Wood Roof (Large)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\WoodRoofLarge.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Roof_Wood_Large_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Roof_Wood_Medium_01">
+    <DisplayName>Wood Roof (Medium)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\WoodRoofMedium.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Roof_Wood_Medium_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Roof_Wood_Small_01">
+    <DisplayName>Wood Roof (Small)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\WoodRoofSmall.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Roof_Wood_Small_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Platform_Large_01">
+    <DisplayName>Platform (Large)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\Platform2Large.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Platform_Large_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Platform_Small_01">
+    <DisplayName>Platform (Small)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\Platform2Small.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Platform_Small_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Rockwork_Long_01">
+    <DisplayName>Rockwork Long (Light)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\RockworkLongLight.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Rockwork_Long_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Rockwork_Long_02">
+    <DisplayName>Rockwork Long (Dark)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\RockworkLongDark.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Rockwork_Long_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Rockwork_Short_01">
+    <DisplayName>Rockwork Short (Light)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\RockworkShortLight.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Rockwork_Short_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Rockwork_Short_02">
+    <DisplayName>Rockwork Short (Dark)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\RockworkShortDark.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Rockwork_Short_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Rockwork_Ramp_01">
+    <DisplayName>Rockwork Ramp</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\RockworkRamp.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Rockwork_Ramp_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Piller_01">
+    <DisplayName>Pillar (Light)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\PillarLight.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Piller_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Piller_02">
+    <DisplayName>Pillar (Dark)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\PillarDark.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Piller_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Piller_03">
+    <DisplayName>Piller (Black)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\PillarBlack.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Piller_03.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Fire_Water_01">
+    <DisplayName>Fire and Water</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\Fireandwater.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Fire_Water_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Air_Earth_01">
+    <DisplayName>Air air Earth</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\Airandearth.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Air_Earth_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Elemental_Cube_01">
+    <DisplayName>Elemental Cube</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\Elementalcube.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Elemental_Cube_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Parapet_01">
+    <DisplayName>Parapet</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\Parapet2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Parapet_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Parapet_String_01">
+    <DisplayName>Parapet String</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\parapet2string.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Parapet_String_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Parapet_Skull_01">
+    <DisplayName>Parapet Skull</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\parapet2skull.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Parapet_Skull_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Parapet_Corner_Medium_01">
+    <DisplayName>Parapet Corner (Medium)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\parapet2cornermedium.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Parapet_Corner_Medium_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Parapet_Corner_Medium_02">
+    <DisplayName>Parapet Corner String (Medium)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\parapet2cornerstringmedium.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Parapet_Corner_Medium_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Parapet_Corner_Large_01">
+    <DisplayName>Parapet Corner (Large)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\parapet2cornerlarge.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Parapet_Corner_Large_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Parapet_Corner_Large_02">
+    <DisplayName>Parapet Corner String (Large)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\parapet2cornerstringlarge.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Parapet_Corner_Large_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Piller_Wood_01">
+    <DisplayName>Pillar (Wood)</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\pillarwood.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Piller_Wood_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="F_Roof_Arch_01">
+    <DisplayName>Roof Arch</DisplayName>
+    <Tag>Fallen</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\roofarch.png</Thumb>
+    <Model>gfx\\hkb\\Props\\F_Roof_Arch_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+
+  <!-- ******* Buildings ********* -->
+
+  <PropModelType InternalName="K_Building_Villa">
+    <DisplayName>Villa</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_Building_Villa.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Building_Villa.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Library_01">
+    <DisplayName>Library</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\LibraryIcon.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Library_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Large_Brick_Library_01">
+    <DisplayName>Large Library</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\LargeLibrary.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Large_Brick_Library_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Study_01">
+    <DisplayName>Study</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\Study.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Study_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Thatch_Hut_01">
+    <DisplayName>Hut</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\Hut.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Thatch_Hut_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+  
+  <!-- ******* Building Parts ********* -->
+
+  <PropModelType InternalName="K_Building_Block_01">
+    <DisplayName>Basic Building Block</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\BasicBuildingBlock.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Building_Block_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Building_Block_02">
+    <DisplayName>One Story Basic Building Block</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\OneStoryBasicBuildingBlock.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Building_Block_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Building_Block_03">
+    <DisplayName>Two Story Basic Building Block</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\TwoStoryBasicBuildingBlock.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Building_Block_03.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Building_Block_06">
+    <DisplayName>Two Story Stone Building Block</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\TwoStoryStoneBuildingBlock.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Building_Block_06.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Roof_Tile_01">
+    <DisplayName>Tile Roof</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\TileRoof.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Roof_Tile_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Shingle_Roof_01">
+    <DisplayName>Shingle Roof</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\ShingleRoof.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Shingle_Roof_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Small_Roof_01">
+    <DisplayName>Square Tile Roof</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\SquareTileRoof.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Small_Roof_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Small_Roof_02">
+    <DisplayName>Square Shingle Roof</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\SquareShingleRoof.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Small_Roof_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+
+  <PropModelType InternalName="K_Building_Wall_02">
+    <DisplayName>Two Story Building Wall</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\TwoStoryBuildingWall.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Building_Wall_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+
+  <PropModelType InternalName="K_Small_Square_Tower_01">
+    <DisplayName>Square Tower</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\SquareTower.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Small_Square_Tower_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Dubble_Door_Window_01">
+    <DisplayName>Double Door</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\DoubleDoor.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Dubble_Door_Window_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Small_Door_01">
+    <DisplayName>Small Door</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\SmallDoor.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Small_Door_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Glass_Window_01">
+    <DisplayName>Glass Window</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\GlassWindow.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Glass_Window_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Window_Box_01">
+    <DisplayName>Window Box (Basic)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\WindowBoxBasic.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Window_Box_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Window_Box_02">
+    <DisplayName>Window Box (Stone)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\WindowBoxStone.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Window_Box_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Window_House_01">
+    <DisplayName>Blue Glass Window (Card)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\BlueGlassWindowCard.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Window_House_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Window_House_02">
+    <DisplayName>Gold Glass Window (Card)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\GoldGlassWindowCard.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Window_House_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Window_House_03">
+    <DisplayName>Blue Glass Window (Large Card)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\BlueGlassWindowCardLarge.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Window_House_03.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Window_Tower_01">
+    <DisplayName>Tower Window Card (Gold)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\GoldTowerWindowCard.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Window_Tower_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Window_Tower_02">
+    <DisplayName>Tower Window Card (Blue)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\BlueTowerWindowCard.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Window_Tower_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Square_Tower_01">
+    <DisplayName>Square Wall Tower (Small)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\SquareWallTowerSmall.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Square_Tower_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Square_Tower_02">
+    <DisplayName>Square Wall Tower (Medium)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\SquareWallTowerMedium.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Square_Tower_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <!-- ******* Tents ********* -->
+
+  <PropModelType InternalName="K_Medium_Tent_01">
+    <DisplayName>Medium Tent(Light)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\MedTentLight.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Medium_Tent_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Medium_Tent_02">
+    <DisplayName>Medium Tent(Roof)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\MedTentRoof.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Medium_Tent_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Medium_Tent_03">
+    <DisplayName>Medium Tent(Dark)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\MedTent2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Medium_Tent_03.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Large_Tent_01">
+    <DisplayName>Large Tent(Roof)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\LargeTentRoof.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Large_Tent_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Large_Tent_02">
+    <DisplayName>Large Tent(Stripe)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\LargeTentStripe.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Large_Tent_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Tent_Booth_01">
+    <DisplayName>Booth Tent(Light)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\BoothTent1.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Tent_Booth_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Tent_Booth_02">
+    <DisplayName>Booth Tent(Dark)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\BoothTent2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Tent_Booth_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Tent_Booth_03">
+    <DisplayName>Booth Tent(Roof)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\BoothTentRoof.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Tent_Booth_03.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <!-- ******* Stone work ********* -->
+
+  <PropModelType InternalName="K_City_Stonework_Long">
+    <DisplayName>Stone Path (Long)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Stonework_Long.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Stonework_Long.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_City_Stonework_Square">
+    <DisplayName>Stone Path (Square)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Stonework_Square.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Stonework_Square.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_City_Stonework_Corner">
+    <DisplayName>Stone Path (Corner)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Stonework_Corner.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Stonework_Corner.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_City_Stonework_Slice">
+    <DisplayName>Stone Path (Slice)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Stonework_Slice.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Stonework_Slice.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_City_Stonework_Arch">
+    <DisplayName>Stone Pavers (Bridge)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Stonework_Arch.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Stonework_Arch.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+  
+  <PropModelType InternalName="K_City_Pavers_Long">
+    <DisplayName>Stone Pavers (Long)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Pavers_Long.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Pavers_Long.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_City_Pavers_Square">
+    <DisplayName>Stone Pavers (Square)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Pavers_Square.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Pavers_Square.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_City_Pavers_Slice">
+    <DisplayName>Stone Pavers (Slice)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Pavers_Slice.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Pavers_Slice.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+  
+  <PropModelType InternalName="K_City_Wall_Long">
+    <DisplayName>Stone Wall (Long)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Wall_Long.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Wall_Long.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_City_Wall_Square">
+    <DisplayName>Stone Wall (Square)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Wall_Square.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Wall_Square.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_City_Wall_Corner">
+    <DisplayName>Stone Wall (Corner)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Wall_Corner.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Wall_Corner.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_City_Wall_Arch">
+    <DisplayName>Stone Wall (Arch)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Wall_Arch.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Wall_Arch.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_City_Wall_Piller">
+    <DisplayName>Stone Wall (Piller)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Wall_Piller.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Wall_Piller.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_City_Stone_Rail_Long">
+    <DisplayName>Stone Rail (Long)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Stone_Rail_Long.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Stone_Rail_Long.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_City_Stone_Rail_Short">
+    <DisplayName>Stone Rail (Short)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Stone_Rail_Short.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Stone_Rail_Short.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_City_Stone_Rail_Corner">
+    <DisplayName>Stone Rail (Corner)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\K_City_Stone_Rail_Corner.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Stone_Rail_Corner.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Brick_Arch_01">
+    <DisplayName>Brick Arch</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\BrickArch.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Brick_Arch_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Stone_Steps_01">
+    <DisplayName>Stone Steps</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\StoneSteps.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Stone_Steps_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Parapet_01">
+    <DisplayName>Parapet</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\Parapet.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Parapet_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Parapet_02">
+    <DisplayName>Parapet Corner</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\ParapetCorner.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Parapet_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_City_Piller_Base_01">
+    <DisplayName>City Piller Base</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_City_Piller_Base_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Piller_Base_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Piller_Pad_01">
+    <DisplayName>City Piller Pad</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_Piller_Pad_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Piller_Pad_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Piller_01">
+    <DisplayName>City Piller</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_Piller_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Piller_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Platform_Round_01">
+    <DisplayName>City Platform Round</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_Platform_Round_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Platform_Round_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Platform_Square_01">
+    <DisplayName>City Platform Square</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_Platform_Square_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Platform_Square_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_City_Bridge_01">
+    <DisplayName>City Temple Bridge</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_City_Bridge_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_City_Bridge_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Troff_Large_01">
+    <DisplayName>Water Trough (Large)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_Trogh_Large_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Troff_Large_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Troff_Long_01">
+    <DisplayName>Water Trough (Long)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_Trough_Long_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Troff_Long_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Troff_Small_01">
+    <DisplayName>Water Trough (Small)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_Trough_Small_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Troff_Small_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Fountain_Large_01">
+    <DisplayName>Water Fountain (Large)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_Fountain_Large_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Fountain_Large_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Fountain_Small_01">
+    <DisplayName>Water Fountain (Small)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_Fountain_Small_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Fountain_Small_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Water_Channel_01">
+    <DisplayName>Water Channel</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_Water_Channel_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Water_Channel_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Temple_Base_01">
+    <DisplayName>Temple Base</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_Temple_Base_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Temple_Base_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Temple_Base_02">
+    <DisplayName>Temple Base (2)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_Temple_Base_02.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Temple_Base_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Temple_Piller_01">
+    <DisplayName>Temple Piller</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_Temple_Piller_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Temple_Piller_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Temple_Piller_02">
+    <DisplayName>Temple Piller (2)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_Temple_Piller_02.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Temple_Piller_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Temple_Piller_03">
+    <DisplayName>Temple Piller (3)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.0</Scale>
+    <Thumb>Gfx\\Items\\K_Temple_Piller_03.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Temple_Piller_03.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Temple_Piller_04">
+    <DisplayName>Temple Piller (4)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\K_Temple_Piller_04.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Temple_Piller_04.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+  
+  <PropModelType InternalName="K_Temple_Piller_05">
+    <DisplayName>Temple Piller (5)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\K_Temple_Piller_05.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Temple_Piller_05.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <!-- ******* Mill Parts ********* -->
+
+  <PropModelType InternalName="K_Water_Wheal_01">
+    <DisplayName>Water Wheel</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\waterwheel.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Water_Wheal_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Griding_Platform_01">
+    <DisplayName>Grinding Platform</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\grindingplatform.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Griding_Platform_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Wood_Platform_01">
+    <DisplayName>Wood Platform</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\woodplatform.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Wood_Platform_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Grinding_Wheal_01">
+    <DisplayName>Grinding Wheel</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\grindingwheel.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Grinding_Wheal_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+  
+  <PropModelType InternalName="K_Griding_Wheal_Poll_01">
+    <DisplayName>Grinding Wheel (Shaft)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\grindingwheelshaft.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Griding_Wheal_Poll_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Water_Flow_01">
+    <DisplayName>Water corse</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\watercorse.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Water_Flow_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Wood_Flag_Poll_01">
+    <DisplayName>Flag Pole</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\flagpole.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Wood_Flag_Poll_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Mast_01">
+    <DisplayName>Mast</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\HKB\Props\Thumbnails\mast2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Mast_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+
+  <!-- ******* Housewares ********* -->
+
+  <PropModelType InternalName="K_Treasure_Wood_01">
+    <DisplayName>Treasure (Wood)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.5</Scale>
+    <Thumb>Gfx\\Items\\K_Treasure_Wood_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Treasure_Wood_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Treasure_Stone_01">
+    <DisplayName>Treasure (Stone)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.5</Scale>
+    <Thumb>Gfx\\Items\\K_Treasure_Stone_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Treasure_Stone_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Sarcophagus_01">
+    <DisplayName>Sarcophagus (Stone)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Scale>2.5</Scale>
+    <Thumb>Gfx\\Items\\K_Sarcophagus_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Sarcophagus_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Shelves_Tall_01">
+    <DisplayName>Shelves Tall</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\ShelvesTall.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Shelves_Tall_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Shelves_Short_01">
+    <DisplayName>Shelves Short</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\ShelvesSmall.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Shelves_Short_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Table_Wood_01">
+    <DisplayName>Wood Table</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\WoodTable.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Table_Wood_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Desk_Wood_01">
+    <DisplayName>Wood Desk</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\WoodDesk.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Desk_Wood_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Stool_Wood_01">
+    <DisplayName>Wood Stool</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\WoodStool.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Stool_Wood_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <!-- ******* Misc. ********* -->
+
+  <PropModelType InternalName="K_Book_01">
+    <DisplayName>Book</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\Book.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Book_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Books_01">
+    <DisplayName>Books (Long Stack)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\BookLongStack.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Books_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Books_02">
+    <DisplayName>Books (Short Stack)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\BookShortStack.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Books_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="P_Gragnar_Spit">
+    <DisplayName>Gragnar Spit</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\P_Gragnar_Spit.png</Thumb>
+    <Model>gfx\\hkb\\Props\\P_Gragnar_Spit.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+
+  <PropModelType InternalName="K_Tredmill_01">
+    <DisplayName>Tredmill</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\K_Tredmill_01.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Tredmill_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Log_Big_01">
+    <DisplayName>Log (Dark)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\log1.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Log_Big_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Log_Big_02">
+    <DisplayName>Log (Light)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\log2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Log_Big_02.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Log_Small_01">
+    <DisplayName>Log (Small)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\logsmall.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Log_Small_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Sword_Card_01">
+    <DisplayName>Sword (Card)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\SwordCard.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Sword_Card_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Spear_Card_01">
+    <DisplayName>Spear (Card)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\spearcard.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Spear_Card_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Shipreck_Hull_01">
+    <DisplayName>Shipreck (Hull)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\shipwreckhull.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Shipreck_Hull_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+  <PropModelType InternalName="K_Shipreck_Mast_01">
+    <DisplayName>Shipreck (Mast)</DisplayName>
+    <Tag>Kingdom</Tag>
+    <Tag>Structure</Tag>
+    <Tag>Prop</Tag>
+    <Thumb>Gfx\\Items\\shipwreckmast.png</Thumb>
+    <Model>gfx\\hkb\\Props\\K_Shipreck_Mast_01.hkb</Model>
+    <Category>Structure</Category>
+  </PropModelType>
+
+
+</PropTypes>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<TileDesigns>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName</Ignore>
+		<Translate>DisplayName</Translate>
+	</DataChecksum>
+	<TileDesign InternalName="TD_Groundfire">
+		<DisplayName>TD_Groundfire</DisplayName>
+		<Thumbnail>\Game\Gfx\tile_icon.png</Thumbnail>
+		<DecalName>Gfx\Terrain\Decals\SnowShadow3.png</DecalName>
+		<ShadowTransparency>70</ShadowTransparency>
+		<IsCore>0</IsCore>
+		<IsHiddenFromEditor>0</IsHiddenFromEditor>
+		<SubTileFlags>15</SubTileFlags>
+		<TileDesignPath InternalName="_path0"/>
+		<EffectTrigger InternalName="PEffect_Groundfire">
+			<EffectName>PEffect_Groundfire</EffectName>
+			<LocalPosition>-0.436180,8.000000,-1.873398</LocalPosition>
+			<Scale>1.2500</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+    
+    
+      <GameModifier InternalName="DamageModifier">
+        <ModType>Unit</ModType>
+        <Attribute>CurHealth</Attribute>
+        <Value>-10</Value>
+      </GameModifier>
+   
+    
+	</TileDesign>
+</TileDesigns>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Campaigns>
+
+	<DataChecksum NoParse="1">
+		<Ignore>Description, DisplayName, Icon, EyeTextureFilename, SupportedUnitModelType, Image_Wide, Image_Square</Ignore>
+		<Translate>DisplayName, Description</Translate>
+	</DataChecksum>
+
+<!--****************************************************************************************************************************************-->
+<!--****************************************************************************************************************************************-->
+<!-- Tutorial -->
+<!--****************************************************************************************************************************************-->
+<!--****************************************************************************************************************************************-->
+
+	<Campaign InternalName="FallenEnchantressTutorial1">
+
+        <AutoSaveName>FallenEnchantressTutorial</AutoSaveName>
+		<DisplayName>Tutorial</DisplayName>
+        <IsTutorial>1</IsTutorial>
+		<Description>Walk through basic concepts of Elemental in this simple, guided map.</Description>
+		<Image_Wide>EvilScenery.png</Image_Wide>
+		<Image_Square>Gfx\Medallions\Tech_Arcane_Apparel.png</Image_Square>
+		<OutroMovie>DOESNTEXIST.bik</OutroMovie>
+
+		<Map>Campaigns\tutorial</Map>
+
+		<PlayerFaction>KingdomOfPariden_Tutorial</PlayerFaction>
+		<PlayerSovereign>Sovereign_Procipinee_Tutorial</PlayerSovereign>
+
+		<AIPlayerSettings>
+		  <!--<Sovereign>Sovereign_Karavox</Sovereign>
+		  <Faction>EmpireOfKraxis</Faction>
+		  <AIDifficulty>AIDiffLvl_Normal</AIDifficulty>-->
+		</AIPlayerSettings>		
+
+
+		<!-- Possible random Goodies -->
+		
+		<!--<PlaceableGoodieHut>Lair_Bandit</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Lair_Bear</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Lair_BlackWidow</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Lair_BoneOgre</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Lair_CaveBear</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Lair_CoastalSkath</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Lair_CorpseSpider</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Lair_CragSpawn</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Lair_GreatWolf</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Lair_GiantRockSpider</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Lair_HoaderSpider</PlaceableGoodieHut> -->
+		
+		<!--<PlaceableGoodieHut>Treasure_AncientBattlefield</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_ArdellConclave</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_ArgynTemple</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_BeastCarcass</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_BreonsLibrary</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Caravan</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Cave</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Cave2</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Chest</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_CurgensHoard</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Dragoncave</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_DrakesBones</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_EnchantedPool</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_EnchantedPool2</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_EquipmentCache</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Graveyard</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_IthuanesTomb</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_LostCrates</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_LostPouch</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_LostPouch2</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_MorrigansLab</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Rubble1</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Rubble2</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_RuinedHouse</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_RuinsOfGandra</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_ScrollCache</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Statue</PlaceableGoodieHut>
+	    <PlaceableGoodieHut>Treasure_SwampFountain</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_SwampTree</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Tomb</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_VerhallaemsArchives</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_WitchHut</PlaceableGoodieHut> -->
+		
+		<!-- rules -->
+		
+		<AllowAIBuildAndTraining>1</AllowAIBuildAndTraining>
+		
+		<AllowNormalVictories>FALSE</AllowNormalVictories>
+	
+		<IsResearchAllowed>TRUE</IsResearchAllowed>
+
+		<PlayersGetSpellbooks>TRUE</PlayersGetSpellbooks>
+		
+		<AutoTurn>TRUE</AutoTurn>
+
+		<IgnoreRulesOfPassage>TRUE</IgnoreRulesOfPassage>
+
+		<ReviveLandEssenceOverride>3</ReviveLandEssenceOverride>
+	
+		<ForceAIWonderingRadius>2</ForceAIWonderingRadius>
+
+		<AICanRecruit>FALSE</AICanRecruit>
+
+		<HunterRange>25</HunterRange>
+		<CreatureAttackDecisionMultiplier>1.0</CreatureAttackDecisionMultiplier>
+		<CreaturesFormArmies>FALSE</CreaturesFormArmies>
+    
+		<YouLoseText>Try again.</YouLoseText>
+		<YouWinText>Congratulations! Now you are ready to try a full game of Elemental!</YouWinText>
+		<StartingYear>200</StartingYear>
+		<CanBuildPioneers>TRUE</CanBuildPioneers>
+	</Campaign>
+
+
+
+    <!--****************************************************************************************************************************************-->
+    <!--****************************************************************************************************************************************-->
+    <!-- MAP 1 -->
+    <!--****************************************************************************************************************************************-->
+    <!--****************************************************************************************************************************************-->
+
+	<Campaign InternalName="FallenEnchantressCampaignMap1">		
+		
+		<NextCampaignScenario>FallenEnchantressCampaignMap2</NextCampaignScenario>
+        <AutoSaveName>FallenEnchantressScenario</AutoSaveName>		
+		<DisplayName>The Fallen Enchantress</DisplayName>
+		<Description>Thousands of years ago, a prophecy was made. A prophecy that foresaw the rise of an Empire of Sorcery, led by a Fallen Enchantress whose reign would plunge the world into chaos and savagery. Your Queen believes the prophecy's time draws nigh. And so, she has sent you to the forbidden lands of the East, to seek aid in the great battle to come. 
+
+Your mission: find the lost Temple at Odenvell, and the one who lies sleeping within. The great Oracle of Antheros, whose might must be joined to your cause if mankind is to survive...</Description>
+		
+		<Image_Wide>Gfx\Screens\FECampaign_Image_Act3.png</Image_Wide>
+		<Image_Square>Gfx\Screens\FECampaign_Image_Act3_Square.png</Image_Square>
+	
+		<IntroMovie>Movies//FE_Campaign_Act1.bik</IntroMovie>
+		<OutroMovie>Movies//FE_Campaign_Act2.bik</OutroMovie>
+
+		<Map>Campaigns\FE_Scenario1</Map>
+
+		<PlayerFaction>CampaignResolnMap1</PlayerFaction>
+		<PlayerSovereign>FEC_UNIT_Relias</PlayerSovereign>
+
+		<AIPlayerSettings>
+		  <Sovereign>FEC_UNIT_MinorSovereign</Sovereign>
+		  <Faction>Minor_Iyana</Faction>
+		  <AIDifficulty>AIDiffLvl_Normal</AIDifficulty>
+		</AIPlayerSettings>		
+		
+		<LoadingScreenTips>LoadingTips_CampaignMap1</LoadingScreenTips>
+		
+		<StartingMusicTheme>FE_Campaign1MapTheme</StartingMusicTheme> 
+	
+		
+		
+		<!-- Possible random Goodies -->
+		
+		<PlaceableGoodieHut>Treasure_AncientBattlefield</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_BeastCarcass</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Caravan</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Chest</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_CrumbledStatue</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_DarkSpire</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_DrakesBones</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_EquipmentCache</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_LibraryofIlluna</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_LostCrates</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_LostLibrary</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_RuinedHouse</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Scrapyard_Pile1</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Scrapyard_Pile2</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Scrapyard_Pile3</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_ScrollCache</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Tomb</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_WitchHut</PlaceableGoodieHut>
+		<PlaceableGoodieHut>FEC_GOODY_Fountain_of_the_Oracle</PlaceableGoodieHut>
+		<PlaceableGoodieHut>FEC_GOODY_Patrol_of_the_Doomed</PlaceableGoodieHut>
+		<PlaceableGoodieHut>FEC_GOODY_Lost_Caravan</PlaceableGoodieHut>
+		<PlaceableGoodieHut>FEC_GOODY_Shrine_To_Annerys</PlaceableGoodieHut>
+		<PlaceableGoodieHut>FEC_GOODY_Kos_Parada</PlaceableGoodieHut>
+		<PlaceableGoodieHut>FEC_GOODY_Temple_of_the_Sions</PlaceableGoodieHut>
+		
+	
+		
+		<!-- rules -->
+		
+		<AreChampionsBound>TRUE</AreChampionsBound>
+		<StartingYear>200</StartingYear>
+		<CanBuildPioneers>TRUE</CanBuildPioneers>
+		<AllowNormalVictories>FALSE</AllowNormalVictories>
+		<IsResearchAllowed>TRUE</IsResearchAllowed>
+		<ResearchCostMod>50</ResearchCostMod>
+		<ProductionCostMod>200</ProductionCostMod>
+		<IsFertileLandBonus>TRUE</IsFertileLandBonus>
+		<ShowGridOnWater>TRUE</ShowGridOnWater>
+		<AutoTurn>TRUE</AutoTurn>
+		<ForceAIWonderingRadius>2</ForceAIWonderingRadius>
+		<AICanRecruit>FALSE</AICanRecruit>
+		
+		<HunterRange>60</HunterRange>
+		<CreatureAttackDecisionMultiplier>0.1</CreatureAttackDecisionMultiplier>
+		<CreaturesFormArmies>FALSE</CreaturesFormArmies>
+		
+		<YouLoseText>You did not even see it happen - the blow that struck you, that sent you to your knees. As blood - your blood - pools around you, as the world begins to fade to black, you realize your mission has failed. The great cities you built, the champions whose allegiance you won, the treasures you gathered... all are lost. You have failed your Queen. There is nothing left for you to do but die.</YouLoseText>
+		<YouWinText>DEFINED IN THE TRIGGER FILE</YouWinText>
+
+	</Campaign>
+
+    <!--****************************************************************************************************************************************-->
+    <!--****************************************************************************************************************************************-->
+    <!-- MAP 2 -->
+    <!--****************************************************************************************************************************************-->
+    <!--****************************************************************************************************************************************-->
+
+    <Campaign InternalName="FallenEnchantressCampaignMap2">
+
+        <NextCampaignScenario>FallenEnchantressCampaignMap3</NextCampaignScenario>
+
+        <IsStartingCampaignScenario>0</IsStartingCampaignScenario>
+        <AutoSaveName>FallenEnchantressScenario</AutoSaveName>
+        <DisplayName>In Search of the Stone</DisplayName>
+        <Description>This appears here for testing only, and should not ship with the game.</Description>
+
+        <Image_Wide>Gfx\Screens\FECampaign_Image_Act2.png</Image_Wide>
+        <Image_Square>Gfx\Screens\FECampaign_Image_Act2_Square.png</Image_Square>
+
+        <IntroMovie>DOESNTEXIST</IntroMovie>
+        <OutroMovie>Movies//FE_Campaign_Act3.bik</OutroMovie>
+
+        <Map>Campaigns\FE_Scenario2</Map>
+
+        <PlayerFaction>CampaignResolnMap2</PlayerFaction>
+        <PlayerSovereign>FEC_UNIT_Relias</PlayerSovereign>
+
+        <AIPlayerSettings>
+            <Sovereign>FEC_UNIT_MinorSovereign</Sovereign>
+            <Faction>Minor_Iyana</Faction>
+            <AIDifficulty>AIDiffLvl_Normal</AIDifficulty>
+        </AIPlayerSettings>
+
+        <LoadingScreenTips>LoadingTips_CampaignMap2</LoadingScreenTips>
+
+        <StartingMusicTheme>FE_Campaign2MapTheme</StartingMusicTheme>
+
+
+        <!-- Possible random Goodies -->
+
+        <PlaceableGoodieHut>Treasure_AncientBattlefield</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_BeastCarcass</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_Caravan</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_Chest</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_CrumbledStatue</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_DarkSpire</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_DrakesBones</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_EquipmentCache</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_LibraryofIlluna</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_LostCrates</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_LostLibrary</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_RuinedHouse</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_Scrapyard_Pile1</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_Scrapyard_Pile2</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_Scrapyard_Pile3</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_ScrollCache</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_Tomb</PlaceableGoodieHut>
+        <PlaceableGoodieHut>Treasure_WitchHut</PlaceableGoodieHut>
+        <PlaceableGoodieHut>FEC_GOODY_Fountain_of_the_Oracle</PlaceableGoodieHut>
+        <PlaceableGoodieHut>FEC_GOODY_Lost_Caravan</PlaceableGoodieHut>
+        <PlaceableGoodieHut>FEC_GOODY_Shrine_To_Annerys</PlaceableGoodieHut>
+        <PlaceableGoodieHut>FEC_GOODY_Kos_Parada</PlaceableGoodieHut>
+        <PlaceableGoodieHut>FEC_GOODY_Temple_of_the_Sions</PlaceableGoodieHut>
+
+        <!-- rules -->
+
+        <AreChampionsBound>TRUE</AreChampionsBound>
+        <StartingYear>200</StartingYear>
+        <CanBuildPioneers>TRUE</CanBuildPioneers>
+        <AllowNormalVictories>FALSE</AllowNormalVictories>
+        <IsResearchAllowed>TRUE</IsResearchAllowed>
+        <ResearchCostMod>50</ResearchCostMod>
+        <ProductionCostMod>200</ProductionCostMod>
+        <IsFertileLandBonus>TRUE</IsFertileLandBonus>
+        <ShowGridOnWater>TRUE</ShowGridOnWater>
+        <AutoTurn>TRUE</AutoTurn>
+        <ForceAIWonderingRadius>2</ForceAIWonderingRadius>
+        <AICanRecruit>FALSE</AICanRecruit>
+
+        <HunterRange>60</HunterRange>
+        <CreatureAttackDecisionMultiplier>0.1</CreatureAttackDecisionMultiplier>
+        <CreaturesFormArmies>FALSE</CreaturesFormArmies>
+
+        <YouLoseText>You did not even see it happen - the blow that struck you, that sent you to your knees. The great cities you have built are lost, and now, as blood - your blood - pools around you, as the world begins to fade to black, you realize your campaign to wake the Oracle has ended. You have failed the Queen. There is nothing left for you to do but die.</YouLoseText>
+        <YouWinText>DEFINED IN THE TRIGGER FILE</YouWinText>
+
+    </Campaign>
+
+    <!--****************************************************************************************************************************************-->
+    <!--****************************************************************************************************************************************-->
+    <!-- MAP 3 -->
+    <!--****************************************************************************************************************************************-->
+    <!--****************************************************************************************************************************************-->
+
+	<Campaign InternalName="FallenEnchantressCampaignMap3">		
+
+		<IsStartingCampaignScenario>0</IsStartingCampaignScenario>
+        <AutoSaveName>FallenEnchantressScenario</AutoSaveName>
+		<DisplayName>The Enchantress Rises</DisplayName>
+		<Description>This appears here for testing only, and should not ship with the game.</Description>
+		
+		<Image_Wide>Gfx\Screens\FECampaign_Image_Act3.png</Image_Wide>
+		<Image_Square>Gfx\Screens\FECampaign_Image_Act3_Square.png</Image_Square>
+
+    	<IntroMovie>DOESNTEXIST</IntroMovie>
+    	<OutroMovie>Movies//FE_Campaign_Ending.bik</OutroMovie>
+
+		<Map>Campaigns\FE_Scenario3</Map>
+
+		<PlayerFaction>CampaignResolnMap3</PlayerFaction>
+		<PlayerSovereign>FEC_UNIT_Relias</PlayerSovereign>
+
+		<AIPlayerSettings>
+		  <Sovereign>FEC_UNIT_MinorSovereign</Sovereign>
+		  <Faction>Minor_Iyana</Faction>
+		  <AIDifficulty>AIDiffLvl_Normal</AIDifficulty>
+		</AIPlayerSettings>	
+		
+		
+		<LoadingScreenTips>LoadingTips_CampaignMap3</LoadingScreenTips>
+		
+		<StartingMusicTheme>FE_Campaign3MapTheme</StartingMusicTheme> 
+		
+
+		<!-- Possible random Goodies -->
+		
+		<PlaceableGoodieHut>Treasure_AncientBattlefield</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_BeastCarcass</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Caravan</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Chest</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_CrumbledStatue</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_DarkSpire</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_DrakesBones</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_EquipmentCache</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_LibraryofIlluna</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_LostCrates</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_LostLibrary</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_RuinedHouse</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Scrapyard_Pile1</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Scrapyard_Pile2</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Scrapyard_Pile3</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_ScrollCache</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_Tomb</PlaceableGoodieHut>
+		<PlaceableGoodieHut>Treasure_WitchHut</PlaceableGoodieHut>
+		<PlaceableGoodieHut>FEC_GOODY_Fountain_of_the_Oracle</PlaceableGoodieHut>
+		<PlaceableGoodieHut>FEC_GOODY_Patrol_of_the_Doomed</PlaceableGoodieHut>
+		<PlaceableGoodieHut>FEC_GOODY_Lost_Caravan</PlaceableGoodieHut>
+		<PlaceableGoodieHut>FEC_GOODY_Shrine_To_Annerys</PlaceableGoodieHut>
+		<PlaceableGoodieHut>FEC_GOODY_Kos_Parada</PlaceableGoodieHut>
+		<PlaceableGoodieHut>FEC_GOODY_Temple_of_the_Sions</PlaceableGoodieHut>
+		
+		<!-- rules -->
+		
+		<AreChampionsBound>TRUE</AreChampionsBound>
+		<StartingYear>200</StartingYear>
+		<CanBuildPioneers>TRUE</CanBuildPioneers>
+		<AllowNormalVictories>FALSE</AllowNormalVictories>
+		<IsResearchAllowed>TRUE</IsResearchAllowed>
+		<ResearchCostMod>50</ResearchCostMod>
+		<ProductionCostMod>200</ProductionCostMod>
+		<IsFertileLandBonus>TRUE</IsFertileLandBonus>
+		<AutoTurn>TRUE</AutoTurn>
+		<ForceAIWonderingRadius>2</ForceAIWonderingRadius>
+		<AICanRecruit>FALSE</AICanRecruit>
+		
+		<HunterRange>60</HunterRange>
+		<CreatureAttackDecisionMultiplier>0.1</CreatureAttackDecisionMultiplier>
+		<CreaturesFormArmies>FALSE</CreaturesFormArmies>
+		
+		<YouLoseText>You did not even see it happen - the blow that struck you, that sent you to your knees. The great cities you have built are lost, and now, as blood - your blood - pools around you, as the world begins to fade to black, you realize your campaign to wake the Oracle has ended. You have failed the Queen. There is nothing left for you to do but die.</YouLoseText>
+		<YouWinText>DEFINED IN THE TRIGGER FILE</YouWinText>
+		
+	</Campaign>
+
+</Campaigns>

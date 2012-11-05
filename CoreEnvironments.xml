@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvironmentTypes>
+  <DataChecksum NoParse="1">
+    <Ignore>DisplayName</Ignore>
+    <Translate>DisplayName,TerrainName</Translate>
+  </DataChecksum>
+  <!-- ********************************* -->
+  <!-- ******* Barren Environment ****** -->
+  <!-- ********************************* -->
+  <EnvironmentType InternalName="BarrenEnvironment">
+    <DisplayName>Barren Environment</DisplayName>
+    <DisplayNameShort>Barren</DisplayNameShort>
+    <MountainRange>TEMP_GrassyMountainRange01</MountainRange>
+    <Forest>DeadForest01</Forest>
+    <LifeShardType>ElementalLifeShard01</LifeShardType>
+    <EnvironmentChangeEffect>W_TileChange_Green</EnvironmentChangeEffect>
+    <SnowLevel>220</SnowLevel>
+    <!--        <WaterColor_RedChannel>0.9</WaterColor_RedChannel>
+        <WaterColor_GreenChannel>0.95</WaterColor_GreenChannel>
+        <WaterColor_BlueChannel>1.0</WaterColor_BlueChannel> -->
+    <WaterColor_RedChannel>0.203</WaterColor_RedChannel>
+    <WaterColor_GreenChannel>0.358</WaterColor_GreenChannel>
+    <WaterColor_BlueChannel>0.47</WaterColor_BlueChannel>
+    <CliffModelTexture>gfx/Cliffs/cliffs_barren.dds</CliffModelTexture>
+    <ChasmEdgeModelTexture>gfx/terrain/Chasm_Wall_Texture_01.png</ChasmEdgeModelTexture>
+    <RockMaterialTexture>gfx/Cliffs/Rock_Barren.png</RockMaterialTexture>
+    <SnowcapTexture>gfx/terrain/Snow_Grass_Rough.dds</SnowcapTexture>
+    <ClothMapColor>255,0,0,255</ClothMapColor>
+    <ClothMapColorWeight>0.0</ClothMapColorWeight>
+    <!-- Jobs -->
+    <JobCostBuildRoad>2</JobCostBuildRoad>
+    <!-- Lighting-->
+    <AmbientColor>10,5,0,255</AmbientColor>
+    <DiffuseColor>350,350,360,255</DiffuseColor>
+    <RimLightColor0>155,150,255,255</RimLightColor0>
+    <RimLightColor1>255,225,50,255</RimLightColor1>
+    <!-- Decals -->
+    <EnvironmentDecal InternalName="BarrenGrassPatch1">
+      <Texture>gfx/terrain/BarrenGrassPatch1..dds</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>300.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>300.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="BarrenGrassPatch2">
+      <Texture>Gfx/Terrain/BarrenGrassPatch2.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>300.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>300.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="BarrenCracks1">
+      <Texture>Gfx/Terrain/BarrenCracks1.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>100.0</MinimumWidth>
+      <MaximumWidth>200.0</MaximumWidth>
+      <MinimumDepth>100.0</MinimumDepth>
+      <MaximumDepth>200.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="BarrenCracks2">
+      <Texture>Gfx/Terrain/BarrenCracks2.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>100.0</MinimumWidth>
+      <MaximumWidth>200.0</MaximumWidth>
+      <MinimumDepth>100.0</MinimumDepth>
+      <MaximumDepth>200.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="BarrenCracks3">
+      <Texture>Gfx/Terrain/BarrenCracks3.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>300.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>300.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="BarrenCracks4">
+      <Texture>Gfx/Terrain/BarrenCracks4.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>300.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>300.0</MaximumDepth>
+    </EnvironmentDecal>
+  </EnvironmentType>
+  <!-- ********************************* -->
+  <!-- ******* Fallen Environment ****** -->
+  <!-- ********************************* -->
+  <EnvironmentType InternalName="DeadEnvironment">
+    <DisplayName>Fallen Environment</DisplayName>
+    <DisplayNameShort>Fallen</DisplayNameShort>
+    <MountainRange>TEMP_GrassyMountainRange01</MountainRange>
+    <Forest>FallenForest01</Forest>
+    <LifeShardType>ElementalDeathShard01</LifeShardType>
+    <EnvironmentChangeEffect>W_TileChange_Green</EnvironmentChangeEffect>
+    <SnowLevel>200</SnowLevel>
+    <WaterColor_RedChannel>0.238</WaterColor_RedChannel>
+    <WaterColor_GreenChannel>0.461</WaterColor_GreenChannel>
+    <WaterColor_BlueChannel>0.291</WaterColor_BlueChannel>
+    <CliffModelTexture>gfx/Cliffs/cliffs_fallen.png</CliffModelTexture>
+    <ChasmEdgeModelTexture>gfx/terrain/Chasm_Wall_Texture_01.png</ChasmEdgeModelTexture>
+    <RockMaterialTexture>gfx/Cliffs/Rock_Fallen.png</RockMaterialTexture>
+    <SnowcapTexture>gfx/terrain/fallen_mountain_top.dds</SnowcapTexture>
+    <ClothMapColor>128,32,104,255</ClothMapColor>
+    <ClothMapColorWeight>0.12</ClothMapColorWeight>
+    <!-- Jobs -->
+    <JobCostBuildRoad>2</JobCostBuildRoad>
+    <AmbientColor>25,25,25,255</AmbientColor>
+    <DiffuseColor>350,350,360,255</DiffuseColor>
+    <RimLightColor0>155,115,255,255</RimLightColor0>
+    <RimLightColor1>175,215,150,155</RimLightColor1>
+    <!-- Decals -->
+    <EnvironmentDecal InternalName="LavaCraterDecal">
+      <Texture>Gfx/Terrain/LavaCraterDecal.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>80.0</MinimumWidth>
+      <MaximumWidth>80.0</MaximumWidth>
+      <MinimumDepth>80.0</MinimumDepth>
+      <MaximumDepth>80.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="LavaCracksDecal">
+      <Texture>Gfx/Terrain/LavaCracksDecal.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>200.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>150.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="Crack1">
+      <Texture>Gfx/Terrain/Crack1.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>200.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>200.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="Crack2">
+      <Texture>Gfx/Terrain/Crack2.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>200.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>200.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="FallenGroundDecal1">
+      <Texture>Gfx/Terrain/FallenGroundDecal1.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>200.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>200.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="FallenGroundDecal2">
+      <Texture>Gfx/Terrain/FallenGroundDecal2.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>200.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>200.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="FallenGroundDecal3">
+      <Texture>Gfx/Terrain/FallenGroundDecal3.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>200.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>200.0</MaximumDepth>
+    </EnvironmentDecal>
+  </EnvironmentType>
+  <!-- ********************************* -->
+  <!-- ******** Good Environment ******* -->
+  <!-- ********************************* -->
+  <EnvironmentType InternalName="GrasslandEnvironment">
+    <DisplayName>Grassland Environment</DisplayName>
+    <DisplayNameShort>Grassland</DisplayNameShort>
+    <MountainRange>TEMP_RockyMountainRange01</MountainRange>
+    <Forest>AutumnForest01</Forest>
+    <LifeShardType>ElementalLifeShard01</LifeShardType>
+    <EnvironmentChangeEffect>W_TileChange_Green</EnvironmentChangeEffect>
+    <SnowLevel>250</SnowLevel>
+    <!-- Water -->
+    <!--        <WaterColor_RedChannel>0.203</WaterColor_RedChannel>
+        <WaterColor_GreenChannel>0.378</WaterColor_GreenChannel>
+        <WaterColor_BlueChannel>0.57</WaterColor_BlueChannel> -->
+    <WaterColor_RedChannel>0.9</WaterColor_RedChannel>
+    <WaterColor_GreenChannel>0.95</WaterColor_GreenChannel>
+    <WaterColor_BlueChannel>1.0</WaterColor_BlueChannel>
+    <!-- Textures -->
+    <CliffModelTexture>gfx/Cliffs/cliffs2.dds</CliffModelTexture>
+    <ChasmEdgeModelTexture>gfx/terrain/Chasm_Wall_Texture_01.png</ChasmEdgeModelTexture>
+    <RockMaterialTexture>gfx/Cliffs/Rock_Grassland.png</RockMaterialTexture>
+    <SnowcapTexture>gfx/terrain/Snow_Grass.dds</SnowcapTexture>
+    <ClothMapColor>150,222,56,255</ClothMapColor>
+    <ClothMapColorWeight>0.22</ClothMapColorWeight>
+    <!-- Jobs -->
+    <JobCostBuildRoad>2</JobCostBuildRoad>
+    <!-- Lighting-->
+    <AmbientColor>0,0,10,255</AmbientColor>
+    <DiffuseColor>340,340,360,255</DiffuseColor>
+    <RimLightColor0>160,160,300,255</RimLightColor0>
+    <RimLightColor1>175,160,50,255</RimLightColor1>
+    <!-- Decals -->
+    <EnvironmentDecal InternalName="GrasslandDecalPond">
+      <Texture>Gfx/Terrain/PondDecal.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>50.0</MinimumWidth>
+      <MaximumWidth>90.0</MaximumWidth>
+      <MinimumDepth>50.0</MinimumDepth>
+      <MaximumDepth>90.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="GrassPatch1">
+      <Texture>Gfx/Terrain/GrassPatch1.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>400.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>400.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="GrassPatch2">
+      <Texture>Gfx/Terrain/GrassPatch2.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>400.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>400.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="WindGrass1">
+      <Texture>Gfx/Terrain/WindGrass1.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>100.0</MinimumWidth>
+      <MaximumWidth>200.0</MaximumWidth>
+      <MinimumDepth>100.0</MinimumDepth>
+      <MaximumDepth>200.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="WindGrass2">
+      <Texture>Gfx/Terrain/WindGrass2.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>100.0</MinimumWidth>
+      <MaximumWidth>200.0</MaximumWidth>
+      <MinimumDepth>100.0</MinimumDepth>
+      <MaximumDepth>200.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="WindGrass3">
+      <Texture>Gfx/Terrain/WindGrass3.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>100.0</MinimumWidth>
+      <MaximumWidth>200.0</MaximumWidth>
+      <MinimumDepth>100.0</MinimumDepth>
+      <MaximumDepth>200.0</MaximumDepth>
+    </EnvironmentDecal>
+  </EnvironmentType>
+  <!-- ********************************* -->
+  <!--
+  -->
+  <!-- ******* Swamp Environment ******* -->
+  <!--
+  -->
+  <!-- ********************************* -->
+  <!--
+
+  <EnvironmentType InternalName="SwampEnvironment">
+    <DisplayName>Swamp Environment</DisplayName>
+    <MountainRange>TEMP_RockyMountainRange01</MountainRange>
+    <Forest>SwampForest01</Forest>
+    <SnowLevel>200</SnowLevel>
+    <WaterColor_RedChannel>0.016</WaterColor_RedChannel>
+    <WaterColor_GreenChannel>0.298</WaterColor_GreenChannel>
+    <WaterColor_BlueChannel>0.05</WaterColor_BlueChannel>
+
+    <CliffModelTexture>gfx/Cliffs/cliffs_swamp.dds</CliffModelTexture>
+    <RockMaterialTexture>gfx/Cliffs/Rock_Barren.png</RockMaterialTexture>
+	
+	<SnowcapTexture>gfx/terrain/TEMP_snow.png</SnowcapTexture>
+	
+	<ClothMapColor>255,255,0,255</ClothMapColor>
+	<ClothMapColorWeight>0.08</ClothMapColorWeight>
+
+    <JobCostBuildRoad>2</JobCostBuildRoad>
+
+  
+    <AmbientColor>0,0,0,255</AmbientColor>
+    <DiffuseColor>350,350,360,255</DiffuseColor>
+    <RimLightColor0>155,150,255,255</RimLightColor0>
+    <RimLightColor1>175,155,0,255</RimLightColor1>
+
+    <EnvironmentDecal InternalName="SwampGroundDecal1">
+      <Texture>Gfx/Terrain/SwampGroundDecal1.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>250.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>250.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="SwampGroundDecal2">
+      <Texture>Gfx/Terrain/SwampGroundDecal2.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>250.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>250.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="SwampWaterDecal1">
+      <Texture>Gfx/Terrain/SwampWaterDecal1.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>200.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>200.0</MaximumDepth>
+      <Likelihood>1</Likelihood>
+    </EnvironmentDecal>
+
+  </EnvironmentType>
+  
+  -->
+  <!-- ********************************* -->
+  <!--
+  -->
+  <!-- ****** Desert Environment ******* -->
+  <!--
+  -->
+  <!-- ********************************* -->
+  <!--
+  <EnvironmentType InternalName="DesertEnvironment">
+    <DisplayName>Desert Environment</DisplayName>
+    <DisplayNameShort>Desert</DisplayNameShort>
+    <MountainRange>TEMP_RockyMountainRange01</MountainRange>
+    <Forest>DesertForest01</Forest>
+    <ChasmEdgeModelTexture>gfx/terrain/Chasm_Wall_Texture_01.png</ChasmEdgeModelTexture>
+    <SnowLevel>200</SnowLevel>
+    <WaterColor_RedChannel>0.169</WaterColor_RedChannel>
+    <WaterColor_GreenChannel>0.788</WaterColor_GreenChannel>
+    <WaterColor_BlueChannel>0.635</WaterColor_BlueChannel>
+    <CliffModelTexture>gfx/Cliffs/cliffs_sand.dds</CliffModelTexture>
+    <RockMaterialTexture>gfx/Cliffs/Rock_Desert.png</RockMaterialTexture>
+    <SnowcapTexture>gfx/terrain/TEMP_snow.png</SnowcapTexture>
+    <ClothMapColor>255,252,160,255</ClothMapColor>
+    <ClothMapColorWeight>0.1</ClothMapColorWeight>
+    -->
+  <!-- Jobs -->
+  <!--
+    <JobCostBuildRoad>2</JobCostBuildRoad>
+    -->
+  <!-- Lighting-->
+  <!--
+    <AmbientColor>0,0,0,255</AmbientColor>
+    <DiffuseColor>350,350,360,255</DiffuseColor>
+    <RimLightColor0>155,150,255,255</RimLightColor0>
+    <RimLightColor1>175,155,0,255</RimLightColor1>
+    -->
+  <!-- Decals -->
+  <!--
+    <EnvironmentDecal InternalName="DesertSandDecal1">
+      <Texture>Gfx/Terrain/DesertSandDecal1.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>250.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>250.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="DesertSandDecal2">
+      <Texture>Gfx/Terrain/DesertSandDecal2.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>250.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>250.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="DesertRocks1">
+      <Texture>Gfx/Terrain/DesertRocks1.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>75.0</MinimumWidth>
+      <MaximumWidth>75.0</MaximumWidth>
+      <MinimumDepth>75.0</MinimumDepth>
+      <MaximumDepth>75.0</MaximumDepth>
+    </EnvironmentDecal>
+  </EnvironmentType>
+  -->
+  <!-- ********************************* -->
+  <!--
+  -->
+  <!-- ******* Arctic Environment ****** -->
+  <!--
+  -->
+  <!-- ********************************* -->
+  <!--
+  <EnvironmentType InternalName="ArcticEnvironment">
+    <DisplayName>Arctic Environment</DisplayName>
+    <DisplayNameShort>Arctic</DisplayNameShort>
+    <MountainRange>TEMP_RockyMountainRange01</MountainRange>
+    <ChasmEdgeModelTexture>gfx/terrain/Chasm_Wall_Texture_01.png</ChasmEdgeModelTexture>
+    <SnowLevel>200</SnowLevel>
+    <Forest>ArcticForest01</Forest>
+    <WaterColor_RedChannel>0.165</WaterColor_RedChannel>
+    <WaterColor_GreenChannel>0.396</WaterColor_GreenChannel>
+    <WaterColor_BlueChannel>0.741</WaterColor_BlueChannel>
+    <CliffModelTexture>gfx/Cliffs/cliffs_snow.dds</CliffModelTexture>
+    <RockMaterialTexture>gfx/Cliffs/Rock_Snow.png</RockMaterialTexture>
+    <SnowcapTexture>gfx/terrain/TEMP_snow.png</SnowcapTexture>
+    <ClothMapColor>231,252,255,255</ClothMapColor>
+    <ClothMapColorWeight>0.5</ClothMapColorWeight>
+    -->
+  <!-- Jobs -->
+  <!--
+    <JobCostBuildRoad>2</JobCostBuildRoad>
+    -->
+  <!-- Lighting-->
+  <!--
+    <AmbientColor>0,0,0,255</AmbientColor>
+    <DiffuseColor>350,350,360,255</DiffuseColor>
+    <RimLightColor0>155,150,255,255</RimLightColor0>
+    <RimLightColor1>175,155,0,255</RimLightColor1>
+    -->
+  <!-- Decals -->
+  <!--
+    <EnvironmentDecal InternalName="SnowGroundDecal1">
+      <Texture>Gfx/Terrain/SnowGroundDecal1.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>250.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>250.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="SnowGrass1">
+      <Texture>Gfx/Terrain/SnowGrass1.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>130.0</MinimumWidth>
+      <MaximumWidth>130.0</MaximumWidth>
+      <MinimumDepth>130.0</MinimumDepth>
+      <MaximumDepth>130.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="SnowGrass2">
+      <Texture>Gfx/Terrain/SnowGrass2.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>120.0</MinimumWidth>
+      <MaximumWidth>120.0</MaximumWidth>
+      <MinimumDepth>120.0</MinimumDepth>
+      <MaximumDepth>120.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="SnowGrass3">
+      <Texture>Gfx/Terrain/SnowGrass3.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>110.0</MinimumWidth>
+      <MaximumWidth>110.0</MaximumWidth>
+      <MinimumDepth>110.0</MinimumDepth>
+      <MaximumDepth>110.0</MaximumDepth>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="SnowShadow1">
+      <Texture>Gfx/Terrain/Decals/SnowShadow1.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>300.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>300.0</MaximumDepth>
+      <Likelihood>100</Likelihood>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="SnowShadow2">
+      <Texture>Gfx/Terrain/Decals/SnowShadow2.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>300.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>300.0</MaximumDepth>
+      <Likelihood>100</Likelihood>
+    </EnvironmentDecal>
+    <EnvironmentDecal InternalName="SnowShadow3">
+      <Texture>Gfx/Terrain/Decals/SnowShadow3.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>200.0</MinimumWidth>
+      <MaximumWidth>300.0</MaximumWidth>
+      <MinimumDepth>200.0</MinimumDepth>
+      <MaximumDepth>300.0</MaximumDepth>
+      <Likelihood>100</Likelihood>
+    </EnvironmentDecal>
+    -->
+  <!-- Decals -->
+  <!--
+    <EnvironmentDecal InternalName="SnowRocks1">
+      <Texture>Gfx/Terrain/SnowRocks1.png</Texture>
+      <ParticleEffect>BlahBlahBlah</ParticleEffect>
+      <MinimumWidth>50.0</MinimumWidth>
+      <MaximumWidth>50.0</MaximumWidth>
+      <MinimumDepth>50.0</MinimumDepth>
+      <MaximumDepth>50.0</MaximumDepth>
+    </EnvironmentDecal>
+  </EnvironmentType>-->
+</EnvironmentTypes>

@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<TutorialData>
+
+    <DataChecksum NoParse="1">
+        <Ignore>DispName</Ignore>
+        <Translate>DisplayName,Description</Translate>
+    </DataChecksum>
+
+  <AbilityBonus InternalName="TutorialTechsAbility">
+    <AbilityBonusType>Player</AbilityBonusType>
+    <AbilityBonusOption InternalName="TutorialTechs">
+      <DisplayName>Tutorial Techs</DisplayName>
+      <Description>Faction starts with the Knowledge technology in the tutorial.</Description>
+      <Icon>Ability_Warriors_Icon.png</Icon>
+      <GameModifier>
+        <ModType>Player</ModType>
+        <Attribute>UnlockTech</Attribute>
+        <StrVal>Knowledge</StrVal>
+      </GameModifier>
+      <Cost>1</Cost>
+      <HideWhenUpgraded>0</HideWhenUpgraded>
+      <Type>Army</Type>
+      <AIData AIPersonality="AI_General">
+        <AIPriority>5</AIPriority>
+      </AIData>
+    </AbilityBonusOption>
+  </AbilityBonus>
+
+	<RaceConfig InternalName="KingdomOfPariden_Tutorial">
+        <DisplayName>Kingdom of Pariden</DisplayName>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <Description>New Pariden was founded by Queen Procipinee, daughter of Amarian III. Prior to the Cataclysm, Procipinee had been ruler of the free cities of the Northern territories of what is now the East. After the Cataclysm, she fled to the West and founded the city of New Pariden on the western shore of the continent, north of the ruins of Coriopolis. It soon became a kingdom of the same name.</Description>
+        <LorebookIntroText>The thrice-devastated lands of this realm lie in chaos.
+
+Stripped of resources by the great armies which gathered to fight the last of the wars between Man and Titan, shattered by the cataclysm, ripped asunder by rebellion, this territory and its peoples seek a sovereign to restore order to their world. A leader willing to deal justice to the lawless tribes of bandits who roam the trade routes - a commander capable of forging armies strong enough to conquer the wildlands and the creatures that roam it - a mage with powers capable of restoring life to the world's devastated lands...
+
+You, now more than ever, are determined to be that leader.</LorebookIntroText>
+        <AIPersonality>AI_General</AIPersonality>
+        <Capital>New Pariden</Capital>
+        <City>Tenfell</City>
+        <City>Raven's Heart</City>
+        <City>New Serrane</City>
+        <City>Clover</City>
+        <City>Stonecastle</City>
+        <City>Harkleigh</City>
+        <City>Hope's Crossing</City>
+        <City>Gladdenfeld</City>
+        <City>Kavell </City>
+        <ShortName>Pariden</ShortName>
+        <LeaderName>Lady Procipinee</LeaderName>
+        <PopulaceName>Men</PopulaceName>
+        <Alignment>Good</Alignment>
+        <FactionAllegiance>Kingdom</FactionAllegiance>
+        <SelAbilityBonusOption>AdeptsTech</SelAbilityBonusOption>
+		    <SelAbilityBonusOption>WarMachineTech</SelAbilityBonusOption>
+        <SelAbilityBonusOption>Educated</SelAbilityBonusOption>
+        <SelAbilityBonusOption>TutorialTechs</SelAbilityBonusOption>
+    
+    <EntityID>2</EntityID>
+        <MusicTheme>CrownOfTheWest</MusicTheme>
+        <DefaultCityWallSet>CityWalls_Fence</DefaultCityWallSet>
+        <NewCityHubType>CityHub1</NewCityHubType>
+        <CapitalHubType>CityHub1</CapitalHubType>
+        <RaceClassification>Men</RaceClassification>
+        <RaceDisplayName>Men</RaceDisplayName>
+        <RaceInternalName>Race_Type_Amarians</RaceInternalName>
+        <GenericUnitType_Male>Generic_Amarian_Male</GenericUnitType_Male>
+        <GenericUnitType_Female>Generic_Amarian_Female</GenericUnitType_Female>
+        <TraderUnitType>TraderTest</TraderUnitType>
+        <StartingUnitType>Unit_Peasant_Amarian</StartingUnitType>
+        <StartingUnitType>Unit_Pioneer_Amarian</StartingUnitType>
+        <StartingUnitType>Unit_Archer_Amarian</StartingUnitType>
+        <StartingUnitType>Unit_Horseman_Amarian</StartingUnitType>
+        <StartingUnitType>Unit_Defender_Amarian</StartingUnitType>
+        <StartingUnitType>Unit_Spearman_Amarian</StartingUnitType>
+        <StartingUnitType>Unit_Catapult</StartingUnitType>
+        <StartingUnitType>Unit_Scout_Amarian</StartingUnitType>
+        <StartingUnitType>Unit_Light_Amarian</StartingUnitType>
+        <StartingUnitType>Unit_Medium_Amarian</StartingUnitType>
+        <StartingUnitType>Unit_Heavy_Amarian</StartingUnitType>
+        <ShopkeeperUnitType>Shopkeeper_Amarian</ShopkeeperUnitType>
+        <ChooseFactionBack>Faction_Background_Pariden.png</ChooseFactionBack>
+        <UnitScale>1</UnitScale>
+        <UnitSkinColor>180,125,110</UnitSkinColor>
+        <UnitHairColor>200,195,195</UnitHairColor>
+        <UnitClothing1Color>155,175,205</UnitClothing1Color>
+        <UnitClothing2Color>100,110,110</UnitClothing2Color>
+        <UnitMetalColor>160,175,190,255</UnitMetalColor>
+        <BuildingPrimaryColor>150,150,155</BuildingPrimaryColor>
+        <BuildingSecondaryColor>100,110,110</BuildingSecondaryColor>
+        <BuildingRoofColor>30,65,100</BuildingRoofColor>
+        <ZoneOfControlColor>55,150,185</ZoneOfControlColor>
+        <BuildingStyle>KingdomStyle</BuildingStyle>
+    
+        <TechTree>TechTree_Tutorial</TechTree>
+    
+        <EnvironmentTerrainType>2</EnvironmentTerrainType>
+        <NonBuildableEnvironmentType>DeadEnvironment</NonBuildableEnvironmentType>
+        <PreferredLogoType>KingdomCrest</PreferredLogoType>
+        <SovereignUnitType>Sovereign_Procipinee</SovereignUnitType>
+    </RaceConfig>
+	
+
+  <UnitType InternalName="Sovereign_Procipinee_Tutorial">
+        <DisplayName>Lady Procipinee</DisplayName>
+        <UnitDisplayName>Lady Procipinee</UnitDisplayName>
+        <Class>Sovereign</Class>
+        <Allegiance>Kingdom</Allegiance>
+        <RaceType>Race_Type_Amarians</RaceType>
+        <Unique>1</Unique>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <CanBeDesigned>0</CanBeDesigned>
+        <FactionToLead>KingdomOfPariden</FactionToLead>
+        <Gender>Female</Gender>
+        <HasWages>0</HasWages>
+        <IsSovereign>1</IsSovereign>
+		<HasEssence>1</HasEssence>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_FactionPrestige</StrVal>
+            <Value>1</Value>
+            <PerLevel>1</PerLevel>
+            <Provides>+1 Faction Prestige per Level</Provides>
+        </GameModifier>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>20</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>12</UnitStat_CombatSpeed>
+            <UnitStat_Constitution>12</UnitStat_Constitution>
+            <UnitStat_Dexterity>10</UnitStat_Dexterity>
+            <UnitStat_Essence>1</UnitStat_Essence>
+            <UnitStat_HitPoints>30</UnitStat_HitPoints>
+            <UnitStat_Intelligence>8</UnitStat_Intelligence>
+            <UnitStat_Strength>8</UnitStat_Strength>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Air1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Life1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Life2</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Earth1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Water1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Water2</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Attunement</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Loremaster3</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Loremaster1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Loremaster2</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Scholar</SelectedAbilityBonusOption>
+        <AutoCreateEquipment>Staff_Queens</AutoCreateEquipment>
+        <AutoCreateEquipment>ProcipineesCrown</AutoCreateEquipment>
+        <Equipment>K_Female_Head_01</Equipment>
+        <Equipment>Noble_Shirt</Equipment>
+        <Equipment>Noble_Overskirt_ID1</Equipment>
+        <Equipment>Infinity_Cloak_ID2</Equipment>
+        <Equipment>Noble_Corset_ID1</Equipment>
+        <Equipment>Noble_Ladies_Hair_Back</Equipment>
+        <Backstory>Daughter of Amarian III, Queen Procipinee of New Pariden remains the greatest channeler of the New Age. Her powers have been instrumental in restoring life to the shattered lands surrounding her capital city, and in keeping that city safe from monsters and wicked men alike.</Backstory>
+        <LorebookIntroText>You are Procipinee, sole survivor of the royal family that once ruled the Free Cities of the North.
+
+Your father was Amarian III - Amarian the Sojourner. He bequeathed to you not just his inherent abilities as a channeler, but a strong sense of responsibility. It is your duty, you feel, to use your gifts in the service of others, to make the lives of those less fortunate, less gifted than yourself better. You would restore the Golden Age of the Magi... bring the benefits of that civilization to all of Elemental... including races other than men, if they would accept your leadership.</LorebookIntroText>
+        <PossibleAITrait>Aggressive</PossibleAITrait>
+        <PossibleAITrait>Proud</PossibleAITrait>
+        <PossibleAITrait>Expansionist</PossibleAITrait>
+        <PossibleAITrait>Sorcerer</PossibleAITrait>
+        <PossibleAITrait>Manipulator</PossibleAITrait>
+        <Medallions InternalName="">
+            <All>K_Lady_Procipinee_Card_01.png</All>
+        </Medallions>
+        <AnimationPack>LadyProcipineeAnimationPack</AnimationPack>
+        <AnimationParticleEffect>HeroPoseFront,_Particle_Procipinee_02,2.0,-2.5,0.0,1.0,EffectAttach</AnimationParticleEffect>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothMapScale>1.2</ClothMapScale>
+        <ClothPoseIndex>23</ClothPoseIndex>
+        <Color_Clothing1>78,103,141,255</Color_Clothing1>
+        <Color_Clothing2>40,55,70,255</Color_Clothing2>
+        <Color_Hair>200,195,195,255</Color_Hair>
+        <Color_Metal>160,175,190,255</Color_Metal>
+        <Color_Skin>180,125,110,255</Color_Skin>
+        <CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_m4_grn.png</EyeTexture>
+        <InfoCardBackground>BG6_WaterCliff</InfoCardBackground>
+        <InfoCardBackgroundFlipped>1</InfoCardBackgroundFlipped>
+        <ModelPath>Gfx\HKB\Units\K_Female_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_FemaleAdv2</SoundPack>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_f2_blue.png</Texture_Eyes>
+        <Texture_Skin>K_Female_Thinbrows_Texture_01.png</Texture_Skin>
+        <UnitModelType>AmarianFemale</UnitModelType>
+    </UnitType>
+	
+  <!--
+	<UnitType InternalName="Unit_Pioneer_Amarian_Tutorial">
+        <DisplayName>Pioneer</DisplayName>
+        <Description>Pioneers are equipped with the necessary materials to start new settlements.</Description>
+        <Class>Pioneer</Class>
+        <RaceType>Race_Type_Amarians</RaceType>
+        <CanBeDesigned>1</CanBeDesigned>
+        <Gender>Female</Gender>
+        <AdditionalTrainingTurns>30</AdditionalTrainingTurns>
+        <IsSovereign>0</IsSovereign>
+        <IsStartingUnitType>1</IsStartingUnitType>
+            <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>UnlockAction</Attribute>
+                <StrVal>BuildTown</StrVal>
+            </GameModifier>
+            <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>UnlockAction</Attribute>
+                <StrVal>BuildImprovement</StrVal>
+                <StrVal2>Outpost</StrVal2>
+            </GameModifier>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_CombatSpeed>10</UnitStat_CombatSpeed>
+            <UnitStat_Constitution>7</UnitStat_Constitution>
+            <UnitStat_Dexterity>10</UnitStat_Dexterity>
+            <UnitStat_Intelligence>8</UnitStat_Intelligence>
+            <UnitStat_Strength>8</UnitStat_Strength>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Weak</SelectedAbilityBonusOption>
+        <Equipment>K_Female_Head_04</Equipment>
+        <Equipment>Patchwork_Skirt_ID2</Equipment>
+        <Equipment>Noble_Shirt_ID1</Equipment>
+        <Equipment>Country_Corset_ID2</Equipment>
+        <Equipment>K_Female_Slim_Hair</Equipment>
+        <Equipment>TightBoots_Light</Equipment>
+        <Prereq>
+            <Type>Race</Type>
+            <Attribute>Race_Type_Amarians</Attribute>
+        </Prereq>
+        <AnimationPack>FemaleSovereignAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <BobbingFrequency>0</BobbingFrequency>
+        <ClothPoseIndex>1</ClothPoseIndex>
+        <Color_Clothing1>170,175,200,255</Color_Clothing1>
+        <Color_Clothing2>60,35,60,255</Color_Clothing2>
+        <Color_Hair>218,183,133,255</Color_Hair>
+        <Color_Metal>171,175,200,255</Color_Metal>
+        <Color_Skin>201,132,87,255</Color_Skin>
+        <CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\Eyeblink_F4_Gray.png</EyeTexture>
+        <InfoCardBackground>BG_GoodScene</InfoCardBackground>
+        <InfoCardBackgroundFlipped>0</InfoCardBackgroundFlipped>
+        <ModelPath>Gfx\HKB\Units\K_Female_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovementType>land</MovementType>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Generic_Female</SoundPack>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\Eyeblink_F4_Gray.png</Texture_Eyes>
+        <Texture_Skin>K_Female_Thinbrows_Texture_01.png</Texture_Skin>
+        <UnitModelType>MancerFemale</UnitModelType>
+    </UnitType>
+  -->
+
+
+
+  <TechDef InternalName="Refined_Production_Tutorial">
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <DisplayName>Refined Production</DisplayName>
+        <Description>This breakthrough gives our settlements a +1 Production bonus per Material and can be researched continuously. Blacksmiths continue to improve the quality of the metal-working process provided in the kingdom with increasingly positive results.</Description>
+        <Image>Res_Ores_Plains.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>450</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>1</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_Additive_ProductionPerMaterials</StrVal>
+            <Value>1</Value>
+            <Icon>Icon_Lumber.png</Icon>
+            <Provides>+1 Production per Material</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Mining</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>0.5</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+
+
+
+    <TechTree InternalName="TechTree_Tutorial">
+      <DisplayName>The Tutorial Tech Tree</DisplayName>
+      <Category>Civilization</Category>
+        <Tech>Knowledge</Tech>
+        <Tech>Mining</Tech>
+        <Tech>Refined_Production_Tutorial</Tech>
+      <Category>Warfare</Category>
+        <Tech>Training</Tech>
+      <Category>Magic</Category>
+        <Tech>Shard_Harvesting</Tech>
+    </TechTree>
+
+
+
+  <GoodieHutType InternalName="Lair_FETutorial_AirElemental">
+    <Name>Earth Elemental's Sanctum</Name>
+    <Description>A circle of huge stones, the size and shape of a wagon?s flatbed, stand on edge in the clearing before you.</Description>
+    <Rarity>0</Rarity>
+	<HideInHiergamenon>1</HideInHiergamenon>
+    <MinDistanceFromStartingPoints>12</MinDistanceFromStartingPoints>
+    <BarredTerrain>River</BarredTerrain>
+    <PreferredTerrain>Category:Land</PreferredTerrain>
+    <ReleaseGuardiansOnInfluenceHit>1</ReleaseGuardiansOnInfluenceHit>
+    <SupportedResourceType>AirShard</SupportedResourceType>
+    <SpawnRating>0</SpawnRating>
+    <TileDesign>L_Air_Elemental_01</TileDesign>
+    <TileDesignForTerrain>CurgensTomb:P_Curgens_Tomb_04</TileDesignForTerrain>
+    <DrawnIcon>Lair_AirElemental.png</DrawnIcon>
+    <IconSize>50</IconSize>
+    <Medallions InternalName="">
+      <All>L_Air_Elemental_01.png</All>
+    </Medallions>
+    <Encounter>
+      <Liklihood>100</Liklihood>
+      <WillRespawn>0</WillRespawn>
+      <WanderingRadius>0</WanderingRadius>
+      <TacticalMap>T_Tutorial_Arena_01</TacticalMap>
+      <UnitInstance>
+        <UnitType>FETutorial_EarthElemental</UnitType>
+        <Level>1</Level>
+      </UnitInstance>
+    </Encounter>
+  </GoodieHutType>
+
+
+ <UnitType InternalName="FETutorial_AirElemental">
+        <DisplayName>Lesser Air Elemental</DisplayName>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <CreatureType>Elemental</CreatureType>
+        <CanBeDesigned>0</CanBeDesigned>
+        <IsSovereign>0</IsSovereign>
+        <AllowGrouping>0</AllowGrouping>
+        <HasWages>0</HasWages>
+        <SpawnRating>0</SpawnRating>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>10</UnitStat_Accuracy>
+            <UnitStat_Attack_Lightning>2</UnitStat_Attack_Lightning>
+            <UnitStat_CombatSpeed>10</UnitStat_CombatSpeed>
+            <UnitStat_Constitution>15</UnitStat_Constitution>
+            <UnitStat_Defense_Blunt>4</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>4</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>4</UnitStat_Defense_Pierce>
+            <UnitStat_Dexterity>10</UnitStat_Dexterity>
+            <UnitStat_Intelligence>12</UnitStat_Intelligence>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_Strength>4</UnitStat_Strength>
+	    <UnitStat_Experience>1</UnitStat_Experience>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Large</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ImmuneToLightning</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>ImmuneToPoison</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Spell_TitansBreath</SelectedAbilityBonusOption>
+        <Equipment>Spear_AirElemental</Equipment>
+        <Quote>'Do not mistake me for a gentle midsummer breeze, I am the howl of destruction...'</Quote>
+        <Backstory>Those that can hear the whispers of the Air Shards hear the desire to blow, to spin, the voice of the wind desires nothing but to be loose and wild in the world.  The Air Elemental is that spirit unbound.  They are difficult to control and resent those that bind them.  Fortunately any anger they bear to their summoners is quickly forgotten when the spell ends, and they disappear into the sky.</Backstory>
+        <Medallions InternalName="">
+            <All>M_AirElemental_Card.png</All>
+        </Medallions>
+        <AnimationPack>AirElementalAnimationPack</AnimationPack>
+        <AnimationParticleEffect>Death,_AirElemental_Death_02,0.0,10.0,0.0,2.5</AnimationParticleEffect>
+        <AnimationParticleEffect>Awaken,_AirElemental_Awaken,0.0,10.0,0.0,2.5</AnimationParticleEffect>
+        <BattleAnimationBehavior>Stationary</BattleAnimationBehavior>
+        <ClothMapScale>0.8</ClothMapScale>
+        <Color_Skin>70,40,0</Color_Skin>
+        <CutSceneDataPack>ElementalUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx/eyes/male_brown_eye.png</EyeTexture>
+        <InfoCardBackground>BG6_WaterCliff</InfoCardBackground>
+        <ModelPath>gfx/hkb/Monsters/M_AirElemental_Mesh_01.hkb</ModelPath>
+        <ModelScale>0.7</ModelScale>
+        <OnHitParticleName>AirElemental_OnHit</OnHitParticleName>
+        <ShowAsSingleUnit>1</ShowAsSingleUnit>
+        <SkeletonPath>Gfx\HKB\Units\M_SuperDemon_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Demon1</SoundPack>
+        <TacticalModelScale>0.9</TacticalModelScale>
+        <Texture_Skin>M_AirElemental_Texture_04.png</Texture_Skin>
+    </UnitType>
+
+  <UnitType InternalName="FETutorial_EarthElemental">
+    <DisplayName>Lesser Earth Elemental</DisplayName>
+    <CreatureType>Elemental</CreatureType>
+	<HideInHiergamenon>1</HideInHiergamenon>
+    <CanBeDesigned>0</CanBeDesigned>
+    <IsSovereign>0</IsSovereign>
+    <AllowGrouping>0</AllowGrouping>
+    <HasWages>0</HasWages>
+    <SpawnRating>0</SpawnRating>
+    <LevelMilestone InternalName="L1">
+      <Level>1</Level>
+      <UnitStat_Accuracy>9</UnitStat_Accuracy>
+      <UnitStat_Attack_Blunt>10</UnitStat_Attack_Blunt>
+      <UnitStat_CombatSpeed>9</UnitStat_CombatSpeed>
+      <UnitStat_Constitution>20</UnitStat_Constitution>
+      <UnitStat_Defense_Blunt>8</UnitStat_Defense_Blunt>
+      <UnitStat_Defense_Cutting>8</UnitStat_Defense_Cutting>
+      <UnitStat_Defense_Pierce>8</UnitStat_Defense_Pierce>
+      <UnitStat_Dexterity>4</UnitStat_Dexterity>
+      <UnitStat_Intelligence>12</UnitStat_Intelligence>
+      <UnitStat_Strength>10</UnitStat_Strength>
+      <UnitStat_Experience>1</UnitStat_Experience>
+    </LevelMilestone>
+    <SelectedAbilityBonusOption>Large</SelectedAbilityBonusOption>
+    <SelectedAbilityBonusOption>ImmuneToPoison</SelectedAbilityBonusOption>
+    <SelectedAbilityBonusOption>Overpower</SelectedAbilityBonusOption>
+    <Quote>'When the earth rises, you would do well to fear...'</Quote>
+    <Backstory>
+      In the time before this one - before the coming of the Titans, before the Cataclysm that sundered the world - lesser Elementals such as these served as attendants to Elemental Lords, those who men worshipped as the Five of Anthuane. These creatures were called Anathua for this reason; they were thought to be the physical manifestation of the magic of the shards, which they were never far from.  That time has passed. The Lesser Elementals know no allegiance now; they are as likely as not to attack without warning.
+
+      Earth Elementals are immune to all poisons of this world.
+    </Backstory>
+    <Medallions InternalName="">
+      <All>StormGiant_Medallion.png</All>
+    </Medallions>
+    <AnimationPack>EarthElementalAnimationPack</AnimationPack>
+    <AnimationParticleEffect>Awaken,_EarthElemental_Awaken,0.0,10.0,0.0,2.0</AnimationParticleEffect>
+    <BattleAnimationBehavior>Stationary</BattleAnimationBehavior>
+    <ClothMapScale>0.8</ClothMapScale>
+    <Color_Skin>138,111,91</Color_Skin>
+    <CutSceneDataPack>ElementalUnitCutscenePack</CutSceneDataPack>
+    <EyeTexture>gfx/eyes/male_brown_eye.png</EyeTexture>
+    <InfoCardBackground>BG50_FallenLand</InfoCardBackground>
+    <ModelPath>gfx/hkb/Monsters/M_EarthElemental_Mesh_01.hkb</ModelPath>
+    <ModelScale>0.9</ModelScale>
+    <OnHitParticleName>EarthElemental_OnHit</OnHitParticleName>
+    <ShowAsSingleUnit>1</ShowAsSingleUnit>
+    <SkeletonPath>Gfx\HKB\Monsters\M_EarthElemental_Skeleton_01.hkb</SkeletonPath>
+    <SoundPack>SoundPack_RockGolem1</SoundPack>
+    <TacticalModelScale>1.2</TacticalModelScale>
+    <Texture_Skin>M_EarthElemental_Texture_01.dds</Texture_Skin>
+    <EffectAttachment>
+      <Attachment>Stomach_Lcf</Attachment>
+      <EffectName>A_EarthElemental_Particle</EffectName>
+      <EffectPosition>0,0,0</EffectPosition>
+      <EffectRotation>0,0,0</EffectRotation>
+      <EffectScale>0.15</EffectScale>
+    </EffectAttachment>
+    <EffectAttachment>
+      <Attachment>Head_Lcf</Attachment>
+      <EffectName>A_EarthElemental_Particle</EffectName>
+      <EffectPosition>0,0,0</EffectPosition>
+      <EffectRotation>0,0,0</EffectRotation>
+      <EffectScale>0.15</EffectScale>
+    </EffectAttachment>
+    <EffectAttachment>
+      <Attachment>Left_Shoulder_Lcf</Attachment>
+      <EffectName>A_EarthElemental_Particle</EffectName>
+      <EffectPosition>0,0,0</EffectPosition>
+      <EffectRotation>0,0,0</EffectRotation>
+      <EffectScale>0.3</EffectScale>
+    </EffectAttachment>
+    <EffectAttachment>
+      <Attachment>Right_Elbow_Lcf</Attachment>
+      <EffectName>A_EarthElemental_Particle</EffectName>
+      <EffectPosition>0,0,0</EffectPosition>
+      <EffectRotation>0,0,0</EffectRotation>
+      <EffectScale>0.3</EffectScale>
+    </EffectAttachment>
+    <EffectAttachment>
+      <Attachment>Left_Elbow_Lcf</Attachment>
+      <EffectName>A_EarthElemental_Particle</EffectName>
+      <EffectPosition>0,0,0</EffectPosition>
+      <EffectRotation>0,0,0</EffectRotation>
+      <EffectScale>0.3</EffectScale>
+    </EffectAttachment>
+    <EffectAttachment>
+      <Attachment>Chest_Lcf</Attachment>
+      <EffectName>A_EarthElemental_Particle</EffectName>
+      <EffectPosition>0,0,0</EffectPosition>
+      <EffectRotation>0,0,0</EffectRotation>
+      <EffectScale>0.3</EffectScale>
+    </EffectAttachment>
+    <EffectAttachment>
+      <Attachment>Right_Shoulder_Lcf</Attachment>
+      <EffectName>A_EarthElemental_Particle</EffectName>
+      <EffectPosition>0,0,0</EffectPosition>
+      <EffectRotation>0,0,0</EffectRotation>
+      <EffectScale>0.3</EffectScale>
+    </EffectAttachment>
+    <EffectAttachment>
+      <Attachment>Right_Leg_Lcf</Attachment>
+      <EffectName>A_EarthElemental_Particle</EffectName>
+      <EffectPosition>0,0,0</EffectPosition>
+      <EffectRotation>0,0,0</EffectRotation>
+      <EffectScale>0.3</EffectScale>
+    </EffectAttachment>
+    <EffectAttachment>
+      <Attachment>Left_Leg_Lcf</Attachment>
+      <EffectName>A_EarthElemental_Particle</EffectName>
+      <EffectPosition>0,0,0</EffectPosition>
+      <EffectRotation>0,0,0</EffectRotation>
+      <EffectScale>0.3</EffectScale>
+    </EffectAttachment>
+  </UnitType>
+
+     <GoodieHutType InternalName="Treasure_EquipmentCache_Tutorial">
+        <Name>Equipment Cache</Name>
+        <Description>Here lie a stack of crates bearing the insignia of the Free Riders... those fierce, unforgiving warriors who roam the wastelands, determined to bring order to chaos.</Description>
+        <Rarity>100</Rarity>
+        <MinDistanceFromStartingPoints>8</MinDistanceFromStartingPoints>
+        <BarredTerrain>River</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <SpawnRating>0</SpawnRating>
+        <TileDesign>G_Cache_01</TileDesign>
+        <DrawnIcon>Treasure_EquipmentCache.png</DrawnIcon>
+        <IconSize>50</IconSize>
+        <OnSelectSFX>Click_Treasure</OnSelectSFX>
+        <Medallions InternalName="">
+            <All>G_Cache_01.png</All>
+        </Medallions>
+        <Treasure>
+            <Title>Found Item</Title>
+            <Desc>A case contains an old spear, a veteran of many battles.  Despite its age and the countless battles it has been used in, it is still a formidable weapon.</Desc>
+            <Liklihood>100</Liklihood>
+            <GameModifier>
+                <ModType>GiveItem</ModType>
+                <Attribute>Spear_Champions</Attribute>
+            </GameModifier>
+        </Treasure>
+    </GoodieHutType>
+  
+  
+	<Tutorial InternalName="Tutorial_WelcomeToTheTutorialMap">
+		<Title>Introduction</Title>
+		<TutorialText>Welcome to the Fallen Enchantress Tutorial. Here you will be learning how to found your capital, use magic, expand your Kingdom, and fight off your enemies.
+
+The tutorial will always show your current objective at the top of the screen. If you get stuck, left-click on the objective bar to remind you of your current task or to watch a tutorial video with detailed instructions.
+
+First, you will want to find a plot of land suitable for your Capital. Left click to select your sovereign unit, then right click to move them.
+
+If your units have run out of moves, you may need to press the TURN button to advance to the next season.
+
+Where you place your city is very important. When you roll over the Settle button, the available Tile Yields will be displayed. Higher grain yields will allow for bigger cities, while higher material yields will provide cities with increased production. If the area lacks Grain entirely, you will not be able to build a city there.
+
+In the tutorial itself, the tile that your sovereign starts on should provide a suitable location for your capital.</TutorialText>
+		<Movie>movies\\FE_Tutorial_WelcomeToTheTutorial.bik</Movie>
+		<PopupImage>Gfx\\Screens\\Tutorial_City.png</PopupImage>
+		<PopupText>Welcome to Fallen Enchantress! Watch the tutorial to learn more about your first game.</PopupText>
+		<PopupPriority>1</PopupPriority>
+	</Tutorial>
+
+</TutorialData>

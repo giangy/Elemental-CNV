@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<TileDesigns>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName</Ignore>
+		<Translate>DisplayName</Translate>
+	</DataChecksum>
+	<TileDesign InternalName="P_Chasm_01">
+		<DisplayName>P_Chasm_01</DisplayName>
+		<Thumbnail>\Game\Gfx\tile_icon.png</Thumbnail>
+		<IsCore>0</IsCore>
+		<IsHiddenFromEditor>0</IsHiddenFromEditor>
+		<SubTileFlags>15</SubTileFlags>
+		<TileDesignPath InternalName="_path0"/>
+		<EffectTrigger InternalName="W_ChasmFog_Particle">
+			<EffectName>W_ChasmFog_Particle</EffectName>
+			<LocalPosition>-0.000008,12.000000,-0.000061</LocalPosition>
+			<Scale>1.5000</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+		<EffectTrigger InternalName="W_ChasmLightning_Particle_02">
+			<EffectName>W_ChasmLightning_Particle_02</EffectName>
+			<LocalPosition>4.086990,11.000000,13.029358</LocalPosition>
+			<Scale>0.7800</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+		<EffectTrigger InternalName="W_ChasmFog_Particle">
+			<EffectName>W_ChasmFog_Particle</EffectName>
+			<LocalPosition>-0.000008,12.000000,-0.000061</LocalPosition>
+			<Scale>1.5000</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+		<EffectTrigger InternalName="W_ChasmLightning_Particle_02">
+			<EffectName>W_ChasmLightning_Particle_02</EffectName>
+			<LocalPosition>4.086990,11.000000,13.029358</LocalPosition>
+			<Scale>0.7800</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+		<EffectTrigger InternalName="W_DustMotes_Particle">
+			<EffectName>W_DustMotes_Particle</EffectName>
+			<LocalPosition>19.111450,0.000000,-0.797302</LocalPosition>
+			<Scale>0.5</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+		<EffectTrigger InternalName="PEffect_BigSunglows1">
+			<EffectName>PEffect_BigSunglows1</EffectName>
+			<LocalPosition>4.990234,50.000000,-2.462524</LocalPosition>
+			<Scale>1.25</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+	</TileDesign>
+</TileDesigns>

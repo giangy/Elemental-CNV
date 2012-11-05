@@ -1,0 +1,2023 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CampaignData>
+
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- FACTIONS -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+
+
+	<RaceConfig InternalName="CampaignResolnMap1">
+		<DisplayName>Kingdom of Resoln</DisplayName>
+		<Description>Resoln is the settlement created by Relias on the eastern continent.</Description>
+		<AIPersonality>AI_General</AIPersonality>
+		<Capital>Resoln</Capital>
+		<City>Amaria</City>
+		<City>Great Barraton</City>
+		<City>Arron</City>
+		<City>Eldarra</City>
+		<City>Tandar</City>
+		<City>Elwys</City>
+		<City>Loister</City>
+		<City>New Stallas</City>
+		<City>Harrad</City>
+		<City>Kallarston</City>
+		<ShortName>Resoln</ShortName>
+		<LeaderName>Lord Relias</LeaderName>
+        <PopulaceName>Men</PopulaceName>
+        <Alignment>Good</Alignment>
+        <FactionAllegiance>Kingdom</FactionAllegiance>
+        <SelAbilityBonusOption>CampaignStartingTechs</SelAbilityBonusOption>
+        <SelAbilityBonusOption>Wanderlust</SelAbilityBonusOption>
+        <SelAbilityBonusOption>Heroic</SelAbilityBonusOption>
+        <EntityID>1</EntityID>
+        <MusicTheme>Altar</MusicTheme>
+        <DefaultCityWallSet>CityWalls_Fence</DefaultCityWallSet>
+        <NewCityHubType>CityHub1</NewCityHubType>
+        <CapitalHubType>CityHub1</CapitalHubType>
+        <RaceClassification>Men</RaceClassification>
+        <RaceDisplayName>Men</RaceDisplayName>
+        <RaceInternalName>Race_Type_Altarians</RaceInternalName>
+        <ChooseFactionBack>Faction_Background_Altar.png</ChooseFactionBack>
+        <UnitScale>1</UnitScale>
+        <UnitSkinColor>215,150,100</UnitSkinColor>
+        <UnitHairColor>155,110,75</UnitHairColor>
+        <UnitClothing1Color>120,25,20,255</UnitClothing1Color>
+        <UnitClothing2Color>78,60,55,255</UnitClothing2Color>
+        <UnitMetalColor>145,145,145,255</UnitMetalColor>
+        <BuildingPrimaryColor>165,145,130</BuildingPrimaryColor>
+        <BuildingSecondaryColor>75,60,50</BuildingSecondaryColor>
+        <BuildingRoofColor>90,15,10</BuildingRoofColor>
+        <ZoneOfControlColor>200,0,0</ZoneOfControlColor>
+        <BuildingStyle>KingdomStyle</BuildingStyle>
+        <TechTree>TechTree_Campaign</TechTree>
+        <EnvironmentTerrainType>2</EnvironmentTerrainType>
+        <NonBuildableEnvironmentType>DeadEnvironment</NonBuildableEnvironmentType>
+        <PreferredLogoType>KingdomCrest2</PreferredLogoType>
+		<SovereignUnitType>FEC_UNIT_Relias</SovereignUnitType>
+	</RaceConfig>
+
+	<!-- Map 2 definition - gives us new city names -->
+
+	<RaceConfig InternalName="CampaignResolnMap2">
+		<DisplayName>Kingdom of Resoln</DisplayName>
+		<Description>Resoln is the settlement created by Relias on the eastern continent.</Description>
+		<AIPersonality>AI_General</AIPersonality>
+		<Capital>Cymra</Capital>
+		<City>Brython</City>
+		<City>Corr Vallis</City>
+		<City>Pentas</City>
+		<City>Demmet</City>
+		<City>Stretford</City>
+		<City>Barnathee</City>
+		<City>Louraine</City>
+		<City>Corr Abernath</City>
+		<City>Talla's Fort</City>
+		<ShortName>Resoln</ShortName>
+		<LeaderName>Lord Relias</LeaderName>
+        <PopulaceName>Men</PopulaceName>
+        <Alignment>Good</Alignment>
+        <FactionAllegiance>Kingdom</FactionAllegiance>
+        <SelAbilityBonusOption>Wanderlust</SelAbilityBonusOption>
+        <SelAbilityBonusOption>Heroic</SelAbilityBonusOption>
+        <EntityID>1</EntityID>
+        <MusicTheme>Altar</MusicTheme>
+        <DefaultCityWallSet>CityWalls_Fence</DefaultCityWallSet>
+        <NewCityHubType>CityHub1</NewCityHubType>
+        <CapitalHubType>CityHub1</CapitalHubType>
+        <RaceClassification>Men</RaceClassification>
+        <RaceDisplayName>Men</RaceDisplayName>
+        <RaceInternalName>Race_Type_Altarians</RaceInternalName>
+        <ChooseFactionBack>Faction_Background_Altar.png</ChooseFactionBack>
+        <UnitScale>1</UnitScale>
+        <UnitSkinColor>215,150,100</UnitSkinColor>
+        <UnitHairColor>155,110,75</UnitHairColor>
+        <UnitClothing1Color>120,25,20,255</UnitClothing1Color>
+        <UnitClothing2Color>78,60,55,255</UnitClothing2Color>
+        <UnitMetalColor>145,145,145,255</UnitMetalColor>
+        <BuildingPrimaryColor>165,145,130</BuildingPrimaryColor>
+        <BuildingSecondaryColor>75,60,50</BuildingSecondaryColor>
+        <BuildingRoofColor>90,15,10</BuildingRoofColor>
+        <ZoneOfControlColor>200,0,0</ZoneOfControlColor>
+        <BuildingStyle>KingdomStyle</BuildingStyle>
+        <TechTree>TechTree_Campaign</TechTree>
+        <EnvironmentTerrainType>2</EnvironmentTerrainType>
+        <NonBuildableEnvironmentType>DeadEnvironment</NonBuildableEnvironmentType>
+        <PreferredLogoType>KingdomCrest2</PreferredLogoType>
+		<SovereignUnitType>FEC_UNIT_Relias</SovereignUnitType>
+	</RaceConfig>
+
+	<!-- Map 3 definition - gives us new city names -->
+
+	<RaceConfig InternalName="CampaignResolnMap3">
+		<DisplayName>Kingdom of Resoln</DisplayName>
+		<Description>Resoln is the settlement created by Relias on the eastern continent.</Description>
+		<AIPersonality>AI_General</AIPersonality>
+		<Capital>Kilford</Capital>
+		<City>Della's Oak</City>
+		<City>Rosederry</City>
+		<City>Baelswick</City>
+		<City>Rosetown</City>
+		<City>Gillhaven</City>
+		<City>New Cymra</City>
+		<City>Lyndree</City>
+		<City>Farhelm</City>
+		<City>Sorrenfell</City>
+		<ShortName>Resoln</ShortName>
+		<LeaderName>Lord Relias</LeaderName>
+        <PopulaceName>Men</PopulaceName>
+        <Alignment>Good</Alignment>
+        <FactionAllegiance>Kingdom</FactionAllegiance>
+        <SelAbilityBonusOption>Wanderlust</SelAbilityBonusOption>
+        <SelAbilityBonusOption>Heroic</SelAbilityBonusOption>
+        <EntityID>1</EntityID>
+        <MusicTheme>Altar</MusicTheme>
+        <DefaultCityWallSet>CityWalls_Fence</DefaultCityWallSet>
+        <NewCityHubType>CityHub1</NewCityHubType>
+        <CapitalHubType>CityHub1</CapitalHubType>
+        <RaceClassification>Men</RaceClassification>
+        <RaceDisplayName>Men</RaceDisplayName>
+        <RaceInternalName>Race_Type_Altarians</RaceInternalName>
+        <ChooseFactionBack>Faction_Background_Altar.png</ChooseFactionBack>
+        <UnitScale>1</UnitScale>
+        <UnitSkinColor>215,150,100</UnitSkinColor>
+        <UnitHairColor>155,110,75</UnitHairColor>
+        <UnitClothing1Color>120,25,20,255</UnitClothing1Color>
+        <UnitClothing2Color>78,60,55,255</UnitClothing2Color>
+        <UnitMetalColor>145,145,145,255</UnitMetalColor>
+        <BuildingPrimaryColor>165,145,130</BuildingPrimaryColor>
+        <BuildingSecondaryColor>75,60,50</BuildingSecondaryColor>
+        <BuildingRoofColor>90,15,10</BuildingRoofColor>
+        <ZoneOfControlColor>200,0,0</ZoneOfControlColor>
+        <BuildingStyle>KingdomStyle</BuildingStyle>
+        <TechTree>TechTree_Campaign</TechTree>
+        <EnvironmentTerrainType>2</EnvironmentTerrainType>
+        <NonBuildableEnvironmentType>DeadEnvironment</NonBuildableEnvironmentType>
+        <PreferredLogoType>KingdomCrest2</PreferredLogoType>
+		<SovereignUnitType>FEC_UNIT_Relias</SovereignUnitType>
+	</RaceConfig>
+	
+	<!-- ** Empire of Kraxis ** -->
+
+	<RaceConfig InternalName="Kraxis2">
+		<DisplayName>Empire of Evil</DisplayName>
+		
+		<HideInSetupLists>1</HideInSetupLists>
+		
+		<AIPersonality>AI_General</AIPersonality>
+		<Capital>Athos</Capital>
+		<ShortName>Eviland</ShortName>
+		<SovereignUnitType>Sovereign_Karavox</SovereignUnitType>
+		<LeaderName>Emperor Mat</LeaderName>
+		<PopulaceName>Human</PopulaceName>
+		<Description>Kraxis is the land of traitors. Its people are mainly descended from the soldiers who comprised the Great Army of Mankind that marched on the Dread Lord Curgen's fortress at Imperium. They make their living dealing with the very Fallen who slaughtered their ancestors. The majority are settled in and around the port town of Tanacabra, on the Bay of Capacea.</Description>
+		<BonusesDesc>
+		</BonusesDesc>
+		<Alignment>Evil</Alignment>
+		<FactionAllegiance>Empire</FactionAllegiance>
+		<EntityID>7</EntityID>
+		<RemCustomizationPts>0</RemCustomizationPts>
+		<SelAbilityBonusOption>ExpertTradersBonus1</SelAbilityBonusOption>
+		<SelAbilityBonusOption>EvilBonus1</SelAbilityBonusOption>
+		<SelAbilityBonusOption>DistrustedBonus1</SelAbilityBonusOption>
+		<SelAbilityBonusOption>EducatedBonus1</SelAbilityBonusOption>
+		<SelAbilityBonusOption>ProperLivingBonus1</SelAbilityBonusOption>
+		<!--<SelAbilityBonusOption>ResourcefulBonus1</SelAbilityBonusOption>-->
+		<SelAbilityBonusOption>SiegeMastersBonus1</SelAbilityBonusOption>
+		<MusicTheme>TraitorousEmpire</MusicTheme>
+		<DefaultCityWallSet>CityWalls_Fallen_Fence</DefaultCityWallSet>
+		<NewCityHubType>F_Outpost</NewCityHubType>
+		<CapitalHubType>F_Capital</CapitalHubType>
+		<!-- The Traitorous Empire -->
+		<!-- Race Stuff -->
+		<RaceClassification>Fallen</RaceClassification>
+		<RaceDisplayName>Men</RaceDisplayName>
+		<RaceInternalName>Race_Type_Krax</RaceInternalName>
+		<MaleUnitType>Krax_Sovereign_Male_Basic</MaleUnitType>
+		<FemaleUnitType>Krax_Sovereign_Female_Basic</FemaleUnitType>
+		<GenericUnitType_Male>Krax_GenericBaseUnit_Male</GenericUnitType_Male>
+		<GenericUnitType_Female>Krax_GenericBaseUnit_Female</GenericUnitType_Female>
+		<TraderUnitType>TraderTest</TraderUnitType>
+		<StartingUnitType>Kingdom_Soldier</StartingUnitType>
+		<StartingUnitType>Kingdom_Pioneer</StartingUnitType>
+		<ShopkeeperUnitType>Krax_Shopkeeper</ShopkeeperUnitType>
+		<AccompanyUnitType_One>
+		</AccompanyUnitType_One>
+		<AccompanyUnitType_Two>
+		</AccompanyUnitType_Two>
+		<ChooseFactionBack>Faction_Background_Kraxis.png</ChooseFactionBack>
+		<UnitSkinColor>190,145,110</UnitSkinColor>
+		<UnitHairColor>60,50,65</UnitHairColor>
+		<UnitScale>1.0</UnitScale>
+		<UnitClothing1Color>150,100,50,255</UnitClothing1Color>
+		<UnitClothing2Color>40,35,30,255</UnitClothing2Color>
+		<UnitMetalColor>100,100,110,255</UnitMetalColor>
+		<BuildingPrimaryColor>35,30,25</BuildingPrimaryColor>
+		<BuildingSecondaryColor>15,5,5</BuildingSecondaryColor>
+		<BuildingRoofColor>150,100,50</BuildingRoofColor>
+		<ZoneOfControlColor>200,160,50</ZoneOfControlColor>
+		<BuildingStyle>
+		</BuildingStyle>
+		<UnitStyle>
+		</UnitStyle>
+		<EnvironmentTerrainType>1</EnvironmentTerrainType>
+		<NonBuildableEnvironmentType>GrasslandEnvironment</NonBuildableEnvironmentType>
+		<PreferredLeader>Mr. Athos</PreferredLeader>
+		<PreferredLogoType>GenericCrest38</PreferredLogoType>
+		<WorkerName>Captain Jack</WorkerName>
+		<WorkerName>Roger</WorkerName>
+		<WorkerName>Wilhelm</WorkerName>
+		<Spellbook>DeathSpellbook</Spellbook>
+		<TechTree>Trog_Tech_Tree</TechTree>
+		<KnownStartingTech>F_Civilization_General</KnownStartingTech>
+		<A_Adventure>50</A_Adventure>
+	</RaceConfig>
+
+	<!-- ** Ilyan Orekeepers ** -->
+	<RaceConfig InternalName="Minor_Iyana">
+		<DisplayName>Ilyan Orekeepers</DisplayName>
+		<Capital>Iyana</Capital>
+		<CapitalHubType>NPC_MiningHamlet</CapitalHubType>
+		<CapitalImprovement>K_Mine</CapitalImprovement>
+		<CapitalImprovement>K_Armory</CapitalImprovement>
+		<ShortName>Iyana</ShortName>
+		<PopulaceName>Human</PopulaceName>
+		<Description>Keepers of a deep motherload of iron ore.</Description>
+		<RaceType>Kingdom</RaceType>
+		<Alignment>Good</Alignment>
+		<UnitSkinColor>150,95,54,255</UnitSkinColor>
+		<UnitHairColor>56,33,13,255</UnitHairColor>
+		<UnitClothing1Color>150,150,150,255</UnitClothing1Color>
+		<UnitClothing2Color>204,107,46,255</UnitClothing2Color>
+		<BuildingPrimaryColor>188,140,97</BuildingPrimaryColor>
+		<BuildingSecondaryColor>100,100,100</BuildingSecondaryColor>
+		<BuildingRoofColor>168,69,0,255</BuildingRoofColor>
+		<ZoneOfControlColor>214,196,125,255</ZoneOfControlColor>
+		<BuildingStyle>
+		</BuildingStyle>
+		<UnitStyle>
+		</UnitStyle>
+		<EnvironmentTerrainType>2</EnvironmentTerrainType>
+		<PreferredLeader>Ramis Blackstone</PreferredLeader>
+		<PreferredLogoType>IyanaCrest</PreferredLogoType>
+		<FactionType>Minor</FactionType>
+		<SovereignUnitType>Champion_Adante</SovereignUnitType>
+		<DefaultCityWallSet>CityWalls_Fence</DefaultCityWallSet>
+	</RaceConfig>
+	
+	
+    <AbilityBonus InternalName="CampaignStartingTechsAbility">
+        <AbilityBonusType>Player</AbilityBonusType>
+        <AbilityBonusOption InternalName="CampaignStartingTechs">
+            <DisplayName>Campaign Starting Techs</DisplayName>
+            <Description>This faction starts with a handful of technologies.</Description>
+            <Icon>Ability_Civics_Icon.png</Icon>
+            <GameModifier>
+                <ModType>Player</ModType>
+                <Attribute>UnlockTech</Attribute>
+                <StrVal>Leatherworking</StrVal>
+            </GameModifier>
+            <GameModifier>
+                <ModType>Player</ModType>
+                <Attribute>UnlockTech</Attribute>
+                <StrVal>Training</StrVal>
+            </GameModifier>
+            <Cost>1</Cost>
+            <HideWhenUpgraded>0</HideWhenUpgraded>
+            <Type>Army</Type>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>5</AIPriority>
+            </AIData>
+        </AbilityBonusOption>
+    </AbilityBonus>
+	
+    <AbilityBonus InternalName="CampaignCreatureTechAbility">
+        <AbilityBonusType>Player</AbilityBonusType>
+        <AbilityBonusOption InternalName="CampaignCreatureTechAbility">
+            <DisplayName>Builders</DisplayName>
+            <Description>Faction starts with the Restoration technology which allows them to build Apiarys, Orchards and Gardens as well as improving the amount of food grain provides</Description>
+            <Icon>Ability_Fortified_Icon.png</Icon>
+			
+            <GameModifier>
+                <ModType>Player</ModType>
+                <Attribute>UnlockTech</Attribute>
+                <StrVal>Archery</StrVal>
+            </GameModifier>
+            <GameModifier>
+                <ModType>Player</ModType>
+                <Attribute>UnlockTech</Attribute>
+                <StrVal>Standing_Army</StrVal>
+            </GameModifier>
+            <GameModifier>
+                <ModType>Player</ModType>
+                <Attribute>UnlockTech</Attribute>
+                <StrVal>Leatherworking</StrVal>
+            </GameModifier>
+            <GameModifier>
+                <ModType>Player</ModType>
+                <Attribute>UnlockTech</Attribute>
+                <StrVal>Weaponry</StrVal>
+            </GameModifier>
+           <GameModifier>
+                <ModType>Player</ModType>
+                <Attribute>UnlockTech</Attribute>
+                <StrVal>Armor</StrVal>
+            </GameModifier>
+          <GameModifier>
+                <ModType>Player</ModType>
+                <Attribute>UnlockTech</Attribute>
+                <StrVal>Weaponsmithing</StrVal>
+            </GameModifier>
+			
+            <Cost>1</Cost>
+            <HideWhenUpgraded>0</HideWhenUpgraded>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>5</AIPriority>
+            </AIData>
+        </AbilityBonusOption>
+    </AbilityBonus>
+
+	<!-- Give the creatures some tech so their "template" units have actual weapons and armor -->
+    <RaceConfig InternalName="WildCreatures">
+        <DisplayName>Enemies</DisplayName>
+        <SelAbilityBonusOption>CampaignCreatureTechAbility</SelAbilityBonusOption>
+    </RaceConfig>
+	
+
+
+
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- CITIES -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	
+    <!-- **************************************************************************************************************************************************************************** -->
+	<!-- PLAYER'S MAP 2 CAPITAL -->
+	<!-- **************************************************************************************************************************************************************************** -->
+
+	<ImprovementType InternalName="FEC_CITY_Map2Player">
+        <DisplayName>Outpost</DisplayName>
+        <IsCityHub>1</IsCityHub>
+		<InitialPopulation>20</InitialPopulation>
+        <RequiresCity>0</RequiresCity>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>SwampTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <PreferredTerrain>Forest</PreferredTerrain>
+        <ZOCMinRadius>1</ZOCMinRadius>
+        <ZOCMaxRadius>1</ZOCMaxRadius>
+        <ZOCRadiusTurnsBeforeUpdate>1</ZOCRadiusTurnsBeforeUpdate>
+        <BuildRadius>1</BuildRadius>
+        <BuildableTiles>50</BuildableTiles>
+        <CitywideDuplicateImpLimit>1</CitywideDuplicateImpLimit>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <LaborToBuild>0</LaborToBuild>
+        <GameModifier>
+            <ModType>LevelBarrier</ModType>
+            <Attribute>Population</Attribute>
+            <Value>60</Value>
+            <CityUpgrade>CityHub2</CityUpgrade>
+        </GameModifier>
+        <GameModifier>
+            <ModType>CityDefenseSummon</ModType>
+            <Attribute>SummonUnitByClass</Attribute>
+            <Value>1</Value>
+            <Provides>+1 City Defender Party</Provides>
+            <UnitClass>CityDefender_Party</UnitClass>
+        </GameModifier>
+        <AIName>Outpost</AIName>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>5</AIPriority>
+        </AIData>
+        <UnlocksShopItem>Club</UnlocksShopItem>
+        <UnlocksShopItem>Staff</UnlocksShopItem>
+        <ArtDef>Art_CityHub1</ArtDef>
+    </ImprovementType>
+	
+    <!-- **************************************************************************************************************************************************************************** -->
+	<!-- PLAYER'S MAP 3 CAPITAL -->
+	<!-- **************************************************************************************************************************************************************************** -->
+
+	<ImprovementType InternalName="FEC_CITY_Map3Player">
+        <DisplayName>Outpost</DisplayName>
+        <IsCityHub>1</IsCityHub>
+		<InitialPopulation>30</InitialPopulation>
+        <RequiresCity>0</RequiresCity>
+        <BarredTerrain>River</BarredTerrain>
+        <BarredTerrain>SwampTerrain</BarredTerrain>
+        <PreferredTerrain>Category:Land</PreferredTerrain>
+        <PreferredTerrain>Forest</PreferredTerrain>
+        <ZOCMinRadius>1</ZOCMinRadius>
+        <ZOCMaxRadius>1</ZOCMaxRadius>
+        <ZOCRadiusTurnsBeforeUpdate>1</ZOCRadiusTurnsBeforeUpdate>
+        <BuildRadius>1</BuildRadius>
+        <BuildableTiles>50</BuildableTiles>
+        <CitywideDuplicateImpLimit>1</CitywideDuplicateImpLimit>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <LaborToBuild>0</LaborToBuild>
+        <GameModifier>
+            <ModType>LevelBarrier</ModType>
+            <Attribute>Population</Attribute>
+            <Value>60</Value>
+            <CityUpgrade>CityHub2</CityUpgrade>
+        </GameModifier>
+        <GameModifier>
+            <ModType>CityDefenseSummon</ModType>
+            <Attribute>SummonUnitByClass</Attribute>
+            <Value>1</Value>
+            <Provides>+1 City Defender Party</Provides>
+            <UnitClass>CityDefender_Party</UnitClass>
+        </GameModifier>
+        <AIName>Outpost</AIName>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>5</AIPriority>
+        </AIData>
+        <UnlocksShopItem>Club</UnlocksShopItem>
+        <UnlocksShopItem>Staff</UnlocksShopItem>
+        <ArtDef>Art_CityHub1</ArtDef>
+    </ImprovementType>
+	
+    <!-- **************************************************************************************************************************************************************************** -->
+	<!-- MAP 1 MINOR -->
+	<!-- **************************************************************************************************************************************************************************** -->
+
+	<ImprovementType InternalName="FEC_CITY_Map1Minor">
+		<DisplayName>Outpost</DisplayName>
+		<IsCityHub>1</IsCityHub>
+		<RequiresCity>0</RequiresCity>
+		<BarredTerrain>River</BarredTerrain>
+		<BarredTerrain>SwampTerrain</BarredTerrain>
+		<PreferredTerrain>Category:Land</PreferredTerrain>
+		<ZOCMinRadius>1</ZOCMinRadius>
+		<ZOCMaxRadius>2</ZOCMaxRadius>
+		<ZOCRadiusTurnsBeforeUpdate>10</ZOCRadiusTurnsBeforeUpdate>
+		<BuildRadius>1</BuildRadius>
+		<BuildableTiles>50</BuildableTiles>
+		<CitywideDuplicateImpLimit>1</CitywideDuplicateImpLimit>
+		<GameModifier>
+			<ModType>Resource</ModType>
+			<Attribute>Prestige</Attribute>
+			<Value>0.5</Value>
+			<PerTurn>1</PerTurn>
+		</GameModifier>
+		<GameModifier>
+			<ModType>CityDefenseSummon</ModType>
+			<Attribute>SummonUnitByClass</Attribute>
+			<Value>1</Value>
+			<UnitClass>Peasant</UnitClass>
+		</GameModifier>
+		<AIName>Outpost</AIName>
+		<UnlocksShopItem>FEC_Potion_Restoration</UnlocksShopItem>
+		<UnlocksShopItem>FEC_Loot_Antidote</UnlocksShopItem>
+		<UnlocksShopItem>SaltedPork</UnlocksShopItem>
+		<UnlocksShopItem>HealingNectar</UnlocksShopItem>
+		<UnlocksShopItem>FEC_Potion_Healing</UnlocksShopItem>
+		<UnlocksShopItem>LeatherBoots</UnlocksShopItem>
+		<UnlocksShopItem>LeatherBreastpiece</UnlocksShopItem>
+		<UnlocksShopItem>LeatherGreaves</UnlocksShopItem>
+		<UnlocksShopItem>LeatherHelmet</UnlocksShopItem>
+		<UnlocksShopItem>LeatherVambraces</UnlocksShopItem>
+		<UnlocksShopItem>ChainBoots</UnlocksShopItem>
+		<UnlocksShopItem>ChainBreastpiece</UnlocksShopItem>
+		<UnlocksShopItem>ChainGreaves</UnlocksShopItem>
+		<UnlocksShopItem>ChainHelmet</UnlocksShopItem>
+		<UnlocksShopItem>ChainVambraces</UnlocksShopItem>
+		<UnlocksShopItem>RoundShield</UnlocksShopItem>
+		<UnlocksShopItem>WoodShield</UnlocksShopItem>
+		<UnlocksShopItem>Staff</UnlocksShopItem>
+		<UnlocksShopItem>Axe</UnlocksShopItem>
+		<UnlocksShopItem>Spear</UnlocksShopItem>
+		<UnlocksShopItem>Dagger</UnlocksShopItem>
+		<UnlocksShopItem>Mace</UnlocksShopItem>
+		<UnlocksShopItem>Shortsword</UnlocksShopItem>
+        <ItemShopCostMultiplier>1.0</ItemShopCostMultiplier>
+		<ArtDef>Art_CityHub1</ArtDef>
+	</ImprovementType>
+	
+    <!-- **************************************************************************************************************************************************************************** -->
+	<!-- MAP 2 MINOR -->
+	<!-- **************************************************************************************************************************************************************************** -->
+
+	<ImprovementType InternalName="FEC_CITY_Map2Minor">
+		<DisplayName>Outpost</DisplayName>
+		<IsCityHub>1</IsCityHub>
+		<RequiresCity>0</RequiresCity>
+		<BarredTerrain>River</BarredTerrain>
+		<BarredTerrain>SwampTerrain</BarredTerrain>
+		<PreferredTerrain>Category:Land</PreferredTerrain>
+		<ZOCMinRadius>1</ZOCMinRadius>
+		<ZOCMaxRadius>2</ZOCMaxRadius>
+		<ZOCRadiusTurnsBeforeUpdate>10</ZOCRadiusTurnsBeforeUpdate>
+		<BuildRadius>1</BuildRadius>
+		<BuildableTiles>50</BuildableTiles>
+		<CitywideDuplicateImpLimit>1</CitywideDuplicateImpLimit>
+		<GameModifier>
+			<ModType>Resource</ModType>
+			<Attribute>Prestige</Attribute>
+			<Value>0.5</Value>
+			<PerTurn>1</PerTurn>
+		</GameModifier>
+		<GameModifier>
+			<ModType>CityDefenseSummon</ModType>
+			<Attribute>SummonUnitByClass</Attribute>
+			<Value>1</Value>
+			<UnitClass>Peasant</UnitClass>
+		</GameModifier>
+		<AIName>Outpost</AIName>
+		<UnlocksShopItem>FEC_Potion_Restoration</UnlocksShopItem>
+		<UnlocksShopItem>SaltedPork</UnlocksShopItem>
+		<UnlocksShopItem>HealingNectar</UnlocksShopItem>
+		<UnlocksShopItem>FEC_Potion_Healing</UnlocksShopItem>
+		<UnlocksShopItem>Potion_HealingStrong</UnlocksShopItem>
+		<UnlocksShopItem>ChainBoots</UnlocksShopItem>
+		<UnlocksShopItem>ChainBreastpiece</UnlocksShopItem>
+		<UnlocksShopItem>ChainGreaves</UnlocksShopItem>
+		<UnlocksShopItem>ChainHelmet</UnlocksShopItem>
+		<UnlocksShopItem>ChainVambraces</UnlocksShopItem>
+		<UnlocksShopItem>LeatherBoots</UnlocksShopItem>
+		<UnlocksShopItem>LeatherBreastpiece</UnlocksShopItem>
+		<UnlocksShopItem>LeatherGreaves</UnlocksShopItem>
+		<UnlocksShopItem>LeatherHelmet</UnlocksShopItem>
+		<UnlocksShopItem>LeatherVambraces</UnlocksShopItem>
+		<UnlocksShopItem>KiteShield</UnlocksShopItem>
+		<UnlocksShopItem>RoundShield</UnlocksShopItem>
+		<UnlocksShopItem>WoodShield</UnlocksShopItem>
+		<UnlocksShopItem>Staff</UnlocksShopItem>
+		<UnlocksShopItem>Warhammer</UnlocksShopItem>
+		<UnlocksShopItem>Axe</UnlocksShopItem>
+		<UnlocksShopItem>Spear</UnlocksShopItem>
+		<UnlocksShopItem>Dagger</UnlocksShopItem>
+		<UnlocksShopItem>Dagger_Sharp</UnlocksShopItem>
+		<UnlocksShopItem>Mace</UnlocksShopItem>
+		<UnlocksShopItem>Shortsword</UnlocksShopItem>
+		<UnlocksShopItem>Shortsword_Hunters</UnlocksShopItem>
+		<UnlocksShopItem>Broadsword</UnlocksShopItem>
+		<UnlocksShopItem>Longsword</UnlocksShopItem>
+		<UnlocksShopItem>Shortbow</UnlocksShopItem>
+        <ItemShopCostMultiplier>1.0</ItemShopCostMultiplier>
+		<ArtDef>Art_CityHub1</ArtDef>
+	</ImprovementType>
+	
+    <!-- **************************************************************************************************************************************************************************** -->
+	<!-- MAP 3 MINOR -->
+	<!-- **************************************************************************************************************************************************************************** -->
+
+	<ImprovementType InternalName="FEC_CITY_Map3Minor">
+		<DisplayName>Outpost</DisplayName>
+		<IsCityHub>1</IsCityHub>
+		<RequiresCity>0</RequiresCity>
+		<BarredTerrain>River</BarredTerrain>
+		<BarredTerrain>SwampTerrain</BarredTerrain>
+		<PreferredTerrain>Category:Land</PreferredTerrain>
+		<ZOCMinRadius>1</ZOCMinRadius>
+		<ZOCMaxRadius>2</ZOCMaxRadius>
+		<ZOCRadiusTurnsBeforeUpdate>10</ZOCRadiusTurnsBeforeUpdate>
+		<BuildRadius>1</BuildRadius>
+		<BuildableTiles>50</BuildableTiles>
+		<CitywideDuplicateImpLimit>1</CitywideDuplicateImpLimit>
+		<GameModifier>
+			<ModType>Resource</ModType>
+			<Attribute>Prestige</Attribute>
+			<Value>0.5</Value>
+			<PerTurn>1</PerTurn>
+		</GameModifier>
+		<GameModifier>
+			<ModType>CityDefenseSummon</ModType>
+			<Attribute>SummonUnitByClass</Attribute>
+			<Value>1</Value>
+			<UnitClass>Peasant</UnitClass>
+		</GameModifier>
+		<AIName>Outpost</AIName>
+		<UnlocksShopItem>FEC_Potion_Restoration</UnlocksShopItem>
+		<UnlocksShopItem>Potion_QuendarWine</UnlocksShopItem>
+		<UnlocksShopItem>SaltedPork</UnlocksShopItem>
+		<UnlocksShopItem>HealingNectar</UnlocksShopItem>
+		<UnlocksShopItem>FEC_Potion_Healing</UnlocksShopItem>
+		<UnlocksShopItem>Potion_HealingStrong</UnlocksShopItem>
+		<UnlocksShopItem>ChainBoots</UnlocksShopItem>
+		<UnlocksShopItem>ChainBreastpiece</UnlocksShopItem>
+		<UnlocksShopItem>ChainGreaves</UnlocksShopItem>
+		<UnlocksShopItem>ChainHelmet</UnlocksShopItem>
+		<UnlocksShopItem>ChainVambraces</UnlocksShopItem>
+		<UnlocksShopItem>LeatherBoots</UnlocksShopItem>
+		<UnlocksShopItem>LeatherBreastpiece</UnlocksShopItem>
+		<UnlocksShopItem>LeatherGreaves</UnlocksShopItem>
+		<UnlocksShopItem>LeatherHelmet</UnlocksShopItem>
+		<UnlocksShopItem>LeatherVambraces</UnlocksShopItem>
+		<UnlocksShopItem>KiteShield</UnlocksShopItem>
+		<UnlocksShopItem>RoundShield</UnlocksShopItem>
+		<UnlocksShopItem>WoodShield</UnlocksShopItem>
+		<UnlocksShopItem>Staff_Queens</UnlocksShopItem>
+		<UnlocksShopItem>Staff</UnlocksShopItem>
+		<UnlocksShopItem>Warhammer</UnlocksShopItem>
+		<UnlocksShopItem>Axe</UnlocksShopItem>
+		<UnlocksShopItem>Axe_Balanced</UnlocksShopItem>
+		<UnlocksShopItem>Spear</UnlocksShopItem>
+		<UnlocksShopItem>Spear_Champions</UnlocksShopItem>
+		<UnlocksShopItem>Dagger</UnlocksShopItem>
+		<UnlocksShopItem>Dagger_Sharp</UnlocksShopItem>
+		<UnlocksShopItem>Mace</UnlocksShopItem>
+		<UnlocksShopItem>BattleAxe</UnlocksShopItem>
+		<UnlocksShopItem>Shortsword</UnlocksShopItem>
+		<UnlocksShopItem>Shortsword_Hunters</UnlocksShopItem>
+		<UnlocksShopItem>Longsword</UnlocksShopItem>
+		<UnlocksShopItem>Shortbow</UnlocksShopItem>
+		<UnlocksShopItem>Shortbow_Balanced</UnlocksShopItem>
+        <ItemShopCostMultiplier>1.0</ItemShopCostMultiplier>
+		<ArtDef>Art_CityHub1</ArtDef>
+	</ImprovementType>
+
+	
+	
+    <GameItemType InternalName="FEC_Potion_Restoration">
+        <DisplayName>Restoration Potion</DisplayName>
+        <Description>This powerful potion not only heals the imbiber, but it removes any injuries a champion may have sustained from escaping from battle.</Description>
+        <ShopValue>75</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>CurHealth</Attribute>
+            <Value>100</Value>
+            <Provides>Heals 100 Hit Points</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>HealInjuries</Attribute>
+            <Provides>Removes all injuries champions have from escaping combat</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>100</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Potion_Restoration_ArtDef</ArtDef>
+    </GameItemType>
+
+    <GameItemType InternalName="FEC_Potion_Healing">
+        <DisplayName>Healing Potion</DisplayName>
+        <Description>A revitalizing concoction of magical origin that can heal the wounded. Drink it to heal 60 points of damage.</Description>
+        <ShopValue>30</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>CurHealth</Attribute>
+            <Value>60</Value>
+            <Provides>Heals 60 Hit Points</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <IsUsable>1</IsUsable>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>Potion_Healing_ArtDef</ArtDef>
+    </GameItemType>
+	
+
+
+
+
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- SPELL OVERRIDES -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+
+	<!-- Don't want the player being able to kill champions! -->
+    <SpellDef InternalName="StealSpirit">
+        <AutoUnlock>0</AutoUnlock>
+    </SpellDef>	
+
+	<!-- Disable the sandbox game version -->
+    <SpellDef InternalName="LowerLand">
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <AutoUnlock>0</AutoUnlock>
+    </SpellDef>
+
+	<!-- Campaign version that isn't unlocked with Earth1 & requires less mana -->
+    <SpellDef InternalName="FEC_LowerLand">
+        <DisplayName>Lower Land</DisplayName>
+        <Description>Turn mountain into hill; hill into land; but not land into water.</Description>
+        <Image>S_LowerLand_Painting.png</Image>
+        <IconFG>S_LowerLand_Icon.png</IconFG>
+        <IconBG>S_LowerLand_Icon_BG.png</IconBG>
+        <IconColor>153,110,71</IconColor>
+        <AutoUnlock>0</AutoUnlock>
+        <SpellType>Strategic</SpellType>
+        <SpellClass>Terraform</SpellClass>
+        <SpellSubClass>Other</SpellSubClass>
+        <SpellTargetType>NeutralGround</SpellTargetType>
+        <SpellResourceCost>
+            <Resource>Mana</Resource>
+            <Amount>10</Amount>
+        </SpellResourceCost>
+        <GameModifier>
+            <ModType>Map</ModType>
+            <Attribute>LowerLand</Attribute>
+        </GameModifier>
+        <ValidTerrainType>HillsTerrain</ValidTerrainType>
+        <ValidTerrainCategory>Mountain</ValidTerrainCategory>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>5</AIPriority>
+        </AIData>
+        <HitSoundFX>Spell_LowerLand_01</HitSoundFX>
+        <SpellDefEffect>
+            <EffectName>S_LowerLand_Particle</EffectName>
+            <LocalPosition>0,0,0</LocalPosition>
+            <EffectScale>0.3</EffectScale>
+            <EffectDelay>0</EffectDelay>
+            <SnapToTerrain>1</SnapToTerrain>
+        </SpellDefEffect>
+    </SpellDef>
+	
+	<!-- Hide the sandbox game version -->
+    <SpellDef InternalName="Heal">
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <AutoUnlock>0</AutoUnlock>
+    </SpellDef>
+	
+	<!-- Campaign version that can be used in strategic mode, and is a bit cheaper -->
+    <SpellDef InternalName="FEC_Heal">
+        <DisplayName>Heal</DisplayName>
+        <Description>Heals target unit by 8 (+4 per life shard).</Description>
+        <FormattedDescription>Heals target unit by %d.</FormattedDescription>
+        <Image>T_Heal_Painting.png</Image>
+        <IconFG>T_Heal_Icon.png</IconFG>
+        <IconBG>T_Heal_Icon_BG.png</IconBG>
+        <IconColor>174,255,59</IconColor>
+        <AutoUnlock>1</AutoUnlock>
+        <SpellType>Strategic</SpellType>
+        <SpellClass>Defensive</SpellClass>
+        <SpellSubClass>Heal</SpellSubClass>
+        <SpellTargetType>FriendlyUnit</SpellTargetType>
+        <Prereq>
+            <Type>AbilityBonusOption</Type>
+            <Attribute>Life2</Attribute>
+        </Prereq>
+        <SpellResourceCost>
+            <Resource>Mana</Resource>
+            <Amount>4</Amount>
+        </SpellResourceCost>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>CurHealth</Attribute>
+            <Calculate InternalName="Calc" ValueOwner="CastingUnit">
+                <Expression><![CDATA[[UnitOwner_GetNumLifeShards] * 4]]></Expression>
+            </Calculate>
+            <Calculate InternalName="Value">
+                <Expression><![CDATA[[Calc] + 8]]></Expression>
+            </Calculate>
+            <Calculate InternalName="ValueForFormattedDescription">
+                <Expression><![CDATA[[Calc] + 8]]></Expression>
+            </Calculate>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>5</AIPriority>
+        </AIData>
+        <HitSoundFX>Spell_Heal_01</HitSoundFX>
+        <SpellDefEffect>
+            <EffectName>T_Heal_Particle</EffectName>
+            <LocalPosition>0,0,0</LocalPosition>
+            <EffectScale>.75</EffectScale>
+            <EffectDelay>0</EffectDelay>
+            <SnapToTerrain>1</SnapToTerrain>
+        </SpellDefEffect>
+    </SpellDef>
+
+	<!-- Campaign version that is a bit cheaper -->
+    <SpellDef InternalName="FEC_Heal_Tactical">
+        <DisplayName>Heal</DisplayName>
+        <Description>Heals target unit by 8 (+4 per life shard).</Description>
+        <FormattedDescription>Heals target unit by %d.</FormattedDescription>
+        <Image>T_Heal_Painting.png</Image>
+        <IconFG>T_Heal_Icon.png</IconFG>
+        <IconBG>T_Heal_Icon_BG.png</IconBG>
+        <IconColor>174,255,59</IconColor>
+        <AutoUnlock>1</AutoUnlock>
+        <SpellType>Tactical</SpellType>
+        <SpellClass>Defensive</SpellClass>
+        <SpellSubClass>Heal</SpellSubClass>
+        <SpellTargetType>FriendlyUnit</SpellTargetType>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <Prereq>
+            <Type>AbilityBonusOption</Type>
+            <Attribute>Life2</Attribute>
+        </Prereq>
+        <SpellResourceCost>
+            <Resource>Mana</Resource>
+            <Amount>8</Amount>
+        </SpellResourceCost>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>CurHealth</Attribute>
+            <IsForFormattedDescription>1</IsForFormattedDescription>
+            <Calculate InternalName="Calc" ValueOwner="CastingUnit">
+                <Expression><![CDATA[[UnitOwner_GetNumLifeShards] * 4]]></Expression>
+            </Calculate>
+            <Calculate InternalName="Value">
+                <Expression><![CDATA[[Calc] + 8]]></Expression>
+            </Calculate>
+            <Calculate InternalName="ValueForFormattedDescription">
+                <Expression><![CDATA[[Calc] + 8]]></Expression>
+            </Calculate>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>5</AIPriority>
+        </AIData>
+        <HitSoundFX>Spell_Heal_01</HitSoundFX>
+        <SpellDefEffect>
+            <EffectName>T_Heal_Particle</EffectName>
+            <LocalPosition>0,0,0</LocalPosition>
+            <EffectScale>.75</EffectScale>
+            <EffectDelay>0</EffectDelay>
+            <SnapToTerrain>1</SnapToTerrain>
+        </SpellDefEffect>
+    </SpellDef>
+
+    <SpellDef InternalName="FEC_SPELL_SummonTitan">
+        <DisplayName>Summon Titan</DisplayName>
+        <Description>Summons a Titan from a distant world to fight for five turns.</Description>
+        <Image>T_ParidensReturn_Painting.png</Image>
+        <IconFG>T_ParidensReturn_Icon.png</IconFG>
+        <IconBG>T_ParidensReturn_Icon_BG.png</IconBG>
+        <IconColor>255,180,0</IconColor>
+        <CastTime>1</CastTime>
+        <SpellBookSortCategory>Summon</SpellBookSortCategory>
+        <SpellBookSortSubCategory>Summon</SpellBookSortSubCategory>
+        <SpellType>Tactical</SpellType>
+        <SpellClass>Offensive</SpellClass>
+        <SpellSubClass>Summon</SpellSubClass>
+        <SpellTargetType>EmptyTile</SpellTargetType>
+        <SpellResourceCost>
+            <Resource>Mana</Resource>
+            <Amount>50</Amount>
+        </SpellResourceCost>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>SummonUnit</Attribute>
+            <StrVal>Titan</StrVal>
+            <UnitClass>Titan</UnitClass>
+            <Duration>5</Duration>
+            <Value>15</Value>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>100</AIPriority>
+        </AIData>
+        <HitSoundFX>Spell_ParidensReturn_01</HitSoundFX>
+        <SpellDefEffect>
+            <EffectName>T_ParidensReturn_Particle</EffectName>
+            <LocalPosition>0,0,0</LocalPosition>
+            <EffectScale>0.4</EffectScale>
+            <EffectDelay>0</EffectDelay>
+            <SnapToTerrain>1</SnapToTerrain>
+        </SpellDefEffect>
+    </SpellDef>
+	
+    <AbilityBonus InternalName="FEC_Spell_DespairAbility">
+        <AbilityBonusOption InternalName="Spell_Despair">
+            <DisplayName>Despair</DisplayName>
+            <Description>Allows the unit to cast Despair</Description>
+            <Icon>T_DrainLife_Icon.png</Icon>
+            <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>UnlockCombatAbility</Attribute>
+                <StrVal>FEC_Despair</StrVal>
+                <Provides>Transfers 1 hit point per level from all enemies to the caster.</Provides>
+            </GameModifier>
+            <CombatRating>50</CombatRating>
+            <HideWhenUpgraded>0</HideWhenUpgraded>
+            <IsCombatAbility>1</IsCombatAbility>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>5</AIPriority>
+            </AIData>
+        </AbilityBonusOption>
+    </AbilityBonus>
+	
+    <SpellDef InternalName="FEC_Despair">
+        <DisplayName>Despair</DisplayName>
+        <Description>Transfers 1 hit point per level from all enemies to the caster.</Description>
+        <FormattedDescription>Transfers %d hit point per level from all enemies to the caster.</FormattedDescription>
+        <Image>T_DrainLife_Painting.png</Image>
+        <IconFG>T_DrainLife_Icon.png</IconFG>
+        <IconColor>20,20,20</IconColor>
+        <Cooldown>2</Cooldown>
+        <SpellBookSortCategory>Unit</SpellBookSortCategory>
+        <SpellBookSortSubCategory>UnitDamage</SpellBookSortSubCategory>
+        <SpellType>Tactical</SpellType>
+        <SpellClass>Offensive</SpellClass>
+        <SpellSubClass>Damage</SpellSubClass>
+        <SpellTargetType>AllEnemyUnits</SpellTargetType>
+        <IsResistable>0</IsResistable>
+        <IsSpecialAbility>1</IsSpecialAbility>
+        <SpellTypeDrain>1</SpellTypeDrain>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>Lifesteal</Attribute>
+            <IsForFormattedDescription>1</IsForFormattedDescription>
+            <Calculate InternalName="Calc" ValueOwner="CastingUnit">
+                <Expression><![CDATA[[Unit_GetLevel] * 1]]></Expression>
+            </Calculate>
+            <Calculate InternalName="Value">
+                <Expression><![CDATA[[Calc]]]></Expression>
+            </Calculate>
+            <Calculate InternalName="ValueForFormattedDescription">
+                <Expression><![CDATA[[Calc]]]></Expression>
+            </Calculate>
+        </GameModifier>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>10</AIPriority>
+        </AIData>
+        <HitSoundFX>Spell_DrainLife_01</HitSoundFX>
+        <SpellCastEffectName>T_Erosion_Particle</SpellCastEffectName>
+        <SpellCastEffectScale>1</SpellCastEffectScale>
+        <SpellCastProjectile>1</SpellCastProjectile>
+        <SpellCastProjectileSpeed>700</SpellCastProjectileSpeed>
+        <SpellDefEffect>
+            <EffectName>T_DrainLife_Particle</EffectName>
+            <LocalPosition>0,0,0</LocalPosition>
+            <EffectScale>0.50</EffectScale>
+            <EffectDelay>0</EffectDelay>
+            <SnapToTerrain>0</SnapToTerrain>
+        </SpellDefEffect>
+    </SpellDef>
+	
+
+
+
+
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- EQUIPMENT -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+
+    <GameItemType InternalName="FEC_ITEM_HealthAmulet">
+        <DisplayName>Procipinee's Amulet</DisplayName>
+        <Description>A gift from the queen, this necklace the wearer's heal rate.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>10</AdditionalTrainingTurns>
+        <ShopValue>390</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_HealthRegen</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <ArtDef>AmuletOfLife_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="AmuletOfLife_ArtDef">
+            <GameItemTypeModelPack InternalName="AmuletOfLife_Default">
+                <IconFile>AmuletofLife_Item.png</IconFile>
+                <TintR>140</TintR>
+                <TintG>210</TintG>
+                <TintB>110</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+
+	
+	
+    <GameItemType InternalName="FEC_ITEM_TrollCharm">
+        <DisplayName>Troll Charm</DisplayName>
+        <Description>This bone charm increases the wearer's heal rate.</Description>
+        <Type>Accessory</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>10</AdditionalTrainingTurns>
+        <ShopValue>390</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_HealthRegen</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_TacticalHealthRegen</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <ArtDef>TrollCharm_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="TrollCharm_ArtDef">
+            <GameItemTypeModelPack InternalName="TrollCharm_Default">
+                <IconFile>TrollCharm_Item.png</IconFile>
+                <TintR>240</TintR>
+                <TintG>10</TintG>
+                <TintB>10</TintB>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+	
+	
+    <GameItemType InternalName="FEC_WeakDagger">
+        <DisplayName>Primitive Dagger</DisplayName>
+        <Description>This bronze dagger is dull and worn but can still bite.</Description>
+        <Type>Weapon</Type>
+        <WeaponType>OneHanded</WeaponType>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>10</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>1</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Cutting</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>0</Value>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <AIData AIPersonality="AI_General">
+            <AIPrefType>AIPrefType_CUTTING</AIPrefType>
+            <AIPriority>80</AIPriority>
+        </AIData>
+        <ArtDef>Dagger_Crude_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Dagger_Crude_ArtDef">
+            <GameItemTypeModelPack InternalName="Dagger_Crude_Default">
+                <IconFile>W_Dagger_Icon_01.png</IconFile>
+                <TintR>207</TintR>
+                <TintG>53</TintG>
+                <TintB>16</TintB>
+                <AttackSFX>Hit_Dagger1</AttackSFX>
+                <AttackSFX>Hit_Dagger2</AttackSFX>
+                <AttackSFX>Hit_Dagger3</AttackSFX>
+                <EquipSFX>Equip_Sword_01</EquipSFX>
+                <EquipSFX>Equip_Sword_02</EquipSFX>
+                <EquipSFX>Equip_Sword_03</EquipSFX>
+                <OnHitParticleName>Dagger_Attack</OnHitParticleName>
+                <SoundPack>SoundPack_Dagger</SoundPack>
+                <GameItemTypeModel>
+                    <ModelFile>Gfx\HKB\Weapons\W_Dagger_01.hkb</ModelFile>
+                    <Texture_All>gfx/hkb/Weapons/FE_Weapons_01.png</Texture_All>
+                    <Attachment>hand_right_Lcf</Attachment>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+	
+
+    <GameItemType InternalName="FEC_Greatsword_SwordOfWrath">
+        <DisplayName>Sword of Wrath</DisplayName>
+        <Description>After the sacrifice of Red Spring, as the butchermen writhed upon their altars, Amhah called to Curgen.  The titan never responded, the ritual was incomplete.  Realizing his spell would never end Amhah turned his sword on himself, but it was too late.  He is trapped as well.</Description>
+        <Type>Weapon</Type>
+        <Type>Defense</Type>
+        <WeaponType>TwoHanded</WeaponType>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>1000</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Cutting</StrVal>
+            <Value>25</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>20</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_HPfromKills</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+            <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>AdjustUnitStat</Attribute>
+                <StrVal>UnitStat_MaxCounterAttack</StrVal>
+                <Value>1</Value>
+                <Provides>+1 Counterattack per round</Provides>
+            </GameModifier>
+            <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>AdjustUnitStat</Attribute>
+                <StrVal>UnitStat_Enrage_Damage_Bonus</StrVal>
+                <Value>0.3</Value>
+                <Provides>+30% cumulative damage with each successful attack</Provides>
+            </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Unique</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>6</Attribute>
+        </Prereq>
+        <AIData AIPersonality="AI_General">
+            <AIPrefType>AIPrefType_CUTTING</AIPrefType>
+            <AIPriority>720</AIPriority>
+        </AIData>
+        <ArtDef>Greatsword_SwordOfWrath_ArtDef</ArtDef>
+    </GameItemType>
+	
+	
+    <GameItemType InternalName="FEC_ITEM_Shortsword_Venomous">
+        <DisplayName>Venomous Short Sword</DisplayName>
+        <Description>The poison that coats this blade it is only lethal when exposed to blood.  Making the blade safe to handle, as long as you don't have any cuts on your fingers. (victims take 2 poison damage per turn)</Description>
+        <Type>Weapon</Type>
+        <WeaponType>OneHanded</WeaponType>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>570</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Cutting</StrVal>
+            <Value>14</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CombatSpeed</StrVal>
+            <Value>4</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>5</Value>
+        </GameModifier>
+            <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>AdjustUnitStat</Attribute>
+                <StrVal>UnitStat_MaxCounterAttack</StrVal>
+                <Value>1</Value>
+                <Provides>+1 Counterattack per round</Provides>
+            </GameModifier>
+            <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>MeleeAppliesSpell</Attribute>
+                <StrVal>Poisoned1</StrVal>
+                <Provides>Victims take 2 Poison damage per turn</Provides>
+            </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Uncommon</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>5</Attribute>
+        </Prereq>
+        <AIData AIPersonality="AI_General">
+            <AIPrefType>AIPrefType_CUTTING</AIPrefType>
+            <AIPriority>350</AIPriority>
+        </AIData>
+        <ArtDef>Shortsword_Venomous_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Shortsword_Venomous_ArtDef">
+            <GameItemTypeModelPack InternalName="Shortsword_Venomous_Default">
+                <IconFile>W_Shortsword_Venomous_Icon_01.png</IconFile>
+                <TintR>15</TintR>
+                <TintG>53</TintG>
+                <TintB>230</TintB>
+                <AttackSFX>Hit_Sword1</AttackSFX>
+                <AttackSFX>Hit_Sword2</AttackSFX>
+                <AttackSFX>Hit_Sword3</AttackSFX>
+                <AttackSFX>Hit_Sword4</AttackSFX>
+                <EquipSFX>Equip_Sword_01</EquipSFX>
+                <EquipSFX>Equip_Sword_02</EquipSFX>
+                <EquipSFX>Equip_Sword_03</EquipSFX>
+                <GameItemTypeModel>
+                    <ModelFile>gfx/hkb/Weapons/W_Shortsword_Venomous_01.hkb</ModelFile>
+                    <Texture_All>gfx/hkb/Weapons/FE_Weapons_01.png</Texture_All>
+                    <Attachment>hand_right_Lcf</Attachment>
+                    <Color_Clothing1>0,67,62</Color_Clothing1>
+                    <Color_Metal>100,140,100</Color_Metal>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+	
+	
+    <GameItemType InternalName="FEC_WEAPON_CrudeAxe">
+        <DisplayName>Crude Axe</DisplayName>
+        <Description>Sometimes wood is not the only thing that needs chopping.</Description>
+        <Type>Weapon</Type>
+        <WeaponType>Blunt</WeaponType>
+        <CanBeEquipped>1</CanBeEquipped>
+        <AdditionalTrainingTurns>10</AdditionalTrainingTurns>
+        <ShopValue>30</ShopValue>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>Metal</Attribute>
+            <Value>4</Value>
+        </ProductionRequirement>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Cutting</StrVal>
+            <Value>2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CombatSpeed</StrVal>
+            <Value>-2</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>10</Value>
+        </GameModifier>
+            <GameModifier>
+                <ModType>Unit</ModType>
+                <Attribute>AdjustUnitStat</Attribute>
+                <StrVal>UnitStat_BackswingChance</StrVal>
+                <Value>100</Value>
+                <Provides>Backswing- If the attack misses the unit gets a second attack against the same target</Provides>
+            </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Weaponry</Attribute>
+        </Prereq>
+        <AIData AIPersonality="AI_General">
+            <AIPrefType>AIPrefType_CUTTING</AIPrefType>
+            <AIPriority>162</AIPriority>
+        </AIData>
+        <ArtDef>Axe_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="Axe_ArtDef">
+            <GameItemTypeModelPack InternalName="Axe_Default">
+                <IconFile>W_Axe_Icon_01.png</IconFile>
+                <TintR>0</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <AttackSFX>Hit_Hammer1</AttackSFX>
+                <AttackSFX>Hit_Hammer2</AttackSFX>
+                <AttackSFX>Hit_Hammer3</AttackSFX>
+                <EquipSFX>Equip_WoodenItem_01</EquipSFX>
+                <EquipSFX>Equip_WoodenItem_02</EquipSFX>
+                <EquipSFX>Equip_WoodenItem_03</EquipSFX>
+                <GameItemTypeModel>
+                    <ModelFile>gfx/hkb/Weapons/W_Axe_01.hkb</ModelFile>
+                    <Texture_All>gfx/hkb/Weapons/FE_Weapons_01.png</Texture_All>
+                    <Attachment>hand_right_Lcf</Attachment>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+	
+
+	
+	
+	
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- TERRAIN -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- **************************************************************************************************************************************************************************** -->
+	
+	
+	<!--**********************************-->
+	<!--************** Land ***************-->
+	<!--**********************************-->
+	
+  <TerrainType InternalName="Land">
+    <DisplayName>Plains</DisplayName>
+    <MaxHeight>50</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>10</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>1</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>6</MaxBrushRadius>
+    <PlacementOrder>0</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water</CannotBorder>
+    <MapGenPlaceChance>100</MapGenPlaceChance>
+    <GameModifier InternalName="CityTileYield_Fertile">
+      <ModType>Resource</ModType>
+      <Attribute>TileYieldGrain</Attribute>
+      <Value>1.5</Value>
+      <PerTurn>1</PerTurn>
+    </GameModifier>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/barren_ground_rough.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <TerrainPropData>P_Berren_Land_01,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Land_02,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Land_03,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Land_04,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Land_05,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Land_06,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Land_07,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Land_08,100</TerrainPropData>
+
+        <TacticalMap>T_Barren_Land_01</TacticalMap>
+	<TacticalMap>T_Barren_Land_02</TacticalMap>
+
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+ 	<ClothMapColor>205,185,130</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/fallen_ground.dds</Texture>
+
+      <TerrainPropData>P_Fallen_Land_01,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Land_02,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Land_03,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Land_04,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Land_05,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Land_06,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Land_07,100</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+     	<TacticalMap>T_Fallen_Land_01</TacticalMap>
+      	<TacticalMap>T_Fallen_Land_02</TacticalMap>
+	<TacticalMap>T_Fallen_Land_03</TacticalMap>
+
+      <DistanceFogColor>83,65,88</DistanceFogColor>
+
+	<ClothMapColor>165,180,190</ClothMapColor>
+
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/light_grass.dds</Texture>
+
+      <TextureWeight>1.0000</TextureWeight>
+      <TerrainPropData>P_Grassland_01,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_02,50</TerrainPropData>
+      <TerrainPropData>P_Grassland_03,30</TerrainPropData>
+      <TerrainPropData>P_Grassland_04,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_05,90</TerrainPropData>
+      <TerrainPropData>P_Grassland_06,20</TerrainPropData>
+     	<TacticalMap>T_Grassland_Land_01</TacticalMap>
+	<TacticalMap>T_Grassland_Land_02</TacticalMap>
+	  	  
+      <DistanceFogColor>200,220,228</DistanceFogColor>
+
+      <ClothMapColor>180,185,120</ClothMapColor>
+
+    </TerrainTypeEnvData>
+  </TerrainType>
+  
+  
+	<!--**********************************-->
+	<!--************** Rugged **************-->
+	<!--**********************************-->
+	
+  <TerrainType InternalName="Rugged_Land">
+    <DisplayName>Plains</DisplayName>
+    <MaxHeight>55</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>10</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>1</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>6</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>1</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water</CannotBorder>
+    <MapGenPlaceChance>20</MapGenPlaceChance>
+    <GameModifier InternalName="CityTileYield_Fertile">
+      <ModType>Resource</ModType>
+      <Attribute>TileYieldGrain</Attribute>
+      <Value>1.5</Value>
+      <PerTurn>1</PerTurn>
+    </GameModifier>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/barren_ground_Blighted.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TerrainPropData>P_Berren_Rugged_01,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Rugged_02,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Rugged_03,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Rugged_04,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Rugged_05,100</TerrainPropData>
+      <TacticalMap>T_Barren_Rugged_01</TacticalMap>
+      <TacticalMap>T_Barren_Rugged_02</TacticalMap>
+      <TacticalMap>T_Barren_Rugged_03</TacticalMap>
+      <TacticalMap>T_Barren_Rugged_09</TacticalMap>
+      <TacticalMap>T_Barren_Rugged_10</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>200,165,115</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/fallen_ground_rough.dds</Texture>
+
+      <TerrainPropData>P_Fallen_Rugged_Land_01,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_02,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_03,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_04,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_05,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Rugged_Land_06,100</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Fallen_Rugged_01</TacticalMap>
+      <DistanceFogColor>83,65,88</DistanceFogColor>
+
+      <ClothMapColor>150,160,165</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/light_grass_rough.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+
+      <TerrainPropData>P_Grassland_01,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_02,50</TerrainPropData>
+      <TerrainPropData>P_Grassland_03,30</TerrainPropData>
+      <TerrainPropData>P_Grassland_04,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_05,90</TerrainPropData>
+      <TacticalMap>T_Grassland_Rugged_01</TacticalMap>
+      <TacticalMap>T_Grassland_Rugged_02</TacticalMap>
+      <TacticalMap>T_Grassland_Rugged_03</TacticalMap>
+      <DistanceFogColor>200,220,228</DistanceFogColor>
+
+      <ClothMapColor>175,170,110</ClothMapColor>
+
+    </TerrainTypeEnvData>
+  </TerrainType>
+
+  
+	<!--**********************************-->
+	<!--************** Fertile **************-->
+	<!--**********************************-->
+	
+  <TerrainType InternalName="Fertile_Land">
+    <DisplayName>Plains</DisplayName>
+    <MaxHeight>55</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>10</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>1</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>4</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>1</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <CannotBorder>Category:Water</CannotBorder>
+    <MapGenPlaceChance>20</MapGenPlaceChance>
+    <!-- City tile yield modifiers -->
+    <GameModifier InternalName="CityTileYield_Fertile">
+      <ModType>Resource</ModType>
+      <Attribute>TileYieldGrain</Attribute>
+      <Value>1.5</Value>
+      <PerTurn>1</PerTurn>
+    </GameModifier>
+    <GameModifier InternalName="CityTileYield_Fertile">
+      <ModType>Resource</ModType>
+      <Attribute>TileYieldEssence</Attribute>
+      <Value>0.15</Value>
+      <PerTurn>1</PerTurn>
+    </GameModifier>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/barren_ground_fertile.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TerrainPropData>P_Berren_Fertile_01,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Fertile_02,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Fertile_03,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Fertile_04,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Fertile_05,100</TerrainPropData>
+      <TerrainPropData>P_Berren_Fertile_06,100</TerrainPropData>
+      <TacticalMap>T_Barren_Fertile_01</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>185,175,120</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/fallen_ground_fertile.dds</Texture>
+      <TerrainPropData>P_Fallen_Fertile_Land_01,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Fertile_Land_02,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Fertile_Land_03,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Fertile_Land_04,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Fertile_Land_05,100</TerrainPropData>
+      <TerrainPropData>P_Fallen_Fertile_Land_06,100</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Fallen_Fertile_01</TacticalMap>
+      <TacticalMap>T_Fallen_Fertile_02</TacticalMap>
+      <TacticalMap>T_Fallen_Fertile_03</TacticalMap>
+      <TacticalMap>T_Fallen_Fertile_04</TacticalMap>
+      <DistanceFogColor>83,65,88</DistanceFogColor>
+
+      <ClothMapColor>140,175,170</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/light_grass_fertile.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TerrainPropData>P_Grassland_01,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_02,50</TerrainPropData>
+      <TerrainPropData>P_Grassland_03,30</TerrainPropData>
+      <TerrainPropData>P_Grassland_04,100</TerrainPropData>
+      <TerrainPropData>P_Grassland_05,90</TerrainPropData>
+      <TerrainPropData>P_Grassland_06,20</TerrainPropData>
+      <TacticalMap>T_Grassland_Fertile_01</TacticalMap>
+      <TacticalMap>T_Grassland_Fertile_02</TacticalMap>
+      <TacticalMap>T_Grassland_Fertile_03</TacticalMap>
+      <TacticalMap>T_Grassland_Fertile_04</TacticalMap>
+      <TacticalMap>T_Grassland_Fertile_09</TacticalMap>
+      <DistanceFogColor>200,220,228</DistanceFogColor>
+
+      <ClothMapColor>150,160,80</ClothMapColor>
+
+    </TerrainTypeEnvData>
+</TerrainType>
+
+  
+	<!--**********************************-->
+	<!--************** Desert **************-->
+	<!--**********************************-->
+	
+  <TerrainType InternalName="DesertTerrain">
+    <DisplayName>Desert</DisplayName>
+    <MaxHeight>55</MaxHeight>
+    <MinHeight>45</MinHeight>
+    <MovementCost>10</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>0</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>1</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>4</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>2</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <TerrainObjectGraphic>gfx/TacticalIcons/WorldMap_DesertTiles_1.png</TerrainObjectGraphic>
+    <CannotBorder>Category:Water</CannotBorder>
+    <CannotBorder>ArcticTerrain</CannotBorder>
+    <CannotBorder>SwampTerrain</CannotBorder>
+    <MapGenPlaceChance>20</MapGenPlaceChance>
+    <MinTilesPerSplat>30</MinTilesPerSplat>
+    <MaxTilesPerSplat>75</MaxTilesPerSplat>
+    <TerrainObjectType>Desert</TerrainObjectType>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TerrainPropData>P_Desert_01,10</TerrainPropData>
+      <TerrainPropData>P_Desert_02,100</TerrainPropData>
+      <TerrainPropData>P_Desert_03,100</TerrainPropData>
+      <TerrainPropData>P_Desert_04,100</TerrainPropData>
+      <TerrainPropData>P_Desert_05,10</TerrainPropData>
+      <TerrainPropData>P_Desert_06,100</TerrainPropData>
+      <TerrainPropData>P_Desert_07,10</TerrainPropData>
+      <TerrainPropData>P_Desert_08,5</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+	<TacticalMap>T_Barren_Desert_01</TacticalMap>
+	<TacticalMap>T_Barren_Desert_02</TacticalMap>
+	<TacticalMap>T_Barren_Desert_03</TacticalMap>
+	<TacticalMap>T_Barren_Desert_04</TacticalMap>
+	<TacticalMap>T_Barren_Desert_05</TacticalMap>
+	<TacticalMap>T_Barren_Desert_06</TacticalMap>
+	<TacticalMap>T_Barren_Desert_07</TacticalMap>
+
+      <ClothMapColor>235,225,170</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TerrainPropData>P_Desert_01,10</TerrainPropData>
+      <TerrainPropData>P_Desert_02,100</TerrainPropData>
+      <TerrainPropData>P_Desert_03,100</TerrainPropData>
+      <TerrainPropData>P_Desert_04,100</TerrainPropData>
+      <TerrainPropData>P_Desert_05,10</TerrainPropData>
+      <TerrainPropData>P_Desert_06,100</TerrainPropData>
+      <TerrainPropData>P_Desert_07,10</TerrainPropData>
+      <TerrainPropData>P_Desert_08,5</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Fallen_Desert_01</TacticalMap>
+	<TacticalMap>T_Fallen_Desert_02</TacticalMap>
+	<TacticalMap>T_Fallen_Desert_03</TacticalMap>
+	<TacticalMap>T_Fallen_Desert_04</TacticalMap>
+	<TacticalMap>T_Fallen_Desert_05</TacticalMap>
+	<TacticalMap>T_Fallen_Desert_06</TacticalMap>
+	<TacticalMap>T_Fallen_Desert_07</TacticalMap>
+
+      <ClothMapColor>161,177,186</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TerrainPropData>P_Desert_01,10</TerrainPropData>
+      <TerrainPropData>P_Desert_02,100</TerrainPropData>
+      <TerrainPropData>P_Desert_03,100</TerrainPropData>
+      <TerrainPropData>P_Desert_04,100</TerrainPropData>
+      <TerrainPropData>P_Desert_05,10</TerrainPropData>
+      <TerrainPropData>P_Desert_06,100</TerrainPropData>
+      <TerrainPropData>P_Desert_07,10</TerrainPropData>
+      <TerrainPropData>P_Desert_08,5</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Grassland_Desert_01</TacticalMap>
+	<TacticalMap>T_Grassland_Desert_02</TacticalMap>
+	<TacticalMap>T_Grassland_Desert_03</TacticalMap>
+	<TacticalMap>T_Grassland_Desert_04</TacticalMap>
+	<TacticalMap>T_Grassland_Desert_05</TacticalMap>
+	<TacticalMap>T_Grassland_Desert_06</TacticalMap>
+	<TacticalMap>T_Grassland_Desert_07</TacticalMap>
+
+      <ClothMapColor>235,230,155</ClothMapColor>
+
+    </TerrainTypeEnvData>
+  </TerrainType>
+
+	
+	<!--**********************************-->
+	<!--************** Swamp **************-->
+	<!--**********************************-->
+
+	<!-- The only difference from the sandbox game version is the TerrainMovementNote -->
+	
+  <TerrainType InternalName="SwampTerrain">
+    <DisplayName>Swamp</DisplayName>
+    <MaxHeight>55</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>20</MovementCost>
+    <TerrainMovementNote>Blocked</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>0</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>30</MinTilesPerSplat>
+    <MaxTilesPerSplat>100</MaxTilesPerSplat>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>4</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>2</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <TerrainObjectGraphic>gfx/TacticalIcons/WorldMap_SwampTiles_1.png</TerrainObjectGraphic>
+    <CannotBorder>Category:Water</CannotBorder>
+    <CannotBorder>Category:Mountain</CannotBorder>
+    <CannotBorder>DesertTerrain</CannotBorder>
+    <CannotBorder>ArcticTerrain</CannotBorder>
+    <CannotBorder>HillsTerrain</CannotBorder>
+    <MapGenPlaceChance>20</MapGenPlaceChance>
+    <TerrainObjectType>Swamp</TerrainObjectType>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/swamp.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Barren_Swamp_01</TacticalMap>
+	<TacticalMap>T_Ruins_Swamp_01</TacticalMap>
+	<TacticalMap>T_Barren_Swamp_02</TacticalMap>
+
+      <ClothMapColor>140,145,105</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/swamp.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Fallen_Swamp_01</TacticalMap>
+	<TacticalMap>T_Ruins_Swamp_01</TacticalMap>
+	<TacticalMap>T_Fallen_Swamp_02</TacticalMap>
+
+      <ClothMapColor>105,129,148</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/swamp.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Grassland_Swamp_01</TacticalMap>
+	<TacticalMap>T_Ruins_Swamp_01</TacticalMap>
+	<TacticalMap>T_Grassland_Swamp_02</TacticalMap>
+
+      <ClothMapColor>115,135,105</ClothMapColor>
+
+    </TerrainTypeEnvData>
+  </TerrainType>
+
+	
+	<!--**********************************-->
+	<!--************** Beach **************-->
+	<!--**********************************-->
+	
+  <TerrainType InternalName="Beach">
+    <DisplayName>Beach</DisplayName>
+    <MaxHeight>55</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>10</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Beach</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>1</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>0</MaxTilesPerSplat>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>4</MaxBrushRadius>
+    <PlacementOrder>9</PlacementOrder>
+    <SupportsSubTerrain>true</SupportsSubTerrain>
+    <SuperCategory>Coastal</SuperCategory>
+    <IsBorderTerrain>1</IsBorderTerrain>
+    <MustBorder>Category:Water</MustBorder>
+    <MustBorder>Category:Land</MustBorder>
+    <MapGenPlaceChance>0</MapGenPlaceChance>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TextureWeight>0.8000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <TacticalMapFortify>T_Beach_Barren_Fortify_01</TacticalMapFortify>
+
+      <ClothMapColor>235,225,170</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <TextureWeight>0.8000</TextureWeight>
+
+      <ClothMapColor>230,225,200</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <TextureWeight>0.8000</TextureWeight>
+
+      <ClothMapColor>235,230,155</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainSubTypeData>
+      <SubTerrain>DesertTerrain</SubTerrain>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TextureWeight>0.2000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+    </TerrainSubTypeData>
+    <TerrainSubTypeData>
+      <SubTerrain>ArcticTerrain</SubTerrain>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <TextureWeight>0.8000</TextureWeight>
+    </TerrainSubTypeData>
+  </TerrainType>
+
+  
+	<!--**********************************-->
+	<!--************** Cliff **************-->
+	<!--**********************************-->
+
+  <TerrainType InternalName="Cliff">
+    <DisplayName>Cliff</DisplayName>
+    <MaxHeight>0</MaxHeight>
+    <MinHeight>0</MinHeight>
+    <MovementCost>10</MovementCost>
+    <TerrainMovementNote>Blocked</TerrainMovementNote>
+    <Category>Cliff</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>0</IsBaseTerrain>
+    <PassableByLandUnits>0</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>0</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>0</MinTilesPerSplat>
+    <MaxTilesPerSplat>75</MaxTilesPerSplat>
+    <MinBrushRadius>1</MinBrushRadius>
+    <MaxBrushRadius>1</MaxBrushRadius>
+    <PlacementOrder>9</PlacementOrder>
+    <SupportsSubTerrain>true</SupportsSubTerrain>
+    <SuperCategory>Coastal</SuperCategory>
+    <IsBorderTerrain>1</IsBorderTerrain>
+    <MustBorder>Category:Water</MustBorder>
+    <MustBorder>Category:Land</MustBorder>
+    <CannotBorder>Category:Mountain</CannotBorder>
+    <MapGenPlaceChance>100</MapGenPlaceChance>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <Texture>gfx/terrain/barren_ground_rough.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>176,145,75</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <Texture>gfx/terrain/fallen_ground.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <DistanceFogColor>94,89,76</DistanceFogColor>
+
+      <ClothMapColor>140,155,165</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <Texture>gfx/terrain/light_grass.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+      <DistanceFogColor>200,220,228</DistanceFogColor>
+
+      <ClothMapColor>125,140,85</ClothMapColor>
+
+    </TerrainTypeEnvData>
+    <TerrainSubTypeData>
+      <SubTerrain>ArcticTerrain</SubTerrain>
+      <Texture>gfx/terrain/Snow_Grass.dds</Texture>
+      <TacticalMap>T_Forest_Arctic_01</TacticalMap>
+      <TacticalMapFortify>T_Forest_Arctic_Fortified_01</TacticalMapFortify>
+      <TextureWeight>1.000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+    </TerrainSubTypeData>
+    <TerrainSubTypeData>
+      <SubTerrain>DesertTerrain</SubTerrain>
+      <Texture>gfx/terrain/Sand.dds</Texture>
+      <TextureWeight>1.0000</TextureWeight>
+      <TacticalMap>T_Generic_01</TacticalMap>
+      <TacticalMap>T_Generic_02</TacticalMap>
+      <TacticalMap>T_Generic_03</TacticalMap>
+    </TerrainSubTypeData>
+  </TerrainType>
+
+  
+	<!--**********************************-->
+	<!--************** Arctic **************-->
+	<!--**********************************-->
+  
+  <TerrainType InternalName="ArcticTerrain">
+    <DisplayName>Arctic</DisplayName>
+    <MaxHeight>55</MaxHeight>
+    <MinHeight>50</MinHeight>
+    <MovementCost>8</MovementCost>
+    <TerrainMovementNote>1x Movement</TerrainMovementNote>
+    <Category>Land</Category>
+    <IsTerrainFeature>0</IsTerrainFeature>
+    <IsBaseTerrain>0</IsBaseTerrain>
+    <PassableByLandUnits>1</PassableByLandUnits>
+    <PassableByWaterUnits>0</PassableByWaterUnits>
+    <PassableByAirUnits>1</PassableByAirUnits>
+    <SuitableForStartingLocation>1</SuitableForStartingLocation>
+    <Indestructable>0</Indestructable>
+    <MinTilesPerSplat>30</MinTilesPerSplat>
+    <MaxTilesPerSplat>120</MaxTilesPerSplat>
+    <MinBrushRadius>3</MinBrushRadius>
+    <MaxBrushRadius>4</MaxBrushRadius>
+    <GenMethod>Radial</GenMethod>
+    <PlacementOrder>2</PlacementOrder>
+    <SupportsSubTerrain>false</SupportsSubTerrain>
+    <IsBorderTerrain>0</IsBorderTerrain>
+    <TerrainObjectGraphic>gfx/TacticalIcons/WorldMap_ArcticTiles_1.png</TerrainObjectGraphic>
+    <CannotBorder>Category:Water</CannotBorder>
+    <CannotBorder>DesertTerrain</CannotBorder>
+    <CannotBorder>SwampTerrain</CannotBorder>
+    <MapGenPlaceChance>20</MapGenPlaceChance>
+    <TerrainObjectType>Arctic</TerrainObjectType>
+    <TerrainTypeEnvData>
+      <Environment>Barren</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/Snow_Grass_Rough.dds</Texture>
+      <TerrainPropData>P_Arctic_Land_01_Rocks,10</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_02_Trees,100</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_04_Tree,100</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_05_Tree,100</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      	<TacticalMap>T_Grassland_Arctic_01</TacticalMap>
+	<TacticalMap>T_Ruin_Arctic_01</TacticalMap>
+      <TacticalMap>T_Arctic_Arena_01</TacticalMap>
+
+      <ClothMapColor>255,255,255</ClothMapColor>
+
+    </TerrainTypeEnvData>
+	
+    <TerrainTypeEnvData>
+      <Environment>Dead</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/Snow_Grass_Rough.png</Texture>
+      <TerrainPropData>P_Arctic_Land_01_Rocks,10</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_02_Trees,100</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_04_Tree,100</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_05_Tree,100</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      	<TacticalMap>T_Grassland_Arctic_01</TacticalMap>
+	<TacticalMap>T_Ruin_Arctic_01</TacticalMap>
+      <TacticalMap>T_Arctic_Arena_01</TacticalMap>
+
+      <ClothMapColor>174,194,236</ClothMapColor>
+
+    </TerrainTypeEnvData>
+	
+    <TerrainTypeEnvData>
+      <Environment>Grassland</Environment>
+      <GrantsTileYields>1</GrantsTileYields>
+      <Texture>gfx/terrain/Snow_grass.dds</Texture>
+      <TerrainPropData>P_Arctic_Land_G_01_Rocks,10</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_02_Trees,100</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_03_Rocks,100</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_04_Tree,100</TerrainPropData>
+      <TerrainPropData>P_Arctic_Land_G_05_Tree,10</TerrainPropData>
+      <TextureWeight>1.0000</TextureWeight>
+      	<TacticalMap>T_Grassland_Arctic_01</TacticalMap>
+	<TacticalMap>T_Ruin_Arctic_01</TacticalMap>
+      <TacticalMap>T_Arctic_Arena_01</TacticalMap>
+
+      <ClothMapColor>230,230,230</ClothMapColor>
+
+    </TerrainTypeEnvData>
+  </TerrainType>
+
+</CampaignData>

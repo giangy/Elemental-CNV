@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PlayerAbilityTypes>
+    <DataChecksum NoParse="1">
+        <Ignore>DisplayName,DisplayNameShort,Description,Icon</Ignore>
+        <Translate>DisplayName,DisplayNameShort,Description</Translate>
+    </DataChecksum>
+    <!-- Unit Stats -->
+
+    <!-- Note from dreamer (6/14/11): -->
+    <!-- I have tried to break these down into groups (ability stats, combat stats, calculated stats) -->
+
+    <!-- Within each group is Visible, Hidden, Wrappers and Hidden Wrappers -->
+
+    <!-- Visible are visible stats the player can always see -->
+    <!-- Hidden stats are hidden to the user -->
+    <!-- Wrappers are not actually "stats" that can be modified, they are internal calls to calculate values -->
+    <!-- If you attempt to modify a wrapper, it will do nothing, so don't try to... -->
+
+    <!-- For the sake of our sanity, when adding new stats, try to keep them organized ;) -->
+
+    <!--******************-->
+    <!--******************-->
+    <!--** Ability Stats *-->
+    <!--******************-->
+    <!--******************-->
+
+    <!-- Visible -->
+    <UnitStatType InternalName="UnitStat_Strength">
+        <DisplayName>Strength</DisplayName>
+        <DisplayNameShort>STR</DisplayNameShort>
+        <Description>Improves melee attack and the amount of weight a unit can equip.</Description>
+        <Icon>Stat_Strength_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <BaseSovereignAttribute>1</BaseSovereignAttribute>
+        <DefaultValue>10.0</DefaultValue>
+        <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+      <UnitStatGrouping>UnitDetailsAttribute</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Dexterity">
+        <DisplayName>Dexterity</DisplayName>
+        <DisplayNameShort>DEX</DisplayNameShort>
+        <Description>Improves a unit's dodge and increases its chance to critically hit.</Description>
+        <Icon>Stat_Dexterity_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <BaseSovereignAttribute>1</BaseSovereignAttribute>
+        <DefaultValue>10.0</DefaultValue>
+        <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+      <UnitStatGrouping>UnitDetailsAttribute</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Charisma">
+      <DisplayName>Charisma</DisplayName>
+      <DisplayNameShort>CHA</DisplayNameShort>
+      <Description>Increases the prestige of cities this unit is stationed in.</Description>
+      <Icon>Stat_Charisma_Icon.png</Icon>
+      <Hidden>1</Hidden>
+      <BaseSovereignAttribute>1</BaseSovereignAttribute>
+      <DefaultValue>10.0</DefaultValue>
+      <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Intelligence">
+      <DisplayName>Intelligence</DisplayName>
+      <DisplayNameShort>INT</DisplayNameShort>
+      <Description>Increases the experience a unit earns, its ability to resist spells and lowers the chance its spells will be resisted.</Description>
+      <Icon>Stat_Intelligence_Icon.png</Icon>
+      <Hidden>1</Hidden>
+      <BaseSovereignAttribute>1</BaseSovereignAttribute>
+      <DefaultValue>10.0</DefaultValue>
+      <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+      <UnitStatGrouping>UnitDetailsAttribute</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Constitution">
+        <DisplayName>Constitution</DisplayName>
+        <DisplayNameShort>CON</DisplayNameShort>
+        <Description>Determines hit points.</Description>
+        <Icon>Stat_Constitution_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <BaseSovereignAttribute>1</BaseSovereignAttribute>
+        <DefaultValue>6.0</DefaultValue>
+		<UnitStatGrouping>AbilityStat</UnitStatGrouping>
+		<UnitStatGrouping>UnitDetailsAttribute</UnitStatGrouping>
+    </UnitStatType>
+
+    <!-- Hidden -->
+    <UnitStatType InternalName="UnitStat_Sight">
+        <DisplayName>Sight</DisplayName>
+        <DisplayNameShort>SGHT</DisplayNameShort>
+        <Description>How far a unit can see into the fog of war.</Description>
+        <Icon>Stat_Sight_Icon.png</Icon>
+        <DefaultValue>3.0</DefaultValue>
+        <Hidden>1</Hidden>
+        <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Experience">
+        <DisplayName>Experience</DisplayName>
+        <DisplayNameShort>EXP</DisplayNameShort>
+        <Description>How much experience defeating this unit is worth.</Description>
+        <Icon>Icon_Experience.png</Icon>
+        <Hidden>1</Hidden>
+        <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Level">
+        <DisplayName>Level</DisplayName>
+        <DisplayNameShort>LVL</DisplayNameShort>
+        <Description>The units level.</Description>
+        <Icon>Icon_Experience.png</Icon>
+        <Hidden>1</Hidden>
+        <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_HealthRegen">
+        <DisplayName>Health Regeneration</DisplayName>
+        <DisplayNameShort>HPGEN</DisplayNameShort>
+        <Description>Unit regenerates this amount of health per season.</Description>
+        <Icon>Stat_HealthRegen_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_StationedCityGrowthBoost">
+        <DisplayName>Growth Boost</DisplayName>
+        <DisplayNameShort>GRW</DisplayNameShort>
+        <Description>When stationed in a city, the additional boost to that cities growth.</Description>
+        <!--<Icon>Arcane_D_Stat_Icon.png</Icon>-->
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_RecruitCost">
+        <DisplayName>Recruitment Cost</DisplayName>
+        <DisplayNameShort>RCC</DisplayNameShort>
+        <Description>Multiplier value to how much this unit costs to recruit.</Description>
+        <!--<Icon>Piercing_Stat_Icon.png</Icon>-->
+        <Hidden>1</Hidden>
+        <DefaultValue>1.0</DefaultValue>
+        <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_EnchantmentMaintenanceMultiplier">
+        <DisplayName>Enchantment Maintenance Cost</DisplayName>
+        <DisplayNameShort>EMB</DisplayNameShort>
+        <Description>Multiplier value to how much this units spell maintanence costs.</Description>
+        <!--<Icon>Piercing_Stat_Icon.png</Icon>-->
+        <Hidden>1</Hidden>
+        <DefaultValue>1.0</DefaultValue>
+        <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_WeightCapacity">
+        <DisplayName>Weight Capacity</DisplayName>
+        <DisplayNameShort>WCAP</DisplayNameShort>
+        <Description>Maximum amount of equipment weight a unit can handle.</Description>
+        <Icon>Stat_WeightCapacity_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>30.0</DefaultValue>
+        <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_ExpBonus">
+        <DisplayName>Experience Bonus %</DisplayName>
+        <DisplayNameShort>EXPB</DisplayNameShort>
+        <Description>Percentage bonus to the experience earned by this unit.</Description>
+        <!--<Icon>Encumberment_Stat_Icon.png</Icon>-->
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_MaterialsFromDemolish">
+        <DisplayName>Materials From Demolish</DisplayName>
+        <DisplayNameShort>MFD</DisplayNameShort>
+        <Description>The percent of materials this unit salvages when demolishing an improvement.</Description>
+        <!--<Icon>Encumberment_Stat_Icon.png</Icon>-->
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+    </UnitStatType>
+
+    <!-- Hidden Wrapper -->
+    <UnitStatType InternalName="UnitStat_ExpToNextLevel">
+        <DisplayName>Experience to Next Level</DisplayName>
+        <DisplayNameShort>NEXP</DisplayNameShort>
+        <Description>Experience needed for this unit to reach it's next level.</Description>
+        <Icon>Icon_Experience.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>1.0</DefaultValue>
+        <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_CurrentWeight">
+        <DisplayName>Weight</DisplayName>
+        <DisplayNameShort>WGHT</DisplayNameShort>
+        <Description>Current weight of the equipment on this unit.</Description>
+        <Icon>Stat_CurrentWeight_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>AbilityStat</UnitStatGrouping>
+    </UnitStatType>
+
+    <!--**********************-->
+    <!--**********************-->
+    <!--** Calculated Stats **-->
+    <!--**********************-->
+    <!--**********************-->
+    <!-- These are stats that are calculated based off of the ability stats -->
+
+    <!-- Visible -->
+    <UnitStatType InternalName="UnitStat_Moves">
+        <DisplayName>Moves</DisplayName>
+        <DisplayNameShort>MOV</DisplayNameShort>
+        <Description>Movement points that a unit has per season.</Description>
+        <Icon>Stat_Moves_Icon.png</Icon>
+        <Hidden>0</Hidden>
+        <DefaultValue>2.0</DefaultValue>
+        <UnitStatGrouping>CalculatedStat</UnitStatGrouping>
+		<UnitStatGrouping>UnitTypeTooltip</UnitStatGrouping>
+		<!-- <UnitStatGrouping>UnitDetailsCombatStat</UnitStatGrouping> -->
+		<UnitStatGrouping>UnitDetailsAttribute</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_CombinedAttack">
+		<DisplayName>Attack</DisplayName>
+		<DisplayNameShort>ATK</DisplayNameShort>
+		<Description>How much damage this unit can potentially deal.</Description>
+		<Icon>Stat_Attack_Icon.png</Icon>
+        <Hidden>0</Hidden>
+		<DefaultValue>0.0</DefaultValue>
+		<UnitStatGrouping>CalculatedStat</UnitStatGrouping>
+		<UnitStatGrouping>UnitTypeTooltip</UnitStatGrouping>
+		<!-- <UnitStatGrouping>UnitDetailsCombatStat</UnitStatGrouping> -->
+		<UnitStatGrouping>UnitDetailsAttribute</UnitStatGrouping>
+    </UnitStatType>
+
+    <!-- Wrappers -->
+    <UnitStatType InternalName="UnitStat_DefenseDisplay">
+        <DisplayName>Defense</DisplayName>
+        <DisplayNameShort>DEF</DisplayNameShort>
+        <Description>Reduces damage taken from attacks.</Description>
+        <Icon>Stat_Defense_Icon.png</Icon>
+        <Hidden>0</Hidden>
+        <UnitStatGrouping>CalculatedStat</UnitStatGrouping>
+		<UnitStatGrouping>UnitTypeTooltip</UnitStatGrouping>
+		<!-- <UnitStatGrouping>UnitDetailsCombatStat</UnitStatGrouping> -->
+		<UnitStatGrouping>UnitDetailsAttribute</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_HitPoints">
+		<DisplayName>Hit Points</DisplayName>
+		<DisplayNameShort>HP</DisplayNameShort>
+		<Description>How much damage a unit can withstand before dying.</Description>
+		<Icon>Stat_HitPoints_Icon.png</Icon>
+		<Hidden>0</Hidden>
+		<DefaultValue>6.0</DefaultValue>
+		<UnitStatGrouping>CalculatedStat</UnitStatGrouping>
+		<UnitStatGrouping>UnitTypeTooltip</UnitStatGrouping>
+		<!-- <UnitStatGrouping>UnitDetailsCombatStat</UnitStatGrouping> -->
+		<UnitStatGrouping>UnitDetailsAttribute</UnitStatGrouping>
+    </UnitStatType>
+
+    <!-- Hidden Wrappers-->
+    <UnitStatType InternalName="UnitStat_Damage">
+        <DisplayName>Damage</DisplayName>
+        <DisplayNameShort>DAM</DisplayNameShort>
+        <Description>The current damage on this unit.</Description>
+        <Icon>Stat_HitPoints_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <UnitStatGrouping>CalculatedStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_CombinedPhysicalAttack">
+        <DisplayName>Combined Physical Attack</DisplayName>
+        <DisplayNameShort>ATK</DisplayNameShort>
+        <Description>This is NOT actually a stat, it is only used as a container for when we are displaying the combined physical attack and want to use an icon, or display name</Description>
+        <Icon>Stat_Attack_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+        <UnitStatGrouping>CalculatedStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_CombinedPhysicalDefense">
+        <DisplayName>Combined Physical Defense</DisplayName>
+        <DisplayNameShort>DEF</DisplayNameShort>
+        <Description>This is NOT actually a stat, it is only used as a container for when we are displaying the combined physical defense and want to use an icon, or display name</Description>
+        <Icon>Stat_Defense_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+        <UnitStatGrouping>CalculatedStat</UnitStatGrouping>
+    </UnitStatType>
+
+
+    <!--**************-->
+    <!--**************-->
+    <!-- Combat Stats -->
+    <!--**************-->
+    <!--**************-->
+
+    <!-- Visible -->
+    <UnitStatType InternalName="UnitStat_CombatSpeed">
+        <DisplayName>Initiative</DisplayName>
+        <DisplayNameShort>INIT</DisplayNameShort>
+        <Description>How frequently a unit gets actions in combat.</Description>
+        <Icon>Stat_CombatSpeed_Icon.png</Icon>
+        <Hidden>0</Hidden>
+        <DefaultValue>20.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+      <UnitStatGrouping>UnitTypeTooltip</UnitStatGrouping>
+      <UnitStatGrouping>UnitDetailsCombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Accuracy">
+        <DisplayName>Accuracy</DisplayName>
+        <DisplayNameShort>ACC</DisplayNameShort>
+        <Description>Percentage chance of hitting an enemy in battle.</Description>
+        <Icon>Stat_Accuracy_Icon.png</Icon>
+        <Hidden>0</Hidden>
+        <DefaultValue>70.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+      <UnitStatGrouping>UnitDetailsCombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Dodge">
+        <DisplayName>Dodge</DisplayName>
+        <DisplayNameShort>DGE</DisplayNameShort>
+        <Description>Penalty to an enemy's chance to hit this unit.</Description>
+        <Icon>Stat_Dodge_Icon.png</Icon>
+        <Hidden>0</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+      <UnitStatGrouping>UnitDetailsCombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_ChanceToCrit">
+      <DisplayName>Crit Chance</DisplayName>
+      <DisplayNameShort>CRIT</DisplayNameShort>
+      <Description>Percentage chance a unit's successful attack will be a critical hit, causing extra damage.</Description>
+      <Icon>Stat_ChanceToCrit_Icon.png</Icon>
+      <Hidden>0</Hidden>
+      <DefaultValue>0.0</DefaultValue>
+      <UnitStatGrouping>CombatStat</UnitStatGrouping>
+      <UnitStatGrouping>UnitDetailsCombatStat</UnitStatGrouping>
+    </UnitStatType>
+
+    <!-- Hidden -->
+    <UnitStatType InternalName="UnitStat_SplashDamage">
+        <DisplayName>Splash Damage</DisplayName>
+        <DisplayNameShort>SPLASH</DisplayNameShort>
+        <Description>When this unit does damage on a target unit, he will also damage all units surrounding the target, by this percent.</Description>
+        <!--<Icon>Stat_SplashDamage_Icon.png</Icon>-->
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_DamageReflect">
+        <DisplayName>Damage Reflect</DisplayName>
+        <DisplayNameShort>REFLECT</DisplayNameShort>
+        <Description>When this unit takes damage, he will damage the attacker by this percent.</Description>
+        <!--<Icon>Stat_DamageReflect_Icon.png</Icon>-->
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_DodgeAgainstRanged">
+        <DisplayName>Dodge vs Ranged attacks</DisplayName>
+        <DisplayNameShort>DGE</DisplayNameShort>
+        <Description>The additional chance to dodge an attack in battle when it's a ranged attack.</Description>
+        <Icon>Dodge_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_ChanceToAvoidCrit">
+        <DisplayName>Critical Avoidance</DisplayName>
+        <DisplayNameShort>CRIT</DisplayNameShort>
+        <Description>Once an attacker has met the crit threshold, determines the defender's chance to avoid the critical hit anyways.</Description>
+        <!--<Icon>Arcane_D_Stat_Icon.png</Icon>-->
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_CritDamageMultiplier">
+        <DisplayName>Crit Multiplier</DisplayName>
+        <DisplayNameShort>CRIT</DisplayNameShort>
+        <Description>The multiplier applied to the damage amount when this unit does a Crit.</Description>
+        <Icon>Stat_CritDamageMultiplier_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>2.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Attack_Blunt">
+        <DisplayName>Blunt Attack</DisplayName>
+        <DisplayNameShort>Blunt</DisplayNameShort>
+        <Description>The blunt damage that this unit can deal.</Description>
+        <Icon>Stat_AttackBlunt_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+        <IsPhysicalStat>1</IsPhysicalStat>
+        <IsAttackStat>1</IsAttackStat>
+        <CorrespondingDefenseStat>UnitStat_Defense_Blunt</CorrespondingDefenseStat>
+        <CorrespondingResistStat>UnitStat_ResistBlunt</CorrespondingResistStat>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Attack_Cutting">
+        <DisplayName>Cutting Attack</DisplayName>
+        <DisplayNameShort>Cutting</DisplayNameShort>
+        <Description>The cutting damage that this unit can deal.</Description>
+        <Icon>Stat_AttackCutting_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+        <IsPhysicalStat>1</IsPhysicalStat>
+        <IsAttackStat>1</IsAttackStat>
+        <CorrespondingDefenseStat>UnitStat_Defense_Cutting</CorrespondingDefenseStat>
+        <CorrespondingResistStat>UnitStat_ResistCutting</CorrespondingResistStat>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Attack_Pierce">
+        <DisplayName>Pierce Attack</DisplayName>
+        <DisplayNameShort>Pierce</DisplayNameShort>
+        <Description>The piercing damage that this unit can deal.</Description>
+        <Icon>Stat_AttackPierce_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+        <IsPhysicalStat>1</IsPhysicalStat>
+        <IsAttackStat>1</IsAttackStat>
+        <CorrespondingDefenseStat>UnitStat_Defense_Pierce</CorrespondingDefenseStat>        
+        <CorrespondingResistStat>UnitStat_ResistPierce</CorrespondingResistStat>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Attack_Cold">
+        <DisplayName>Cold Attack</DisplayName>
+        <DisplayNameShort>Cold</DisplayNameShort>
+        <Description>The cold damage that this unit can deal.</Description>
+        <Icon>Stat_AttackCold_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+        <IsAttackStat>1</IsAttackStat>
+        <CorrespondingDefenseStat>UnitStat_Defense_Cold</CorrespondingDefenseStat>
+        <CorrespondingResistStat>UnitStat_ResistCold</CorrespondingResistStat>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Attack_Fire">
+        <DisplayName>Fire Attack</DisplayName>
+        <DisplayNameShort>Fire</DisplayNameShort>
+        <Description>The fire damage that this unit can deal.</Description>
+        <Icon>Stat_AttackFire_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+        <IsAttackStat>1</IsAttackStat>
+        <CorrespondingDefenseStat>UnitStat_Defense_Fire</CorrespondingDefenseStat>
+        <CorrespondingResistStat>UnitStat_ResistFire</CorrespondingResistStat>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Attack_Lightning">
+        <DisplayName>Lightning Attack</DisplayName>
+        <DisplayNameShort>Lightning</DisplayNameShort>
+        <Description>The lightning damage that this unit can deal.</Description>
+        <Icon>Stat_AttackLightning_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+        <IsAttackStat>1</IsAttackStat>
+        <CorrespondingDefenseStat>UnitStat_Defense_Lightning</CorrespondingDefenseStat>
+        <CorrespondingResistStat>UnitStat_ResistLightning</CorrespondingResistStat>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Attack_Poison">
+        <DisplayName>Poison Attack</DisplayName>
+        <DisplayNameShort>Poison</DisplayNameShort>
+        <Description>The poison damage that this unit can deal.</Description>
+        <Icon>Stat_AttackPoison_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+        <IsAttackStat>1</IsAttackStat>
+        <CorrespondingDefenseStat>UnitStat_Defense_Poison</CorrespondingDefenseStat>
+        <CorrespondingResistStat>UnitStat_ResistPoison</CorrespondingResistStat>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Defense_Blunt">
+        <DisplayName>Blunt Defense</DisplayName>
+        <DisplayNameShort>BLNT DEF</DisplayNameShort>
+        <Description>Ability to absorb blunt attacks.</Description>
+        <Icon>Stat_DefenseBlunt_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <IsPhysicalStat>1</IsPhysicalStat>
+        <IsDefenseStat>1</IsDefenseStat>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Defense_Cutting">
+        <DisplayName>Cutting Defense</DisplayName>
+        <DisplayNameShort>CUT DEF</DisplayNameShort>
+        <Description>Ability to absorb cutting attacks.</Description>
+        <Icon>Stat_DefenseCutting_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <IsPhysicalStat>1</IsPhysicalStat>
+        <IsDefenseStat>1</IsDefenseStat>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Defense_Pierce">
+        <DisplayName>Piercing Defense</DisplayName>
+        <DisplayNameShort>PRC DEF</DisplayNameShort>
+        <Description>Ability to absorb piercing attacks.</Description>
+        <Icon>Stat_DefensePierce_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <IsPhysicalStat>1</IsPhysicalStat>
+        <IsDefenseStat>1</IsDefenseStat>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Defense_Cold">
+        <DisplayName>Cold Defense</DisplayName>
+        <DisplayNameShort>CLD DEF</DisplayNameShort>
+        <Description>Ability to absorb cold attacks.</Description>
+        <Icon>Stat_DefenseCold_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+        <IsDefenseStat>1</IsDefenseStat>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Defense_Fire">
+        <DisplayName>Fire Defense</DisplayName>
+        <DisplayNameShort>FRE DEF</DisplayNameShort>
+        <Description>Ability to absorb fire attacks.</Description>
+        <Icon>Stat_DefenseFire_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+        <IsDefenseStat>1</IsDefenseStat>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Defense_Lightning">
+        <DisplayName>Lightning Defense</DisplayName>
+        <DisplayNameShort>LTNG DEF</DisplayNameShort>
+        <Description>Ability to absorb lightning attacks.</Description>
+        <Icon>Stat_DefenseLightning_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+        <IsDefenseStat>1</IsDefenseStat>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Defense_Poison">
+        <DisplayName>Poison Defense</DisplayName>
+        <DisplayNameShort>PSN DEF</DisplayNameShort>
+        <Description>Ability to absorb poison attacks.</Description>
+        <Icon>Stat_DefensePoison_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+        <IsDefenseStat>1</IsDefenseStat>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_ResistBlunt">
+        <DisplayName>Blunt Resist</DisplayName>
+        <DisplayNameShort>BNT RES</DisplayNameShort>
+        <Description>Reduces blunt damage by this percent.</Description>
+        <Icon>Stat_DefenseBlunt_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_ResistCutting">
+        <DisplayName>Cutting Resist</DisplayName>
+        <DisplayNameShort>CUT RES</DisplayNameShort>
+        <Description>Reduces cutting damage by this percent.</Description>
+        <Icon>Stat_DefenseCutting_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_ResistPierce">
+        <DisplayName>Pierce Resist</DisplayName>
+        <DisplayNameShort>PRC RES</DisplayNameShort>
+        <Description>Reduces pierce damage by this percent.</Description>
+        <Icon>Stat_DefensePierce_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>1</Hidden>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_ResistCold">
+        <DisplayName>Cold Resist</DisplayName>
+        <DisplayNameShort>CLD RES</DisplayNameShort>
+        <Description>Reduces cold damage by this percent.</Description>
+        <Icon>Stat_DefenseCold_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>0</Hidden>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+		<UnitStatGrouping>UnitDetailsCombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_ResistFire">
+        <DisplayName>Fire Resist</DisplayName>
+        <DisplayNameShort>FRE RES</DisplayNameShort>
+        <Description>Reduces fire damage by this percent.</Description>
+        <Icon>Stat_DefenseFire_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>0</Hidden>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+		<UnitStatGrouping>UnitDetailsCombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_ResistLightning">
+        <DisplayName>Lightn. Resist</DisplayName>
+        <DisplayNameShort>LTNG RES</DisplayNameShort>
+        <Description>Reduces lightning damage by this percent.</Description>
+        <Icon>Stat_DefenseLightning_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>0</Hidden>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+		<UnitStatGrouping>UnitDetailsCombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_ResistPoison">
+        <DisplayName>Poison Resist</DisplayName>
+        <DisplayNameShort>PSN RES</DisplayNameShort>
+        <Description>Reduces poison damage by this percent.</Description>
+        <Icon>Stat_DefensePoison_Icon.png</Icon>
+        <DefaultValue>0.0</DefaultValue>
+        <Hidden>0</Hidden>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+		<UnitStatGrouping>UnitDetailsCombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_AttackRange">
+        <DisplayName>Attack Range</DisplayName>
+        <DisplayNameShort>RNG</DisplayNameShort>
+        <Description>Max distance the unit can attack.</Description>
+        <Icon>Stat_Range_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_StructuralAttack">
+        <DisplayName>Structural Attack</DisplayName>
+        <DisplayNameShort>SATK</DisplayNameShort>
+        <Description>Attack strength against city walls and buildings.</Description>
+        <Icon>StructuralAttack_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Enrage_Damage_Bonus">
+        <DisplayName>Enrage Damage Bonus</DisplayName>
+        <DisplayNameShort>DGE%</DisplayNameShort>
+        <Description>Bonus damage derived from number of successful attacks since enraged</Description>
+        <Icon>Dexterity_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_TacticalMovementCostMultiplier">
+        <DisplayName>Tactical Movement Cost Multiplier</DisplayName>
+        <DisplayNameShort>TMC</DisplayNameShort>
+        <Description>Unit costs less to move in tactical battles.</Description>
+        <Icon>Piercing_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>1.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_TacticalHealthRegen">
+        <DisplayName>Tactical Health Regeneration</DisplayName>
+        <DisplayNameShort>THR</DisplayNameShort>
+        <Description>Unit regenerates health at the start of every tactical turn.</Description>
+        <Icon>Stat_HealthRegen_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_MagicResist">
+        <DisplayName>Spell Resist</DisplayName>
+        <DisplayNameShort>RST</DisplayNameShort>
+        <Description>Increases the chance this unit will resist spells.</Description>
+        <Icon>Stat_MagicResist_Icon.png</Icon>
+        <Hidden>0</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+      <UnitStatGrouping>UnitDetailsCombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_MagicPower">
+      <DisplayName>Spell Mastery</DisplayName>
+      <DisplayNameShort>PWR</DisplayNameShort>
+      <Description>Percentage chance this units resistable spells will take effect.</Description>
+      <Icon>Stat_SpellType_Icon.png</Icon>
+      <Hidden>0</Hidden>
+      <DefaultValue>70.0</DefaultValue>
+      <UnitStatGrouping>CombatStat</UnitStatGrouping>
+      <UnitStatGrouping>UnitDetailsCombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_ChanceToAvoidProne">
+        <DisplayName>Prone Avoidance</DisplayName>
+        <DisplayNameShort>PRONE</DisplayNameShort>
+        <Description>Determines the chance for a unit to ignore a prone effect and remain standing.</Description>
+        <!--<Icon>Arcane_D_Stat_Icon.png</Icon>-->
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_CounterattackMultiplier">
+        <DisplayName>Vengeance</DisplayName>
+        <DisplayNameShort>VNG</DisplayNameShort>
+        <Description>Unit deals extra damage upon successful counterattack.</Description>
+        <Icon>Piercing_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>1.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_MaxCounterAttack">
+        <DisplayName>Counter Attack</DisplayName>
+        <DisplayNameShort>CAK</DisplayNameShort>
+        <Description>Maximum number of times a unit can counter-attack when attacked in battle, between turns.</Description>
+        <!--<Icon>Piercing_Stat_Icon.png</Icon>-->
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_ManaFromKills">
+        <DisplayName>Mana From Kills</DisplayName>
+        <DisplayNameShort>MFK</DisplayNameShort>
+        <Description>Amount of mana this unit melee recovers when killing an enemy unit.</Description>
+        <Icon>Piercing_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+  <UnitStatType InternalName="UnitStat_MaxTroopsFromKills">
+    <DisplayName>Max Troops From Kills</DisplayName>
+    <DisplayNameShort>TFK</DisplayNameShort>
+    <Description>Unit gains a troop for each kill up to the value of the stat.</Description>
+    <Icon>Piercing_Stat_Icon.png</Icon>
+    <Hidden>1</Hidden>
+    <DefaultValue>0.0</DefaultValue>
+  </UnitStatType>
+    <UnitStatType InternalName="UnitStat_HPFromKills">
+        <DisplayName>Hit Points From Kills</DisplayName>
+        <DisplayNameShort>HFK</DisplayNameShort>
+        <Description>Amount of hit points this melee unit recovers when killing an enemy unit.</Description>
+        <Icon>Piercing_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_TacticalHealthRegen">
+        <DisplayName>Tactical Health Regeneration</DisplayName>
+        <DisplayNameShort>THR</DisplayNameShort>
+        <Description>Unit regenerates health at the start of every tactical turn.</Description>
+        <Icon>Piercing_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_TacticalManaRegen">
+        <DisplayName>Tactical Mana Regeneration</DisplayName>
+        <DisplayNameShort>TMR</DisplayNameShort>
+        <Description>Unit regenerates mana at the start of every tactical turn.</Description>
+        <Icon>Piercing_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_BackswingChance">
+        <DisplayName>Backswing</DisplayName>
+        <DisplayNameShort>BCK</DisplayNameShort>
+        <Description>Chance of this melee unit attacking a second time if it misses the first.</Description>
+        <Icon>Piercing_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_BashChance">
+        <DisplayName>Bash</DisplayName>
+        <DisplayNameShort>BSH</DisplayNameShort>
+        <Description>Chance of this melee unit knocking the target prone.</Description>
+        <Icon>Piercing_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_ClumsyChance">
+        <DisplayName>Clumsy</DisplayName>
+        <DisplayNameShort>CLM</DisplayNameShort>
+        <Description>Chance this melee unit will randomly strike an ally within its attack range.</Description>
+        <Icon>Piercing_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_AIControlChance">
+        <DisplayName>AI Control</DisplayName>
+        <DisplayNameShort>AIC</DisplayNameShort>
+        <Description>Chance this unit will be controlled by the AI during a given tactical battle turn.</Description>
+        <Icon>Piercing_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_MaulChance">
+        <DisplayName>Maul Chance</DisplayName>
+        <DisplayNameShort>MLC</DisplayNameShort>
+        <Description>Chance this melee unit will get continuous strikes after a successful attack.</Description>
+        <Icon>Piercing_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_ExperienceFromChampionsPercent">
+        <DisplayName>Experience Gained From Champions</DisplayName>
+        <DisplayNameShort>EGC</DisplayNameShort>
+        <Description>The percent of experience that champions share with their sovereign.</Description>
+        <Icon>Piercing_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_OverpowerMultiplier">
+        <DisplayName>Overpower</DisplayName>
+        <DisplayNameShort>OVP</DisplayNameShort>
+        <Description>A melee damage multiplier based on the number of units in the opposing forces unit stack.</Description>
+        <Icon>Piercing_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_GoldFromCombat">
+        <DisplayName>Scavenging</DisplayName>
+        <DisplayNameShort>SCV</DisplayNameShort>
+        <Description>Percent of gildar this unit keeps after winning a battle.</Description>
+        <Icon>Piercing_Stat_Icon.png</Icon>
+        <Hidden>1</Hidden>
+        <DefaultValue>1.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_StrengthMod">
+        <DisplayName>% Strength Bonus</DisplayName>
+        <DisplayNameShort>SMOD</DisplayNameShort>
+        <Description>Multiplies the units strength bonus to attack.</Description>
+        <!--<Icon>Encumberment_Stat_Icon.png</Icon>-->
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_ArmorPierce">
+        <DisplayName>Armor Piercing</DisplayName>
+        <DisplayNameShort>APRC</DisplayNameShort>
+        <Description>Percentage of a defender's physical armor that is nullified when attacked by this unit.</Description>
+        <!--<Icon>Encumberment_Stat_Icon.png</Icon>-->
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Attack_Boost">
+        <DisplayName>Physical Attack Bonus</DisplayName>
+        <DisplayNameShort>ATTB</DisplayNameShort>
+        <Description>Additive bonus to the attack of a unit's weapon.</Description>
+        <!--<Icon>Encumberment_Stat_Icon.png</Icon>-->
+        <Hidden>1</Hidden>
+        <DefaultValue>0.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_Tactical_Auto_Defense_Boost">
+        <DisplayName>Defending Bonus</DisplayName>
+        <DisplayNameShort>DEFB</DisplayNameShort>
+        <Description>Additive bonus to a unit's defense, when that unit skips his attack during a turn in a tactical battle</Description>
+        <!--<Icon>Encumberment_Stat_Icon.png</Icon>-->
+        <Hidden>1</Hidden>
+        <DefaultValue>5.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+    <UnitStatType InternalName="UnitStat_TacticalScaleMultiplier">
+        <DisplayName>Tactical Scale Multiplier</DisplayName>
+        <Description>Scale multiplier for this unit when in tactical battles.</Description>
+        <Hidden>1</Hidden>
+        <DefaultValue>1.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+	<UnitStatType InternalName="UnitStat_SpellDamage">
+		<DisplayName>Spell Damage</DisplayName>
+		<Description>Multiplier to the amount of damage done by spells.</Description>
+		<Hidden>1</Hidden>
+		<DefaultValue>1.0</DefaultValue>
+		<UnitStatGrouping>CombatStat</UnitStatGrouping>
+	</UnitStatType> 
+    <UnitStatType InternalName="UnitStat_TacticalSpellManaCost_Multiplier">
+        <DisplayName>Spell Cost</DisplayName>
+        <DisplayNameShort>TSMCM</DisplayNameShort>
+        <Description>Tactical spell mana cost multiplier for this unit.</Description>
+        <!--<Icon>Encumberment_Stat_Icon.png</Icon>-->
+        <Hidden>1</Hidden>
+        <DefaultValue>1.0</DefaultValue>
+        <UnitStatGrouping>CombatStat</UnitStatGrouping>
+    </UnitStatType>
+</PlayerAbilityTypes>

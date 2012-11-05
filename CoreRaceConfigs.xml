@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Created with the Elemental Editor -->
+<!-- CoreRaceConfigs.xml -->
+<!-- -->
+<RaceConfigs>
+    <DataChecksum NoParse="1">
+        <Ignore>DisplayName, ShortName, Capitol, Description, UnitSkinColor, UnitHairColor, UnitClothColor, BuildingPrimaryColor, BuildingSecondaryColor, BuildingRoofColor, BuildingStyle, UnitStyle, WorkerName</Ignore>
+        <Translate>DisplayName, ShortName, Capitol, Description, WorkerName</Translate>
+    </DataChecksum>
+    <RaceConfig InternalName="KingdomOfAltar">
+        <DisplayName>Kingdom of Altar</DisplayName>
+        <Description>The people of Altar belong to no one race, no one creed. Miners and scholars alike stand in their councils; peasants and soldiers stand shoulder-to-shoulder in their armies. All value accomplishment, not pedigree. They led the so-called ‘Nobles' Revolt’ against Queen Procipinee of New Pariden, in the name of the one overriding cause they have in common: freedom. Freedom for themselves... and all of Elemental.</Description>
+        <LorebookIntroText>Here lie the ruins of the Athican Empire - the greatest of all the kingdoms of men.
+
+Evidence of that vanished realm are everywhere; broken stones which were once part of the old Lord Protectors' Road; patches of grassland that once served as breadbasket to the peoples of Coriopolis.
+
+There is life here still; dense forests, and verdant swamplands. Merchants, miners, and farmers struggle to eak out existence. The right man could weave these disparate threads into a kingdom once more.
+
+Yet there are dangers as well. Great expanses of wildlands, where all manner of creatures - natural and unnatural - roam free.
+
+And there are rumors of fouler evil still rising in the east. To some those rumors are just empty words. But to you, [LeaderName], they are a truth foolish to deny.</LorebookIntroText>
+        <AIPersonality>AI_General</AIPersonality>
+        <Capital>Athica</Capital>
+        <City>Avalan</City>
+        <City>Tylan</City>
+        <City>Denara</City>
+        <City>Keeran's Hold</City>
+        <City>Mirthrandra</City>
+        <City>Farcross</City>
+        <City>Staidenheart</City>
+        <City>Larrenstree</City>
+        <City>Seera's Pass</City>
+        <ShortName>Altar</ShortName>
+        <LeaderName>Lord Relias</LeaderName>
+        <PopulaceName>Men</PopulaceName>
+        <Alignment>Good</Alignment>
+        <FactionAllegiance>Kingdom</FactionAllegiance>
+        <SelAbilityBonusOption>Wanderlust</SelAbilityBonusOption>
+        <SelAbilityBonusOption>Heroic</SelAbilityBonusOption>
+        <EntityID>1</EntityID>
+        <MusicTheme>Altar</MusicTheme>
+        <DefaultCityWallSet>CityWalls_Fence</DefaultCityWallSet>
+        <NewCityHubType>CityHub1</NewCityHubType>
+        <CapitalHubType>CityHub1</CapitalHubType>
+        <RaceClassification>Men</RaceClassification>
+        <RaceDisplayName>Men</RaceDisplayName>
+        <RaceInternalName>Race_Type_Altarians</RaceInternalName>
+        <ChooseFactionBack>Faction_Background_Altar.png</ChooseFactionBack>
+        <UnitScale>1</UnitScale>
+        <UnitSkinColor>215,150,100</UnitSkinColor>
+        <UnitHairColor>155,110,75</UnitHairColor>
+        <UnitClothing1Color>120,25,20,255</UnitClothing1Color>
+        <UnitClothing2Color>78,60,55,255</UnitClothing2Color>
+        <UnitMetalColor>145,145,145,255</UnitMetalColor>
+        <BuildingPrimaryColor>165,145,130</BuildingPrimaryColor>
+        <BuildingSecondaryColor>75,60,50</BuildingSecondaryColor>
+        <BuildingRoofColor>90,15,10</BuildingRoofColor>
+        <ZoneOfControlColor>200,0,0</ZoneOfControlColor>
+        <BuildingStyle>KingdomStyle</BuildingStyle>
+        <TechTree>TechTree_Amarian</TechTree>
+        <EnvironmentTerrainType>2</EnvironmentTerrainType>
+        <NonBuildableEnvironmentType>DeadEnvironment</NonBuildableEnvironmentType>
+        <PreferredLogoType>KingdomCrest2</PreferredLogoType>
+        <SovereignUnitType>Sovereign_Relias</SovereignUnitType>
+    </RaceConfig>
+    <RaceConfig InternalName="KingdomOfCapitar">
+        <DisplayName>Kingdom of Capitar</DisplayName>
+        <Description>The people of Capitar are the descendants of the great trading houses of old - the LaMord, the Serrano, the Ruvennese - the merchants and traders of the old kingdoms. They have a strong distaste for empires, and kings who rule by fiat, for in the time that was, the time before the cataclysm, they made their own wealth, and created great prosperity for those who were loyal to them.</Description>
+        <LorebookIntroText>East of the Skarps lie the ruined wastes of the fabled Ruvennese trading empire.  Though scattered pockets of civilization remain - outposts ruled by once-great merchants who have used the last of their wealth to hire vicious mercenary armies to protect their holdings - the land here is largely unknown, unexplored and untamed.
+      
+It is an opportunity - a kingdom waiting for the right [LeaderManWoman] to come along, and build.
+
+You, [LeaderName], are that [LeaderManWoman].</LorebookIntroText>
+        <AIPersonality>AI_General</AIPersonality>
+        <Capital>Calder</Capital>
+        <City>Serrane</City>
+        <City>Merchantcross</City>
+        <City>Kir Belan</City>
+        <City>Yolantown</City>
+        <City>Engar's Hold</City>
+        <City>Kadenspoint</City>
+        <City>Radenfall</City>
+        <City>New D'kay</City>
+        <City>Barron</City>
+        <ShortName>Capitar</ShortName>
+        <LeaderName>General Carrodus</LeaderName>
+        <PopulaceName>Men</PopulaceName>
+        <Alignment>Good</Alignment>
+        <FactionAllegiance>Kingdom</FactionAllegiance>
+        <SelAbilityBonusOption>CivicsTech</SelAbilityBonusOption>
+        <SelAbilityBonusOption>LegacyOfSerrane</SelAbilityBonusOption>
+        <SelAbilityBonusOption>LuckyEmpire</SelAbilityBonusOption>
+        <EntityID>3</EntityID>
+        <MusicTheme>BladeOfThePeople</MusicTheme>
+        <DefaultCityWallSet>CityWalls_Fence</DefaultCityWallSet>
+        <NewCityHubType>CityHub1</NewCityHubType>
+        <CapitalHubType>CityHub1</CapitalHubType>
+        <RaceClassification>Men</RaceClassification>
+        <RaceDisplayName>Men</RaceDisplayName>
+        <RaceInternalName>Race_Type_Mancers</RaceInternalName>
+        <ChooseFactionBack>Faction_Background_Capitar.png</ChooseFactionBack>
+        <UnitScale>1</UnitScale>
+        <UnitSkinColor>214,145,100</UnitSkinColor>
+        <UnitHairColor>210,175,125</UnitHairColor>
+        <UnitClothing1Color>60,35,60,255</UnitClothing1Color>
+        <UnitClothing2Color>215,215,215,255</UnitClothing2Color>
+        <UnitMetalColor>190,190,190,255</UnitMetalColor>
+        <BuildingPrimaryColor>170,175,200</BuildingPrimaryColor>
+        <BuildingSecondaryColor>105,100,120</BuildingSecondaryColor>
+        <BuildingRoofColor>60,35,60</BuildingRoofColor>
+        <ZoneOfControlColor>100,55,120</ZoneOfControlColor>
+        <BuildingStyle>KingdomStyle</BuildingStyle>
+        <TechTree>TechTree_Amarian</TechTree>
+        <EnvironmentTerrainType>2</EnvironmentTerrainType>
+        <NonBuildableEnvironmentType>DeadEnvironment</NonBuildableEnvironmentType>
+        <PreferredLogoType>KingdomCrest3</PreferredLogoType>
+    </RaceConfig>
+    <RaceConfig InternalName="KingdomOfGilden">
+        <DisplayName>Kingdom of Gilden</DisplayName>
+        <Description>The people of Gilden are the "Ironeers": descendants of the Iron Tribes who were the first to master the art of shaping metal.  In the days of the Magi clans, the Aivernach forged the swords of mastery, legendary weapons still prized by man and Fallen alike. In those isolated pockets of civilization reclaimed from the wilderness, a skilled few still toil in the ancient crafts their forebearers mastered. They seek a leader to help them reclaim the land... and their pride.</Description>
+        <LorebookIntroText>Here are the territories once ruled by the great wizard-kings of Zabril - where the purple ziggurats of Az-Amoran, last of those great sorcerers, once towered. Those buildings are long gone to dust, and the peoples who inhabited them are said to have reverted to savagery. To the south lies the Lombard Desert, a barren wasteland the ancients say was caused by a great battle between Tandis the Arnor and Az-Amoran, a fight that raged for twenty days and twenty nights before Titan slew sorcerer.
+
+In the far north of the country rise the Marek Kush -  foothills which grow to mountains where they join with the Lesser Skarps. Five hundred years ago, the miners who made their living drawing precious metals from the tunnels that honeycombed those hills joined together to form the kingdom of Neshin. They built great bridges to join their cities together, and formed guilds to deal with the merchant princes of Ruvenna as equals. The cataclysm toppled those bridges, and laid waste to those cities, killing thousands in the process.
+
+The mines of the Marek Kush, however, remain. But life for those who work those dark, dangerous tunnels is harsh, cruel, and all-too-short... as you know from first-hand experience.</LorebookIntroText>
+        <AIPersonality>AI_General</AIPersonality>
+        <Capital>Tan-ta-Kreet</Capital>
+        <City>Gildenshard</City>
+        <City>Fargan's Keep</City>
+        <City>Farhammer</City>
+        <City>Sandraka</City>
+        <City>Nurendell</City>
+        <City>V'lay</City>
+        <City>Andrucia</City>
+        <City>Ferrenton</City>
+        <City>Stoneham</City>
+        <ShortName>Gilden</ShortName>
+        <LeaderName>Lord Enil Markin</LeaderName>
+        <PopulaceName>Men</PopulaceName>
+        <Alignment>Good</Alignment>
+        <FactionAllegiance>Kingdom</FactionAllegiance>
+        <SelAbilityBonusOption>MasterSmiths</SelAbilityBonusOption>
+        <SelAbilityBonusOption>GreatHammers</SelAbilityBonusOption>
+        <SelAbilityBonusOption>LightPlate</SelAbilityBonusOption>
+        <EntityID>4</EntityID>
+        <MusicTheme>StoneAndSoil</MusicTheme>
+        <DefaultCityWallSet>CityWalls_Fence</DefaultCityWallSet>
+        <NewCityHubType>CityHub1</NewCityHubType>
+        <CapitalHubType>CityHub1</CapitalHubType>
+        <RaceClassification>Men</RaceClassification>
+        <RaceDisplayName>Men</RaceDisplayName>
+        <RaceInternalName>Race_Type_Ironeers</RaceInternalName>
+        <ChooseFactionBack>Faction_Background_Gilden.png</ChooseFactionBack>
+        <UnitScale>1</UnitScale>
+        <UnitSkinColor>195,155,140</UnitSkinColor>
+        <UnitHairColor>110,60,15</UnitHairColor>
+        <UnitClothing1Color>218,182,14,255</UnitClothing1Color>
+        <UnitClothing2Color>55,40,20,255</UnitClothing2Color>
+        <UnitMetalColor>175,152,67,255</UnitMetalColor>
+        <BuildingPrimaryColor>140,120,100</BuildingPrimaryColor>
+        <BuildingSecondaryColor>80,60,40</BuildingSecondaryColor>
+        <BuildingRoofColor>165,120,15</BuildingRoofColor>
+        <ZoneOfControlColor>230,195,15</ZoneOfControlColor>
+        <BuildingStyle>KingdomStyle</BuildingStyle>
+        <TechTree>TechTree_Amarian</TechTree>
+        <EnvironmentTerrainType>2</EnvironmentTerrainType>
+        <NonBuildableEnvironmentType>DeadEnvironment</NonBuildableEnvironmentType>
+        <PreferredLogoType>KingdomCrest4</PreferredLogoType>
+        <SovereignUnitType>Sovereign_Markinn</SovereignUnitType>
+    </RaceConfig>
+    <RaceConfig InternalName="KingdomOfPariden">
+        <DisplayName>Kingdom of Pariden</DisplayName>
+        <Description>The people of New Pariden see themselves as the last hope of mankind in a world gradually consumed by darkness and disorder. They are inheritors of the Decalon, the great books carried west by Ezmir the scribe, now contained in the library in New Pariden. They see Queen Procipinee as the heir to the throne of Amarian III, who led the Great Army of the West into battle against the Titan Curgen. Other kingdoms are, at best, rebels, and at worst, traitors.</Description>
+        <LorebookIntroText>The thrice-devastated lands of this realm lie in chaos.
+
+Stripped of resources by the great armies which gathered to fight the last of the wars between Man and Titan, shattered by the cataclysm, ripped asunder by rebellion, this territory and its peoples seek a sovereign to restore order to their world. A leader willing to deal justice to the lawless tribes of bandits who roam the trade routes - a commander capable of forging armies strong enough to conquer the wildlands and the creatures that roam it - a mage with powers capable of restoring life to the world's devastated lands...
+
+You, now more than ever, are determined to be that leader.</LorebookIntroText>
+        <AIPersonality>AI_General</AIPersonality>
+        <Capital>New Pariden</Capital>
+        <City>Tenfell</City>
+        <City>Raven's Heart</City>
+        <City>New Serrane</City>
+        <City>Clover</City>
+        <City>Stonecastle</City>
+        <City>Harkleigh</City>
+        <City>Hope's Crossing</City>
+        <City>Gladdenfeld</City>
+        <City>Kavell </City>
+        <ShortName>Pariden</ShortName>
+        <LeaderName>Queen Procipinee</LeaderName>
+        <PopulaceName>Men</PopulaceName>
+        <Alignment>Good</Alignment>
+        <FactionAllegiance>Kingdom</FactionAllegiance>
+        <SelAbilityBonusOption>TheDecalon</SelAbilityBonusOption>
+        <SelAbilityBonusOption>Enchanters</SelAbilityBonusOption>
+        <EntityID>2</EntityID>
+        <MusicTheme>CrownOfTheWest</MusicTheme>
+        <DefaultCityWallSet>CityWalls_Fence</DefaultCityWallSet>
+        <NewCityHubType>CityHub1</NewCityHubType>
+        <CapitalHubType>CityHub1</CapitalHubType>
+        <RaceClassification>Men</RaceClassification>
+        <RaceDisplayName>Men</RaceDisplayName>
+        <RaceInternalName>Race_Type_Amarians</RaceInternalName>
+        <ChooseFactionBack>Faction_Background_Pariden.png</ChooseFactionBack>
+        <UnitScale>1</UnitScale>
+        <UnitSkinColor>180,125,110</UnitSkinColor>
+        <UnitHairColor>200,195,195</UnitHairColor>
+        <UnitClothing1Color>155,175,205,255</UnitClothing1Color>
+        <UnitClothing2Color>100,110,110,255</UnitClothing2Color>
+        <UnitMetalColor>160,175,190,255</UnitMetalColor>
+        <BuildingPrimaryColor>150,150,155</BuildingPrimaryColor>
+        <BuildingSecondaryColor>100,110,110</BuildingSecondaryColor>
+        <BuildingRoofColor>30,65,100</BuildingRoofColor>
+        <ZoneOfControlColor>55,150,185</ZoneOfControlColor>
+        <BuildingStyle>KingdomStyle</BuildingStyle>
+        <TechTree>TechTree_Amarian</TechTree>
+        <EnvironmentTerrainType>2</EnvironmentTerrainType>
+        <NonBuildableEnvironmentType>DeadEnvironment</NonBuildableEnvironmentType>
+        <PreferredLogoType>KingdomCrest</PreferredLogoType>
+        <SovereignUnitType>Sovereign_Procipinee</SovereignUnitType>
+    </RaceConfig>
+    <RaceConfig InternalName="KingdomOfTarth">
+        <DisplayName>Kingdom of Tarth</DisplayName>
+        <Description>The people of Tarth are warriors, gladiators and slaves who rebelled against their masters, the merchant lords of Capitar. A century of being treated as little more than playthings has left these former slaves with a burning desire to use their strength in pursuit of revenge, rather than more constructive purposes. Lady Irane is teaching them the virtues of discipline and order.</Description>
+        <LorebookIntroText>South of the Gandru river, in the heart of the great mountain steppes where the nomadic tribes known as the K'tzeer once roamed, life is slowly taking hold once more. An influx of settlers - slaves freed during the bloody rebellion of the gladiators less than a decade earlier - have invaded this territory, attempting to turn the flooded marshlands and dead plains into arable land once more.
+
+Their efforts have met with little success so far. These settlers are a harsh, unforgiving, unwelcoming group - an attitude that prevents them from sharing knowledge, from banding together in sufficient numbers to encourage the development of communities, and the refinement of technologies.
+
+This is something you are determined to change.</LorebookIntroText>
+        <AIPersonality>AI_General</AIPersonality>
+        <Capital>Hope</Capital>
+        <City>New Hallas</City>
+        <City>Ithuane</City>
+        <City>Queenshand</City>
+        <City>Barmen</City>
+        <City>Ereog</City>
+        <City>Linn</City>
+        <City>New Aegon</City>
+        <City>Sanderton</City>
+        <City>Josrynton</City>
+        <ShortName>Tarth</ShortName>
+        <LeaderName>Lady Irane</LeaderName>
+        <PopulaceName>Men</PopulaceName>
+        <Alignment>Good</Alignment>
+        <FactionAllegiance>Kingdom</FactionAllegiance>
+        <SelAbilityBonusOption>MasterScout</SelAbilityBonusOption>
+        <SelAbilityBonusOption>Stealth</SelAbilityBonusOption>
+        <SelAbilityBonusOption>Archers</SelAbilityBonusOption>
+        <SelAbilityBonusOption>MasterworkChain</SelAbilityBonusOption>
+        <EntityID>5</EntityID>
+        <MusicTheme>ForestRefuge</MusicTheme>
+        <DefaultCityWallSet>CityWalls_Fence</DefaultCityWallSet>
+        <NewCityHubType>CityHub1</NewCityHubType>
+        <CapitalHubType>CityHub1</CapitalHubType>
+        <RaceClassification>Men</RaceClassification>
+        <RaceDisplayName>Men</RaceDisplayName>
+        <RaceInternalName>Race_Type_Tarthans</RaceInternalName>
+        <ChooseFactionBack>Faction_Background_Tarth.png</ChooseFactionBack>
+        <UnitScale>1</UnitScale>
+        <UnitSkinColor>175,120,95</UnitSkinColor>
+        <UnitHairColor>60,35,25</UnitHairColor>
+        <UnitClothing1Color>0,85,0,255</UnitClothing1Color>
+        <UnitClothing2Color>65,45,40,255</UnitClothing2Color>
+        <UnitMetalColor>150,155,135,255</UnitMetalColor>
+        <BuildingPrimaryColor>180,140,105</BuildingPrimaryColor>
+        <BuildingSecondaryColor>95,90,90</BuildingSecondaryColor>
+        <BuildingRoofColor>65,70,35</BuildingRoofColor>
+        <ZoneOfControlColor>50,115,70</ZoneOfControlColor>
+        <BuildingStyle>KingdomStyle</BuildingStyle>
+        <TechTree>TechTree_Amarian</TechTree>
+        <EnvironmentTerrainType>2</EnvironmentTerrainType>
+        <NonBuildableEnvironmentType>DeadEnvironment</NonBuildableEnvironmentType>
+        <PreferredLogoType>KingdomCrest5</PreferredLogoType>
+        <SovereignUnitType>Sovereign_Irane</SovereignUnitType>
+    </RaceConfig>
+    <RaceConfig InternalName="EmpireOfKraxis">
+        <DisplayName>Empire of Kraxis</DisplayName>
+        <Description>Those who call the people of Kraxis traitors are fools. The Krax are survivors - men and women who were trapped in the East when the continent split. As the savage remnants of Curgen’s armies ravaged the land, the Krax stood tall and steadfast, remaining united to resist the Fallen. Now that those same Fallen tribes have begun to form empires, you must make an alliance with them... for they are neighbors, and the kingdoms of the West are a world away. </Description>
+        <AIPersonality>AI_General</AIPersonality>
+        <Capital>Goyarh Hedigah</Capital>
+        <City>Claredsden</City>
+        <City>Kerstey</City>
+        <City>Aegonford</City>
+        <City>Dundian</City>
+        <City>Caronsfell</City>
+        <City>Caldesbern</City>
+        <City>Athurston</City>
+        <City>Staltontal</City>
+        <City>Carundra</City>
+        <ShortName>Kraxis</ShortName>
+        <LeaderName>Emperor Karavox</LeaderName>
+        <PopulaceName>Men</PopulaceName>
+        <Alignment>Evil</Alignment>
+        <FactionAllegiance>Empire</FactionAllegiance>
+        <SelAbilityBonusOption>Defensive</SelAbilityBonusOption>
+        <SelAbilityBonusOption>Betrayers</SelAbilityBonusOption>
+        <EntityID>7</EntityID>
+        <MusicTheme>TraitorousEmpire</MusicTheme>
+        <DefaultCityWallSet>CityWalls_Fallen_Fence</DefaultCityWallSet>
+        <NewCityHubType>CityHub1</NewCityHubType>
+        <CapitalHubType>CityHub1</CapitalHubType>
+        <RaceClassification>Fallen</RaceClassification>
+        <RaceDisplayName>Men</RaceDisplayName>
+        <RaceInternalName>Race_Type_Krax</RaceInternalName>
+        <ChooseFactionBack>Faction_Background_Kraxis.png</ChooseFactionBack>
+        <UnitScale>1</UnitScale>
+        <UnitSkinColor>190,145,110</UnitSkinColor>
+        <UnitHairColor>60,50,65</UnitHairColor>
+        <UnitClothing1Color>170,100,40,255</UnitClothing1Color>
+        <UnitClothing2Color>40,35,30,255</UnitClothing2Color>
+        <UnitMetalColor>110,100,90,255</UnitMetalColor>
+        <BuildingPrimaryColor>35,30,25</BuildingPrimaryColor>
+        <BuildingSecondaryColor>15,5,5</BuildingSecondaryColor>
+        <BuildingRoofColor>170,100,40</BuildingRoofColor>
+        <ZoneOfControlColor>200,110,30,255</ZoneOfControlColor>
+        <BuildingStyle>EmpireStyle</BuildingStyle>
+        <TechTree>TechTree_Amarian</TechTree>
+        <EnvironmentTerrainType>1</EnvironmentTerrainType>
+        <NonBuildableEnvironmentType>GrasslandEnvironment</NonBuildableEnvironmentType>
+        <PreferredLogoType>GenericCrest38</PreferredLogoType>
+        <SovereignUnitType>Sovereign_Karavox</SovereignUnitType>
+    </RaceConfig>
+    <RaceConfig InternalName="EmpireOfMagnar">
+        <DisplayName>Empire of Magnar</DisplayName>
+        <Description>The people of Magnar are the greatest soldiers of the former Imperium. Shaped thousands of years ago by Curgen’s magics to serve as his personal bodyguard and to command his armies, their loyalty to him is inbred. Their loyalty to power, though, is learned - the Emperor who can lead them to glory will have both their respect and their allegiance.</Description>
+        <AIPersonality>AI_General</AIPersonality>
+        <Capital>Imperium</Capital>
+        <City>Curgen's Hold</City>
+        <City>Khaffara</City>
+        <City>Ryss</City>
+        <City>Rilkaz</City>
+        <City>Mithrash</City>
+        <City>Havelkar</City>
+        <City>Hagadez</City>
+        <City>Kay-al-keita</City>
+        <City>Nuvadesh</City>
+        <ShortName>Magnar</ShortName>
+        <LeaderName>Magnar</LeaderName>
+        <PopulaceName>Fallen</PopulaceName>
+        <Alignment>Evil</Alignment>
+        <FactionAllegiance>Empire</FactionAllegiance>
+        <SelAbilityBonusOption>SlaveLord</SelAbilityBonusOption>
+        <SelAbilityBonusOption>FleshBoundTome</SelAbilityBonusOption>
+        <EntityID>8</EntityID>
+        <MusicTheme>AncientShadow</MusicTheme>
+        <DefaultCityWallSet>CityWalls_Fallen_Fence</DefaultCityWallSet>
+        <NewCityHubType>CityHub1</NewCityHubType>
+        <CapitalHubType>CityHub1</CapitalHubType>
+        <RaceClassification>Fallen</RaceClassification>
+        <RaceDisplayName>Fallen</RaceDisplayName>
+        <RaceInternalName>Race_Type_Quendar</RaceInternalName>
+        <ChooseFactionBack>Faction_Background_Magnar.png</ChooseFactionBack>
+        <UnitScale>1.2</UnitScale>
+        <UnitSkinColor>208,116,88,255</UnitSkinColor>
+        <UnitHairColor>200,200,200</UnitHairColor>
+        <UnitClothing1Color>85,15,75,255</UnitClothing1Color>
+        <UnitClothing2Color>40,35,35,255</UnitClothing2Color>
+        <UnitMetalColor>107,41,41,255</UnitMetalColor>
+        <BuildingPrimaryColor>100,100,115</BuildingPrimaryColor>
+        <BuildingSecondaryColor>25,25,40</BuildingSecondaryColor>
+        <BuildingRoofColor>95,15,75</BuildingRoofColor>
+        <ZoneOfControlColor>95,0,75</ZoneOfControlColor>
+        <BuildingStyle>EmpireStyle</BuildingStyle>
+        <TechTree>TechTree_Amarian</TechTree>
+        <EnvironmentTerrainType>1</EnvironmentTerrainType>
+        <NonBuildableEnvironmentType>GrasslandEnvironment</NonBuildableEnvironmentType>
+        <PreferredLogoType>GenericCrest41</PreferredLogoType>
+        <SovereignUnitType>Sovereign_Magnar_III</SovereignUnitType>
+    </RaceConfig>
+    <RaceConfig InternalName="EmpireOfResoln">
+        <DisplayName>Empire of Resoln</DisplayName>
+        <Description>The people of Resoln are called Wraiths by some... monsters by others. They are neither man nor Fallen, but creatures of dark sorcery and magic, transformed by the spell that gave Ceresa power. They are bound to her by that spell, a bond that cannot be broken by even the most powerful of enchanters.</Description>
+        <AIPersonality>AI_General</AIPersonality>
+        <Capital>Hagudst</Capital>
+        <City>Blackstead</City>
+        <City>Geddens</City>
+        <City>Greyrock</City>
+        <City>Kirgensfeld</City>
+        <City>Medden's Cross</City>
+        <City>Verkenheim</City>
+        <City>Askalheim</City>
+        <City>Orgalsfeld</City>
+        <City>Bluestone</City>
+        <ShortName>Resoln</ShortName>
+        <LeaderName>Oracle Ceresa</LeaderName>
+        <PopulaceName>Fallen</PopulaceName>
+        <Alignment>Evil</Alignment>
+        <FactionAllegiance>Empire</FactionAllegiance>
+        <SelAbilityBonusOption>AdeptsTech</SelAbilityBonusOption>
+        <SelAbilityBonusOption>DeathWorship</SelAbilityBonusOption>
+        <SelAbilityBonusOption>Binding</SelAbilityBonusOption>
+        <SelAbilityBonusOption>CultofaHundredEyes</SelAbilityBonusOption>
+        <SelAbilityBonusOption>NoArmor</SelAbilityBonusOption>
+        <EntityID>9</EntityID>
+        <MusicTheme>EasternWardrums</MusicTheme>
+        <DefaultCityWallSet>CityWalls_Fallen_Fence</DefaultCityWallSet>
+        <NewCityHubType>CityHub1</NewCityHubType>
+        <CapitalHubType>CityHub1</CapitalHubType>
+        <RaceClassification>Fallen</RaceClassification>
+        <RaceDisplayName>Fallen</RaceDisplayName>
+        <RaceInternalName>Race_Type_Wraiths</RaceInternalName>
+        <ChooseFactionBack>Faction_Background_Resolyn.png</ChooseFactionBack>
+        <UnitScale>1</UnitScale>
+        <UnitSkinColor>160,170,185</UnitSkinColor>
+        <UnitHairColor>50,50,65</UnitHairColor>
+        <UnitClothing1Color>90,130,170,255</UnitClothing1Color>
+        <UnitClothing2Color>50,50,60</UnitClothing2Color>
+        <UnitMetalColor>19,69,130,255</UnitMetalColor>
+        <BuildingPrimaryColor>100,100,120</BuildingPrimaryColor>
+        <BuildingSecondaryColor>50,50,60</BuildingSecondaryColor>
+        <BuildingRoofColor>30,65,100</BuildingRoofColor>
+        <ZoneOfControlColor>90,130,170</ZoneOfControlColor>
+        <BuildingStyle>EmpireStyle</BuildingStyle>
+        <TechTree>TechTree_Amarian</TechTree>
+        <EnvironmentTerrainType>1</EnvironmentTerrainType>
+        <NonBuildableEnvironmentType>GrasslandEnvironment</NonBuildableEnvironmentType>
+        <PreferredLogoType>CeresaCrest</PreferredLogoType>
+        <SovereignUnitType>Sovereign_Ceresa</SovereignUnitType>
+    </RaceConfig>
+    <RaceConfig InternalName="EmpireOfUmber">
+        <DisplayName>Empire of Umber</DisplayName>
+        <Description>The Urxen are the first and most numerous of all Fallen tribes. There are many who believe that the great migrations of the Urxen tribes in the last millennium - their journey north, their shift in loyalties from Curgen to Illosa, the Lady Umber - was the single most important factor in the Emperor’s downfall.</Description>
+        <AIPersonality>AI_General</AIPersonality>
+        <Capital>Cyndrum</Capital>
+        <City>Goldag</City>
+        <City>Ventraken</City>
+        <City>Gesaldra</City>
+        <City>Vergenshaag</City>
+        <City>Gruus Petava</City>
+        <City>Vikensvold</City>
+        <City>Klayden</City>
+        <City>Nurden's Pass</City>
+        <City>Cerganhaag</City>
+        <ShortName>Umber</ShortName>
+        <LeaderName>Kulan</LeaderName>
+        <PopulaceName>Fallen</PopulaceName>
+        <Alignment>Evil</Alignment>
+        <FactionAllegiance>Empire</FactionAllegiance>
+        <SelAbilityBonusOption>AssassinsTools</SelAbilityBonusOption>
+        <SelAbilityBonusOption>MasterScout</SelAbilityBonusOption>
+        <SelAbilityBonusOption>Stealth</SelAbilityBonusOption>
+        <SelAbilityBonusOption>MasterworkChain</SelAbilityBonusOption>
+        <EntityID>10</EntityID>
+        <MusicTheme>SeeInDarkness</MusicTheme>
+        <DefaultCityWallSet>CityWalls_Fallen_Fence</DefaultCityWallSet>
+        <NewCityHubType>CityHub1</NewCityHubType>
+        <CapitalHubType>CityHub1</CapitalHubType>
+        <RaceClassification>Fallen</RaceClassification>
+        <RaceDisplayName>Fallen</RaceDisplayName>
+        <RaceInternalName>Race_Type_Urxen</RaceInternalName>
+        <ChooseFactionBack>Faction_Background_Umber.png</ChooseFactionBack>
+        <UnitScale>1</UnitScale>
+        <UnitSkinColor>165,165,170</UnitSkinColor>
+        <UnitHairColor>45,45,65</UnitHairColor>
+        <UnitClothing1Color>201,94,22,255</UnitClothing1Color>
+        <UnitClothing2Color>55,45,30,255</UnitClothing2Color>
+        <UnitMetalColor>50,35,31,255</UnitMetalColor>
+        <BuildingPrimaryColor>120,110,100</BuildingPrimaryColor>
+        <BuildingSecondaryColor>60,50,45</BuildingSecondaryColor>
+        <BuildingRoofColor>30,20,10</BuildingRoofColor>
+        <ZoneOfControlColor>230,110,30</ZoneOfControlColor>
+        <BuildingStyle>EmpireStyle</BuildingStyle>
+        <TechTree>TechTree_Amarian</TechTree>
+        <EnvironmentTerrainType>1</EnvironmentTerrainType>
+        <NonBuildableEnvironmentType>GrasslandEnvironment</NonBuildableEnvironmentType>
+        <PreferredLogoType>UmberCrest</PreferredLogoType>
+    </RaceConfig>
+    <RaceConfig InternalName="EmpireOfYithril">
+        <DisplayName>Empire of Yithril</DisplayName>
+        <Description>The people of Yithril are those who the armies of mankind called Trogs, a name said to have come from the first of their kind, D’rog, who slew the last descendant of Ereog in the great battle at Engar’s Plain. The Trogs, or D’rog, are warriors; violence and butchery is to them what milk and honey are to other races.</Description>
+        <AIPersonality>AI_General</AIPersonality>
+        <Capital>Ahilga</Capital>
+        <City>Alhain-al-Assan</City>
+        <City>Timbraikat</City>
+        <City>Saffara</City>
+        <City>Yithran</City>
+        <City>Alkahoud</City>
+        <City>Adronas</City>
+        <City>Kett</City>
+        <City>Nuvakett</City>
+        <City>Triankett</City>
+        <ShortName>Yithril</ShortName>
+        <LeaderName>Warlord Verga</LeaderName>
+        <PopulaceName>Fallen</PopulaceName>
+        <Alignment>Evil</Alignment>
+        <FactionAllegiance>Empire</FactionAllegiance>
+        <SelAbilityBonusOption>WarriorsTech</SelAbilityBonusOption>
+        <SelAbilityBonusOption>WarriorCaste</SelAbilityBonusOption>
+        <SelAbilityBonusOption>ToughEmpire</SelAbilityBonusOption>
+        <SelAbilityBonusOption>GreatAxes</SelAbilityBonusOption>
+        <SelAbilityBonusOption>NoRangedWeapons</SelAbilityBonusOption>
+        <EntityID>11</EntityID>
+        <MusicTheme>SeeInDarkness</MusicTheme>
+        <DefaultCityWallSet>CityWalls_Fallen_Fence</DefaultCityWallSet>
+        <NewCityHubType>CityHub1</NewCityHubType>
+        <CapitalHubType>CityHub1</CapitalHubType>
+        <RaceClassification>Fallen</RaceClassification>
+        <RaceDisplayName>Fallen</RaceDisplayName>
+        <RaceInternalName>Race_Type_Trogs</RaceInternalName>
+        <ChooseFactionBack>Faction_Background_Yithril.png</ChooseFactionBack>
+        <UnitScale>1</UnitScale>
+        <UnitClothing1Color>150,150,150,255</UnitClothing1Color>
+        <UnitClothing2Color>50,50,50,255</UnitClothing2Color>
+        <UnitMetalColor>80,75,90,255</UnitMetalColor>
+        <BuildingPrimaryColor>100,100,100</BuildingPrimaryColor>
+        <BuildingSecondaryColor>20,20,20</BuildingSecondaryColor>
+        <BuildingRoofColor>165,160,150</BuildingRoofColor>
+        <ZoneOfControlColor>200,200,200</ZoneOfControlColor>
+        <BuildingStyle>EmpireStyle</BuildingStyle>
+        <TechTree>TechTree_Amarian</TechTree>
+        <EnvironmentTerrainType>1</EnvironmentTerrainType>
+        <NonBuildableEnvironmentType>GrasslandEnvironment</NonBuildableEnvironmentType>
+        <PreferredLogoType>YithrilCrest</PreferredLogoType>
+        <SovereignUnitType>Sovereign_Verga</SovereignUnitType>
+    </RaceConfig>
+    <RaceConfig InternalName="WildCreatures">
+        <DisplayName>Monsters and Ruffians</DisplayName>
+        <ShortName>Creatures</ShortName>
+        <DefaultCityWallSet>CityWalls_Fence</DefaultCityWallSet>
+        <UnitSkinColor>190,145,110</UnitSkinColor>
+        <UnitHairColor>60,50,65</UnitHairColor>
+        <UnitClothing1Color>196,155,49,255</UnitClothing1Color>
+        <UnitClothing2Color>40,35,30,255</UnitClothing2Color>
+        <UnitMetalColor>100,100,110,255</UnitMetalColor>
+        <ZoneOfControlColor>20,20,20</ZoneOfControlColor>
+        <PreferredLogoType>CreatureCrest</PreferredLogoType>
+        <SovereignUnitType>EbbenWolf</SovereignUnitType>
+        <FactionType>Creature</FactionType>
+    </RaceConfig>
+    <RaceConfig InternalName="WildlandsPlayer">
+        <DisplayName>Denizens of the Wildlands</DisplayName>
+        <ShortName>Wildlands</ShortName>
+        <DefaultCityWallSet>CityWalls_Fence</DefaultCityWallSet>
+        <UnitSkinColor>190,145,110</UnitSkinColor>
+        <UnitHairColor>60,50,65</UnitHairColor>
+        <UnitClothing1Color>196,155,49,255</UnitClothing1Color>
+        <UnitClothing2Color>40,35,30,255</UnitClothing2Color>
+        <UnitMetalColor>100,100,110,255</UnitMetalColor>
+        <BuildingPrimaryColor>50,50,70</BuildingPrimaryColor>
+        <BuildingSecondaryColor>77,100,100</BuildingSecondaryColor>
+        <BuildingRoofColor>30,53,48</BuildingRoofColor>
+        <ZoneOfControlColor>0,61,51</ZoneOfControlColor>
+        <PreferredLogoType>CreatureCrest</PreferredLogoType>
+        <SovereignUnitType>EbbenWolf</SovereignUnitType>
+        <FactionType>Creature</FactionType>
+    </RaceConfig>
+    <RaceConfig InternalName="ChampNPCPlayer_Empire">
+        <DisplayName>Empire NPC Player</DisplayName>
+        <ShortName>Empire NPCs</ShortName>
+        <LeaderName>Empire NPC Leader</LeaderName>
+        <PopulaceName>Empire NPC</PopulaceName>
+        <FactionAllegiance>Empire</FactionAllegiance>
+        <DefaultCityWallSet>CityWalls_Fence</DefaultCityWallSet>
+        <UnitSkinColor>165,135,115</UnitSkinColor>
+        <UnitHairColor>40,20,5</UnitHairColor>
+        <UnitClothing1Color>115,35,0</UnitClothing1Color>
+        <UnitClothing2Color>50,30,30</UnitClothing2Color>
+        <ZoneOfControlColor>80,55,40</ZoneOfControlColor>
+        <PreferredLogoType>NPCCrestEmpire</PreferredLogoType>
+        <SovereignUnitType>EbbenWolf</SovereignUnitType>
+        <FactionType>ChampNPC</FactionType>
+    </RaceConfig>
+    <RaceConfig InternalName="ChampNPCPlayer_Kingdom">
+        <DisplayName>Kingdom NPC Player</DisplayName>
+        <ShortName>Kingdom NPCs</ShortName>
+        <LeaderName>Kingdom NPC Leader</LeaderName>
+        <PopulaceName>Kingdom NPC</PopulaceName>
+        <FactionAllegiance>Kingdom</FactionAllegiance>
+        <DefaultCityWallSet>CityWalls_Fence</DefaultCityWallSet>
+        <UnitSkinColor>165,135,115</UnitSkinColor>
+        <UnitHairColor>40,20,5</UnitHairColor>
+        <UnitClothing1Color>115,35,0</UnitClothing1Color>
+        <UnitClothing2Color>50,30,30</UnitClothing2Color>
+        <ZoneOfControlColor>180,155,140</ZoneOfControlColor>
+        <PreferredLogoType>NPCCrest</PreferredLogoType>
+        <SovereignUnitType>EbbenWolf</SovereignUnitType>
+        <FactionType>ChampNPC</FactionType>
+    </RaceConfig>
+</RaceConfigs>

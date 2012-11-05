@@ -1,0 +1,3357 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<CampaignData>
+
+<!-- *********************************************************************-->
+<!-- *********************************************************************-->
+<!-- QUESTS -->
+<!-- *********************************************************************-->
+<!-- *********************************************************************-->
+
+<QuestDef InternalName="FEC_QUEST_Golem">
+	<DisplayName>The Legend of Tyundii</DisplayName>
+	<Description>Rihossa leads you inside the sanctuary, where you find a single great room, with a statue of the Oracle in the center. "This place was consecrated by... my brethren...." He pauses for a moment. "To the Oracle's guardian, the golem Tyundii, who fell in battle against the Titans. When he was destroyed, they gathered the shattered remnants of his body, and brought them here." The Padar walks to the wall, and presses a carving, which slides to one side, revealing a hidden chamber. From it, he pulls a piece of polished stone. "A fragment of great Tyundii - and of the map we seek."
+
+You frown. "The golem's body? A map?"
+
+"Indeed. Tyundii was guardian to the Temple precinct, whose boundaries were inscribed on his body. A map of the Temple's location." Rihossa presses another carving. "All we need do is reassemble the fragments of his body, and - " His voice trails off.
+
+"What?" you ask. "What's the matter?"
+
+"It is missing - the piece that was here... " Rihossa presses a third carving, and then a fourth, looking increasingly frantic. "Three pieces are missing! Without them, we cannot read the runes. Without them, we cannot find the Temple."
+
+"Padar. Look...there is power still in the stone. The spell of animation - the Anima T'sal Anima." Shirayne touches the rock to her amulet, which begins to glow a light blue.
+
+"Yes! The Spell." Rihossa closes his eyes, and concentrates a moment. "Thank the Five - they are not far, the three fragments we need. All nearby - all within marching distance of the Crying Mountain - Kair Na Morne. It lies to the East, my Lord Relias."
+
+A golem as a map, huh? Well, you have no choice but to trust this fellow. At least it's nice to see him not look so glum for a change.</Description>
+	<ShortTextAccept>Only the missing pieces of the golem can tell us the Temple's location. We must find them.</ShortTextAccept>
+	<AllowQuestRejection>0</AllowQuestRejection>
+	<RewardImage>M_KingdomGuardianWard_Card.png</RewardImage>
+
+	<QuestClass>Minor</QuestClass>
+	<Repeatable>0</Repeatable>
+	<TriggerType>QuestLocation</TriggerType>
+	<TriggerOrigin>EventLocation</TriggerOrigin>
+	<SpawnRating>0</SpawnRating>
+	<Image>M_KingdomGuardianWard_Card.png</Image>
+	<PrefQuestLoc>QuestLoc_Inn1</PrefQuestLoc>
+	
+	<!-- Hack to get campaign book to show up (see "FEC_T_GolemQuestCompleteCrystalHack" in the trigger file) -->
+	<Treasure>
+		<GameModifier InternalName="Reward1">
+			<ModType>Resource</ModType>
+			<Attribute>RefinedCrystal</Attribute>
+			<Value>10000</Value>
+		</GameModifier>
+	</Treasure>
+	
+	<Treasure>
+		<GameModifier InternalName="FEC_R_SummonGolem">
+			<ModType>Unit</ModType>
+			<Attribute>SummonUnit</Attribute>
+			<UnitClass>FEC_UNIT_Tyundii</UnitClass>
+			<StrVal>Tyundii</StrVal>
+			<PerTurn>0</PerTurn>
+			<Value>9</Value>		<!-- Level -->
+		</GameModifier>
+	</Treasure>
+	
+	<QuestObjectiveDef>
+		<ObjectiveID>0</ObjectiveID>
+		<NextObjectiveID>-1</NextObjectiveID>
+		<QuestConditionDef>
+			<Class>Success</Class>
+			<Type>AcquireItem</Type>
+			<TextData>FEC_Loot_GolemPiece</TextData>
+			<NumericData>4</NumericData>
+			<Objective>
+                <Icon>Mana_32.png</Icon>
+                <Text>Collect the 4 pieces of Tyundii. 3 are missing and can be found near Kair Na Morne - the crying mountain.</Text>
+            </Objective>
+		</QuestConditionDef>
+	</QuestObjectiveDef>
+</QuestDef>
+
+
+<!-- FAIR EXCHANGE QUEST -->
+
+<QuestDef InternalName="FEC_QUEST_FairExchange">
+	<DisplayName>A Fair Exchange</DisplayName>
+	<Description>Just outside the town of Cumbrana, Shirayne's amulet begins to glow... a fragment of the Golem, you realize, is near. You enter the village, and are welcomed by its leader, the Khag, and he holds a feast in your honor. Your noble ego properly soothed, you sit down next to Shirayne and make small talk. She looks over at you and smiles.
+
+As you break bread with the Khag and his men, your gaze then wanders to a nearby cart, loaded with wooden chests, bolts of cloth, casks of ale...and something else. A large fragment of polished stone. A piece of the golem Tyundii. The Khag notes your interest.
+
+"You like my pretty stone, Lord Relias? How it shines? I would give it to you, but alas, it is promised already to the men of Kraxis, who have offered us valuable weapons in trade."
+
+Before you can reply, Rihossa interjects sharply. "The stone is not yours to give. It is a fragment of the golem Tyundii, stolen from the Shrine of the Protector. You must return it to us at once."
+
+At Rihossa's words, all conversation around the great table stops. You sigh. The monk clearly has spent more time reading ancient scriptures than rubbing elbows.
+
+The Khag's eyes narrow and he turns his gaze to you. "Your Padar, Relias, has just called me a thief." The Khag's words are soft, but carry the veil of warning. "Am I right?"
+
+Rihossa softens his tone. "No, great Khag. I simply ask... in the name of the Five, please return this thing to where it belongs. I apologize for my rough words. The last few weeks have not been kind."
+
+"The Five? The Elemental Lords?" The Khag sneers. "What good can they do for me, and mine? They are dead, or cowering in their lairs. We need swords - shields - axes - the things the men of Kraxis have promised us in exchange for this stone."
+
+Shirayne's hand moves to her weapon. The air is thick with tension.
+
+The Khag relents... slightly. "But I accept your apology, and I will make you a deal, Men of the West. Bring us metal to make our own weapons, and you can have your precious rock."
+
+The Khag rises, and leaves the tent. With that the feast ends. Shirayne rises and returns to her lodgings. You mutter under your breath. Metal huh? Well, it could be worse.</Description>
+	<ShortTextAccept>We do not wish war with the people of Cumbrana. We will bring you the metal you desire.</ShortTextAccept>
+	<AllowQuestRejection>0</AllowQuestRejection>
+	<RewardImage>MisplacedSac_Medallion.png</RewardImage>
+	<SuccessText>You have returned to Cumbrana with the Khag's metal. In exchange, he gives you the fragment of Tyundii you need.</SuccessText>
+	<QuestClass>Minor</QuestClass>
+	<Repeatable>0</Repeatable>
+	<TriggerType>QuestLocation</TriggerType>
+	<TriggerOrigin>EventLocation</TriggerOrigin>
+	<SpawnRating>0</SpawnRating>
+	<Image>G_Quest_Abandoned_Village_01.png</Image>
+	<PrefQuestLoc>FEC_QuestLoc_FairExchange</PrefQuestLoc>
+	
+	<Treasure>
+		<GameModifier>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_Loot_GolemPiece</Attribute>
+		</GameModifier>
+		
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<Unitclass>FEC_GOODY_MedfenDummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+		</GameModifier>
+	</Treasure>
+
+
+	<QuestObjectiveDef>
+		<ObjectiveID>0</ObjectiveID>
+		<NextObjectiveID>-1</NextObjectiveID>
+		
+		<QuestConditionDef>
+			<ID>0</ID>
+			<Class>Success</Class>
+			<Type>CheckForResource</Type>
+			<TextData>Metal</TextData>
+			<NumericData>15</NumericData>
+		</QuestConditionDef>
+		<QuestConditionDef>
+			<ID>1</ID>
+			<DependentCondition>0</DependentCondition>
+			<Class>Success</Class>
+			<Type>UnitEntersQuestLocation</Type>
+			<Objective>
+                <Icon>Mana_32.png</Icon>
+                <Text>Collect 15 metal, then return to Cumbrana.</Text>
+            </Objective>
+            <CannotCompleteText>You don't yet have the 15 metal the Khag requested.</CannotCompleteText>
+		</QuestConditionDef>
+		
+	</QuestObjectiveDef>
+</QuestDef>
+
+<!-- Fair Exchange Quest Location -->
+<QuestLocationType InternalName="FEC_QuestLoc_FairExchange">
+	<Name>Cumbrana</Name>
+	<Description>A primitive settlement of mud roads and thatched huts.</Description>
+	<Rarity>-1</Rarity>
+	<Destructable>0</Destructable>
+	<BarredTerrain>River</BarredTerrain>
+	<PreferredTerrain>Category:Land</PreferredTerrain>
+	
+	<TileDesign>K_Village_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Fortress.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Medallions InternalName="">
+		<All>Building_Village1.png</All>
+	</Medallions>
+	
+	<OnSelectSFX>Click_Refugee_Camp</OnSelectSFX>
+	
+</QuestLocationType>
+
+<!-- Medfen "Dummy" Goody -->
+<GoodieHutType InternalName="FEC_GOODY_MedfenDummy">
+	<Name>Cumbrana</Name>
+	<Description>A primitive settlement of mud roads and thatched huts.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Kingdom_Mine1.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>K_Village_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Fortress.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Refugee_Camp</OnSelectSFX>
+
+</GoodieHutType>
+
+<!-- Golem Piece -->
+<GameItemType InternalName="FEC_Loot_GolemPiece">
+	<DisplayName>Piece of Tyundii</DisplayName>
+	<Description>One of the four pieces of the ancient legendary golem. (Quest Item)</Description>
+	<ShopValue>0</ShopValue>
+	<IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+	<IsUsable>0</IsUsable>
+	<ArtDef>Loot_GolemPiece_ArtDef</ArtDef>
+	<GameItemTypeArtDef InternalName="Loot_GolemPiece_ArtDef">
+		<GameItemTypeModelPack InternalName="Loot_GolemPiece_Default">
+			<IconFile>gfx\items\YithrilForearm.png</IconFile>
+			<TintR>200</TintR>
+			<TintG>200</TintG>
+			<TintB>200</TintB>
+			<GameItemTypeModel></GameItemTypeModel>
+		</GameItemTypeModelPack>
+	</GameItemTypeArtDef>
+</GameItemType>
+
+
+
+<!-- Lost Tech Quest -->
+
+<QuestDef InternalName="FEC_QUEST_Catapult">
+	<DisplayName>The Gates of Redstone</DisplayName>
+	<Description>An arrow buries itself in the ground at your feet.  
+
+A heartbeat later, dozens more follow, till there are a line of them, standing straight up in the ground, forming a fence of sorts. 
+
+You look to Shiryane. She appears more impressed than concerned. She's something else, that's for sure...
+
+You scan the hillside before you, seeking the source of those arrows. It takes a second to realize that hidden among the rocks and crags is an immense fortress, a citadel built into a gap in the mountain range. A fortress of ancient, worn stones, some the size of a Capitarran trader's galley, some overgrown with vegetation, all of varying shades of faded, weathered scarlet. 
+
+"By the Five," Rihossa whispers. "Redstone."
+
+A handful of soldiers emerge from a hidden vantage point, carrying large, elaborately carved bows. One steps forward - a woman.
+
+"I am Engrid, First Arrow of the Ninety-Nine. Our bows are upon you, strangers. Turn and go back the way you came."
+
+"My name is Relias," you say. "In case you weren't already aware of that. And if this is truly Redstone, I cannot turn back." You explain your quest, but Engrid's expression does not change, not even when you mention Queen Procipinee, or the Oracle. 
+
+"Those names mean nothing to me," she says. Tsch. This woman... You set aside your polite manner.
+
+"They are those who will decide our race's future," you proclaim.
+
+"The Ninety-Nine decide our own fate," Engrid says, and yet as she speaks, you note how thin she is. How dark the circles under her eyes, how ragged the clothes she wears. You decide to try a different tactic.
+
+"Better to decide your fate on a full stomach," you say. "I invite you to share our food. We can - "
+
+"We do not need charity," she snaps. Your patience is wearing very thin.
+
+"It is friendship and food I offer. Not charity..."
+
+"We hunger because of the Fallen." One of Engrid's men steps forward. "Their armies have occupied our lands. Besieged the farmers who feed our people."
+
+"We do not want your food, noble Lord Relias," Engrid says. "But very well. If you wish to help us - destroy these Fallen beasts. Then perhaps we can discuss friendship - and your passage through our city, into the Temple Valley beyond."
+
+You have little love for this woman, but besieging the city would be both costly and pointless. You swallow your pride, and agree to saly the Fallen warriors occupying the countryside.</Description>
+	<ShortTextAccept>Your war is ours, dear, sweet Engrid. We'll drive the Fallen from your lands, and then we'll break bread together.</ShortTextAccept>
+	<AllowQuestRejection>0</AllowQuestRejection>
+	<RewardImage>Catapult_Card.png</RewardImage>
+	<SuccessText>The Fallen's armies vanquished, you return to Redstone... only to find a pile of rubble where the citadel once stood. Shirayne gasps. Rihossa rushes forward towards the ruins.
+
+"There were... so many of them. So many." An old man shuffles forward. "We could not stop them."
+
+"The Fallen," you say.
+
+"Yes." The old man nods. "Soldiers of Yithril. Led by... a General Skayd."
+
+"We killed many of his army. Those we found out there in the fields. The granaries. They're..."
+
+You fall silent, not knowing what else to say.
+
+"You are Relias, are you not? I know of Engrid's bargain with you, my Lord," the old man says. "I shall fulfill it. Odenvell lies east of here, through the Temple Valley. Come. I will show you." He leads you slowly up the mountainside. Everywhere you go, you see corpses. Archers. Peasants. Soldiers. And then... Engrid herself.
+
+A sickening feeling creeps into your abdomen. You grimace and Rihossa comes to your side. "My lord, are you..." The odor of rotting flesh becomes overwhelming, and you vomit along the side of the road. Shirayne remains crouched, holding her hands over her nose and mouth.
+
+This was not how things were supposed to be. Memories of your father chastising you, once so vivid, have been replaced with new ones of death and misery. The old man's words slice through your moment of contemplation.
+
+"She died refusing Skayd the knowledge he sought. The Temple's location." The old man looks up at you. "But he will find it, soon enough, for it is very close. Just a short ways east. He must not be allowed to desecrate that sacred ground, Relias. You're the only one who can stop them now."
+
+"We will stop him," you say. "I promise."
+
+
+OBJECTIVES:
+
+* Continue eastward into the Temple Valley, and find Odenvell.</SuccessText>
+	<QuestClass>Minor</QuestClass>
+	<Repeatable>0</Repeatable>
+	<TriggerType>QuestLocation</TriggerType>
+	<TriggerOrigin>EventLocation</TriggerOrigin>
+	<SpawnRating>0</SpawnRating>
+	<Image>Brilliance_Painting.png</Image>
+	<PrefQuestLoc>FEC_QuestLoc_Catapult</PrefQuestLoc>
+	
+	<!-- Hack to simulate a trigger (see "FEC_T_RedstoneQuestCompleteMetalHack" in the trigger file) -->
+	<Treasure>
+		<GameModifier InternalName="Reward1">
+			<ModType>Resource</ModType>
+			<Attribute>Metal</Attribute>
+			<Value>10000</Value>
+		</GameModifier>
+	</Treasure>
+
+	<!-- Make the fort re-appear after the quest ends, since normally quest locations vanish when completed -->
+
+		<Treasure>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateGoodieHut</Attribute>
+				<StrVal>The Fallen City</StrVal>
+				<Unitclass>FEC_GOODY_RedstoneDummyRuins</Unitclass>
+				<BoolVal1>1</BoolVal1>
+				<OverrideX>57</OverrideX>
+			    <OverrideY>35</OverrideY>
+			</GameModifier>
+		</Treasure>
+
+	<QuestObjectiveDef>
+		<ObjectiveID>0</ObjectiveID>
+		<NextObjectiveID>-1</NextObjectiveID>
+
+		<QuestConditionDef>
+			<ID>0</ID>
+			<Class>Success</Class>
+			<Type>CheckForItem</Type>
+			<TextData>FEC_Loot_TrogMedallion</TextData>
+			<NumericData>3</NumericData>  
+		</QuestConditionDef>
+		<QuestConditionDef>
+			<ID>1</ID>
+			<DependentCondition>0</DependentCondition>
+			<Class>Success</Class>
+			<Type>UnitEntersQuestLocation</Type>
+			<Objective>
+                <Icon>Mana_32.png</Icon>
+                <Text>Warlord Verga's soldiers have occupied three of Redstone's granaries nearby. Find them, kill them and return to Redstone.</Text>
+            </Objective>
+			<CannotCompleteText>You have not yet defeated all of Verga's soldiers.</CannotCompleteText>
+		</QuestConditionDef>
+		
+	</QuestObjectiveDef>
+</QuestDef>
+
+<!-- Lost Tech Quest Location -->
+<QuestLocationType InternalName="FEC_QuestLoc_Catapult">
+	<Name>Redstone</Name>
+	<Description>Fabled mountain fortress of the Antheran Empire, inhabited now by a group of survivors fiercely determined to defend their city, and legacy.</Description>
+	<Rarity>-1</Rarity>
+	<Destructable>0</Destructable>
+	<BarredTerrain>River</BarredTerrain>
+	<PreferredTerrain>Category:Land</PreferredTerrain>
+	
+	<TileDesign>K_Tenfell_University_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Fortress.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Medallions InternalName="">
+		<All>Academy_Medallion.png</All>
+	</Medallions>
+	
+	<OnSelectSFX>Click_Tower</OnSelectSFX>
+	
+</QuestLocationType>
+
+<!-- Redstone "Dummy" Goody -->
+<GoodieHutType InternalName="FEC_GOODY_RedstoneDummy">
+	<Name>Redstone</Name>
+	<Description>Fabled mountain fortress of the Antheran Empire, inhabited now by a group of survivors fiercely determined to defend their city, and legacy.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Academy_Medallion.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>K_Tenfell_University_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Fortress.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Tower</OnSelectSFX>
+
+</GoodieHutType>
+	
+<!-- Redstone "Dummy" Ruins Goody -->
+<GoodieHutType InternalName="FEC_GOODY_RedstoneDummyRuins">
+	<Name>The Fallen City</Name>
+	<Description>Here lie the shattered remnants of Redstone; its people, and once-great buildings.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BurningFarm.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>G_Redstone_Rubble</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Fortress.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Tower</OnSelectSFX>
+
+</GoodieHutType>
+
+<!-- Catapult Tech -->
+<!-- For some reason I can't get this to work, so it's not actually used :( -->
+<!-- The ability to build catapults is currently piggybacking on the "Fortresses" tech. -->
+<Techs>
+	<TechDef InternalName="FEC_TECH_Catapults">
+		<DisplayName>Siegecraft</DisplayName>
+		<Description>This breakthrough allows us to train powerful Catapults.</Description>
+		<Image>Tech_Advanced_Archery.png</Image>
+		<Color>182,7,3</Color>
+		<HotColor>255,48,0</HotColor>
+		<Cost>100</Cost>
+		<Rarity>100</Rarity>
+		<Category>Warfare</Category>
+		<Infinite>0</Infinite>
+		<AppearanceChance>100</AppearanceChance>
+	</TechDef>
+</Techs>
+
+
+
+
+
+
+
+<!-- *******************************************************************-->
+<!-- *******************************************************************-->
+<!-- GOODIES -->
+<!-- *******************************************************************-->
+<!-- *******************************************************************-->
+
+
+<!-- BARRA NURG -->
+<GoodieHutType InternalName="FEC_GOODY_ButchermenCamp">
+	<Name>Barra Nurg</Name>
+	<Description>A great city of brick, and stone, sitting astride the road like a colossus. There is ice, and frigid sea water to one side; impassable swamp to the other. The only way forward is through the city gates, and the village beyond.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Q_Toppled_Castle_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>Q_Toppled_Castle_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Castle.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<OverrideX>34</OverrideX>
+			<OverrideY>26</OverrideY>
+			<Unitclass>FEC_GOODY_ButchermenCamp_DUMMY</Unitclass>
+			<BoolVal1>1</BoolVal1>		<!-- Don't kill units when we create this goody -->
+		</GameModifier>
+		
+		<Title>Item Discovered!</Title>
+		<Desc>Having liberated Barra Nurg from the Butchermen, Relias discovers a bow in good condition. The villagers also provide him with a special item to heal his wounds.</Desc>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>YewLongbow_Tarth</Attribute>
+		</GameModifier>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>HealingNectar</Attribute>
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman_Martyr</UnitType>
+			<Level>2</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		
+	</Encounter>
+	
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- BARRA NURG - DUMMY-->
+<GoodieHutType InternalName="FEC_GOODY_ButchermenCamp_DUMMY">
+	<Name>Barra Nurg</Name>
+	<Description>A great city of brick, and stone, sitting astride the road like a colossus. There is ice, and frigid sea water to one side; impassable swamp to the other. The only way forward is through the city gates, and the village beyond.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Q_Toppled_Castle_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>Q_Toppled_Castle_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Castle.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- TOWN OF CANNARGH -->
+<GoodieHutType InternalName="FEC_GOODY_Cannargh">
+	<Name>Cannargh</Name>
+	<Description>A small village of stone walls, and rough-hewn huts. A simple town, for a simple folk.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>G_Quest_Estate_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>G_Quest_Estate_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_HedgeWall.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<!-- NOTE: Can't have treasures here because the goody is deleted before they're given out - this is in the trigger file -->
+	
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<OverrideX>28</OverrideX>
+			<OverrideY>27</OverrideY>
+			<Unitclass>FEC_GOODY_Cannargh_DUMMY</Unitclass>
+			<BoolVal1>1</BoolVal1>		<!-- Don't kill units when we create this goody -->
+		</GameModifier>
+		
+		<Title>Item Discovered!</Title>
+		<Desc>Near the battlefield, you find a sword - presumably belonging to one of the invading Butchermen, along with some healing items.</Desc>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>Shortsword</Attribute>
+		</GameModifier>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>TildaHerbs</Attribute>
+		</GameModifier>
+	</Treasure>
+
+	<Encounter InternalName="FEC_ENCOUNTER_ButchermenCamp">
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>1</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>1</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+
+</GoodieHutType>
+
+
+<!-- TOWN OF CANNARGH - DUMMY-->
+<GoodieHutType InternalName="FEC_GOODY_Cannargh_DUMMY">
+	<Name>Cannargh</Name>
+	<Description>A small village of stone walls, and rough-hewn huts. A simple town, for a simple folk.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>G_Quest_Estate_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+	
+	<TileDesign>G_Quest_Estate_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_HedgeWall.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- TOWN OF LUNNESDELL -->
+<GoodieHutType InternalName="FEC_GOODY_Lunnesdell">
+	<Name>Lunnesdell</Name>
+	<Description>The ruins of a once-great city can be seen from afar; up close, all that is visible are gently rolling hills, and grasses, long ago grown over what were streets and structures.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Q_Kingdom_Inn_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>Q_Kingdom_Inn_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Inn.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<OverrideX>30</OverrideX>
+			<OverrideY>21</OverrideY>
+			<Unitclass>FEC_GOODY_Lunnesdell_DUMMY</Unitclass>
+			<BoolVal1>1</BoolVal1>		<!-- Don't kill units when we create this goody -->
+		</GameModifier>
+	</Treasure>
+
+	<!-- NOTE: Can't have treasures here because the goody is deleted before they're given out - this is in the trigger file -->
+	
+	<Encounter InternalName="FEC_ENCOUNTER_ButchermenCamp">
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+			<Level>1</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>1</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>1</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- TOWN OF LUNNESDELL - DUMMY -->
+<GoodieHutType InternalName="FEC_GOODY_Lunnesdell_DUMMY">
+	<Name>Lunnesdell</Name>
+	<Description>The ruins of a once-great city can be seen from afar; up close, all that is visible are gently rolling hills, and grasses, long ago grown over what were streets and structures.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Q_Kingdom_Inn_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>Q_Kingdom_Inn_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Inn.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+
+</GoodieHutType>
+
+
+<!-- CUSTOM SPIDER LAIR -->
+<GoodieHutType InternalName="FEC_LAIR_Spider">
+	<Name>Cobwebbed Ruin</Name>
+	<Description>The house, somehow, still stands in the waste... perhaps because of the finger thick webs covering its every surface... webs that all at once begin to tremble as something from deep within the house approaches.</Description>
+	<Rarity>-1</Rarity>
+	<BarredTerrain>River</BarredTerrain>
+	<PreferredTerrain>Category:Land</PreferredTerrain>
+	<ReleaseGuardiansOnInfluenceHit>1</ReleaseGuardiansOnInfluenceHit>
+	<SpawnRating>0</SpawnRating>
+	<TileDesign>L_Giant_Blackwidow_01</TileDesign>
+	<DrawnIcon>Lair_Widow.png</DrawnIcon>
+	<IconSize>50</IconSize>
+	<OnSelectSFX>Click_Spider_Lair</OnSelectSFX>
+	<Medallions InternalName="">
+		<All>L_Giant_Blackwidow_01.png</All>
+	</Medallions>
+	
+	<Treasure>
+		<Title>Found Item</Title>
+		<Desc>The spider made it's home in the houses cellar, within the layer of webbing and loose earth you find a magical item.</Desc>
+		<Liklihood>100</Liklihood>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_RavenousHarridan</UnitType>
+			<Level>1</Level>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Spider_Lair</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- BANDIT CAMP 1 -->
+<GoodieHutType InternalName="FEC_GOODY_BanditCamp1">
+	<Name>A Bandit Camp</Name>
+	<Description>A large group of bandits have made this area their home. They surely have stashed something of value here.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BanditCamp_Medallion.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<UpgradesToGoodieHut>FEC_GOODY_BanditCamp2</UpgradesToGoodieHut>
+	<UpgradesToGoodieHutInTurns>25</UpgradesToGoodieHutInTurns>
+	
+	<TileDesign>L_Bandit_Camp_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_RefugeeCamp.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure InternalName="CAM1_TREASURE_ThrowingKnives">
+	  <Title>Item Discovered!</Title>
+	  <Desc>Having slain the last of the bandits, Relias makes his way to the center of their camp. Inside of a small but sturdy building he discovers a removable panel in the floor. Hidden within is a large collection of finely-crafted throwing knives.</Desc>
+	  <GameModifier>
+		<ModType>GiveItem</ModType>
+		<Attribute>ThrowingKnives</Attribute>
+	  </GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance InternalName="BanditCaptain">
+			<UnitType>BanditCaptain</UnitType>
+			<Level>6</Level>
+		</UnitInstance>
+		<UnitInstance InternalName="Bandit1">
+			<UnitType>Bandit</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance InternalName="Bandit2">
+			<UnitType>Bandit</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance InternalName="Bandit3">
+			<UnitType>Bandit</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance InternalName="BanditArcher1">
+			<UnitType>BanditArcher</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance InternalName="BanditArcher2">
+			<UnitType>BanditArcher</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+	</Encounter>
+
+	<!-- Spawned guys that wander around -->
+	<Encounter>
+		<Liklihood>-1</Liklihood>
+		<WillRespawn>1</WillRespawn>
+		<RespawnChance>25</RespawnChance>
+		<RespawnDelay>20</RespawnDelay>
+		<WanderingRadius>50</WanderingRadius>
+		<Hunter>1</Hunter>
+		
+		<UnitInstance>
+			<UnitType>Bandit</UnitType>
+			<Level>1</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Bandit</UnitType>
+			<Level>1</Level>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Tent</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- BANDIT CAMP 2 -->
+<GoodieHutType InternalName="FEC_GOODY_BanditCamp2">
+	<Name>A Bandit Camp</Name>
+	<Description>A large group of bandits have made this area their home. They surely have stashed something of value here.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BanditCamp_Medallion.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+	
+	<TileDesign>L_Bandit_Camp_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_RefugeeCamp.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure InternalName="CAM1_TREASURE_ThrowingKnives">
+	  <Title>Item Discovered!</Title>
+	  <Desc>Having slain the last of the bandits, Relias makes his way to the center of their camp. Inside of a small but sturdy building he discovers a removable panel in the floor. Hidden within is a large collection of finely-crafted throwing knives.</Desc>
+	  <GameModifier>
+		<ModType>GiveItem</ModType>
+		<Attribute>ThrowingKnives</Attribute>
+	  </GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance InternalName="BanditCaptain">
+			<UnitType>BanditCaptain</UnitType>
+			<Level>6</Level>
+		</UnitInstance>
+		<UnitInstance InternalName="Bandit1">
+			<UnitType>Bandit</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance InternalName="Bandit2">
+			<UnitType>Bandit</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance InternalName="Bandit3">
+			<UnitType>Bandit</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance InternalName="BanditArcher1">
+			<UnitType>BanditArcher</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance InternalName="BanditArcher2">
+			<UnitType>BanditArcher</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Tent</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- DARKLING CAMP -->
+<GoodieHutType InternalName="FEC_GOODY_DarklingCamp">
+	<Name>Ogalli</Name>
+	<Description>A darkling village; in the distance are visible the twisted, stunted forms of several warriors, strange, hybrid creatures, part man, part Fallen...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Hut_Medallion.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>A_Darkling_Camp_02</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/K_Hut1.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+	  <Title>Found a Golem Piece!</Title>
+	  <Desc>Among the ruins of the camp you find the head of Tyundii. Additionally, the Darkling Shaman is wearing an interesting looking cloak, which you decide to keep.</Desc>
+	  <GameModifier>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_Loot_GolemPiece</Attribute>
+	  </GameModifier>
+	  <GameModifier>
+		<ModType>GiveItem</ModType>
+		<Attribute>DarklingCloak</Attribute>
+	  </GameModifier>
+	  <GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<OverrideX>51</OverrideX>
+			<OverrideY>31</OverrideY>
+			<Unitclass>FEC_GOODY_DarklingCamp_Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>		<!-- Don't kill units when we create this goody -->
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter InternalName="FEC_ENCOUNTER_DarklingCamp">
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>DarklingShaman</UnitType>
+			<Level>8</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>DarklingWarrior</UnitType>
+			<Level>7</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>DarklingWarrior</UnitType>
+			<Level>7</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Darkling</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Group</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Darkling</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Group</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Darkling</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Group</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Camp_Darkling</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- DARKLING CAMP DUMMY-->
+<GoodieHutType InternalName="FEC_GOODY_DarklingCamp_Dummy">
+	<Name>Darkling Village</Name>
+	<Description>The twisted, stunted forms of darkling warriors - strange, hybrid creatures, part man, part Fallen - are visible in the distance. More are no doubt lurking nearby...  something of value is quite likely hidden inside their settlement...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Hut_Medallion.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>A_Darkling_Camp_02</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/K_Hut1.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Camp_Darkling</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+
+<!-- URXEN VILLAGE 1 -->
+<GoodieHutType InternalName="FEC_GOODY_UrxenVillage1">
+	<Name>Home of the Fallen</Name>
+	<Description>Here is a village of grayskins - warriors, as well as females and children. A rough-looking settlement... and no doubt a dangerous one for any man - to approach.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Building_Inn1.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>F_Hamlet_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/K_Hovel1.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>The Urxen villagers seem to have been protecting some kind of artifact, which you decide to keep for yourself.</Desc>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>MidnightStone</Attribute>
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter InternalName="FEC_ENCOUNTER_UrxenVillage">
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+		<BattleIdentifier>UrxenVillageBattle</BattleIdentifier>
+
+		<UnitInstance>
+			<UnitType>Unit_Medium_Urxen</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Urxen</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Urxen</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Spearman_Urxen</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Urxen</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Urxen</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+
+	</Encounter>
+	
+	<OnSelectSFX>Outpost_Click_2</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- URXEN VILLAGE 2 -->
+<GoodieHutType InternalName="FEC_GOODY_UrxenVillage2">
+	<Name>Urxen Settlement</Name>
+	<Description>Here are a handful of rough-hewn cabins, dug into the frozen tundra. A half-dozen grayskin warriors stand guard nearby. This is an Urxen camp - one with not just warriors, but females and children as well.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Building_Inn1.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>F_Hamlet_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/K_Hovel1.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>In the Urxen village you find a Whetstone, which you decide to keep.</Desc>
+	  <GameModifier>
+		<ModType>GiveItem</ModType>
+		<Attribute>Whetstone</Attribute>
+	  </GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+		<BattleIdentifier>UrxenVillageBattle</BattleIdentifier>
+
+		<UnitInstance>
+			<UnitType>Unit_Medium_Urxen</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Urxen</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Urxen</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Urxen</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Urxen</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Urxen</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Urxen</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+
+	</Encounter>
+	
+	<OnSelectSFX>Outpost_Click_2</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+
+<!-- RED SPRING DUMMY -->
+<GoodieHutType InternalName="FEC_GOODY_RedSpringDummy">
+	<Name>Village of the Damned</Name>
+	<Description>This was once Red Spring - one of the great cities of Antheros. Now it is a shattered ruin... a scene of chaos and misery. It used to be the headquarters of Amhah, leader of the Butchermen.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BurningFarm.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>G_Village_in_Flames</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_generic.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Spell_RainofFire_01</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+
+<!-- RED SPRING-->
+<GoodieHutType InternalName="FEC_GOODY_RedSpring1">
+	<Name>Village of the Damned</Name>
+	<Description>This was once Red Spring - one of the great cities of Antheros. Now it is a shattered ruin... a scene of chaos and misery. Butchermen walk its deserted streets, seeking lives to take to end their curse...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BurningFarm.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+	
+	<TileDesign>G_Village_in_Flames</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_generic.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<UpgradesToGoodieHut>FEC_GOODY_RedSpring2</UpgradesToGoodieHut>
+	<UpgradesToGoodieHutInTurns>40</UpgradesToGoodieHutInTurns>
+
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<OverrideX>25</OverrideX>
+			<OverrideY>40</OverrideY>
+			<Unitclass>FEC_GOODY_RedSpringDummy</Unitclass>
+			<BoolVal1>1</BoolVal1>		<!-- Don't kill units when we create this goody -->
+		</GameModifier>
+	</Treasure>
+
+	<Encounter InternalName="FEC_E_RedSpring1">
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Amhah</UnitType>
+			<Level>3</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<!-- Spawned guys that wander around -->
+	<Encounter>
+		<Liklihood>-1</Liklihood>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>5</WanderingRadius>
+		
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Spell_RainofFire_01</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+
+<!-- RED SPRING-->
+<GoodieHutType InternalName="FEC_GOODY_RedSpring2">
+	<Name>Village of the Damned</Name>
+	<Description>This was once Red Spring - one of the great cities of Antheros. Now it is a shattered ruin... a scene of chaos and misery. Butchermen walk its deserted streets, seeking lives to take to end their curse...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BurningFarm.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+	
+	<TileDesign>G_Village_in_Flames</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_generic.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<UpgradesToGoodieHut>FEC_GOODY_RedSpring3</UpgradesToGoodieHut>
+	<UpgradesToGoodieHutInTurns>75</UpgradesToGoodieHutInTurns>
+
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<OverrideX>25</OverrideX>
+			<OverrideY>40</OverrideY>
+			<Unitclass>FEC_GOODY_RedSpringDummy</Unitclass>
+			<BoolVal1>1</BoolVal1>		<!-- Don't kill units when we create this goody -->
+		</GameModifier>
+	</Treasure>
+
+	<Encounter InternalName="FEC_E_RedSpring2">
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Amhah</UnitType>
+			<Level>3</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<!-- Spawned guys that wander around -->
+	<Encounter InternalName="FEC_E_RedSpring_Hunter2">
+		<Liklihood>-1</Liklihood>
+		<WillRespawn>1</WillRespawn>
+		<RespawnChance>50</RespawnChance>
+		<RespawnDelay>100</RespawnDelay>
+		<Hunter>1</Hunter>
+		<WanderingRadius>50</WanderingRadius>
+		
+		<UnitInstance>
+			<UnitType>FEC_UNIT_ButchermanHunter</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Spell_RainofFire_01</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+
+<!-- RED SPRING-->
+<GoodieHutType InternalName="FEC_GOODY_RedSpring3">
+	<Name>Village of the Damned</Name>
+	<Description>This was once Red Spring - one of the great cities of Antheros. Now it is a shattered ruin... a scene of chaos and misery. Butchermen walk its deserted streets, seeking lives to take to end their curse...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BurningFarm.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+	
+	<TileDesign>G_Village_in_Flames</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_generic.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<OverrideX>25</OverrideX>
+			<OverrideY>40</OverrideY>
+			<Unitclass>FEC_GOODY_RedSpringDummy</Unitclass>
+			<BoolVal1>1</BoolVal1>		<!-- Don't kill units when we create this goody -->
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter InternalName="FEC_E_RedSpring3">
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Amhah</UnitType>
+			<Level>3</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<!-- Spawned guys that wander around -->
+	<Encounter InternalName="FEC_E_RedSpring_Hunter3">
+		<Liklihood>-1</Liklihood>
+		<WillRespawn>1</WillRespawn>
+		<RespawnChance>50</RespawnChance>
+		<RespawnDelay>100</RespawnDelay>
+		<WanderingRadius>50</WanderingRadius>
+		<Hunter>1</Hunter>
+		
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman_Martyr</UnitType>
+			<Level>3</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_ButchermanHunter</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Butcherman</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Spell_RainofFire_01</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+
+<!-- KINAKRUL VILLAGE 1 -->
+<GoodieHutType InternalName="FEC_GOODY_FieldOfKinakrul1">
+	<Name>Gedden's Cross</Name>
+	<Description>A single large building - a granary, perhaps - stands at the outskirts of this small, simple village.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Res_WheatField.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>K_Garden_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_WildWheat.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<OverrideX>58</OverrideX>
+			<OverrideY>31</OverrideY>
+			<Unitclass>FEC_GOODY_FieldOfKinakrul1Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>		<!-- Don't kill units when we create this goody -->
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+		<BattleIdentifier>KinakrulBattle</BattleIdentifier>
+
+		<UnitInstance>
+			<UnitType>FEC_Unit_Heavy_Trog</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Heavy_Trog</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Trog</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Field</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- KINAKRUL VILLAGE 1 DUMMY -->
+<GoodieHutType InternalName="FEC_GOODY_FieldOfKinakrul1Dummy">
+	<Name>Gedden's Cross</Name>
+	<Description>A single large building - a granary, perhaps - stands at the outskirts of this small, simple village.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Res_WheatField.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>K_Garden_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_WildWheat.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Field</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- KINAKRUL VILLAGE 2 -->
+<GoodieHutType InternalName="FEC_GOODY_FieldOfKinakrul2">
+	<Name>Saltonvale</Name>
+	<Description>Two farmhouses stand side by side, behind a simple wooden fence. Beyond them, fields of grain ripe for the harvesting beckon...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Res_WheatField.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>K_Garden_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_WildWheat.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<OverrideX>54</OverrideX>
+			<OverrideY>39</OverrideY>
+			<Unitclass>FEC_GOODY_FieldOfKinakrul2Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>		<!-- Don't kill units when we create this goody -->
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+		<BattleIdentifier>KinakrulBattle</BattleIdentifier>
+
+		<UnitInstance>
+			<UnitType>FEC_Unit_Heavy_Trog</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Trog</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Trog</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Trog</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Trog</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Field</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- KINAKRUL VILLAGE 2 DUMMY -->
+<GoodieHutType InternalName="FEC_GOODY_FieldOfKinakrul2Dummy">
+	<Name>Saltonvale</Name>
+	<Description>Two farmhouses stand side by side, behind a simple wooden fence. Beyond them, fields of grain ripe for the harvesting beckon...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Res_WheatField.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>K_Garden_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_WildWheat.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Field</OnSelectSFX>
+
+</GoodieHutType>
+
+<!-- KINAKRUL VILLAGE 3 -->
+<GoodieHutType InternalName="FEC_GOODY_FieldOfKinakrul3">
+	<Name>Martur's End</Name>
+	<Description>A huge barn - its doors open, and swinging free in the wind - stands in the midst of an overgrown field. A corpse lies in the road nearby.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Res_WheatField.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>K_Garden_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_WildWheat.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<OverrideX>51</OverrideX>
+			<OverrideY>36</OverrideY>
+			<Unitclass>FEC_GOODY_FieldOfKinakrul3Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>		<!-- Don't kill units when we create this goody -->
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+		<BattleIdentifier>KinakrulBattle</BattleIdentifier>
+
+		<UnitInstance>
+			<UnitType>FEC_Unit_Heavy_Trog</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Horseman_Trog</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Horseman_Trog</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Trog</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Trog</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Field</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- KINAKRUL VILLAGE 3 DUMMY -->
+<GoodieHutType InternalName="FEC_GOODY_FieldOfKinakrul3Dummy">
+	<Name>Martur's End</Name>
+	<Description>A huge barn - its doors open, and swinging free in the wind - stands in the midst of an overgrown field. A corpse lies in the road nearby.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Res_WheatField.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>K_Garden_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_WildWheat.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<OnSelectSFX>Click_Field</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- Heavy Trog Medallion -->
+<GameItemType InternalName="FEC_Loot_TrogMedallion">
+	<DisplayName>Trog Officer Ring</DisplayName>
+	<Description>Proof that you've slain the Yithril soldiers surrounding Redstone. (Quest Item)</Description>
+	<ShopValue>0</ShopValue>
+	<IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+	<IsUsable>0</IsUsable>
+	<ArtDef>Loot_TrogMedallion_ArtDef</ArtDef>
+	<GameItemTypeArtDef InternalName="Loot_TrogMedallion_ArtDef">
+		<GameItemTypeModelPack InternalName="Loot_TrogMedallion_Default">
+			<IconFile>gfx\items\SignetRing_Item.png</IconFile>
+			<TintR>200</TintR>
+			<TintG>200</TintG>
+			<TintB>200</TintB>
+			<GameItemTypeModel></GameItemTypeModel>
+		</GameItemTypeModelPack>
+	</GameItemTypeArtDef>
+</GameItemType>
+
+
+<!-- THE ABBEY AT GRENNHELM -->
+<GoodieHutType InternalName="FEC_GOODY_Abbey">
+	<Name>The Abbey at Grennhelm</Name>
+	<Description>Northernmost of the Five Great Abbeys of old; consecrated to the worship of Vetrar, the Lord of the World's End.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>K_Academy_01_Thumb.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>G_Abbey_on_Fire</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_MissionaryHall.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Spell_Fireball_01</OnSelectSFX>
+
+</GoodieHutType>
+
+<!-- THE ABBEY AT GRENNHELM DUMMY-->
+<GoodieHutType InternalName="FEC_GOODY_Abbey_Dummy">
+	<Name>The Abbey at Grennhelm</Name>
+	<Description>Northernmost of the Five Great Abbeys of old; consecrated to the worship of Vetrar, the Lord of the World's End. The only one of the five Abbeys to survive the Cataclysm, its buildings now appear to be burning...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>K_Academy_01_Thumb.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>G_Abbey_on_Fire</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_MissionaryHall.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Spell_Fireball_01</OnSelectSFX>
+
+</GoodieHutType>
+
+
+<!-- THE ABBEY AT GRENNHELM -->
+<GoodieHutType InternalName="FEC_GOODY_Abbey_Ruins">
+	<Name>Ruins of Vetrar's Abbey</Name>
+	<Description>Rubble and cinder are all that remains of the great Abbey at Grennhelm, one of the five sacred houses of worship devoted to the Elemental Lords of old.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>K_Academy_01_Thumb.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>G_Abbey_Rubble</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_MissionaryHall.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>The Abbey at Grennhelm</StrVal>
+			<Unitclass>FEC_GOODY_Abbey_Ruins_Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>35</OverrideX>
+			<OverrideY>37</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Ruined_Temple</OnSelectSFX>
+
+</GoodieHutType>
+
+
+<!-- THE ABBEY AT GRENNHELM -->
+<GoodieHutType InternalName="FEC_GOODY_Abbey_Ruins_Dummy">
+	<Name>The Abbey at Grennhelm</Name>
+	<Description>Northernmost of the Five Great Abbeys of old; consecrated to the worship of Vetrar, the Lord of the World's End. The only one of the five Abbeys to survive the Cataclysm, its buildings now appear to be burning...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>K_Academy_01_Thumb.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>G_Abbey_Rubble</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_MissionaryHall.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Ruined_Temple</OnSelectSFX>
+
+</GoodieHutType>
+
+<!-- TYUNDII SHRINE -->
+<GoodieHutType InternalName="FEC_GOODY_Shrine">
+	<Name>Shrine of the Protector</Name>
+	<Description>Near this spot, the Oracle's guardian, the golem Tyundii, fell in battle against the forces of the Titan Curgen. In his honor, the Padars of Grennhelm dedicated this sanctuary.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>L_Obsidian_Golem_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>L_Obsidian_Golem_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_TowerOfTheMagi.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<OverrideX>40</OverrideX>
+			<OverrideY>26</OverrideY>
+			<Unitclass>FEC_GOODY_Shrine_DUMMY</Unitclass>
+			<BoolVal1>1</BoolVal1>		<!-- Don't kill units when we create this goody -->
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Tomb</OnSelectSFX>
+
+</GoodieHutType>
+
+<!-- TYUNDII SHRINE - DUMMY -->
+<GoodieHutType InternalName="FEC_GOODY_Shrine_DUMMY">
+	<Name>Shrine of the Protector</Name>
+	<Description>Near this spot, the Oracle's guardian, the golem Tyundii, fell in battle against the forces of the Titan Curgen. In his honor, the Padars of Grennhelm dedicated this sanctuary.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>L_Obsidian_Golem_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>L_Obsidian_Golem_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_TowerOfTheMagi.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<OnSelectSFX>Click_Tomb</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- OLD LADY WHO KNOWS WHERE A GOLEM PIECE IS -->
+<GoodieHutType InternalName="FEC_GOODY_GolemHut">
+	<Name>A Lone Hut</Name>
+	<Description>At the edge of the forest, smoke rises from the chimney of a ramshackle cabin...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>G_Witch_Hut_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>G_Witch_Hut_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Slums.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>A Lone Hut</StrVal>
+			<Unitclass>FEC_GOODY_GolemHutDummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>48</OverrideX>
+			<OverrideY>24</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Wood_Hut</OnSelectSFX>
+
+</GoodieHutType>
+
+
+<!-- DUMMY - OLD LADY WHO KNOWS WHERE A GOLEM PIECE IS -->
+<GoodieHutType InternalName="FEC_GOODY_GolemHutDummy">
+	<Name>A Lone Hut</Name>
+	<Description>At the edge of the forest, smoke rises from the chimney of a ramshackle cabin...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>G_Witch_Hut_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>G_Witch_Hut_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Slums.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<OnSelectSFX>Click_Wood_Hut</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- LOCATION OF THE GOLEM PIECE THE OLD LADY KNOWS ABOUT -->
+<GoodieHutType InternalName="FEC_GOODY_GolemHut2">
+	<Name>Graveyard</Name>
+	<Description>A desolate collection of tombstones.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>GemstoneDeposit.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>G_Graveyard_01</TileDesign>
+	<DrawnIcon>Gfx\TacticalIcons\Resource_FloodedGraveyard.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+		<Title>The Graveyard's Secret</Title>
+		<Desc>As the forest gives way to a stand of tombstones, Shirayne's amulet begins to glow softly. It does not take you long to find the grave you seek - or to uncover the fragment of Tyundii buried nearby.
+
+Rihossa performs a brief ritual, then retires for the night without a further word spoken. Shirayne turns to you and nods firmly. "We'll do this Relias." Her fire is infectious. "Yes. We will."</Desc>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>FEC_Loot_GolemPiece</Attribute>
+		</GameModifier>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Buried Treasure</StrVal>
+			<Unitclass>FEC_GOODY_GolemHut2_Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>54</OverrideX>
+			<OverrideY>23</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Shadow_Temple</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- LOCATION OF THE GOLEM PIECE THE OLD LADY KNOWS ABOUT -->
+<GoodieHutType InternalName="FEC_GOODY_GolemHut2_Dummy">
+	<Name>Buried Treasure</Name>
+	<Description>Something massive is hidden in the ground here...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>GemstoneDeposit.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>G_Graveyard_01</TileDesign>
+	<DrawnIcon>Gfx\TacticalIcons\Resource_FloodedGraveyard.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Shadow_Temple</OnSelectSFX>
+	
+</GoodieHutType>
+	
+
+<!-- TEMPLE OF FIVE -->
+<GoodieHutType InternalName="FEC_GOODY_TempleOfFive">
+	<Name>The Temple Ruins</Name>
+	<Description>The oracle Ceresa has been imprisoned here for hundreds of years.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Building_Human_Wizard Tower1.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>R_Ancient_Temple_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_PyreOfAnniellum.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<Encounter InternalName="FEC_ENCOUNTER_TempleOfFive">
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<SpawnOnClear>1</SpawnOnClear>		<!-- Don't show the encounter on the map -->
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+		<BattleIdentifier>TempleOfFiveBattle</BattleIdentifier>
+
+		<UnitInstance >
+			<UnitType>Haunter</UnitType>
+			<Level>6</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Haunter</UnitType>
+			<Level>4</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Heavy_Trog</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Trog</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Trog</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Trog</UnitType>
+			<Level>2</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Cave_Haunter</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- Hashaini Thief's Camp-->
+<GoodieHutType InternalName="FEC_THIEF_HUT">
+	<Name>A Traveler's Camp</Name>
+	<Description>The ground here has been cleared; stones set in the earth to make a crude oven. A watchdog stands guard near a tautly-rigged tent.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>L_Bandit_Camp_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>Q_Camp_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_RefugeeCamp.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>In the abandoned camp you find some bread - the owner's uneaten lunch. It should help heal a bit of damage, if nothing else.</Desc>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>Bread</Attribute>
+		</GameModifier>
+
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>A Traveler's Camp</StrVal>
+			<Unitclass>FEC_THIEF_HUT_DUMMY</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>23</OverrideX>
+			<OverrideY>25</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Tent</OnSelectSFX>
+		
+</GoodieHutType>
+
+
+<!-- Hashaini Thief's Camp Dummy-->
+<GoodieHutType InternalName="FEC_THIEF_HUT_DUMMY">
+	<Name>A Traveler's Camp</Name>
+	<Description>The ground here has been cleared; stones set in the earth to make a crude oven. A watchdog stands guard near a tautly-rigged tent.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>L_Bandit_Camp_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>Q_Camp_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_RefugeeCamp.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Tent</OnSelectSFX>
+	
+</GoodieHutType>
+	
+
+<!-- ******************************************************************* -->
+<!-- Poisoned Guy Quest-->
+<!-- ******************************************************************* -->
+
+<QuestDef InternalName="FEC_QUEST_Poisoned_Guy">
+	<DisplayName>Curse of the Black Quire</DisplayName>
+	<Description>A tent stands in a clearing in the forest before you, flaps pinned open, a small fire burning nearby. You find a man inside lying on a makeshift cot - a man whose skin is an unhealthy, unnatural shade of gray. A look of knowing concern crosses Shirayne's face.
+
+"Noble sirs," the man gasps, sitting up. As he does so, a tattered, torn book slides from his lap to the ground. As it lands, you note its worn cover bears the faint outline of an eye, traced in white thread. "Thank the Gods you have come. I am Dathal Da Nadda, and I - "
+
+"The Five preserve us!" Rihossa says, and before you can stop him, he dashes forward, picks up the fallen book and hurls it into the fire. "My Lord... that volume... it is the Azana al-Ruzhkan - the Black Quire. An abomination in the sight of man and the Elemental Lords."
+
+"Your Padar is right, my Lord." The man states, weakly. "I have been a fool... working with powers beyond my abilities..."
+
+"So what is wrong with you?" you ask.
+
+The man somehow manages a smile. "I appear to have poisoned myself, Lord. I do not have long, I fear... unless... there is a village to the northwest ... Urwenn. The apothecary's shop - purchase the seeds of the Lannarg plant, he will give it to you as a fine paste... that will cure me. Please my Lord. I beg you."
+
+Shirayne stares intently at you. Everyone awaits your response.</Description>
+	<ShortTextAccept>Fine, fine. We will fetch the antidote from Urwenn for you.</ShortTextAccept>
+	<ShortTextDeny>We have a quest of our own to complete. Sorry.</ShortTextDeny>
+	<RewardImage>S_Regeneration_Painting.png</RewardImage>
+	<SuccessText>It takes nearly an hour for the first effects of the antidote to be seen; another hour past that for the color of Dathal's skin to return to normal. But recover he does, and Shirayne breathes a sigh of relief.
+
+Dathal slowly gets to his feet, and from a satchel near his bed, carefully draws a small dagger.
+
+"This is the blade I poisoned myself with, Lord. It has been enchanted by the magics in the Quire. A single scratch..." he slashes the air with the blade... "will kill, and swiftly. I give it to you, for use on your opponents. Gods have mercy on them."
+
+"These are dark magics, Lord," Rihossa says to you, under his breath. "Nothing good can come from this 'gift'." You look for Shirayne's input, but she waves you off. Hmph.
+
+You weigh the Padar's words, and decide - albeit with some misgivings - to accept the dagger. It is a dangerous weapon, it is true. But as your brief time in the East has already shown you... you travel in a dangerous world as well.</SuccessText>
+
+	<QuestClass>Minor</QuestClass>
+	
+	<AllowQuestRejection>1</AllowQuestRejection>
+	
+	<Repeatable>0</Repeatable>
+	<TriggerType>QuestLocation</TriggerType>
+	<TriggerOrigin>EventLocation</TriggerOrigin>
+	<SpawnRating>0</SpawnRating>
+	<Image>T_Barbs_Painting.png</Image>
+	<PrefQuestLoc>FEC_QuestLoc_Antidote</PrefQuestLoc>
+	
+		<Treasure>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateGoodieHut</Attribute>
+				<StrVal>An elaborate campsite</StrVal>
+				<Unitclass>FEC_QuestLoc_Antidote_Dummy</Unitclass>
+				<BoolVal1>1</BoolVal1>
+				<OverrideX>58</OverrideX>
+			    <OverrideY>27</OverrideY>
+			</GameModifier>
+		</Treasure>
+
+	
+	<QuestObjectiveDef>
+		<ObjectiveID>0</ObjectiveID>
+		<NextObjectiveID>-1</NextObjectiveID>
+	
+		<QuestConditionDef>
+			<ID>0</ID>
+			<Description>Find the Antidote.</Description>
+			<Class>Success</Class>
+			<Type>CheckForItem</Type>
+			<TextData>FEC_Loot_Antidote</TextData>
+			<NumericData>1</NumericData>
+			
+			<!--Treasure>
+			<GameModifier InternalName="Reward1">
+                <ModType>Unit</ModType>
+                <Attribute>GiveExperience</Attribute>
+                <Value>15</Value>
+            </GameModifier>
+			</Treasure-->
+			
+			<Treasure>
+				<GameModifier>
+					<ModType>GiveItem</ModType>
+					<Attribute>FEC_ITEM_Shortsword_Venomous</Attribute>
+				</GameModifier>
+			</Treasure>
+		
+		</QuestConditionDef>
+		<QuestConditionDef>
+			<ID>1</ID>
+			<DependentCondition>0</DependentCondition>
+			<Objective>
+                <Icon>Mana_32.png</Icon>
+                <Text>Search out Urwenn to the northwest, then buy the Lannarg seeds from the apothecary there, and return them to Dathal Da Nadda.</Text>
+            </Objective>
+            <Class>Success</Class>
+			<Type>UnitEntersQuestLocation</Type>
+			<CannotCompleteText>You don't have the Lannarg seeds yet.</CannotCompleteText>
+		</QuestConditionDef>
+		
+	</QuestObjectiveDef>
+	
+</QuestDef>
+
+<!-- Poison Guy Location--> 
+<QuestLocationType InternalName="FEC_QuestLoc_Antidote">
+	<Name>A Traveler's Tent</Name>
+	<Description>A simple lean-to, inside which a man can be glimpsed lying down...</Description>
+	<Rarity>-1</Rarity>
+	<Destructable>0</Destructable>
+	<BarredTerrain>River</BarredTerrain>
+	<PreferredTerrain>Category:Land</PreferredTerrain>
+	
+	<TileDesign>G_Poisoned_Guy</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_RefugeeCamp.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Medallions InternalName="">
+		<All>L_Champion_Kingdom_01.png</All>
+	</Medallions>
+	
+	<OnSelectSFX>Click_Tent</OnSelectSFX>
+		
+</QuestLocationType>
+
+<!-- Poison Guy Location Dummy--> 
+<GoodieHutType  InternalName="FEC_QuestLoc_Antidote_Dummy">
+	<Name>A Traveler's Tent</Name>
+	<Description>A simple lean-to, inside which a man can be glimpsed lying down...</Description>
+	<Rarity>-1</Rarity>
+	<Destructable>0</Destructable>
+	<BarredTerrain>River</BarredTerrain>
+	<PreferredTerrain>Category:Land</PreferredTerrain>
+	
+	<HUDDisabled>1</HUDDisabled>
+	
+	<TileDesign>G_Poisoned_Guy</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_RefugeeCamp.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Medallions InternalName="">
+		<All>L_Champion_Kingdom_01.png</All>
+	</Medallions>
+	
+	<OnSelectSFX>Click_Tent</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- Antidote -->
+<GameItemType InternalName="FEC_Loot_Antidote">
+	<DisplayName>Lannarg Plant Seeds</DisplayName>
+	<Description>Antidote which cures the Black Quire - a deadly poison infused with dark magic.</Description>
+	<ShopValue>100</ShopValue>
+	<IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+	<IsUsable>0</IsUsable>
+	<ArtDef>Loot_Kinakrul_Seeds_ArtDef</ArtDef>
+	<GameItemTypeArtDef InternalName="Loot_Antidote_ArtDef">
+		<GameItemTypeModelPack InternalName="Loot_Antidote_Default">
+			<IconFile>gfx\items\AlchemistsTools_Item.png</IconFile>
+			<TintR>200</TintR>
+			<TintG>200</TintG>
+			<TintB>200</TintB>
+			<GameItemTypeModel></GameItemTypeModel>
+		</GameItemTypeModelPack>
+	</GameItemTypeArtDef>
+</GameItemType>
+
+
+<!-- ******************************************************************* -->
+<!-- Chef Ingredients Quest-->
+<!-- ******************************************************************* -->
+
+<QuestDef InternalName="FEC_QUEST_Chef_Ingredients">
+		<DisplayName>Taevish's Elixir</DisplayName>
+		<Description>You come upon a campfire, in front of which sits a man. He starts at your approach, and haltingly stands, which is when you note a bloodstained cloth wrapped around his right leg.
+ 
+"Easy buddy," you say. "We mean no harm. I am Lord Relias, of Resoln." 
+
+"Taevish of Merlayne. Good day to you sir."
+
+"Merlayne. Hmmm... I know that place. We'll take you there, and - " 
+
+"I thank you, but I cannot return. Not without what I have been sent to find." He sits back down with a heavy sigh, and motions you to join him by the fire. "I am apothecary to the townsfolk. We are an old village, and before the cataclysm... we drew our water from the great wells underneath our city, filled by springs which flowed from the slopes of Kair Na Morne.
+
+But now those waters have become stagnant. Fouled. They must be purified. An elixir made... grain of the amaranta... viscera of the great timber warg... blood from an ogre's vein..." "Wait, wait, slow down old man..." He shakes his head. "I do this each moon, but this time... as I was returning from the amaranta fields, I was set upon by beasts of some sort. I had to flee for my life. And now I'm here."
+
+"Ogre blood? Warg... 'viscera'?" Shirayne asks.
+
+"Indeed." The man manages a slight smile. "There are oils in each... essential ingredients to the elixir. Without which, my village will not survive. And as you can see..." he gestures to his bandage - "I can no longer fetch these ingredients myself. Will you gather what is needed, great Lord Relias? You, and your company? I would gladly give you a portion of the elixir for your own use as well. It might be useful to you."</Description>
+		<ShortTextAccept>We'll gather the ingredients for your elixir, Taevish.</ShortTextAccept>
+		<ShortTextDeny>Sorry Taevish, but we're on an important mission. Best of luck.</ShortTextDeny>
+		<RewardImage>FoodBarrel.png</RewardImage>
+		<SuccessText>You bring Taevish everything he has requested; it does not take him long to make the elixir. Before he leaves for Merlayne, though, he pulls something from his saddlebags. 
+
+"I owe you much, Lord - consider these payment." He hands you armor - two bracers, metal cuffs worn on the wrist as protection. 
+
+Your eyes widen. "This is... a generous gift. This armor is well-crafted." You run a hand along the inside of the metal, and frown. "They are warm to the touch. Where did you..."
+
+"They are enchanted." Taevish smiles. "Imbued with the fire of Sirdir, the Elemental Lord of Flame. They are called - "
+
+"The Fists of the Sun," Shirayne interrupts. "A thousand years ago, the Dunnadar wore bracers such as these to cross the Ice Plains, when they rode to Imperium in search of Breon's Stone." Now she's just showing off...
+
+"They warmed those warriors then, as I hope they will warm you now, Relias." Taevish bows. "I take my leave of you, Lord." Before you know it, he vanishes into the mist.
+
+What a strange fellow...</SuccessText>
+		<QuestClass>Minor</QuestClass>
+		<Repeatable>0</Repeatable>
+		<TriggerType>QuestLocation</TriggerType>
+		<TriggerOrigin>EventLocation</TriggerOrigin>
+		<SpawnRating>0</SpawnRating>
+		<Image>L_Champion_Kingdom_01.png</Image>
+		<PrefQuestLoc>FEC_GOODY_Chefs_Location</PrefQuestLoc>
+		
+		<Treasure>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateGoodieHut</Attribute>
+				<StrVal>An elaborate campsite</StrVal>
+				<Unitclass>FEC_GOODY_Chefs_Location_Dummy</Unitclass>
+				<BoolVal1>1</BoolVal1>
+				<OverrideX>41</OverrideX>
+			    <OverrideY>31</OverrideY>
+			</GameModifier>
+		</Treasure>
+		
+		<QuestObjectiveDef>
+			<ObjectiveID>0</ObjectiveID>
+			<NextObjectiveID>-1</NextObjectiveID>
+			
+			<QuestConditionDef>
+			<ID>0</ID>
+				<Class>Success</Class>
+				<Type>CheckForItem</Type>
+				<TextData>FEC_Loot_Ogre_Blood</TextData>
+				<NumericData>1</NumericData>
+				</QuestConditionDef>
+				
+			<QuestConditionDef>
+			<ID>1</ID>
+				<Class>Success</Class>
+				<Type>CheckForItem</Type>
+				<TextData>FEC_Loot_Amaranta</TextData>
+				<NumericData>1</NumericData>
+				</QuestConditionDef>
+				
+			<QuestConditionDef>
+			<ID>2</ID>
+				<Class>Success</Class>
+				<Type>CheckForItem</Type>
+				<TextData>FEC_Loot_WolfMeat</TextData>
+				<NumericData>1</NumericData>
+			
+				
+			<Treasure>
+				<DependentCondition>0</DependentCondition>
+				<DependentCondition>1</DependentCondition>
+				<DependentCondition>2</DependentCondition>
+					<GameModifier>
+						<ModType>GiveItem</ModType>
+						<Attribute>FEC_ITEM_Fists_of_the_Sun</Attribute>
+					</GameModifier>
+					<GameModifier>
+						<ModType>GiveItem</ModType>
+						<Attribute>FEC_Potion_Growth</Attribute>
+					</GameModifier>
+				</Treasure>
+			</QuestConditionDef>
+			
+			<QuestConditionDef>
+				<ID>4</ID>
+				<DependentCondition>0</DependentCondition>
+				<DependentCondition>1</DependentCondition>
+				<DependentCondition>2</DependentCondition>
+                <Objective>
+                    <Icon>Mana_32.png</Icon>
+                    <Text>Seek out the elixir's ingredients; the grain Amaranta, which may be found to the north, flesh of the timber warg, who travel in packs to the east, the blood of an ogre, one of which is known to dwell to the southwest.</Text>
+                </Objective>
+				<Class>Success</Class>
+				<Type>UnitEntersQuestLocation</Type>
+				<CannotCompleteText>You need all the elixir's ingredients - the amaranta, a timber warg carcass, the ogre blood - to complete this quest.</CannotCompleteText>
+			</QuestConditionDef>
+
+		</QuestObjectiveDef>
+	
+</QuestDef>
+
+   <GameItemType InternalName="FEC_Potion_Growth">
+        <DisplayName>Taevish's Elixir</DisplayName>
+        <Description>The liquid changes in volume, at times filling barely half of the bottle and at others threatening to burst out.</Description>
+        <ShopValue>0</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>UseSpell</Attribute>
+            <StrVal>Growth_Self</StrVal>
+            <Provides>Gives the unit +50% to Attack and halves the units Dodge</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <RarityDisplay>Common</RarityDisplay>
+        <UsableInBattle>1</UsableInBattle>
+        <ArtDef>FEC_Potion_Growth_ArtDef</ArtDef>
+        <GameItemTypeArtDef InternalName="FEC_Potion_Growth_ArtDef">
+            <GameItemTypeModelPack InternalName="FEC_Potion_Growth_Default">
+                <IconFile>Potion3.png</IconFile>
+                <TintR>255</TintR>
+                <TintG>0</TintG>
+                <TintB>0</TintB>
+                <SFX>Potion1_1</SFX>
+                <SFX>Potion1_2</SFX>
+                <GameItemTypeModel>
+                </GameItemTypeModel>
+            </GameItemTypeModelPack>
+        </GameItemTypeArtDef>
+    </GameItemType>
+	
+	
+ <GameItemType InternalName="FEC_ITEM_Fists_of_the_Sun">
+        <DisplayName>Fists of the Sun</DisplayName>
+        <Description>Enchanted armor, metal cuffs said to have been worn by Padar Janos's companions - the Dunnadar - on their quest for Breon's Stone.</Description>
+        <Type>Forearms</Type>
+        <CanBeEquipped>1</CanBeEquipped>
+        <ShopValue>180</ShopValue>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Attack_Fire</StrVal>
+            <Value>6</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_CurrentWeight</StrVal>
+            <Value>8</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Blunt</StrVal>
+            <Value>16</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Cutting</StrVal>
+            <Value>8</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_Defense_Pierce</StrVal>
+            <Value>8</Value>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Unit</ModType>
+            <Attribute>AdjustUnitStat</Attribute>
+            <StrVal>UnitStat_ResistCold</StrVal>
+            <Value>50</Value>
+            <Provides>+50% Cold resistance</Provides>
+        </GameModifier>
+        <IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+        <IsAvailableForUnitDesign>0</IsAvailableForUnitDesign>
+        <Likelihood>200</Likelihood>
+        <RarityDisplay>Rare</RarityDisplay>
+        <HeroOnly>1</HeroOnly>
+        <Prereq>
+            <Type>UnitStat_Level</Type>
+            <Attribute>5</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>39.6</AIPriority>
+            </AIData>
+        <ArtDef>Art_PlateVambraces_Warming</ArtDef>
+    </GameItemType>
+
+<GoodieHutType InternalName="FEC_Amaranta_Farm">
+	<Name>Amaranta Farm</Name>
+	<Description>Irrigation ditches line the fields before you, in the characteristic honeycomb pattern used by Amaranta farmers since the time of the Magi.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Building_Human_Farm1.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>K_Wheat_Farm_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_WildWheat.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<Treasure>
+	  <Title>Item Discovered!</Title>
+	  <Desc>Your party scours the farmland and collects several sacks of Amaranta grain.</Desc>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>FEC_Loot_Amaranta</Attribute>
+		</GameModifier>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateGoodieHut</Attribute>
+				<StrVal>Amaranta Farm</StrVal>
+				<Unitclass>FEC_Amaranta_Farm_DUMMY</Unitclass>
+				<BoolVal1>1</BoolVal1>
+				<OverrideX>42</OverrideX>
+			    <OverrideY>36</OverrideY>
+			</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Field</OnSelectSFX>
+	
+</GoodieHutType>
+
+<GoodieHutType InternalName="FEC_Amaranta_Farm_DUMMY">
+	<Name>Amaranta Farm</Name>
+	<Description>Irrigation ditches line the fields before you, in the characteristic honeycomb pattern used by Amaranta farmers since the time of the Magi.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Building_Human_Farm1.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>K_Wheat_Farm_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_WildWheat.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Field</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- WOLF MEAT -->
+<GameItemType InternalName="FEC_Loot_WolfMeat">
+	<DisplayName>Warg Meat</DisplayName>
+	<Description>Meat from a Warg that you have slain. (Quest Item)</Description>
+	<ShopValue>5</ShopValue>
+	<IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+	<IsUsable>0</IsUsable>
+	<ArtDef>Loot_Wolf_Meat_ArtDef</ArtDef>
+	<GameItemTypeArtDef InternalName="Loot_Wolf_Meat_ArtDef">
+		<GameItemTypeModelPack InternalName="Loot_Wolf_Meat_Default">
+			<IconFile>gfx\items\SaltedPork_Item.png</IconFile>
+			<TintR>200</TintR>
+			<TintG>200</TintG>
+			<TintB>200</TintB>
+			<GameItemTypeModel></GameItemTypeModel>
+		</GameItemTypeModelPack>
+	</GameItemTypeArtDef>
+</GameItemType>
+
+<!-- Amaranta -->
+<GameItemType InternalName="FEC_Loot_Amaranta">
+	<DisplayName>Amaranta</DisplayName>
+	<Description>Sack of Amaranta (Quest Item)</Description>
+	<ShopValue>0</ShopValue>
+	<IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+	<IsUsable>0</IsUsable>
+	<ArtDef>Loot_Amaranta_ArtDef</ArtDef>
+	<GameItemTypeArtDef InternalName="Loot_Amaranta_ArtDef">
+		<GameItemTypeModelPack InternalName="Loot_Amaranta_Default">
+			<IconFile>gfx\items\Seed1.png</IconFile>
+			<TintR>200</TintR>
+			<TintG>200</TintG>
+			<TintB>200</TintB>
+			<GameItemTypeModel></GameItemTypeModel>
+		</GameItemTypeModelPack>
+	</GameItemTypeArtDef>
+</GameItemType>
+
+<!-- Ogre Blood-->
+<GameItemType InternalName="FEC_Loot_Ogre_Blood">
+	<DisplayName>Ogre Blood</DisplayName>
+	<Description>A vial of slimy blood that you have collected from the Ogre that you killed. (Quest Item)</Description>
+	<ShopValue>10</ShopValue>
+	<IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+	<IsUsable>0</IsUsable>
+	<ArtDef>Loot_Ogre_Blood_ArtDef</ArtDef>
+	<GameItemTypeArtDef InternalName="Loot_Ogre_Blood_ArtDef">
+		<GameItemTypeModelPack InternalName="Loot_Ogre_Blood_Default">
+			<IconFile>gfx\items\Potion2_Item.png</IconFile>
+			<TintR>200</TintR>
+			<TintG>200</TintG>
+			<TintB>200</TintB>
+			<GameItemTypeModel></GameItemTypeModel>
+		</GameItemTypeModelPack>
+	</GameItemTypeArtDef>
+</GameItemType>
+
+<!-- Chefs Town -->
+<GoodieHutType InternalName="FEC_GOODY_Chefs_Town">
+	<Name>Merlayne</Name>
+	<Description>A simple country village, whose rough-hewn streets and ramshackle houses speak of a people fallen on hard times.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>K_Bakery_Thumb_01.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+	
+
+	<TileDesign>K_Bakery_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Bakery.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+			<Treasure>
+			<GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateGoodieHut</Attribute>
+				<StrVal>Merlayne</StrVal>
+				<Unitclass>FEC_GOODY_Chefs_Town_Dummy</Unitclass>
+				<BoolVal1>1</BoolVal1>
+				<OverrideX>44</OverrideX>
+			    <OverrideY>26</OverrideY>
+			</GameModifier>
+		</Treasure>
+		
+		<OnSelectSFX>Click_Inn</OnSelectSFX>
+		
+</GoodieHutType>
+
+<!-- Chefs Town Dummy-->
+<GoodieHutType InternalName="FEC_GOODY_Chefs_Town_Dummy">
+	<Name>Merlayne</Name>
+	<Description>A simple country village, whose rough-hewn streets and ramshackle houses speak of a people fallen on hard times.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>K_Bakery_Thumb_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>K_Bakery_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Bakery.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Inn</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- Chefs Location-->
+<QuestLocationType InternalName="FEC_GOODY_Chefs_Location">
+	<Name>An elaborate campsite</Name>
+	<Description>A horse-drawn wagon; a burning fire; meat cooking on a spit.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>L_Champion_Kingdom_01.png</All>
+	</Medallions>
+	
+	<Destructable>0</Destructable>
+	<TileDesign>G_Terby_The_Chef_Camp</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Bazaar.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Tent</OnSelectSFX>
+	
+</QuestLocationType>
+
+<!-- Chefs Location Dummy-->
+<GoodieHutType InternalName="FEC_GOODY_Chefs_Location_Dummy">
+	<Name>An elaborate campsite</Name>
+	<Description>A horse-drawn wagon; a burning fire; meat cooking on a spit.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>L_Champion_Kingdom_01.png</All>
+	</Medallions>
+	
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+	
+	<TileDesign>G_Terby_The_Chef_Camp</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Bazaar.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Tent</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- ******************************************************************* -->
+<!-- Fisherman's Quest-->
+<!-- ******************************************************************* -->
+
+<QuestDef InternalName="FEC_FISHERMAN_QUEST">
+	<DisplayName>Duggam's Quest</DisplayName>
+	<Description>Just as you're about to settle down for dinner, there's a disturbance at the edge of your camp. You crane your neck and see an old man trying to force his way to your campfire. You wave to your men to allow him through.
+
+"Who's in charge here?" the man demands.
+
+"That's me," you say, standing. "Relias, King of Resoln." There's more than a hint of annoyance in your voice.
+
+"Resoln, eh? Never heard of it." The man glares at you. "It's Keir Duggam talking to you, Relias of Resoln. I'm King in my own way, you could say, of the village of Murland. And I could use the help of you and your soldiers here."
+
+The man's accent is so thick you have trouble understanding him for a moment. "Help huh? What's the problem?"
+
+We got snow ogres, King. A couple of 'em settled in right near the river, right where me and mine cast the nets out to fish. Can't hardly do that safely now. We could use a few good swords to clear 'em out. What say you, Relias of Resoln?"
+
+You frown. Snow ogres. Garrotes. Vicious and deadly creatures. You do not like to think of anyone at their mercy, and yet... you have other tasks before you as well.
+</Description>
+	<ShortTextAccept>Very well Keir Duggam, we'll rid your fishing grounds of these creatures.</ShortTextAccept>
+	<ShortTextDeny>You must find other places to fish, old man. We have other business.</ShortTextDeny>
+	<RewardImage>Alchemy_Painting.png</RewardImage>
+	<SuccessText>You bring Duggam proof that you've taken care of the snow ogres that were threatening his fishing grounds; two of their hides, scraped from the corpses. The old man takes them from you with a grunt. You are about to remind him that you risked your life on his behalf - to suggest an expression of gratitude just might be in order - when from a hut behind Duggam a girl steps forward. Her hair is red, and long. Her eyes a bright, shining green. 
+
+"My father - " she says with a glare at Duggam - "has little experience with civilized courtesies, my Lord. Allow me to thank you on his behalf - and on behalf of all of Murland."
+
+Her smile is dazzling. You return it, not thinking. "You are quite welcome, milady."
+
+She giggles. "I am no lady, my lord. Darlia is my name. Would you..."
+
+Shirayne glares at you. "We should be going - my Lord." 
+
+"Allow me but an hour more of your time," Darlia says. "And I will give you a proper reward." With Shirayne offering a look that could pierce platemail, the girl disappears into the hut with the two garrote hides. She returns shortly with a gift for you.
+
+"A garrote cloak, my Lord," she says. "It will keep your warm - on the coldest of nights. Think of me when you wear it."
+
+One of your men snorts out a laugh. Duggam frowns. Shirayne... Darlia smiles suggestively. Suddenly, things have become very uncomfortable. "I, uhhh..."
+
+You take the garment, and take your leave.</SuccessText>
+	<QuestClass>Minor</QuestClass>
+	<Repeatable>0</Repeatable>
+	<TriggerType>QuestLocation</TriggerType>
+	<TriggerOrigin>EventLocation</TriggerOrigin>
+	<SpawnRating>0</SpawnRating>
+	<Image>M_Garrote_Card.png</Image>
+	<PrefQuestLoc>FEC_GOODY_FISHERMAN_LOCATION</PrefQuestLoc>
+	
+	
+	<Treasure>		
+			  <GameModifier>
+				<ModType>Map</ModType>
+				<Attribute>CreateGoodieHut</Attribute>
+				<Unitclass>FEC_GOODY_FISHERMAN_LOCATION_DUMMY</Unitclass>
+				<BoolVal1>1</BoolVal1>
+				<OverrideX>43</OverrideX>
+				<OverrideY>47</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<QuestObjectiveDef>
+		<ObjectiveID>0</ObjectiveID>
+		<NextObjectiveID>-1</NextObjectiveID>
+	
+
+		<QuestConditionDef>
+			<ID>0</ID>
+			<Description>Get the Garrote hides.</Description>
+			<Class>Success</Class>
+			<Type>CheckForItem</Type>
+			<TextData>FEC_Loot_Garrote_Fur</TextData>
+			<NumericData>2</NumericData>
+			
+			<Treasure>
+				<GameModifier>
+					<ModType>GiveItem</ModType>
+					<Attribute>GarroteCloak</Attribute>
+				</GameModifier>
+			</Treasure>
+		</QuestConditionDef>
+		
+		<QuestConditionDef>
+			<ID>1</ID>
+			<DependentCondition>0</DependentCondition>
+			<Objective>
+                <Icon>Mana_32.png</Icon>
+                <Text>Bring Duggam at least 2 garrote hides to prove you have taken care of his problem.</Text>
+            </Objective>
+            <Class>Success</Class>
+			<Type>UnitEntersQuestLocation</Type>
+			<CannotCompleteText>You don't have the garrote hides you need yet.</CannotCompleteText>
+		</QuestConditionDef>
+		
+</QuestObjectiveDef>
+
+</QuestDef>
+
+<!-- Fisherman's Tile -->
+<QuestLocationType InternalName="FEC_GOODY_FISHERMAN_LOCATION">
+	<Name>A Log Cabin</Name>
+	<Description>A simple dwelling, near the river's edge. A dock juts out into the water; a simple skiff is moored nearby.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>G_Witch_Hut_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+
+	<TileDesign>K_Docks_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Harbor.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Wood_Hut</OnSelectSFX>
+	
+</QuestLocationType>
+
+<!-- Fisherman's Tile Dummy-->
+<GoodieHutType InternalName="FEC_GOODY_FISHERMAN_LOCATION_DUMMY">
+	<Name>A Log Cabin</Name>
+	<Description>A simple dwelling, near the river's edge. A dock juts out into the water; a simple skiff is moored nearby.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>G_Witch_Hut_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+		
+	<HUDDisabled>1</HUDDisabled>
+		
+
+	<TileDesign>K_Docks_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Harbor.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Wood_Hut</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- Garrote Fur -->
+<GameItemType InternalName="FEC_Loot_Garrote_Fur">
+	<DisplayName>Garrote Hide</DisplayName>
+	<Description>The hide from a Garrote that you have slain. (Quest Item)</Description>
+	<ShopValue>10</ShopValue>
+	<IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+	<IsUsable>0</IsUsable>
+	<ArtDef>Loot_Garrote_Fur_ArtDef</ArtDef>
+	<GameItemTypeArtDef InternalName="Loot_Garrote_Fur_ArtDef">
+		<GameItemTypeModelPack InternalName="Loot_Garrote_Fur_ArtDef">
+			<IconFile>gfx\items\GarroteCloak_Item.png</IconFile>
+			<TintR>200</TintR>
+			<TintG>200</TintG>
+			<TintB>200</TintB>
+			<GameItemTypeModel></GameItemTypeModel>
+		</GameItemTypeModelPack>
+	</GameItemTypeArtDef>
+</GameItemType>
+
+
+<!-- Custom Garrote Lair -->
+<GoodieHutType InternalName="FEC_Lair_Garrote1">
+	<Name>A Forbidding Darkness</Name>
+	<Description>Hidden in the shadow of a rockfall lies the entrance to a rank-smelling cavern... an animal lair of some sort.</Description>
+	<Rarity>50</Rarity>
+	<MinDistanceFromStartingPoints>6</MinDistanceFromStartingPoints>
+	<BarredTerrain>River</BarredTerrain>
+	<PreferredTerrain>ArcticTerrain</PreferredTerrain>
+	<ReleaseGuardiansOnInfluenceHit>1</ReleaseGuardiansOnInfluenceHit>
+	<SpawnRating>0</SpawnRating>
+	<TileDesign>L_Garrote_Cave_01</TileDesign>
+	<DrawnIcon>Lair_Garrote.png</DrawnIcon>
+	<IconSize>50</IconSize>
+	<Medallions InternalName="">
+		<All>L_Garrote_Cave_01.png</All>
+	</Medallions>
+	
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>In the Garrote's lair you find the staff of a less fortunate adventurer.</Desc>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>Staff_Ice</Attribute>
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<WillRespawn>0</WillRespawn>
+		<TacticalMap>T_Arctic_Arena_01</TacticalMap>
+		<WanderingRadius>0</WanderingRadius>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Garrote</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Garrote</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Garrote</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+	</Encounter>
+
+	<!-- Spawned guys that wander around -->
+	<Encounter>
+		<Liklihood>-1</Liklihood>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>5</WanderingRadius>
+		
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Garrote</UnitType>
+			<Level>3</Level>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Giant1</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- Ogre Lair 1 -->
+<GoodieHutType InternalName="FEC_Lair_Ogre1">
+	<Name>A Giant's Footprints</Name>
+	<Description>Leading into the darkness of this mountain cavern are tracks that could be mistaken for human... save for their monstrous, unnatural size. </Description>
+	<Rarity>50</Rarity>
+	<AutoDestroyWhenNoGuardians>1</AutoDestroyWhenNoGuardians>
+	<LikelihoodOfTreasureDropWhenAutoDestroyed>100</LikelihoodOfTreasureDropWhenAutoDestroyed>
+	<MinDistanceFromStartingPoints>6</MinDistanceFromStartingPoints>
+	<BarredTerrain>River</BarredTerrain>
+	<PreferredTerrain>Category:Land</PreferredTerrain>
+	<ReleaseGuardiansOnInfluenceHit>1</ReleaseGuardiansOnInfluenceHit>
+	<SpawnRating>0</SpawnRating>
+	<TileDesign>L_Ogre_Cave_01</TileDesign>
+	<DrawnIcon>Lair_Ogre.png</DrawnIcon>
+	<IconSize>50</IconSize>
+	<Medallions InternalName="">
+		<All>L_Ogre_Cave_01.png</All>
+	</Medallions>
+	
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>In the Ogre's lair, you find a satchel containing an interesting liquid.</Desc>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>PoisonVial</Attribute>
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+		<UnitInstance>
+			<UnitType>BoneOgre</UnitType>
+			<Level>4</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Ogre</UnitType>
+			<Level>3</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Ogre</UnitType>
+			<Level>3</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Ogre</UnitType>
+			<Level>3</Level>
+		</UnitInstance>
+	</Encounter>
+
+	<!-- Spawned guys that wander around -->
+	<Encounter>
+		<Liklihood>-1</Liklihood>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>5</WanderingRadius>
+		
+		<UnitInstance>
+			<UnitType>YoungOgre</UnitType>
+			<Level>3</Level>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>CLick_Giant4</OnSelectSFX>
+
+</GoodieHutType>
+
+
+<!-- Umberdroth Lair 1 -->
+<GoodieHutType InternalName="FEC_Lair_Umberdroth1">
+	<Name>Umberdroth Lair</Name>
+	<Description>Dug from the rock and stone itself is a great cavern whose entrance is as large as a tall-masted merchant ship... whatever lives within is not to be trifled with.</Description>
+	<Rarity>50</Rarity>
+	<MinDistanceFromStartingPoints>8</MinDistanceFromStartingPoints>
+	<BarredTerrain>River</BarredTerrain>
+	<PreferredTerrain>Category:Land</PreferredTerrain>
+	<ReleaseGuardiansOnInfluenceHit>1</ReleaseGuardiansOnInfluenceHit>
+	<SpawnRating>0</SpawnRating>
+	<TileDesign>L_Umberdroth_Den_01</TileDesign>
+	<DrawnIcon>Resource_Umberdroth.png</DrawnIcon>
+	<IconSize>50</IconSize>
+	<Medallions InternalName="">
+		<All>L_Umberdroth_Den_01.png</All>
+	</Medallions>
+
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>In the Umberdroth's lair, you find odd-looking headgear used as a nest for one of the creature's eggs.</Desc>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>EmeraldSkullcap</Attribute>
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+		
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Umberdroth</UnitType>
+			<Level>3</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Umberdroth</UnitType>
+			<Level>3</Level>
+		</UnitInstance>
+	</Encounter>
+
+	<!-- Spawned guys that wander around -->
+	<Encounter>
+		<Liklihood>-1</Liklihood>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>5</WanderingRadius>
+		
+		<UnitInstance>
+			<UnitType>FEC_UNIT_Umberdroth</UnitType>
+			<Level>2</Level>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Warg1_Click2_TEMP</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- Temple of the Darklings -->
+<GoodieHutType InternalName="FEC_GOODY_TempleoftheDarklings">
+	<Name>Temple of the Darklings</Name>
+	<Description>A crude shrine dedicated to the demon Samarra, who the Darklings worship as a god.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>L_Bone_Ogres_Refuge_01.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>A_Darkling_Camp_02</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_AncientTemple.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+	  <Title>Darkling Dagger</Title>
+	  <Desc>A crude short sword.</Desc>
+	  <Liklihood>50</Liklihood>
+	  <GameModifier>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_ITEM_Darkling_Dagger</Attribute>
+	  </GameModifier>
+	 </Treasure>
+	<Treasure>
+		<GameModifier>
+		<Title>Dariun's Gift</Title>
+		<Desc>A pilfered sack of Antheran gold coins, bearing the seal of Dariun the Brave.</Desc>
+		<Liklihood>50</Liklihood>
+			<ModType>Resource</ModType>
+			<Attribute>Gold</Attribute>
+			<Value>40</Value>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Camp_Darkling</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- Pilgrims Cairn -->
+<GoodieHutType InternalName="FEC_GOODY_Pilgrims Cairn">
+	<Name>Pilgrims Cairn</Name>
+	<Description>In ancient times, the Padars would cache supplies in cairns such as these, marking their locations with a pile of rocks, or simple stone arches.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Artifact_Snow1.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>L_Ice_Elementals_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_StoneDeposit.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+	  <Title>Winter Cloak</Title>
+	  <Desc>Spun by the weavers of Grennhelm; intended for pilgrims unaccustomed to the cold of the north.</Desc>
+		<Liklihood>25</Liklihood>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>FEC_ITEM_WinterCloak</Attribute>
+	  </GameModifier>
+	</Treasure>
+	<Treasure>
+	 <Title>Cavan Bread</Title>
+	  <Desc>Flatbread baked from the rare Cavan mushroom - providing both nourishment and healing to weary pilgrims.</Desc>
+	  <GameModifier>
+	  <Liklihood>25</Liklihood>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_ITEM_Cavan_Bread</Attribute>
+		</GameModifier>
+	</Treasure>
+		<Treasure>
+	  <Title>Padar's Longstaff</Title>
+	  <Desc>The Padars of old were often forced to defend themselves from fearful, suspicious villagers. The staff was their weapon of choice.</Desc>
+		<Liklihood>25</Liklihood>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>FEC_ITEM_Padar's_Longstaff</Attribute>
+	  </GameModifier>
+	</Treasure>
+		<Treasure>
+	  <Title>Keeran's Helm</Title>
+	  <Desc>A protective helmet, fashioned after those worn by the Dunnadar, Grennhelm's protectors.</Desc>
+		<Liklihood>25</Liklihood>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>FEC_ITEM_Keeran's_Helm</Attribute>
+	  </GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Spell_IceStorm_01</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!--Morian's Basilica -->
+<GoodieHutType InternalName="FEC_GOODY_Morian's_Basilica">
+	<Name>Morian's Basilica</Name>
+	<Description>Raised in honor of the Elemental Lord Morian, the ruins of this vast sanctuary may yet contain unexplored passages... and undiscovered treasures.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Q_Toppled_Castle_01.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>Q_Toppled_Castle_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_AmethystVault.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+	  <Title>Morian's Gift</Title>
+	  <Desc>An enchanted ring - one imbued with the power of the Elemental Lord himself. It grants the wearer increased attacking ability in combat.</Desc>
+		<Liklihood>50</Liklihood>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>FEC_ITEM_Morian's_Gift</Attribute>
+	  </GameModifier>
+	</Treasure>
+	<Treasure>
+	  <Title>Hammer of the Dunnadar</Title>
+	  <Desc>A great mace, marked with the image of the staff and the sword - the seal of the Dunnadar.</Desc>
+		<Liklihood>50</Liklihood>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>FEC_ITEM_Hammer_of_the_Dunnadar</Attribute>
+	  </GameModifier>
+	</Treasure>
+
+	<OnSelectSFX>Click_Ruined_Temple</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!--Fountain of the Oracle -->
+<GoodieHutType InternalName="FEC_GOODY_Fountain_of_the_Oracle">
+	<Name>Fountain of the Oracle</Name>
+	<Description>A statue of the fabled Oracle of Odenvell, crumbled to ruins, stands at the center of this ancient fountain...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>RuinsMedallion_Grasslands.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>L_Slag_Ruin_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_SacrificialAltar.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+	  <Title>Antheran Gold Pieces</Title>
+	  <Desc>At the bottom of the well, you find a handful of these ancient coins.</Desc>
+		<Liklihood>50</Liklihood>
+		<GameModifier>
+		<ModType>Resource</ModType>
+			<Attribute>Gold</Attribute>
+			<Value>40</Value>
+	  </GameModifier>
+	</Treasure>
+	<Treasure>
+	 <Title>The Oracle's Blessing</Title>
+	  <Desc>Behind a partially crumbled wall, you find a flask containing a healing potion.</Desc>
+	  <GameModifier>
+	  <Liklihood>50</Liklihood>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_ITEM_The_Oracle's_Blessing</Attribute>
+		</GameModifier>
+	</Treasure>
+
+	<OnSelectSFX>Click_Ruins_Rubble</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- Patrol of the Doomed -->
+<GoodieHutType InternalName="FEC_GOODY_Patrol_of_the_Doomed">
+	<Name>Patrol of the Doomed</Name>
+	<Description>Here lie a party of Free Riders - slaughtered by foes unknown.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>HeroSlain.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>G_Ancient_Battlefield_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Artifact_Bones1_ClothIcon.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+	  <Title>Gold Pieces</Title>
+	  <Desc>One of the slain Riders carries a pouch of gold; take it for your own.</Desc>
+		<Liklihood>50</Liklihood>
+		<GameModifier>
+		<ModType>Resource</ModType>
+			<Attribute>Gold</Attribute>
+			<Value>50</Value>
+	  </GameModifier>
+	</Treasure>
+	<Treasure>
+	 <Title>Themisto's Manual of Armed Combat</Title>
+	  <Desc>A rare find - a mostly intact copy of this highly-prized manual of fighting techniques.</Desc>
+	  <GameModifier>
+	  <Liklihood>50</Liklihood>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_ITEM_Themisto's_Manual_of_Armed_Combat</Attribute>
+		</GameModifier>
+	</Treasure>
+
+	<OnSelectSFX>Click_Bone_Arch</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- Village of the Damned -->
+<GoodieHutType InternalName="FEC_GOODY_Village_of_the_Damned">
+	<Name>Cursed Hamlet</Name>
+	<Description>The doorways of this abandoned hamlet all bear the sign of the White Eye - the emblem of dread Imperium. This village was cursed by the Titan Curgen.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>G_Quest_Abandoned _Village_01.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>G_Quest_Abandoned_Village_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Settlement_Village1.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+	  <Title>Atalandran Longbow</Title>
+	  <Desc>Such is this weapons craftsmanship that it remains as flexible and strong as the day it was carved.</Desc>
+		<Liklihood>50</Liklihood>
+		<GameModifier>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_ITEM_Longbow</Attribute>
+	  </GameModifier>
+	</Treasure>
+	<Treasure>
+	 <Title>Channeler's Gauntlets</Title>
+	  <Desc>Hidden in an abandoned hut, you find these enchanted gauntlets.</Desc>
+	  <GameModifier>
+	  <Liklihood>50</Liklihood>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_ITEM_Channeler's_Gauntlets</Attribute>
+		</GameModifier>
+	</Treasure>
+
+	<OnSelectSFX>Click_Caldera</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+</CampaignData>

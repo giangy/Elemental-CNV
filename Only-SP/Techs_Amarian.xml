@@ -1,0 +1,2389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with the Elemental Editor -->
+<!-- Techs_Amarian.xml -->
+<!-- -->
+<Techs>
+    <DataChecksum NoParse="1">
+        <Ignore>DisplayName,Description,Image,Color,HotColor,Icon</Ignore>
+        <Translate>DisplayName,Description</Translate>
+    </DataChecksum>
+    <TechDef InternalName="Administration">
+        <DisplayName>Administration</DisplayName>
+        <Description>Learning how to properly administer your cities will allow you to construct the Town Hall improvement, to lower costs, and maintain larger cities; it will also improve your Faction Prestige by 1. As much as her armies, ancient Antheros relied on its civil servants - its Consuls, Praedors, and Bureaucrats - to maintain her vast Empire. </Description>
+        <AdviceText>Upgrading our Bell Towers to Town Halls should provide a significant boost to our city efficiency. </AdviceText>
+        <Image>Tech_Administration.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>17</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_FactionPrestige</StrVal>
+            <Value>1</Value>
+            <Provides>+1 Faction Prestige</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Civics</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Knowledge</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>2</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Advanced_Archery">
+        <DisplayName>Advanced Archery</DisplayName>
+        <Description>Developing this skill will allow you to craft Yew Longbows, ranged weapons far more powerful than their lesser counterparts. These bows - the selfsame weapons used by the Archers of Lord Argynn's army in their war against the tribes of the Khulan - are a deadly complement to any army.</Description>
+        <AdviceText>Yew Longbows should allow our troops to decimate the enemy before they even reach us.</AdviceText>
+        <Image>Tech_Advanced_Archery.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>164</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>NoRangedWeapons</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Siege_Weapons</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPrefType>AIPrefType_BOW</AIPrefType>
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>3</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Agriculture">
+        <DisplayName>Agriculture</DisplayName>
+        <Description>Developing these skills will enable you to build the Granary improvement in your cities. Food production will be more efficient; feeding your cities easier and more cost-effective. It was only when the nomadic tribes of the Ancient East settled the Khin-Lo that civilization on Elemental truly began. </Description>
+        <AdviceText>Granaries will greatly increase our food output and allow cities to support additional citizens.</AdviceText>
+        <Image>VegetableGarden.png</Image>
+        <Color>161,59,184</Color>
+        <HotColor>240,154,243</HotColor>
+        <Cost>14</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Restoration</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>100</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>5</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Alliances">
+        <DisplayName>Alliances</DisplayName>
+        <Description>The art of diplomacy is a valuable skill. Learning it will enable you to form Alliance Treaties; to trade champions with other Factions; to build the Embassy Improvement; and to generate Influence you can use in negotiations. Ereog's words, not Argynn's sword, defeated the Nerazga; the web of alliances Ereog assembled caused Mergas Maz Adul to see the hopelessness of his cause, and withdraw his armies from the field of battle. </Description>
+        <AdviceText>Now that we have mastered Alliances we can recruit Asok when we find their camps in the wild.</AdviceText>
+        <Image>Tech_Alliances.png</Image>
+        <Color>161,59,184</Color>
+        <HotColor>240,154,243</HotColor>
+        <Cost>75</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Literacy</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>900</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Animal_Husbandry">
+        <DisplayName>Animal Husbandry</DisplayName>
+        <Description>Learning this skill will allow you to build the Pasture improvement on the Wild Game resource (Empire players may also use this to build the Skath Pit improvement in their cities). It will increase the efficiency of your food production as well, making it easier to feed your growing population. Many of the great trading houses of Capitar - the Lamord, the Serrano - made their fortune supplying animals to the cities of the West.</Description>
+        <AdviceText>Building Pastures on Wild Game we find should provide a huge benefit to our food supplies.</AdviceText>
+        <Image>WildGame.png</Image>
+        <Color>161,59,184</Color>
+        <HotColor>240,154,243</HotColor>
+        <Cost>24</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Agriculture</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Arcane_Apparel">
+        <DisplayName>Arcane Apparel</DisplayName>
+        <Description>Craft the Cloak of Shadows, the Boots of the Spider and Longstrider Boots by research in this area. Remember the great benefit of magical equipment; even those who lack inherent arcane abilities can utilize its power. This knowledge comes from the first quarto of the Varis Reliquaria - the notebooks kept by Senadar Krys, keeper of the Forge of the Overlord.</Description>
+        <AdviceText>Magical apparel can provide significant boosts to our units without weighing them down.</AdviceText>
+        <Image>Tech_Arcane_Apparel.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>53</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Glyph_Stones</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Arcane_Armor">
+        <DisplayName>Arcane Armor</DisplayName>
+        <Description>Craft the Champion's Armor by research in this area. These enchanted suits increase in power as the outfitted unit levels up; they improve the capabilities of your starting units, but make your high level champions and armies exponentially stronger. This knowledge comes from the first quarto of the Varis Reliquaria - the notebooks kept by Senadar Krys, keeper of the Forge of the Overlord.</Description>
+        <AdviceText>If we can afford it we should immediately look into providing our units with Champion's armor.</AdviceText>
+        <Image>ArmorStatue_Medallion.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>246</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>NoArmor</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Magical_Forging</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Arcane_Mastery">
+        <DisplayName>Arcane Mastery</DisplayName>
+        <Description>Gain mastery of the Arcane arts through research in this area, set out in the first quarto of the Varis Reliquaria - the notebooks kept by Senadar Krys, keeper of the Forge of the Overlord. This knowledge will enable you to construct the Tower of Essence in cities attached to Mana Shards and Guardian Statues in all your cities.  It allows you to draw even more mana from the associated Shard for your spells. </Description>
+        <AdviceText>We should upgrade our Shrines into Temples of Essence to increase our mana and reduce unrest.</AdviceText>
+        <Image>Building_Human_Wizard Tower1.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>30</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>BlessCity</StrVal>
+            <Icon>S_BlessCity_Icon.png</Icon>
+            <Provides>Spell: Bless City</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>CurseCity</StrVal>
+            <Icon>S_CurseCity_Icon.png</Icon>
+            <Provides>Spell: Curse City</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>Revelation</StrVal>
+            <Icon>S_Revelation_Icon.png</Icon>
+            <Provides>Spell: Revelation</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Rituals</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Sorcery</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Arcane_Weapons">
+        <DisplayName>Arcane Weapons</DisplayName>
+        <Description>Craft Arcane Weapons - Doom Mauls, Lightning Pikes and Boreal Blades - by researching these techniques, set out in the first quarto of the Varis Reliquaria - the notebooks kept by Senadar Krys, keeper of the Forge of Overlord. You can outfit entire armies with these powerful weapons, for the great benefit of magical equipment is that anyone can use its power, even those who lack inherent arcane abilities. </Description>
+        <AdviceText>Arcane Weapons are usually preferred to mundane weapons, provided we have the crystal needed.</AdviceText>
+        <Image>Tech_Arcane_Weapons.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>246</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Magical_Forging</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Archery">
+        <DisplayName>Archery</DisplayName>
+        <Description>Mastering this skill will enable you to craft Short Bows, and place them in the hands of your soldiers.  These weapons are critical for defensive as well as offensive military action; Redstone's walls have never been breached, thanks to the abilities of the Ninety-Nine, its fabled legion of Archers.  </Description>
+        <AdviceText>While Shortbows may seem weak, you shouldn't underestimate the advantage of striking from afar.</AdviceText>
+        <Image>Archer_Medallion.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>36</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>NoRangedWeapons</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Drills</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Weaponry</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPrefType>AIPrefType_BOW</AIPrefType>
+                <AIPriority>100</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>5</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Armor">
+        <DisplayName>Armor</DisplayName>
+        <Description>Learn to craft Chain Mail Armor and Kite Shields and construct the Armorer improvement in your cities by mastering this skill.  Learning to make armor is vital to your armies; even a glancing blow can prove fatal without some form of protection. The Ironeer tribes rose to power thanks to the skills of the clan Aivernach, who toiled in the mountain forges to make the shields and armor their soldiers used. </Description>
+        <AdviceText>Chain armor provides great cutting defense for the wearer without the burden of too much weight.</AdviceText>
+        <Image>Tech_Armor.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>53</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>NoArmor</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Blacksmithing</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>3</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Black_Quire">
+        <DisplayName>The Black Quire</DisplayName>
+        <Description>The secrets of this spellbook are forbidden to Kingdom players; Empire players are advised to use caution while researching them, as the Quire contains only the most powerful of death magics. Take heed of the fate suffered by the Lady Varraine, as she sought to take her revenge on Morrigan through use of the spells in this volume. </Description>
+        <AdviceText>Take care when casting Blight. At the right time it could be to our benefit, at others our ruin.</AdviceText>
+        <Image>S_Blight_Painting.png</Image>
+        <Color>255,186,31</Color>
+        <HotColor>255,242,57</HotColor>
+        <Cost>164</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>Blight</StrVal>
+            <Icon>S_Blight_Icon.png</Icon>
+            <Provides>Spell: Blight</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>CloakOfFear</StrVal>
+            <Icon>S_CloakofFear_Icon.png</Icon>
+            <Provides>Spell: Cloak of Fear</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Allegiance</Type>
+            <Attribute>Empire</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Book_Of_Mastery</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Blacksmithing">
+        <DisplayName>Blacksmithing</DisplayName>
+        <Description>Learning this most basic of all forging skills will allow you to construct the Blacksmith improvement, as well as craft Maces and Round Shields.You will then be able to work with metal, and meet the basic needs of your citizens. In the words of Fierann Ma Tua, greatest of the Aivernach; 'He who would master men, must first master metal.'</Description>
+        <AdviceText>Boar spears are a great option for your units when facing heavily armored foes.</AdviceText>
+        <Image>Blacksmith_Medallion.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>61</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Weaponry</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>3</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Book_Of_Flames">
+        <DisplayName>Book of Flames</DisplayName>
+        <Description>This volume contains the greatest of all spells concerned with the powers of fire and flame. These were first set down thousands of years ago by Ereog's daughter Merlayne, who sought in vain to emulate her father's power by bending the Elemental Lord Torax to her will. </Description>
+        <AdviceText>Protection from fire will help our units fight many creatures, especially those in the Burning Lands. </AdviceText>
+        <Image>S_AnnointedByFire_Painting.png</Image>
+        <Color>255,186,31</Color>
+        <HotColor>255,242,57</HotColor>
+        <Cost>15</Cost>
+        <Rarity>25</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>25</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>FlameWave</StrVal>
+            <Icon>T_Flamewave_Icon.png</Icon>
+            <Provides>Spell: Flame Wave</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>ProtectionFromFire</StrVal>
+            <Icon>T_ProtectionFromFire_Icon.png</Icon>
+            <Provides>Spell: Protection from Fire</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>IncinerateCity</StrVal>
+            <Icon>S_IncinerateCity_Icon.png</Icon>
+            <Provides>Spell: Incinerate City</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Sorcery</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Book_Of_Frost">
+        <DisplayName>Book of Frost</DisplayName>
+        <Description>This volume contains the greatest of all spells concerned with the powers of water and ice. These were first set down thousands of years ago by Ereog's daughter Merlayne, who sought in vain to emulate her father's power by bending the Elemental Lord Torax to her will. </Description>
+        <AdviceText>Protection from cold will help our units fight many creatures, especially those in the Northern Wastes. </AdviceText>
+        <Image>S_Freeze_Painting.png</Image>
+        <Color>255,186,31</Color>
+        <HotColor>255,242,57</HotColor>
+        <Cost>15</Cost>
+        <Rarity>25</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>25</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>FrozenBones</StrVal>
+            <Icon>S_FrozenBones_Icon.png</Icon>
+            <Provides>Spell: Frozen Bones</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>ProtectionFromCold</StrVal>
+            <Icon>T_ProtectionFromCold_Icon.png</Icon>
+            <Provides>Spell: Protection from Cold</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Sorcery</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Book_Of_Mastery">
+        <DisplayName>Book of Mastery</DisplayName>
+        <Description>Master the principles in this book - said to have been written by Ereog, greatest of the Magi - and you will master magic itself. You will learn the Spell of Making; in all the world of Elemental, there is no greater power. </Description>
+        <AdviceText>If we can construct the Towers and Forge and cast the Spell of Mastery will will control this world.</AdviceText>
+        <Image>S_SpellofMaking_Painting.png</Image>
+        <Color>255,186,31</Color>
+        <HotColor>255,242,57</HotColor>
+        <Cost>46</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>SpellOfMaking</StrVal>
+            <Icon>S_SpellofMaking_Icon.png</Icon>
+            <Provides>Spell: Spell of Making</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Arcane_Mastery</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Glyph_Stones</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Book_Of_Stones">
+        <DisplayName>Book of Stones</DisplayName>
+        <Description>This volume contains the greatest of all spells concerned with the powers of rock and earth. These were first set down thousands of years ago by Ereog's daughter Merlayne, who sought in vain to emulate her father's power by bending the Elemental Lord Torax to her will. </Description>
+        <AdviceText>These spells should help us increase the physical defenses of our units.</AdviceText>
+        <Image>S_CreateMountain_Painting.png</Image>
+        <Color>255,186,31</Color>
+        <HotColor>255,242,57</HotColor>
+        <Cost>15</Cost>
+        <Rarity>25</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>25</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>GiftOfIron</StrVal>
+            <Icon>T_GiftOfIron_Icon.png</Icon>
+            <Provides>Spell: Gift of Iron</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Sorcery</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Book_Of_Winds">
+        <DisplayName>Book of Winds</DisplayName>
+        <Description>This volume contains the greatest of all spells concerned with the powers of wind, and air. These were first set down thousands of years ago by Ereog's daughter Merlayne, who sought in vain to emulate her father's power by bending the Elemental Lord Torax to her will. </Description>
+        <AdviceText>Escape can be a godsend when we get stuck in a fight that's beyond our limits.</AdviceText>
+        <Image>Brilliance_Painting.png</Image>
+        <Color>255,186,31</Color>
+        <HotColor>255,242,57</HotColor>
+        <Cost>15</Cost>
+        <Rarity>25</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>25</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>EyesOfTheEagle</StrVal>
+            <Icon>S_EyesoftheEagle_Icon.png</Icon>
+            <Provides>Spell: Eyes of the Eagle</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>ObscuringFog</StrVal>
+            <Icon>T_ObscuringFog_Icon.png</Icon>
+            <Provides>Spell: Obscuring Fog</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>Escape</StrVal>
+            <Icon>T_Escape_Icon.png</Icon>
+            <Provides>Spell: Escape</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Sorcery</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Breons_Letters">
+        <DisplayName>Breon's Letters</DisplayName>
+        <Description>Concentrated study of these letters, written thousands of years ago by Breon of Nimer to Argynn, King of Malaya, will enable you to recruit Level 9 Champions and attempt Epic Quests.</Description>
+        <AdviceText>We can now recruit the most powerful champions in the world to our cause.</AdviceText>
+        <Image>Artifact_Snow1.png</Image>
+        <Color>255,186,31</Color>
+        <HotColor>255,242,57</HotColor>
+        <Cost>53</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UpdateSpawnRating</Attribute>
+            <StrVal>NPC</StrVal>
+            <Icon>FactionAbility_Traits.png</Icon>
+            <Provides>Recruit level 9 champions</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Ereogs_Journal</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Charms">
+        <DisplayName>Charms</DisplayName>
+        <Description>Conduct this research to follow Ereog's path, and learn to channel the latent magical energy of the world so it can be put to use by your craftsmen.</Description>
+        <AdviceText>Keep in mind your units can have up to four accessories at a time. Choose them wisely.</AdviceText>
+        <Image>WeddingRings.png</Image>
+        <Color>255,186,31</Color>
+        <HotColor>255,242,57</HotColor>
+        <Cost>12</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>100</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Civics">
+        <DisplayName>Civics</DisplayName>
+        <Description>Research in this area allows you to construct the Inn improvement; Kingdom players will be able to construct Hedge Walls, Empire players Wooden Walls. Both will learn to balance the needs of their citizens against their larger strategic goals.  In ancient Coriopolis, all citizens were required to contribute one-tenth of their earnings to the city coffers, to be distributed as the Great Council saw fit.</Description>
+        <AdviceText>Rushing production is a valuable tool when your coffers are full and you need a unit or improvement quickly.</AdviceText>
+        <Image>Tech_Civics.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>10</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockCityAction</Attribute>
+            <StrVal>RushProduction</StrVal>
+            <Icon>Consumption_Icon.png</Icon>
+            <Provides>Can Rush Production</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_FactionPrestige</StrVal>
+            <Value>1</Value>
+            <Provides>+1 Faction Prestige</Provides>
+        </GameModifier>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>100</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>5</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Company">
+        <DisplayName>Company</DisplayName>
+        <Description>Research in this area will allow you to form your soldiers into Companies, turning them into greater threats, in the manner set forth in Themisto's Manual of Infantry Tactics and Custom. </Description>
+        <AdviceText>Sometimes the greatest advantage you can have on the battlefield is pure numbers.</AdviceText>
+        <Image>Medallions_Advanced_Foot_Solders.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>246</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Logistics</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>2</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Construction">
+        <DisplayName>Construction</DisplayName>
+        <Description>Learn these techniques to construct the Great Mill achievement.  Kingdom players who research these skills will also be able to construct Forts, while Empire players will be able to build Castles and Slave Pens. Recall that while Antheros was not built in a day, knowledge of construction techniques and basic architectural principles was endemic to its people.</Description>
+        <AdviceText>With our research of Construction we should be able to further increase our production and metal income.</AdviceText>
+        <Image>Kingdom_Worker1.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>24</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Mining</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Agriculture</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Cooperation">
+        <DisplayName>Cooperation</DisplayName>
+        <Description>Master this skill, and you will be able to construct the Pub improvement. Kingdom players will also be able to build the Missionary Hall improvement. When you are able to convince your citizens to work together towards a common goal, you improve morale and efficiency. Recall the words of Dariun the Gray; 'War makes men brothers; ale makes them friends." </Description>
+        <AdviceText>Be sure to upgrade one of our Town Halls into a Palace to provide it with increased bonuses.</AdviceText>
+        <Image>Pub.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>36</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Administration</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Trading</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>100</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Craftsmanship">
+        <DisplayName>Craftsmanship</DisplayName>
+        <Description>Research these techniques, and you will be able to construct Catapults, patterned after those which the Great Army of Ithul used in its assault on the High Citadel of Mergas Maz Adul. These weapons require considerable planning and skill to execute properly. </Description>
+        <AdviceText>If we can build an Iron Works before any other nation it would be a great boon to our metal income.</AdviceText>
+        <Image>Tech_Legendary_Weapons.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>53</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Construction</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Dance_with_Dragons">
+        <DisplayName>Dance with Dragons</DisplayName>
+        <Description>Knowledge gained from this research will allow you to construct the Dragon Camp improvement on Dragon Lairs. The Acolytes of the Dragon are almost gone from this world, as are the creatures they worship. Still... were you to find one of these legendary beasts, and then find a way to compel its allegiance... you would have a nigh-unstoppable ally.</Description>
+        <AdviceText>It's not going to be easy to find and capture a Storm Dragon Camp. But if we can we will now be ready.</AdviceText>
+        <Image>K_CreatureRecruitment.png</Image>
+        <Color>161,59,184</Color>
+        <HotColor>240,154,243</HotColor>
+        <Cost>164</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Alliances</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>900</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Drills">
+        <DisplayName>Drills</DisplayName>
+        <Description>Learning these drills will allow you to increase your maximum army size by 1. This knowledge is outlined in detail in Themisto's Manual of Infantry Tactics and Custom.</Description>
+        <AdviceText>The more units we can fit into an army, the more effective we will be in combat.</AdviceText>
+        <Image>NewKing_Medallion.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>21</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_MaxArmySize</StrVal>
+            <Value>1</Value>
+            <Icon>Veteran.png</Icon>
+            <Provides>+1 Army Size</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Training</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>100</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>5</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>2</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Economics">
+        <DisplayName>Economics</DisplayName>
+        <Description>Research in this area improves your economy as well as allowing you to construct the Farmer's Market improvement; you can then sell food, and receive Gildar in return.  To build an Empire of any appreciable size... to assemble an army large enough to make an effective fighting force... you will need to develop a functioning economy. 'Raise your food; raise your prices; raise your army.' - Chelios, master accountant of the House Lamord.</Description>
+        <AdviceText>If we can build a Treasury Vault before any other nation it would be a real shot in the arm for our economy.</AdviceText>
+        <Image>Alchemy_Painting.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>53</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_RoadLevel</StrVal>
+            <Value>1</Value>
+            <Icon>Caravan_Icon.png</Icon>
+            <Provides>Roads to Outposts</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_MaxArmySize</StrVal>
+            <Value>1</Value>
+            <Icon>Veteran.png</Icon>
+            <Provides>+1 Army Size</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Cooperation</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Education">
+        <DisplayName>Education</DisplayName>
+        <Description>Research in this area will allow you to construct the School improvement, and pass on knowledge to the youth of your nation. One need think only of Ereog and Hosten, and their failure to impart true wisdom to either of their offspring to realize the importance of this skill. </Description>
+        <AdviceText>Schools can double the research of Studies. My fellow scholars and I urge you to upgrade them quickly.</AdviceText>
+        <Image>Education.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>15</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_FactionPrestige</StrVal>
+            <Value>1</Value>
+            <Provides>+1 Faction Prestige</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Administration</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Enchantment">
+        <DisplayName>Enchantment</DisplayName>
+        <Description>This research imparts the principles of the Enchanters art, as set down in Hosten's Codex. With this knowledge you can begin to produce enchanted items for your armies.</Description>
+        <AdviceText>Upgrading Monuments to Guardian Statues is a great way to defend our threatened cities.</AdviceText>
+        <Image>GuardianWard_Painting.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>35</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Charms</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>75</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>3</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Entertainment">
+        <DisplayName>Entertainment</DisplayName>
+        <Description>Research in this area allows Kingdom players to construct the Theater improvement and Empire players to construct the Arena improvement. In dark times such as these, all people yearn for entertainment to help them escape the hardships and horrors of the day, even for the most fleeting of moments.</Description>
+        <AdviceText>With this research we have unlocked deeper upgrade options in our cities with the Town specialization.</AdviceText>
+        <Image>Tech_Entertainment.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>32</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_FactionPrestige</StrVal>
+            <Value>1</Value>
+            <Provides>+1 Faction Prestige</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Cooperation</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Animal_Husbandry</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>75</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>2</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Ereogs_Journal">
+        <DisplayName>Ereog's Journals</DisplayName>
+        <Description>Studying these journals will allow you to recruit Level 7 champions and go on Deadly Quests. Though much in these journals is said to be apocryphal, there is little doubt that Ereog's years in the wilderness brought him knowledge of many of Elemental's most ancient legends.  </Description>
+        <AdviceText>Being able to recruit more powerful champions will make adventuring much easier.</AdviceText>
+        <Image>Artifact_Desert1.png</Image>
+        <Color>255,186,31</Color>
+        <HotColor>255,242,57</HotColor>
+        <Cost>22</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UpdateSpawnRating</Attribute>
+            <StrVal>NPC</StrVal>
+            <Icon>FactionAbility_Traits.png</Icon>
+            <Provides>Recruit level 7 champions</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>TirelessMarch</StrVal>
+            <Icon>S_TirelessMarch_Icon.png</Icon>
+            <Provides>Spell: Tireless March</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Recruiting</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Glyph_Stones">
+        <DisplayName>Glyph Stones</DisplayName>
+        <Description>Craft Amulets of Warding, Troll Charms and Amulets of the Eagle - by research in this area. Remember the great benefit of magical equipment; even those who lack inherent arcane abilities can utilize its power. This knowledge comes from the first quarto of the Varis Reliquaria - the notebooks kept by Senadar Krys, keeper of the Forge of the Overlord.</Description>
+        <AdviceText>Glyph Stones are a great way to improve your units without weighing them down.</AdviceText>
+        <Image>Tech_Arcane_Jewelry.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>30</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Enchantment</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Rituals</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Guilds">
+        <DisplayName>Guilds</DisplayName>
+        <Description>The Kingdoms organized their workers with contracts, well made tools and wages that enticed a generation of explorers and gamblers into hard, but rewarding, work.  The Empires put their citizens in chains and made them work.</Description>
+        <AdviceText>Now we can get the most production from our cities.</AdviceText>
+        <Image>Building_Town1.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>75</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_Additive_ProductionPerMaterials</StrVal>
+            <Value>1</Value>
+            <Icon>Icon_Lumber.png</Icon>
+            <Provides>+1 Prod. per Material</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Craftsmanship</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Heavy_Armor">
+        <DisplayName>Heavy Armor</DisplayName>
+        <Description>Study in this area allows you to craft Plate Armor and Tower Shields. Metal armor provides greatly superior protection compared to its chain counterpart, but is also more expensive, both in terms of time and material required. Aivernach smiths, it is said, underwent a full decade of training before being certified as masters. </Description>
+        <AdviceText>Plate armor provides good all-around armor and superior blunt defense. It is, however, quite heavy.</AdviceText>
+        <Image>PlateArmor.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>164</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>NoArmor</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>War_Colleges</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>2</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Higher_Education">
+        <DisplayName>Higher Education</DisplayName>
+        <Description>Research in this area will allow you to construct the College improvement. This will allow your citizens to choose professions centered around intelligence as opposed to labor; recall how Hallas bloomed with the building of the Verhallem. </Description>
+        <AdviceText>I am so proud of this achievement. Now we can upgrade to the finest research facilities in the world.</AdviceText>
+        <Image>Tech_Higher_Education.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>75</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Literacy</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Henchmen">
+        <DisplayName>Henchmen</DisplayName>
+        <Description>Personal charisma, such as that possessed by the great sovereigns of old - the high Kings of Antheros, their Amarian brethren of the north - cannot be taught. The art of attracting others to your cause can - though in this day and age, only those aligned with the kingdom of Altar can research and subsequently acquire this valuable skill, which will allow you to woo and win to your cause the minor heroes of this world.</Description>
+        <AdviceText>Our people have always had a heroic heart, even those with modest backgrounds.</AdviceText>
+        <Image>Xander.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>8</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Race</Type>
+            <Attribute>Race_Type_Altarians</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Shard_Harvesting</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>3</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Juggernauts">
+        <DisplayName>Juggernauts</DisplayName>
+        <Description>Trogs recieve strict military training from the time they can walk.  Many die during this process, to weak or compliant to survive.  Most become Trog warriors, but some few fall between.  Too strong to die, but unwilling to bend or obey.  These savage creatures are locked in the sewers under Ahilga where they are subjected both to spells to strengthen them and torment designed to force their obedience.</Description>
+        <AdviceText>Our Juggernauts are as dangerous to our enemies as they are to allies that stand too close.</AdviceText>
+        <Image>M_EscapedJuggernaut.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>42</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Race</Type>
+            <Attribute>Race_Type_Trogs</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Blacksmithing</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>3</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="King_Of_The_Wastes">
+        <DisplayName>King of the Wastes</DisplayName>
+        <Description>Here, contained in journals kept by Connar the Iron Heart, first of the Free Riders, are a specific set of skills and techniques for dealing with the creatures of the wildlands. Learn them, and the monsters you recruit start at level 3 instead of level 1.</Description>
+        <AdviceText>With this knowledge we are able to recruit much more powerful wild creatures to our cause.</AdviceText>
+        <Image>Bandit_Medallion.png</Image>
+        <Color>161,59,184</Color>
+        <HotColor>240,154,243</HotColor>
+        <Cost>82</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>25</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_RecruitedMonsterBonusLevels</StrVal>
+            <Value>2</Value>
+            <Icon>Veteran.png</Icon>
+            <Provides>Recruited Monsters gain 2 Levels</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AllRecruitedMonstersGainLevel</Attribute>
+            <Value>2</Value>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Cooperation</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>900</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Knowledge">
+        <DisplayName>Knowledge</DisplayName>
+        <Description> Learning this skill will allow you to build the Study improvement, and focus on the research that will keep your kingdom at the forefront of nations. 'The Strategors of Coriopolis call me mad; yet they spend a thousand lives to maintain their borders, while but an hour's study gives me knowledge to defeat them.'  - The Emperor Morrigan</Description>
+        <AdviceText>Building a Study in every city will greatly boost our research efforts. And please your scholars.</AdviceText>
+        <Image>LostLibrary.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>10</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_FactionPrestige</StrVal>
+            <Value>1</Value>
+            <Provides>+1 Faction Prestige</Provides>
+        </GameModifier>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>75</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>4</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Leatherworking">
+        <DisplayName>Leatherworking</DisplayName>
+        <Description>Research these techniques to craft Leather Armor. A properly-armored military will triumph over an ill-equipped opponent on the battlefield, even when greatly outnumbered. The Nimer of old were said to craft armor from aribu hide as strong as steel. </Description>
+        <AdviceText>Leather armor offers extremely light weight protection for our units. It's better than nothing.</AdviceText>
+        <Image>LeatherArmor.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>15</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>100</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>5</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>3</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Literacy">
+        <DisplayName>Literacy</DisplayName>
+        <Description>This breakthrough will allow you to trade Technology and construct the Library improvement. Knowledge and education are the first steps toward enlightenment, but literacy is essential to the spread and survival of civilization. Recall the fate of the Nerazga, when Mergas Maz Adul fell.</Description>
+        <AdviceText>Technology treaties can provide both nations involved with mutual growth in research.</AdviceText>
+        <Image>Education.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>53</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Education</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Logistics">
+        <DisplayName>Logistics</DisplayName>
+        <Description>Knowledge gained from this research allows you to form Squads of soldiers. These drills and commands - outlined in Themisto's Manual of Infantry Tactics and Custom - once researched and communicated to your army will allow them to fight more effectively as a unit. </Description>
+        <AdviceText>Squads will allow us to get more bodies into our troop regiments. </AdviceText>
+        <Image>Tech_Logistics.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>93</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Economics</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>100</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>5</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>2</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Longbows">
+        <DisplayName>Longbows</DisplayName>
+        <Description>Conducting the research necessary to craft these weapons - which will give your archers the ability to fire upon your enemies without putting themselves directly into danger - will also provide numerous examples of expert bowmen at work, from historical sources as wide-ranging as the Ninety-Nine of Redstone, and the Drota of Zabril.</Description>
+        <AdviceText>We should outfit our Archers with new and improved Longbows to replace their outdated Shortbows.</AdviceText>
+        <Image>Tech_Longbows.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>53</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>NoRangedWeapons</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Archery</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPrefType>AIPrefType_BOW</AIPrefType>
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Magical_Forging">
+        <DisplayName>Magical Forging</DisplayName>
+        <Description>This breakthrough in the arcane arts will allow you to craft the Hunter's Short Sword, the Burning Battle Axe and the Banishing Mace. The Veladrii of ancient Hallas first forged weapons such as these for use by the nobility; but you may give them to any of your fighters, even those who lack any inherent magical abilities. </Description>
+        <AdviceText>These weapons excel in specific situations. Keep an eye on what you are fighting when you use them.</AdviceText>
+        <Image>EnchantedSword1.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>140</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>ArcaneForge</StrVal>
+            <Icon>S_ArcaneForge_Icon.png</Icon>
+            <Provides>Spell: Arcane Forge</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Arcane_Apparel</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Mining">
+        <DisplayName>Mining</DisplayName>
+        <Description>Learn these skills to construct the valuable Iron Mine and Gold Mine improvements, which will bring great wealth to your nation. Be mindful, though, of that wealth's cost; a miner's life is short, difficult, and dangerous. Imposing that life upon your citizens can lead to great tragedy; recall the gruesome fate of Diergal Ma Tua, beloved son of Fierann.</Description>
+        <AdviceText>Workshops are a much needed cog in the machine of city production. Build them early and often.</AdviceText>
+        <Image>Dungeon_Mine1.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>21</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_Additive_ProductionPerMaterials</StrVal>
+            <Value>1</Value>
+            <Icon>Icon_Lumber.png</Icon>
+            <Provides>+1 Prod. per Material</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Restoration</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Mounted_Warfare">
+        <DisplayName>Mounted Warfare</DisplayName>
+        <Description>Learning this skill will allow you to train horses as Mounted Units. The steeds of ancient Antheros are as much a part of that Empire's legend as its kings. </Description>
+        <AdviceText>Giving our units horses and building stables in our outposts will improve the mobility of our forces.</AdviceText>
+        <Image>Medallions_Armored_Calvary.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>8</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Training</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPrefType>AIPrefType_MOUNT</AIPrefType>
+                <AIPriority>70</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>5</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Recruiting">
+        <DisplayName>Heroes</DisplayName>
+        <Description>Research this knowledge to recruit level 5 Champions and attempt Serious Quests. These skills will be important as you move out into the wastelands, where only the strong have survived... warriors who will follow only the most powerful, most capable of leaders. </Description>
+        <AdviceText>Building a warden in our outposts will help protect our lands by keeping wild monsters out of our borders.</AdviceText>
+        <Image>Ambrose.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>17</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UpdateSpawnRating</Attribute>
+            <StrVal>NPC</StrVal>
+            <Icon>FactionAbility_Traits.png</Icon>
+            <Provides>Recruit level 5 champions</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>SummonImp</StrVal>
+            <Icon>T_SummonImp_Icon.png</Icon>
+            <Provides>Spell: Summon Imp</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>SummonFamiliar</StrVal>
+            <Icon>T_SummonFamiliar_Icon.png</Icon>
+            <Provides>Spell: Summon Familiar</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Charms</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Shard_Harvesting</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>80</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>2</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>5</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Refined_Agriculture">
+        <DisplayName>Refined Agriculture</DisplayName>
+        <Description>Knowledge gained from this research will allow you to produce more food from the same amount of grain. In the wake of the Cataclysm, much of the world remains desolate wasteland; those that can coax the most life from it will have a significant advantage.</Description>
+        <AdviceText>The more we refine our agriculture the more food we will have in our cities.</AdviceText>
+        <Image>VegetableGarden.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>164</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>1</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_Additive_FoodPerGrain</StrVal>
+            <Value>5</Value>
+            <Icon>Res_Icon_Food.png</Icon>
+            <Provides>+5 Food per Grain</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Guilds</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>10</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Refined_Arcana">
+        <DisplayName>Refined Arcana</DisplayName>
+        <Description>This breakthrough will give your settlement a 25% bonus in mana; it can be researched continuously. That is, each time you and your channelers focus your research on the arcane arts, you will see your power increase by a quarter. The greater spells - those contained in the codexes which survived the cataclysm - require significant power to perform.</Description>
+        <AdviceText>The more we refine our command of the arcane the more mana we will bring in every season.</AdviceText>
+        <Image>Tech_Refined_Arcana.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>164</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>1</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_Mana</StrVal>
+            <Value>25</Value>
+            <Icon>Mana_Stat_Icon.png</Icon>
+            <Provides>+25% Mana</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Immortal_Codex</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>10</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Refined_Attack">
+        <DisplayName>Refined Attack</DisplayName>
+        <Description>Learning these skills will increases the Attack of all of your units by 10%; you can research this knowledge continuously, with a corresponding increase in attack. </Description>
+        <AdviceText>By refining our attack techniques we can continue to improve our attack values across the board.</AdviceText>
+        <Image>Refined_Attack.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>287</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>1</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_UnitStat_Attack_Blunt</StrVal>
+            <Value>10</Value>
+            <Icon>Stat_AttackBlunt_Icon.png</Icon>
+            <Provides>+10% Blunt Attack</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_UnitStat_Attack_Cutting</StrVal>
+            <Value>10</Value>
+            <Icon>Stat_AttackCutting_Icon.png</Icon>
+            <Provides>+10% Cutting Attack</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_UnitStat_Attack_Pierce</StrVal>
+            <Value>10</Value>
+            <Icon>Stat_AttackPierce_Icon.png</Icon>
+            <Provides>+10% Pierce Attack</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Arcane_Weapons</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>10</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Refined_Defense">
+        <DisplayName>Refined Defense</DisplayName>
+        <Description>Learning these skills will increase the Defense of all of your units by 10%; you can research this knowledge continuously, with a corresponding increase in defensive power. The Strategors of Coriopolis focused as much of their energies on building an effective harbor defense as on constructing their fleets. </Description>
+        <AdviceText>By refining our defense techniques we can continue to improve our armor values across the board.</AdviceText>
+        <Image>Refined_Defense_Tech.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>164</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>1</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_UnitStat_Defense_Blunt</StrVal>
+            <Value>10</Value>
+            <Icon>Stat_DefenseBlunt_Icon.png</Icon>
+            <Provides>+10% Blunt Defense</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_UnitStat_Defense_Cutting</StrVal>
+            <Value>10</Value>
+            <Icon>Stat_DefenseCutting_Icon.png</Icon>
+            <Provides>+10% Cutting Defense</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_UnitStat_Defense_Pierce</StrVal>
+            <Value>10</Value>
+            <Icon>Stat_DefensePierce_Icon.png</Icon>
+            <Provides>+10% Pierce Defense</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>RestrictedAbilityBonusOption</Type>
+            <Attribute>NoArmor</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Arcane_Armor</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>10</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Refined_Diplomacy">
+        <DisplayName>Refined Diplomacy</DisplayName>
+        <Description>Concentration in this field of study will see your settlements gain a 10% bonus in Diplomatic Capital; it can be researched continuously, as there is no limit to the knowledge you can gain from a careful study of history. The Kings of Antheros learned much from the Magi of Old, who fashioned a peace that lasted a thousand years.</Description>
+        <AdviceText>By refining our diplomatic techniques we can bring in additional diplomatic capital every season.</AdviceText>
+        <Image>Building_LargeCity1.png</Image>
+        <Color>161,59,184</Color>
+        <HotColor>240,154,243</HotColor>
+        <Cost>287</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>1</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_Diplomacy</StrVal>
+            <Value>10</Value>
+            <Icon>Icon_InfluencePoints.png</Icon>
+            <Provides>+10% Diplomatic Capital</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Alliances</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>10</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Refined_Economics">
+        <DisplayName>Refined Economics</DisplayName>
+        <Description>Knowledge gleaned from this research will give your settlements a 10% bonus in Gildar production; you can research this discipline continuously. As your traders and merchants gain a greater understanding of marketplace practices, they - and you - will see increasingly positive results.</Description>
+        <AdviceText>By refining our economic techniques we can bring in additional gildar every season.</AdviceText>
+        <Image>Tech_Refined_Economics.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>93</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>1</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_Gold</StrVal>
+            <Value>10</Value>
+            <Icon>Res_Icon_Gold.png</Icon>
+            <Provides>+10% Gildar</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Economics</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>10</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Refined_Education">
+        <DisplayName>Refined Education</DisplayName>
+        <Description>Learning how to learn is a critical skill in and of itself; gain a 10% bonus to Research by focusing on this skill. This knowledge can be researched continuously.  'He who ceases learning, ceases living.' - Ereog of Hallas</Description>
+        <AdviceText>By refining our educational techniques we can produce additional research every season.</AdviceText>
+        <Image>Tech_Refined_Education.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>164</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>1</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_Research</StrVal>
+            <Value>10</Value>
+            <Icon>Tech_Icon.png</Icon>
+            <Provides>+10% Research</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Higher_Education</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>10</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Refined_Production">
+        <DisplayName>Refined Production</DisplayName>
+        <Description>Concentrated study of these techniques will give your settlements a +1 Production bonus per Material; they can be researched continuously. As your Blacksmiths continue to improve their understanding of the metal-working process, all citizens of your kingdom - civilian and military alike - will reap the benefits.  </Description>
+        <AdviceText>By refining our production techniques we can increase our production in all our cities.</AdviceText>
+        <Image>Res_Ores_Plains.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>164</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>1</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_Additive_ProductionPerMaterials</StrVal>
+            <Value>1</Value>
+            <Icon>Icon_Lumber.png</Icon>
+            <Provides>+1 Prod. per Material</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Guilds</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>10</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Refined_Training">
+        <DisplayName>Refined Training</DisplayName>
+        <Description>Learning these skills will increase the efficiency of your armies, boosting their Accuracy by 10%; this training can be researched continuously, and is based on protocols laid out by Themisto, Strategor of Hallas. </Description>
+        <AdviceText>By refining our training techniques we can continue to improve the accuracy values of all of our units.</AdviceText>
+        <Image>Barracks_Medallion.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>246</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>1</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_UnitStat_Accuracy</StrVal>
+            <Value>10</Value>
+            <Icon>Stat_Accuracy_Icon.png</Icon>
+            <Provides>+10% Accuracy</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>War_Colleges</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>10</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Restoration">
+        <DisplayName>Restoration</DisplayName>
+        <Description>Where the west had storms of ash and fire, the east saw mountains explode.  Where the west had disease, the east had poisoned rivers and corrupt, maddened creatures.  If we are to rebuild this world, we must first learn these techniques to restore it.</Description>
+        <AdviceText>We can build gardens to feed our people and workshops to make them more productive.</AdviceText>
+        <Image>FruitOrchard_Full.png</Image>
+        <Color>60,138,25</Color>
+        <HotColor>146,255,49</HotColor>
+        <Cost>8</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>2</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Rituals">
+        <DisplayName>Rituals</DisplayName>
+        <Description>Learning these ceremonies will allow you to construct the Sacrificial Altar improvement. The greatest magics, no matter their aspect, require blood to work. Study in this area of the arcane arts is necessary for any sovereign intent on expanding his or her magical repertoire.</Description>
+        <AdviceText>Our cities with essence should improve the efficiency of their Clerics by upgrading them to Shrines.</AdviceText>
+        <Image>S_Paragon_Painting.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>17</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>TouchOfDarkness</StrVal>
+            <Icon>S_SummonImp_Icon.png</Icon>
+            <Provides>Spell: Touch of Darkness</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>AnointedByFire</StrVal>
+            <Icon>T_Fireball_Icon.png</Icon>
+            <Provides>Spell: Anointed by Fire</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>BlessingOfRestoration</StrVal>
+            <Icon>T_Heal_Icon.png</Icon>
+            <Provides>Spell: Blessing of Restoration</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>DefiledBenediction</StrVal>
+            <Icon>T_DrainLife_Icon.png</Icon>
+            <Provides>Spell: Defiled Benediction</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Charms</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>2</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Shard_Harvesting">
+        <DisplayName>Shard Harvesting</DisplayName>
+        <Description>This breakthrough in the arcane arts gives Kingdom players the ability to construct the Life Shrine improvement, while Empire players gain the knowledge necessary to construct the Death Shrine improvement. This allows each player to harvest the power within their respective shards.</Description>
+        <AdviceText>Upgrading our Elemental Altars to Shrines will double their mana production.</AdviceText>
+        <Image>EarthCrystal_Medallion.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>10</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>100</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>5</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>5</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Immortal_Codex">
+        <DisplayName>Immortal Codex</DisplayName>
+        <Description>This is that book written of by the Tazzars of ancient Kos Piatra, a volume of magics both dark and light, said to have been summoned by the greatest of their number, Goran Vakul, from a place outside space and time. Master its teachings, and you will gain access to the most powerful shard shrines that can be found on this world.</Description>
+        <AdviceText>These are more than temples, they are conduits to the true power of Elemental.</AdviceText>
+        <Image>FireCrystal_Medallion.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>10</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Arcane_Mastery</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>100</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>5</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>5</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Siege_Weapons">
+        <DisplayName>Siege Weapons</DisplayName>
+        <Description>This breakthru gives you the ability to build Catapults to smite your enemies.</Description>
+        <AdviceText>Catapults are great at doing damage at range to a wide area. Use them to soften enemy lines.</AdviceText>
+        <Image>Building_Fallen_Castle1.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>93</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_MaxArmySize</StrVal>
+            <Value>1</Value>
+            <Icon>Veteran.png</Icon>
+            <Provides>+1 Army Size</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Longbows</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Weaponsmithing</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>75</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>3</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="SionTemple">
+        <DisplayName>Sion Temple</DisplayName>
+        <Description>This breakthrough allows you to train Sions - powerful Fallen warriors. Like champions, Sions can gain levels and acquire traits; however, they cannot learn spells.</Description>
+        <AdviceText>Sions are some of our deadliest warriors. Grow them in power as your would your Champions.</AdviceText>
+        <Image>BG49_FallenCastle.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>146</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Allegiance</Type>
+            <Attribute>Empire</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Ereogs_Journal</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Sorcery">
+        <DisplayName>Sorcery</DisplayName>
+        <Description>Delving deeper into the arcane arts allows you to cast new kinds of spells</Description>
+        <AdviceText>Avarice can be extremely useful when our economy is lagging but our magical power is strong.</AdviceText>
+        <Image>S_Regeneration_Painting.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>26</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>DispelEnchantment</StrVal>
+            <Icon>S_DispelEnchantment_Icon.png</Icon>
+            <Provides>Spell: Dispel Enchantment</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>NaturesBounty</StrVal>
+            <Icon>S_GentleRain_Icon.png</Icon>
+            <Provides>Spell: Nature's Bounty</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>DestinysGift</StrVal>
+            <Icon>S_DestinysGift_Icon.png</Icon>
+            <Provides>Spell: Destiny's Gift</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>DestinysInsight</StrVal>
+            <Icon>S_DestinysInsight_Icon.png</Icon>
+            <Provides>Spell: Destiny's Insight</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Charms</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>75</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>2</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Spellbooks">
+        <DisplayName>Spellbooks</DisplayName>
+        <Description>Of all the treasures of the Free Cities that Procipinee brought with her on the Long March west, perhaps the most valuable were the drills and primers she learned from the Mages of Valgona, exercises that can quickly take even the most novice of spellcasters and lead them to mastery in their chosen discipline.</Description>
+        <AdviceText>Other nations dabble in magic, but it is our birthright.</AdviceText>
+        <Image>Tech_Third_Book.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>30</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>AbilityBonusOption</Type>
+            <Attribute>Enchanters</Attribute>
+            <Target>Player</Target>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Sorcery</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>75</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>2</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Third_Book_Of_The_Magi">
+        <DisplayName>Third Book of the Magi</DisplayName>
+        <Description>Researching the knowledge contained in this volume - said to comprise Argynn's legacy to the West - will grant the channelers of your kingdom powerful new spells to add to their arcane arsenal.</Description>
+        <AdviceText>Falling Star is one of the pinnacles of destructive magic. Use it to decimate the armies of our enemies.</AdviceText>
+        <Image>Tech_Third_Book.png</Image>
+        <Color>76,79,196</Color>
+        <HotColor>182,182,244</HotColor>
+        <Cost>131</Cost>
+        <Rarity>100</Rarity>
+        <Category>Magic</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>FallingStar</StrVal>
+            <Icon>S_FallingStar_Icon.png</Icon>
+            <Provides>Spell: Falling Star</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>PullOfTheEarth</StrVal>
+            <Icon>T_PulloftheEarth_Icon.png</Icon>
+            <Provides>Spell: Pull of the Earth</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>BirthOfSummer</StrVal>
+            <Icon>S_BirthOfSummer_Icon.png</Icon>
+            <Provides>Spell: Birth of Summer</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>BloomOfTwilight</StrVal>
+            <Icon>S_BirthOfSummer_Icon.png</Icon>
+            <Provides>Spell: Bloom of Twilight</Provides>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockSpell</Attribute>
+            <StrVal>CurgensVolcano</StrVal>
+            <Icon>S_CurgensVolcano_Icon.png</Icon>
+            <Provides>Spell: Curgen's Volcano</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Book_Of_Mastery</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Immortal_Codex</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Trading">
+        <DisplayName>Trading</DisplayName>
+        <Description>Developing this skill improves your economy as well as allowing you to trade gold and make Trade treaties with other Factions. The Cataclysm destroyed many peoples ability to be self-sufficient; trading is thus a wise - and profitable - skill for any sovereign to develop.</Description>
+        <AdviceText>Roads between our cities will be a huge benefit to the mobility of our forces.</AdviceText>
+        <Image>Caravan1_Medallion.png</Image>
+        <Color>161,59,184</Color>
+        <HotColor>240,154,243</HotColor>
+        <Cost>17</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockDiplomacyWndAbility</Attribute>
+            <StrVal>Gold</StrVal>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockDiplomacyWndAbility</Attribute>
+            <StrVal>RefinedCrystal</StrVal>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockDiplomacyWndAbility</Attribute>
+            <StrVal>Metal</StrVal>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockDiplomacyWndAbility</Attribute>
+            <StrVal>Horses</StrVal>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>UnlockDiplomacyWndAbility</Attribute>
+            <StrVal>Wargs</StrVal>
+        </GameModifier>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_RoadLevel</StrVal>
+            <Value>1</Value>
+            <Icon>Caravan_Icon.png</Icon>
+            <Provides>Roads between Cities</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Civics</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>900</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Training">
+        <DisplayName>Training</DisplayName>
+        <Description>You will gain great benefit from this research; the ability to unlock the first tier of unit design traits; an increase of 1 in your Max Army Size, and the ability to construct the Barracks improvement. 'Discipline is first, second, and third when building an effective fighting force. Little else matters.' - Vergaxa of the Quendar. </Description>
+        <AdviceText>Units strong enough to wear a shield with their weapon should. Wood shields are a great first option.</AdviceText>
+        <Image>Training.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>12</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_MaxArmySize</StrVal>
+            <Value>1</Value>
+            <Icon>Veteran.png</Icon>
+            <Provides>+1 Army Size</Provides>
+        </GameModifier>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>100</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>3</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>3</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="War_Colleges">
+        <DisplayName>War Colleges</DisplayName>
+        <Description>Research this knowledge to construct the War College improvement, and craft Longswords. Shorten the time it takes to field units by teaching the art of warfare in a disciplined, controlled setting. Though a man of peace, Ereog knew the importance of educating the military; until the Verhallem was built, the Academy was the largest structure in Hallas. </Description>
+        <AdviceText>Longswords are a great option for defensive units because they allow you to wear a shield and counterattack.</AdviceText>
+        <Image>War_Colleges.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>93</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <GameModifier>
+            <ModType>Player</ModType>
+            <Attribute>AbilityBonus</Attribute>
+            <StrVal>A_MaxArmySize</StrVal>
+            <Value>1</Value>
+            <Icon>Veteran.png</Icon>
+            <Provides>+1 Army Size</Provides>
+        </GameModifier>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Weaponsmithing</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Armor</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>5</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Warg_Riding">
+        <DisplayName>Warg Riding</DisplayName>
+        <Description>Learn this skill to train Warg mounts for your units. Though typically not as strong as horses, Wargs are faster, and will allow you to close quickly on your enemy's archers and spellcasters. Breon wrote extensively of the speed of the Nerazga's mounts; only her magics allowed her to outrun their army at the Diradei, and escape the Slaughter of the Ice Plains. </Description>
+        <AdviceText>Wargs provide a more agile option for your mounted units. Use them to create a quick hitting strike force.</AdviceText>
+        <Image>M_Warg_ShadowWarg_Card.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>15</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Mounted_Warfare</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPrefType>AIPrefType_MOUNT</AIPrefType>
+                <AIPriority>70</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>2</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Weaponry">
+        <DisplayName>Weaponry</DisplayName>
+        <Description>A soldier lives and dies by the weapons he wields; learning these skills allows you to craft Warhammers, Axes and Daggers whose blades will cut deeper than those of your opponent. 'Pride in country; pride in company; pride in weaponry - these three things I command of you.' - Themisto of Hallas.</Description>
+        <AdviceText>When choosing weapons for your units be sure to weigh all your options, they each excel in different areas.</AdviceText>
+        <Image>Weapons_Medallion_Full.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>29</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Leatherworking</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Training</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPrefType>AIPrefType_Blunt</AIPrefType>
+                <AIPrefType>AIPrefType_Cutting</AIPrefType>
+                <AIPrefType>AIPrefType_Piercing</AIPrefType>
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>5</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Weapons_Of_War">
+        <DisplayName>Weapons of War</DisplayName>
+        <Description>Learning these techniques allows you to craft Mauls, Pikes and Greatswords. These weapons require significant resources, time and skill to produce, but armies wielding them gain great advantage on the battlefield; recall the Battle of Caoden, where a single company of Argynn's soldiers - two dozen men - defeated four hundred of the Kallgar.  </Description>
+        <AdviceText>We now can make the most powerful non-magical weapons in the world. Each excel in different ways.</AdviceText>
+        <Image>Tech_Weapons_of_War.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>196</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>War_Colleges</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPrefType>AIPrefType_Blunt</AIPrefType>
+                <AIPrefType>AIPrefType_Cutting</AIPrefType>
+                <AIPrefType>AIPrefType_Piercing</AIPrefType>
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>5</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Weaponsmithing">
+        <DisplayName>Weaponsmithing</DisplayName>
+        <Description>Learning this skill will allow you to construct the Weaponsmith Improvement, and craft Battles Axes, Short Swords and Broad Swords. When Curgen conquered Odenvell, when he laid waste to all of Antheros, his soldiers were ordered to first seek out and destroy these forges, and murder the smiths within.</Description>
+        <AdviceText>As weapons get bigger the costs to make them increase. Find the best ratio for your economic situation.</AdviceText>
+        <Image>Metallurgy_Medallion_Full.png</Image>
+        <Color>182,7,3</Color>
+        <HotColor>255,48,0</HotColor>
+        <Cost>80</Cost>
+        <Rarity>100</Rarity>
+        <Category>Warfare</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Blacksmithing</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPrefType>AIPrefType_Blunt</AIPrefType>
+                <AIPrefType>AIPrefType_Cutting</AIPrefType>
+                <AIPrefType>AIPrefType_Piercing</AIPrefType>
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>90</AITradeOutValue>
+                <AIAtWarMultiplier>3</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+    <TechDef InternalName="Wildland_Allies">
+        <DisplayName>Wildland Allies</DisplayName>
+        <Description>Knowledge gleaned from this research will allow players to construct Troll Camp improvement on Troll Lairs, and Ogre Camp improvement on Ogre Lairs, making allies of potential attackers. The wastes that have sprung up in the wake of the cataclysm are dangerous places; it is foolish to overlook any potential source of help.</Description>
+        <AdviceText>Recruiting Ogres and Trolls will always be a dangerous affair, but think of the benefits if we succeed.</AdviceText>
+        <Image>HillGiantClothed_Medallion.png</Image>
+        <Color>161,59,184</Color>
+        <HotColor>240,154,243</HotColor>
+        <Cost>56</Cost>
+        <Rarity>100</Rarity>
+        <Category>Civilization</Category>
+        <Infinite>0</Infinite>
+        <AppearanceChance>100</AppearanceChance>
+        <Prereq>
+            <Type>Allegiance</Type>
+            <Attribute>Empire</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Cooperation</Attribute>
+        </Prereq>
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Recruiting</Attribute>
+        </Prereq>
+            <AIData AIPersonality="AI_General">
+                <AIPriority>50</AIPriority>
+                <AITradeToGetValue>75</AITradeToGetValue>
+                <AITradeOutValue>900</AITradeOutValue>
+                <AIAtWarMultiplier>1</AIAtWarMultiplier>
+                <AIEarlyBuildUpMultiplier>1</AIEarlyBuildUpMultiplier>
+            </AIData>
+    </TechDef>
+</Techs>

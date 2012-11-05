@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CityCitizenTypes>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName,Icon</Ignore>
+		<Translate>DisplayName</Translate>
+	</DataChecksum>
+
+	<CityCitizenType InternalName="CitizenTypeRebel">
+		<Type>Ribelli</Type>
+		<DisplayName>Malcontenti</DisplayName>
+<!--		<CanBeTaxed>0</CanBeTaxed> -->
+    </CityCitizenType>
+
+    <CityCitizenType InternalName="CitizenTypeFarmer">
+      <Type>Contadini</Type>
+      <DisplayName>Contadini</DisplayName>
+      <ResourceProduction>Cibo,0</ResourceProduction>
+    </CityCitizenType>
+
+    <CityCitizenType InternalName="CitizenTypeWorker">
+      <Type>Lavoratori</Type>
+      <DisplayName>Paesani</DisplayName>
+<!--      <ResourceProduction>Production,0.0</ResourceProduction>
+      <ResourceProduction>Research,0.0</ResourceProduction> -->
+    </CityCitizenType>
+
+    <CityCitizenType InternalName="CitizenTypeCraftsman">
+      <Type>Artigiani</Type>
+      <DisplayName>Artigiani</DisplayName>
+<!--      <ResourceProduction>Production,0</ResourceProduction> -->
+    </CityCitizenType>
+
+  </CityCitizenTypes>

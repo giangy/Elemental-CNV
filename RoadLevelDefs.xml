@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<RoadLevelDefs>
+
+  <DataChecksum NoParse="1">
+    <Ignore>DisplayName</Ignore>
+    <Translate>DisplayName</Translate>
+  </DataChecksum>
+
+  <RoadLevelDef InternalName="RoadLevel_Trail">
+    <DisplayName>Trail</DisplayName> 
+    <RoadLevel>0</RoadLevel>
+	<!-- <Texture>Gfx/Roads/Road_Tiles_Tracks.dds</Texture> -->
+    <!-- <Texture>Gfx/Roads/Road_Tiles_Path.dds</Texture> -->
+    <Texture>Gfx/Roads/Road_Tiles_Dirt.png</Texture>
+    <TradeMultiplier>1.1</TradeMultiplier>
+    <CityTileMultiplierBonus>0.0</CityTileMultiplierBonus>
+    <CyclesToReachLevel>0</CyclesToReachLevel>
+  </RoadLevelDef>
+  <RoadLevelDef InternalName="RoadLevel_Path">
+    <DisplayName>Path</DisplayName>
+    <RoadLevel>1</RoadLevel>
+	<!-- <Texture>Gfx/Roads/Road_Tiles_Path.dds</Texture> -->
+    <Texture>Gfx/Roads/Road_Tiles_Dirt.png</Texture>
+    <TradeMultiplier>1.15</TradeMultiplier>
+    <CityTileMultiplierBonus>0.1</CityTileMultiplierBonus>
+    <CyclesToReachLevel>20</CyclesToReachLevel>
+  </RoadLevelDef>
+  <RoadLevelDef InternalName="RoadLevel_Road">
+    <DisplayName>Road</DisplayName>
+    <RoadLevel>2</RoadLevel>
+	<Texture>Gfx/Roads/Road_Tiles_Dirt.png</Texture>
+    <TradeMultiplier>1.2</TradeMultiplier>
+    <CityTileMultiplierBonus>0.2</CityTileMultiplierBonus>
+    <CyclesToReachLevel>50</CyclesToReachLevel>
+  </RoadLevelDef>
+  <RoadLevelDef InternalName="RoadLevel_Highway">
+    <DisplayName>Highway</DisplayName>
+    <RoadLevel>3</RoadLevel>
+    <Texture>Gfx/Roads/Road_Tiles.png</Texture>
+    <TradeMultiplier>1.25</TradeMultiplier>
+    <CityTileMultiplierBonus>0.3</CityTileMultiplierBonus>
+    <CyclesToReachLevel>100</CyclesToReachLevel>
+  </RoadLevelDef>
+</RoadLevelDefs>

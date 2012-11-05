@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<TileDesigns>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName</Ignore>
+		<Translate>DisplayName</Translate>
+	</DataChecksum>
+	<TileDesign InternalName="WallOfFire_Gate_01">
+		<DisplayName>WallOfFire_Gate_01</DisplayName>
+		<Thumbnail>\Game\Gfx\K_Hedge_Gate_01.png</Thumbnail>
+		<LowResShadow>WallOfFire_Gate_01_shadow_256.png</LowResShadow>
+		<HighResShadow>WallOfFire_Gate_01_shadow_512.png</HighResShadow>
+		<ShadowTransparency>50</ShadowTransparency>
+		<IsCore>0</IsCore>
+		<IsHiddenFromEditor>0</IsHiddenFromEditor>
+		<SubTileFlags>1</SubTileFlags>
+		<TileDesignPath InternalName="_path0"/>
+		<EffectTrigger InternalName="A_WallOfFire_Particle_01">
+			<EffectName>A_WallOfFire_Particle_01</EffectName>
+			<LocalPosition>-1.638031,12.000000,-12.302210</LocalPosition>
+			<Scale>0.3500</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+		<EffectTrigger InternalName="A_WallOfFire_Particle_01">
+			<EffectName>A_WallOfFire_Particle_01</EffectName>
+			<LocalPosition>48.297474,13.000000,-12.524597</LocalPosition>
+			<Scale>0.3500</Scale>
+			<IndefiniteRepeat>1</IndefiniteRepeat>
+			<SpawnOnCreation>1</SpawnOnCreation>
+		</EffectTrigger>
+	</TileDesign>
+</TileDesigns>

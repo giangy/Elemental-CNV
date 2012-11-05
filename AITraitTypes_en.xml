@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- XML file to define some AI traits that decide how AI tend to act -->
+<AITraitTypes>
+    <AITraitType InternalName="Isolationist">
+        <DisplayName>Isolationist</DisplayName>
+        <Description>AI values its treaties as being 10x more than normal</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Aggressive">
+        <DisplayName>Aggressive</DisplayName>
+        <Description>AI values its military 2x as much as is normal, and thinks borders are too close by 1.5x</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Proud">
+        <DisplayName>Proud</DisplayName>
+        <Description>Peace treaties with this AI cost 3x as much</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Unstable">
+        <DisplayName>Unstable</DisplayName>
+        <Description></Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Expansionist">
+        <DisplayName>Expansionist</DisplayName>
+        <Description>More likely to construct pioneers</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Militaristic">
+        <DisplayName>Militaristic</DisplayName>
+        <Description>More likely to construct military units</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Greedy">
+        <DisplayName>Greedy</DisplayName>
+        <Description>More likely to construct wealth-based improvements</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Paranoid">
+        <DisplayName>Paranoid</DisplayName>
+        <Description>More likely to construct defensive improvements</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Builder">
+        <DisplayName>Builder</DisplayName>
+        <Description>More likely to research Civilization techs</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Sorcerer">
+        <DisplayName>Sorcerer</DisplayName>
+        <Description>More likely to research Magic techs</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="WarMonger">
+        <DisplayName>War Monger</DisplayName>
+        <Description>More likely to research Military techs</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Adventurous">
+        <DisplayName>Adventurous</DisplayName>
+        <Description>More likely to seek goodie huts</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="MonsterHunter">
+        <DisplayName>Monster Hunter</DisplayName>
+        <Description>More likely to target monsters rather than ignore them</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Diplomat">
+        <DisplayName>Diplomat</DisplayName>
+        <Description>More likely to attempt to negotiate with other players</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Manipulator">
+        <DisplayName>Manipulator</DisplayName>
+        <Description>More likely to pay others to go to war</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Civilized">
+        <DisplayName>Civilized</DisplayName>
+        <Description>More intent on building up their civilization</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+</AITraitTypes>

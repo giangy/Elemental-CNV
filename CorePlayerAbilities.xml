@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PlayerAbilityTypes>
+
+    <DataChecksum NoParse="1">
+        <Ignore>DisplayName</Ignore>
+        <Translate>DisplayName,Description</Translate>
+    </DataChecksum>
+
+  <!-- Player Abilities -->
+  <PlayerAbilityType InternalName="A_Administrative">
+    <DisplayName>Administrative</DisplayName>
+    <Description>Ability to run settlements without the financial overhead.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Adventure">
+    <DisplayName>Adventuring</DisplayName>
+    <Description>A faction's ability to grant additional experience upon completing quests.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Agility">
+    <DisplayName>Agility</DisplayName>
+    <Description>Agility of units, both in battle and when traversing the land.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <UsedAsMultiplier>0</UsedAsMultiplier>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_ArmyMaintenance">
+    <DisplayName>Army Maintenance Reduction</DisplayName>
+    <Description>Skill at maintaining troops with minimal financial overhead.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <UsedAsMultiplier>1</UsedAsMultiplier>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Cartography">
+    <DisplayName>Cartography</DisplayName>
+    <Description>Skill at map making, allowing units better survey unknown terrain.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_CityDefense">
+    <DisplayName>City Defense</DisplayName>
+    <Description>Skill at protecting your cities from the attacks of your enemies.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_CityLevelUp">
+    <DisplayName>City Level Up</DisplayName>
+    <Description>Level up a starting city.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_CoreManaRegeneration">
+    <DisplayName>Core Mana Regeneration</DisplayName>
+    <Description>How quickly this faction rengenerates their core mana.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Diplomacy">
+    <DisplayName>Diplomacy</DisplayName>
+    <Description>A faction's innate ability to get the upper hand in negotiations.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Egalitarian">
+    <DisplayName>Egalitarian</DisplayName>
+    <Description>Whether women can be trained as soldiers or not.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Enslave">
+    <DisplayName>Enslave</DisplayName>
+    <Description>When you raze cities the population is added to your capital.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_EnslaveDefeated">
+    <DisplayName>Enslave Defeated</DisplayName>
+    <Description>When you defeat humanoid units, population is added your nearest city.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_FactionPrestige">
+    <DisplayName>Faction Prestige</DisplayName>
+    <Description>A bonus to city growth that is evenly distributed amongst all your cities.</Description>
+    <Icon>Prestige_Icon.png</Icon>
+    <DefaultValue>0</DefaultValue>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_FreePopulation">
+    <DisplayName>Free Population</DisplayName>
+    <Description>Bonus to the player's starting population.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Health">
+    <DisplayName>Health</DisplayName>
+    <Description>Increases the health of a faction's units.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_HealUnitsFullyEachTurn">
+    <DisplayName>Full Heal</DisplayName>
+    <Description>Each season, units regen all lost HP.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Influence">
+    <DisplayName>Influence</DisplayName>
+    <Description>Increases the range of your faction's influence by 1 tile per point.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <UsedAsMultiplier>0</UsedAsMultiplier>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_MonsterAggression">
+    <DisplayName>Monster Aggression</DisplayName>
+    <Description>Percent chance monsters will attack this player.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Learning">
+    <DisplayName>Learning</DisplayName>
+    <Description>Skill at learning new spells.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Looting">
+    <DisplayName>Looting</DisplayName>
+    <Description>Bonus to the chance of finding magical items.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_ManaRegeneration">
+    <DisplayName>Mana Regeneration</DisplayName>
+    <Description>Speed at which all mana regenerates for this nation's people.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <DefaultValue>1</DefaultValue>
+    <UsedAsMultiplier>0</UsedAsMultiplier>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_MaxArmySize">
+    <DisplayName>Max Army Size</DisplayName>
+    <Description>The max number of units that can be in an army.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <DefaultValue>4</DefaultValue>
+  </PlayerAbilityType>
+
+  <!-- Each point of merchant ability provides a 1% resource production bonus to a city from each of its trade routes -->
+  <PlayerAbilityType InternalName="A_Merchant">
+    <DisplayName>Merchant</DisplayName>
+    <Description>A faction's ability to generate additional resource wealth from trade routes connected to their cities.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Caravan_DiplomaticCapital">
+    <DisplayName>Caravaner</DisplayName>
+    <Description>The amount of diplomatic capital a faction accrues whenever one of its caravans reaches a destination city.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_NPCSpawnRating">
+    <DisplayName>NPC Spawn Rating</DisplayName>
+    <Description>Player's personal progress in recruiting technologies to lower the cost of recruiting NPCs with certain spawn ratings.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <DefaultValue>2</DefaultValue>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_QuestingRating">
+    <DisplayName>Quest Spawn Rating</DisplayName>
+    <Description>Player's personal progress in being able to explore more advanced quest locations.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <DefaultValue>5</DefaultValue>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_GoodieRating">
+    <DisplayName>Notable Location Rating</DisplayName>
+    <Description>Player's personal progress in being able to explore better locations.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <DefaultValue>1</DefaultValue>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_QuestBonusDiplomaticCapital">
+    <DisplayName>Quest Bonus Diplomatic Capital</DisplayName>
+    <Description>Amount of diplomatic capital the player gains whenever a quest is completed.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_QuestBonusFactionPrestige">
+    <DisplayName>Quest Bonus Faction Prestige</DisplayName>
+    <Description>Amount of faction prestige the player gains whenever a quest is completed.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_RecruitAnyAllegiance">
+    <DisplayName>Recruit any allegiance</DisplayName>
+    <Description>This faction can recruit champions even from the opposing allegiance.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Recruiting">
+    <DisplayName>Cheaper Recruiting</DisplayName>
+    <Description>Skill of attracting new heroes.</Description>
+    <Icon>FactionAbility_CheaperRecruiting.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_RecruitedMonsterBonusLevels">
+    <DisplayName>Higher Recruit Level</DisplayName>
+    <Description>Recruited monsters start at a higher level</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_ResourceSharing">
+    <DisplayName>Resource Sharing</DisplayName>
+    <Description>How much of a resource gets passively shared between friendly settlements.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_RoadLevel">
+    <DisplayName>Max Road Level</DisplayName>
+    <Description>Determines the level of roads your faction can build between its own cities.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <!-- Every 1 more than the default 1% faster than normal (101% road speed, a value of 50 means 150% road production) -->
+  <PlayerAbilityType InternalName="A_RoadMaking">
+    <DisplayName>Road Making</DisplayName>
+    <Description>How adept your caravans are at making roads.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Seamanship">
+    <DisplayName>Seamanship</DisplayName>
+    <Description>Ability to tame the high seas.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_ShardHarvesting">
+    <DisplayName>Shard Harvesting</DisplayName>
+    <Description>Skill at harvesting mana from the elemental shards.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Siege">
+    <DisplayName>Siege</DisplayName>
+    <Description>Increases your effectiveness against city walls.</Description>
+    <Icon>FactionAbility_Siege.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Sight">
+    <DisplayName>Sight</DisplayName>
+    <Description>Allows units to see further.</Description>
+    <Icon>Stat_Sight_Icon.png</Icon>
+    <UsedAsMultiplier>0</UsedAsMultiplier>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_SpellRange">
+    <DisplayName>Spell Range</DisplayName>
+    <Description>Allows the sovereign to cast spells on targets further than they normally could.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <UsedAsMultiplier>0</UsedAsMultiplier>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_SummonAttackBoost">
+    <DisplayName>Summon's Attack Boost</DisplayName>
+    <Description>Percentage boost to attack for summoned units.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <UsedAsMultiplier>1</UsedAsMultiplier>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_SummonedBonusLevels">
+    <DisplayName>Higher Summon Level</DisplayName>
+    <Description>Summoned units start at a higher level</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Trading">
+    <DisplayName>Trading</DisplayName>
+    <Description>The number of caravans that a city can support.</Description>
+    <Icon>FactionAbility_Trading.png</Icon>
+    <UsedAsMultiplier>0</UsedAsMultiplier>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Traits">
+    <DisplayName>Traits</DisplayName>
+    <Description>The amount of traits this faction can support.</Description>
+    <Icon>FactionAbility_Traits.png</Icon>
+    <UsedAsMultiplier>0</UsedAsMultiplier>
+    <DefaultValue>4</DefaultValue>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_TrainedUnitBonusLevels">
+    <DisplayName>Higher Trained Unit Level</DisplayName>
+    <Description>Trained units start at a higher level</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Training">
+    <DisplayName>Training</DisplayName>
+    <Description>The speed at which a faction's troops can be trained.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitUpgrades">
+        <DisplayName>Unit Upgrades</DisplayName>
+        <Description>Percent multiplier on unit upgrade costs.</Description>
+        <DefaultValue>100</DefaultValue>
+        <Icon>Icon_Level.png</Icon>
+    </PlayerAbilityType>
+
+  <!-- Player abilities that determine grain -> max farmers and materials -> max craftsmen rates-->
+
+  <PlayerAbilityType InternalName="A_GrainYield">
+    <DisplayName>Grain Yield</DisplayName>
+    <Description>Grain determines how much food a city can produce.</Description>
+    <Icon>Gfx//Icons//Res_Icon_Food.png</Icon>
+    <DefaultValue>1</DefaultValue>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_MaterialsYield">
+    <DisplayName>Materials Yield</DisplayName>
+    <Description>Materials determine the production capacity of a city.</Description>
+    <Icon>Gfx//Icons//Icon_Lumber.png</Icon>
+    <DefaultValue>1</DefaultValue>
+  </PlayerAbilityType>
+
+  <!-- Player abilities that provide bonues to the resources produced by a citizen type in all the player's cities -->
+  <!-- To automatically get this bonus for a new resource, name the ability bonus A_<CitizenTypeName>_<TypeNameOfResource> -->
+
+  <PlayerAbilityType InternalName="A_Farmer_Food">
+    <DisplayName>Bonus Food from Farmers</DisplayName>
+    <Description>A faction's farmers' skill at providing food.</Description>
+    <Icon>Gfx//Icons//Res_Icon_Food.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Craftsman_Production">
+    <DisplayName>Bonus Production from Craftsmen</DisplayName>
+    <Description>A faction's Craftsmens' skill at producing Production.</Description>
+    <Icon>Gfx//Icons//Icon_Lumber.png</Icon>
+  </PlayerAbilityType>
+
+  <!-- Player abilities that provide multipliers to all production of a given resource -->
+  <!-- To automatically get this bonus for a new resource, name the ability bonus A_<TypeNameOfResource> -->
+
+  <PlayerAbilityType InternalName="A_DiplomaticCapital">
+    <DisplayName>Influence Production Ability</DisplayName>
+    <Description>Skill at earning Influence.</Description>
+    <Icon>Icon_InfluencePoints.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Gold">
+    <DisplayName>Money Making</DisplayName>
+    <Description>Skill at making gildar.</Description>
+    <Icon>FactionAbility_MoneyMaking.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Research">
+    <DisplayName>Research Production Ability</DisplayName>
+    <Description>Skill at education and learning new technologies faster.</Description>
+    <Icon>FactionAbility_Research.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Prestige">
+    <DisplayName>Prestige Ability</DisplayName>
+    <Description>How prestigious a nation is perceived to be.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_RefinedCrystal">
+    <DisplayName>Crystal Production</DisplayName>
+    <Description>Skill at producing crystal.</Description>
+    <Icon>FactionAbility_CrystalProduction.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Materials">
+    <DisplayName>Materials Production</DisplayName>
+    <Description>Skill at harvesting materials.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Mana">
+    <DisplayName>Mana Production</DisplayName>
+    <Description>Skill at channeling mana.</Description>
+    <Icon>Icon_Level.png</Icon>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Metal">
+    <DisplayName>Metal Mining Ability</DisplayName>
+    <Description>A faction's skill at mining ore.</Description>
+    <Icon>FactionAbility_MetalMining.png</Icon>
+  </PlayerAbilityType>
+
+  <!-- Player abilities that provide additive bonuses to all production of a given resource -->
+  <!-- To automatically get this bonus for a new resource, name the ability bonus A_Additive_<TypeNameOfResource> -->
+
+  <PlayerAbilityType InternalName="A_Additive_Unrest">
+    <DisplayName>Faction-Wide Unrest</DisplayName>
+    <Description>Base effect on unrest in every city in a faction.</Description>
+    <Icon>Icon_Unrest.png</Icon>
+  </PlayerAbilityType>
+
+  <!-- Default resource-to-resource relationships within cities -->
+
+  <PlayerAbilityType InternalName="A_Additive_ResearchPerPopulation">
+    <DisplayName>Base Research Per Population</DisplayName>
+    <Description>How much research each unit of population produces in a city.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <DefaultValue>0.0</DefaultValue>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Additive_ProductionPerPopulation">
+    <DisplayName>Base Production Per Population</DisplayName>
+    <Description>How much production each unit of population produces in a city.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <DefaultValue>0.0</DefaultValue>
+  </PlayerAbilityType>
+  
+  <PlayerAbilityType InternalName="A_Additive_FoodPerGrain">
+    <DisplayName>Base Food Per Grain</DisplayName>
+    <Description>How much food each unit of grain produces in a city.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <DefaultValue>20</DefaultValue>
+  </PlayerAbilityType>
+
+  <PlayerAbilityType InternalName="A_Additive_ProductionPerMaterials">
+    <DisplayName>Base Production Per Materials</DisplayName>
+    <Description>How much production received from each unit of materials in a city.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <DefaultValue>6</DefaultValue>
+  </PlayerAbilityType>
+
+  <!-- 1 = 1% penalty for each 1% of unrest -->
+  <PlayerAbilityType InternalName="A_Additive_ResearchEffectPerUnrest">
+    <DisplayName>Base Research Penalty from Unrest</DisplayName>
+    <Description>Percentage penalty to research for each percentage of unrest.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <DefaultValue>1</DefaultValue>
+  </PlayerAbilityType>
+
+  <!-- 1 = 1% penalty for each 1% of unrest -->
+  <PlayerAbilityType InternalName="A_Additive_ProductionEffectPerUnrest">
+    <DisplayName>Base Production Penalty from Unrest</DisplayName>
+    <Description>Percentage penalty to production for each percentage of unrest.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <DefaultValue>1</DefaultValue>
+  </PlayerAbilityType>
+
+  <!-- 1 = 1% take-away gold harvest for each 1% of tax -->
+  <PlayerAbilityType InternalName="A_Additive_GoldTakeAwayPerTaxPercentage">
+    <DisplayName>Base Gold Take-away from Taxes</DisplayName>
+    <Description>Percentage of gold harvest kept for each percentage of tax.</Description>
+    <Icon>Icon_Level.png</Icon>
+    <DefaultValue>1</DefaultValue>
+  </PlayerAbilityType>
+
+    <!-- Player abilities that provide multipliers to production by trophies of a given resource -->
+    <!-- To automatically get this bonus for a new resource, name the ability bonus A_Trophy_<TypeNameOfResource> -->
+
+    <PlayerAbilityType InternalName="A_Trophy_Gold">
+        <DisplayName>Trophy Money Making Bonus</DisplayName>
+        <Description>Skill at making gildar.</Description>
+        <Icon>Icon_Level.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Trophy_Research">
+        <DisplayName>Trophy Research Production Ability Bonus</DisplayName>
+        <Description>Skill at education and learning new technologies faster.</Description>
+        <Icon>Icon_Level.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Trophy_Prestige">
+        <DisplayName>Trophy Prestige Ability Bonus</DisplayName>
+        <Description>How prestigious a nation is perceived to be.</Description>
+        <Icon>Icon_Level.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Trophy_RefinedCrystal">
+        <DisplayName>Trophy Crystal Production Bonus</DisplayName>
+        <Description>Skill at producing crystal.</Description>
+        <Icon>Icon_Level.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Trophy_Materials">
+        <DisplayName>Trophy Materials Production Bonus</DisplayName>
+        <Description>Skill at harvesting materials.</Description>
+        <Icon>Icon_Level.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Trophy_Metal">
+        <DisplayName>Trophy Metal Mining Ability Bonus</DisplayName>
+        <Description>A faction's skill at mining ore.</Description>
+        <Icon>Icon_Level.png</Icon>
+    </PlayerAbilityType>
+
+    <!-- Player abilities that provide multipliers to the training costs of unit wears (armor, weapons, equipment, etc.) -->
+    <!-- To automatically get this bonus for a new resource, name the ability bonus A_Training_<TypeNameOfResource> -->
+
+    <PlayerAbilityType InternalName="A_Training_Gold">
+        <DisplayName>Training Money Making Bonus</DisplayName>
+        <Description>Skill at making gildar.</Description>
+        <Icon>Icon_Level.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Training_Research">
+        <DisplayName>Training Research Production Ability Bonus</DisplayName>
+        <Description>Skill at education and learning new technologies faster.</Description>
+        <Icon>Icon_Level.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Training_Prestige">
+        <DisplayName>Training Prestige Ability Bonus</DisplayName>
+        <Description>How prestigious a nation is perceived to be.</Description>
+        <Icon>Icon_Level.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Training_RefinedCrystal">
+        <DisplayName>Training Crystal Production Bonus</DisplayName>
+        <Description>Skill at producing crystal.</Description>
+        <Icon>Icon_Level.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Training_Materials">
+        <DisplayName>Training Materials Production Bonus</DisplayName>
+        <Description>Skill at harvesting materials.</Description>
+        <Icon>Icon_Level.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Training_Metal">
+        <DisplayName>Training Metal Mining Ability Bonus</DisplayName>
+        <Description>A faction's modifier to the metal used training units.</Description>
+        <Icon>Icon_Level.png</Icon>
+    </PlayerAbilityType>
+
+    <!-- This special "resource" is used only for training times -->
+    <PlayerAbilityType InternalName="A_Training_Labor_Equipment">
+        <DisplayName>Training Metal Mining Ability Bonus</DisplayName>
+        <Description>A faction's modifier to the training time cost from weapons and armor.</Description>
+        <Icon>Icon_Level.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Training_Labor">
+        <DisplayName>Training Metal Mining Ability Bonus</DisplayName>
+        <Description>A faction's modifier to training time.</Description>
+        <Icon>Icon_Level.png</Icon>
+    </PlayerAbilityType>
+
+    <!-- Player abilities that provide percentage bonuses to a certain stat for all units owned by this player -->
+    <!-- To automatically get this bonus for a new unit stat, name the ability bonus A_<InternalNameOfUnitStat> -->
+
+    <PlayerAbilityType InternalName="A_UnitStat_HitPoints">
+        <DisplayName>Unit Hit Point Bonus</DisplayName>
+        <Description>Provides a bonus to the hit points of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Accuracy">
+        <DisplayName>Unit Accuracy Bonus</DisplayName>
+        <Description>Provides a bonus to the Accuracy of all units.</Description>
+        <Icon>Stat_Accuracy_Icon.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Attack_Blunt">
+        <DisplayName>Unit Attack Bonus</DisplayName>
+        <Description>Provides a bonus to the blunt attack stat of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Attack_Cutting">
+        <DisplayName>Unit Attack Bonus</DisplayName>
+        <Description>Provides a bonus to the cutting attack stat of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Attack_Pierce">
+        <DisplayName>Unit Attack Bonus</DisplayName>
+        <Description>Provides a bonus to the pierce attack stat of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Charisma">
+        <DisplayName>Unit Charisma Bonus</DisplayName>
+        <Description>Provides a bonus to the charisma of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_CombatSpeed">
+        <DisplayName>Unit Initiative Bonus</DisplayName>
+        <Description>Provides a bonus to the initiative of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Constitution">
+        <DisplayName>Unit Constitution Bonus</DisplayName>
+        <Description>Provides a bonus to the constitution of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Defense">
+        <DisplayName>Unit Defense Bonus</DisplayName>
+        <Description>Provides a bonus to the defense stat of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Defense_Blunt">
+        <DisplayName>Unit Defense Bonus</DisplayName>
+        <Description>Provides a bonus to the blunt defense stat of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Defense_Cutting">
+        <DisplayName>Unit Defense Bonus</DisplayName>
+        <Description>Provides a bonus to the cutting defense stat of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Defense_Pierce">
+        <DisplayName>Unit Defense Bonus</DisplayName>
+        <Description>Provides a bonus to the pierce defense stat of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Dexterity">
+        <DisplayName>Unit Dexterity Bonus</DisplayName>
+        <Description>Provides a bonus to the dexterity of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Dodge">
+        <DisplayName>Unit Dodge Bonus</DisplayName>
+        <Description>Provides a bonus to the Dodge of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Essence">
+        <DisplayName>Unit Essence Bonus</DisplayName>
+        <Description>Provides a multiplier bonus to the essence of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_HitPoints">
+        <DisplayName>Tough Bonus</DisplayName>
+        <Description>Provides a bonus to the hit points of all units.</Description>
+        <Icon>Stat_HitPoints_Icon.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Intelligence">
+        <DisplayName>Unit Intelligence Bonus</DisplayName>
+        <Description>Provides a bonus to the intelligence of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Moves">
+        <DisplayName>Agility</DisplayName>
+        <Description>Provides a bonus to the moves of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_UnitStat_Strength">
+        <DisplayName>Unit Strength Bonus</DisplayName>
+        <Description>Provides a bonus to the strength of all units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <!-- Player abilities that provide percentage bonuses to a certain stat for all stationed units owned by this player -->
+    <!-- To automatically get this bonus for a new unit stat, name the ability bonus A_Stationed_<InternalNameOfUnitStat> -->
+    <!-- These work as a "Mod Value = % increase" so 100% would doubling the base stat -->
+    <!-- IMPORTANT NOTE: These functions are also multiplied by the city level (so a level 1 city will give +5% whereas a level 3 would be +15%)-->
+
+    <PlayerAbilityType InternalName="A_Stationed_UnitStat_HitPoints">
+        <DisplayName>Stationed Unit Hit Point Bonus</DisplayName>
+        <Description>Provides a bonus to the hit points of stationed units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Stationed_UnitStat_Accuracy">
+        <DisplayName>Stationed Unit Accuracy Bonus</DisplayName>
+        <Description>Provides a bonus to the accuracy stat of stationed units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Stationed_UnitStat_Attack">
+        <DisplayName>Stationed Unit Attack Bonus</DisplayName>
+        <Description>Provides a bonus to the attack stat of stationed units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Stationed_UnitStat_Charisma">
+        <DisplayName>Stationed Unit Charisma Bonus</DisplayName>
+        <Description>Provides a bonus to the charisma of stationed units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Stationed_UnitStat_CombatSpeed">
+        <DisplayName>Stationed Unit Combat Speed Bonus</DisplayName>
+        <Description>Provides a bonus to the combat speed of stationed units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Stationed_UnitStat_Constitution">
+        <DisplayName>Stationed Unit Constitution Bonus</DisplayName>
+        <Description>Provides a bonus to the constitution of stationed units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Stationed_UnitStat_Defense">
+        <DisplayName>Stationed Unit Defense Bonus</DisplayName>
+        <Description>Provides a bonus to the defense stat of stationed units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Stationed_UnitStat_Defense_Blunt">
+        <DisplayName>Stationed Unit Defense Bonus</DisplayName>
+        <Description>Provides a bonus to the blunt defense stat of stationed units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Stationed_UnitStat_Defense_Cutting">
+        <DisplayName>Stationed Unit Defense Bonus</DisplayName>
+        <Description>Provides a bonus to the cutting defense stat of stationed units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Stationed_UnitStat_Defense_Pierce">
+        <DisplayName>Stationed Unit Defense Bonus</DisplayName>
+        <Description>Provides a bonus to the pierce defense stat of stationed units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Stationed_UnitStat_Dexterity">
+        <DisplayName>Stationed Unit Dexterity Bonus</DisplayName>
+        <Description>Provides a bonus to the dexterity of stationed units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Stationed_UnitStat_Essence">
+        <DisplayName>Stationed Unit Essence Bonus</DisplayName>
+        <Description>Provides a multiplier bonus to the essence of stationed units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Stationed_UnitStat_Intelligence">
+        <DisplayName>Stationed Unit Intelligence Bonus</DisplayName>
+        <Description>Provides a bonus to the intelligence of stationed units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Stationed_UnitStat_Moves">
+        <DisplayName>Stationed Unit Agility Bonus</DisplayName>
+        <Description>Provides a bonus to the moves of stationed units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+
+    <PlayerAbilityType InternalName="A_Stationed_UnitStat_Strength">
+        <DisplayName>Stationed Unit Strength Bonus</DisplayName>
+        <Description>Provides a bonus to the strength of stationed units.</Description>
+        <Icon>Kingdom_Crest_02.png</Icon>
+    </PlayerAbilityType>
+    
+</PlayerAbilityTypes>

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ResourceTypes>
+	<DataChecksum NoParse="1">
+		<Ignore>DispName</Ignore>
+		<Translate>DispName,Description</Translate>
+	</DataChecksum>
+	<!-- *********************** -->
+	<!-- ** Core Shards - Air ** -->
+	<!-- *********************** -->
+<!--	<ResourceShardType InternalName="ElementalAirShard01">
+		<DisplayName>Air Shard</DisplayName>
+		<Type>AirShard</Type>
+		<Description>Controlling these shards increases the power of air spells and increases the rate the channeler gains mana.</Description>
+		<LongDescription>One of the great air shards. A warm breeze swirls about it as the shard reflects the sky above.
+
+Only a channeler who has built a shrine on it can make use of its great power. Shrines require a knowledge of magic related technology to be built.</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of air spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<PreferredTerrain>DesertTerrain</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<AirManaValue>5.0</AirManaValue>
+		<ClothIcon>gfx\\TacticalIcons\\Res_AirShard.dds</ClothIcon>
+		<Medallions InternalName="ElementalShard_Air_Medallions">
+			<All>AirCrystal_Medallion.png</All>
+		</Medallions>
+		<TileDesign>S_Air_Shard_01</TileDesign>
+		<TileDesignForTerrain>CurgensTomb:R_Cugens_Air_Shard_01</TileDesignForTerrain>
+		<OnSelectSFX>AirShard_SFX_01</OnSelectSFX>
+		<OnSelectSFX>AirShard_SFX_01</OnSelectSFX>
+		<Rarity>1.0</Rarity>
+	</ResourceShardType> -->
+	<ResourceShardType InternalName="ElementalAirShard02">
+		<DisplayName>Air Shard</DisplayName>
+		<Type>AirShard</Type>
+		<Description>These shards increase the power of air spells and increase the rate the channeler gains mana.</Description>
+		<LongDescription>One of the great Air Shards. A warm breeze swirls about it as the shard reflects the sky above.
+
+Only a channeler who has built a shrine on it can make use of its great power.</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of air spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<BarredTerrain>River</BarredTerrain>
+		<BarredTerrain>HillsTerrain</BarredTerrain>
+		<PreferredTerrain>Category:Land</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<MinPerPlayer>0.5</MinPerPlayer>
+		<AirManaValue>5.0</AirManaValue>
+		<ClothIcon>gfx\\TacticalIcons\\Resource_AirShard.dds</ClothIcon>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>3.5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+		<Medallions InternalName="ElementalShard_Air_Medallions">
+			<All>AirCrystal_Medallion.png</All>
+		</Medallions>
+		<TileDesign>S_Air_Shard_02</TileDesign>
+		<TileDesignForTerrain>CurgensTomb:R_Curgens_Air_Shard_01</TileDesignForTerrain>
+		<TileDesignForTerrain>DesertTerrain:R_Lombard_Air_Shard_01</TileDesignForTerrain>
+		<EnvironmentType>GrasslandEnvironment</EnvironmentType>
+		<EnvironmentSpreadIntensity>100.0</EnvironmentSpreadIntensity>
+		<EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+		<OnSelectSFX>Click_Air_Shard</OnSelectSFX>
+		<Rarity>100.0</Rarity>
+	</ResourceShardType>
+<!--	<ResourceShardType InternalName="ElementalAirShard03">
+		<DisplayName>Air Shard</DisplayName>
+		<Type>AirShard</Type>
+		<Description>Controlling these shards increases the power of air spells and increases the rate the channeler gains mana.</Description>
+		<LongDescription>One of the great air shards. A warm breeze swirls about it as the shard reflects the sky above.
+
+Only a channeler who has built a shrine on it can make use of its great power. Shrines require a knowledge of magic related technology to be built.</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of air spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<PreferredTerrain>Category:Land</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<AirManaValue>5.0</AirManaValue>
+		<ClothIcon>gfx\\TacticalIcons\\Res_AirShard.dds</ClothIcon>
+		<Medallions InternalName="ElementalShard_Air_Medallions">
+			<All>AirCrystal_Medallion.png</All>
+		</Medallions>
+		<TileDesign>S_Air_Shard_03</TileDesign>
+		<EnvironmentType>GrasslandEnvironment</EnvironmentType>
+		<EnvironmentSpreadIntensity>100.0</EnvironmentSpreadIntensity>
+		<EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+		<OnSelectSFX>AirShard_SFX_01</OnSelectSFX>
+		<OnSelectSFX>AirShard_SFX_01</OnSelectSFX>
+		<Rarity>1.0</Rarity>
+	</ResourceShardType> -->
+	<!-- ************************* -->
+	<!-- ** Core Shards - Earth ** -->
+	<!-- ************************* -->
+	<ResourceShardType InternalName="ElementalEarthShard01">
+		<DisplayName>Earth Shard</DisplayName>
+		<Type>EarthShard</Type>
+		<Description>These shards increase the power of earth spells and increase the rate the channeler gains mana.</Description>
+		<LongDescription>You can feel the pull of the great Earth Shard.  The ground itself slips toward the shard, forming a mound at its base and any dirt or rocks you kick loose roll up the mound and settle against the smooth green side of the shard as if the world is trying to swallow the shard, or the shard is the seed of a future mountain.
+
+Only a channeler who has built a shrine on it can make use of its great power.</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of earth spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<BarredTerrain>River</BarredTerrain>
+		<BarredTerrain>HillsTerrain</BarredTerrain>
+		<PreferredTerrain>Category:Land</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<MinPerPlayer>0.5</MinPerPlayer>
+		<EarthManaValue>5.0</EarthManaValue>
+		<ClothIcon>gfx\\TacticalIcons\\Resource_EarthShard.dds</ClothIcon>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>3.5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+		<Medallions InternalName="ElementalShard_Earth_Medallions">
+			<All>EarthCrystal_Medallion.png</All>
+		</Medallions>
+		<TileDesign>S_Earth_Shard_01</TileDesign>
+		<TileDesignForTerrain>CurgensTomb:R_Curgens_Earth_Shard_01</TileDesignForTerrain>
+		<TileDesignForTerrain>Imperium:S_Earth_Shard_Imperium_01</TileDesignForTerrain>
+		<EnvironmentType>GrasslandEnvironment</EnvironmentType>
+		<EnvironmentSpreadIntensity>100.0</EnvironmentSpreadIntensity>
+		<EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+		<OnSelectSFX>Click_Earth_Shard</OnSelectSFX>
+		<Rarity>100.0</Rarity>
+	</ResourceShardType>
+<!--	<ResourceShardType InternalName="ElementalEarthShard02">
+		<DisplayName>Earth Shard</DisplayName>
+		<Type>EarthShard</Type>
+		<Description>One of the rare elemental shards in the world. Controlling shards increases the power of spells that make use of the associated element.</Description>
+		<LongDescription>You can feel the pull of the great earth shard.  The ground itself slips toward the shard, forming a mound at its base and any dirt or rocks you kick loose roll up the mound and settle against the smooth green side of the shard as if the world is trying to swallow the shard, or the shard is the seed of a future mountain.
+
+Only a channeler who has built a shrine on it can make use of its great power. Shrines require a knowledge of magic related technology to be built.
+</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of earth spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<PreferredTerrain>SwampTerrain</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<EarthManaValue>5.0</EarthManaValue>
+		<ClothIcon>gfx\\TacticalIcons\\Res_EarthShard.dds</ClothIcon>
+		<Medallions InternalName="ElementalShard_Earth_Medallions">
+			<All>EarthCrystal_Medallion.png</All>
+		</Medallions>
+		<TileDesign>S_Earth_Shard_02</TileDesign>
+		<OnSelectSFX>EarthShard_SFX_02</OnSelectSFX>
+		<Rarity>1.0</Rarity>
+	</ResourceShardType>
+	<ResourceShardType InternalName="ElementalEarthShard03">
+		<DisplayName>Earth Shard</DisplayName>
+		<Type>EarthShard</Type>
+		<Description>Controlling these shards increases the power of earth spells and increases the rate the channeler gains mana.</Description>
+		<LongDescription>You can feel the pull of the great earth shard.  The ground itself slips toward the shard, forming a mound at its base and any dirt or rocks you kick loose roll up the mound and settle against the smooth green side of the shard as if the world is trying to swallow the shard, or the shard is the seed of a future mountain.
+
+Only a channeler who has built a shrine on it can make use of its great power. Shrines require a knowledge of magic related technology to be built.</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of earth spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<PreferredTerrain>Category:Land</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<EarthManaValue>5.0</EarthManaValue>
+		<ClothIcon>gfx\\TacticalIcons\\Res_EarthShard.dds</ClothIcon>
+		<Medallions InternalName="ElementalShard_Earth_Medallions">
+			<All>EarthCrystal_Medallion.png</All>
+		</Medallions>
+		<TileDesign>S_Earth_Shard_03</TileDesign>
+		<EnvironmentType>GrasslandEnvironment</EnvironmentType>
+		<EnvironmentSpreadIntensity>100.0</EnvironmentSpreadIntensity>
+		<EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+		<OnSelectSFX>EarthShard_SFX_02</OnSelectSFX>
+		<Rarity>1.0</Rarity>
+	</ResourceShardType> -->
+	<!-- ************************ -->
+	<!-- ** Core Shards - Fire ** -->
+	<!-- ************************ -->
+	<ResourceShardType InternalName="ElementalFireShard01">
+		<DisplayName>Fire Shard</DisplayName>
+		<Type>FireShard</Type>
+		<Description>These shards increase the power of fire spells and increase the rate the channeler gains mana.</Description>
+		<LongDescription>The area around the Fire Shard is clear of vegetation, the air shimmers and steals the breath from any that come too close.  Erratic light flickers deep inside the shard which entrances those that stare into it for too long.
+		
+Only a channeler who has built a shrine on it can make use of its great power.</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of fire spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<BarredTerrain>River</BarredTerrain>
+		<BarredTerrain>HillsTerrain</BarredTerrain>
+		<PreferredTerrain>Category:Land</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<MinPerPlayer>0.5</MinPerPlayer>
+		<FireManaValue>5.0</FireManaValue>
+		<ClothIcon>gfx\\TacticalIcons\\Resource_FireShard.dds</ClothIcon>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>3.5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+		<Medallions InternalName="ElementalShard_Fire_Medallions">
+			<All>FireCrystal_Medallion.png</All>
+		</Medallions>
+		<TileDesign>S_Fire_Shard_02</TileDesign>
+		<TileDesignForTerrain>BurningLands:S_Fire_Burninglands_01</TileDesignForTerrain>
+		<TileDesignForTerrain>CurgensTomb:R_Cugens_Fire_Shard_01</TileDesignForTerrain>
+		<TileDesignForTerrain>Imperium:S_Fire_Shard_Imperium_01</TileDesignForTerrain>
+		<Rarity>100.0</Rarity>
+		<OnSelectSFX>Click_Fire_Shard</OnSelectSFX>
+	</ResourceShardType>
+<!--	<ResourceShardType InternalName="ElementalFireShard02">
+		<DisplayName>Fire Shard</DisplayName>
+		<Type>FireShard</Type>
+		<Description>Controlling these shards increases the power of fire spells and increases the rate the channeler gains mana.</Description>
+		<LongDescription>The area around the shard is clear of vegetation, the air shimmers and steals the breath from any that come to close.  Erratic light flickers deep inside the shard which entrances those that stare into it for too long.
+Only a channeler who has built a shrine on it can make use of its great power. Shrines require a knowledge of magic related technology to be built.</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of fire spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<PreferredTerrain>Category:Land</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<FireManaValue>5.0</FireManaValue>
+		<ClothIcon>gfx\\TacticalIcons\\Res_FireShard.dds</ClothIcon>
+		<Medallions InternalName="ElementalShard_Fire_Medallions">
+			<All>FireCrystal_Medallion.png</All>
+		</Medallions>
+		<TileDesign>S_Fire_Shard_02</TileDesign>
+		<Rarity>1.0</Rarity>
+		<OnSelectSFX>FireShard_SFX_02</OnSelectSFX>
+	</ResourceShardType> 
+  	<ResourceShardType InternalName="ElementalFireShard03">
+		<DisplayName>Fire Shard</DisplayName>
+		<Type>FireShard</Type>
+		<Description>Controlling these shards increases the power of fire spells and increases the rate the channeler gains mana.</Description>
+		<LongDescription>The area around the shard is clear of vegetation, the air shimmers and steals the breath from any that come to close.  Erratic light flickers deep inside the shard which entrances those that stare into it for too long.
+
+Only a channeler who has built a shrine on it can make use of its great power. Shrines require a knowledge of magic related technology to be built.</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of fire spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<PreferredTerrain>Category:Land</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<FireManaValue>5.0</FireManaValue>
+		<ClothIcon>gfx\\TacticalIcons\\Res_FireShard.dds</ClothIcon>
+		<Medallions InternalName="ElementalShard_Fire_Medallions">
+			<All>FireCrystal_Medallion.png</All>
+		</Medallions>
+		<TileDesign>S_Fire_Shard_02</TileDesign>
+		<Rarity>1.0</Rarity>
+		<OnSelectSFX>FireShard_SFX_02</OnSelectSFX>
+	</ResourceShardType> -->
+	<!-- ************************* -->
+	<!-- ** Core Shards - Water ** -->
+	<!-- ************************* -->
+<!--	<ResourceShardType InternalName="ElementalWaterShard01">
+		<DisplayName>Water Shard</DisplayName>
+		<Type>WaterShard</Type>
+		<Description>Controlling these shards increases the power of water spells and increases the rate the channeler gains mana.</Description>
+		<LongDescription>Blue light dances in the depths of this rare Water Shard.  Water trickles endlessly down the sides of the shard, gathering in a clear pool at its base. The magic within holds the power to either inspire or delay, and drinking from the pool is said to bring sleep and peaceful dreams.
+		
+Only a channeler who has built a shrine on it can make use of its great power. Shrines require a knowledge of magic related technology to be built.</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of water spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<PreferredTerrain>DesertTerrain</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<WaterManaValue>5.0</WaterManaValue>
+		<ClothIcon>gfx\\TacticalIcons\\Res_WaterShard.png</ClothIcon>
+		<Medallions InternalName="ElementalShard_Water_Medallions">
+			<All>WaterCrystal_Medallion.png</All>
+		</Medallions>
+		<TileDesign>S_Water_Shard_01</TileDesign>
+		<TileDesignForTerrain>CurgensTomb:R_Cugens_Water_Shard_01</TileDesignForTerrain>
+		<EnvironmentType>ArcticEnvironment</EnvironmentType>
+		<EnvironmentSpreadIntensity>5.0</EnvironmentSpreadIntensity>
+		<EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+		<Rarity>1.0</Rarity>
+		<OnSelectSFX>WaterShard_SFX_02</OnSelectSFX>
+	</ResourceShardType>
+	<ResourceShardType InternalName="ElementalWaterShard02">
+		<DisplayName>Water Shard</DisplayName>
+		<Type>WaterShard</Type>
+		<Description>Controlling these shards increases the power of water spells and increases the rate the channeler gains mana.</Description>
+		<LongDescription>Blue light dances in the depths of this rare Water Shard.  Water trickles endlessly down the sides of the shard, gathering in a clear pool at its base. The magic within holds the power to either inspire or delay, and drinking from the pool is said to bring sleep and peaceful dreams.
+
+		Only a channeler who has built a shrine on it can make use of its great power. Shrines require a knowledge of magic related technology to be built.</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of water spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<PreferredTerrain>SwampTerrain</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<WaterManaValue>5.0</WaterManaValue>
+		<ClothIcon>gfx\\TacticalIcons\\Res_WaterShard.png</ClothIcon>
+		<Medallions InternalName="ElementalShard_Water_Medallions">
+			<All>WaterCrystal_Medallion.png</All>
+		</Medallions>
+		<TileDesign>S_Water_Shard_02</TileDesign>
+		<Rarity>1.0</Rarity>
+		<OnSelectSFX>WaterShard_SFX_02</OnSelectSFX>
+	</ResourceShardType> -->
+	<ResourceShardType InternalName="ElementalWaterShard03">
+		<DisplayName>Water Shard</DisplayName>
+		<Type>WaterShard</Type>
+		<Description>These shards increase the power of water spells and increase the rate the channeler gains mana.</Description>
+		<LongDescription>Blue light dances in the depths of this rare Water Shard.  Water trickles endlessly down the sides of the shard, gathering in a clear pool at its base. The magic within holds the power to either inspire or delay, and drinking from the pool is said to bring sleep and peaceful dreams.
+
+Only a channeler who has built a shrine on it can make use of its great power.</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of water spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<BarredTerrain>River</BarredTerrain>
+		<BarredTerrain>HillsTerrain</BarredTerrain>
+		<PreferredTerrain>Category:Land</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<MinPerPlayer>0.5</MinPerPlayer>
+		<WaterManaValue>5.0</WaterManaValue>
+		<ClothIcon>gfx\\TacticalIcons\\Resource_WaterShard.png</ClothIcon>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>3.5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+		<Medallions InternalName="ElementalShard_Water_Medallions">
+			<All>WaterCrystal_Medallion.png</All>
+		</Medallions>
+		<TileDesign>S_Water_Shard_03</TileDesign>
+		<TileDesignForTerrain>CurgensTomb:R_Curgens_Water_Shard_01</TileDesignForTerrain>
+		<TileDesignForTerrain>Imperium:S_Water_Shard_Imperium_01</TileDesignForTerrain>
+		<TileDesignForTerrain>SwampTerrain:S_Asag_Water_Shard_01</TileDesignForTerrain>
+		<Rarity>100.0</Rarity>
+		<OnSelectSFX>Click_Water_Shard</OnSelectSFX>
+	</ResourceShardType>
+<!--	<ResourceShardType InternalName="ElementalWaterShard04">
+		<DisplayName>Water Shard</DisplayName>
+		<Type>WaterShard</Type>
+		<Description>Controlling these shards increases the power of water spells and increases the rate the channeler gains mana.</Description>
+		<LongDescription>Blue light dances in the depths of this rare Water Shard.  Water trickles endlessly down the sides of the shard, gathering in a clear pool at its base. The magic within holds the power to either inspire or delay, and drinking from the pool is said to bring sleep and peaceful dreams.
+
+Only a channeler who has built a shrine on it can make use of its great power. Shrines require a knowledge of magic related technology to be built.</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of water spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<PreferredTerrain>Category:Land</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<WaterManaValue>5.0</WaterManaValue>
+		<ClothIcon>gfx\\TacticalIcons\\Res_WaterShard.png</ClothIcon>
+		<Medallions InternalName="ElementalShard_Water_Medallions">
+			<All>WaterCrystal_Medallion.png</All>
+		</Medallions>
+		<TileDesign>S_Water_Shard_04</TileDesign>
+		<EnvironmentType>ArcticEnvironment</EnvironmentType>
+		<EnvironmentSpreadIntensity>5.0</EnvironmentSpreadIntensity>
+		<EnvironmentSpreadRadius>1</EnvironmentSpreadRadius>
+		<Rarity>1.0</Rarity>
+		<OnSelectSFX>WaterShard_SFX_02</OnSelectSFX>
+	</ResourceShardType>
+	<ResourceShardType InternalName="ElementalWaterShard05">
+		<DisplayName>Water Shard</DisplayName>
+		<Type>WaterShard</Type>
+		<Description>Controlling these shards increases the power of water spells and increases the rate the channeler gains mana.</Description>
+		<LongDescription>Blue light dances in the depths of this rare Water Shard.  Water trickles endlessly down the sides of the shard, gathering in a clear pool at its base. The magic within holds the power to either inspire or delay, and drinking from the pool is said to bring sleep and peaceful dreams.
+
+Only a channeler who has built a shrine on it can make use of its great power. Shrines require a knowledge of magic related technology to be built.</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of water spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<PreferredTerrain>DesertTerrain</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<WaterManaValue>5.0</WaterManaValue>
+		<ClothIcon>gfx\\TacticalIcons\\Res_WaterShard.png</ClothIcon>
+		<Medallions InternalName="ElementalShard_Water_Medallions">
+			<All>WaterCrystal_Medallion.png</All>
+		</Medallions>
+		<TileDesign>S_Water_Shard_05</TileDesign>
+		<Rarity>0.5</Rarity>
+		<OnSelectSFX>WaterShard_SFX_02</OnSelectSFX>
+	</ResourceShardType> -->
+	<!-- ************************ -->
+	<!-- ** Core Shards - Life ** -->
+	<!-- ************************ -->
+	<ResourceShardType InternalName="ElementalLifeShard01">
+		<DisplayName>Life Shard</DisplayName>
+		<Type>LifeShard</Type>
+		<Description>These shards increase the power of life spells and increase the rate the channeler gains mana.</Description>
+		<LongDescription>Wildflowers bloom around the great Life Shard, and each points toward the shard as if it was the sun.  Trees twist and bend over centuries to grow toward the shard and vines creep through the grass to wrap around it.
+
+Only a channeler who has built a shrine on it can make use of its great power.</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of life spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<BarredTerrain>River</BarredTerrain>
+		<BarredTerrain>HillsTerrain</BarredTerrain>
+		<PreferredTerrain>Category:Land</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<MinPerPlayer>0.25</MinPerPlayer>
+		<ClothIcon>Resource_LifeShard.dds</ClothIcon>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>3.5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+		<Medallions InternalName="ElementalShard_Air_Medallions">
+			<All>LifeShard_Medallion.png</All>
+		</Medallions>
+		<TileDesign>R_Life_Shard_01</TileDesign>
+		<TileDesignForTerrain>CurgensTomb:R_Cugens_Life_Shard_01</TileDesignForTerrain>
+		<OnSelectSFX>Click_Life_Shard</OnSelectSFX>
+		<Rarity>100.0</Rarity>
+	</ResourceShardType>
+	<!-- ************************* -->
+	<!-- ** Core Shards - Death ** -->
+	<!-- ************************* -->
+	<ResourceShardType InternalName="ElementalDeathShard01">
+		<DisplayName>Death Shard</DisplayName>
+		<Type>DeathShard</Type>
+    <Description>These shards increase the power of death spells and increase the rate the channeler gains mana.</Description>
+		<LongDescription>The Death Shard appears ruined.  It is grey and inchoate, its depths are burnt out and lifeless.  There is no immediate sense of power in the shard.  But those that stare long enough into its depths will sense movement, will hear the wail of those bound to it and feel the suffering bound into the shard.
+
+Only a channeler who has built a shrine on it can make use of its great power.</LongDescription>
+		<AcquiredDescription>Controlling these shards increases the power of death spells and increases the rate the channeler gains mana.</AcquiredDescription>
+		<BarredTerrain>River</BarredTerrain>
+		<BarredTerrain>HillsTerrain</BarredTerrain>
+		<PreferredTerrain>Category:Land</PreferredTerrain>
+		<HarvestType>ShardHarvest</HarvestType>
+		<IsShard>1</IsShard>
+		<MinPerPlayer>0.25</MinPerPlayer>
+		<ClothIcon>Resource_DeathShard.png</ClothIcon>
+        <GameModifier>
+            <ModType>Resource</ModType>
+            <Attribute>TileYieldEssence</Attribute>
+            <Value>3.5</Value>
+            <PerTurn>1</PerTurn>
+        </GameModifier>
+		<Medallions InternalName="ElementalShard_Air_Medallions">
+			<All>DeathShard_Medallion.png</All>
+		</Medallions>
+		<TileDesign>R_Death_Shard_01</TileDesign>
+		<TileDesignForTerrain>Scrapyard:S_Scrapyard_Death_Shard_01</TileDesignForTerrain>
+		<OnSelectSFX>Click_Death_Shard</OnSelectSFX>
+		<Rarity>100.0</Rarity>
+	</ResourceShardType>
+</ResourceTypes>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Treaties>
+    <DataChecksum NoParse="1">
+        <Ignore>DisplayName,Description</Ignore>
+        <Translate>DisplayName,Description</Translate>
+    </DataChecksum>
+    <Treaty InternalName = "TradeTreaty" Type = "Trade">
+        <DisplayName>Trade Treaty</DisplayName>
+        <Image>Action_Scroll.png</Image>
+        <Description>Both parties get a 10% bonus to their income per turn.</Description>
+        <TreatyValueDescription><![CDATA[[Player_1] will receive an additional [TreatyValue1WithUnits] and [Player_2] will receive an additional [TreatyValue2WithUnits]]]></TreatyValueDescription>
+        <Units>Gildar per Season</Units>
+        <Duration>-1</Duration>
+        <BasePerceivedValue>25</BasePerceivedValue>
+        <MinimumRelations><![CDATA[[RELATIONS_HOSTILE]]]></MinimumRelations>
+        <Calculate InternalName = "IncomeBonus" ValueOwner="Player_1">
+            <Expression><![CDATA[0.1*[Income]]]></Expression>
+        </Calculate>
+        <!-- Any one of these prereqs can be fulfilled to unlock this treaty -->
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Trading</Attribute>
+            <Value>0</Value>
+        </Prereq>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>50</AIPriority>
+            <AITradeToGetValue>50</AITradeToGetValue>
+            <AITradeOutValue>50</AITradeOutValue>
+        </AIData>
+    </Treaty>
+    <Treaty InternalName = "TechTreaty" Type = "Trade">
+        <DisplayName>Technology Treaty</DisplayName>
+        <Description>Both parties get a 10% bonus to their Research per turn.</Description>
+        <TreatyValueDescription><![CDATA[[Player_1] will receive an additional [TreatyValue1WithUnits] and [Player_2] will receive an additional [TreatyValue2WithUnits]]]></TreatyValueDescription>
+        <Duration>-1</Duration>
+        <Image>Action_Scroll.png</Image>
+        <Units>Research per Season</Units>
+        <OneUnit>Research per Season</OneUnit>
+        <BasePerceivedValue>200</BasePerceivedValue>
+        <MinimumRelations><![CDATA[[RELATIONS_HOSTILE]]]></MinimumRelations>
+        <Calculate InternalName = "ResearchPointsBonus" ValueOwner="Player_1">
+            <Expression><![CDATA[[ResearchPoints]*0.1]]></Expression>
+        </Calculate>
+        <!-- Any one of these prereqs can be fulfilled to unlock this treaty -->
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Literacy</Attribute>
+            <Value>0</Value>
+        </Prereq>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>50</AIPriority>
+            <AITradeToGetValue>5</AITradeToGetValue>
+            <AITradeOutValue>5</AITradeOutValue>
+        </AIData>
+    </Treaty>
+    <Treaty InternalName = "AllianceTreaty" Type = "Agreement">
+        <DisplayName>Alliance Treaty</DisplayName>
+        <Description>For 99 seasons allies agree to come to the aid of the other party when said party is attacked, but may choose to stay neutral if the other party is the aggressor.</Description>
+        <Duration>99</Duration>
+        <Image>Action_Scroll.png</Image>
+        <RequiredRelations><![CDATA[[RELATIONS_CLOSE]]]></RequiredRelations>
+        <SetRelations><![CDATA[[RELATIONS_ALLY]]]></SetRelations>
+        <BasePerceivedValue>1000</BasePerceivedValue>
+        <AIOfferTopic>Talk_AllianceTreaty</AIOfferTopic>
+        <!-- Any one of these prereqs can be fulfilled to unlock this treaty -->
+        <Prereq>
+            <Type>Tech</Type>
+            <Attribute>Alliances</Attribute>
+            <Value>0</Value>
+        </Prereq>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>10</AIPriority>
+            <AITradeToGetValue>50</AITradeToGetValue>
+            <AITradeOutValue>50</AITradeOutValue>
+        </AIData>
+    </Treaty>
+    <!-- 
+	<Treaty InternalName = "DeclarationOfWar" Type = "Agreement">
+		<DisplayName>War Declaration</DisplayName>
+		<Description>Units in enemy territory will be ejected and thereafter attacked on sight.</Description>
+		<Duration>0</Duration>
+		<RequiredRelations><![CDATA[[RELATIONS_HOSTILE]]]></RequiredRelations>
+		<SetRelations><![CDATA[[RELATIONS_WAR]]]></SetRelations>
+	</Treaty>
+   -->
+    <Treaty InternalName = "PeaceTreaty" Type = "Agreement">
+        <DisplayName>Peace Treaty</DisplayName>
+        <Description>Both sides agree to cease hostilities.</Description>
+        <Image>Action_Scroll.png</Image>
+        <Duration>0</Duration>
+        <RequiredRelations><![CDATA[[RELATIONS_WAR]]]></RequiredRelations>
+        <SetRelations><![CDATA[[RELATIONS_UNFRIENDLY]]]></SetRelations>
+        <BasePerceivedValue>1000</BasePerceivedValue>
+        <AIOfferTopic>Talk_PeaceTreaty</AIOfferTopic>
+        <AIData AIPersonality="AI_General">
+            <AIPriority>0</AIPriority>
+            <AITradeToGetValue>50</AITradeToGetValue>
+            <AITradeOutValue>50</AITradeOutValue>
+        </AIData>
+    </Treaty>
+  
+  <Treaty InternalName = "DemandSurrenderTreaty" Type = "Agreement">
+    <DisplayName>Demand Surrender</DisplayName>
+    <Description>Surrendering party's sovereign becomes a vassal.</Description>
+    <TreatyValueDescription><![CDATA[[Player_2] surrenders and leaves the game, and [Player_1] receives their sovereign as a vassal.]]></TreatyValueDescription>
+    <Image>Action_Scroll.png</Image>
+    <Duration>0</Duration>
+    <MatchingTreatyType>OfferSurrenderTreaty</MatchingTreatyType>
+    <AllowsAdditionalTrading>0</AllowsAdditionalTrading>
+    <RequiredRelations><![CDATA[[RELATIONS_WAR]]]></RequiredRelations>
+    <BasePerceivedValue>1000</BasePerceivedValue>
+    <AIOfferTopic>Talk_RequestSurrender</AIOfferTopic>
+    <AIData AIPersonality="AI_General">
+      <AIPriority>0</AIPriority>
+      <AITradeToGetValue>50</AITradeToGetValue>
+      <AITradeOutValue>50</AITradeOutValue>
+    </AIData>
+  </Treaty>
+
+  <Treaty InternalName = "OfferSurrenderTreaty" Type = "Agreement">
+    <DisplayName>Offer Surrender</DisplayName>
+    <Description>Surrendering party's sovereign becomes a vassal.</Description>
+    <TreatyValueDescription><![CDATA[[Player_1] surrenders and leaves the game, and [Player_2] receives their sovereign as a vassal.]]></TreatyValueDescription>
+    <Image>Action_Scroll.png</Image>
+    <Duration>0</Duration>
+    <MatchingTreatyType>DemandSurrenderTreaty</MatchingTreatyType>
+    <AllowsAdditionalTrading>0</AllowsAdditionalTrading>
+    <RequiredRelations><![CDATA[[RELATIONS_WAR]]]></RequiredRelations>
+    <BasePerceivedValue>1000</BasePerceivedValue>
+    <AIOfferTopic>Talk_RequestSurrender</AIOfferTopic>
+    <AIData AIPersonality="AI_General">
+      <AIPriority>0</AIPriority>
+      <AITradeToGetValue>50</AITradeToGetValue>
+      <AITradeOutValue>50</AITradeOutValue>
+    </AIData>
+  </Treaty>
+
+  <Treaty InternalName = "GiveTributeTreaty" Type = "Agreement">
+    <DisplayName>Offer Tribute</DisplayName>
+    <Description>Give 10% of your annual income to the other faction.</Description>
+    <TreatyValueDescription><![CDATA[[Player_1] agrees to pay 10% of their net income to [Player_2] for a period of 30 seasons and a promise of peace during that time]]></TreatyValueDescription>
+    <Image>Action_Scroll.png</Image>
+    <Duration>30</Duration>
+    <MatchingTreatyType>ReceiveTributeTreaty</MatchingTreatyType>
+    <AllowsAdditionalTrading>0</AllowsAdditionalTrading>
+    <Calculate InternalName = "TributeToOthers" ValueOwner="Player_1">
+      <Expression><![CDATA[0.0 - [TributeAmount]]]></Expression>
+    </Calculate>
+    <Calculate InternalName = "TributeAmount" ValueOwner="Player_1">
+      <Expression><![CDATA[0.1 * [NonTributeIncome]]]></Expression>
+    </Calculate>
+    <BasePerceivedValue>100</BasePerceivedValue>
+    <MinimumRelations><![CDATA[[RELATIONS_HOSTILE]]]></MinimumRelations>
+    <AIOfferTopic>Talk_OfferTribute</AIOfferTopic>
+    <AIData AIPersonality="AI_General">
+      <AIPriority>25</AIPriority>
+      <AITradeToGetValue>5</AITradeToGetValue>
+      <AITradeOutValue>5</AITradeOutValue>
+    </AIData>
+  </Treaty>
+
+
+  <Treaty InternalName = "ReceiveTributeTreaty" Type = "Agreement">
+    <DisplayName>Demand Tribute</DisplayName>
+    <Description>Receive 10% of the other faction's annual income.</Description>
+    <TreatyValueDescription><![CDATA[[Player_2] agrees to pay 10% of their net income to [Player_1] for a period of 30 seasons and a promise of peace during that time]]></TreatyValueDescription>
+    <Image>Action_Scroll.png</Image>
+    <Duration>30</Duration>
+    <MatchingTreatyType>GiveTributeTreaty</MatchingTreatyType>
+    <AllowsAdditionalTrading>0</AllowsAdditionalTrading>
+    <Calculate InternalName = "TributeFromOthers" ValueOwner="Player_1">
+      <Expression><![CDATA[1.0*[TributeAmount]]]></Expression>
+    </Calculate>
+    <Calculate InternalName = "TributeAmount" ValueOwner="Player_2">
+      <Expression><![CDATA[0.1*[NonTributeIncome]]]></Expression>
+    </Calculate>
+    <BasePerceivedValue>100</BasePerceivedValue>
+    <MinimumRelations><![CDATA[[RELATIONS_HOSTILE]]]></MinimumRelations>
+    <MaximumRelations><![CDATA[[RELATIONS_NEUTRAL]]]></MaximumRelations>
+    <AIOfferTopic>Talk_DemandTribute</AIOfferTopic>
+    <AIData AIPersonality="AI_General">
+      <AIPriority>25</AIPriority>
+      <AITradeToGetValue>5</AITradeToGetValue>
+      <AITradeOutValue>5</AITradeOutValue>
+    </AIData>
+  </Treaty>
+
+  <Treaty InternalName = "Non-Aggression Pact" Type = "Agreement">
+        <DisplayName>Non-Agg. Pact</DisplayName>
+        <Description>Both sides agree not to attack the other for 50 seasons and safe passage through each other's territory is granted for the duration of the pact.</Description>
+        <Image>Action_Scroll.png</Image>
+        <Duration>50</Duration>
+        <MinimumRelations><![CDATA[[RELATIONS_UNFRIENDLY]]]></MinimumRelations>
+        <BasePerceivedValue>50</BasePerceivedValue>
+    <AIOfferTopic>Talk_RequestNonAggPact</AIOfferTopic> 
+    <AIData AIPersonality="AI_General">
+        <AIPriority>50</AIPriority>
+        <AITradeToGetValue>1</AITradeToGetValue>
+        <AITradeOutValue>1</AITradeOutValue>
+      </AIData>
+        <!--07/08/10: CHARLES
+	   purposely no tech prereqs for this treaty, therefore, this treaty is available right away,
+		which then allows the "Treaties" subject to be available for choosing on the diplomacy wnd.-->
+	</Treaty>
+  <Treaty InternalName = "TradeRouteTreaty" Type = "Agreement">
+    <DisplayName>Economic Treaty</DisplayName>
+    <Description>Create a trade route between the captial cities of the two factions.</Description>
+    <Image>Action_Scroll.png</Image>
+    <Duration>0</Duration>  <!-- for UI reasons, revisit possibly -->
+    <MinimumRelations><![CDATA[[RELATIONS_HOSTILE]]]></MinimumRelations>
+    <BasePerceivedValue>50</BasePerceivedValue>
+    <Prereq>
+      <Type>Tech</Type>
+      <Attribute>Trading</Attribute>
+    </Prereq>
+    <AIOfferTopic>Talk_RequestTradeRouteTreaty</AIOfferTopic>
+    <AIData AIPersonality="AI_General">
+      <AIPriority>75</AIPriority>
+      <AITradeToGetValue>3</AITradeToGetValue>
+      <AITradeOutValue>3</AITradeOutValue>
+    </AIData>
+  </Treaty>
+</Treaties>

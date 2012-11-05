@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<PropTypes>
+    <DataChecksum NoParse="1">
+        <Ignore>DisplayName</Ignore>
+        <Translate>DisplayName,TerrainName</Translate>
+    </DataChecksum>
+
+<!-- Guardian Statues -->
+
+   <PropModelType InternalName="Prop_GuardianStatue_Kingdom">
+    <DisplayName>Prop GuardianStatue Empire</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>M_KingdomGuardianWard_Card.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>Prop_GuardianStatue_Kingdom</UnitType>
+  </PropModelType>
+
+
+   <PropModelType InternalName="Prop_GuardianStatue_Empire">
+    <DisplayName>Prop GuardianStatue Empire</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>M_FallenGuardianWard_Card.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>Prop_GuardianStatue_Empire</UnitType>
+  </PropModelType>
+
+<!-- Spiders -->
+
+
+
+  <PropModelType InternalName="Abeix">
+    <DisplayName>Abeix</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\M_Abeix_Card.png</Thumb>
+    <Scale>1.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>Abeix</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="Delin">
+    <DisplayName>GiantBlackWidow</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Giant_Black_Widow.png</Thumb>
+    <Scale>1.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>Delin</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="Amhah">
+    <DisplayName>GiantBlackWidow</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Giant_Black_Widow.png</Thumb>
+    <Scale>1.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>Amhah</UnitType>
+  </PropModelType>
+  
+  <PropModelType InternalName="Haunter">
+    <DisplayName>GiantBlackWidow</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Giant_Black_Widow.png</Thumb>
+    <Scale>1.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>Haunter</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="Ignys">
+    <DisplayName>GiantBlackWidow</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Giant_Black_Widow.png</Thumb>
+    <Scale>1.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>Ignys</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="Plaguestalker">
+    <DisplayName>GiantBlackWidow</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Giant_Black_Widow.png</Thumb>
+    <Scale>1.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>Plaguestalker</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="Ritualist">
+    <DisplayName>GiantBlackWidow</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Giant_Black_Widow.png</Thumb>
+    <Scale>1.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>Ritualist</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="ScrapGolem">
+    <DisplayName>GiantBlackWidow</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Giant_Black_Widow.png</Thumb>
+    <Scale>1.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>ScrapGolem</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="Shirayn">
+    <DisplayName>GiantBlackWidow</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Giant_Black_Widow.png</Thumb>
+    <Scale>1.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>Shirayn</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="Torax">
+    <DisplayName>GiantBlackWidow</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Giant_Black_Widow.png</Thumb>
+    <Scale>1.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>Torax</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="Vetrar">
+    <DisplayName>GiantBlackWidow</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Giant_Black_Widow.png</Thumb>
+    <Scale>1.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>Vetrar</UnitType>
+  </PropModelType>
+ 
+  
+   <PropModelType InternalName="BlackWidow">
+    <DisplayName>BlackWidow</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Black_Widow.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>BlackWidow</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="GiantRockSpider">
+    <DisplayName>GiantRockSpider</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Giant_Rock_Spider.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>GiantRockSpider</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="RockSpider">
+    <DisplayName>RockSpider</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Rock_Spider.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>RockSpider</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="RockSpiderDrone">
+    <DisplayName>RockSpiderDrone</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Rock_Spider_Drone.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>RockSpiderDrone</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="albinoRockSpider">
+    <DisplayName>albinoRockSpider</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Albino_Rock_Spider.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>albinoRockSpider</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="SwarmSpider">
+     <DisplayName>SwarmSpider</DisplayName>
+     <Tag>Pedestrian</Tag>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Swarm_Spider.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>SwarmSpider</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="HoarderSpider">
+    <DisplayName>HoarderSpider</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Hoarder_Spider.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>HoarderSpider</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="GathererSpider">
+    <DisplayName>GathererSpider</DisplayName>
+    <Tag>Pedestrian</Tag>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Gatherer_Spider.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>GathererSpider</UnitType>
+  </PropModelType>
+  
+
+<!-- Wolves -->
+
+   <PropModelType InternalName="Wolf">
+    <DisplayName>Wolf</DisplayName>
+    <Tag>Pedestrian</Tag>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\wolf.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>Wolf</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="EbbenWolf">
+    <DisplayName>EbbenWolf</DisplayName>
+    <Tag>Pedestrian</Tag>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Ebben_Wolf.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>EbbenWolf</UnitType>
+  </PropModelType>
+
+
+   <PropModelType InternalName="GreatWolf">
+    <DisplayName>GreatWolf</DisplayName>
+    <Tag>Pedestrian</Tag>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Great_Wolf.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>GreatWolf</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="AnnieDog">
+    <DisplayName>Dog</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>M_Wolf_Dog_Card_01.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>AnnieDog</UnitType>
+  </PropModelType>
+
+
+  <PropModelType InternalName="Bear">
+    <DisplayName>Bear</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Bear_Medallion.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>Bear</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="TimberWarg">
+    <DisplayName>TimberWarg</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Timber_Warg_Icon.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>TimberWarg</UnitType>
+  </PropModelType>
+  
+  <PropModelType InternalName="ShadowWarg">
+    <DisplayName>ShadowWarg</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Shadow_Warg_Icon.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>ShadowWarg</UnitType>
+  </PropModelType>
+  
+  <PropModelType InternalName="IceWarg">
+    <DisplayName>IceWarg</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Ice_Warg_Icon.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>IceWarg</UnitType>
+  </PropModelType>
+
+
+
+
+   <PropModelType InternalName="CoastalSkath">
+    <DisplayName>CoastalSkath</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>CoastalSkath</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="SiltSkath">
+    <DisplayName>SiltSkath</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>SiltSkath</UnitType>
+  </PropModelType>
+
+<!-- Ogres -->
+
+   <PropModelType InternalName="Mercenary">
+    <DisplayName>Mercenary</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>Mercenary</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="DarklingShaman">
+    <DisplayName>DarklingShaman</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>DarklingShaman</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="DarklingWarrior">
+    <DisplayName>DarklingWarrior</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>DarklingWarrior</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="DarklingRider">
+    <DisplayName>Darkling Rider</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>DarklingRider</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="Darkling">
+    <DisplayName>Darkling</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>Darkling</UnitType>
+  </PropModelType>
+
+ <PropModelType InternalName="Wilding">
+    <DisplayName>Wilding</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>Wilding</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="WildingRider">
+    <DisplayName>Wilding Rider</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>WildingRider</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="WildingShaman">
+    <DisplayName>Wilding Shaman</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>WildingShaman</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="WildingWarrior">
+    <DisplayName>Wilding Warrior</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>WildingWarrior</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="TrollShaman">
+    <DisplayName>TrollShaman</DisplayName>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Troll_Shaman.png</Thumb>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>TrollShaman</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="TrollWarrior">
+    <DisplayName>TrollWarrior</DisplayName>
+    <Tag>Pedestrian</Tag>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Troll_Warrior.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>TrollWarrior</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="Troll">
+    <DisplayName>Troll</DisplayName>
+    <Tag>Pedestrian</Tag>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Troll.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>Troll</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="Ogre">
+    <DisplayName>Ogre</DisplayName>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Ogre.png</Thumb>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>Ogre</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="YoungOgre">
+    <DisplayName>YoungOgre</DisplayName>
+    <Tag>Pedestrian</Tag>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Young_Ogre.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>YoungOgre</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="BoneOgre">
+    <DisplayName>BoneOgre</DisplayName>
+    <Tag>Pedestrian</Tag>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Bone_Ogre.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>BoneOgre</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="Garrote">
+    <DisplayName>Garrote</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>Garrote</UnitType>
+  </PropModelType>
+
+<!-- Demons -->
+
+   <PropModelType InternalName="FireElemental">
+    <DisplayName>FireElemental</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>FireElemental</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="EarthElemental">
+    <DisplayName>EarthElemental</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>EarthElemental</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="WaterElemental">
+    <DisplayName>WaterElemental</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>WaterElemental</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="AirElemental">
+    <DisplayName>AirElemental</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>AirElemental</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="DeathDemon">
+    <DisplayName>DeathDemon</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Death_Demon.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>DeathDemon</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="AssassinDemon">
+    <DisplayName>AssassinDemon</DisplayName>
+    <Tag>Pedestrian</Tag>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Assassin_Demon.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>AssassinDemon</UnitType>
+  </PropModelType>
+
+  
+
+   <PropModelType InternalName="ShrillLord">
+    <DisplayName>ShrillLord</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>ShrillLord</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="EarthShrill">
+    <DisplayName>EarthShrill</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>EarthShrill</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="FireShrill">
+    <DisplayName>FireShrill</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>FireShrill</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="AirShrill">
+    <DisplayName>AirShrill</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>AirShrill</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="WaterShrill">
+    <DisplayName>WaterShrill</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>WaterShrill</UnitType>
+  </PropModelType>
+
+
+   <PropModelType InternalName="ObsidianGolem">
+    <DisplayName>ObsidianGolem</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>ObsidianGolem</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="SandGolem">
+    <DisplayName>SandGolem</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>SandGolem</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="Umberdroth">
+    <DisplayName>Umberdroth</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>Umberdroth</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="Drake">
+    <DisplayName>Drake</DisplayName>
+    <Tag>Pedestrian</Tag>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Drake.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>Drake</UnitType>
+  </PropModelType>
+
+
+<!-- Dragon Kin -->
+
+   <PropModelType InternalName="Naja">
+    <DisplayName>Naja</DisplayName>
+    <Tag>Pedestrian</Tag>   
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>Naja</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="Ophidian">
+    <DisplayName>Ophidian</DisplayName>
+    <Tag>Pedestrian</Tag>   
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>Ophidian</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="ForestDrake">
+    <DisplayName>ForestDrake</DisplayName>
+    <Tag>Pedestrian</Tag>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Forest_Drake.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>ForestDrake</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="PackDrake">
+    <DisplayName>PackDrake</DisplayName>
+    <Tag>Pedestrian</Tag>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Pack_Drake.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>PackDrake</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="Slag">
+    <DisplayName>Slag</DisplayName>
+    <Tag>Pedestrian</Tag>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\Slag.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>Slag</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="RiverSlag">
+    <DisplayName>RiverSlag</DisplayName>
+    <Tag>Pedestrian</Tag>
+     <Thumb>Gfx\\HKB\\Props\\Thumbnails\\River_Slag.png</Thumb>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>RiverSlag</UnitType>
+  </PropModelType>
+
+  <!-- Dragons -->
+
+   <PropModelType InternalName="FellDragon">
+    <DisplayName>Fell Dragon</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>FellDragon</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="StormDragon">
+    <DisplayName>Storm Dragon</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>StormDragon</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="ClambercoilDragon">
+    <DisplayName>Clambercoil Dragon</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>ClambercoilDragon</UnitType>
+  </PropModelType>
+
+   <PropModelType InternalName="AshwakeDragon">
+    <DisplayName>Ashwake Dragon</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+   <UnitType>AshwakeDragon</UnitType>
+  </PropModelType>
+
+  <PropModelType InternalName="Titan">
+    <DisplayName>Titan</DisplayName>
+    <Tag>Pedestrian</Tag>
+    <Scale>0.16</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <Frequency>5</Frequency>
+    <UnitType>Titan</UnitType>
+  </PropModelType>
+
+</PropTypes>

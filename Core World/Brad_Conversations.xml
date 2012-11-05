@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FlavorTextEntries>
+  <DataChecksum NoParse="1">
+    <Ignore>DisplayName, ShortName, Capitol, Description, UnitSkinColor, UnitHairColor, UnitClothColor, BuildingPrimaryColor, BuildingSecondaryColor, BuildingRoofColor, BuildingStyle, UnitStyle, WorkerName</Ignore>
+    <Translate>DisplayName, ShortName, Capitol, Description, WorkerName</Translate>
+  </DataChecksum>
+
+  <FlavorText>
+    <Topic>Talk_Potential_Trade_Accepted_Receive_Tribute</Topic>
+    <Text>It is good to see [L_LeaderName] showing a little humility and respect. Your tribute demonstrates that [L_FactionShortName] may be worthy of continued existence. For now.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_Potential_Trade_Rejected_Receive_Tribute</Topic>
+    <Text>Your newfound humility comes too late, [L_LeaderName]. We have already decided that you are unworthy of continued existence.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_Potential_Trade_Rejected_Demand_Surrender</Topic>
+    <Text>You cannot be serious. Our armies will destroy you.</Text>
+    <Text>Is that a joke? We will crush you.</Text>
+    <Text>I will remember your demand when I see your head on a pike.</Text>
+  </FlavorText>
+
+  <FlavorText>
+    <Topic>Talk_Potential_Trade_Rejected_Demand_Surrender_TooEarly</Topic>
+    <Text>We are not ready to surrender. We shall fight on.</Text>
+    <Text>You overestimate your chances. We have...secret weapons coming.</Text>
+    <Text>You think you have beaten me? You think you have won? You shall see. Oh yes. You shall see.</Text>
+  </FlavorText>
+  
+  <FlavorText>
+    <Topic>Talk_Potential_Trade_Rejected_Offer_Surrender</Topic>
+    <Text>You are not worthy to accept a surrender from.</Text>
+  </FlavorText>
+  
+  <FlavorText>
+    <Topic>Talk_Potential_Trade_Rejected_Demand_Tribute</Topic>
+    <Text>I did not know that [L_LeaderName] had such a sense of humor.</Text>
+  </FlavorText>
+  
+</FlavorTextEntries>

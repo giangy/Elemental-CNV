@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AIPersonalities>
+    <AIPersonality InternalName="AI_General">
+        <!--********************GAME PHASE PRIORITIES********************-->
+        <AIGamePhase InternalName="Early">
+            <AIGamePhaseTurnEnd>50</AIGamePhaseTurnEnd>
+            <AIPriority InternalName="Economy">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Expansion">
+                <Type>Civ</Type>
+                <PriorityValue>5.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="CityDefense">
+                <Type>Civ</Type>
+                <PriorityValue>2.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Farming">
+                <Type>Civ</Type>
+                <PriorityValue>5.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="ResearchTimeConcern">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="War">
+                <Type>Civ</Type>
+                <PriorityValue>0.10</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="ConstructionTimeConcern">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="CityBuilding">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="GoodieHuts">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="SovereignProtectionFactor">
+                <Type>Civ</Type>
+                <PriorityValue>0.1</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Food">
+                <Type>Resource</Type>
+                <PriorityValue>5.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Metal">
+                <Type>Resource</Type>
+                <PriorityValue>0.5</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Crystal">
+                <Type>Resource</Type>
+                <PriorityValue>0.1</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Shard">
+                <Type>Resource</Type>
+                <PriorityValue>0.2</PriorityValue>
+            </AIPriority>
+        </AIGamePhase>
+        <AIGamePhase InternalName="Middle">
+            <AIGamePhaseTurnEnd>200</AIGamePhaseTurnEnd>
+            <AIPriority InternalName="Expansion">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="CityDefense">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Economy">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Farming">
+                <Type>Civ</Type>
+                <PriorityValue>5.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="ResearchTimeConcern">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="War">
+                <Type>Civ</Type>
+                <PriorityValue>0.10</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="ConstructionTimeConcern">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="CityBuilding">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="GoodieHuts">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Food">
+                <Type>Research</Type>
+                <PriorityValue>1.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Metal">
+                <Type>Research</Type>
+                <PriorityValue>2.5</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Crystal">
+                <Type>Research</Type>
+                <PriorityValue>1.1</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Shards">
+                <Type>Research</Type>
+                <PriorityValue>2.2</PriorityValue>
+            </AIPriority>
+        </AIGamePhase>
+        <AIGamePhase InternalName="Late">
+            <AIGamePhaseTurnEnd>20000</AIGamePhaseTurnEnd>
+            <AIPriority InternalName="Expansion">
+                <Type>Civ</Type>
+                <PriorityValue>1.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="CityDefense">
+                <Type>Civ</Type>
+                <PriorityValue>4.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Economy">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Farming">
+                <Type>Civ</Type>
+                <PriorityValue>5.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="ResearchTimeConcern">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="War">
+                <Type>Civ</Type>
+                <PriorityValue>0.10</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="ConstructionTimeConcern">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="CityBuilding">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="GoodieHuts">
+                <Type>Civ</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Food">
+                <Type>Research</Type>
+                <PriorityValue>1.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Metal">
+                <Type>Research</Type>
+                <PriorityValue>2.5</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Crystal">
+                <Type>Research</Type>
+                <PriorityValue>2.1</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Shards">
+                <Type>Research</Type>
+                <PriorityValue>3.2</PriorityValue>
+            </AIPriority>
+        </AIGamePhase>
+        <!--********************DOMESTIC POLICY********************-->
+        <AIDomesticPolicy InternalName="Policy">
+            <CityTileDistancePreference>8</CityTileDistancePreference>
+            <GoodieHutPriority>1.0</GoodieHutPriority>
+            <QuestingPriority>0.0</QuestingPriority>
+            <RecruitingPriority>1.0</RecruitingPriority>
+        </AIDomesticPolicy>
+        <!--********************MILITARY POLICY********************-->
+        <AIMilitaryPolicy InternalName="Policy">
+            <AICondition MilitaryStrength="Weak">
+                <AIComparativeCombatRating>0.10</AIComparativeCombatRating>
+                <AIWarfareResearchPriority>2.0</AIWarfareResearchPriority>
+                <AITrainingUnitFocus>Cheap</AITrainingUnitFocus>
+                <AITrainingUnitsMultiplier>3.0</AITrainingUnitsMultiplier>
+                <AIBudgetSurplusMinimumPercent>0.10</AIBudgetSurplusMinimumPercent>
+                <AITrainPriority_FootSoldier>10.0</AITrainPriority_FootSoldier>
+                <AITrainPriority_Archer>5.0</AITrainPriority_Archer>
+                <AITrainPriority_Knight>1.0</AITrainPriority_Knight>
+            </AICondition>
+            <AICondition MilitaryStrength="Average">
+                <AIComparativeCombatRating>0.40</AIComparativeCombatRating>
+                <AIWarfareResearchPriority>1.0</AIWarfareResearchPriority>
+                <AITrainingUnitFocus>Normal</AITrainingUnitFocus>
+                <AITrainingUnitsMultiplier>1.0</AITrainingUnitsMultiplier>
+                <AIBudgetSurplusMinimumPercent>0.20</AIBudgetSurplusMinimumPercent>
+                <AITrainPriority_FootSoldier>5.0</AITrainPriority_FootSoldier>
+                <AITrainPriority_Archer>4.0</AITrainPriority_Archer>
+                <AITrainPriority_Knight>3.0</AITrainPriority_Knight>
+            </AICondition>
+            <AICondition MilitaryStrength="Mighty">
+                <AIComparativeCombatRating>0.80</AIComparativeCombatRating>
+                <AIWarfareResearchPriority>0.2</AIWarfareResearchPriority>
+                <AITrainingUnitFocus>Elite</AITrainingUnitFocus>
+                <AITrainingUnitsMultiplier>0.10</AITrainingUnitsMultiplier>
+                <AIBudgetSurplusMinimumPercent>0.30</AIBudgetSurplusMinimumPercent>
+                <AITrainPriority_FootSoldier>1.0</AITrainPriority_FootSoldier>
+                <AITrainPriority_Archer>5.0</AITrainPriority_Archer>
+                <AITrainPriority_Knight>10.0</AITrainPriority_Knight>
+            </AICondition>
+            <AIOrderOfBattle MilitaryCondition="AtPeace">
+                <AISovereignProtection>High</AISovereignProtection>
+            </AIOrderOfBattle>
+            <AIOrderOfBattle MilitaryCondition="Tense">
+                <AISovereignProtection>Maximum</AISovereignProtection>
+            </AIOrderOfBattle>
+            <AIOrderOfBattle MilitaryCondition="AtWar">
+                <AISovereignProtection>Maximum</AISovereignProtection>
+            </AIOrderOfBattle>
+        </AIMilitaryPolicy>
+        <!--********************CITY IMPROVEMENT BUILDING********************-->
+        <!--level 1 city-->
+        <AIConstructionPriority CityLevel="Outpost">
+            <AIPriority InternalName="WorkShop">
+                <Type>Improvement</Type>
+                <PriorityValue>2.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Study">
+                <Type>Improvement</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="CommandPost">
+                <Type>Improvement</Type>
+                <PriorityValue>5.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Housing">
+                <Type>Improvement</Type>
+                <PriorityValue>2.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Merchant">
+                <Type>Improvement</Type>
+                <PriorityValue>2.25</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Farming">
+                <Type>Improvement</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Arcane">
+                <Type>Improvement</Type>
+                <PriorityValue>1.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Prestige">
+                <Type>Improvement</Type>
+                <PriorityValue>0.10</PriorityValue>
+            </AIPriority>
+        </AIConstructionPriority>
+        <!--level 2 city-->
+        <AIConstructionPriority CityLevel="Village">
+            <AIPriority InternalName="WorkShop">
+                <Type>Improvement</Type>
+                <PriorityValue>1.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Study">
+                <Type>Improvement</Type>
+                <PriorityValue>2.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Housing">
+                <Type>Improvement</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Arcane">
+                <Type>Improvement</Type>
+                <PriorityValue>2.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="CommandPost">
+                <Type>Improvement</Type>
+                <PriorityValue>1.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Merchant">
+                <Type>Improvement</Type>
+                <PriorityValue>4.25</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Prestige">
+                <Type>Improvement</Type>
+                <PriorityValue>1.0</PriorityValue>
+            </AIPriority>
+        </AIConstructionPriority>
+        <!--level 3 city-->
+        <AIConstructionPriority CityLevel="Town">
+            <AIPriority InternalName="WorkShop">
+                <Type>Improvement</Type>
+                <PriorityValue>1.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Study">
+                <Type>Improvement</Type>
+                <PriorityValue>2.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Arcane">
+                <Type>Improvement</Type>
+                <PriorityValue>1.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="CommandPost">
+                <Type>Improvement</Type>
+                <PriorityValue>2.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Merchant">
+                <Type>Improvement</Type>
+                <PriorityValue>5.25</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Prestige">
+                <Type>Improvement</Type>
+                <PriorityValue>2.00</PriorityValue>
+            </AIPriority>
+        </AIConstructionPriority>
+        <!--level 4 city-->
+        <AIConstructionPriority CityLevel="City">
+            <AIPriority InternalName="WorkShop">
+                <Type>Improvement</Type>
+                <PriorityValue>1.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Study">
+                <Type>Improvement</Type>
+                <PriorityValue>2.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Arcane">
+                <Type>Improvement</Type>
+                <PriorityValue>1.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="CommandPost">
+                <Type>Improvement</Type>
+                <PriorityValue>2.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Merchant">
+                <Type>Improvement</Type>
+                <PriorityValue>5.25</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Prestige">
+                <Type>Improvement</Type>
+                <PriorityValue>2.00</PriorityValue>
+            </AIPriority>
+        </AIConstructionPriority>
+        <!--level 5 city-->
+        <AIConstructionPriority CityLevel="GreatCity">
+            <AIPriority InternalName="Study">
+                <Type>Improvement</Type>
+                <PriorityValue>2.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Arcane">
+                <Type>Improvement</Type>
+                <PriorityValue>2.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="CommandPost">
+                <Type>Improvement</Type>
+                <PriorityValue>3.0</PriorityValue>
+            </AIPriority>
+            <AIPriority InternalName="Merchant">
+                <Type>Improvement</Type>
+                <PriorityValue>3.25</PriorityValue>
+            </AIPriority>
+        </AIConstructionPriority>
+        <!--********************DESIGNING UNITS********************-->
+        <AIUnitDesignRule AIUnitCategory="Cheap">
+            <AIUnitResourceLimit ResourceName="Metal">
+                <LimitValue>0</LimitValue>
+            </AIUnitResourceLimit>
+            <AIUnitResourceLimit ResourceName="Materials">
+                <LimitValue>10</LimitValue>
+            </AIUnitResourceLimit>
+            <AIUnitResourceLimit ResourceName="Crystal">
+                <LimitValue>0</LimitValue>
+            </AIUnitResourceLimit>
+        </AIUnitDesignRule>
+        <AIUnitDesignRule AIUnitCategory="Basic">
+            <AIUnitResourceLimit ResourceName="Metal">
+                <LimitValue>0</LimitValue>
+            </AIUnitResourceLimit>
+            <AIUnitResourceLimit ResourceName="Materials">
+                <LimitValue>20</LimitValue>
+            </AIUnitResourceLimit>
+            <AIUnitResourceLimit ResourceName="Crystal">
+                <LimitValue>0</LimitValue>
+            </AIUnitResourceLimit>
+        </AIUnitDesignRule>
+        <AIUnitDesignRule AIUnitCategory="Decent">
+            <AIUnitResourceLimit ResourceName="Metal">
+                <LimitValue>5</LimitValue>
+            </AIUnitResourceLimit>
+            <AIUnitResourceLimit ResourceName="Materials">
+                <LimitValue>20</LimitValue>
+            </AIUnitResourceLimit>
+            <AIUnitResourceLimit ResourceName="Crystal">
+                <LimitValue>0</LimitValue>
+            </AIUnitResourceLimit>
+        </AIUnitDesignRule>
+        <AIUnitDesignRule AIUnitCategory="Good">
+            <AIUnitResourceLimit ResourceName="Metal">
+                <LimitValue>10</LimitValue>
+            </AIUnitResourceLimit>
+            <AIUnitResourceLimit ResourceName="Materials">
+                <LimitValue>20</LimitValue>
+            </AIUnitResourceLimit>
+            <AIUnitResourceLimit ResourceName="Crystal">
+                <LimitValue>0</LimitValue>
+            </AIUnitResourceLimit>
+        </AIUnitDesignRule>
+        <AIUnitDesignRule AIUnitCategory="Excellent">
+            <AIUnitResourceLimit ResourceName="Metal">
+                <LimitValue>15</LimitValue>
+            </AIUnitResourceLimit>
+            <AIUnitResourceLimit ResourceName="Materials">
+                <LimitValue>20</LimitValue>
+            </AIUnitResourceLimit>
+            <AIUnitResourceLimit ResourceName="Crystal">
+                <LimitValue>1</LimitValue>
+            </AIUnitResourceLimit>
+        </AIUnitDesignRule>
+        <AIUnitDesignRule AIUnitCategory="Elite">
+            <AIUnitResourceLimit ResourceName="Metal">
+                <LimitValue>20</LimitValue>
+            </AIUnitResourceLimit>
+            <AIUnitResourceLimit ResourceName="Materials">
+                <LimitValue>20</LimitValue>
+            </AIUnitResourceLimit>
+            <AIUnitResourceLimit ResourceName="Crystal">
+                <LimitValue>5</LimitValue>
+            </AIUnitResourceLimit>
+        </AIUnitDesignRule>
+        <!--********************RELEATIONS********************-->
+        <!--military-->
+        <AIRelationsWeight InternalName="StrongerMilitaryThanYou">
+            <Description>Your military is weak.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <DifferenceMaxValue>1.5</DifferenceMaxValue>
+            <Weight>-1.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="MuchStrongerMilitaryThanYou">
+            <Description>Your military is very weak.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <DifferenceMaxValue>2</DifferenceMaxValue>
+            <Weight>-2.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="VastlyStrongerMilitaryThanYou">
+            <Description>Your military is extremely weak.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <DifferenceMaxValue>4</DifferenceMaxValue>
+            <Weight>-4.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="WeakerMilitaryThanYou">
+            <Description>My military is weak.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <DifferenceMaxValue>0.7</DifferenceMaxValue>
+            <Weight>1.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="MuchWeakerMilitaryThanYou">
+            <Description>My military is very weak.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <DifferenceMaxValue>0.3</DifferenceMaxValue>
+            <Weight>2.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="VastlyWeakerMilitaryThanYou">
+            <Description>My military is extremely weak.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <DifferenceMaxValue>0.1</DifferenceMaxValue>
+            <Weight>3.0</Weight>
+        </AIRelationsWeight>
+        <!--war related-->
+        <AIRelationsWeight InternalName="WeAreAtWar">
+            <Description>We are at war.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-2.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="YouAttackedUs">
+            <Description>You attacked us.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-2.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="YouAreDominatingMe">
+            <Description>You are dominating me.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>5.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="OurBordersAreClose">
+            <Description>Our borders are close.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-1.0</Weight>
+        </AIRelationsWeight>
+		<AIRelationsWeight InternalName="YouAreFarAway">
+			<Description>You are too far away to worry about.</Description>
+			<Icon>Event_MeetFaction.png</Icon>
+			<Weight>1.0</Weight>
+		</AIRelationsWeight>
+        <!--magic related-->
+        <AIRelationsWeight InternalName="YouControlAllTheShards">
+            <Description>You control all the shards.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-1.0</Weight>
+        </AIRelationsWeight>
+        <!--family matters-->
+        <AIRelationsWeight InternalName="MyChildDiedInYourCare">
+            <Description>My child died in your care.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-3.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="YouKilledMySpouse">
+            <Description>You killed my spouse.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-5.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="MutualFamily">
+            <Description>We have mutual family.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>2.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="MutualGrandChildren">
+            <Description>We have mutual grandkids.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>1.0</Weight>
+        </AIRelationsWeight>
+        <!--treaties-->
+        <AIRelationsWeight InternalName="TreatiesTogether">
+            <Description>We have treaties together.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>1.0</Weight>
+        </AIRelationsWeight>
+        <!--allegiences-->
+        <AIRelationsWeight InternalName="SameAllegience">
+            <Description>We have the same allegiance.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>3.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="DifferentAllegience">
+            <Description>We have a different allegiance.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-1.0</Weight>
+        </AIRelationsWeight>
+		<AIRelationsWeight InternalName="SameAllegience_Mid">
+			<Description>We have the same allegiance.</Description>
+			<Icon>Event_MeetFaction.png</Icon>
+			<Weight>2.0</Weight>
+		</AIRelationsWeight>
+		<AIRelationsWeight InternalName="DifferentAllegience_Mid">
+			<Description>We have a different allegiance.</Description>
+			<Icon>Event_MeetFaction.png</Icon>
+			<Weight>-2.0</Weight>
+		</AIRelationsWeight>
+		<AIRelationsWeight InternalName="SameAllegience_Late">
+			<Description>We have the same allegiance.</Description>
+			<Icon>Event_MeetFaction.png</Icon>
+			<Weight>1.0</Weight>
+		</AIRelationsWeight>
+		<AIRelationsWeight InternalName="DifferentAllegience_Late">
+			<Description>We have a different allegiance.</Description>
+			<Icon>Event_MeetFaction.png</Icon>
+			<Weight>-4.0</Weight>
+		</AIRelationsWeight>
+		<AIRelationsWeight InternalName="SomeDiplomaticCapital">
+            <Description>You are influential.</Description>
+            <Icon>CityBtn_Right_Govern.png</Icon>
+            <DifferenceMaxValue>50.0</DifferenceMaxValue>
+            <Weight>1.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="LotDiplomaticCapital">
+            <Description>You have a lot of influence.</Description>
+            <Icon>CityBtn_Right_Govern.png</Icon>
+            <DifferenceMaxValue>150.0</DifferenceMaxValue>
+            <Weight>2.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="TonDiplomaticCapital">
+            <Description>You are very influential.</Description>
+            <Icon>CityBtn_Right_Govern.png</Icon>
+            <DifferenceMaxValue>500.0</DifferenceMaxValue>
+            <Weight>3.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="KilledChild">
+            <Description>You killed my child.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-5.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="Conqueror">
+            <Description>Your military actions.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-2.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="Rampage">
+            <Description>You're out of control.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-5.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="EarlyGame">
+            <Description>We're still settling.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>1.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="MidGame">
+            <Description>Our ambitions are rising.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-1.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="LateGame">
+            <Description>We want to bring order to the world.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-3.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="EndGame">
+            <Description>It is time to unite the world under us.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-5.0</Weight>
+        </AIRelationsWeight>
+      <AIRelationsWeight InternalName="AttackedEmpire">
+        <Description>You attacked an Empire</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>-3.0</Weight>
+      </AIRelationsWeight>
+      <AIRelationsWeight InternalName="WarHappy">
+        <Description>You are a warmonger</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>-3.0</Weight>
+      </AIRelationsWeight>
+      <AIRelationsWeight InternalName="ConquestMonger">
+        <Description>You are conquering everyone</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>-5.0</Weight>
+      </AIRelationsWeight>
+      <AIRelationsWeight InternalName="AttackedKingdom">
+        <Description>You attacked a Kingdom</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>-3.0</Weight>
+      </AIRelationsWeight>
+      <AIRelationsWeight InternalName="StartedWarWithFellowKingdom">
+        <Description>You attacked a fellow Kingdom!</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>-3.0</Weight>
+      </AIRelationsWeight>      
+      <AIRelationsWeight InternalName="NotReady">
+            <Description>We don't want any trouble.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>1.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="BiggerFish">
+            <Description>I have other concerns.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>1.0</Weight>
+        </AIRelationsWeight>
+      <AIRelationsWeight InternalName="BiggerFish2">
+        <Description>Other wars occupy us.</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>2.0</Weight>
+      </AIRelationsWeight>      
+        <AIRelationsWeight InternalName="Trading">
+            <Description>We have Caravans together.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>1.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="Warmonger">
+            <Description>I love war, don't you?</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-2.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="Militaristic">
+            <Description>Only the strong survive.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-1.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="Paranoid">
+            <Description>Everyone is out to get me.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-1.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="Diplomat">
+            <Description>We want peace.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>1.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="Unstable-0">
+            <Description>I'm insane.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-2.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="Unstable-1">
+            <Description>I just don't like you.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>-1.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="Unstable-2">
+            <Description>You seem nice.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>1.0</Weight>
+        </AIRelationsWeight>
+        <AIRelationsWeight InternalName="Unstable-3">
+            <Description>Today is a manic day.</Description>
+            <Icon>Event_MeetFaction.png</Icon>
+            <Weight>2.0</Weight>
+        </AIRelationsWeight>
+      <AIRelationsWeight InternalName="Powerful">
+        <Description>Your faction is beneath us.</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>-1.0</Weight>
+      </AIRelationsWeight>
+      <AIRelationsWeight InternalName="YouPowerful">
+        <Description>We are impressed by you.</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>1.0</Weight>
+      </AIRelationsWeight>
+	  <AIRelationsWeight InternalName="TributeTreatyInPlace">
+			<Description>You are paying tribute to us.</Description>
+			<Icon>Event_MeetFaction.png</Icon>
+			<Weight>1.0</Weight>
+	  </AIRelationsWeight>
+      <AIRelationsWeight InternalName="YourPrestige">
+        <Description>Your civilization is prestigious.</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>1.0</Weight>
+      </AIRelationsWeight>      
+	  <AIRelationsWeight InternalName="PayingTributeToThem">
+			<Description>You are forcing us to pay tribute.</Description>
+			<Icon>Event_MeetFaction.png</Icon>
+			<Weight>-1.0</Weight>
+	 </AIRelationsWeight>
+      <AIRelationsWeight InternalName="Smart_Weak_Early">
+        <Description>You are weak.</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>-1.0</Weight>
+      </AIRelationsWeight>
+      <AIRelationsWeight InternalName="Smart_Weak_Mid">
+        <Description>You are weak.</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>-2.0</Weight>
+      </AIRelationsWeight>
+      <AIRelationsWeight InternalName="Smart_Weak_Late">
+        <Description>You are weak.</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>-3.0</Weight>
+      </AIRelationsWeight>
+      <AIRelationsWeight InternalName="Smart_Greedy">
+        <Description>I want what you have.</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>-1.0</Weight>
+      </AIRelationsWeight>
+      <AIRelationsWeight InternalName="Smart_Trust">
+        <Description>We don't trust you.</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>-1.0</Weight>
+      </AIRelationsWeight>
+      <AIRelationsWeight InternalName="Smart_Isolationist">
+        <Description>We don't like outsiders.</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>-1.0</Weight>
+      </AIRelationsWeight>
+      <AIRelationsWeight InternalName="Smart_Proud">
+        <Description>We are better than everyone.</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>-1.0</Weight>
+      </AIRelationsWeight>
+      <AIRelationsWeight InternalName="Smart_Expansionist">
+        <Description>Your land is our land.</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>-1.0</Weight>
+      </AIRelationsWeight>
+      <AIRelationsWeight InternalName="Smart_Civilized">
+        <Description>You seem uncouth.</Description>
+        <Icon>Event_MeetFaction.png</Icon>
+        <Weight>-1.0</Weight>
+      </AIRelationsWeight>
+      <!--********************TACTICAL BATTLES********************-->
+        <AITacticalBattles>
+            <AITacticalObjective ObjectiveName="NormalGround">
+                <Value_Static_AheadOfMe>10</Value_Static_AheadOfMe>
+                <Value_StaticBehindMe>0</Value_StaticBehindMe>
+                <Value_Multiplier_IAmRanged>1.0</Value_Multiplier_IAmRanged>
+                <Value_Multiplier_IAmMounted>1.0</Value_Multiplier_IAmMounted>
+                <Value_Multiplier_IAmMelee>1.0</Value_Multiplier_IAmMelee>
+                <Value_Multiplier_CombatRatingRatio>1.0</Value_Multiplier_CombatRatingRatio>
+                <Devaluation_Divisor_ByTile_ByDistance>2.0</Devaluation_Divisor_ByTile_ByDistance>
+            </AITacticalObjective>
+
+            <AITacticalObjective ObjectiveName="Highground">
+                <Value_Static_AheadOfMe>50</Value_Static_AheadOfMe>
+                <Value_StaticBehindMe>0</Value_StaticBehindMe>
+                <Value_Multiplier_IAmRanged>2.0</Value_Multiplier_IAmRanged>
+                <Value_Multiplier_IAmMounted>0.50</Value_Multiplier_IAmMounted>
+                <Value_Multiplier_IAmMelee>1.0</Value_Multiplier_IAmMelee>
+                <Value_Multiplier_CombatRatingRatio>1.0</Value_Multiplier_CombatRatingRatio>
+                <Devaluation_Divisor_ByTile_ByDistance>2.0</Devaluation_Divisor_ByTile_ByDistance>
+            </AITacticalObjective>
+
+            <AITacticalObjective ObjectiveName="Woods">
+                <Value_Static_AheadOfMe>50</Value_Static_AheadOfMe>
+                <Value_StaticBehindMe>0</Value_StaticBehindMe>
+                <Value_Multiplier_IAmRanged>2.0</Value_Multiplier_IAmRanged>
+                <Value_Multiplier_IAmMounted>0.0</Value_Multiplier_IAmMounted>
+                <Value_Multiplier_IAmMelee>1.0</Value_Multiplier_IAmMelee>
+                <Devaluation_Divisor_ByTile_ByDistance>2.0</Devaluation_Divisor_ByTile_ByDistance>
+            </AITacticalObjective>
+
+            <AITacticalObjective ObjectiveName="Ruins">
+                <Value_Static_AheadOfMe>50</Value_Static_AheadOfMe>
+                <Value_StaticBehindMe>0</Value_StaticBehindMe>
+                <Value_Multiplier_IAmRanged>2.0</Value_Multiplier_IAmRanged>
+                <Value_Multiplier_IAmMounted>0.0</Value_Multiplier_IAmMounted>
+                <Value_Multiplier_IAmMelee>1.0</Value_Multiplier_IAmMelee>
+                <Devaluation_Divisor_ByTile_ByDistance>2.0</Devaluation_Divisor_ByTile_ByDistance>
+            </AITacticalObjective>
+
+            <AITacticalTarget TargetName="Enemy_Sovereign">
+                <Value_Static_AheadOfMe>50</Value_Static_AheadOfMe>
+                <Value_StaticBehindMe>50</Value_StaticBehindMe>
+                <Value_Multiplier_IAmRanged>3.0</Value_Multiplier_IAmRanged>
+                <Value_Multiplier_IAmMounted>2.0</Value_Multiplier_IAmMounted>
+                <Value_Multiplier_IAmMelee>1.0</Value_Multiplier_IAmMelee>
+                <Devaluation_Divisor_ByTile_ByDistance>2.0</Devaluation_Divisor_ByTile_ByDistance>
+            </AITacticalTarget>
+
+            <AITacticalTarget TargetName="Enemy_Champion">
+                <Value_Static_AheadOfMe>25</Value_Static_AheadOfMe>
+                <Value_StaticBehindMe>25</Value_StaticBehindMe>
+                <Value_Multiplier_IAmRanged>3.0</Value_Multiplier_IAmRanged>
+                <Value_Multiplier_IAmMounted>2.0</Value_Multiplier_IAmMounted>
+                <Value_Multiplier_IAmMelee>1.0</Value_Multiplier_IAmMelee>
+                <Devaluation_Divisor_ByTile_ByDistance>2.0</Devaluation_Divisor_ByTile_ByDistance>
+            </AITacticalTarget>
+
+            <AITacticalTarget TargetName="Enemy_Ranged">
+                <Value_Static_AheadOfMe>10</Value_Static_AheadOfMe>
+                <Value_StaticBehindMe>10</Value_StaticBehindMe>
+                <Value_Multiplier_IAmRanged>1.0</Value_Multiplier_IAmRanged>
+                <Value_Multiplier_IAmMounted>8.0</Value_Multiplier_IAmMounted>
+                <Value_Multiplier_IAmMelee>1.0</Value_Multiplier_IAmMelee>
+                <Devaluation_Divisor_ByTile_ByDistance>2.0</Devaluation_Divisor_ByTile_ByDistance>
+            </AITacticalTarget>
+
+            <AITacticalTarget TargetName="Enemy_Mounted">
+                <Value_Static_AheadOfMe>10</Value_Static_AheadOfMe>
+                <Value_StaticBehindMe>10</Value_StaticBehindMe>
+                <Value_Multiplier_IAmRanged>3.0</Value_Multiplier_IAmRanged>
+                <Value_Multiplier_IAmMounted>2.0</Value_Multiplier_IAmMounted>
+                <Value_Multiplier_IAmMelee>0.5</Value_Multiplier_IAmMelee>
+                <Devaluation_Divisor_ByTile_ByDistance>2.0</Devaluation_Divisor_ByTile_ByDistance>
+            </AITacticalTarget>
+            
+            <AITacticalTarget TargetName="Enemy_Melee">
+                <Value_Static_AheadOfMe>10</Value_Static_AheadOfMe>
+                <Value_StaticBehindMe>10</Value_StaticBehindMe>
+                <Value_Multiplier_IAmRanged>2.0</Value_Multiplier_IAmRanged>
+                <Value_Multiplier_IAmMounted>3.0</Value_Multiplier_IAmMounted>
+                <Value_Multiplier_IAmMelee>1.0</Value_Multiplier_IAmMelee>
+                <Devaluation_Divisor_ByTile_ByDistance>2.0</Devaluation_Divisor_ByTile_ByDistance>
+            </AITacticalTarget>
+        </AITacticalBattles>
+
+    </AIPersonality>
+
+    <!--..other <AIPersonality> tags here..-->
+
+</AIPersonalities>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- XML file to define some AI test armies to be used with the SHIFT+O cheat key during development -->
+<UnitTypes>
+    <UnitType InternalName="AITest_LocalArmyLeader">
+        <DisplayName>Champion</DisplayName>
+        <UnitDisplayName>Local AI Test Leader</UnitDisplayName>
+        <Class>Adventurer</Class>
+        <Allegiance>Kingdom</Allegiance>
+        <RaceType>Race_Type_Amarians</RaceType>
+        <Unique>1</Unique>
+        <CanBeDesigned>0</CanBeDesigned>
+        <Gender>Male</Gender>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <IsNPC>1</IsNPC>
+        <IsChampion>1</IsChampion>
+        <IsSovereign>0</IsSovereign>
+        <SpawnRating>5</SpawnRating>
+        <NPCSpawnLikelihood>0</NPCSpawnLikelihood>
+        <NPCPartyMember>AITest_LocalArmyMember1</NPCPartyMember>
+        <NPCPartyMember>AITest_LocalArmyMember2</NPCPartyMember>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>15</UnitStat_Accuracy>
+            <UnitStat_Charisma>9</UnitStat_Charisma>
+            <UnitStat_CombatSpeed>12</UnitStat_CombatSpeed>
+            <UnitStat_Constitution>16</UnitStat_Constitution>
+            <UnitStat_Dexterity>17</UnitStat_Dexterity>
+            <UnitStat_HitPoints>15</UnitStat_HitPoints>
+            <UnitStat_Intelligence>10</UnitStat_Intelligence>
+            <UnitStat_Strength>23</UnitStat_Strength>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Counterattack</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Guardian1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Air1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Air2</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Acrobat</SelectedAbilityBonusOption>
+        <AutoCreateEquipment>Longsword_Freezing</AutoCreateEquipment>
+        <AutoCreateEquipment>ChainBreastpiece</AutoCreateEquipment>
+        <AutoCreateEquipment>ChainHelmet</AutoCreateEquipment>
+        <AutoCreateEquipment>KiteShield_Masterwork</AutoCreateEquipment>
+        <Equipment>F_Head_Wraith_Mesh_03</Equipment>
+        <Equipment>Kingdom_Leather_Gloves_Light</Equipment>
+        <Equipment>Infinity_Cloak_ID2</Equipment>
+        <Equipment>Noblemans_Pants_ID1</Equipment>
+        <Equipment>Basic_Boots_ID2</Equipment>
+        <Equipment>Kraxis_Beard</Equipment>
+        <Equipment>BasicHorseMount</Equipment>
+        <Treasure>
+            <Liklihood>100</Liklihood>
+            <GameModifier>
+                <ModType>GiveItem</ModType>
+                <Attribute>Longsword_Freezing</Attribute>
+                <BoolVal1>1</BoolVal1>
+            </GameModifier>
+        </Treasure>
+        <Quote>'I am the leader of an AI Test Army!'</Quote>
+        <NPCRecruitmentText>Don't recruit me, I'm an AI Test Unit</NPCRecruitmentText>
+        <Backstory>AI Test Unit</Backstory>
+        <AnimationPack>MaleSovereignAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothPoseIndex>14</ClothPoseIndex>
+        <Color_Clothing1>150,170,200,255</Color_Clothing1>
+        <Color_Clothing2>90,90,100,255</Color_Clothing2>
+        <Color_Hair>56,33,13,255</Color_Hair>
+        <Color_Metal>160,175,190,255</Color_Metal>
+        <Color_Skin>177,122,107,255</Color_Skin>
+		<CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_m2_brwn.png</EyeTexture>
+        <InfoCardBackground>BG11_Tree</InfoCardBackground>
+        <ModelPath>Gfx\HKB\Units\K_Male_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_m2_brwn.png</Texture_Eyes>
+        <Texture_Skin>K_Male_beard_Texture_01.png</Texture_Skin>
+        <UnitModelType>AmarianMale</UnitModelType>
+    </UnitType>
+    <UnitType InternalName="AITest_LocalArmyMember1">
+        <DisplayName>Champion</DisplayName>
+        <UnitDisplayName>Local AI Test Member 1</UnitDisplayName>
+        <Class>Adventurer</Class>
+        <Allegiance>Kingdom</Allegiance>
+        <RaceType>Race_Type_Amarians</RaceType>
+        <Unique>1</Unique>
+        <CanBeDesigned>0</CanBeDesigned>
+        <Gender>Male</Gender>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <IsNPC>1</IsNPC>
+        <IsChampion>1</IsChampion>
+        <IsSovereign>0</IsSovereign>
+        <SpawnRating>1</SpawnRating>
+        <NPCSpawnLikelihood>0</NPCSpawnLikelihood>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>15</UnitStat_Accuracy>
+            <UnitStat_Charisma>10</UnitStat_Charisma>
+            <UnitStat_CombatSpeed>12</UnitStat_CombatSpeed>
+            <UnitStat_Constitution>15</UnitStat_Constitution>
+            <UnitStat_Dexterity>13</UnitStat_Dexterity>
+            <UnitStat_HitPoints>15</UnitStat_HitPoints>
+            <UnitStat_Intelligence>11</UnitStat_Intelligence>
+            <UnitStat_Strength>14</UnitStat_Strength>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Air1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Acrobat</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Balance</SelectedAbilityBonusOption>
+        <AutoCreateEquipment>Club</AutoCreateEquipment>
+        <Equipment>K_Male_Head_03</Equipment>
+        <Equipment>Warrior_Surcoat_ID1</Equipment>
+        <Equipment>Sovereign_Warrior_Shirt_Pleated_ID2</Equipment>
+        <Equipment>Basic_Boots_Leather</Equipment>
+        <Equipment>Bards_Cloak_ID1</Equipment>
+        <Equipment>Sovereign_Short_Hair_03</Equipment>
+        <Treasure>
+            <Liklihood>100</Liklihood>
+            <GameModifier>
+                <ModType>Resource</ModType>
+                <Attribute>Gold</Attribute>
+                <Value>10</Value>
+            </GameModifier>
+        </Treasure>
+        <Quote>'I am a member of an AI Test Army!'</Quote>
+        <NPCRecruitmentText>Don't recruit me, I'm an AI Test Unit</NPCRecruitmentText>
+        <Backstory>AI Test Unit</Backstory>
+        <AnimationPack>MaleSovereignAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothPoseIndex>0</ClothPoseIndex>
+        <Color_Clothing1>176,122,74,255</Color_Clothing1>
+        <Color_Clothing2>79,48,20,255</Color_Clothing2>
+        <Color_Hair>182,177,177,255</Color_Hair>
+        <Color_Metal>160,175,190,255</Color_Metal>
+        <Color_Skin>175,120,105,255</Color_Skin>
+		<CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_m4_grn.png</EyeTexture>
+        <InfoCardBackground>BG_Barren</InfoCardBackground>
+        <ModelPath>Gfx\HKB\Units\K_Male_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_m4_grn.png</Texture_Eyes>
+        <Texture_Skin>K_Male_Warrior_Texture_01.png</Texture_Skin>
+        <UnitModelType>AmarianMale</UnitModelType>
+    </UnitType>
+    <UnitType InternalName="AITest_LocalArmyMember2">
+        <DisplayName>Champion</DisplayName>
+        <UnitDisplayName>Local AI Test Member 2</UnitDisplayName>
+        <Class>Adventurer</Class>
+        <Allegiance>Kingdom</Allegiance>
+        <RaceType>Race_Type_Amarians</RaceType>
+        <Unique>1</Unique>
+        <CanBeDesigned>0</CanBeDesigned>
+        <Gender>Male</Gender>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <IsNPC>1</IsNPC>
+        <IsChampion>1</IsChampion>
+        <IsSovereign>0</IsSovereign>
+        <SpawnRating>4</SpawnRating>
+        <NPCSpawnLikelihood>0</NPCSpawnLikelihood>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>15</UnitStat_Accuracy>
+            <UnitStat_Charisma>4</UnitStat_Charisma>
+            <UnitStat_CombatSpeed>12</UnitStat_CombatSpeed>
+            <UnitStat_Constitution>16</UnitStat_Constitution>
+            <UnitStat_Dexterity>14</UnitStat_Dexterity>
+            <UnitStat_HitPoints>15</UnitStat_HitPoints>
+            <UnitStat_Intelligence>16</UnitStat_Intelligence>
+            <UnitStat_Strength>14</UnitStat_Strength>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Loremaster1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Loremaster2</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Brilliant</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Fire1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Water1</SelectedAbilityBonusOption>
+        <AutoCreateEquipment>Staff</AutoCreateEquipment>
+        <AutoCreateEquipment>LeatherBreastpiece</AutoCreateEquipment>
+        <Equipment>Sion_Head</Equipment>
+        <Equipment>Hooded_Cloak_ID2</Equipment>
+        <Equipment>Noblemans_Pants_ID2</Equipment>
+        <Equipment>Sovereign_Boots_ID2</Equipment>
+        <Equipment>Kingdom_Leather_Gloves_Dark</Equipment>
+        <Treasure>
+            <Liklihood>100</Liklihood>
+            <GameModifier>
+                <ModType>Resource</ModType>
+                <Attribute>Gold</Attribute>
+                <Value>40</Value>
+            </GameModifier>
+        </Treasure>
+        <Quote>'I am a member of an AI Test Army!'</Quote>
+        <NPCRecruitmentText>Don't recruit me, I'm an AI Test Unit</NPCRecruitmentText>
+        <Backstory>AI Test Unit</Backstory>
+        <AnimationPack>MaleSovereignAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothPoseIndex>0</ClothPoseIndex>
+        <Color_Clothing1>70,48,20,255</Color_Clothing1>
+        <Color_Clothing2>90,90,100,255</Color_Clothing2>
+        <Color_Hair>208,203,203,255</Color_Hair>
+        <Color_Metal>160,175,190,255</Color_Metal>
+        <Color_Skin>193,138,123,255</Color_Skin>
+		<CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_m3_cataract.png</EyeTexture>
+        <InfoCardBackground>BG_Barren</InfoCardBackground>
+        <ModelPath>Gfx\HKB\Units\K_Male_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_m3_cataract.png</Texture_Eyes>
+        <Texture_Skin>K_Male_Groomed_Texture_01.png</Texture_Skin>
+        <UnitModelType>AmarianMale</UnitModelType>
+    </UnitType>
+    <UnitType InternalName="AITest_EnemyArmyLeader">
+        <DisplayName>Champion</DisplayName>
+        <UnitDisplayName>Enemy AI Test Leader</UnitDisplayName>
+        <Class>Adventurer</Class>
+        <Allegiance>Kingdom</Allegiance>
+        <RaceType>Race_Type_Ironeers</RaceType>
+        <Unique>1</Unique>
+        <CanBeDesigned>0</CanBeDesigned>
+        <Gender>Female</Gender>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <IsNPC>1</IsNPC>
+        <IsChampion>1</IsChampion>
+        <IsSovereign>0</IsSovereign>
+        <SpawnRating>1</SpawnRating>
+        <NPCSpawnLikelihood>0</NPCSpawnLikelihood>
+        <NPCPartyMember>AITest_EnemyArmyMember1</NPCPartyMember>
+        <NPCPartyMember>AITest_EnemyArmyMember2</NPCPartyMember>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>15</UnitStat_Accuracy>
+            <UnitStat_Charisma>9</UnitStat_Charisma>
+            <UnitStat_CombatSpeed>12</UnitStat_CombatSpeed>
+            <UnitStat_Constitution>18</UnitStat_Constitution>
+            <UnitStat_Dexterity>10</UnitStat_Dexterity>
+            <UnitStat_HitPoints>15</UnitStat_HitPoints>
+            <UnitStat_Intelligence>11</UnitStat_Intelligence>
+            <UnitStat_Strength>14</UnitStat_Strength>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Enmity</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Earth1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Life1</SelectedAbilityBonusOption>
+        <AutoCreateEquipment>Shortsword</AutoCreateEquipment>
+        <AutoCreateEquipment>LeatherBreastpiece</AutoCreateEquipment>
+        <AutoCreateEquipment>LeatherVambraces</AutoCreateEquipment>
+        <Equipment>K_Female_Head_02</Equipment>
+        <Equipment>Sovereign_Shoulder_Length_Hair</Equipment>
+        <Equipment>Patchwork_Cloak_ID2</Equipment>
+        <Equipment>Female_Basic_Pants</Equipment>
+        <Equipment>TightBoots_Light</Equipment>
+        <Equipment>BasicWargMount</Equipment>
+        <Treasure>
+            <Liklihood>100</Liklihood>
+            <GameModifier>
+                <ModType>Resource</ModType>
+                <Attribute>Gold</Attribute>
+                <Value>10</Value>
+            </GameModifier>
+        </Treasure>
+        <Quote>'I am the leader of an AI Test Army!'</Quote>
+        <NPCRecruitmentText>Don't recruit me, I'm an AI Test Unit</NPCRecruitmentText>
+        <Backstory>AI Test Unit</Backstory>
+        <AnimationPack>FemaleSovereignAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothPoseIndex>1</ClothPoseIndex>
+        <Color_Clothing1>160,105,15,255</Color_Clothing1>
+        <Color_Clothing2>55,40,20,255</Color_Clothing2>
+        <Color_Hair>123,73,28,255</Color_Hair>
+        <Color_Metal>185,175,151,255</Color_Metal>
+        <Color_Skin>177,137,122,255</Color_Skin>
+		<CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_f3_grn.png</EyeTexture>
+        <InfoCardBackground>BG_Barren</InfoCardBackground>
+        <ModelPath>Gfx\HKB\Units\K_Female_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_f3_grn.png</Texture_Eyes>
+        <Texture_Skin>K_Female_Freckles_Texture_01.png</Texture_Skin>
+        <UnitModelType>IroneerFemale</UnitModelType>
+    </UnitType>
+    <UnitType InternalName="AITest_EnemyArmyMember1">
+        <DisplayName>Champion</DisplayName>
+        <UnitDisplayName>Enemy AI Test Member 1</UnitDisplayName>
+        <Class>Adventurer</Class>
+        <Allegiance>Kingdom</Allegiance>
+        <RaceType>Race_Type_Ironeers</RaceType>
+        <Unique>1</Unique>
+        <CanBeDesigned>0</CanBeDesigned>
+        <Gender>Female</Gender>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <IsNPC>1</IsNPC>
+        <IsChampion>1</IsChampion>
+        <IsSovereign>0</IsSovereign>
+        <SpawnRating>2</SpawnRating>
+        <NPCSpawnLikelihood>0</NPCSpawnLikelihood>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>15</UnitStat_Accuracy>
+            <UnitStat_Charisma>13</UnitStat_Charisma>
+            <UnitStat_CombatSpeed>12</UnitStat_CombatSpeed>
+            <UnitStat_Constitution>17</UnitStat_Constitution>
+            <UnitStat_Dexterity>10</UnitStat_Dexterity>
+            <UnitStat_HitPoints>15</UnitStat_HitPoints>
+            <UnitStat_Intelligence>11</UnitStat_Intelligence>
+            <UnitStat_Strength>13</UnitStat_Strength>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Merchant1</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Earth1</SelectedAbilityBonusOption>
+        <AutoCreateEquipment>Staff</AutoCreateEquipment>
+        <Equipment>K_Female_Head_03</Equipment>
+        <Equipment>Sovereign_Barmaid_Dress_ID1</Equipment>
+        <Equipment>Spouse_FemaleBasicHair</Equipment>
+        <Treasure>
+            <Liklihood>100</Liklihood>
+            <GameModifier>
+                <ModType>Resource</ModType>
+                <Attribute>Gold</Attribute>
+                <Value>20</Value>
+            </GameModifier>
+        </Treasure>
+        <Quote>'I am a member of an AI Test Army!'</Quote>
+        <NPCRecruitmentText>Don't recruit me, I'm an AI Test Unit</NPCRecruitmentText>
+        <Backstory>AI Test Unit</Backstory>
+        <AnimationPack>FemaleSovereignAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothPoseIndex>16</ClothPoseIndex>
+        <Color_Clothing1>184,102,0,255</Color_Clothing1>
+        <Color_Clothing2>55,40,20,255</Color_Clothing2>
+        <Color_Hair>135,75,30,255</Color_Hair>
+        <Color_Metal>185,175,151,255</Color_Metal>
+        <Color_Skin>208,152,137,255</Color_Skin>
+		<CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_f2_grn.png</EyeTexture>
+        <InfoCardBackground>BG12_Day</InfoCardBackground>
+        <ModelPath>Gfx\HKB\Units\K_Female_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_f2_grn.png</Texture_Eyes>
+        <Texture_Skin>K_Female_Thickbrows_Texture_01.png</Texture_Skin>
+        <UnitModelType>IroneerFemale</UnitModelType>
+    </UnitType>
+    <UnitType InternalName="AITest_EnemyArmyMember2">
+        <DisplayName>Champion</DisplayName>
+        <UnitDisplayName>Enemy AI Test Member 2</UnitDisplayName>
+        <Class>Adventurer</Class>
+        <Allegiance>Kingdom</Allegiance>
+        <RaceType>Race_Type_Ironeers</RaceType>
+        <Unique>1</Unique>
+        <CanBeDesigned>0</CanBeDesigned>
+        <Gender>Female</Gender>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <IsNPC>1</IsNPC>
+        <IsChampion>1</IsChampion>
+        <IsSovereign>0</IsSovereign>
+        <SpawnRating>1</SpawnRating>
+        <NPCSpawnLikelihood>0</NPCSpawnLikelihood>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>15</UnitStat_Accuracy>
+            <UnitStat_Charisma>8</UnitStat_Charisma>
+            <UnitStat_CombatSpeed>12</UnitStat_CombatSpeed>
+            <UnitStat_Constitution>18</UnitStat_Constitution>
+            <UnitStat_Dexterity>10</UnitStat_Dexterity>
+            <UnitStat_HitPoints>15</UnitStat_HitPoints>
+            <UnitStat_Intelligence>9</UnitStat_Intelligence>
+            <UnitStat_Strength>18</UnitStat_Strength>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Charge</SelectedAbilityBonusOption>
+        <AutoCreateEquipment>Shortsword</AutoCreateEquipment>
+        <Equipment>K_Female_Head_03</Equipment>
+        <Equipment>TightBoots_Dark</Equipment>
+        <Equipment>Female_Basic_Pants</Equipment>
+        <Equipment>Female_Umber_Vest</Equipment>
+        <Equipment>Noble_Shirt</Equipment>
+        <Equipment>Sovereign_Bun_Hair</Equipment>
+        <Treasure>
+            <Liklihood>100</Liklihood>
+            <GameModifier>
+                <ModType>GiveItem</ModType>
+                <Attribute>Shortsword</Attribute>
+                <BoolVal1>1</BoolVal1>
+            </GameModifier>
+        </Treasure>
+        <Quote>'I am a member of an AI Test Army!'</Quote>
+        <NPCRecruitmentText>Don't recruit me, I'm an AI Test Unit</NPCRecruitmentText>
+        <Backstory>AI Test Unit</Backstory>
+        <AnimationPack>FemaleSovereignAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+        <ClothPoseIndex>18</ClothPoseIndex>
+        <Color_Clothing1>56,33,13,255</Color_Clothing1>
+        <Color_Clothing2>55,40,20,255</Color_Clothing2>
+        <Color_Hair>110,60,15,255</Color_Hair>
+        <Color_Metal>185,175,151,255</Color_Metal>
+        <Color_Skin>182,142,127,255</Color_Skin>
+		<CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx\eyes\blinks\eyeblink_f1_blk.png</EyeTexture>
+        <InfoCardBackground>BG_CreateSwamp</InfoCardBackground>
+        <ModelPath>Gfx\HKB\Units\K_Female_Mesh_01.hkb</ModelPath>
+        <ModelScale>1</ModelScale>
+        <MovingSFX>TEMP_KnightMarching1</MovingSFX>
+        <SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+        <TacticalModelScale>1.5</TacticalModelScale>
+        <Texture_Eyes>gfx\eyes\blinks\eyeblink_f1_blk.png</Texture_Eyes>
+        <Texture_Skin>K_Female_Freckles_Texture_01.png</Texture_Skin>
+        <UnitModelType>IroneerFemale</UnitModelType>
+    </UnitType>
+</UnitTypes>

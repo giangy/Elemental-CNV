@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<FlavorTextEntries>
+  <DataChecksum NoParse="1">
+    <Ignore>Text</Ignore>
+    <Translate>Text</Translate>
+  </DataChecksum>
+	
+  <!-- ** Scouts (sight and moves is great than defense and attack) ** -->
+  <FlavorText InternalName="UnitTypeNames_Scout">
+    <Topic>UnitTypeName_Scout</Topic>
+    <!--<Faction>KingdomOfAltar</Faction>-->
+    <Text>Scout</Text>
+    <Text>Wanderer</Text>
+    <Text>Nomad</Text>
+    <Text>Explorer</Text>
+    <Text>Seeker</Text>
+  </FlavorText>
+
+  <FlavorText InternalName="UnitTypeQuote_Scout">
+    <Topic>UnitTypeQuote_Scout</Topic>
+    <Text>'I will cut back the thickening fog...'</Text>
+    <Text>'The unclaimed world beckons.'</Text>
+    <Text>'Mud soaked and weary, the scout ventured onwards...'</Text>
+    <Text>'Adventure awaits beyond our borders!'</Text>
+  </FlavorText>
+
+  <!-- ** Defender (sight and moves is great than defense and attack) ** -->
+  <FlavorText InternalName="UnitTypeNames_Defender">
+    <Topic>UnitTypeName_Defender</Topic>
+    <Text>RoyalGuard</Text>
+    <Text>Guardian</Text>
+    <Text>City Keeper</Text>
+    <Text>King's Ward</Text>
+  </FlavorText>
+
+  <FlavorText InternalName="UnitTypeQuote_Defender">
+    <Topic>UnitTypeQuote_Defender</Topic>
+    <Text>'I shall make our settlements safe...'</Text>
+    <Text>'Any invading force will dine upon my blade.'</Text>
+    <Text>'I'll open our gates and release death upon our foes.'</Text>
+  </FlavorText>
+
+  <!-- ** Defender (sight and moves is great than defense and attack) ** -->
+  <FlavorText InternalName="UnitTypeNames_Fighter_Weak">
+    <Topic>UnitTypeName_Fighter</Topic>
+    <Text>Guard</Text>
+    <Text>Milita</Text>
+    <Text>Conscript</Text>
+    <Text>Keeper</Text>
+    <Text>Minion</Text>
+    <Text>Defender</Text>
+    <Text>Henchman</Text>
+    <UnitCombatRankMin>0</UnitCombatRankMin>
+    <UnitCombatRankMax>20</UnitCombatRankMax>
+  </FlavorText>
+
+  <FlavorText InternalName="UnitTypeNames_Fighter_Strong">
+    <Topic>UnitTypeName_Fighter</Topic>
+    <Text>Warrior</Text>
+    <Text>Squire</Text>
+    <Text>Fighter</Text>
+    <Text>Enforcer</Text>
+    <UnitCombatRankMin>21</UnitCombatRankMin>
+  </FlavorText>
+
+  <FlavorText InternalName="UnitTypeNames_Fighter_Elite">
+    <Topic>UnitTypeName_Fighter</Topic>
+    <Text>Knight</Text>
+    <Text>Baron</Text>
+    <Text>Guardian</Text>
+    <Text>Sentinel</Text>
+    <UnitCombatRankMin>50</UnitCombatRankMin>
+  </FlavorText>
+  
+  <FlavorText InternalName="UnitTypeQuote_Fighter_Kingdom">
+    <Topic>UnitTypeQuote_Fighter</Topic>
+    <Text>'My blade shall not waver.'</Text>
+    <Text>'For the kingdom!'</Text>
+    <Text>'Our enemies will tremble at our might.'</Text>
+    <Rule>0</Rule>
+  </FlavorText>
+
+  <FlavorText InternalName="UnitTypeQuote_Fighter_Fallen">
+    <Topic>UnitTypeQuote_Fighter</Topic>
+    <Text>'I will break my enemy's spirits...then bones.'</Text>
+    <Text>'My blade hungers for the blood of man.'</Text>
+    <Text>'Our footfalls will roar like drums of war.'</Text>
+    <Rule>10</Rule>
+  </FlavorText>
+  
+</FlavorTextEntries>
+
+<!--
+  
+- RULES -
+- Race of Men -
+0 - A Kingdom unit
+  
+- Fallen Race -
+10 - A Fallen race speaking
+  
+-->
+
+

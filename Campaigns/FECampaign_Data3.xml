@@ -1,0 +1,2776 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<CampaignData>
+
+
+
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- GOODIES -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+
+<!-- OPHIDIAN LAIR 1 -->
+<GoodieHutType InternalName="FEC_Lair_Ophidian1">
+	<Name>Crystal Crag</Name>
+	<Description>An outcrop of glistening minerals, beyond which a dark cavern beckons.</Description>
+	<Rarity>50</Rarity>
+	<AutoDestroyWhenNoGuardians>1</AutoDestroyWhenNoGuardians>
+	<LikelihoodOfTreasureDropWhenAutoDestroyed>100</LikelihoodOfTreasureDropWhenAutoDestroyed>
+	<MinDistanceFromStartingPoints>8</MinDistanceFromStartingPoints>
+	<BarredTerrain>River</BarredTerrain>
+	<PreferredTerrain>Category:Land</PreferredTerrain>
+	<ReleaseGuardiansOnInfluenceHit>1</ReleaseGuardiansOnInfluenceHit>
+	<SupportedResourceType>Crystal</SupportedResourceType>
+	<SpawnRating>0</SpawnRating>
+	<TileDesign>L_Ophidian_01</TileDesign>
+	<DrawnIcon>Lair_Ophidian.png</DrawnIcon>
+	<IconSize>50</IconSize>
+	<Medallions InternalName="">
+		<All>L_Ophidian_01.png</All>
+	</Medallions>
+
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>In the Ophidian's lair you find finely-crafted vambraces - a master smith's final "on-site" creation.</Desc>
+	  <GameModifier>
+		<ModType>GiveItem</ModType>
+		<Attribute>ChainVambraces_Warm</Attribute>
+	  </GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+		<UnitInstance>
+			<UnitType>Ophidian</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Ophidian</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Naja</UnitType>
+			<Level>4</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Naja</UnitType>
+			<Level>4</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Naja</UnitType>
+			<Level>4</Level>
+		</UnitInstance>
+	</Encounter>
+
+	<!-- Spawned guys that wander around -->
+	<Encounter>
+		<Liklihood>-1</Liklihood>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>5</WanderingRadius>
+		
+		<UnitInstance>
+			<UnitType>Ophidian</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Ophidian</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+	</Encounter>
+
+	<OnSelectSFX>Click_Cave_Ophidian</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- DEMON LAIR 1 -->
+<GoodieHutType InternalName="FEC_Lair_Demons1">
+	<Name>Lair of the Demons</Name>
+	<Description>A foul stench fills the air; the rocks and stones themselves seem to radiate evil.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>F_Sorcery_Full.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+
+	<TileDesign>L_Death_Demon_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/L_Death_Demon_01.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>In the demon's lair you find the sword of a champion who fought his last battle here.</Desc>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>Broadsword_Champions</Attribute>
+			<Title>Alatair's Sword</Title>
+		</GameModifier>
+
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Lair of the Demons</StrVal>
+			<Unitclass>FEC_Lair_Demons_Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>47</OverrideX>
+			<OverrideY>18</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>AssassinDemon</UnitType>
+			<Level>6</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>AssassinDemon</UnitType>
+			<Level>6</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Lurk</UnitType>
+			<Level>4</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Lurk</UnitType>
+			<Level>4</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Lurk</UnitType>
+			<Level>4</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Lurk</UnitType>
+			<Level>4</Level>
+		</UnitInstance>
+	</Encounter>
+
+	<!-- Spawned guys that wander around -->
+	<Encounter>
+		<Liklihood>-1</Liklihood>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>5</WanderingRadius>
+		
+		<UnitInstance>
+			<UnitType>Lurk</UnitType>
+			<Level>4</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Lurk</UnitType>
+			<Level>4</Level>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Demon_Lair</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- DEMON LAIR DUMMY-->
+<GoodieHutType InternalName="FEC_Lair_Demons_Dummy">
+	<Name>Lair of the Demons</Name>
+	<Description>A foul stench fills the air; the rocks and stones themselves seem to radiate evil.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>F_Sorcery_Full.png</All>
+	</Medallions>
+
+	<HUDDisabled>1</HUDDisabled>
+		
+	<Destructable>0</Destructable>
+
+	<TileDesign>L_Death_Demon_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/L_Death_Demon_01.png</DrawnIcon>
+	<IconSize>75</IconSize>
+			
+	<OnSelectSFX>Click_Demon_Lair</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- FINAL BATTLE DOCK -->
+<GoodieHutType InternalName="FEC_GOODY_Dock">
+	<Name>Vas Norga</Name>
+	<Description>A small port city, open to man and Fallen alike.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>ScenicView.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>K_Harbor_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Harbor.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<SpawnOnClear>1</SpawnOnClear>		<!-- Don't show the encounter on the map -->
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+		<BattleIdentifier>ShirayneBattle</BattleIdentifier>
+
+		<UnitInstance>
+			<UnitType>FEC_UNIT_ShirayneDeathDemon</UnitType>
+			<Level>12</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Lurk</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Lurk</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Lurk</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Lurk</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Boat_01</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- CONQUERED HUMAN VILLAGE - AMMARKAN -->
+<GoodieHutType InternalName="FEC_GOODY_HumanVillageAmmarkan">
+	<Name>The Village of Ammarkan</Name>
+	<Description>Armor lies scattered on the road leading to the town gate, every piece of it broken, and burned. Shattered swords, and savaged saddlebags can be seen as well... from somewhere ahead comes the sound of cruel, mocking laughter...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BG48_Ruins.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>P_Imperium_Ruins_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Embassy.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<!-- CLEARING OUT THE WRAITHS GIVES THE PLAYER 5 HUMAN SOLDIERS AS A REWARD (BUT AS A TRIGGER) -->
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Wraith</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>The Village of Ammarkan</StrVal>
+			<Unitclass>FEC_GOODY_HumanVillageAmmarkan_Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>57</OverrideX>
+			<OverrideY>30</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Ruins_House</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- CONQUERED HUMAN VILLAGE - AMMARKAN DUMMY-->
+<GoodieHutType InternalName="FEC_GOODY_HumanVillageAmmarkan_Dummy">
+	<Name>The Village of Ammarkan</Name>
+	<Description>Armor lies scattered on the road leading to the town gate, every piece of it broken, and burned. Shattered swords, and savaged saddlebags can be seen as well... from somewhere ahead comes the sound of cruel, mocking laughter...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BG48_Ruins.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+		
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>P_Imperium_Ruins_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Embassy.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Ruins_House</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- CONQUERED HUMAN VILLAGE - KROYER'S HOLD -->
+<GoodieHutType InternalName="FEC_GOODY_HumanVillageKroyer">
+	<Name>Kroyer's Hold</Name>
+	<Description>A circle of devastation surrounds a shattered fortress; a dead horse lies near a great crater in the middle of the road, flies buzzing around it. Smoke rises from the ruins of the citadel.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BG17_BurningCastle.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+		
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>Q_Toppled_Castle_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Fortress.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<!-- CLEARING OUT THE WRAITHS GIVES THE PLAYER 5 HUMAN SOLDIERS AS A REWARD (BUT AS A TRIGGER) -->
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>FEC_UNIT_WraithSpellcaster</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Wraith</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Wraith</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Kroyer's Hold</StrVal>
+			<Unitclass>FEC_GOODY_HumanVillageKroyer_Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>54</OverrideX>
+			<OverrideY>34</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Ruins_House</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- CONQUERED HUMAN VILLAGE - KROYER'S HOLD DUMMY-->
+<GoodieHutType InternalName="FEC_GOODY_HumanVillageKroyer_Dummy">
+	<Name>Kroyer's Hold</Name>
+	<Description>A circle of devastation surrounds a shattered fortress; a dead horse lies near a great crater in the middle of the road, flies buzzing around it. Smoke rises from the ruins of the citadel.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BG17_BurningCastle.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+		
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>Q_Toppled_Castle_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Fortress.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Ruins_House</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- CONQUERED HUMAN VILLAGE - BRUKA -->
+<GoodieHutType InternalName="FEC_GOODY_HumanVillageBruka">
+	<Name>The Village of Bruka</Name>
+	<Description>The ground here is scorched and blackened; a massive stone wall has been toppled, and breached. In the distance, you can hear screaming...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BG50_FallenLand.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+		
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>L_Delins_Ruin_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Castle.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<!-- CLEARING OUT THE WRAITHS GIVES THE PLAYER 5 HUMAN SOLDIERS AS A REWARD (BUT AS A TRIGGER) -->
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>FEC_UNIT_WraithSpellcaster</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Wraith</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>The Village of Bruka</StrVal>
+			<Unitclass>FEC_GOODY_HumanVillageBruka_Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>60</OverrideX>
+			<OverrideY>34</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Ruins_House</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- CONQUERED HUMAN VILLAGE - BRUKA DUMMY-->
+<GoodieHutType InternalName="FEC_GOODY_HumanVillageBruka_Dummy">
+	<Name>The Village of Bruka</Name>
+	<Description>The ground here is scorched and blackened; a massive stone wall has been toppled, and breached. In the distance, you can hear screaming...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BG50_FallenLand.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+		
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>L_Delins_Ruin_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Castle.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Ruins_House</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- MEERGANA'S WRECKED VILLAGE -->
+<GoodieHutType InternalName="FEC_GOODY_MeerganaVillage">
+	<Name>The Village of Syraius</Name>
+	<Description>The remnants of a once-prosperous Urxen town. Seemingly uninhabited, and lifeless... though there are tracks leading to its breached gate...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Building_Inn1.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>G_Quest_Abandoned_Village_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Slums.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<OnSelectSFX>Click_Ruins_House</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- BANDIT OUTPOST -->
+<GoodieHutType InternalName="FEC_GOODY_BanditOutpost">
+	<Name>Hashaini Settlement</Name>
+	<Description>A camp of thieves; a safe harbor for all Hashaini in this region.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BanditCamp_Medallion.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>L_Bandit_Camp_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_WoodenWall.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>Around the bandit captain's neck you find a makeshift necklace with a ring strung upon it.</Desc>
+	  <GameModifier>
+		<ModType>GiveItem</ModType>
+		<Attribute>BandOfAgility</Attribute>
+	  </GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>1</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>BanditCaptain</UnitType>
+			<Level>8</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>BanditArcher</UnitType>
+			<Level>6</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Bandit</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Bandit</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Bandit</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Bandit_Tent</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- KRAX CAMP 1 - JANUSK ISN'T HERE -->
+<GoodieHutType InternalName="FEC_GOODY_KraxCamp1">
+	<Name>Raz Golka</Name>
+	<Description>Infamous prisoner camp of the Tazzars; now occupied by the Krax, whose flags fly over the camp's crude huts.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>RefugeeCamp.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>L_Bandit_Camp_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_WoodenWall.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>In the Krax camp you find a compass - handy for navigation.</Desc>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>Compass</Attribute>
+		</GameModifier>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Raz Golka</StrVal>
+			<Unitclass>FEC_GOODY_KraxCamp1_Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>47</OverrideX>
+			<OverrideY>31</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+		
+		<UnitInstance>
+			<UnitType>Unit_Medium_Krax</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Krax</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Krax</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Krax</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- KRAX CAMP 1 - JANUSK ISN'T HERE DUMMY-->
+<GoodieHutType InternalName="FEC_GOODY_KraxCamp1_Dummy">
+	<Name>Raz Golka</Name>
+	<Description>Infamous prisoner camp of the Tazzars; now occupied by the Krax, whose flags fly over the camp's crude huts.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>RefugeeCamp.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>L_Bandit_Camp_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_WoodenWall.png</DrawnIcon>
+	<IconSize>75</IconSize>
+		
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- JANUSK'S CAPTORS -->
+<GoodieHutType InternalName="FEC_GOODY_JanusksCaptors">
+	<Name>Camp of the Krax</Name>
+	<Description>A company of soldiers have set up shelters here. Above their makeshift huts flies the flag of Karavox, so-called 'Emperor' of the Krax.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>RefugeeCamp.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>L_Bandit_Camp_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_WoodenWall.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<!-- JANUSK IS SPAWNED AS A TRIGGER RESULT -->
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+		
+		<UnitInstance>
+			<UnitType>Unit_Medium_Krax</UnitType>
+			<Level>7</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Krax</UnitType>
+			<Level>6</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Krax</UnitType>
+			<Level>6</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Krax</UnitType>
+			<Level>6</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Krax</UnitType>
+			<Level>6</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Krax</UnitType>
+			<Level>6</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+		<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Camp of the Krax</StrVal>
+			<Unitclass>FEC_GOODY_JanusksCaptors_Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>43</OverrideX>
+			<OverrideY>34</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- JANUSK'S CAPTORS DUMMY-->
+<GoodieHutType InternalName="FEC_GOODY_JanusksCaptors_Dummy">
+	<Name>Camp of the Krax</Name>
+	<Description>A company of soldiers have set up shelters here. Above their makeshift huts flies the flag of Karavox, so-called 'Emperor' of the Krax.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>RefugeeCamp.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>L_Bandit_Camp_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_WoodenWall.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<!-- JANUSK IS SPAWNED AS A TRIGGER RESULT -->
+	
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- Kos Piatra Goody -->
+<GoodieHutType InternalName="FEC_GOODY_KosPiatra">
+	<Name>Kos Piatra</Name>
+	<Description>A miraculous sight, in the midst of all this devastation. A city whose walls who have not been breached, where inns and merchants remain - for the moment - open for business.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Building_LargeCity1.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>G_Kos_Piatra</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Palace.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Kos Piatra</StrVal>
+			<Unitclass>FEC_GOODY_KosPiatra_Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>46</OverrideX>
+			<OverrideY>25</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Tower</OnSelectSFX>
+
+</GoodieHutType>
+
+
+
+<!-- Kos Piatra Goody Dummy-->
+<GoodieHutType InternalName="FEC_GOODY_KosPiatra_Dummy">
+	<Name>Kos Piatra</Name>
+	<Description>A miraculous sight, in the midst of all this devastation. A city whose walls who have not been breached, where inns and merchants remain - for the moment - open for business.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Building_LargeCity1.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>G_Kos_Piatra</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Palace.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<OnSelectSFX>Click_Tower</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- Kos Piatra Tomb -->
+<GoodieHutType InternalName="FEC_GOODY_Tomb">
+	<Name>Crypt of the Tazzars</Name>
+	<Description>Within lie the bodies of those who ruled Kos Piatra - the Tazzars of old, many of whom were rumored to dabble in dark magics.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>G_Quest_Tomb_01.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>G_Kos_Piatra_Tomb</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_AmethystVault.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<Treasure>
+	  <GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Tomb</StrVal>
+			<Unitclass>FEC_GOODY_TombDummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>48</OverrideX>
+			<OverrideY>20</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<SpawnOnClear>1</SpawnOnClear>		<!-- Don't show the encounter on the map -->
+		<WillRespawn>0</WillRespawn>
+        <TacticalMap>T_Cave_Generic_01</TacticalMap>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>FEC_UNIT_DarkWizard</UnitType>
+			<UnitName>Goran Vakul</UnitName>
+			<Level>10</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Lurk</UnitType>
+			<Level>6</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Lurk</UnitType>
+			<Level>6</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Lurk</UnitType>
+			<Level>6</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Lurk</UnitType>
+			<Level>6</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Lurk</UnitType>
+			<Level>6</Level>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Tomb</OnSelectSFX>	
+	
+</GoodieHutType>
+
+
+<!-- Kos Piatra Tomb DUMMY -->
+<GoodieHutType InternalName="FEC_GOODY_TombDummy">
+	<Name>Crypt of the Tazzars</Name>
+	<Description>Within lie the bodies of those who ruled Kos Piatra - the Tazzars of old, many of whom were rumored to dabble in dark magics.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>G_Quest_Tomb_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>G_Kos_Piatra_Tomb</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_AmethystVault.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Tomb</OnSelectSFX>	
+	
+</GoodieHutType>
+
+
+<!-- MONASTERY -->
+<GoodieHutType InternalName="FEC_GOODY_Map3Monastery">
+	<Name>Baruud Ma</Name>
+	<Description>A monastery settled long ago by the Padars of Anthuane; those who worship the five elemental lords of old.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>K_Scenic_View_01_Thumb.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>G_Monastery</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_EreogsTower.png</DrawnIcon>
+	<IconSize>75</IconSize>
+		
+	<Treasure>
+		 <GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Monastery</StrVal>
+			<Unitclass>FEC_GOODY_Map3Monastery_Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>35</OverrideX>
+			<OverrideY>12</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+</GoodieHutType>
+
+
+<!-- MONASTERY DUMMY-->
+<GoodieHutType InternalName="FEC_GOODY_Map3Monastery_Dummy">
+	<Name>Baruud Ma</Name>
+	<Description>A monastery settled long ago by the Padars of Anthuane; those who worship the five elemental lords of old.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>K_Scenic_View_01_Thumb.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>G_Monastery</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_EreogsTower.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+</GoodieHutType>
+
+
+<!-- GREAT ELDER'S HIDEOUT -->
+<GoodieHutType InternalName="FEC_GOODY_GreatElder">
+	<Name>A Simple Hut</Name>
+	<Description>In a clearing atop a rocky plateau stands a shelter of wood and stone.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BG15_Dark.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>G_GreatElder_Hut</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/K_Hovel1.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<SpawnOnClear>1</SpawnOnClear>		<!-- Don't show the encounter on the map -->
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+		<BattleIdentifier>GreatElderBattle</BattleIdentifier>
+
+		<UnitInstance>
+			<UnitType>FEC_UNIT_GreatElder</UnitType>
+			<Level>11</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>ObsidianGolem</UnitType>
+			<Level>1</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>ObsidianGolem</UnitType>
+			<Level>1</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>ObsidianGolem</UnitType>
+			<Level>1</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>ObsidianGolem</UnitType>
+			<Level>1</Level>
+		</UnitInstance>
+	</Encounter>
+	
+	<Treasure>
+		 <GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Great Elder's Hideout</StrVal>
+			<Unitclass>FEC_GOODY_GreatElderDummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>33</OverrideX>
+			<OverrideY>7</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Wood_Hut</OnSelectSFX>	
+	
+</GoodieHutType>
+
+
+<!-- GREAT ELDER'S HIDEOUT DUMMY -->
+<GoodieHutType InternalName="FEC_GOODY_GreatElderDummy">
+	<Name>A Simple Hut</Name>
+	<Description>In a clearing atop a rocky plateau stands a shelter of wood and stone.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BG15_Dark.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>G_GreatElder_Hut</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/K_Hovel1.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Wood_Hut</OnSelectSFX>	
+
+</GoodieHutType>
+
+
+<!-- KRAXIS FORTRESS NEAR THE DOCK -->
+<GoodieHutType InternalName="FEC_GOODY_KraxisFortress">
+	<Name>Norga Krem</Name>
+	<Description>A fortress, filled with Karavox's soldiers... warriors of the army of the Krax.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>F_Imperium_Full.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+
+	<TileDesign>G_Fallen_Fortress_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Fortress.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>In the fortress you find two healing potions, which you quickly put into your bag.</Desc>
+	  <GameModifier>
+		<ModType>GiveItem</ModType>
+		<Attribute>Potion_HealingStrong</Attribute>
+	  </GameModifier>
+	  <GameModifier>
+		<ModType>GiveItem</ModType>
+		<Attribute>Potion_HealingStrong</Attribute>
+		<BoolVal1>1</BoolVal1>		<!-- Don't show the item popup -->
+	  </GameModifier>
+	  <GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Norga Krem</StrVal>
+			<Unitclass>FEC_GOODY_KraxisFortress_Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>27</OverrideX>
+			<OverrideY>19</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>Unit_Medium_Krax</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Group</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Krax</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Group</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Krax</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Krax</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+<GoodieHutType InternalName="FEC_GOODY_KraxisFortress_Dummy">
+	<Name>Norga Krem</Name>
+	<Description>A fortress, filled with Karavox's soldiers... warriors of the army of the Krax.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>F_Imperium_Full.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>G_Fallen_Fortress_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Fortress.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- WILDING SETTLEMENT 1 -->
+<GoodieHutType InternalName="FEC_GOODY_WildingSettlement1">
+	<Name>A Wilding Settlement</Name>
+	<Description>A primitive village; home to a tribe of these desert warriors.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Hut_Medallion.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>R_Wilding_Camp_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/K_Hut1.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>In the Wilding village you find some strange but seemingly effective healing herbs.</Desc>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>TildaHerbs</Attribute>
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>1</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>WildingRider</UnitType>
+			<Level>6</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>WildingRider</UnitType>
+			<Level>6</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Camp_Darkling</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- WILDING SETTLEMENT 2 -->
+<GoodieHutType InternalName="FEC_GOODY_WildingSettlement2">
+	<Name>A Wilding Settlement</Name>
+	<Description>A primitive village; home to a tribe of these desert warriors.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Hut_Medallion.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>R_Wilding_Camp_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/K_Hut1.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>In the Wilding village you find some strange but seemingly effective healing herbs.</Desc>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>TildaHerbs</Attribute>
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>1</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>WildingShaman</UnitType>
+			<Level>6</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>WildingWarrior</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>WildingWarrior</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Wilding</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Camp_Darkling</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- WILDING SETTLEMENT 3 - NOT USED ANY MORE-->
+<GoodieHutType InternalName="FEC_GOODY_WildingSettlement3">
+	<Name>A Wilding Settlement</Name>
+	<Description>A primitive village; home to a tribe of these desert warriors.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Hut_Medallion.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>R_Wilding_Camp_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/K_Hut1.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>In the Wilding village you find some strange but seemingly effective healing herbs.</Desc>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>TildaHerbs</Attribute>
+		</GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>1</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>Wilding</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Group</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Wilding</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Group</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Wilding</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Group</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Camp_Darkling</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- EARTH ELEMENTAL LAIR 1 -->
+<GoodieHutType InternalName="FEC_Lair_EarthElemental1">
+	<Name>Earth Elemental Sanctum</Name>
+	<Description>Here stands a clearing, surrounded by a ring of dead trees. In the center of that ring,  standing knee-deep in the deep, fetid loam of the forest, waits a creature out of legend.</Description>
+	<Rarity>50</Rarity>
+	<MinDistanceFromStartingPoints>8</MinDistanceFromStartingPoints>
+	<BarredTerrain>River</BarredTerrain>
+	<PreferredTerrain>Category:Land</PreferredTerrain>
+	<ReleaseGuardiansOnInfluenceHit>1</ReleaseGuardiansOnInfluenceHit>
+	<SupportedResourceType>EarthShard</SupportedResourceType>
+	<SpawnRating>0</SpawnRating>
+	<TileDesign>L_Earth_Elemental_01</TileDesign>
+	<DrawnIcon>Lair_EarthElemental.dds</DrawnIcon>
+	<IconSize>50</IconSize>
+	<Medallions InternalName="">
+		<All>L_Earth_Elemental_01.png</All>
+	</Medallions>
+	
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>Wedged into a crack on the elemental's back you find a mysterious flute.</Desc>
+	  <GameModifier>
+		<ModType>GiveItem</ModType>
+		<Attribute>SilverFlute</Attribute>
+	  </GameModifier>
+	</Treasure>
+	
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+		<UnitInstance>
+			<UnitType>EarthElemental</UnitType>
+			<Level>10</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>StoneGolem</UnitType>
+			<Level>6</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>StoneGolem</UnitType>
+			<Level>6</Level>
+		</UnitInstance>
+	</Encounter>
+
+	<!-- Spawned guys that wander around -->
+	<Encounter>
+		<Liklihood>-1</Liklihood>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>5</WanderingRadius>
+		
+		<UnitInstance>
+			<UnitType>SandGolem</UnitType>
+			<Level>8</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>SandGolem</UnitType>
+			<Level>8</Level>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Click_Earth_Elemental_Lair</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- KRAX ARMY BASE 1 -->
+<GoodieHutType InternalName="FEC_GOODY_KraxArmyBase1">
+	<Name>Krax Army Base</Name>
+	<Description>The flags of Kraxis - of the traitor Karavox - fly over this formidable-looking encampment.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Building_Fallen_Castle1.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+
+	<TileDesign>F_Fort_02</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Barracks.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<UpgradesToGoodieHut>FEC_GOODY_KraxArmyBase2</UpgradesToGoodieHut>
+	<UpgradesToGoodieHutInTurns>52</UpgradesToGoodieHutInTurns>
+
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>Unit_Horseman_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Horseman_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Krax Army Base</StrVal>
+			<Unitclass>FEC_GOODY_KraxArmyBase1_Dummy</Unitclass>
+			<OverrideX>42</OverrideX>
+			<OverrideY>40</OverrideY>
+			<BoolVal1>1</BoolVal1>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- KRAX ARMY BASE 1 DUMMY-->
+<GoodieHutType InternalName="FEC_GOODY_KraxArmyBase1_Dummy">
+	<Name>Krax Army Base</Name>
+	<Description>The flags of Kraxis - of the traitor Karavox - fly over this formidable-looking encampment.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Building_Fallen_Castle1.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>F_Fort_02</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Barracks.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- KRAX ARMY BASE 2 -->
+<GoodieHutType InternalName="FEC_GOODY_KraxArmyBase2">
+	<Name>Krax Army Base</Name>
+	<Description>The flags of Kraxis - of the traitor Karavox - fly over this formidable-looking encampment.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Building_Fallen_Castle1.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<TileDesign>F_Fort_02</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Barracks.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<UpgradesToGoodieHut>FEC_GOODY_KraxArmyBase3</UpgradesToGoodieHut>
+	<UpgradesToGoodieHutInTurns>35</UpgradesToGoodieHutInTurns>
+
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>Unit_Horseman_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Horseman_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+
+	<!-- Spawned guys that wander around -->
+	<Encounter>
+		<Liklihood>-1</Liklihood>
+		<WillRespawn>1</WillRespawn>
+		<RespawnChance>50</RespawnChance>
+		<RespawnDelay>100</RespawnDelay>
+		<WanderingRadius>50</WanderingRadius>
+		<Hunter>1</Hunter>
+		
+		<UnitInstance>
+			<UnitType>Unit_Medium_Krax</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Krax</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Krax</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Krax Army Base</StrVal>
+			<Unitclass>FEC_GOODY_KraxArmyBase2_Dummy</Unitclass>
+			<OverrideX>42</OverrideX>
+			<OverrideY>40</OverrideY>
+			<BoolVal1>1</BoolVal1>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- KRAX ARMY BASE 2 DUMMY-->
+<GoodieHutType InternalName="FEC_GOODY_KraxArmyBase2_Dummy">
+	<Name>Krax Army Base</Name>
+	<Description>The flags of Kraxis - of the traitor Karavox - fly over this formidable-looking encampment.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Building_Fallen_Castle1.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	<HUDDisabled>1</HUDDisabled>
+	
+	<TileDesign>F_Fort_02</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Barracks.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- KRAX ARMY BASE 3 -->
+<GoodieHutType InternalName="FEC_GOODY_KraxArmyBase3">
+	<Name>Krax Army Base</Name>
+	<Description>The flags of Kraxis - of the traitor Karavox - fly over this formidable-looking encampment.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Barracks_Medallion.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<TileDesign>F_Hamlet_02</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Barracks.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>Unit_Horseman_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Horseman_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Krax</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+
+	<!-- Spawned guys that wander around -->
+	<Encounter>
+		<Liklihood>-1</Liklihood>
+		<WillRespawn>1</WillRespawn>
+		<RespawnChance>50</RespawnChance>
+		<RespawnDelay>100</RespawnDelay>
+		<WanderingRadius>50</WanderingRadius>
+		<Hunter>1</Hunter>
+		
+		<UnitInstance>
+			<UnitType>Unit_Horseman_Krax</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Krax</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Krax</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Krax</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Krax</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Krax</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Krax Army Base</StrVal>
+			<Unitclass>FEC_GOODY_KraxArmyBase3_Dummy</Unitclass>
+			<OverrideX>42</OverrideX>
+			<OverrideY>40</OverrideY>
+			<BoolVal1>1</BoolVal1>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- KRAX ARMY BASE 3 DUMMY-->
+<GoodieHutType InternalName="FEC_GOODY_KraxArmyBase3_Dummy">
+	<Name>Krax Army Base</Name>
+	<Description>The flags of Kraxis - of the traitor Karavox - fly over this formidable-looking encampment.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Barracks_Medallion.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	<HUDDisabled>1</HUDDisabled>
+	
+	<TileDesign>F_Hamlet_02</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Barracks.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Village_Click_1</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- WRAITH ARMY BASE 1 -->
+<GoodieHutType InternalName="FEC_GOODY_WraithArmyBase1">
+	<Name>Warriors of the Enchantress</Name>
+	<Description>The tents and training-grounds of this camp are filled with Ceresa's minions - those transformed by the power of the Stone into Wraiths. </Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Building_Fallen_Castle1.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+
+	<TileDesign>F_Fort_02</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Barracks.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<UpgradesToGoodieHut>FEC_GOODY_WraithArmyBase2</UpgradesToGoodieHut>
+	<UpgradesToGoodieHutInTurns>52</UpgradesToGoodieHutInTurns>
+
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>FEC_UNIT_WraithSpellcaster</UnitType>
+			<Level>7</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Wraith</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Warriors of the Enchantress</StrVal>
+			<Unitclass>FEC_GOODY_WraithArmyBase1_Dummy</Unitclass>
+			<OverrideX>49</OverrideX>
+			<OverrideY>14</OverrideY>
+			<BoolVal1>1</BoolVal1>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Village_Click_3</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- WRAITH ARMY BASE 1 DUMMY-->
+<GoodieHutType InternalName="FEC_GOODY_WraithArmyBase1_Dummy">
+	<Name>Warriors of the Enchantress</Name>
+	<Description>The tents and training-grounds of this camp are filled with Ceresa's minions - those transformed by the power of the Stone into Wraiths. </Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Building_Fallen_Castle1.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>F_Fort_02</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Barracks.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<OnSelectSFX>Village_Click_3</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- WRAITH ARMY BASE 2 -->
+<GoodieHutType InternalName="FEC_GOODY_WraithArmyBase2">
+	<Name>The Army of Wraith</Name>
+	<Description>The tents and training-grounds of this camp are filled with Ceresa's minions - those transformed by the power of the Stone into Wraiths. </Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Building_Fallen_Castle1.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<TileDesign>F_Fort_02</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Barracks.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<UpgradesToGoodieHut>FEC_GOODY_WraithArmyBase3</UpgradesToGoodieHut>
+	<UpgradesToGoodieHutInTurns>35</UpgradesToGoodieHutInTurns>
+
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>FEC_UNIT_WraithSpellcaster</UnitType>
+			<Level>7</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Wraith</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+
+	<!-- Spawned guys that wander around -->
+	<Encounter>
+		<Liklihood>-1</Liklihood>
+		<WillRespawn>1</WillRespawn>
+		<RespawnChance>50</RespawnChance>
+		<RespawnDelay>100</RespawnDelay>
+		<WanderingRadius>50</WanderingRadius>
+		<Hunter>1</Hunter>
+		
+		<UnitInstance>
+			<UnitType>FEC_UNIT_WraithSpellcaster</UnitType>
+			<Level>5</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>3</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Village_Click_3</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- WRAITH ARMY BASE 3 -->
+<GoodieHutType InternalName="FEC_GOODY_WraithArmyBase3">
+	<Name>The Army of Wraith</Name>
+	<Description>The tents and training-grounds of this camp are filled with Ceresa's minions - those transformed by the power of the Stone into Wraiths. </Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Barracks_Medallion.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<TileDesign>F_Hamlet_02</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Barracks.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Encounter>
+		<Liklihood>100</Liklihood>
+		<LevelLo>1</LevelLo>
+		<LevelHi>1</LevelHi>
+		<WillRespawn>0</WillRespawn>
+		<WanderingRadius>0</WanderingRadius>
+
+		<UnitInstance>
+			<UnitType>FEC_UNIT_WraithSpellcaster</UnitType>
+			<Level>7</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Wraith</UnitType>
+			<Level>5</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+
+	<!-- Spawned guys that wander around -->
+	<Encounter>
+		<Liklihood>-1</Liklihood>
+		<WillRespawn>1</WillRespawn>
+		<RespawnChance>50</RespawnChance>
+		<RespawnDelay>100</RespawnDelay>
+		<WanderingRadius>50</WanderingRadius>
+		<Hunter>1</Hunter>
+		
+		<UnitInstance>
+			<UnitType>FEC_UNIT_WraithSpellcaster</UnitType>
+			<Level>4</Level>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Medium_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Light_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+		<UnitInstance>
+			<UnitType>Unit_Archer_Wraith</UnitType>
+			<Level>4</Level>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+		</UnitInstance>
+	</Encounter>
+	
+	<OnSelectSFX>Village_Click_3</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- Blacksmith's Hut This Goodie Hut is not being used/needed until the treasue spawns in the correct location for the blacksmith quest-->
+
+<GoodieHutType InternalName="FEC_GOODY_Blacksmith_Hut_Empty">
+	<Name>A Deserted Homestead</Name>
+	<Description>Here stands an immaculate - but uninhabited - house, alongside an empty blacksmith's forge.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Q_OddHut_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+	
+	<TileDesign>G_Blacksmith_Hut</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_RefugeeCamp.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Wood_Hut</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- Blacksmith's Hut-->
+<GoodieHutType InternalName="FEC_GOODY_Blacksmith_Hut">
+	<Name>A Deserted Homestead</Name>
+	<Description>Here stands an immaculate - but uninhabited - house, alongside an empty blacksmith's forge.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Q_OddHut_01.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>	
+	<UsesQuestHUD>1</UsesQuestHUD>
+	<TileDesign>G_Blacksmith_Hut</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_RefugeeCamp.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+		<Title>Item Discovered!</Title>
+		<Desc>In the blacksmith's hut you find your reward - the Doom Hammer, an incredibly powerful weapon.</Desc>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Attribute>Warhammer_Doom</Attribute>
+		</GameModifier>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>A Deserted Homestead</StrVal>
+			<Unitclass>FEC_GOODY_Blacksmith_Hut_Empty</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>38</OverrideX>
+			<OverrideY>34</OverrideY>
+		</GameModifier>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Blacksmith Hut</StrVal>
+			<Unitclass>FEC_GOODY_Remnars_Hiding_Spot_Dummy</Unitclass>
+			<OverrideX>40</OverrideX>
+			<OverrideY>35</OverrideY>
+			<BoolVal1>1</BoolVal1>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Wood_Hut</OnSelectSFX>
+
+</GoodieHutType>
+
+<!-- Outlaw's Bandanas-->
+<GameItemType InternalName="FEC_Loot_Bandana">
+	<DisplayName>Bandit's Bandana</DisplayName>
+	<Description>Bandit's Bandana, he will have little use for this now. (Quest Item)</Description>
+	<ShopValue>0</ShopValue>
+	<IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+	<IsUsable>0</IsUsable>
+	<ArtDef>Loot_Bandana_ArtDef</ArtDef>
+	<GameItemTypeArtDef InternalName="Loot_Bandana_ArtDef">
+		<GameItemTypeModelPack InternalName="Loot_Bandana_Default">
+			<IconFile>gfx\items\Scarf.png</IconFile>
+			<TintR>200</TintR>
+			<TintG>200</TintG>
+			<TintB>200</TintB>
+			<GameItemTypeModel></GameItemTypeModel>
+		</GameItemTypeModelPack>
+	</GameItemTypeArtDef>
+</GameItemType>
+
+
+<!-- Stone Arch - NOT USED ANY MORE-->
+<GoodieHutType InternalName="FEC_GOODY_STONE_ARCH">
+	<Name>Stone Archway</Name>
+	<Description>An unusual rock formation - a natural landmark in the wilderness...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>L_Naja_01.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>G_Stone_Arch</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_StoneDeposit.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Bone_Arch</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- QUESTS -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+
+
+
+
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- Blacksmith's Quest-->
+<!-- **************************************************************************************************************************************************************************** -->
+
+<QuestDef InternalName="FEC_BLACKSMITH_QUEST">
+	<DisplayName>Plague of the Green Men</DisplayName>
+	<Description>You are enjoying a moment's rest - a brief respite from the trials of your journey - when a man steps into view, and strides toward your camp. Ferensu and Rihossa hurriedly get to their feet, raising their weapons. Dariun looks on, remaining seated.
+
+"At your ease, warriors. My name is Cowan Remanna, and I mean ye no harm. None of ye." From the pack he carries then man draws a battleaxe, which he lays down gently on the ground before you.
+
+Dariun rises to his feet and steps forward. "A fine weapon," he says, examining the axe. "Well-crafted."
+
+"You'll find no better," the man says. "I forged it myself, sir, with tools from the time before this one. Tools belonging to the Aivern themselves. I'll give you that axe and more, if you clear the Green Men from this land."
+
+"The Green Men?" you ask. "Who?"
+
+"Thieves, my Lord. A pack of them. Dressed in vests of green. They threaten my home. My family. My forge. I ask for your assistance sir, in fighting them." More thieves. Always with the thieves. Doesn't anyone here make an honest living?
+
+Dariun speaks. "My lord, it's our duty to help the people who are unable to defend themselves. I ask that you consider his request, although I'll understand if you decide against it."</Description>
+	<ShortTextAccept>We will aid you in your fight, Cowen Remanna.</ShortTextAccept>
+	<ShortTextDeny>Keep your weapon, Cowen. We cannot assist you.</ShortTextDeny>
+	<RewardImage>Alchemy_Painting.png</RewardImage>
+	<SuccessText>As you turn from the battlefield, and the last of your fallen foes, Remanna steps forward.
+
+"I thank you, Lord," the blacksmith says. "You kept your word, and vanquished the Green Men. And now I'll keep mine. My forge is located southwest of here, near a stone archway; journey there, and you will find the reward I promised you."</SuccessText>
+	<QuestClass>Minor</QuestClass>
+	<Repeatable>0</Repeatable>
+	<TriggerType>QuestLocation</TriggerType>
+	<TriggerOrigin>EventLocation</TriggerOrigin>
+	<SpawnRating>0</SpawnRating>
+	<Image>B1_C4_TarthanBowmen.png</Image>
+	<PrefQuestLoc>FEC_GOODY_Remnars_Hiding_Spot</PrefQuestLoc>
+	
+	<!-- Spawn goody which gives the reward to replace the "dummy" -->
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Blacksmith Hut</StrVal>
+			<Unitclass>FEC_GOODY_Blacksmith_Hut</Unitclass>
+			<OverrideX>38</OverrideX>
+			<OverrideY>34</OverrideY>
+			<BoolVal1>1</BoolVal1>
+		</GameModifier>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>Blacksmith Hut</StrVal>
+			<Unitclass>FEC_GOODY_Remnars_Hiding_Spot_Dummy</Unitclass>
+			<OverrideX>40</OverrideX>
+			<OverrideY>35</OverrideY>
+			<BoolVal1>1</BoolVal1>
+		</GameModifier>
+	</Treasure>
+	
+	<QuestObjectiveDef>
+		<ObjectiveID>0</ObjectiveID>
+		<NextObjectiveID>-1</NextObjectiveID>
+	 
+		<Treasure>
+			<GameModifier>
+				<ModType>GiveItem</ModType>
+				<Attribute>Axe_Balanced</Attribute>
+			</GameModifier>
+		</Treasure>
+
+		<QuestConditionDef>
+			<ID>0</ID>
+			<Class>Success</Class>
+			<Type>CheckForItem</Type>
+			<TextData>FEC_Loot_Bandana</TextData>
+			<NumericData>5</NumericData>
+		</QuestConditionDef>
+		
+		<QuestConditionDef>
+			<ID>1</ID>
+			<DependentCondition>0</DependentCondition>
+			<Objective>
+                <Icon>Mana_32.png</Icon>
+                <Text>Find and defeat the Green Men, and Remanna will reward you.</Text>
+            </Objective>
+			<Class>Success</Class>
+			<Type>UnitEntersQuestLocation</Type>	
+			<CannotCompleteText>You have not finished your task; the Green Men remain a threat to this land.</CannotCompleteText>
+		</QuestConditionDef>
+		
+	</QuestObjectiveDef>
+</QuestDef>
+
+<!-- Remnar's Hiding Spot-->
+<QuestLocationType InternalName="FEC_GOODY_Remnars_Hiding_Spot">
+	<Name>Rockfall</Name>
+	<Description>Massive boulders, a natural hiding place, behind which a single form can be seen pacing, anxiously...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>GoldDeposit.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+
+	<TileDesign>G_Remnar_Hiding_Spot</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_RefugeeCamp.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Bone_Arch</OnSelectSFX>
+	
+</QuestLocationType>
+
+<!-- Remnar's Hiding Spot Dummy-->
+<GoodieHutType InternalName="FEC_GOODY_Remnars_Hiding_Spot_Dummy">
+	<Name>Rockfall</Name>
+	<Description>Massive boulders, a natural hiding place, behind which a single form can be seen pacing, anxiously...</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>GoldDeposit.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>G_Remnar_Hiding_Spot</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_RefugeeCamp.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Bone_Arch</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- Fugitive's Quest-->
+<!-- **************************************************************************************************************************************************************************** -->
+
+<QuestDef InternalName="FEC_FUGITIVE_QUEST">
+	<DisplayName>Dark Hideout</DisplayName>
+	<Description>You come accross an old raggidy tent with a dark figure inside.</Description>
+	<AllowQuestRejection>0</AllowQuestRejection>
+	<ShortTextAccept>Inspect the area</ShortTextAccept>
+	<ShortTextDeny>Ignore it and keep to yourself.</ShortTextDeny>
+	<RewardImage>Tech_Refined_Economics.png</RewardImage>
+	<SuccessText>Ruga - as you expected - was not interested in returning to Bruznii with you to face justice. He fought. He died. You rip the medallion from his neck, and take it to give it to Brugnaddin on your return to the village, in lieu of returning with the killer himself.. </SuccessText>
+	<QuestClass>Minor</QuestClass>
+	<Repeatable>0</Repeatable>
+	<TriggerType>QuestLocation</TriggerType>
+	<TriggerOrigin>EventLocation</TriggerOrigin>
+	<SpawnRating>0</SpawnRating>
+	<Image>L_Champion_Kingdom_01.png</Image>
+	<PrefQuestLoc>FEC_GOODY_FrankieCamp</PrefQuestLoc>
+	
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>A small Camp site.</StrVal>
+			<Unitclass>FEC_GOODY_FrankieCamp_Dummy</Unitclass>
+			<OverrideX>55</OverrideX>
+			<OverrideY>18</OverrideY>
+			<BoolVal1>1</BoolVal1>
+		</GameModifier>
+	</Treasure>
+	
+	<QuestObjectiveDef>
+		<ObjectiveID>0</ObjectiveID>
+		<NextObjectiveID>1</NextObjectiveID>
+		
+				<Description>A man emerges from the camp before you; he wears the medallion Brugnaddin described to you, with the image of Goran Vakul upon it.
+
+"I am Ivann Ruga," he says. "You look for me?"
+
+"Yes." You step forward. "I come from Ilza Brugnaddin. She says - "
+
+"Yes - I killed her brother." Ruga shrugs. "But it was self-defense. He tried to steal my horse. I hit him - like so - he fell to ground, came up holding knife. I had no choice."
+
+You meet the man's eyes. It is hard to read, exactly, what you see there. "If you're innocent," you ask, "then why did you run?"
+
+"Brugnaddin is formidable woman," he says. "With much money. She wants me dead, if I stay in Bruznii, I am dead. So I leave. I knew she would send someone after me - I am impressed, though, you find me so soon."</Description>
+		<ChoiceText>A man emerges from the camp before you; he wears the medallion Brugnaddin described to you, with the image of Goran Vakul upon it.
+
+"I am Ivann Ruga," he says. "You look for me?"
+
+"Yes." You step forward. "I come from Ilza Brugnaddin. She says - "
+
+"Yes - I killed her brother." Ruga shrugs. "But it was self-defense. He tried to steal my horse. I hit him - like so - he fell to ground, came up holding knife. I had no choice."
+
+You meet the man's eyes. It is hard to read, exactly, what you see there. "If you're innocent," you ask, "then why did you run?"
+
+"Brugnaddin is formidable woman," he says. "With much money. She wants me dead, if I stay in Bruznii, I am dead. So I leave. I knew she would send someone after me - I am impressed, though, you find me so soon."</ChoiceText>
+		<ChoiceMedallion>FE_Camp_Ruga.png</ChoiceMedallion>
+        <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>	
+		
+		<QuestChoiceDef>
+				<Description>Come with us, Ruga. Justice awaits.</Description>
+				<NextObjectiveID>1</NextObjectiveID>
+				<Encounter>
+                    <Liklihood>100</Liklihood>
+                    <BattleIdentifier>FEC_UNIT_FRANKIE</BattleIdentifier>
+                    <WillRespawn>0</WillRespawn>
+                    <WanderingRadius>0</WanderingRadius>
+						<UnitInstance>
+							<UnitType>FEC_UNIT_FRANKIE</UnitType>
+							<UnitName>Ruga</UnitName>
+							<UnitSubclassType>Champion</UnitSubclassType>
+							<Level>10</Level>
+						</UnitInstance>
+                </Encounter>
+			</QuestChoiceDef>
+
+			<QuestChoiceDef>
+			<QuestFailure>1</QuestFailure>
+				
+					<Treasure>
+						<GameModifier>
+							<ModType>Map</ModType>
+							<Attribute>CreateGoodieHut</Attribute>
+							<StrVal>A Small Village</StrVal>
+							<Unitclass>FEC_GOODY_SMALL_VILLAGE_DUMMY</Unitclass>
+							<OverrideX>50</OverrideX>
+							<OverrideY>22</OverrideY>
+							<BoolVal1>1</BoolVal1>
+						</GameModifier>
+					</Treasure>
+					
+					<Treasure>
+						<GameModifier InternalName="Reward1">
+							<ModType>Resource</ModType>
+							<Attribute>RefinedCrystal</Attribute>
+							<Value>10000</Value>
+						</GameModifier>
+					</Treasure>
+				
+				<Description>Fine, I'll let you go. You would do well to travel fast, and far.</Description>
+					<Treasure>
+						<GameModifier>
+							<ModType>Unit</ModType>
+							<Attribute>UnitJoinArmy</Attribute>
+							<StrVal>FEC_UNIT_FRANKIE</StrVal>
+							<StrVal2>Ivann Ruga</StrVal2>
+							<Value>10</Value>
+							<Unitclass>Champion</Unitclass>
+						</GameModifier>
+					</Treasure>
+			</QuestChoiceDef>
+			
+			<QuestChoiceDef>
+				<ObjectiveID>0</ObjectiveID>
+			     <Description>I'll come back later if I'm interested</Description>
+                <NextObjectiveID>0</NextObjectiveID>
+           </QuestChoiceDef>
+			
+	</QuestObjectiveDef>
+
+	<QuestObjectiveDef>
+	<ObjectiveID>1</ObjectiveID>	
+	<QuestEnd>1</QuestEnd>
+	
+		<QuestConditionDef>
+			<Description>Ruga Attacks!</Description>
+			<Class>Success</Class>
+			<Type>BattleFinished</Type>
+			<TextData>FEC_UNIT_FRANKIE</TextData>
+			<MoreTextData>Victory</MoreTextData>
+		</QuestConditionDef>
+		
+		<QuestConditionDef>
+			<Description>You tell Ruga to flee; instead, he stands before you a moment, a puzzled look across his face.
+
+"You do not take me back to Bruznii?" he asks. "You believe Ruga?"
+
+"I do. Now go, before I change my mind."
+
+"It has been a long time since someone has taken Ruga's word. I thank you." The man bows his head, and then, to your astonishment, he goes down on one knee. "Now Ruga pledges you his service, Lord Relias. From this moment forward, until day he dies."
+
+It seems your compassion has won you a new loyal companion.</Description>
+			<Class>Failure</Class>
+			<Type>BattleFinished</Type>
+			<TextData>FEC_UNIT_FRANKIE</TextData>
+			<MoreTextData>Defeat</MoreTextData>
+		</QuestConditionDef>
+	</QuestObjectiveDef>
+</QuestDef>
+
+<!-- FRANKIE'S CAMP -->
+<QuestLocationType InternalName="FEC_GOODY_FrankieCamp">
+	<Name>A Traveler's Campsite</Name>
+	<Description>A small Camp site.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BanditCamp_Medallion.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>L_Bandit_Camp_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_RefugeeCamp.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<Treasure>
+		<GameModifier>
+			<ModType>Map</ModType>
+			<Attribute>CreateGoodieHut</Attribute>
+			<StrVal>A Traveler's Campsite</StrVal>
+			<Unitclass>FEC_GOODY_FrankieCamp_Dummy</Unitclass>
+			<BoolVal1>1</BoolVal1>
+			<OverrideX>55</OverrideX>
+			<OverrideY>18</OverrideY>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Tent</OnSelectSFX>
+	
+</QuestLocationType>
+
+<!-- FRANKIE'S CAMP DUMMY-->
+<GoodieHutType InternalName="FEC_GOODY_FrankieCamp_Dummy">
+	<Name>A Traveler's Campsite</Name>
+	<Description>A small Camp site.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>BanditCamp_Medallion.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+
+	<HUDDisabled>1</HUDDisabled>
+		
+	<TileDesign>L_Bandit_Camp_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_RefugeeCamp.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Tent</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- SMALL VILLAGE LOOKING FOR FUGITIVE-->
+
+<GoodieHutType InternalName="FEC_GOODY_SMALL_VILLAGE">
+	<Name>A Small Village</Name>
+	<Description>A small group if people call this village home.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Tech_Civics.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<UsesQuestHUD>1</UsesQuestHUD>
+
+	<TileDesign>G_Small_Village</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Market.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Refugee_Camp</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- SMALL VILLAGE LOOKING FOR FUGITIVE DUMMY-->
+
+<GoodieHutType InternalName="FEC_GOODY_SMALL_VILLAGE_DUMMY">
+	<Name>A Small Village</Name>
+	<Description>A small group if people call this village home.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Tech_Civics.png</All>
+	</Medallions>
+
+	<Destructable>0</Destructable>
+	
+	<HUDDisabled>1</HUDDisabled>
+
+	<TileDesign>G_Small_Village</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_Market.png</DrawnIcon>
+	<IconSize>75</IconSize>
+	
+	<OnSelectSFX>Click_Refugee_Camp</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- Frankie's Medallion-->
+<GameItemType InternalName="FEC_Loot_Frankie_Medallion">
+	<DisplayName>Lucky Medallion</DisplayName>
+	<Description>The Fugitive's Lucky Medallion, he will have little use for this now. (Quest Item)</Description>
+	<ShopValue>0</ShopValue>
+	<IsAvailableForSovereignCustomization>0</IsAvailableForSovereignCustomization>
+	<IsUsable>0</IsUsable>
+	<ArtDef>Loot_Fugitive_Medallion_ArtDef</ArtDef>
+	<GameItemTypeArtDef InternalName="Loot_Fugitive_Medallion_ArtDef">
+		<GameItemTypeModelPack InternalName="Loot_Fugitive_Medallion_Default">
+			<IconFile>gfx\items\Item_EreogsToken_Icon.png</IconFile>
+			<TintR>200</TintR>
+			<TintG>200</TintG>
+			<TintB>200</TintB>
+			<GameItemTypeModel></GameItemTypeModel>
+		</GameItemTypeModelPack>
+	</GameItemTypeArtDef>
+</GameItemType>
+
+<!-- Cemetery of the Fallen -->
+<GoodieHutType InternalName="FEC_GOODY_Cemetery_of_the_Fallen">
+	<Name>Cemetery of the Fallen</Name>
+	<Description>Armor of surpassing quality, engraved with the staff and the sword - the seal of the Dunnadar, Padar Janos's companions. Take these for your own.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>G_Ancient_Battlefield_01.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+	
+	<TileDesign>G_Ancient_Battlefield_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_FloodedGraveyard.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+	 <Title>Found Item</Title>
+	  <Desc>Armor of surpassing quality, engraved with the staff and the sword - the seal of the Dunnadar, Padar Janos's companions. Take these for your own.</Desc>
+	  <GameModifier>
+	  <Liklihood>50</Liklihood>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_ITEM_Greaves_of_the_Protectors</Attribute>
+		</GameModifier>
+	</Treasure>
+	<Treasure>
+	 <Title>Found Item</Title>
+	  <Desc>Armor of surpassing quality, engraved with the staff and the sword - the seal of the Dunnadar, Padar Janos's companions. Take these for your own.</Desc>
+	  <GameModifier>
+	  <Liklihood>50</Liklihood>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_ITEM_Vambraces_of_the_Protectors</Attribute>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Shadow_Temple</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- Shrine To Annerys -->
+<GoodieHutType InternalName="FEC_GOODY_Shrine_To_Annerys">
+	<Name>Shrine To Annerys</Name>
+	<Description>The runes on the toppled buildings of this sanctuary identify it as a shrine to Annerys - the long-vanished Elemental Lady of Rivers.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Artifact_Desert1.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>L_Drake_Ruin_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_AncientTemple.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+	 <Title>The Lady's Cloak</Title>
+	  <Desc>A cloak granting the wearer additional protection from enchantments of all types.</Desc>
+	  <GameModifier>
+	  <Liklihood>50</Liklihood>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_ITEM_The_Lady's_Cloak</Attribute>
+		</GameModifier>
+	</Treasure>
+	<Treasure>
+	 <Title>Sword of the Golem</Title>
+	  <Desc>An army of golems once protected Annerys's shrine; this ancient weapon belonged to one of them.</Desc>
+	  <GameModifier>
+	  <Liklihood>50</Liklihood>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_ITEM_Sword_of_the_Golem</Attribute>
+		</GameModifier>
+	</Treasure>
+
+	<OnSelectSFX>Dungeon_Temple_Enter1</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- Kos Parada -->
+<GoodieHutType InternalName="FEC_GOODY_Kos_Parada">
+	<Name>Kos Parada</Name>
+	<Description>The ruins of one of the ancient world's great cities.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Artifact_ToppledWalls1.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>P_Imperium_Ruins_02</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Settlement_City_Def.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+	 <Title>The Tazzar's Cape</Title>
+	  <Desc>The same cataclysm that toppled the city walls has exposed a hidden chamber, containing this powerful artifact.</Desc>
+	  <GameModifier>
+	  <Liklihood>50</Liklihood>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_ITEM_The_Tazzar's_Cape</Attribute>
+		</GameModifier>
+	</Treasure>
+	<Treasure>
+	 <Title>Token of the Nerazga</Title>
+	  <Desc>An ancient talisman; a boon to any who enter combat wearing it.</Desc>
+	  <GameModifier>
+	  <Liklihood>50</Liklihood>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_ITEM_Token_of_the_Nerazga</Attribute>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Ruined_Temple</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- Temple of the Sions -->
+<GoodieHutType InternalName="FEC_GOODY_Temple_of_the_Sions">
+	<Name>Temple of the Sions</Name>
+	<Description>Both sanctuary and training grounds, this temple was home to the Sions who in the time before this one formed an important part of Curgen's army.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>L_Corps_Spider_01.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>L_Corps_Spider_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Resource_AncientTemple.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+	 <Title>The Sions Boon</Title>
+	  <Desc>An enchanted potion; whomsoever drinks of it will be gifted with great speed, similar to that breed of Sions known as Edars.</Desc>
+	  <GameModifier>
+	  <Liklihood>50</Liklihood>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_ITEM_The_Sions_Boon</Attribute>
+		</GameModifier>
+	</Treasure>
+	<Treasure>
+	 <Title>Scimitar of the D'Rog</Title>
+	  <Desc>A fearsome weapon, favored by the Fallen for many training drills.</Desc>
+	  <GameModifier>
+	  <Liklihood>50</Liklihood>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_ITEM_Scimitar_of_the_D'Rog</Attribute>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Click_Shadow_Temple</OnSelectSFX>
+	
+</GoodieHutType>
+
+<!-- Abandoned Mine -->
+<GoodieHutType InternalName="FEC_GOODY_Abandoned_Mine">
+	<Name>Abandoned Mine</Name>
+	<Description>The entrance to this long-abandoned mine bears the seal of ancient Hallas, the eldest of the great kingdoms of mankind.</Description>
+	<Rarity>0</Rarity>
+	
+	<Medallions>
+		<All>Dungeon_Mine1.png</All>
+	</Medallions>
+
+	<Destructable>1</Destructable>
+
+	<TileDesign>L_Corps_Spider_01</TileDesign>
+	<DrawnIcon>Gfx/TacticalIcons/Improvement_IronMine.png</DrawnIcon>
+	<IconSize>75</IconSize>
+
+	<Treasure>
+	 <Title>Abandoned Ore</Title>
+	  <Desc>Under a toppled cart, you find a treasure trove of usable ore - metal mined by the Veladrii of long ago.</Desc>
+	  <GameModifier>
+	  <Liklihood>50</Liklihood>
+			<ModType>Resource</ModType>
+			<Attribute>Metal</Attribute>
+			<Value>100</Value>
+		</GameModifier>
+	</Treasure>
+	<Treasure>
+	 <Title>Burning Sword</Title>
+	  <Desc>Pry this fine weapon from the grasp of the skeleton that holds it.</Desc>
+	  <GameModifier>
+	  <Liklihood>50</Liklihood>
+		<ModType>GiveItem</ModType>
+		<Attribute>FEC_ITEM_Burning_Sword</Attribute>
+		</GameModifier>
+	</Treasure>
+	
+	<OnSelectSFX>Dungeon_Cavern_Enter1</OnSelectSFX>
+	
+</GoodieHutType>
+
+
+</CampaignData>

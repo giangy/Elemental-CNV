@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ResourceTypes>
+    <DataChecksum NoParse="1">
+        <Ignore>DispName</Ignore>
+        <Translate>DispName,Description</Translate>
+    </DataChecksum>
+    <!-- **********************************************************************************
+  
+  * resource tags *
+  
+  <Global>
+  This indicates wether or not the resource is stored at the PLAYER level or at the CITY level.
+  
+  <Shared>
+  Shared resources get hauled in caravans and given bonuses when roads are connected (food). 
+  Un-shared resources are held within their city, not giving bonuses to friendly cities (population, prestige, etc)
+  
+  <Stored> (TRUE by default)
+  Wether or not this resource is 'stored' (such as gold, and populaton), or if it is an un-stored 'per-turn' resources (food, shards, etc).
+  
+  <RummagedPerTurn>
+  Value to return if a resource is requested but not available.
+  
+  <RequiresCityToHarvest>
+  For resources that get placed on the map...does it require a city to be tapped (aka. can pioneer units harvest them?) False by default.
+  
+  ********************************************************************************** -->
+    <!-- *************************** -->
+    <!-- ** Core Global Resources ** -->
+    <!-- *************************** -->
+    <!-- note: the following resources are not placed on the map. Other resources allow improvements that end up producing these. -->
+    <!-- ********** -->
+    <!-- ** Gold ** -->
+    <!-- ********** -->
+    <ResourceType InternalName="GoldType01">
+        <DisplayName>Gildar</DisplayName>
+        <Description>Gildar is the currency of Elemental. It is used to pay unit wages, rush production, hire champions and buy things in the store.</Description>
+        <Type>Gold</Type>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Res_Icon_Gold.png</Icon>
+        <ClothIcon>gfx\\TacticalIcons\\MetalOre_1.png</ClothIcon>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Worth>1</Worth>
+        <Global>1</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>1</TradedByCaravans>
+        <ShownInGlobalDisplay>1</ShownInGlobalDisplay>
+        <Medallions InternalName="Gold_Res_Medallions">
+            <All>Res_Ores_Plains.png</All>
+        </Medallions>
+    </ResourceType>
+    <!-- **************** -->
+    <!-- ** Population ** -->
+    <!-- **************** -->
+    <ResourceType InternalName="PopulationType01">
+        <DisplayName>Population</DisplayName>
+        <Description>The number of people in your city.</Description>
+        <Type>Population</Type>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Icon_Population.png</Icon>
+        <ClothIcon>gfx\\TacticalIcons\\MetalOre_1.png</ClothIcon>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Worth>5</Worth>
+        <Global>0</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>0</TradedByCaravans>
+        <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+        <Medallions InternalName="Population_Res_Medallions">
+            <All>Res_Ores_Plains.png</All>
+        </Medallions>
+    </ResourceType>
+    <!-- *************************** -->
+    <!-- ** Available Specialists ** -->
+    <!-- *************************** -->
+    <ResourceType InternalName="AvailableSpecialists01">
+        <DisplayName>Citizens</DisplayName>
+        <Description>The number of citizens available to work for your kingdom or empire.</Description>
+        <Type>AvailableSpecialists</Type>
+        <IconColor>0,0,0</IconColor>
+        <!--<Icon>Gfx//Icons//dude_icon.png</Icon>-->
+        <Icon>Gfx//Icons//Icon_Population.png</Icon>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Worth>0</Worth>
+        <Global>1</Global>
+        <Stored>0</Stored>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>0</TradedByCaravans>
+        <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+        <Medallions InternalName="Population_Res_Medallions">
+            <All>Res_Ores_Plains.png</All>
+        </Medallions>
+    </ResourceType>
+
+  <!-- ********************* -->
+  <!-- ** Food (FE style) ** -->
+  <!-- ********************* -->
+  <ResourceType InternalName="Food01">
+    <DisplayName>Food</DisplayName>
+    <Description>Food is the maximum population your city can support.</Description>
+    <Type>Food</Type>
+    <IconColor>0,0,0</IconColor>
+    <Icon>Gfx//Icons//Res_Icon_Food.png</Icon>
+    <TileYieldIcon>Gfx//Icons//Res_Icon_Food.png</TileYieldIcon>
+	<HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+
+  <!-- ***************** -->
+  <!-- ** Production  ** -->
+  <!-- ***************** -->
+  <ResourceType InternalName="Production01">
+    <DisplayName>Production</DisplayName>
+    <Description>The higher your production the faster your city can construct an improvement or train a unit.</Description>
+    <Type>Production</Type>
+    <IconColor>0,0,0</IconColor>
+    <!--<Icon>Gfx//Icons//dude_icon.png</Icon>-->
+    <Icon>Gfx//Icons//Icon_Lumber.png</Icon>
+    <TileYieldIcon>Gfx//Icons//Icon_Lumber.png</TileYieldIcon>
+	<HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+
+	<!-- ************* -->
+	<!-- ** Unrest  ** -->
+	<!-- ************* -->
+	<ResourceType InternalName="Unrest01">
+		<DisplayName>Unrest</DisplayName>
+		<Description>Percentage penalty to a city's production and research due to its disgruntled citizens.  Lower your tax rate to reduce unrest.</Description>
+		<Type>Unrest</Type>
+		<IconColor>0,0,0</IconColor>
+		<!--<Icon>Gfx//Icons//dude_icon.png</Icon>-->
+		<Icon>Gfx//Icons//Icon_Unrest.png</Icon>
+		<HideInHiergamenon>1</HideInHiergamenon>
+		<ModelColor>0,0,0</ModelColor>
+		<Worth>0</Worth>
+		<Global>0</Global>
+		<Stored>0</Stored>
+		<Rarity>0.0</Rarity>
+		<Shared>0</Shared>
+		<TradedByCaravans>0</TradedByCaravans>
+		<ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+		<Medallions InternalName="Population_Res_Medallions">
+			<All>Res_Ores_Plains.png</All>
+		</Medallions>
+	</ResourceType>
+
+  <!-- ************* -->
+  <!-- ** Tax Percentage (so its effects on gold can be modified with modifiers) ** -->
+  <!-- ************* -->
+  <ResourceType InternalName="TaxPercentage01">
+    <DisplayName>Taxes</DisplayName>
+    <Description>Percentage tax on the city.</Description>
+    <Type>TaxPercentage</Type>
+    <IconColor>0,0,0</IconColor>
+    <!--<Icon>Gfx//Icons//dude_icon.png</Icon>-->
+    <Icon>Gfx//Icons//Taxes_Icon.png</Icon>
+    <HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+
+  <!-- ************* -->
+  <!-- ** City Resource-on-resource Research per Population  ** -->
+  <!-- ************* -->
+  <ResourceType InternalName="ResearchPerPopulation">
+    <DisplayName>Research Per Population</DisplayName>
+    <Description>Amount of research each unit of population produces.</Description>
+    <Type>ResearchPerPopulation</Type>
+    <IconColor>0,0,0</IconColor>
+    <!--<Icon>Gfx//Icons//dude_icon.png</Icon>-->
+    <Icon>Gfx//Icons//Icon_Population.png</Icon>
+    <HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+
+  <ResourceType InternalName="ProductionPerPopulation">
+    <DisplayName>Production Per Population</DisplayName>
+    <Description>Amount of production each unit of population produces.</Description>
+    <Type>ProductionPerPopulation</Type>
+    <IconColor>0,0,0</IconColor>
+    <!--<Icon>Gfx//Icons//dude_icon.png</Icon>-->
+    <Icon>Gfx//Icons//Icon_Population.png</Icon>
+    <HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+
+  <ResourceType InternalName="GoldPerGrain">
+    <DisplayName>Gold Per Grain</DisplayName>
+    <Description>Amount of gold each unit of grain produces.</Description>
+    <Type>GoldPerGrain</Type>
+    <IconColor>0,0,0</IconColor>
+    <!--<Icon>Gfx//Icons//dude_icon.png</Icon>-->
+    <Icon>Gfx//Icons//Icon_Population.png</Icon>
+    <HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+
+  <ResourceType InternalName="FoodPerGrain">
+    <DisplayName>Food Per Grain</DisplayName>
+    <Description>Amount of food each unit of grain produces.</Description>
+    <Type>FoodPerGrain</Type>
+    <IconColor>0,0,0</IconColor>
+    <!--<Icon>Gfx//Icons//dude_icon.png</Icon>-->
+    <Icon>Gfx//Icons//Icon_Population.png</Icon>
+    <HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+
+  <ResourceType InternalName="ProductionPerMaterials">
+    <DisplayName>Production Per Materials</DisplayName>
+    <Description>Amount of production each unit of materials produces.</Description>
+    <Type>ProductionPerMaterials</Type>
+    <IconColor>0,0,0</IconColor>
+    <!--<Icon>Gfx//Icons//dude_icon.png</Icon>-->
+    <Icon>Gfx//Icons//Icon_Population.png</Icon>
+    <HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+  
+  <ResourceType InternalName="GoldPerMaterials">
+    <DisplayName>Gildar Per Materials</DisplayName>
+    <Description>Amount of gildar each unit of materials produces.</Description>
+    <Type>GoldPerMaterials</Type>
+    <IconColor>0,0,0</IconColor>
+    <!--<Icon>Gfx//Icons//dude_icon.png</Icon>-->
+    <Icon>Gfx//Icons//Icon_Population.png</Icon>
+    <HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+  
+  <ResourceType InternalName="ResearchPerMaterials">
+    <DisplayName>Research Per Materials</DisplayName>
+    <Description>Amount of research each unit of materials produces.</Description>
+    <Type>ResearchPerMaterials</Type>
+    <IconColor>0,0,0</IconColor>
+    <!--<Icon>Gfx//Icons//dude_icon.png</Icon>-->
+    <Icon>Gfx//Icons//Icon_Population.png</Icon>
+    <HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+
+  <ResourceType InternalName="ResearchEffectPerUnrest">
+    <DisplayName>Research Penalty from Unrest</DisplayName>
+    <Description>Percentage penalty on research production per percentage of unrest.</Description>
+    <Type>ResearchEffectPerUnrest</Type>
+    <IconColor>0,0,0</IconColor>
+    <!--<Icon>Gfx//Icons//dude_icon.png</Icon>-->
+    <Icon>Gfx//Icons//Icon_Population.png</Icon>
+    <HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+
+  <ResourceType InternalName="ProductionEffectPerUnrest">
+    <DisplayName>Production Penalty from Unrest</DisplayName>
+    <Description>Percentage penalty on production per percentage of unrest.</Description>
+    <Type>ProductionEffectPerUnrest</Type>
+    <IconColor>0,0,0</IconColor>
+    <!--<Icon>Gfx//Icons//dude_icon.png</Icon>-->
+    <Icon>Gfx//Icons//Icon_Population.png</Icon>
+    <HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+
+  <ResourceType InternalName="GoldTakeAwayPerTaxPercentage">
+    <DisplayName>Take away Gildar from Taxes</DisplayName>
+    <Description>Percentage of gildar kept per percentage of tax.</Description>
+    <Type>GoldTakeAwayPerTaxPercentage</Type>
+    <IconColor>0,0,0</IconColor>
+    <!--<Icon>Gfx//Icons//dude_icon.png</Icon>-->
+    <Icon>Gfx//Icons//Icon_Population.png</Icon>
+    <HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+
+  <!-- ********************** -->
+  <!-- **** Citizen Caps **** -->
+  <!-- ********************** -->
+  <ResourceType InternalName="FarmerCap01">
+    <DisplayName>Max Farmers</DisplayName>
+    <Description>Number of farmers this city can make work for.</Description>
+    <Type>FarmerCap</Type>
+    <IconColor>0,0,0</IconColor>
+    <Icon>Gfx//Icons//Res_Icon_Food.png</Icon>
+    <TileYieldIcon>Gfx//Icons//Res_Icon_Food.png</TileYieldIcon>
+	<HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+
+  <ResourceType InternalName="TileYieldGrain01">
+    <DisplayName>Grain</DisplayName>
+    <Description>Determines the base amount of food available in a city.</Description>
+    <Type>TileYieldGrain</Type>
+    <IconColor>0,0,0</IconColor>
+    <Icon>Gfx//Icons//Res_Icon_Food.png</Icon>
+    <TileYieldIcon>Gfx//Icons//Res_Icon_Food.png</TileYieldIcon>
+	<HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+
+  <ResourceType InternalName="CraftsmanCap01">
+    <DisplayName>Max Craftsmen</DisplayName>
+    <Description>Number of craftsmen this city can make work for.</Description>
+    <Type>CraftsmanCap</Type>
+    <IconColor>0,0,0</IconColor>
+    <Icon>Gfx//Icons//Icon_Lumber.png</Icon>
+    <TileYieldIcon>Gfx//Icons//Icon_Lumber.png</TileYieldIcon>
+	<HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+
+  <ResourceType InternalName="TileYieldMaterials01">
+    <DisplayName>Materials</DisplayName>
+    <Description>Determines the base production of a city.</Description>
+    <Type>TileYieldMaterials</Type>
+    <IconColor>0,0,0</IconColor>
+    <Icon>Gfx//Icons//Icon_Lumber.png</Icon>
+    <TileYieldIcon>Gfx//Icons//Icon_Lumber.png</TileYieldIcon>
+	<HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+    <Medallions InternalName="Population_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType>
+
+  <ResourceType InternalName="TileYieldEssence01">
+    <DisplayName>Essence</DisplayName>
+    <Description>Determines the number of enchantments that can be placed on a city and is required for certain improvements.</Description>
+    <Type>TileYieldEssence</Type>
+    <IconColor>0,0,0</IconColor>
+    <Icon>Yield_Essence_Icon.png</Icon>
+    <TileYieldIcon>Gfx//Icons//Mana_32.png</TileYieldIcon>
+    <HideInHiergamenon>1</HideInHiergamenon>
+    <ModelColor>0,0,0</ModelColor>
+    <Worth>0</Worth>
+    <Global>0</Global>
+    <Stored>0</Stored>
+    <Rarity>0.0</Rarity>
+    <Shared>0</Shared>
+    <TradedByCaravans>0</TradedByCaravans>
+    <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+  </ResourceType>
+  
+    <!-- ********************* -->
+    <!-- ** Research Points ** -->
+    <!-- ********************* -->
+    <ResourceType InternalName="ResearchPointsType01">
+        <DisplayName>Research</DisplayName>
+		<Description>The more research your produce per season the faster you unlock new technologies.</Description>
+        <Type>Research</Type>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Tech_Icon.png</Icon>
+        <ClothIcon>gfx\\TacticalIcons\\MetalOre_1.png</ClothIcon>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Worth>1</Worth>
+        <Global>1</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <ShownInGlobalDisplay>1</ShownInGlobalDisplay>
+        <TradedByCaravans>0</TradedByCaravans>
+        <Medallions InternalName="Research_Res_Medallions">
+            <All>Res_Ores_Plains.png</All>
+        </Medallions>
+    </ResourceType>
+    <!-- ************** -->
+    <!-- ** Prestige ** -->
+    <!-- ************** -->
+    <ResourceType InternalName="PrestigePointsType01">
+        <DisplayName>Growth</DisplayName>
+		<Description>Growth is the amount your population increases each season.</Description>
+        <Type>Prestige</Type>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Prestige_Icon.png</Icon>
+        <ClothIcon>gfx\\TacticalIcons\\MetalOre_1.png</ClothIcon>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Worth>1</Worth>
+        <Global>0</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>0</TradedByCaravans>
+        <Medallions InternalName="Prestige_Res_Medallions">
+            <All>Res_Ores_Plains.png</All>
+        </Medallions>
+    </ResourceType>
+    <!-- *************** -->
+    <!-- ** Influence ** -->
+    <!-- *************** -->
+    <ResourceType InternalName="InfluencePointsType01">
+        <DisplayName>Influence</DisplayName>
+        <Type>Influence</Type>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Prestige_Icon.png</Icon>
+        <ClothIcon>gfx\\TacticalIcons\\MetalOre_1.png</ClothIcon>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Worth>1</Worth>
+        <Global>1</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>0</TradedByCaravans>
+        <Medallions InternalName="Prestige_Res_Medallions">
+            <All>Res_Ores_Plains.png</All>
+        </Medallions>
+    </ResourceType>
+    <!-- **************** -->
+    <!-- ** Protection ** -->
+    <!-- **************** -->
+    <ResourceType InternalName="ProtectFromSpellsType01">
+        <DisplayName>Protect From Spells</DisplayName>
+        <Type>ProtectFromSpells</Type>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Electric_D_Stat_Icon.png</Icon>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Worth>1</Worth>
+        <Global>0</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>0</TradedByCaravans>
+    </ResourceType>
+    <!-- ******************** -->
+    <!-- ** Troop Training ** -->
+    <!-- ******************** -->
+    <!--<ResourceType InternalName="TroopTrainingPointsType01">
+		<DisplayName>Generic Training</DisplayName>
+		<Type>TroopTraining</Type>
+		<IconColor>0,0,0</IconColor>
+		<Icon>Gfx//Icons//TrainingTime_TintIcon.png</Icon>
+		<ClothIcon>gfx\\TacticalIcons\\MetalOre_1.png</ClothIcon>
+		<ModelColor>0,0,0</ModelColor>
+		<Worth>1</Worth>
+		<Global>0</Global>
+		<Rarity>0.0</Rarity>
+		<Shared>0</Shared>
+		<TradedByCaravans>0</TradedByCaravans>
+		<Medallions InternalName="TroopTraining_Res_Medallions">
+			<All>Res_Ores_Plains.png</All>
+		</Medallions>
+	</ResourceType>-->
+    <!-- ************* -->
+    <!-- ** Crystal ** -->
+    <!-- ************* -->
+    <ResourceType InternalName="CrystalType01">
+        <DisplayName>Crystal</DisplayName>
+        <Type>RefinedCrystal</Type>
+		<Description>Crystal is the magic resource of Elemental. It is required to produce magical equipment and some improvements.</Description>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Icon_Crystal.png</Icon>
+        <ClothIcon>gfx\\TacticalIcons\\MetalOre_1.png</ClothIcon>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Worth>5</Worth>
+        <Global>1</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>1</TradedByCaravans>
+        <ShownInGlobalDisplay>1</ShownInGlobalDisplay>
+        <DiplomaticPerceivedValuePerUnit>5</DiplomaticPerceivedValuePerUnit>
+        <Medallions InternalName="Ration_Res_Medallions">
+            <All>AirCrystal_Medallion.png</All>
+        </Medallions>
+    </ResourceType>
+    <!-- **************** -->
+    <!-- ** Fire Magic ** -->
+    <!-- **************** -->
+    <ResourceType InternalName="FireMagicType01">
+        <DisplayName>Fire Magic</DisplayName>
+        <Type>FireMagic</Type>
+        <Description>Fire magic represents your power with fire spells.</Description>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Fire_Stat_Icon.png</Icon>
+        <ClothIcon>gfx\\TacticalIcons\\MetalOre_1.png</ClothIcon>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Worth>5</Worth>
+        <Global>1</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>1</TradedByCaravans>
+        <Medallions InternalName="Ration_Res_Medallions">
+            <All>AirCrystal_Medallion.png</All>
+        </Medallions>
+    </ResourceType>
+    <!-- ***************** -->
+    <!-- ** Earth Magic ** -->
+    <!-- ***************** -->
+    <ResourceType InternalName="EarthMagicType01">
+        <DisplayName>Earth Magic</DisplayName>
+        <Type>EarthMagic</Type>
+		<Description>Earth magic represents your power with earth spells.</Description>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Crushing_Stat_Icon.png</Icon>
+        <ClothIcon>gfx\\TacticalIcons\\MetalOre_1.png</ClothIcon>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Worth>5</Worth>
+        <Global>1</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>1</TradedByCaravans>
+        <Medallions InternalName="Ration_Res_Medallions">
+            <All>AirCrystal_Medallion.png</All>
+        </Medallions>
+    </ResourceType>
+    <!-- ***************** -->
+    <!-- ** Water Magic ** -->
+    <!-- ***************** -->
+    <ResourceType InternalName="WaterMagicType01">
+        <DisplayName>Water Magic</DisplayName>
+        <Type>WaterMagic</Type>
+        <Description>Water magic represents your power with water spells.</Description>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Ice_Stat_Icon.png</Icon>
+        <ClothIcon>gfx\\TacticalIcons\\MetalOre_1.png</ClothIcon>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Worth>5</Worth>
+        <Global>1</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>1</TradedByCaravans>
+        <Medallions InternalName="Ration_Res_Medallions">
+            <All>AirCrystal_Medallion.png</All>
+        </Medallions>
+    </ResourceType>
+    <!-- *************** -->
+    <!-- ** Air Magic ** -->
+    <!-- *************** -->
+    <ResourceType InternalName="AirMagicType01">
+        <DisplayName>Air Magic</DisplayName>
+        <Type>AirMagic</Type>
+		<Description>Air magic represents your power with air spells.</Description>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Electric_Stat_Icon.png</Icon>
+        <ClothIcon>gfx\\TacticalIcons\\MetalOre_1.png</ClothIcon>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Worth>5</Worth>
+        <Global>1</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>1</TradedByCaravans>
+        <Medallions InternalName="Ration_Res_Medallions">
+            <All>AirCrystal_Medallion.png</All>
+        </Medallions>
+    </ResourceType>
+    <!-- *************** -->
+    <!-- ** Materials ** -->
+    <!-- *************** -->
+    <!-- note: Lumber, as a resource, dosent appear on the map. Instead it's produced by 'Lumber Mills' which get build of Terrain of type 'FOREST' -->
+    <ResourceType InternalName="MaterialsType">
+        <DisplayName>Materials</DisplayName>
+        <Type>Materials</Type>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Icon_Lumber.png</Icon>
+        <ClothIcon>gfx\\TacticalIcons\\MetalOre_1.png</ClothIcon>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Worth>0</Worth>
+        <Global>1</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>0</TradedByCaravans>
+        <ShownInGlobalDisplay>0</ShownInGlobalDisplay>
+        <DiplomaticPerceivedValuePerUnit>0</DiplomaticPerceivedValuePerUnit>
+        <Medallions InternalName="Population_Res_Medallions">
+            <All>Res_Ores_Plains.png</All>
+        </Medallions>
+    </ResourceType>
+    <!-- *********** -->
+    <!-- ** Metal ** -->
+    <!-- *********** -->
+    <ResourceType InternalName="MetalType01">
+        <DisplayName>Metal</DisplayName>
+        <Type>Metal</Type>
+        <Description>Metal is required to produce some equipment and improvements.</Description>
+		<HarvestType>Mining</HarvestType>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Icon_Metal.png</Icon>
+        <ClothIcon>gfx\\TacticalIcons\\MetalOre_1.png</ClothIcon>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Production>1.0</Production>
+        <Worth>5</Worth>
+        <Global>1</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>1</TradedByCaravans>
+        <ShownInGlobalDisplay>1</ShownInGlobalDisplay>
+        <DiplomaticPerceivedValuePerUnit>5</DiplomaticPerceivedValuePerUnit>
+        <Medallions InternalName="IronOre_Res_Medallions">
+            <All>Res_Ores_Plains.png</All>
+        </Medallions>
+        <!-- AI Info -->
+        <AIData AIPersonality="AI_General">
+            <AITag>Metal</AITag>
+        </AIData>
+    </ResourceType>
+
+    <!-- *********** -->
+    <!-- ** Horses storable resource ** -->
+    <!-- *********** -->
+    <ResourceType InternalName="HorsesType01">
+        <DisplayName>Horses</DisplayName>
+        <Type>Horses</Type>
+ 		<Description>Horses are required to train units on horseback.</Description>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Horse_Resource_Icon.png</Icon>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Production>1.0</Production>
+        <Worth>5</Worth>
+        <Global>1</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>1</TradedByCaravans>
+        <ShownInGlobalDisplay>1</ShownInGlobalDisplay>
+        <!-- AI Info -->
+        <AIData AIPersonality="AI_General">
+            <AITag>Horses</AITag>
+        </AIData>
+    </ResourceType>
+
+    <!-- *********** -->
+    <!-- ** Wargs storable resource ** -->
+    <!-- *********** -->
+    <ResourceType InternalName="WargsType01">
+        <DisplayName>Wargs</DisplayName>
+        <Type>Wargs</Type>
+        <Description>Wargs are required to train warg-riding units.</Description>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Icon_Wargs.png</Icon>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Production>1.0</Production>
+        <Worth>5</Worth>
+        <Global>1</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>1</TradedByCaravans>
+        <ShownInGlobalDisplay>1</ShownInGlobalDisplay>
+        <!-- AI Info -->
+        <AIData AIPersonality="AI_General">
+            <AITag>Horses</AITag>
+        </AIData>
+    </ResourceType>
+
+    <!-- *********** -->
+    <!-- ** Diplomatic Capital ** -->
+    <!-- *********** -->
+    <ResourceType InternalName="DiplomaticCapital">
+        <DisplayName>Influence</DisplayName>
+        <Type>DiplomaticCapital</Type>
+		<Description>Influence is the diplomatic currency of Elemental. You can use it in diplomatic relations and to recruit some neutral units.</Description>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Icon_InfluencePoints.png</Icon>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Production>1.0</Production>
+        <Worth>5</Worth>
+        <Global>1</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>0</TradedByCaravans>
+        <ShownInGlobalDisplay>1</ShownInGlobalDisplay>
+        <!-- AI Info -->
+        <AIData AIPersonality="AI_General">
+            <AITag>DiplomaticCapital</AITag>
+        </AIData>
+    </ResourceType>
+
+    <!--**********************************************-->
+    <!-- Stone 
+  <ResourceType InternalName="StoneType01">
+    <DisplayName>Stone</DisplayName>
+    <Type>Stone</Type>
+    <HarvestType>Mining</HarvestType>
+    <IconColor>0,0,0</IconColor>
+    <Icon>Gfx//Icons//Icon_Ore.png</Icon>
+    <ClothIcon>gfx\\TacticalIcons\\TEMP_Stone_Pit.png</ClothIcon>
+    <TileDesign>Res_MetalOre_01</TileDesign>
+    <ModelColor>0,0,0</ModelColor>
+    <Production>1.0</Production>
+    <Worth>5</Worth>
+    <Global>0</Global>
+    <Rarity>60.0</Rarity>
+    <Stored>0</Stored>
+    <RummagedPerTurn>0.85</RummagedPerTurn>
+    <Medallions InternalName="IronOre_Res_Medallions">
+      <All>Res_Ores_Plains.png</All>
+    </Medallions>
+  </ResourceType> -->
+
+    <!-- *********** -->
+    <!-- ** Mana  ** -->
+    <!-- *********** -->
+    <!-- note: Mana is now a global resource to be gained by shard shrines and spent on spells -->
+    <ResourceType InternalName="Mana">
+        <DisplayName>Mana</DisplayName>
+        <Type>Mana</Type>
+        <Description>Mana is required to cast spells.</Description>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Mana_32.png</Icon>
+        <ClothIcon>gfx\\TacticalIcons\\Res_Crystal.png</ClothIcon>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <ModelColor>0,0,0</ModelColor>
+        <Worth>1</Worth>
+        <Global>1</Global>
+        <Rarity>0.0</Rarity>
+        <Shared>0</Shared>
+        <TradedByCaravans>0</TradedByCaravans>
+        <ShownInGlobalDisplay>1</ShownInGlobalDisplay>
+        <Medallions InternalName="Population_Res_Medallions">
+            <All>Res_Ores_Plains.png</All>
+        </Medallions>
+    </ResourceType>
+
+
+    <!-- **************** -->
+    <!-- ** Mana Types ** -->
+    <!-- **************** -->
+    <!-- note: these are created by the SHRINE imprevments that get placed on given resources...the shards themselves don't 'give' these mana types. -->
+    <ResourceType InternalName="FireMana">
+        <DisplayName>Fire Shard</DisplayName>
+        <Type>FireMana</Type>
+		<Description>Increases the power of your Fire spells.</Description>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Icon_Fire.png</Icon>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShownInGlobalDisplay>1</ShownInGlobalDisplay>
+        <Global>1</Global>
+        <Stored>0</Stored>
+        <Shared>0</Shared>
+        <TradedByCaravans>0</TradedByCaravans>
+        <RummagedPerTurn>0.01</RummagedPerTurn>
+        <!-- AI Info -->
+        <AIData AIPersonality="AI_General">
+            <AITag>Shard</AITag>
+        </AIData>
+    </ResourceType>
+    <ResourceType InternalName="AirMana">
+        <DisplayName>Air Shard</DisplayName>
+        <Type>AirMana</Type>
+        <Description>Increases the power of your Air spells.</Description>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Icon_Air.png</Icon>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShownInGlobalDisplay>1</ShownInGlobalDisplay>
+        <Global>1</Global>
+        <Stored>0</Stored>
+        <Shared>0</Shared>
+        <TradedByCaravans>0</TradedByCaravans>
+        <RummagedPerTurn>0.01</RummagedPerTurn>
+        <!-- AI Info -->
+        <AIData AIPersonality="AI_General">
+            <AITag>Shard</AITag>
+        </AIData>
+    </ResourceType>
+    <ResourceType InternalName="EarthMana">
+        <DisplayName>Earth Shard</DisplayName>
+        <Type>EarthMana</Type>
+		<Description>Increases the power of your Earth spells.</Description>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Icon_Earth.png</Icon>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShownInGlobalDisplay>1</ShownInGlobalDisplay>
+        <Global>1</Global>
+        <Stored>0</Stored>
+        <Shared>0</Shared>
+        <TradedByCaravans>0</TradedByCaravans>
+        <RummagedPerTurn>0.01</RummagedPerTurn>
+        <!-- AI Info -->
+        <AIData AIPersonality="AI_General">
+            <AITag>Shard</AITag>
+        </AIData>
+    </ResourceType>
+    <ResourceType InternalName="WaterMana">
+        <DisplayName>Water Shard</DisplayName>
+        <Type>WaterMana</Type>
+        <Description>Increases the power of your Water spells.</Description>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Icon_Water.png</Icon>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <ShownInGlobalDisplay>1</ShownInGlobalDisplay>
+        <Global>1</Global>
+        <Stored>0</Stored>
+        <Shared>0</Shared>
+        <TradedByCaravans>0</TradedByCaravans>
+        <RummagedPerTurn>0.01</RummagedPerTurn>
+        <!-- AI Info -->
+        <AIData AIPersonality="AI_General">
+            <AITag>Shard</AITag>
+        </AIData>
+    </ResourceType>
+    <ResourceType InternalName="LifeMana">
+        <DisplayName>Life Shard</DisplayName>
+        <Type>LifeMana</Type>
+		<Description>Increases the power of your Life spells.</Description>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Icon_Life.png</Icon>
+        <HideInHiergamenon>1</HideInHiergamenon>
+        <ShownInGlobalDisplay>1</ShownInGlobalDisplay>
+        <Global>1</Global>
+        <Stored>0</Stored>
+        <Shared>0</Shared>
+        <TradedByCaravans>0</TradedByCaravans>
+        <RummagedPerTurn>0.01</RummagedPerTurn>
+        <!-- AI Info -->
+        <AIData AIPersonality="AI_General">
+            <AITag>Shard</AITag>
+        </AIData>
+    </ResourceType>
+    <ResourceType InternalName="DeathMana">
+        <DisplayName>Death Shard</DisplayName>
+        <Type>DeathMana</Type>
+        <Description>Increases the power of your Death spells.</Description>
+        <IconColor>0,0,0</IconColor>
+        <Icon>Gfx//Icons//Icon_Death.png</Icon>
+		<HideInHiergamenon>1</HideInHiergamenon>
+        <ShownInGlobalDisplay>1</ShownInGlobalDisplay>
+        <Global>1</Global>
+        <Stored>0</Stored>
+        <Shared>0</Shared>
+        <TradedByCaravans>0</TradedByCaravans>
+        <RummagedPerTurn>0.01</RummagedPerTurn>
+        <!-- AI Info -->
+        <AIData AIPersonality="AI_General">
+            <AITag>Shard</AITag>
+        </AIData>
+    </ResourceType>
+</ResourceTypes>

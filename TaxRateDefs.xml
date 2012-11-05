@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TaxRateDefs>
+	<DataChecksum NoParse="1">
+		<Ignore>DisplayName</Ignore>
+		<Translate>DisplayName</Translate>
+	</DataChecksum>
+	<TaxRateDef InternalName="TaxRate_None">
+		<DisplayName>None</DisplayName>
+		<TaxRate>0</TaxRate>
+		<Unrest>10</Unrest>
+	</TaxRateDef>
+	<TaxRateDef InternalName="TaxRate_Low">
+		<DisplayName>Low</DisplayName>
+		<TaxRate>0.4</TaxRate>
+		<Unrest>22</Unrest>
+	</TaxRateDef>
+	<TaxRateDef InternalName="TaxRate_Normal">
+		<DisplayName>Normal</DisplayName>
+		<TaxRate>0.5</TaxRate>
+		<Unrest>38</Unrest>
+	</TaxRateDef>
+	<TaxRateDef InternalName="TaxRate_High">
+		<DisplayName>High</DisplayName>
+		<TaxRate>0.6</TaxRate>
+		<Unrest>60</Unrest>
+	</TaxRateDef>
+	<TaxRateDef InternalName="TaxRate_Brutal">
+		<DisplayName>Brutal</DisplayName>
+		<TaxRate>0.7</TaxRate>
+		<Unrest>81</Unrest>
+	</TaxRateDef>
+	<TaxRateDef InternalName="TaxRate_Oppressive">
+		<DisplayName>Oppressive</DisplayName>
+		<TaxRate>0.9</TaxRate>
+		<Unrest>98</Unrest>
+	</TaxRateDef> 
+</TaxRateDefs>

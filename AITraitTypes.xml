@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- XML file to define some AI traits that decide how AI tend to act -->
+<AITraitTypes>
+    <AITraitType InternalName="Isolationist">
+        <DisplayName>Isolazionista</DisplayName>
+        <Description>Valori di AI che portano i suoi tratti a 10x più del normale</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Aggressive">
+        <DisplayName>Aggressivo</DisplayName>
+        <Description>Valori dei tratti military 2x più del normale, e pensa che i confini siano troppo vicini di 1.5x</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Proud">
+        <DisplayName>Orgoglio</DisplayName>
+        <Description>I trattati di pace con questa AI costano 3x in più</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Unstable">
+        <DisplayName>Instabile</DisplayName>
+        <Description>Instabile!</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Expansionist">
+        <DisplayName>Espansionista</DisplayName>
+        <Description>Alta probabilità di costruire Pionieri</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Militaristic">
+        <DisplayName>Militarista</DisplayName>
+        <Description>Alta probabilità di costruire unità militari</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Greedy">
+        <DisplayName>Avido</DisplayName>
+        <Description>Alta probabilità di costruire miglioramenti dedicati al benessere</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Paranoid">
+        <DisplayName>Paranoide</DisplayName>
+        <Description>Alta probabilità di costruire miglioramenti difensivi</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Builder">
+        <DisplayName>Costruttore</DisplayName>
+        <Description>Alta probabilità di ricercare tecnologie di civilizzazione</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Sorcerer">
+        <DisplayName>Stregone</DisplayName>
+        <Description>Alta probabilità di ricercare tecnologie magiche</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="WarMonger">
+        <DisplayName>Guerrafondaio</DisplayName>
+        <Description>Alta probabilità di ricercarcare tecnologie militari</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Adventurous">
+        <DisplayName>Avventuroso</DisplayName>
+        <Description>Alta probabilità di trovare capanne</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="MonsterHunter">
+        <DisplayName>Cacciatore di mostri</DisplayName>
+        <Description>Alta probabilità di trovare mostri piuttosto che ignorarli</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Diplomat">
+        <DisplayName>Diplomatico</DisplayName>
+        <Description>Alta probabilità di ottenere negoziati con gli altri giocatori</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Manipulator">
+        <DisplayName>Manipolatore</DisplayName>
+        <Description>Alta probabilità di convincere gli altri ad andare in guerra</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+    <AITraitType InternalName="Civilized">
+        <DisplayName>Civilizzato</DisplayName>
+        <Description>Alta probabilità di costruire la propria civiltà</Description>
+        <Icon>FactionAbility_Traits.png</Icon>
+    </AITraitType>
+</AITraitTypes>

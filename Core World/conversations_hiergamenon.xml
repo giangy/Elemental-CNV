@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<FlavorTextEntries>
+	<DataChecksum NoParse="1">
+		<Ignore>Text</Ignore>
+		<Translate>Text</Translate>
+	</DataChecksum>
+
+	<FlavorText>
+		<Topic>Hiergamenon_BasicGameConcepts</Topic>
+		<Text>
+			Welcome to Elemental!
+			Elemental is a turn-based strategy game in which you are the sovereign of a fledgling kingdom (or empire).
+			
+			The object of the game is for your character to conquer the world.  You can do this in one of four ways:
+			
+			The first way, Conquest, is achieved when all of your enemies are destroyed. Specifically, all the enemy sovereigns. When a sovereign falls in battle, they will automatically retreat to their nearest settlement so you will need to make sure to destroy their settlements.
+			The second way, Diplomacy, occurs when you negotiate alliance treaties with all of the major factions in the game.
+			The third way, Spell of Making, requires you to control at least 1 of each type of shard and then have learned the Spell of Making. Casting this spell will win the game for your character.
+			The last way, Quest of Mastery, involves you completing the quest known as the "Forge of the Overlord". In this quest, you must battle a series of enemies to assemble the pieces of the ancient Forge of the Overlord. If you complete this quest, you win the game.
+			Of course, it is easier to describe these victory conditions than to actually achieve them. You will need the help of your adopted faction to win the game. When you found your kingdom, you will see a number of resources scattered about such as Fertile Land, Gold Mines, Ancient Temples, Lost Libraries and so forth. These resources can be harvested by your faction as long as they are in your area of influence.
+			The world resources enable you to pursue your goals whether it be through magic, technology, military conquest, or diplomacy.
+		</Text>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Hiergamenon_Walkthru</Topic>
+		<Text>
+			So you've decided to conquer the world!
+			Then you've come to the right place to get started.
+			When you start the game, it's just you. At the beginning of the game, you chose a faction to associate yourself with. These are your people who you are going to lead to victory.
+			Your first step is to found your kingdom (or empire). You do this by clicking on your character and choosing the "Found Kingdom" (or Empire) button from the action list.  You can only do this once so be careful about where you do this.
+			The best place to found your first settlement is where there are resources nearby.
+			The main resources in the game are:
+			1. Fertile Land. Farms can be built on these which produce food. Food is needed to help your settlements grow.
+			2. Metal deposits. Metal is needed to construct any of the better weapons you may learn.
+			3. Lost Libraries. Much of the lost knowledge is contained in these libraries. Claiming them provides Tech Knowledge for your faction.
+			4. Ancient Temples. The Arcane Knowledge of the world was also largely lost with the Cataclysm.  Claiming Ancient Temples produces Arcane Knowledge which helps you learn spells.
+			5. Gold Deposits. Claiming these will boost your economy.
+			6. Old Growth Forests. Claiming these provides materials for your faction.
+			To get more information on any in game item, Shift+Left click them to get a more detailed description.
+			When you arrive on the scene, the world is in chaos. It has been a century since a terrible event known as the Cataclysm has occurred. The world has recovered a great deal since the Cataclysm, but civilization has not really returned yet. As a result, the land is filled with lawlessness, bandits, monsters, and worse.  In the short term, this means there are lots of items scattered about for you to recover to help get you started. These "notable locations" will provide you with money, resources, items and other goods that will help you.
+			In addition, here and there you will find bits of civilization. Taverns, Inns, and other places will give you word on what is happening in the wider world. These places will provide you with quests that, when accomplished, will give you much better items and equipment than you can normally get.
+			When you found a settlement, you will want to immediately begin improving it so that your faction can aid you better with your victory objectives. To do that, click on the settlement and its action list will show "build".  Improvements that you have the technological prerequisites for will show up as buildable.
+			Similarly, you can click on any resource that is in your area of influence and build on it if you have the necessary resources to do so.  Once you do, those resources will be associated with the nearest settlement.  Over time, the improvements of your settlements should mainly act as multipliers on these resources. Hence, a university in your city will multiply the existing research being done in your settlement.
+			You will want to explore the world with your sovereign.  But be careful, if he falls in battle, he will lose some of his Essence while escaping back to your nearest settlement (and he will die outright if he falls in battle within the area of influence of a rival Channeler).
+			When you do encounter another faction, you cannot enter their territory unless you sign a non-aggression pact with them. Those pacts, once signed, cannot be broken. They expire in 50 turns, during which time you cannot initiate hostilities towards that faction.			
+			Once you begin researching technology, you can choose one of the 5 categories of research to explore. Each level of technology you research gets more expensive, so be careful on which ones you choose.
+		</Text>
+	</FlavorText>
+
+	<FlavorText>
+		<Topic>Hiergamenon_Combat</Topic>
+		<Text>
+			Combat in Elemental is fairly straight forward, but has a considerable amount of nuance involved.
+
+			When a unit attacks another unit the attacker rolls a damage value between 0 and its maximum damage potential and the defender does the same with its defense.
+			All attacks have a damage type such as cutting, piercing, blunt, fire, ice, electrical and so forth. Similarly, defenses can be optimized against certain types of attack. If the defending unit has the proper defense type, it always rolls its maximum defense. Thus, it is good to know what sort of defense that unit has.
+			In addition, units have a combat speed. Combat speed is translated into action points in battle. Every action a unit takes uses up action points (attacking, moving, defending, etc.).
+			In tactical battles, Champions (and sovereigns) can retreat, but rank and file units may not.
+			A unit's Combat Rating (CR) is calculated based on its attack, defense, combat speed, and hit points. Combined Combat Ratings (CCR) values can be used to assess the strength of groups and armies.
+		</Text>
+	</FlavorText>	
+	
+</FlavorTextEntries>

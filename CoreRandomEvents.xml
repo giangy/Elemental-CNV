@@ -1,0 +1,2886 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Quests>
+
+  <DataChecksum NoParse="1">
+    <Ignore>DisplayName</Ignore>
+    <Translate>DisplayName,Description,SuccessText,FailureText</Translate>
+  </DataChecksum>
+  
+  
+  <QuestDef InternalName="RandomEvent_AdventureProblem_1">
+    <DisplayName>Troublesome Adventurers</DisplayName>
+    <Description>
+      Into the throne room comes a band of panicked looking adventurers. The leader explains he was searching a nearby tomb and found a valuable book written in an ancient language. Unfortunately, the book was seized by an Urxen robber named Kolan. If Kolan learns the secrets to this book, he could become a real menace to the countryside.
+
+      "I'm really sorry, my lord," he says.
+
+      What do you want to do?
+    </Description>
+    <ShortTextAccept>Sigh. I'll fix your mess but you've all been drafted.</ShortTextAccept>
+	<ShortTextDeny>I'm too busy for this</ShortTextDeny>
+    <RewardText>Hosten's Lost Legacy</RewardText>
+    <RewardImage>Tech_Third_Book.png</RewardImage>
+    <SuccessText>
+      You have defeated Kolan and kept a valuable relic out of the hands of evil. Roland has agreed to translate the book allowing you to make use of it.
+    </SuccessText>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>60</TriggerData>
+    <TriggerChance>100</TriggerChance>
+    <PostTriggerChance>10</PostTriggerChance>
+    <SpawnRating>1</SpawnRating>
+    <Image>BG18_Dark.png</Image>
+    <Treasure>
+      <GameModifier InternalName="Reward1">
+        <ModType>Unit</ModType>
+        <Attribute>GiveExperience</Attribute>
+        <Value>9</Value>
+      </GameModifier>
+    </Treasure>
+    <Treasure>
+      <GameModifier InternalName="Reward2">
+        <ModType>GiveItem</ModType>
+        <Attribute>BookOfExperience4</Attribute>
+        <StrVal>Hosten's Legacy</StrVal>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <NextObjectiveID>1</NextObjectiveID>
+      <Description>Find and defeat Kolan.</Description>
+      <Treasure>
+        <GameModifier>
+          <ModType>Map</ModType>
+          <Attribute>CreateGoodieHut</Attribute>
+          <StrVal>Kolan's Tomb</StrVal>
+          <Unitclass>GH_Quest_DemonTomb</Unitclass>
+          <Radius>12</Radius>
+        </GameModifier>
+        <GameModifier InternalName="Join">
+          <ModType>Unit</ModType>
+          <Attribute>UnitJoinArmy</Attribute>
+          <StrVal>Unit_Defender_Altarian</StrVal>
+          <StrVal2>Roland's Adventurers</StrVal2>
+          <UnitClass>Unit</UnitClass>
+        </GameModifier>
+      </Treasure>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Find the tomb, defeat Kolan.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>ClearGoodieHut</Type>
+        <TextData>GH_Quest_DemonTomb</TextData>
+        <Flag>RevealTarget</Flag>
+      </QuestConditionDef>
+      <ChoiceText>The tomb had been desecrated long before the Athican adventurer had bumbled into it. A group of Urxen robbers have used it as a refuge. One particularly nasty one is holding a book and sneers at the adventurer, "Looking for this?"</ChoiceText>
+      <ChoiceMedallion>F_Domination_Full.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Defeat Kolan</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+        <Encounter>
+          <Liklihood>100</Liklihood>
+          <BattleIdentifier>Kolan</BattleIdentifier>
+          <WillRespawn>0</WillRespawn>
+          <WanderingRadius>0</WanderingRadius>
+          <UnitInstance>
+            <UnitType>Unit_Defender_Urxen</UnitType>
+            <UnitName>Kolan</UnitName>
+            <Level>7</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>Unit_Spearman_Urxen</UnitType>
+            <UnitName>Minion</UnitName>
+            <Level>3</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>Unit_Spearman_Urxen</UnitType>
+            <UnitName>Minion</UnitName>
+            <Level>3</Level>
+          </UnitInstance>
+        </Encounter>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>I'll return later</Description>
+        <NextObjectiveID>0</NextObjectiveID>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>1</ObjectiveID>
+      <NextObjectiveID>2</NextObjectiveID>
+      <PopupObjectiveMsg>0</PopupObjectiveMsg>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Defeat Kolan</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>BattleFinished</Type>
+        <TextData>Kolan</TextData>
+        <MoreTextData>Victory</MoreTextData>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>2</ObjectiveID>
+      <NextObjectiveID>3</NextObjectiveID>
+      <Description>Return to your capital with the untranslated book.</Description>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Return to the capital with the untranslated book.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>UnitEntersCapital</Type>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>3</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+  <QuestDef InternalName="RandomEvent_AdventureProblem_3">
+    <DisplayName>Troublesome Adventurers</DisplayName>
+    <Description>
+      A group of adventurers comes running into the throne room. Their leader approaches you and tells you he was searching for a scroll of world changing power. Unfortunately, the scroll was seized by Urxens led by the infamous Kinor the Death Drinker. If Kinor learns the secrets to this book, he could become a real menace to the countryside.
+
+      "I'm really sorry, my lord," he says.
+
+      What do you want to do?
+    </Description>
+    <ShortTextAccept>Sigh. I'll fix your mess but you've all been drafted.</ShortTextAccept>
+	<ShortTextDeny>I'm too busy for this</ShortTextDeny>
+    <RewardText>Hosten's Lost Legacy</RewardText>
+    <RewardImage>Tech_Third_Book.png</RewardImage>
+    <SuccessText>
+      You have defeated Kinor and kept a valuable relic out of the hands of evil. Eric has agreed to translate the scroll allowing you to make use of it.
+      
+      He reads it and a high pitched voice speaks, "I am Kax, the Avatar of Conquest. I have heard your request and it has been granted. Conquered populations will submit to their defeat."
+      
+      [No more unrest penalty in conquered cities]
+    </SuccessText>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>80</TriggerData>
+    <TriggerChance>100</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <SpawnRating>2</SpawnRating>
+    <Image>BG18_Dark.png</Image>
+    <Treasure>
+      <GameModifier InternalName="Reward1">
+        <ModType>Unit</ModType>
+        <Attribute>GiveExperience</Attribute>
+        <Value>9</Value>
+      </GameModifier>
+    </Treasure>
+    <Treasure>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>ChangeWorld</Attribute>
+        <StrVal>155</StrVal>
+        <StrVal2>0</StrVal2>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <NextObjectiveID>1</NextObjectiveID>
+      <Description>Find and defeat Kinor.</Description>
+      <Treasure>
+        <GameModifier>
+          <ModType>Map</ModType>
+          <Attribute>CreateGoodieHut</Attribute>
+          <StrVal>Kinor's Hide out</StrVal>
+          <Unitclass>GH_Quest_DemonTomb</Unitclass>
+          <Radius>16</Radius>
+        </GameModifier>
+        <GameModifier InternalName="Join">
+          <ModType>Unit</ModType>
+          <Attribute>UnitJoinArmy</Attribute>
+          <StrVal>Unit_Defender_Altarian</StrVal>
+          <StrVal2>Eric's Adventurers</StrVal2>
+          <UnitClass>Unit</UnitClass>
+        </GameModifier>
+      </Treasure>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Find Kinor's hide out.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>ClearGoodieHut</Type>
+        <TextData>GH_Quest_DemonTomb</TextData>
+        <Flag>RevealTarget</Flag>
+      </QuestConditionDef>
+      <ChoiceText>You have tracked Kinor back to his hide out. A group of Urxen are inside and spot you. One particularly nasty one is holding a scroll and sneers at the adventurer, "Looking for this?"</ChoiceText>
+      <ChoiceMedallion>F_Domination_Full.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Defeat Kolan</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+        <Encounter>
+          <Liklihood>100</Liklihood>
+          <BattleIdentifier>Kinor</BattleIdentifier>
+          <WillRespawn>0</WillRespawn>
+          <WanderingRadius>0</WanderingRadius>
+          <UnitInstance>
+            <UnitType>Unit_Defender_Urxen</UnitType>
+            <UnitName>Kinor</UnitName>
+            <Level>12</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>Unit_Spearman_Urxen</UnitType>
+            <UnitName>Minion</UnitName>
+            <Level>4</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>Unit_Spearman_Urxen</UnitType>
+            <UnitName>Minion</UnitName>
+            <Level>3</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>Unit_Spearman_Urxen</UnitType>
+            <UnitName>Minion</UnitName>
+            <Level>3</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>Unit_Spearman_Urxen</UnitType>
+            <UnitName>Minion</UnitName>
+            <Level>3</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>Unit_Spearman_Urxen</UnitType>
+            <UnitName>Minion</UnitName>
+            <Level>3</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>Unit_Spearman_Urxen</UnitType>
+            <UnitName>Minion</UnitName>
+            <Level>3</Level>
+          </UnitInstance>
+        </Encounter>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>I'll return later</Description>
+        <NextObjectiveID>0</NextObjectiveID>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>1</ObjectiveID>
+      <NextObjectiveID>2</NextObjectiveID>
+      <PopupObjectiveMsg>0</PopupObjectiveMsg>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Defeat Kinor</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>BattleFinished</Type>
+        <TextData>Kinor</TextData>
+        <MoreTextData>Victory</MoreTextData>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>2</ObjectiveID>
+      <NextObjectiveID>3</NextObjectiveID>
+      <Description>Return to your capital with the untranslated scroll.</Description>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Return to the capital with the untranslated scroll.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>UnitEntersCapital</Type>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>3</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+  
+
+  <QuestDef InternalName="RandomEvent_AdventureProblem_2">
+    <DisplayName>Troublesome Adventerers</DisplayName>
+    <Description>
+      Into the throne room come three very sad looking adventurers. They explain, at considerable length, that they met at a local pub and decided to go on a quest together. Unfortunately, this quest brought them to the ancient dungeon of Orilinor, Curgen's jailer.
+
+      This dungeon was thought to be lost and, frankly, it would have been better had it stayed lost. Upon opening it, a couple centuries worth of monster breeding was unleashed into the country side.
+
+      "Also, a demon known as Anithan is still there," he says.
+
+      What do you want to do?
+    </Description>
+    <ShortTextAccept>Sigh. Can't you people get real jobs? You'll be helping clean up this mess.</ShortTextAccept>
+	<ShortTextDeny>I'm too busy for this</ShortTextDeny>
+    <RewardText>Book of Demon Summoning</RewardText>
+    <RewardImage>Tech_Third_Book.png</RewardImage>
+    <SuccessText>
+      Anithan is defeated and the book is yours. Using the books of your private study to translate the runes in the book, you are able to summon a demon to do your bidding. Unfortunately, the book disintegrates upon use.
+    </SuccessText>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>50</TriggerData>
+    <TriggerChance>10</TriggerChance>
+    <PostTriggerChance>10</PostTriggerChance>
+    <SpawnRating>3</SpawnRating>
+    <Image>BG18_Dark.png</Image>
+    <Treasure>
+      <GameModifier InternalName="Reward1">
+        <ModType>Unit</ModType>
+        <Attribute>GiveExperience</Attribute>
+        <Value>30</Value>
+      </GameModifier>
+    </Treasure>
+    <Treasure>
+      <GameModifier InternalName="Reward2">
+        <ModType>Unit</ModType>
+        <Attribute>UnitJoinArmy</Attribute>
+        <StrVal>DeathDemon</StrVal>
+        <StrVal2>Pox</StrVal2>
+		<Value>7</Value>
+        <UnitClass>Unit</UnitClass>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <NextObjectiveID>1</NextObjectiveID>
+      <Description>Find and defeat Anithan.</Description>
+      <Treasure>
+        <GameModifier>
+          <ModType>Map</ModType>
+          <Attribute>CreateGoodieHut</Attribute>
+          <StrVal>Orilinor's Dungeon</StrVal>
+          <Unitclass>GH_Quest_Cave</Unitclass>
+          <Radius>12</Radius>
+        </GameModifier>
+        <GameModifier>
+          <ModType>Map</ModType>
+          <Attribute>SpawnMonster</Attribute>
+          <Value>24</Value>
+          <Unitclass>Darkling</Unitclass>
+          <StrVal>Escaped Darklings</StrVal>
+          <Radius>12</Radius>
+        </GameModifier>
+        <GameModifier InternalName="Join">
+          <ModType>Unit</ModType>
+          <Attribute>UnitJoinArmy</Attribute>
+          <StrVal>Iru</StrVal>
+          <StrVal2>Evoker</StrVal2>
+          <UnitClass>Unit</UnitClass>
+          <Level>6</Level>
+		  <Value>6</Value>
+        </GameModifier>
+        <GameModifier InternalName="Join">
+          <ModType>Unit</ModType>
+          <Attribute>UnitJoinArmy</Attribute>
+          <StrVal>Syndicate_SpyMaster</StrVal>
+          <StrVal2>Thug</StrVal2>
+          <UnitClass>Unit</UnitClass>
+          <Level>6</Level>
+  		  <Value>6</Value>
+        </GameModifier>
+        <GameModifier InternalName="Join">
+          <ModType>Unit</ModType>
+          <Attribute>UnitJoinArmy</Attribute>
+          <StrVal>Mercenary</StrVal>
+          <StrVal2>Mercenary</StrVal2>
+          <UnitClass>Unit</UnitClass>
+          <Level>6</Level>
+		  <Value>6</Value>
+		  </GameModifier>
+      </Treasure>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Find the cave that leads to the dungeon, defeat Anithan.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>ClearGoodieHut</Type>
+        <TextData>GH_Quest_Cave</TextData>
+        <Flag>RevealTarget</Flag>
+      </QuestConditionDef>
+      <ChoiceText>You manage to cause a cave in, sealing off the entrance to the vast lambrynth underneath but not before Anithan and his servants confront you.</ChoiceText>
+      <ChoiceMedallion>F_Domination_Full.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Defeat Anithan</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+        <Encounter>
+          <Liklihood>100</Liklihood>
+          <BattleIdentifier>Anithan</BattleIdentifier>
+          <WillRespawn>0</WillRespawn>
+          <WanderingRadius>0</WanderingRadius>
+          <UnitInstance>
+            <UnitType>DeathDemon</UnitType>
+            <UnitName>Anithan</UnitName>
+            <Level>7</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>Juggernaut_Escaped</UnitType>
+            <UnitName>Failed prototype</UnitName>
+            <Level>1</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>DarklingWarrior</UnitType>
+            <UnitName>Darkling Horde</UnitName>
+            <UnitGroupingType>UnitGroupingType_Squad</UnitGroupingType>
+            <Level>1</Level>
+          </UnitInstance>
+        </Encounter>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>Ah. Yes...well..quite. We will just be leaving you to your cave.</Description>
+        <NextObjectiveID>0</NextObjectiveID>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>1</ObjectiveID>
+      <NextObjectiveID>2</NextObjectiveID>
+      <PopupObjectiveMsg>0</PopupObjectiveMsg>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Defeat Anithan</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>BattleFinished</Type>
+        <TextData>Anithan</TextData>
+        <MoreTextData>Victory</MoreTextData>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>2</ObjectiveID>
+      <NextObjectiveID>3</NextObjectiveID>
+      <Description>Return to your capital with the untranslated book of demons.</Description>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Return to the capital with the untranslated book of demon summoning.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>UnitEntersCapital</Type>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>3</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+
+
+
+  <QuestDef InternalName="RandomEvent_Allies">
+    <DisplayName>Clearing the countryside</DisplayName>
+    <Description>
+      Sire, a village elder wishes to speak to you. Should we allow him to approach?
+    </Description>
+    <ShortTextAccept>By all means, show him in.</ShortTextAccept>
+    <ShortTextDeny>I'm very busy, send him away.</ShortTextDeny>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>35</TriggerData>
+    <TriggerChance>200</TriggerChance>
+    <PostTriggerChance>10</PostTriggerChance>
+    <TriggerOrigin>EventLocation</TriggerOrigin>
+    <SpawnRating>1</SpawnRating>
+    <Image>Q_ImpoverishedLord.png</Image>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <ChoiceText>
+        A village elder approaches you.
+
+        "My Lord, you seem to be succeeding where we have failed," the village elder says. "We have tried to form a village near here, to provide care, safety and meal for the few that follow me.  But we are little more than fatted calves for the darklings who come out at night to slaughter us. They consume more of our wheat than we do and eat more of our lambs.  I have failed."
+
+        We look for a leader who can bring civilization back to our world. We would join you if you'll have us..
+      </ChoiceText>
+      <ChoiceMedallion>Q_ImpoverishedLord.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Gfx\Medallions\Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>We have no need for failures here. Take his supplies and remove him from my sight.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>The elder growls, "You may be a rising power now, but rejecting potential allies makes you a fool!"</PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward1">
+            <ModType>GiveItem</ModType>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>Of course. We are glad to have you.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <PopupMessage>The elder smiles, "We are grateful for your wisdom. We will serve you until Destiny takes us."</PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward1">
+            <ModType>Unit</ModType>
+            <Attribute>GiveExperience</Attribute>
+            <Value>9</Value>
+          </GameModifier>
+        </Treasure>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>Unit</ModType>
+            <Attribute>UnitJoinArmy</Attribute>
+            <StrVal>Unit_Quest_Archer</StrVal>
+            <StrVal2>Wilbur's Archers</StrVal2>
+            <UnitClass>Unit</UnitClass>
+          </GameModifier>
+        </Treasure>
+        <Treasure>
+		  <GameModifier InternalName="Reward3">
+            <ModType>Unit</ModType>
+			<Attribute>UnitJoinArmy</Attribute>
+			<StrVal>Champion_Wilbur</StrVal>
+			<StrVal2>Wilbur</StrVal2>
+			<Value>3</Value>
+			<UnitClass>Champion</UnitClass>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+  <QuestDef InternalName="Quest_Counterstrike">
+    <DisplayName>Counterstrike</DisplayName>
+    <Description>
+      Timed to strike on the anniversary of Curgen's death, a series of previously hidden redoubts have opened and released hordes of Abominations onto the land. Beware.
+    </Description>
+    <AllowQuestRejection>0</AllowQuestRejection>
+    <FullscreenMovie>Movies\Minicut_Event_Eclipse.bik</FullscreenMovie>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>150</TriggerData>
+    <TriggerOrigin>EventLocation</TriggerOrigin>
+    <TriggerChance>100</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <Treasure>
+      <GameModifier InternalName="OhCrapWeAreGonnaDie">
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>8</Value>
+        <Unitclass>Juggernaut_Escaped</Unitclass>
+        <StrVal>Released Abomination</StrVal>
+        <Radius>16</Radius>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+  <QuestDef InternalName="Quest_UnearthTreasures">
+    <DisplayName>Unearthed Treasures</DisplayName>
+    <Description>
+      A great earthquake has rocked the lands. In the wake of the destruction previously hidden relics from before the catacysm have been unearthed. They now dot the land, waiting to be collected.
+    </Description>
+    <AllowQuestRejection>0</AllowQuestRejection>
+    <FullscreenMovie>Movies\Minicut_Event_TheRevelry.bik</FullscreenMovie>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>255</TriggerData>
+    <TriggerOrigin>EventLocation</TriggerOrigin>
+    <TriggerChance>100</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <Treasure>
+      <GameModifier InternalName="OhCrapWeAreGonnaDie">
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>1</Value>
+        <Unitclass>Titan</Unitclass>
+        <StrVal>Unearthed Titan</StrVal>
+        <Radius>16</Radius>
+      </GameModifier>
+      <GameModifier InternalName="Resource">
+        <ModType>Map</ModType>
+        <Attribute>CreateResourceHoard</Attribute>
+        <Value>8</Value>
+        <StrVal>Resource_GoldDeposit</StrVal>
+        <Radius>64</Radius>
+      </GameModifier>
+      <GameModifier InternalName="Resource">
+        <ModType>Map</ModType>
+        <Attribute>CreateResourceHoard</Attribute>
+        <Value>1</Value>
+        <StrVal>Feature_Holhiarn</StrVal>
+        <Radius>12</Radius>
+      </GameModifier>
+      <GameModifier InternalName="Goodieuts">
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Unearthed treasure</StrVal>
+        <Unitclass>Treasure_Chest</Unitclass>
+        <Radius>4</Radius>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+
+  <QuestDef InternalName="Quest_GoldRush">
+    <DisplayName>Gold Rush</DisplayName>
+    <Description>
+      Reports have come in that new techniques for finding gold deposits have been invented. As a result, many new gold deposits have been uncovered.
+      
+      But beware, shiny things have a way of attracting the attention of undesirables.
+    </Description>
+    <AllowQuestRejection>0</AllowQuestRejection>
+    <FullscreenMovie>Movies\Minicut_Event_TheRevelry.bik</FullscreenMovie>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>219</TriggerData>
+    <TriggerOrigin>EventLocation</TriggerOrigin>
+    <TriggerChance>100</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <Treasure>
+      <GameModifier InternalName="OhCrapWeAreGonnaDie">
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>1</Value>
+        <Unitclass>Titan</Unitclass>
+        <StrVal>Titan of Gold</StrVal>
+        <Radius>16</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>8</Value>
+        <Unitclass>BanditArcher</Unitclass>
+        <StrVal>Gold Rushers</StrVal>
+        <StrVal2>UnitGroupingType_Group</StrVal2>
+        <Radius>12</Radius>
+      </GameModifier>
+      <GameModifier InternalName="Resource">
+        <ModType>Map</ModType>
+        <Attribute>CreateResourceHoard</Attribute>
+        <Value>8</Value>
+        <StrVal>Resource_GoldDeposit</StrVal>
+        <Radius>32</Radius>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+
+  
+  
+  
+  <QuestDef InternalName="RandomEvent_SyndicateRebellion">
+    <DisplayName>The Sydnicate Responds</DisplayName>
+    <Description>
+      For years after the cataclysm, chaos ruled across the world. No one profited from that chaos more than the criminal organization called "The Syndicate"
+      
+      With these new kingdoms and empires forming, they see their time passing and have responded with a major uprising. Across the land, Syndicate forces have come out of the wood work to terrorize the populace.
+      
+      You must restore order before they do too much damage.
+    </Description>
+    <AllowQuestRejection>0</AllowQuestRejection>
+    <FullscreenMovie>Movies\Minicut_Event_CyndrumsCall.bik</FullscreenMovie>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>176</TriggerData>
+    <TriggerChance>150</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <Treasure>
+      <GameModifier InternalName="OhCrapWeAreGonnaDie1">
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>4</Value>
+        <Unitclass>SyndicateThug</Unitclass>
+        <StrVal>Syndicate Rebel</StrVal>
+        <StrVal2>UnitGroupingType_Party</StrVal2>
+        <Radius>12</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>3</Value>
+        <Unitclass>SyndicateAssassin</Unitclass>
+        <StrVal2>UnitGroupingType_Party</StrVal2>
+        <StrVal>Syndicate Rebel</StrVal>
+        <Radius>12</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>1</Value>
+        <Unitclass>BanditArcher</Unitclass>
+        <StrVal2>UnitGroupingType_Squad</StrVal2>
+        <StrVal>Syndicate Maulers</StrVal>
+        <Radius>12</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>2</Value>
+        <Unitclass>BanditArcher</Unitclass>
+        <StrVal2>UnitGroupingType_Party</StrVal2>
+        <StrVal>Syndicate Sniper</StrVal>
+        <Radius>12</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>2</Value>
+        <Unitclass>Syndicate_Dresdon</Unitclass>
+        <StrVal2>UnitGroupingType_Party</StrVal2>
+        <StrVal>Syndicate Elites</StrVal>
+        <Radius>12</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>4</Value>
+        <Unitclass>SyndicateEnforcer</Unitclass>
+        <StrVal>Syndicate Destroyer</StrVal>
+        <StrVal2>UnitGroupingType_Party</StrVal2>
+        <Radius>12</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>2</Value>
+        <Unitclass>Syndicate_SpyMaster</Unitclass>
+        <StrVal>Syndicate Terrorist</StrVal>
+        <StrVal2>UnitGroupingType_Party</StrVal2>
+        <Radius>12</Radius>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+  <QuestDef InternalName="RandomEvent_MoreDangerous">
+    <DisplayName>The world gets more dangerous...</DisplayName>
+    <Description>
+      Civilization is returning to the world. Cities are being constructed. The wilds are being cleared. With each step forward, horrors, long thought banished from this world, are disturbed. Some of these beings of nightmares have been sighted. Vigilance.
+    </Description>
+    <AllowQuestRejection>0</AllowQuestRejection>
+    <FullscreenMovie>Movies\Minicut_Event_CyndrumsCall.bik</FullscreenMovie>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>1</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>215</TriggerData>
+    <TriggerChance>100</TriggerChance>
+    <PostTriggerChance>24</PostTriggerChance>
+    <Treasure>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Awakened Air Elemental</StrVal>
+        <Unitclass>Lair_AirElemental</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Butchermen Altar</StrVal>
+        <Unitclass>Lair_Amhah</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Ithirion's Tomb</StrVal>
+        <Unitclass>Lair_AssassinDemon</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Droythar</StrVal>
+        <Unitclass>Lair_ClambercoilDragon</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Darkling Temple</StrVal>
+        <Unitclass>Lair_DarklingWarlock2</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Darkling Camp</StrVal>
+        <Unitclass>Lair_DarklingShaman_Final</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Peculiar Snow fall</StrVal>
+        <Unitclass>Lair_Garrote</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Troll Grove</StrVal>
+        <Unitclass>Lair_TrollShaman_Spawned</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Troll Altar</StrVal>
+        <Unitclass>Lair_TrollShaman_Spawned</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Wilding Assassins</StrVal>
+        <Unitclass>Lair_WildingHermit_Spawned</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Wilding Magi</StrVal>
+        <Unitclass>Lair_WildingHermit_Spawned</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+  <QuestDef InternalName="RandomEvent_MoreDangerous2">
+    <DisplayName>They won't go away quietly...</DisplayName>
+    <Description>
+      Civilization is returning to the world. Cities are being constructed. The creatures that believed they had inherited a world after the cataclysm will no go quietly away...
+    </Description>
+    <AllowQuestRejection>0</AllowQuestRejection>
+    <FullscreenMovie>Movies\Minicut_Event_CyndrumsCall.bik</FullscreenMovie>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>1</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>332</TriggerData>
+    <TriggerChance>100</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <Treasure>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Rock Spider Web</StrVal>
+        <Unitclass>Lair_AlbinoRockSpider_Spawned</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Enraged Black Widow</StrVal>
+        <Unitclass>Lair_BlackWidow_Spawned</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Bone Ogre Lord</StrVal>
+        <Unitclass>Lair_BoneOgre_Elder</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Vile Nest</StrVal>
+        <Unitclass>Lair_CorpseSpider_Spawned</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Vile Nest</StrVal>
+        <Unitclass>Lair_CorpseSpider_Spawned</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Vile Nest</StrVal>
+        <Unitclass>Lair_CorpseSpider_Spawned</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Lair of the Ravager</StrVal>
+        <Unitclass>Lair_Ravager</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Horder Spider Nest</StrVal>
+        <Unitclass>Lair_HoaderSpider_Final</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Diseased Land</StrVal>
+        <Unitclass>Lair_Plaguestalker</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Krigoth Enforcer</StrVal>
+        <Unitclass>Lair_Krigoth</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Krigoth Enforcer</StrVal>
+        <Unitclass>Lair_Krigoth</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Rock Spider Nest</StrVal>
+        <Unitclass>Lair_RockSpider</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+
+  <QuestDef InternalName="RandomEvent_MoreDangerous3">
+    <DisplayName>Infestation...</DisplayName>
+    <Description>
+      Somewhere out there is the Spider Queen. For long years her kingdom has spread across the ruined world. Civilization is her enemy. The rise of it must be stopped and to this end, she has unleashed her children upon us all.
+    </Description>
+    <AllowQuestRejection>0</AllowQuestRejection>
+    <FullscreenMovie>Movies\Minicut_Event_CyndrumsCall.bik</FullscreenMovie>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>1</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>100</TriggerData>
+    <TriggerChance>109</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <Treasure>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Rock Spider Web</StrVal>
+        <Unitclass>Lair_AlbinoRockSpider_Spawned</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Enraged Black Widow</StrVal>
+        <Unitclass>Lair_BlackWidow_Spawned</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Emerald web of the Spider Queen</StrVal>
+        <Unitclass>Lair_SpiderQueen</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Vile Nest</StrVal>
+        <Unitclass>Lair_CorpseSpider_Spawned</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Vile Nest</StrVal>
+        <Unitclass>Lair_CorpseSpider_Spawned</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Vile Nest</StrVal>
+        <Unitclass>Lair_CorpseSpider_Spawned</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Horder Spider Nest</StrVal>
+        <Unitclass>Lair_HoaderSpider_Final</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Rock Spider Nest</StrVal>
+        <Unitclass>Lair_RockSpider</Unitclass>
+        <Radius>24</Radius>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+  
+  <QuestDef InternalName="RandomEvent_ChangedWorld">
+    <DisplayName>The world has changed...</DisplayName>
+    <Description>
+      My Lord, thanks to the progress of technology, units across the world can now equip 4 accessories instead of 3!
+    </Description>
+    <AllowQuestRejection>0</AllowQuestRejection>
+    <FullscreenMovie>Movies\Minicut_Event_TheRevelry.bik</FullscreenMovie>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>50</TriggerData>
+    <TriggerChance>10</TriggerChance>
+    <PostTriggerChance>10</PostTriggerChance>
+    <Treasure>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>ChangeWorld</Attribute>
+        <StrVal>0</StrVal>  
+        <StrVal2>4</StrVal2>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+  
+  <QuestDef InternalName="RandomEvent_ReturnOfTheTitans">
+    <DisplayName>Return of the Titans</DisplayName>
+    <Description>
+		You are sitting in camp discussing the events of the past day. Suddenly, there is a loud booming sound followed by a hollow voice.
+
+		"We have returned," rumbles the voice. "We have returned to take what is ours. There is nothing you can do to stop us."
+
+		Without consciously understanding how, you realize the Titans have returned. Somehow, from whatever dark place they originate from, they have found a way back.  The only way to stop them is to find their portal and close it.
+    </Description>
+    <AllowQuestRejection>0</AllowQuestRejection>
+    <FullscreenMovie>Movies\Minicut_Event_CyndrumsCall.bik</FullscreenMovie>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>433</TriggerData>
+    <TriggerChance>100</TriggerChance>
+    <PostTriggerChance>10</PostTriggerChance>
+    <Treasure>
+      <GameModifier InternalName="OhCrapWeAreGonnaDie1">
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>1</Value>
+        <Unitclass>Titan</Unitclass>
+        <StrVal>Olirax the Titan</StrVal>
+        <Radius>32</Radius>
+      </GameModifier>
+      <GameModifier InternalName="OhCrapWeAreGonnaDie2">
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>1</Value>
+        <Unitclass>Titan</Unitclass>
+        <StrVal>Varlis the Titan</StrVal>
+        <Radius>32</Radius>
+      </GameModifier>
+      <GameModifier InternalName="OhCrapWeAreGonnaDie3">
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>1</Value>
+        <Unitclass>Titan</Unitclass>
+        <StrVal>Umbron the Titan</StrVal>
+        <Radius>32</Radius>
+      </GameModifier>
+      <GameModifier InternalName="OhCrapWeAreGonnaDie4">
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>1</Value>
+        <Unitclass>Titan</Unitclass>
+        <StrVal>Pirlion the Titan</StrVal>
+        <Radius>32</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>SpawnMonster</Attribute>
+        <Value>8</Value>
+        <Unitclass>TitanImp</Unitclass>
+        <StrVal>Servants of the Titans</StrVal>
+        <StrVal2>UnitGroupingType_Party</StrVal2>
+        <Radius>32</Radius>
+      </GameModifier>
+      <GameModifier>
+        <ModType>Map</ModType>
+        <Attribute>CreateGoodieHut</Attribute>
+        <StrVal>Rift of the Titans</StrVal>
+        <Unitclass>GH_Shadow_Rift</Unitclass>
+        <Radius>12</Radius>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+  
+  
+  <QuestDef InternalName="RandomEvent_LostKnight">
+    <DisplayName>The Lost Knight</DisplayName>
+    <Description>
+      My lord, a young squire has approached the camp and requests to speak to you.
+    </Description>
+    <ShortTextAccept>Send him in.</ShortTextAccept>
+    <ShortTextDeny>Can't you see I'm eating? Send him away.</ShortTextDeny>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>115</TriggerData>
+    <TriggerChance>200</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <TriggerOrigin>EventLocation</TriggerOrigin>
+    <SpawnRating>1</SpawnRating>
+    <Image>Calis.png</Image>
+    <RewardText>A new ally.</RewardText>
+    <RewardImage>B1_C7_KingsGuardian.png</RewardImage>
+    <SuccessText>
+      You find Sir Kodrin tied in the corner of the house. He is shaken but otherwise unharmed.
+
+      "My Lord, thank you for rescuing me. I am embarassed that I needed saving. Word has spread of your mighty rule. I am honored to join you."
+    </SuccessText>
+    <Treasure>
+      <GameModifier InternalName="Reward2">
+        <ModType>Unit</ModType>
+        <Attribute>UnitJoinArmy</Attribute>
+        <StrVal>Champion_Kiergann</StrVal>
+        <StrVal2>Sir Kodrin</StrVal2>
+		<Value>4</Value>
+        <UnitClass>Champion</UnitClass>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <ChoiceText>
+        A young man, dark haired and pale of face approaches. He could not be older than 15.
+
+        "My liege, Sir Kodrin was ambushed by Wilding raiders not far from here. He was on his way here to offer you his services. Can you help me rescue him?"
+      </ChoiceText>
+      <ChoiceMedallion>Q_Prisoner.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Gfx\Medallions\Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>We can use all the help we can get. Lead the way.</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+        <PopupMessage>The boy smiles, "Thank you so much, your majesty. My name is Calin, I am the one of the squires of Sir Krodrin."</PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward1">
+            <ModType>Unit</ModType>
+            <Attribute>GiveExperience</Attribute>
+            <Value>3</Value>
+          </GameModifier>
+          <GameModifier InternalName="Reward3">
+            <ModType>Unit</ModType>
+            <Attribute>UnitJoinArmy</Attribute>
+            <StrVal>Unit_Light_Krax</StrVal>
+            <StrVal2>Krodrin's Squires</StrVal2>
+			<UnitGroupingType>UnitGroupingType_Party</UnitGroupingType>
+            <UnitClass>Unit</UnitClass>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>If he were worthy of my time, he wouldn't have been captured in the first place. Be gone.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>The young boy breaks down. He sobs, "I believed in you! He believed in you!"</PopupMessage>
+      </QuestChoiceDef>
+	  </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>1</ObjectiveID>
+      <NextObjectiveID>2</NextObjectiveID>
+      <Description>Rescue Sir Kodrin from the "bandits".</Description>
+      <Treasure>
+        <GameModifier>
+          <ModType>Map</ModType>
+          <Attribute>CreateGoodieHut</Attribute>
+          <StrVal>Syndicate Hideout</StrVal>
+          <Unitclass>GH_Quest_RuinedHouse</Unitclass>
+          <Radius>12</Radius>
+        </GameModifier>
+      </Treasure>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Rescue Sir Kodrin from the so-called bandits.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>ClearGoodieHut</Type>
+        <TextData>GH_Quest_RuinedHouse</TextData>
+        <Flag>RevealTarget</Flag>
+      </QuestConditionDef>
+      <ChoiceText>You reached what appears to be a ruined house. But as you suspected from the beginning, it is a Syndicate hideout. The criminal powers continue to do what they can to keep civilization from returning.</ChoiceText>
+      <ChoiceMedallion>K_Men_Assassin_Card_01.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Defeat the Syndicate kidnappers to free Sir Kodrin.</Description>
+        <NextObjectiveID>2</NextObjectiveID>
+        <Encounter>
+          <Liklihood>100</Liklihood>
+          <BattleIdentifier>Syndicate Commander</BattleIdentifier>
+          <WillRespawn>0</WillRespawn>
+          <WanderingRadius>0</WanderingRadius>
+          <UnitInstance>
+            <UnitType>Syndicate_Dresdon</UnitType>
+            <UnitName>Syndicate Commander</UnitName>
+            <Level>7</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>Unit_Defender_Urxen</UnitType>
+            <UnitName>Syndicate Henchmen</UnitName>
+            <Level>2</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>SyndicateAssassin</UnitType>
+            <UnitName>Syndicate Agent</UnitName>
+            <Level>3</Level>
+          </UnitInstance>
+        </Encounter>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>The Syndicate should not be trifled with. I will return later.</Description>
+        <NextObjectiveID>0</NextObjectiveID>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>2</ObjectiveID>
+      <NextObjectiveID>3</NextObjectiveID>
+      <PopupObjectiveMsg>0</PopupObjectiveMsg>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Defeat the Syndicate Forces.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>BattleFinished</Type>
+        <TextData>Syndicate Commander</TextData>
+        <MoreTextData>Victory</MoreTextData>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>3</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+
+  <QuestDef InternalName="RandomEvent_LostKnight2">
+    <DisplayName>The Ambushed Protector</DisplayName>
+    <Description>
+      My lord, a young lady has approached the camp and requests to speak to you.
+      
+      What should I tell her?
+    </Description>
+    <ShortTextAccept>Send her in.</ShortTextAccept>
+    <ShortTextDeny>I'm too busy to be dealing with this.</ShortTextDeny>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>22</TriggerData>
+    <TriggerChance>100</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <TriggerOrigin>EventLocation</TriggerOrigin>
+    <SpawnRating>1</SpawnRating>
+    <Image>Geni.png</Image>
+    <RewardText>A new ally.</RewardText>
+    <RewardImage>M_Stalker_Card.png</RewardImage>
+    <SuccessText>
+      You find "kitty" in a large cage in the back. It takes to you immediately.
+    </SuccessText>
+    <Treasure>
+      <GameModifier InternalName="Reward2">
+        <ModType>Unit</ModType>
+        <Attribute>UnitJoinArmy</Attribute>
+        <StrVal>Stalker</StrVal>
+        <StrVal2>Kitty</StrVal2>
+        <Value>8</Value>
+        <UnitClass>Unit</UnitClass>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <ChoiceText>
+        A young lady enters your camp. 
+        
+        "Your majesty, ever since my parents were murdered by the Syndicate I've been on my own. I would never have made it if it weren't for 'Kitty'."
+        
+        She recounts a story of finding an abandoned Stalker kitten and taking care of it. Soon, it became a fiercely protective companion for her.
+        
+        "But now, ruffians have taken her. They'd never seen a 'tame' Stalker before and look to sell her. Can you help me?"
+      </ChoiceText>
+      <ChoiceMedallion>M_Stalker_Card.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Gfx\Medallions\Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>You've been on your own long enough. Stay here, I'll rescue "Kitty".</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+        <PopupMessage>She weeps, "Thank you so much, your majesty!"</PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward1">
+            <ModType>Unit</ModType>
+            <Attribute>GiveExperience</Attribute>
+            <Value>3</Value>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>  
+      <QuestChoiceDef>
+        <Description>I am not a pet saving service. Find a new pet.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>
+          She cries, but what will happen to me without a protector?
+          
+          "Maybe you'll find another dog or whatever you said it was," you respond.
+          
+        </PopupMessage>
+      </QuestChoiceDef>
+      
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>1</ObjectiveID>
+      <NextObjectiveID>2</NextObjectiveID>
+      <Description>Save Kitty.</Description>
+      <Treasure>
+        <GameModifier>
+          <ModType>Map</ModType>
+          <Attribute>CreateGoodieHut</Attribute>
+          <StrVal>Ruffian Lair</StrVal>
+          <Unitclass>GH_Quest_RuinedHouse</Unitclass>
+          <Radius>12</Radius>
+        </GameModifier>
+      </Treasure>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Save Kitty.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>ClearGoodieHut</Type>
+        <TextData>GH_Quest_RuinedHouse</TextData>
+        <Flag>RevealTarget</Flag>
+      </QuestConditionDef>
+      <ChoiceText>You reached what appears to be a ruined house. You see "Kitty" in a cage in the back, ruffians in the front.</ChoiceText>
+      <ChoiceMedallion>K_Men_Assassin_Card_01.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Attack the ruffians.</Description>
+        <NextObjectiveID>2</NextObjectiveID>
+        <Encounter>
+          <Liklihood>100</Liklihood>
+          <BattleIdentifier>Ruffian Leader</BattleIdentifier>
+          <WillRespawn>0</WillRespawn>
+          <WanderingRadius>0</WanderingRadius>
+          <UnitInstance>
+            <UnitType>BanditCaptain</UnitType>
+            <UnitName>Ruffian Leader</UnitName>
+            <Level>5</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>BanditGuard</UnitType>
+            <UnitName>Ruffian Body Guard</UnitName>
+            <Level>3</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>Bandit</UnitType>
+            <UnitName>Ruffian Henchman</UnitName>
+            <Level>2</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>Bandit</UnitType>
+            <UnitName>Ruffian Henchman</UnitName>
+            <Level>2</Level>
+          </UnitInstance>
+        </Encounter>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>Wait. No one said they'd have knives. Let's go back and rethink this.</Description>
+        <NextObjectiveID>0</NextObjectiveID>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>2</ObjectiveID>
+      <NextObjectiveID>3</NextObjectiveID>
+      <PopupObjectiveMsg>0</PopupObjectiveMsg>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Defeat the Ruffians.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>BattleFinished</Type>
+        <TextData>Ruffian Leader</TextData>
+        <MoreTextData>Victory</MoreTextData>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>3</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+
+  <QuestDef InternalName="RandomEvent_LostKnight3">
+    <DisplayName>A lost protector</DisplayName>
+    <Description>
+      My lord, a young lady has approached the camp and requests to speak to you.
+
+      What should I tell her?
+    </Description>
+    <ShortTextAccept>Send her in.</ShortTextAccept>
+    <ShortTextDeny>Am I the only person who solves problems in this land?</ShortTextDeny>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>42</TriggerData>
+    <TriggerChance>100</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <TriggerOrigin>EventLocation</TriggerOrigin>
+    <SpawnRating>2</SpawnRating>
+    <Image>Geni.png</Image>
+    <RewardText>A new ally.</RewardText>
+    <RewardImage>GuardianWard_Painting.png</RewardImage>
+    <SuccessText>
+      Upon being reawakened, "Bill" joins you..
+    </SuccessText>
+    <Treasure>
+      <GameModifier InternalName="Reward2">
+        <ModType>Unit</ModType>
+        <Attribute>UnitJoinArmy</Attribute>
+        <StrVal>GuardianStatue_Empire</StrVal>
+        <StrVal2>Bill</StrVal2>
+        <Value>6</Value>
+        <UnitClass>Unit</UnitClass>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <ChoiceText>
+        A young lady enters camp. She seems...vaguely familiar.
+
+        "Your majesty, ever since my parents were murdered by the Syndicate, I've been on my own. I would never have made it if it weren't for 'Bill'."
+
+        She recounts her adventurers deep in the wilds when one day she came across "Bill".
+        
+        "He was sleeping but I woke him up," she explains. Now, a dark wizard has come and taken him from her. He somehow put him back to sleep. 
+        
+        "I barely escaped, but came straight to you. Can you help me?"
+      </ChoiceText>
+      <ChoiceMedallion>Geni.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Gfx\Medallions\Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Stay here. We'll deal with this wizard..</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+        <PopupMessage>She weeps, "Thank you so much, your majesty!"</PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward1">
+            <ModType>Unit</ModType>
+            <Attribute>GiveExperience</Attribute>
+            <Value>3</Value>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+	  <QuestChoiceDef>
+        <Description>I am very busy these days, young lady. I'm sorry.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>
+          She cries, "But what will happen to me without a protector?"
+
+          "Pick up a weapon and protect yourself," you say "or get very good at running."
+        </PopupMessage>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>1</ObjectiveID>
+      <NextObjectiveID>2</NextObjectiveID>
+      <Description>Save Bill.</Description>
+      <Treasure>
+        <GameModifier>
+          <ModType>Map</ModType>
+          <Attribute>CreateGoodieHut</Attribute>
+          <StrVal>Sorcerer's Refuge</StrVal>
+          <Unitclass>GH_Quest_Ruins</Unitclass>
+          <Radius>12</Radius>
+        </GameModifier>
+      </Treasure>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Save Bill.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>ClearGoodieHut</Type>
+        <TextData>GH_Quest_Ruins</TextData>
+        <Flag>RevealTarget</Flag>
+      </QuestConditionDef>
+      <ChoiceText>
+        You have reached the ruins of an ancient temple. It is very quiet but you sense dark sorcery around you.
+        
+        "I know he's here," you say. "The Dark Sorcerer seeks to bring about The Empire of Sorcery. I won't let that happen."
+      </ChoiceText>
+      <ChoiceMedallion>Rank_Vatula.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Enter the temple.</Description>
+        <NextObjectiveID>2</NextObjectiveID>
+        <Encounter>
+          <Liklihood>100</Liklihood>
+          <BattleIdentifier>Battle1</BattleIdentifier>
+          <WillRespawn>0</WillRespawn>
+          <WanderingRadius>0</WanderingRadius>
+          <UnitInstance>
+            <UnitType>DarkWizard</UnitType>
+            <UnitName>The Dark Sorcerer</UnitName>
+            <Level>20</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>WildingArcher</UnitType>
+            <UnitName>Servant of the Empire</UnitName>
+            <Level>6</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>WildingArcher</UnitType>
+            <UnitName>Servant of the Empire</UnitName>
+            <Level>6</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>WildingArcher</UnitType>
+            <UnitName>Servant of the Empire</UnitName>
+            <Level>6</Level>
+          </UnitInstance>
+        </Encounter>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>Oh wait. This is THE dark sorcerer. Let's get out of here!</Description>
+        <NextObjectiveID>0</NextObjectiveID>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>2</ObjectiveID>
+      <NextObjectiveID>3</NextObjectiveID>
+      <PopupObjectiveMsg>0</PopupObjectiveMsg>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Defeat the Dark Sorcerer.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>BattleFinished</Type>
+        <TextData>Battle1</TextData>
+        <MoreTextData>Victory</MoreTextData>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>3</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+  <QuestDef InternalName="RandomEvent_LostKnight4">
+    <DisplayName>A Friend of Dragons</DisplayName>
+    <Description>
+      My lord, some kind of sage or wizard approaches.
+
+      What should I tell him?
+    </Description>
+    <ShortTextAccept>Bring him to me.</ShortTextAccept>
+    <ShortTextDeny>Wizards are trouble, send him away.</ShortTextDeny>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>810</TriggerData>
+    <TriggerChance>500</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <TriggerOrigin>EventLocation</TriggerOrigin>
+    <SpawnRating>5</SpawnRating>
+    <Image>Sovereign_Altar.png</Image>
+    <RewardText>A new ally.</RewardText>
+    <RewardImage>F_DragonAlly.png</RewardImage>
+    <SuccessText>
+      With Talax incapacitated, Dratho awakens.
+      
+      "A dragon needing rescuing by a mortal. The Destiny have a sense of irony," Dratho says.
+      
+      Looking at you he says, "Clearly, you are a noble creature. I shall aid thee here, at the end of things."
+      
+      Let us end this.
+    </SuccessText>
+    <Treasure>
+      <GameModifier InternalName="Reward2">
+        <ModType>Unit</ModType>
+        <Attribute>UnitJoinArmy</Attribute>
+        <StrVal>AshwakeDragon</StrVal>
+        <StrVal2>Dratho</StrVal2>
+        <UnitClass>Unit</UnitClass>
+		<Value>15</Value>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <ChoiceText>
+        A man who seems ancient beyond years enters your inner circle. He seems...familiar. For over two centuries you have struggled to bring order to this world. The world is now largely covered with cities and order of one kind or another.
+        
+        "Hello, old friend", he says. You may not remember me, but I remember you. It is time to bring this struggle to an end. I have come with tidings of great import. The ancient Titan, Talax has been sighted. He put his might into subduing a mighty dragon. Now is the time to strike."
+        
+        He explains that with swift action, the dragon might be recovered to aid you and Talax could be brought low for a time.
+        
+        "If we are lucky, we can prevent Talax's designs to create an Empire of Sorcery."
+      </ChoiceText>
+      <ChoiceMedallion>Gfx\Medallions\Tech_Titans_Remain.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Gfx\Medallions\Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Let us find this dragon of yours.</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+        <PopupMessage>"Excellent," he says. Perhaps my small power may be of some use. I shall join you on this journey. I shall put on my armor for battle.</PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward1">
+            <ModType>Unit</ModType>
+            <Attribute>GiveExperience</Attribute>
+            <Value>3</Value>
+          </GameModifier>
+          <GameModifier InternalName="Reward2">
+            <ModType>Unit</ModType>
+            <Attribute>UnitJoinArmy</Attribute>
+            <StrVal>Titan</StrVal>
+            <StrVal2>Sidant</StrVal2>
+            <UnitClass>Unit</UnitClass>
+			<Value>5</Value>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>I have no need for dragons. The time of the Channelers is here.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>
+          He looks sadly at you, "That is unfortunate. For there are other events in this world that you know nothing about. You will need his help."
+        </PopupMessage>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>1</ObjectiveID>
+      <NextObjectiveID>2</NextObjectiveID>
+      <Description>Recover the dragon.</Description>
+      <Treasure>
+        <GameModifier>
+          <ModType>Map</ModType>
+          <Attribute>CreateGoodieHut</Attribute>
+          <StrVal>Scene of a recent battle</StrVal>
+          <Unitclass>GH_Quest_Ruins</Unitclass>
+          <Radius>12</Radius>
+        </GameModifier>
+      </Treasure>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Recover the dragon.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>ClearGoodieHut</Type>
+        <TextData>GH_Quest_Ruins</TextData>
+        <Flag>RevealTarget</Flag>
+      </QuestConditionDef>
+      <ChoiceText>
+        This temple had been cleverly hidden until very recently. Only due to a titanic battle between the dragon and the ancient Titan has it become visible to the casual observer.
+
+        "This is going to be dangerous," you think to yourself. "Titans are not to be trifled with. But a dragon ally could stem the tide."
+      </ChoiceText>
+      <ChoiceMedallion>Rank_Pariden.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Enter the temple.</Description>
+        <NextObjectiveID>2</NextObjectiveID>
+        <Encounter>
+          <Liklihood>100</Liklihood>
+          <BattleIdentifier>Battle1</BattleIdentifier>
+          <WillRespawn>0</WillRespawn>
+          <WanderingRadius>0</WanderingRadius>
+          <UnitInstance>
+            <UnitType>Titan</UnitType>
+            <UnitName>Talax</UnitName>
+            <Level>20</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>Umberdroth</UnitType>
+            <UnitName>Servant</UnitName>
+            <Level>6</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>Ophidian</UnitType>
+            <UnitName>Servant</UnitName>
+            <Level>6</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>DarklingRider</UnitType>
+            <UnitName>Servant</UnitName>
+            <Level>6</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>DarklingRider</UnitType>
+            <UnitName>Servant</UnitName>
+            <Level>12</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>DarklingWarrior</UnitType>
+            <UnitName>Servant</UnitName>
+            <Level>12</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>DarklingWarrior</UnitType>
+            <UnitName>Servant</UnitName>
+            <Level>12</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>DarklingWarrior</UnitType>
+            <UnitName>Servant</UnitName>
+            <Level>6</Level>
+          </UnitInstance>
+        </Encounter>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>On second thought, dying in my sleep sounds like a better choice.</Description>
+        <NextObjectiveID>0</NextObjectiveID>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>2</ObjectiveID>
+      <NextObjectiveID>3</NextObjectiveID>
+      <PopupObjectiveMsg>0</PopupObjectiveMsg>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Defeat Talax.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>BattleFinished</Type>
+        <TextData>Battle1</TextData>
+        <MoreTextData>Victory</MoreTextData>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>3</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+  <QuestDef InternalName="RandomEvent_Riddler1">
+    <DisplayName>The Riddle</DisplayName>
+    <Description>
+      My lord, a very small, strange man has requested an audience. He says his name is "Mimbly".
+
+      What should I tell him?
+    </Description>
+    <ShortTextAccept>Bring him to me.</ShortTextAccept>
+    <ShortTextDeny>Small? Strange? Not exactly an endorsement. Send him away.</ShortTextDeny>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>82</TriggerData>
+    <TriggerChance>100</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <TriggerOrigin>EventLocation</TriggerOrigin>
+    <SpawnRating>2</SpawnRating>
+    <Image>Q_Mimbly.png</Image>
+    <RewardText>Gauntlets of Power</RewardText>
+    <RewardImage>Armor_F_LegendaryPlateVambraces.png</RewardImage>
+    <SuccessText>
+      You may yet make a good sovereign. Enjoy your reward.
+    </SuccessText>
+    <Treasure>
+      <GameModifier InternalName="Reward2">
+        <ModType>GiveItem</ModType>
+        <Attribute>PlateVambraces_Champions</Attribute>
+        <StrVal>Gauntlets of Power</StrVal>
+        <StrVal2>The Gauntlets of Power were a gift from Mimbly the...well, whatever he is.</StrVal2>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <ChoiceText>
+        A man who couldn't be taller than 3 foot enters the room.
+        
+        "Ah, yes, there you are. I am a...man from a different time and place. Yes...yes. You are a skeptic. But I also come bearing gifts that you may enjoy."
+        
+        He sniffs around the room for a moment and holds his nose, "Plumbing. Yes...yes..It's coming. Not in time for you of course."
+        
+        "Here is my riddle, 'What always runs but never walks, often murmors, never talks, has a bed but never sleeps, has a mouth but never eats?'"
+      </ChoiceText>
+      <ChoiceMedallion>Gfx\Medallions\Q_Mimbly.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Gfx\Medallions\Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>A duck.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>"A duck?" he laughs? "What kind of education system do you have here? Don't answer that. For that answer, I give you a book to read.</PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>BookOfExperience4</Attribute>
+            <StrVal>Geography for Idiots</StrVal>
+            <StrVal2>This book has plenty of easy to understand pictures in it. It highlights rivers in particular.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>Time.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>
+          The little man laughs, "Time? Is that some sort of generic answer you give to riddles? Well, for your time, I will still give you a reward fitting your...majesty."
+        </PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>Loot_DeadRat</Attribute>
+            <StrVal>A dead rat</StrVal>
+            <StrVal2>This dead rat will remind you of all the good times you had with Mimbly.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>A river.</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+        <PopupMessage>
+          The little man smiles, "There might be hope for you yet. For your wisdom, I will give you a gift and tell you where you can find the Gauntlets of Power."
+          
+          As he leaves, he turns and adds, "And some final advice: Bathing. It's acceptable to bathe more than twice a year."
+        </PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>DancingBoots</Attribute>
+            <StrVal>Dancing Boots</StrVal>
+            <StrVal2>Mimbly's Dancing boots may come in handy after all.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>1</ObjectiveID>
+      <NextObjectiveID>2</NextObjectiveID>
+      <Description>Find the Gauntlets of Power.</Description>
+      <Treasure>
+        <GameModifier>
+          <ModType>Map</ModType>
+          <Attribute>CreateGoodieHut</Attribute>
+          <StrVal>Unearthed tomb</StrVal>
+          <Unitclass>GH_Quest_Tomb</Unitclass>
+          <Radius>12</Radius>
+        </GameModifier>
+      </Treasure>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Find the Gauntlets of Power.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>ClearGoodieHut</Type>
+        <TextData>GH_Quest_Tomb</TextData>
+        <Flag>RevealTarget</Flag>
+      </QuestConditionDef>
+      <ChoiceText>
+        On a pedastal are the gauntlets of power. However, a varied group of ruffians are attempting to take them.
+      </ChoiceText>
+      <ChoiceMedallion>G_Cache_01.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Enter the temple.</Description>
+        <NextObjectiveID>2</NextObjectiveID>
+        <Encounter>
+          <Liklihood>100</Liklihood>
+          <BattleIdentifier>Battle1</BattleIdentifier>
+          <WillRespawn>0</WillRespawn>
+          <WanderingRadius>0</WanderingRadius>
+          <UnitInstance>
+            <UnitType>BanditCaptain</UnitType>
+            <UnitName>Gunther</UnitName>
+            <Level>12</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>EbbenWolf</UnitType>
+            <UnitName>Balon</UnitName>
+            <Level>12</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>BanditArcher</UnitType>
+            <UnitName>Rex</UnitName>
+            <Level>6</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>BanditArcher</UnitType>
+            <UnitName>Gith</UnitName>
+            <Level>6</Level>
+          </UnitInstance>
+        </Encounter>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>I think I will leave and take a bath afterall.</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>2</ObjectiveID>
+      <NextObjectiveID>3</NextObjectiveID>
+      <PopupObjectiveMsg>0</PopupObjectiveMsg>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Defeat the raiders.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>BattleFinished</Type>
+        <TextData>Battle1</TextData>
+        <MoreTextData>Victory</MoreTextData>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>3</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+
+  <QuestDef InternalName="RandomEvent_Riddler2">
+    <DisplayName>The Riddle</DisplayName>
+    <Description>
+      My lord, there is a tiny man calling himself Mimbly who demands to speak with you. 
+
+      What should I tell him?
+    </Description>
+    <ShortTextAccept>Bring him to me.</ShortTextAccept>
+    <ShortTextDeny>Oh by all means, let anyone waltz in here. I think not.</ShortTextDeny>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>53</TriggerData>
+    <TriggerChance>100</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <TriggerOrigin>EventLocation</TriggerOrigin>
+    <SpawnRating>2</SpawnRating>
+    <Image>Q_Mimbly.png</Image>
+    <RewardText>Mire Skath Mount</RewardText>
+    <RewardImage>L_Mire_Skath_01.png</RewardImage>
+    <SuccessText>
+      You may yet make a good sovereign. Enjoy riding your reward.
+    </SuccessText>
+    <Treasure>
+      <GameModifier InternalName="Reward2">
+        <ModType>GiveItem</ModType>
+        <Attribute>Mount_MireSkath</Attribute>
+        <StrVal>Mimbly's Skath</StrVal>
+        <StrVal2>This tamed Skath was a gift from Mimbly.</StrVal2>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <ChoiceText>
+        A man who couldn't be taller than 3 foot enters the room.
+
+        "They call me the gift giver. Or they would if they knew me. Here's how this works: I ask you a riddle. If you get it right, I send you on a quest to retrieve a valuable thing."
+
+        He looks around the camp you've set up. "That...that's not cheese I'm smelling...is it?
+        
+        Here is my riddle, 'At night they come without being fetched. By day, they are lost without being stolen. What are they?'"
+      </ChoiceText>
+      <ChoiceMedallion>Gfx\Medallions\Q_Mimbly.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Gfx\Medallions\Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Crickets.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>"Crickets" he laughs? "What kind of education system do you have here? Don't answer that. For that answer, I give you a book to read.</PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>BookOfExperience1</Attribute>
+            <StrVal>Astronomy for Idiots</StrVal>
+            <StrVal2>This book has plenty of easy to understand pictures in it.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>The stars.</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+        <PopupMessage>
+          The little man smiles, "There might be hope for you yet. For your wisdom, I will give you a gift and tell you where you can find something that will help you travel in...well style."
+
+          As he leaves, he turns and adds, "Socks. Research the 'technology' for socks. It'll help. Trust me."
+        </PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>DancingBoots</Attribute>
+            <StrVal>Dancing Boots</StrVal>
+            <StrVal2>Mimbly's Dancing boots may come in handy after all.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>      
+      <QuestChoiceDef>
+        <Description>Time.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>
+          The little man laughs, "Time? Is that some sort of generic answer you give to riddles? Well, for your time, I will still give you a reward fitting your...majesty."
+        </PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>Loot_DeadRat</Attribute>
+            <StrVal>A dead rat</StrVal>
+            <StrVal2>This dead rat will remind you of all the good times you had with Mimbly.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>1</ObjectiveID>
+      <NextObjectiveID>2</NextObjectiveID>
+      <Description>Find the Skath.</Description>
+      <Treasure>
+        <GameModifier>
+          <ModType>Map</ModType>
+          <Attribute>CreateGoodieHut</Attribute>
+          <StrVal>Abandoned Workshop</StrVal>
+          <Unitclass>GH_Quest_Workshop</Unitclass>
+          <Radius>12</Radius>
+        </GameModifier>
+      </Treasure>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Find the tamed Skath.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>ClearGoodieHut</Type>
+        <TextData>GH_Quest_Workshop</TextData>
+        <Flag>RevealTarget</Flag>
+      </QuestConditionDef>
+      <ChoiceText>
+        You find what appears to be a friendly Skath (if a Skath can ever be called friendly). However, there are several other skaths around it that are...less friendly.
+      </ChoiceText>
+      <ChoiceMedallion>G_Cache_01.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Deal with the skaths.</Description>
+        <NextObjectiveID>2</NextObjectiveID>
+        <Encounter>
+          <Liklihood>100</Liklihood>
+          <BattleIdentifier>Battle1</BattleIdentifier>
+          <WillRespawn>0</WillRespawn>
+          <WanderingRadius>0</WanderingRadius>
+          <UnitInstance>
+            <UnitType>CoastalSkath</UnitType>
+            <UnitName>Untamed Skath</UnitName>
+            <Level>4</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>MireSkath</UnitType>
+            <UnitName>Untamed Skath</UnitName>
+            <Level>3</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>SiltSkath</UnitType>
+            <UnitName>Untamed Skath</UnitName>
+            <Level>1</Level>
+          </UnitInstance>
+        </Encounter>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>This just isn't worth the danger.</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>2</ObjectiveID>
+      <NextObjectiveID>3</NextObjectiveID>
+      <PopupObjectiveMsg>0</PopupObjectiveMsg>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Defeat the Skaths.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>BattleFinished</Type>
+        <TextData>Battle1</TextData>
+        <MoreTextData>Victory</MoreTextData>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>3</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+
+  <QuestDef InternalName="RandomEvent_Riddler3">
+    <DisplayName>The Riddle</DisplayName>
+    <Description>
+      My lord, there is a tiny man calling himself Mimbly who demands to speak with you.
+
+      What should I tell him?
+    </Description>
+    <ShortTextAccept>Bring him to me.</ShortTextAccept>
+    <ShortTextDeny>Send him away.</ShortTextDeny>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>125</TriggerData>
+    <TriggerChance>100</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <SpawnRating>2</SpawnRating>
+    <Image>Q_Mimbly.png</Image>
+    <RewardText>An ancient spell</RewardText>
+    <RewardImage>CivWnd_Dynasty.png</RewardImage>
+    <SuccessText>
+      You may yet make a good sovereign. The scroll you found will teach you a new spell.
+      
+      [You have learned the tactical spell "Confusion"]
+    </SuccessText>
+    <Treasure>
+      <GameModifier InternalName="Reward2">
+        <ModType>Player</ModType>
+        <Attribute>UnlockSpell</Attribute>
+        <StrVal>Confusion</StrVal>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <ChoiceText>
+        A man who couldn't be taller than 3 foot enters the room.
+
+        "They call me the gift giver. Or they would if they knew me. Here's how this works: I ask you a riddle. If you get it right, I send you on a quest to retrieve a valuable thing."
+
+        He looks around the camp you've set up. "That...that's not cheese I'm smelling...is it?
+
+        Here is my riddle, 'I am always hungry, I must always be fed, The finger I touch, will soon turn red. What am I?'"
+      </ChoiceText>
+      <ChoiceMedallion>Gfx\Medallions\Q_Mimbly.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Gfx\Medallions\Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Blood.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>"Blood" he laughs? "What kind of education system do you have here? Don't answer that. For that answer, I give you a book to read.</PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>BookOfExperience1</Attribute>
+            <StrVal>Life for Idiots</StrVal>
+            <StrVal2>This book has plenty of easy to understand pictures in it.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>The stars.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>
+          The little man laughs, "Stars? Is that some sort of generic answer you give to riddles? Well, for your time, I will still give you a reward fitting your...majesty."
+        </PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>Loot_DeadRat</Attribute>
+            <StrVal>A dead rat</StrVal>
+            <StrVal2>This dead rat will remind you of all the good times you had with Mimbly.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>Fire.</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+        <PopupMessage>
+          The little man smiles, "There might be hope for you yet. For your wisdom, I will give you the location of a lost scroll that gives you a powerful spell."
+
+          As he leaves, he turns and adds, "Socks. Research the 'technology' for socks. It'll help. Trust me."
+        </PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>AmuletofStrength</Attribute>
+            <StrVal>Amulet of the lazy</StrVal>
+            <StrVal2>Mimbly's Amulet increases strength without..the work.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>      
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>1</ObjectiveID>
+      <NextObjectiveID>2</NextObjectiveID>
+      <Description>Find the scroll.</Description>
+      <Treasure>
+        <GameModifier>
+          <ModType>Map</ModType>
+          <Attribute>CreateGoodieHut</Attribute>
+          <StrVal>Abandoned Workshop</StrVal>
+          <Unitclass>GH_Quest_Workshop</Unitclass>
+          <Radius>12</Radius>
+        </GameModifier>
+      </Treasure>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Find the scroll.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>ClearGoodieHut</Type>
+        <TextData>GH_Quest_Workshop</TextData>
+        <Flag>RevealTarget</Flag>
+      </QuestConditionDef>
+      <ChoiceText>
+        The broken down shop is a deception. Inside it are a series of so-called magicians guarding a scroll.
+        
+        "The scroll belongs to us," one says. "You may not have it, regardless of what that imp told you."
+        
+      </ChoiceText>
+      <ChoiceMedallion>G_Cache_01.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Take the scroll by force..</Description>
+        <NextObjectiveID>2</NextObjectiveID>
+        <Encounter>
+          <Liklihood>100</Liklihood>
+          <BattleIdentifier>Battle1</BattleIdentifier>
+          <WillRespawn>0</WillRespawn>
+          <WanderingRadius>0</WanderingRadius>
+          <UnitInstance>
+            <UnitType>DarkWizard2</UnitType>
+            <UnitName>Master Magician</UnitName>
+            <Level>9</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>DarkWizard2</UnitType>
+            <UnitName>Apprentice Magician</UnitName>
+            <Level>3</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>DarkWizard2</UnitType>
+            <UnitName>Apprentice Magician</UnitName>
+            <Level>4</Level>
+          </UnitInstance>
+        </Encounter>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>This isn't mine to take..</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>2</ObjectiveID>
+      <NextObjectiveID>3</NextObjectiveID>
+      <PopupObjectiveMsg>0</PopupObjectiveMsg>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Get the scroll.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>BattleFinished</Type>
+        <TextData>Battle1</TextData>
+        <MoreTextData>Victory</MoreTextData>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>3</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+
+  <QuestDef InternalName="RandomEvent_Riddler4">
+    <DisplayName>The Riddle</DisplayName>
+    <Description>
+      My lord, there is a tiny man calling himself Mimbly who demands to speak with you.
+
+      What should I tell him?
+    </Description>
+    <ShortTextAccept>Bring him to me.</ShortTextAccept>
+    <ShortTextDeny>Oh, I've heard of him. He's nothing but trouble. Send him away.</ShortTextDeny>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>95</TriggerData>
+    <TriggerChance>100</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <SpawnRating>2</SpawnRating>
+    <Image>Q_Mimbly.png</Image>
+    <RewardText>An ancient spell</RewardText>
+    <RewardImage>CivWnd_Dynasty.png</RewardImage>
+    <SuccessText>
+      You may yet make a good sovereign. The scroll you found will teach you a new spell.
+
+      [You have learned the strategic spell "Summon Imp of the Titan"]
+    </SuccessText>
+    <Treasure>
+      <GameModifier InternalName="Reward2">
+        <ModType>Player</ModType>
+        <Attribute>UnlockSpell</Attribute>
+        <StrVal>SummonTitanImp</StrVal>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <ChoiceText>
+        A man who couldn't be taller than 3 foot enters the room.
+
+        "They call me the gift giver. Or they would if they knew me. Here's how this works: I ask you a riddle. If you get it right, I send you on a quest to retrieve a valuable thing."
+
+        He looks around the dinner cooking, "Wow. You're going to eat that?"
+
+        Here is my riddle, 'When young, I am sweet in the sun. When middle-aged, I make you gay. When old, I am valued more than ever. What am I?'"
+      </ChoiceText>
+      <ChoiceMedallion>Gfx\Medallions\Q_Mimbly.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Gfx\Medallions\Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Blood.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>"Blood" he laughs? "Really? Blood is seet in the sun? Wow. I don't really know where to go with that. Let me give you a book to read."</PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>BookOfExperience1</Attribute>
+            <StrVal>Life for Idiots</StrVal>
+            <StrVal2>This book has plenty of easy to understand pictures in it.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>Love.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>
+          The little man laughs, "Love? Seriously? Love? Well, for your time, I will still give you a reward fitting your...majesty."
+        </PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>Loot_DeadRat</Attribute>
+            <StrVal>A dead rat</StrVal>
+            <StrVal2>This dead rat will remind you of all the good times you had with Mimbly.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>Wine.</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+        <PopupMessage>
+          The little man smiles, "There might be hope for you yet. For your wisdom, I will give you the location of a lost scroll that gives you a powerful spell."
+
+          As he leaves, he turns and adds, "Speaking of wine, there's alcohol in that. You might want to douse that meal with it, if you know what I mean...Oh, who am I kidding, you have no idea do you?"
+        </PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>AmuletofStrength</Attribute>
+            <StrVal>Amulet of the lazy</StrVal>
+            <StrVal2>Mimbly's Amulet increases strength without..the work.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>1</ObjectiveID>
+      <NextObjectiveID>2</NextObjectiveID>
+      <Description>Find the scroll.</Description>
+      <Treasure>
+        <GameModifier>
+          <ModType>Map</ModType>
+          <Attribute>CreateGoodieHut</Attribute>
+          <StrVal>Abandoned Workshop</StrVal>
+          <Unitclass>GH_Quest_Workshop</Unitclass>
+          <Radius>12</Radius>
+        </GameModifier>
+      </Treasure>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Find the scroll.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>ClearGoodieHut</Type>
+        <TextData>GH_Quest_Workshop</TextData>
+        <Flag>RevealTarget</Flag>
+      </QuestConditionDef>
+      <ChoiceText>
+        The broken down shop is a deception. Inside it are a series of so-called magicians guarding a scroll.
+
+        "The scroll belongs to us," one says. "You may not have it, regardless of what that imp told you."
+
+      </ChoiceText>
+      <ChoiceMedallion>G_Cache_01.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Take the scroll by force..</Description>
+        <NextObjectiveID>2</NextObjectiveID>
+        <Encounter>
+          <Liklihood>100</Liklihood>
+          <BattleIdentifier>Battle1</BattleIdentifier>
+          <WillRespawn>0</WillRespawn>
+          <WanderingRadius>0</WanderingRadius>
+          <UnitInstance>
+            <UnitType>DarkWizard2</UnitType>
+            <UnitName>Master Magician</UnitName>
+            <Level>9</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>DarkWizard2</UnitType>
+            <UnitName>Apprentice Magician</UnitName>
+            <Level>3</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>DarkWizard2</UnitType>
+            <UnitName>Apprentice Magician</UnitName>
+            <Level>4</Level>
+          </UnitInstance>
+        </Encounter>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>This isn't mine to take.</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>2</ObjectiveID>
+      <NextObjectiveID>3</NextObjectiveID>
+      <PopupObjectiveMsg>0</PopupObjectiveMsg>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Get the scroll.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>BattleFinished</Type>
+        <TextData>Battle1</TextData>
+        <MoreTextData>Victory</MoreTextData>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>3</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+  <QuestDef InternalName="RandomEvent_Riddler5">
+    <DisplayName>The Riddle</DisplayName>
+    <Description>
+      My lord, there is a tiny man calling himself Mimbly who demands to speak with you.
+
+      What should I tell him?
+    </Description>
+    <ShortTextAccept>Bring him to me.</ShortTextAccept>
+    <ShortTextDeny>He'll just insult us. Trust me on this. Tell him, thanks but no thanks.</ShortTextDeny>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>319</TriggerData>
+    <TriggerChance>200</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <SpawnRating>3</SpawnRating>
+    <Image>Q_Mimbly.png</Image>
+    <RewardText>An ancient spell</RewardText>
+    <RewardImage>CivWnd_Dynasty.png</RewardImage>
+    <SuccessText>
+      You may yet make a good sovereign. The scroll you found will teach you a new spell.
+
+      [You have learned the strategic spell "Summon Abomination"]
+    </SuccessText>
+    <Treasure>
+      <GameModifier InternalName="Reward2">
+        <ModType>Player</ModType>
+        <Attribute>UnlockSpell</Attribute>
+        <StrVal>SummonAbomination</StrVal>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <ChoiceText>
+        A man who couldn't be taller than 3 foot enters the room.
+
+       "I am Mimbly," he says. "I have come to this place and this time to aid you. Your triumph will be good for this world."
+
+        He looks at the dinner table, "A metal thing with little spikes on them is called a fork. Way better than hands."
+
+        Here is my riddle, 'Until I am measured, I am not known. Yet how you miss me, when I have flown. What am I?'"
+      </ChoiceText>
+      <ChoiceMedallion>Gfx\Medallions\Q_Mimbly.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Gfx\Medallions\Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Time.</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+        <PopupMessage>
+          The little man smiles, "There might be hope for you yet. For your wisdom, I will give you the location of a lost scroll that gives you a powerful spell."
+
+          As he leaves, he turns and adds, "Speaking of time, I know you Channelers age slowly but seriously, spend some time learning about forks."
+        </PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>AmuletofStrength</Attribute>
+            <StrVal>Amulet of the lazy</StrVal>
+            <StrVal2>Mimbly's Amulet increases strength without..the work.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>Weight.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>"Weight" he laughs? "Wow. I don't really know where to go with that. Let me give you a book to read."</PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>BookOfExperience1</Attribute>
+            <StrVal>Life for Idiots</StrVal>
+            <StrVal2>This book has plenty of easy to understand pictures in it.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>Love.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>
+          The little man laughs, "Love? Seriously? Love? Well, for your time, I will still give you a reward fitting your...majesty."
+        </PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>Loot_DeadRat</Attribute>
+            <StrVal>A dead rat</StrVal>
+            <StrVal2>This dead rat will remind you of all the good times you had with Mimbly.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>1</ObjectiveID>
+      <NextObjectiveID>2</NextObjectiveID>
+      <Description>Find the scroll.</Description>
+      <Treasure>
+        <GameModifier>
+          <ModType>Map</ModType>
+          <Attribute>CreateGoodieHut</Attribute>
+          <StrVal>Abandoned Workshop</StrVal>
+          <Unitclass>GH_Quest_Workshop</Unitclass>
+          <Radius>12</Radius>
+        </GameModifier>
+      </Treasure>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Find the scroll.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>ClearGoodieHut</Type>
+        <TextData>GH_Quest_Workshop</TextData>
+        <Flag>RevealTarget</Flag>
+      </QuestConditionDef>
+      <ChoiceText>
+        The broken down shop is a deception. Inside it are a series of so-called magicians guarding a scroll.
+
+        "The scroll belongs to us," one says. "You may not have it, regardless of what that imp told you."
+
+      </ChoiceText>
+      <ChoiceMedallion>G_Cache_01.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Take the scroll by force..</Description>
+        <NextObjectiveID>2</NextObjectiveID>
+        <Encounter>
+          <Liklihood>100</Liklihood>
+          <BattleIdentifier>Battle1</BattleIdentifier>
+          <WillRespawn>0</WillRespawn>
+          <WanderingRadius>0</WanderingRadius>
+          <UnitInstance>
+            <UnitType>DarkWizard2</UnitType>
+            <UnitName>Master Magician</UnitName>
+            <Level>9</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>DarkWizard2</UnitType>
+            <UnitName>Apprentice Magician</UnitName>
+            <Level>3</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>DarkWizard2</UnitType>
+            <UnitName>Apprentice Magician</UnitName>
+            <Level>4</Level>
+          </UnitInstance>
+        </Encounter>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>This isn't mine to take.</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>2</ObjectiveID>
+      <NextObjectiveID>3</NextObjectiveID>
+      <PopupObjectiveMsg>0</PopupObjectiveMsg>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Get the scroll.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>BattleFinished</Type>
+        <TextData>Battle1</TextData>
+        <MoreTextData>Victory</MoreTextData>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>3</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+  <QuestDef InternalName="RandomEvent_Riddler6">
+    <DisplayName>The Riddle</DisplayName>
+    <Description>
+      My lord, there is a tiny man calling himself Mimbly who demands to speak with you.
+
+      What should I tell him?
+    </Description>
+    <ShortTextAccept>Bring him to me.</ShortTextAccept>
+    <ShortTextDeny>This sound like trouble. Send him away.</ShortTextDeny>
+    <QuestClass>Minor</QuestClass>
+    <Repeatable>0</Repeatable>
+    <TriggerType>TurnNumber</TriggerType>
+    <TriggerData>123</TriggerData>
+    <TriggerChance>100</TriggerChance>
+    <PostTriggerChance>14</PostTriggerChance>
+    <SpawnRating>3</SpawnRating>
+    <Image>Q_Mimbly.png</Image>
+    <RewardText>An ancient spell</RewardText>
+    <RewardImage>CivWnd_Dynasty.png</RewardImage>
+    <SuccessText>
+      You may yet make a good sovereign. The scroll you have found is extremely powerful.
+      
+      Just be careful when you use it. The cities of the world will fall silent, you may lose family, you may lose friends.  Well... let's not kid ourselves, you can't lose what you don't have.
+
+      [This scroll is in your inventory and when used reduces all cities population by half]
+    </SuccessText>
+    <Treasure>
+      <GameModifier InternalName="Reward2">
+        <ModType>GiveItem</ModType>
+        <Attribute>Scroll_Blight</Attribute>
+        <StrVal>Blight Scroll</StrVal>
+      </GameModifier>
+    </Treasure>
+    <QuestObjectiveDef>
+      <ObjectiveID>0</ObjectiveID>
+      <ChoiceText>
+        A man who couldn't be taller than 3 foot enters the room.
+
+        "I am Mimbly," he says. "I have come to this place and this time to aid you. Your triumph will be good for this world."
+
+        He looks about your camp and cringes, "You and your men should probably do..your business somewhere that is not in the camp."
+
+        Here is my riddle, 'Three lives have I. Gentle enough to soothe the skin. Light enough to caress the sky. Hard enough to rack rocks. What am I?'"
+      </ChoiceText>
+      <ChoiceMedallion>Gfx\Medallions\Q_Mimbly.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Gfx\Medallions\Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Water.</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+        <PopupMessage>
+          The little man smiles, "There might be hope for you yet. For your wisdom, I will give you the location of a lost scroll that gives you a powerful spell."
+
+          As he leaves, he turns and adds, "Speaking of water, it can be used for bathing too. Just thought I'd put that thought in your mind."
+        </PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>Scroll_Life</Attribute>
+            <StrVal>Scroll of slightly better health</StrVal>
+            <StrVal2>This scroll was given to you by Mimbly. It's better than nothing. But not much better.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>A cat.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>"A cat?" he laughs? "Why? Because it has multiple lives? That's why you guess that? Wow. I don't really know where to go with that. Let me give you a book to read."</PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>BookOfExperience1</Attribute>
+            <StrVal>Life for Idiots</StrVal>
+            <StrVal2>This book has plenty of easy to understand pictures in it.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>Romance.</Description>
+        <NextObjectiveID>-1</NextObjectiveID>
+        <QuestFailure>1</QuestFailure>
+        <PopupMessage>
+          The little man laughs, "Romance? Look, I just gave that option randomly. Let me give you something equally random."
+        </PopupMessage>
+        <Treasure>
+          <GameModifier InternalName="Reward2">
+            <ModType>GiveItem</ModType>
+            <Attribute>Loot_DeadRat</Attribute>
+            <StrVal>A dead rat</StrVal>
+            <StrVal2>This dead rat will remind you of all the good times you had with Mimbly.</StrVal2>
+          </GameModifier>
+        </Treasure>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>1</ObjectiveID>
+      <NextObjectiveID>2</NextObjectiveID>
+      <Description>Find the scroll.</Description>
+      <Treasure>
+        <GameModifier>
+          <ModType>Map</ModType>
+          <Attribute>CreateGoodieHut</Attribute>
+          <StrVal>Abandoned Workshop</StrVal>
+          <Unitclass>GH_Quest_Workshop</Unitclass>
+          <Radius>12</Radius>
+        </GameModifier>
+      </Treasure>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Find the scroll.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>ClearGoodieHut</Type>
+        <TextData>GH_Quest_Workshop</TextData>
+        <Flag>RevealTarget</Flag>
+      </QuestConditionDef>
+      <ChoiceText>
+        The broken down shop is a deception. Inside it are a series of so-called magicians guarding a scroll.
+
+        "The scroll belongs to us," one says. "You may not have it, regardless of what that imp told you."
+        
+        Another hisses, "This scroll is far too powerful for you."
+
+      </ChoiceText>
+      <ChoiceMedallion>G_Cache_01.png</ChoiceMedallion>
+      <ChoiceMedallionFrame>Medallion_Frame_17.png</ChoiceMedallionFrame>
+      <QuestChoiceDef>
+        <Description>Take the scroll by force...</Description>
+        <NextObjectiveID>2</NextObjectiveID>
+        <Encounter>
+          <Liklihood>100</Liklihood>
+          <BattleIdentifier>Battle1</BattleIdentifier>
+          <WillRespawn>0</WillRespawn>
+          <WanderingRadius>0</WanderingRadius>
+          <UnitInstance>
+            <UnitType>DarkWizard2</UnitType>
+            <UnitName>Master Magician</UnitName>
+            <Level>12</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>DarkWizard2</UnitType>
+            <UnitName>Apprentice Magician</UnitName>
+            <Level>3</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>DarkWizard2</UnitType>
+            <UnitName>Apprentice Magician</UnitName>
+            <Level>4</Level>
+          </UnitInstance>
+          <UnitInstance>
+            <UnitType>Imp</UnitType>
+            <UnitName>Summoned Imp</UnitName>
+            <Level>4</Level>
+          </UnitInstance>
+        </Encounter>
+      </QuestChoiceDef>
+      <QuestChoiceDef>
+        <Description>This isn't mine to take.</Description>
+        <NextObjectiveID>1</NextObjectiveID>
+      </QuestChoiceDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>2</ObjectiveID>
+      <NextObjectiveID>3</NextObjectiveID>
+      <PopupObjectiveMsg>0</PopupObjectiveMsg>
+      <QuestConditionDef>
+        <Objective>
+          <Icon>Mana_32.png</Icon>
+          <Text>Get the scroll.</Text>
+          <IsOptional>0</IsOptional>
+        </Objective>
+        <Class>Success</Class>
+        <Type>BattleFinished</Type>
+        <TextData>Battle1</TextData>
+        <MoreTextData>Victory</MoreTextData>
+      </QuestConditionDef>
+    </QuestObjectiveDef>
+    <QuestObjectiveDef>
+      <ObjectiveID>3</ObjectiveID>
+      <QuestEnd>1</QuestEnd>
+    </QuestObjectiveDef>
+  </QuestDef>
+
+
+
+
+</Quests>

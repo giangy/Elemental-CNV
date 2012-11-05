@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<PropTypes>
+  <DataChecksum NoParse="1">
+    <Ignore>DisplayName</Ignore>
+    <Translate>DisplayName,TerrainName</Translate>
+  </DataChecksum>
+
+  <!-- ************************************************ -->
+  <!-- *******             Tress                ******* -->
+  <!-- ************************************************ -->
+
+
+  <PropModelType InternalName="BarrenTree1">
+    <DisplayName>Barren Tree 1</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\BarrenTree1.png</Thumb>
+    <Model>gfx\\hkb\\Props\\BarrenTree1_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="BarrenTree2">
+    <DisplayName>Barren Tree 2</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\BarrenTree2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\BarrenTree2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="BarrenTree3">
+    <DisplayName>Barren Tree 3</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\BarrenTree3.png</Thumb>
+    <Model>gfx\\hkb\\Props\\BarrenTree3_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="BarrenTree4">
+    <DisplayName>Barren Tree 4</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\BarrenTree4.png</Thumb>
+    <Model>gfx\\hkb\\Props\\BarrenTree4_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeBranch1">
+    <DisplayName>Branch 1</DisplayName>
+    <Tag>Landscape</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\TreeBranch1.png</Thumb>
+    <Model>gfx\\hkb\\Props\\TreeBranch1_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_SmallDeadTree1">
+    <DisplayName>SmallDeadTree1</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_SmallDeadTree1.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_SmallDeadTree1_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Scale>1.0</Scale>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_SmallDeadTree2">
+    <DisplayName>SmallDeadTree2</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_SmallDeadTree2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_SmallDeadTree2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Scale>1.0</Scale>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_SmallDeadTree3">
+    <DisplayName>SmallDeadTree3</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_SmallDeadTree3.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_SmallDeadTree3_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Scale>1.0</Scale>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_SmallDeadTree4">
+    <DisplayName>SmallDeadTree4</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_SmallDeadTree4.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_SmallDeadTree4_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Scale>1.0</Scale>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_SmallDeadTree5">
+    <DisplayName>SmallDeadTree5</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_SmallDeadTree5.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_SmallDeadTree5_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Scale>1.0</Scale>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_MediumDeadTree1">
+    <DisplayName>MediumDeadTree1</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_MediumDeadTree1.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_MediumDeadTree1_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Scale>1.0</Scale>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_MediumDeadTree2">
+    <DisplayName>MediumDeadTree2</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_MediumDeadTree2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_MediumDeadTree2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Scale>1.0</Scale>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_MediumDeadTree3">
+    <DisplayName>MediumDeadTree3</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_MediumDeadTree3.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_MediumDeadTree3_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Scale>1.0</Scale>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_LargeDeadTree1">
+    <DisplayName>LargeDeadTree1</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_LargeDeadTree1.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_LargeDeadTree1_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Scale>1.0</Scale>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_DeadTreeBase1">
+    <DisplayName>DeadTreeBase1</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_DeadTreeBase1.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_DeadTreeBase1_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Scale>1.5</Scale>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_DeadTreeBase2">
+    <DisplayName>DeadTreeBase2</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_DeadTreeBase2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_DeadTreeBase2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Scale>0.75</Scale>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_DeadTreeBranch1">
+    <DisplayName>DeadTreeBranch1</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_DeadTreeBranch1.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_DeadTreeBranch1_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Scale>2.0</Scale>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_DeadTreeBranch2">
+    <DisplayName>DeadTreeBranch2</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_DeadTreeBranch2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_DeadTreeBranch2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Scale>2.0</Scale>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_TreeStump1">
+    <DisplayName>TreeStump1</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_TreeStump1.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_TreeStump1_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_TreeStump2">
+    <DisplayName>TreeStump2</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_TreeStump2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_TreeStump2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+
+  <PropModelType InternalName="Artifact_ThickTreeBase1_Default">
+    <DisplayName>Thick Tree Base</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_TreeStump2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_ThickTreeBase1_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_ThickTreeBase2_Default">
+    <DisplayName>Thick Tree Base 2</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_TreeStump2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_ThickTreeBase2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="Artifact_FullTreeWeb">
+    <DisplayName>FullTreeWeb</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\Artifact_FullTreeWeb.png</Thumb>
+    <Model>gfx\\hkb\\Props\\Artifact_FullTreeWeb_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeCard1">
+    <DisplayName>Tree Card 1</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard1.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard1.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeCard2">
+    <DisplayName>Tree Card 2</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard2.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard2.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeCard3">
+    <DisplayName>Tree Card 3</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard3.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard3.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeCard4">
+    <DisplayName>Tree Card 4</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard4.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard4.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeCard5">
+    <DisplayName>Tree Card 5</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard5.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard5.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeCard6">
+    <DisplayName>Tree Card 6</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard6.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard6.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeCard7">
+    <DisplayName>Tree Card 7</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard7.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard7.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeCard8">
+    <DisplayName>Tree Card 8</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard8.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard8.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeCard9">
+    <DisplayName>Tree Card 9</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard9.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard9.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeCard10">
+    <DisplayName>Tree Card 10</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard10.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard10.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeCard11">
+    <DisplayName>Tree Card 11</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard11.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard11.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeCard12">
+    <DisplayName>Tree Card 12</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard12.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard12.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SaplingCard1">
+    <DisplayName>Sapling Card 1</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/SaplingCard1.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/SaplingCard1.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SaplingCard2">
+    <DisplayName>Sapling Card 2</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/SaplingCard2.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/SaplingCard2.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SaplingCard3">
+    <DisplayName>Sapling Card 3</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/SaplingCard3.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/SaplingCard3.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SaplingCard4">
+    <DisplayName>Sapling Card 4</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/SaplingCard4.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/SaplingCard4.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SaplingCard5">
+    <DisplayName>Sapling Card 5</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/SaplingCard5.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/SaplingCard5.dds</Model>
+    <Scale>15.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TownTree_Small">
+    <DisplayName>Small Town Tree</DisplayName>
+    <Tag>Grassland</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\TownTree_Small.png</Thumb>
+    <Model>gfx\\hkb\\Props\\TownTree_Small_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TownTree_Mid">
+    <DisplayName>Medium Town Tree</DisplayName>
+    <Tag>Grassland</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\TownTree_Mid.png</Thumb>
+    <Model>gfx\\hkb\\Props\\TownTree_Mid_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="TownTree_Large">
+    <DisplayName>Large Town Tree</DisplayName>
+    <Tag>Grassland</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\TownTree_Large.png</Thumb>
+    <Model>gfx\\hkb\\Props\\TownTree_Large_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="PineTreeSingle">
+    <DisplayName>Single Pine Tree</DisplayName>
+    <Tag>Grassland</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\PineTreeSingle.png</Thumb>
+    <Model>gfx\\hkb\\Trees\\TreeGroupPineSingle_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="PineTreePatch1">
+    <DisplayName>Pine Tree Patch 1</DisplayName>
+    <Tag>Grassland</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\PineTreePatch1.png</Thumb>
+    <Model>gfx\\hkb\\Trees\\TreeGroupPinePatch_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="PineTreePatch2">
+    <DisplayName>Pine Tree Patch 2</DisplayName>
+    <Tag>Grassland</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\PineTreePatch2.png</Thumb>
+    <Model>gfx\\hkb\\Trees\\TreeGroupPinePatch2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="DarkTreeCard1">
+    <DisplayName>Dark Tree Card 1</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/DarkTreeCard1.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/DarkTreeCard1.dds</Model>
+    <Scale>15.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="DarkTreeCard2">
+    <DisplayName>Dark Tree Card 2</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/DarkTreeCard2.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/DarkTreeCard2.dds</Model>
+    <Scale>15.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="DarkTreeCard3">
+    <DisplayName>Dark Tree Card 3</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/DarkTreeCard3.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/DarkTreeCard3.dds</Model>
+    <Scale>15.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="DarkTreeCard4">
+    <DisplayName>Dark Tree Card 4</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/DarkTreeCard4.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/DarkTreeCard4.dds</Model>
+    <Scale>15.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="DarkTreeCard5">
+    <DisplayName>Dark Tree Card 5</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/DarkTreeCard5.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/DarkTreeCard5.dds</Model>
+    <Scale>15.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="DarkSaplingCard1">
+    <DisplayName>Dark Tree Card 6</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/DarkSaplingCard1.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/DarkSaplingCard1.dds</Model>
+    <Scale>15.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="DarkSaplingCard2">
+    <DisplayName>Dark Tree Card 7</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/DarkSaplingCard2.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/DarkSaplingCard2.dds</Model>
+    <Scale>15.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampTree1">
+    <DisplayName>Swamp Tree 1</DisplayName>
+    <Tag>Swamp</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SwampTree1.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SwampTree1_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampTree2">
+    <DisplayName>Swamp Tree 2</DisplayName>
+    <Tag>Swamp</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SwampTree2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SwampTree2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampTree3">
+    <DisplayName>Swamp Tree 3</DisplayName>
+    <Tag>Swamp</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SwampTree3.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SwampTree3_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampTree4">
+    <DisplayName>Swamp Tree 4</DisplayName>
+    <Tag>Swamp</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SwampTree4.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SwampTree4_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampTreeGiant">
+    <DisplayName>Giant Swamp Tree</DisplayName>
+    <Tag>Swamp</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SwampTreeGiant.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SwampTreeGiant_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampTree1_2_Default">
+    <DisplayName>Swap Tree for cards 1</DisplayName>
+    <Tag>Swamp</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SwampTreeGiant.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SwampTree1_2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampTree2_2_Default">
+    <DisplayName>Swap Tree for cards 2</DisplayName>
+    <Tag>Swamp</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SwampTreeGiant.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SwampTree2_2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampTree3_2_Default">
+    <DisplayName>Swap Tree for cards 3</DisplayName>
+    <Tag>Swamp</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SwampTreeGiant.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SwampTree3_2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampTree4_2_Default">
+    <DisplayName>Swap Tree for cards 4</DisplayName>
+    <Tag>Swamp</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SwampTreeGiant.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SwampTree4_2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampVine1_Default">
+    <DisplayName>Swap Vines 1</DisplayName>
+    <Tag>Swamp</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SwampTreeGiant.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SwampVine1_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampVine2_Default">
+    <DisplayName>Swap Vines 2</DisplayName>
+    <Tag>Swamp</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SwampTreeGiant.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SwampVine2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampTreeCard1">
+    <DisplayName>Swamp Tree Card 1</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/SwampTreeCard1.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/SwampTreeCard1.dds</Model>
+    <Scale>15.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampTreeCard2">
+    <DisplayName>Swamp Tree Card 2</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/SwampTreeCard2.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/SwampTreeCard2.dds</Model>
+    <Scale>15.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <LeafOffset>2</LeafOffset>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampTreeCard3">
+    <DisplayName>Swamp Tree Card 3</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/SwampTreeCard3.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/SwampTreeCard3.dds</Model>
+    <Scale>15.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <LeafOffset>2</LeafOffset>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampTreeCard4">
+    <DisplayName>Swamp Tree Card 4</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/SwampTreeCard4.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/SwampTreeCard4.dds</Model>
+    <Scale>15.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <LeafOffset>2</LeafOffset>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampTreeCard5">
+    <DisplayName>Swamp Tree Card 5</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/SwampTreeCard5.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/SwampTreeCard5.dds</Model>
+    <Scale>15.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <LeafOffset>2</LeafOffset>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampLog1">
+    <DisplayName>Swamp Log 1</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SwampLog2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SwampLog2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Shaded>FALSE</Shaded>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampLog3">
+    <DisplayName>Swamp Log 3</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SwampLog3.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SwampLog3_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Shaded>FALSE</Shaded>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampLog4">
+    <DisplayName>Swamp Log 4</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SwampLog4.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SwampLog4_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Shaded>FALSE</Shaded>
+  </PropModelType>
+
+  <PropModelType InternalName="SwampLog5">
+    <DisplayName>Swamp Log 5</DisplayName>
+    <Tag>Barren</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SwampLog5.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SwampLog5_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+    <Shaded>FALSE</Shaded>
+  </PropModelType>
+
+  <PropModelType InternalName="SnowTree1">
+    <DisplayName>Snow Tree 1</DisplayName>
+    <Tag>Arctic</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SnowTree1.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SnowTree1_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SnowTree2">
+    <DisplayName>Snow Tree 2</DisplayName>
+    <Tag>Arctic</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SnowTree2.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SnowTree2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SnowTree3">
+    <DisplayName>Snow Tree 3</DisplayName>
+    <Tag>Arctic</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SnowTree3.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SnowTree3_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SnowTree4">
+    <DisplayName>Snow Tree 4</DisplayName>
+    <Tag>Arctic</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SnowTree4.png</Thumb>
+    <Model>gfx\\hkb\\Props\\SnowTree4_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SnowPineTreeSingle">
+    <DisplayName>Single Snow Pine Tree</DisplayName>
+    <Tag>Arctic</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SnowPineTreeSingle.png</Thumb>
+    <Model>gfx\\hkb\\Trees\\TreeGroupArcticSingle_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SnowPineTreePatch1">
+    <DisplayName>Snow Pine Tree Patch 1</DisplayName>
+    <Tag>Arctic</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SnowPineTreePatch1.png</Thumb>
+    <Model>gfx\\hkb\\Trees\\TreeGroupArcticPatch_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="SnowPineTreePatch2">
+    <DisplayName>Snow Pine Tree Patch 2</DisplayName>
+    <Tag>Arctic</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\SnowPineTreePatch2.png</Thumb>
+    <Model>gfx\\hkb\\Trees\\TreeGroupArcticPatch2_Default.hkb</Model>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+
+  <PropModelType InternalName="TreeCard1Snow">
+    <DisplayName>Tree Card Snow 1</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard1Snow.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard1Snow.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <LeafOffset>2</LeafOffset>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeCard2Snow">
+    <DisplayName>Tree Card Snow 2</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard2Snow.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard2Snow.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <LeafOffset>2</LeafOffset>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeCard3Snow">
+    <DisplayName>Tree Card Snow 3</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard3Snow.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard3Snow.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <LeafOffset>2</LeafOffset>
+  </PropModelType>
+
+  <PropModelType InternalName="TreeCard4Snow">
+    <DisplayName>Tree Card Snow 4</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/TreeCard4Snow.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/TreeCard4Snow.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <LeafOffset>2</LeafOffset>
+  </PropModelType>
+
+  <PropModelType InternalName="AppleTree_1">
+    <DisplayName>Apple Tree (1)</DisplayName>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\AppleTree1.png</Thumb>
+    <Model>gfx\\hkb\\Trees\\AppleTree_1.hkb</Model>
+    <Scale>2.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="AppleTree_2">
+    <DisplayName>Apple Tree (2)</DisplayName>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\AppleTree2.png</Thumb>
+    <Model>gfx\\hkb\\Trees\\AppleTree_2.hkb</Model>
+    <Scale>2.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="AppleTree_3">
+    <DisplayName>Apple Tree (3)</DisplayName>
+    <Tag>Tree</Tag>
+    <Thumb>gfx\\hkb\\Props\\Thumbnails\\AppleTree3.png</Thumb>
+    <Model>gfx\\hkb\\Trees\\AppleTree_3.hkb</Model>
+    <Scale>2.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+  </PropModelType>
+
+  <PropModelType InternalName="AppleTree">
+    <DisplayName>AppleTree</DisplayName>
+    <Tag>AnimatedLeaf</Tag>
+    <Tag>Tree</Tag>
+    <Thumb>Gfx/Hkb/Trees/AppleTreeCard3.dds</Thumb>
+    <Model>Gfx/Hkb/Trees/AppleTreeCard3.dds</Model>
+    <Scale>10.0</Scale>
+    <ZoomLevel>50</ZoomLevel>
+    <LeafOffset>2</LeafOffset>
+  </PropModelType>
+
+
+</PropTypes>

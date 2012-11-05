@@ -1,0 +1,1718 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<CampaignData>
+
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- CHAMPIONS -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+
+
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- UMANA FERENSU -->
+<!-- **************************************************************************************************************************************************************************** -->
+
+<UnitType InternalName="FEC_UNIT_UmanaFerensu">
+	<DisplayName>Umana Ferensu</DisplayName>
+	
+	<HideInSetupLists>1</HideInSetupLists>
+	
+	<Backstory>My name - Ferensu - comes from the ancient books of the Kusharii, the warriors of the grasslands. We were first of the Drota tribes. I am thaumaturge - both strongest and wisest among my people, as my mother was before me, and her mother before that. And I am Umana as well - leader of all the Drota tribes. At least I was before that wretch Malik forced me out. The fool believes he is better-suited to lead, but he is nothing but a snake.
+
+These are dark days for all who dwell south of the Gandru; the Fallen seek to invade our lands. Soldiers of Yithril burn our villages and slaughter our herds. Shaz-a-Ludra herself weeps tears each night at their depravations. We must deal with these threats immediately. Only fools like Malik concern themselves with trivial matters like politics. His time shall come. As it will for anyone else who gets in my way.</Backstory>
+	<ModelPath>Gfx\HKB\Units\K_Female_Mesh_01.hkb</ModelPath>
+	<SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+	<EyeTexture>gfx\eyes\blinks\Eyeblink_M_Dead.png</EyeTexture>
+	<AnimationPack>FemaleSovereignAnimationPack</AnimationPack>
+	<BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+	<SoundPack>SoundPack_Generic_Female</SoundPack>
+	<ShowAsSingleUnit>false</ShowAsSingleUnit>
+	<ModelScale>1.0000</ModelScale>
+	<EquipmentScale>1.0000</EquipmentScale>
+	<ClothMapScale>1.6</ClothMapScale>
+	<MovementType>land</MovementType>
+	<BobbingFrequency>0.0000</BobbingFrequency>
+	<ClothPoseIndex>16</ClothPoseIndex>
+	<InfoCardBackground>BG1_Sunset</InfoCardBackground>
+	<InfoCardBackgroundFlipped>0</InfoCardBackgroundFlipped>
+	<CanBeDesigned>0</CanBeDesigned>
+	<UserDesigned>true</UserDesigned>
+	<MovingSFX>TEMP_KnightMarching1</MovingSFX>
+	<HasEssence>1</HasEssence>
+	<LevelMilestone InternalName="L1">
+		<Level>1</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>22</UnitStat_CombatSpeed>
+		<UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+		<UnitStat_HitPoints>15</UnitStat_HitPoints>
+	</LevelMilestone>
+	
+	<SelectedAbilityBonusOption>PathOfTheMage</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Daze</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Air1</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Air2</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Fire1</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Fire2</SelectedAbilityBonusOption>
+	
+	<AutoCreateEquipment>Longbow_Shocking</AutoCreateEquipment>
+	
+	<Equipment>K_Female_Head_04</Equipment>
+	<Equipment>SoldiersCloak</Equipment>
+	<Equipment>Noble_Corset_ID2</Equipment>
+	<Equipment>TightBoots_Dark</Equipment>
+	<Equipment>Sovereign_Short_Hair_03</Equipment>
+	
+	<Color_Clothing1>166,28,28,255</Color_Clothing1>
+	<Color_Clothing2>107,15,15,255</Color_Clothing2>
+	<Color_Metal>171,175,200,255</Color_Metal>
+	<Color_Skin>99,63,30,255</Color_Skin>
+	<Color_Hair>0,0,0,255</Color_Hair>
+	<Texture_Skin>K_Female_Dark_Texture_01.png</Texture_Skin>
+	<Texture_Eyes>gfx\eyes\blinks\Eyeblink_M_Dead.png</Texture_Eyes>
+	<Gender>Female</Gender>
+	<UnitModelType>MancerFemale</UnitModelType>
+	<IsSovereign>0</IsSovereign>
+	<NPCFreeRecruit>1</NPCFreeRecruit>
+	<IgnoreItemTrainingCosts>false</IgnoreItemTrainingCosts>
+	<AdditionalTrainingTurns>0.0000</AdditionalTrainingTurns>
+	<WageOverride>0.0000</WageOverride>
+	<UnitTypeVersion>1</UnitTypeVersion>
+	<GetPerksOnLevelUp>0</GetPerksOnLevelUp>
+    	<NPCRecruitmentText>Take me with you on your quest, Relias, for only I can open the ark that contains the Stone. We can travel south, to Anox Amokah, or east, in search of the hermit, and the Forge.</NPCRecruitmentText>
+	<TacticalModelScale>1.5</TacticalModelScale>
+</UnitType>
+
+
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- GENERAL SKAYD -->
+<!-- **************************************************************************************************************************************************************************** -->
+
+<UnitType InternalName="FEC_UNIT_GeneralSkayd">
+	<DisplayName>General Skayd</DisplayName>
+	
+	<Backstory>Tell me who to send your headless corpse back to, Relias. Rumor has it you bow the knee to Amarian's whelp; the bitch Procipinee. Is that so? It's a long way back to New Pariden from here; your flesh will surely be rotting off the bone by the time it arrives. Will she still want it, you think? I have my doubts. Hmmm... I hear tell that some of the Drota favor the taste of man-flesh. A better use for your corpse, and that of your fat friend the Padar there, don't you think? Waste not, want not. It is the warrior's code. The Warlord's code. Yes. I think I shall enforce it, here and now.</Backstory>
+	<ModelPath>Gfx\HKB\Units\K_Male_Mesh_01.hkb</ModelPath>
+	<SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+	<EyeTexture>gfx\eyes\blinks\Eyeblink_M_Dead.png</EyeTexture>
+	<AnimationPack>LeaderAnimationPack</AnimationPack>
+	<BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+	<SoundPack>SoundPack_Generic_Male</SoundPack>
+	<ShowAsSingleUnit>false</ShowAsSingleUnit>
+	<ModelScale>1.0000</ModelScale>
+	<EquipmentScale>1.0000</EquipmentScale>
+	<ClothMapScale>1.6</ClothMapScale>
+	<MovementType>land</MovementType>
+	<BobbingFrequency>0.0000</BobbingFrequency>
+	<ClothPoseIndex>0</ClothPoseIndex>
+	<InfoCardBackground>BG25_Desert</InfoCardBackground>
+	<InfoCardBackgroundFlipped>0</InfoCardBackgroundFlipped>
+	<CanBeDesigned>0</CanBeDesigned>
+	<UserDesigned>true</UserDesigned>
+	<MovingSFX>TEMP_KnightMarching1</MovingSFX>
+	<HasEssence>1</HasEssence>
+	<LevelMilestone InternalName="L1">
+		<Level>1</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>22</UnitStat_CombatSpeed>
+		<UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+		<UnitStat_HitPoints>15</UnitStat_HitPoints>
+	</LevelMilestone>
+	
+	<Treasure>
+		<Liklihood>100</Liklihood>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Title>General Skayd's Cuirass</Title>
+			<Attribute>PlateBreastpiece_Legendary</Attribute>
+			<Value></Value>
+		</GameModifier>
+	</Treasure>
+	
+	<SelectedAbilityBonusOption>PathOfTheWarrior</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Bloodthirsty</SelectedAbilityBonusOption>
+	
+	<Equipment>Greatsword_Legendary</Equipment>
+	
+	<Equipment>F_Head_Wraith_Mesh_07</Equipment>
+	<Equipment>F_LongThick_Hair_Mesh_01</Equipment>
+	<Equipment>DarkWizardRobeID1</Equipment>
+	<Equipment>Patchwork_Cloak_ID2</Equipment>
+	
+	<Color_Clothing1>0,0,0,255</Color_Clothing1>
+	<Color_Clothing2>107,15,15,255</Color_Clothing2>
+	<Color_Metal>50,55,70,255</Color_Metal>
+	<Color_Skin>173,183,198,255</Color_Skin>
+	<Color_Hair>255,255,255,255</Color_Hair>
+	<Texture_Skin>K_Male_Evil_Texture_01.png</Texture_Skin>
+	<Texture_Eyes>gfx\eyes\blinks\Eyeblink_M_Dead.png</Texture_Eyes>
+	<Gender>Male</Gender>
+	<UnitModelType>WraithMale</UnitModelType>
+	<IsSovereign>0</IsSovereign>
+	<IgnoreItemTrainingCosts>false</IgnoreItemTrainingCosts>
+	<AdditionalTrainingTurns>0.0000</AdditionalTrainingTurns>
+	<WageOverride>0.0000</WageOverride>
+	<UnitTypeVersion>1</UnitTypeVersion>
+	<GetPerksOnLevelUp>0</GetPerksOnLevelUp>
+	<TacticalModelScale>1.5</TacticalModelScale>
+</UnitType>
+
+
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- ALONN BESERET -->
+<!-- **************************************************************************************************************************************************************************** -->
+
+<UnitType InternalName="FEC_UNIT_AlonnBeseret">
+	<DisplayName>Alonn Beseret</DisplayName>
+	
+	<HideInSetupLists>1</HideInSetupLists>
+	
+	<Backstory>You wish to talk further, Relias? To tell me more of your noble mission, of your queen's desire to save mankind? Hah! Save your breath. You do not fool me. I know the truth - the real reason you have come to this land. It is not to prevent some ancient prophecy from coming to pass, or to rescue she who has lain as one dead for a thousand years. What you and your queen seek is power. The power of the Stone. The power of the Titan Curgen. I warn you, Relias, I will not be party to it. I will not have it. That power will corrupt you and all it touches, as the greed of the Amarians of old brought down noble Antheros.</Backstory>
+	<ModelPath>Gfx\HKB\Units\K_Female_Mesh_01.hkb</ModelPath>
+	<SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+	<EyeTexture>gfx\eyes\blinks\eyeblink_f3_grn.png</EyeTexture>
+	<AnimationPack>FemaleSovereignAnimationPack</AnimationPack>
+	<BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+	<SoundPack>SoundPack_Generic_Female</SoundPack>
+	<ShowAsSingleUnit>false</ShowAsSingleUnit>
+	<ModelScale>1.0000</ModelScale>
+	<EquipmentScale>1.0000</EquipmentScale>
+	<ClothMapScale>1.6</ClothMapScale>
+	<MovementType>land</MovementType>
+	<BobbingFrequency>0.0000</BobbingFrequency>
+	<ClothPoseIndex>16</ClothPoseIndex>
+	<InfoCardBackground>BG_CreateForest</InfoCardBackground>
+	<InfoCardBackgroundFlipped>0</InfoCardBackgroundFlipped>
+	<CanBeDesigned>0</CanBeDesigned>
+	<UserDesigned>true</UserDesigned>
+	<MovingSFX>TEMP_KnightMarching1</MovingSFX>
+	<LevelMilestone InternalName="L1">
+		<Level>1</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>22</UnitStat_CombatSpeed>
+		<UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+		<UnitStat_HitPoints>15</UnitStat_HitPoints>
+	</LevelMilestone>
+	
+	<Treasure>
+		<Liklihood>100</Liklihood>
+		<GameModifier>
+			<ModType>GiveItem</ModType>
+			<Title>Ignys Longbow</Title>
+			<Attribute>Longbow_Ignys</Attribute>
+			<BoolVal1>1</BoolVal1>
+			<Value></Value>
+		</GameModifier>
+	</Treasure>
+	
+	<NPCPartyMember>PackDrake</NPCPartyMember>
+	<NPCPartyMember>PackDrake</NPCPartyMember>
+	
+	<SelectedAbilityBonusOption>PathOfTheWarrior</SelectedAbilityBonusOption>
+	<AutoCreateEquipment>Longbow_Ignys</AutoCreateEquipment>
+	
+	<Equipment>K_Female_Head_04</Equipment>
+	<Equipment>SionVambraces</Equipment>
+	<Equipment>Basic_Corset</Equipment>
+	<Equipment>Female_Basic_Pants_ID2</Equipment>
+	<Equipment>Sovereign_Long_Hair</Equipment>
+	<Equipment>TightBoots_Light</Equipment>
+	
+	<Color_Clothing1>50,50,50,255</Color_Clothing1>
+	<Color_Clothing2>78,60,55,255</Color_Clothing2>
+	<Color_Metal>145,145,145,255</Color_Metal>
+	<Color_Skin>230,165,115,255</Color_Skin>
+	<Color_Hair>190,170,85,255</Color_Hair>
+	<Texture_Skin>K_Female_Freckles_Texture_01.png</Texture_Skin>
+	<Texture_Eyes>gfx\eyes\blinks\eyeblink_f3_grn.png</Texture_Eyes>
+	<Gender>Female</Gender>
+	<UnitModelType>KingdomFemale</UnitModelType>
+	<IsSovereign>0</IsSovereign>
+	<IsChampion>0</IsChampion>
+	<IgnoreItemTrainingCosts>false</IgnoreItemTrainingCosts>
+	<AdditionalTrainingTurns>0.0000</AdditionalTrainingTurns>
+	<WageOverride>0.0000</WageOverride>
+	<UnitTypeVersion>1</UnitTypeVersion>
+	<GetPerksOnLevelUp>0</GetPerksOnLevelUp>
+	<TacticalModelScale>1.5</TacticalModelScale>
+</UnitType>
+
+
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- Darwella Ffayr-->
+<!-- **************************************************************************************************************************************************************************** -->
+
+<UnitType InternalName="FEC_UNIT_Darwella">
+	<DisplayName>Darwella Ffayr</DisplayName>
+	<Backstory>The Magi's Stone? Truly? This is what you seek? Fascinating... I am young, yes, but I have walked the enchanter's path for many years. I know the lore - the tales of Curgen, and his obsession with the Magi's relics. His fear of the Oracle's might, and the death-magic he poured into the Stone, the power that enabled him to strike her down. If you prove that you can help me delve deeper into the magicks of this world then in return I will assist you in attaining that which you seek.</Backstory>
+	<ModelPath>Gfx\HKB\Units\K_Female_Mesh_01.hkb</ModelPath>
+	<SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+	<EyeTexture>gfx\eyes\blinks\eyeblink_f2_grn.png</EyeTexture>
+	<AnimationPack>FemaleSovereignAnimationPack</AnimationPack>
+	<BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+	<SoundPack>SoundPack_Generic_Female</SoundPack>
+	<ShowAsSingleUnit>false</ShowAsSingleUnit>
+	<CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+	<ModelScale>1.0000</ModelScale>
+	<TacticalModelScale>1.5000</TacticalModelScale>
+	<EquipmentScale>1.0000</EquipmentScale>
+	<ClothMapScale>1.6</ClothMapScale>
+	<MovementType>land</MovementType>
+	<BobbingFrequency>0.0000</BobbingFrequency>
+	<ClothPoseIndex>0</ClothPoseIndex>
+	<InfoCardBackground>BG1_Sunset</InfoCardBackground>
+	<InfoCardBackgroundFlipped>0</InfoCardBackgroundFlipped>
+	<CanBeDesigned>0</CanBeDesigned>
+	<UserDesigned>true</UserDesigned>
+	<Medallions InternalName=""/>
+	<MovingSFX>TEMP_KnightMarching1</MovingSFX>
+	<HasEssence>1</HasEssence>
+	<LevelMilestone InternalName="L1">
+		<Level>1</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>22</UnitStat_CombatSpeed>
+		<UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+		<UnitStat_HitPoints>15</UnitStat_HitPoints>
+	</LevelMilestone>
+	
+	<SelectedAbilityBonusOption>PathOfTheMage</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Summon1</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Air1</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Air2</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Air3</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Water1</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Water2</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Water3</SelectedAbilityBonusOption>
+	
+	<AutoCreateEquipment>Staff_Banishing</AutoCreateEquipment>
+	
+	<Equipment>K_Female_Head_05</Equipment>
+	<Equipment>Sovereign_Parted_Right_Hair</Equipment>
+	
+	<Equipment>Wraith_Female_Robe_ID2</Equipment>
+	<Equipment>Basic_Empire_Skirt_ID2</Equipment>
+	<Equipment>Basic_Boots_ID1</Equipment>
+	
+	<Color_Clothing1>30,84,48,255</Color_Clothing1>
+	<Color_Clothing2>150,150,150,255</Color_Clothing2>
+	<Color_Metal>185,175,151,255</Color_Metal>
+	<Color_Skin>187,147,132,255</Color_Skin>
+	<Color_Hair>107,15,15,255</Color_Hair>
+	<NPCRecruitmentText>I am Darwella. I carry the blood of the channelers of old in my veins, of Hosten the Nemesis and his son Morrigan the Mad. I will aid your quest, Relias, for a modest fee. Shall we say %d gildar?</NPCRecruitmentText>
+	<Texture_Skin>K_Female_Dark_Texture_01.png</Texture_Skin>
+	<Texture_Eyes>gfx\eyes\blinks\eyeblink_f2_grn.png</Texture_Eyes>
+	<Gender>Female</Gender>
+	<UnitModelType>IroneerFemale</UnitModelType>
+	<FactionToLead>KingdomOfGilden</FactionToLead>
+	<NPCFreeRecruit>0</NPCFreeRecruit>
+    <NPCIsRecruitable>0</NPCIsRecruitable>
+	<Race>Race_Type_Altarians</Race>
+	<IgnoreItemTrainingCosts>false</IgnoreItemTrainingCosts>
+	<AdditionalTrainingTurns>0.0000</AdditionalTrainingTurns>
+	<WageOverride>0.0000</WageOverride>
+	<UnitTypeVersion>1</UnitTypeVersion>
+	<TileRadius>0</TileRadius>
+	<GetPerksOnLevelUp>0</GetPerksOnLevelUp>
+	<CanSqueeze>0</CanSqueeze>
+	<OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+</UnitType>
+
+
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- Valiero-->
+<!-- **************************************************************************************************************************************************************************** -->
+
+<UnitType InternalName="FEC_UNIT_Valiero">
+	<DisplayName>Valiero</DisplayName>
+	<Backstory>Valiero Caspiani is my name, I am of the great house of Caspiani, of the city of the same name. Yes, I am far from home - but I did not want to work in the trading houses of my family; I did not want to sit inside stone walls, growing my moustaches, counting my money, while life passed me by. I came to the southlands for adventure; for glory; let me join you on your noble quest, King Relias, and give me stories to tell when I am old.</Backstory>
+	<ModelPath>Gfx\HKB\Units\K_Male_Mesh_01.hkb</ModelPath>
+	<SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+	<EyeTexture>gfx\eyes\blinks\eyeblink_m3_brwn.png</EyeTexture>
+	<AnimationPack>MaleSovereignAnimationPack</AnimationPack>
+	<BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+	<SoundPack>SoundPack_Generic_Male</SoundPack>
+	<ShowAsSingleUnit>false</ShowAsSingleUnit>
+	<CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+	<ModelScale>1.0000</ModelScale>
+	<TacticalModelScale>1.5000</TacticalModelScale>
+	<EquipmentScale>1.0000</EquipmentScale>
+	<ClothMapScale>1.6</ClothMapScale>
+	<MovementType>land</MovementType>
+	<BobbingFrequency>0.0000</BobbingFrequency>
+	<ClothPoseIndex>17</ClothPoseIndex>
+	<InfoCardBackground>BG_CreateSwamp</InfoCardBackground>
+	<InfoCardBackgroundFlipped>1</InfoCardBackgroundFlipped>
+	<CanBeDesigned>0</CanBeDesigned>
+	<UserDesigned>true</UserDesigned>
+	<Medallions InternalName=""/>
+	<MovingSFX>TEMP_KnightMarching1</MovingSFX>
+	<LevelMilestone InternalName="L1">
+		<Level>1</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>22</UnitStat_CombatSpeed>
+		<UnitStat_ChanceToCrit>1</UnitStat_ChanceToCrit>
+		<UnitStat_HitPoints>15</UnitStat_HitPoints>
+	</LevelMilestone>
+	
+	<SelectedAbilityBonusOption>PathOfTheAssassin</SelectedAbilityBonusOption>
+	<AutoCreateEquipment>Longsword</AutoCreateEquipment>
+	
+	<Equipment>K_Male_Head_05</Equipment>
+	<Equipment>F_LongThick_Hair_Mesh_01</Equipment>
+	
+	<Equipment>Sovereign_Satin_Shirt_ID2</Equipment>
+	<Equipment>CapitarGreatcoat_ID2</Equipment>
+	<Equipment>Sovereign_Boots_Leather</Equipment>
+	<Equipment>Basic_Pants</Equipment>
+	
+	<NPCRecruitmentText>Greetings, my noble Lord Relias. Yes, Valiero will join your party - there is a fee, of course. %d gildar pays for my services.</NPCRecruitmentText>
+	<Color_Clothing1>255,255,255,255</Color_Clothing1>
+	<Color_Clothing2>30,63,99,255</Color_Clothing2>
+	<Color_Metal>171,175,200,255</Color_Metal>
+	<Color_Skin>176,122,74,255</Color_Skin>
+	<Color_Hair>33,15,5,255</Color_Hair>
+	<Texture_Skin>K_Male_Handsome_Texture_01.png</Texture_Skin>
+	<Texture_Eyes>gfx\eyes\blinks\eyeblink_m3_brwn.png</Texture_Eyes>
+	<Gender>Male</Gender>
+	<UnitModelType>MancerMale</UnitModelType>
+	<FactionToLead>KingdomOfCapitar</FactionToLead>
+	<NPCFreeRecruit>0</NPCFreeRecruit>
+	<Race>Race_Type_Ironeers</Race>
+	<IgnoreItemTrainingCosts>false</IgnoreItemTrainingCosts>
+	<AdditionalTrainingTurns>0.0000</AdditionalTrainingTurns>
+	<WageOverride>0.0000</WageOverride>
+    <NPCIsRecruitable>0</NPCIsRecruitable>
+	<UnitTypeVersion>1</UnitTypeVersion>
+	<TileRadius>0</TileRadius>
+	<GetPerksOnLevelUp>0</GetPerksOnLevelUp>
+	<CanSqueeze>0</CanSqueeze>
+	<OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+</UnitType>
+
+
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- TRANSPORT SHIP -->
+<!-- **************************************************************************************************************************************************************************** -->
+
+<UnitType InternalName="FEC_UNIT_TransportShip">
+	<DisplayName>Transport Ship</DisplayName>
+	<ModelPath>Gfx\HKB\Objects\K_Ship_Transport_Mesh_01.hkb</ModelPath>
+	<SkeletonPath>Gfx\HKB\Objects\K_Ship_Transport_Skeleton_01.hkb</SkeletonPath>
+	<Texture_All>K_Ship_Texture_01.png</Texture_All>
+	<EyeTexture>gfx\eyes\blinks\eyeblink_m3_cataract.png</EyeTexture>
+	<AnimationPack>KingdomTransportAnimationPack</AnimationPack>
+	<ModelScale>1.75</ModelScale>
+	<ClothMapScale>.60</ClothMapScale>
+	<MaxScaleMainMap>0.25</MaxScaleMainMap>
+	<MaxScaleTacticalMap>0.35</MaxScaleTacticalMap>
+	<MovementType>Water</MovementType>
+	<CanBeDesigned>1</CanBeDesigned>
+	<ShowAsSingleUnit>1</ShowAsSingleUnit>
+	<AlwaysInTileCenter>1</AlwaysInTileCenter>
+	<!-- This lets it show up in the train wnd -->
+	<IsUniqueButBuildable>1</IsUniqueButBuildable>
+	<!-- This keeps it out of the unit design wnd -->
+	<Medallions InternalName="">
+		<All>Cartography_Medallion_Full.png</All>
+	</Medallions>
+	<SoundPack>SoundPack_Boat1</SoundPack>
+	<AllowGrouping>0</AllowGrouping>
+	
+	<Prereq>
+		<Type>BuildingRequirement</Type>
+		<Attribute>Drydock</Attribute>
+		<Target>City</Target>
+	</Prereq>
+	
+	<IgnoreItemTrainingCosts>1</IgnoreItemTrainingCosts>
+	
+    <AdditionalTrainingTurns>15</AdditionalTrainingTurns>
+	
+	<LevelMilestone InternalName="">
+		<Level>1</Level>
+		<UnitStat_Attack>0</UnitStat_Attack>
+		<UnitStat_Defense>0</UnitStat_Defense>
+		<UnitStat_HitPoints>15</UnitStat_HitPoints>
+		<UnitStat_Moves>8</UnitStat_Moves>
+		<UnitStat_Sight>3</UnitStat_Sight>
+	</LevelMilestone>
+	<UnitModelType>Ship</UnitModelType>
+</UnitType>
+
+
+
+
+
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- MONSTERS -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- **************************************************************************************************************************************************************************** -->
+
+
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- DROTA SHAMAN -->
+<!-- **************************************************************************************************************************************************************************** -->
+
+<UnitType InternalName="FEC_UNIT_DrotaShaman">
+	<DisplayName>Umana Malik</DisplayName>
+	<CreatureType>Twisted</CreatureType>
+	<CanBeDesigned>0</CanBeDesigned>
+	<IsSovereign>0</IsSovereign>
+	<AllowGrouping>0</AllowGrouping>
+	<IsWandering>1</IsWandering>
+	<SpawnRating>5</SpawnRating>
+	<PreferredTerrain>Forest</PreferredTerrain>
+	<PreferredTerrain>Barren</PreferredTerrain>
+	<LevelMilestone InternalName="L1">
+		<Level>1</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>2</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L2">
+		<Level>2</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>0</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L3">
+		<Level>3</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-2</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L4">
+		<Level>4</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-4</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L5">
+		<Level>5</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-6</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L6">
+		<Level>6</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-8</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L7">
+		<Level>7</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-10</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L8">
+		<Level>8</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-12</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L9">
+		<Level>9</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-14</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L10">
+		<Level>10</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-16</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L11">
+		<Level>11</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-18</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L12">
+		<Level>12</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-20</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L13">
+		<Level>13</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-22</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L14">
+		<Level>14</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-24</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L15">
+		<Level>15</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-26</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L16">
+		<Level>16</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-28</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L17">
+		<Level>17</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-30</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L18">
+		<Level>18</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-32</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L19">
+		<Level>19</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-34</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L20">
+		<Level>20</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-36</UnitStat_HitPoints>
+	</LevelMilestone>
+	<SelectedAbilityBonusOption>SpellResistance</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Spell_Blindness</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Spell_Curse</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Spell_Counterspell</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Weak</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Dodge1</SelectedAbilityBonusOption>
+	<Equipment>Staff</Equipment>
+	
+	<Quote>'Beware the dark magics of ages past.'</Quote>
+	<Backstory>Darklings are a primitive and crude people. Often cave dwellers, they are short of stature and violent in nature. In Amarian's journey west, as told by Ezmir, these are called by the scribe a sub-race of Fallen, which may or may not be true.
+
+  Darklings have been known to carry gildar taken from slain passers-by.</Backstory>
+	<BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+	<ShowAsSingleUnit>1</ShowAsSingleUnit>
+	<SoundPack>SoundPack_Darkling1</SoundPack>
+
+	<ModelPath>Gfx\HKB\Units\K_Male_Mesh_01.hkb</ModelPath>
+	<SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+	<EyeTexture>gfx\eyes\blinks\Eyeblink_M_Dead.png</EyeTexture>
+	<AnimationPack>BanditAnimationPack</AnimationPack>
+	<CutSceneDataPack>SandCrawlerUnitCutscenePack</CutSceneDataPack>
+	
+	<Equipment>F_Head_Wraith_Mesh_04</Equipment>
+	<Equipment>Basic_Pants</Equipment>
+	<Equipment>Kingdom_Leather_Gloves_Dark</Equipment>
+	<Equipment>Warrior_Trenchcoat_ID1</Equipment>
+	<Equipment>Basic_Boots_ID1</Equipment>
+	<Equipment>Wizard_Hair</Equipment>
+	
+	<Color_Clothing1>0,0,0,255</Color_Clothing1>
+	<Color_Clothing2>78,60,55,255</Color_Clothing2>
+	<Color_Metal>145,145,145,255</Color_Metal>
+	<Color_Skin>56,33,13,255</Color_Skin>
+	<Color_Hair>0,0,0,255</Color_Hair>
+	<Texture_Skin>K_Male_Bandit_Texture_01.png</Texture_Skin>
+	<Texture_Eyes>gfx\eyes\blinks\Eyeblink_M_Dead.png</Texture_Eyes>
+	<Gender>Male</Gender>
+	<UnitModelType>KingdomMale</UnitModelType>
+</UnitType>
+
+
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- DROTA -->
+<!-- **************************************************************************************************************************************************************************** -->
+
+<UnitType InternalName="FEC_UNIT_Drota">
+	<DisplayName>Drota</DisplayName>
+	<CreatureType>Twisted</CreatureType>
+	<CanBeDesigned>0</CanBeDesigned>
+	<IsSovereign>0</IsSovereign>
+	<IsWandering>1</IsWandering>
+	<SpawnRating>1</SpawnRating>
+	<PreferredTerrain>Forest</PreferredTerrain>
+	<MaxSpawn>3</MaxSpawn>
+	<LevelMilestone InternalName="L1">
+		<Level>1</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>2</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L2">
+		<Level>2</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>0</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L3">
+		<Level>3</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-2</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L4">
+		<Level>4</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-4</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L5">
+		<Level>5</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-6</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L6">
+		<Level>6</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-8</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L7">
+		<Level>7</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-10</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L8">
+		<Level>8</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-12</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L9">
+		<Level>9</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-14</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L10">
+		<Level>10</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-16</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L11">
+		<Level>11</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-18</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L12">
+		<Level>12</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-20</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L13">
+		<Level>13</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-22</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L14">
+		<Level>14</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-24</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L15">
+		<Level>15</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-26</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L16">
+		<Level>16</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-28</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L17">
+		<Level>17</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-30</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L18">
+		<Level>18</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-32</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L19">
+		<Level>19</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-34</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L20">
+		<Level>20</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-36</UnitStat_HitPoints>
+	</LevelMilestone>
+	<SelectedAbilityBonusOption>SpellResistance</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Weak</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Inaccurate</SelectedAbilityBonusOption>
+	<Equipment>Club_Crude</Equipment>
+
+	<Quote>'Primitive, but not powerless.'</Quote>
+	<Backstory>Darklings are a primitive and crude people. Often cave dwellers, they are short of stature and violent in nature. In Amarian's journey west, as told by Ezmir, these are called by the scribe a sub-race of Fallen, which may or may not be true.
+
+  Darklings have been known to carry gildar taken from slain passers-by.</Backstory>
+	<BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+	<SoundPack>SoundPack_Darkling1</SoundPack>
+
+	<ModelPath>Gfx\HKB\Units\K_Male_Mesh_01.hkb</ModelPath>
+	<SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+	<EyeTexture>gfx\eyes\blinks\Eyeblink_M_Dead.png</EyeTexture>
+	<AnimationPack>SlagAnimationPack</AnimationPack>
+	<CutSceneDataPack>SandCrawlerUnitCutscenePack</CutSceneDataPack>
+	
+	<Equipment>K_Male_Head_04</Equipment>
+	<Equipment>F_LongThick_Hair_Mesh_01</Equipment>
+	<Equipment>Butcherman_Pants</Equipment>
+	
+	<Color_Clothing1>33,15,5,255</Color_Clothing1>
+	<Color_Clothing2>78,60,55,255</Color_Clothing2>
+	<Color_Metal>145,145,145,255</Color_Metal>
+	<Color_Skin>79,48,20,255</Color_Skin>
+	<Color_Hair>0,0,0,255</Color_Hair>
+	<Texture_Skin>K_Male_Balding_Texture_01.png</Texture_Skin>
+	<Texture_Eyes>gfx\eyes\blinks\Eyeblink_M_Dead.png</Texture_Eyes>
+	<Gender>Male</Gender>
+	<UnitModelType>KingdomMale</UnitModelType>
+</UnitType>
+
+
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- DROTA BOWMAN -->
+<!-- **************************************************************************************************************************************************************************** -->
+
+<UnitType InternalName="FEC_UNIT_DrotaBowman">
+	<DisplayName>Drota Bowman</DisplayName>
+	<CreatureType>Twisted</CreatureType>
+	<CanBeDesigned>0</CanBeDesigned>
+	<IsSovereign>0</IsSovereign>
+	<IsWandering>1</IsWandering>
+	<SpawnRating>1</SpawnRating>
+	<PreferredTerrain>Forest</PreferredTerrain>
+	<MaxSpawn>3</MaxSpawn>
+	<LevelMilestone InternalName="L1">
+		<Level>1</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>2</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L2">
+		<Level>2</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>0</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L3">
+		<Level>3</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-2</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L4">
+		<Level>4</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-4</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L5">
+		<Level>5</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-6</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L6">
+		<Level>6</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-8</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L7">
+		<Level>7</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-10</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L8">
+		<Level>8</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-12</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L9">
+		<Level>9</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-14</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L10">
+		<Level>10</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-16</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L11">
+		<Level>11</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-18</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L12">
+		<Level>12</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-20</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L13">
+		<Level>13</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-22</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L14">
+		<Level>14</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-24</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L15">
+		<Level>15</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-26</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L16">
+		<Level>16</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-28</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L17">
+		<Level>17</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-30</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L18">
+		<Level>18</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-32</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L19">
+		<Level>19</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-34</UnitStat_HitPoints>
+	</LevelMilestone>
+	<LevelMilestone InternalName="L20">
+		<Level>20</Level>
+		<UnitStat_Accuracy>75</UnitStat_Accuracy>
+		<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+		<UnitStat_HitPoints>-36</UnitStat_HitPoints>
+	</LevelMilestone>
+	<SelectedAbilityBonusOption>SpellResistance</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Weak</SelectedAbilityBonusOption>
+	<SelectedAbilityBonusOption>Dodge1</SelectedAbilityBonusOption>
+	<Equipment>Shortbow_Balanced</Equipment>
+	
+	<Quote>'Primitive, but not powerless.'</Quote>
+	<Backstory>Darklings are a primitive and crude people. Often cave dwellers, they are short of stature and violent in nature. In Amarian's journey west, as told by Ezmir, these are called by the scribe a sub-race of Fallen, which may or may not be true.
+
+  Darklings have been known to carry gildar taken from slain passers-by.</Backstory>
+	<BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+	<SoundPack>SoundPack_Darkling1</SoundPack>
+
+	<ModelPath>Gfx\HKB\Units\K_Male_Mesh_01.hkb</ModelPath>
+	<SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+	<EyeTexture>gfx\eyes\blinks\Eyeblink_M_Dead.png</EyeTexture>
+	<AnimationPack>SlagAnimationPack</AnimationPack>
+	<CutSceneDataPack>SandCrawlerUnitCutscenePack</CutSceneDataPack>
+	
+	<Equipment>K_Male_Head_04</Equipment>
+	<Equipment>F_LongThick_Hair_Mesh_01</Equipment>
+	<Equipment>Butcherman_Pants</Equipment>
+	
+	<Color_Clothing1>33,15,5,255</Color_Clothing1>
+	<Color_Clothing2>78,60,55,255</Color_Clothing2>
+	<Color_Metal>145,145,145,255</Color_Metal>
+	<Color_Skin>79,48,20,255</Color_Skin>
+	<Color_Hair>0,0,0,255</Color_Hair>
+	<Texture_Skin>K_Male_Balding_Texture_01.png</Texture_Skin>
+	<Texture_Eyes>gfx\eyes\blinks\Eyeblink_M_Dead.png</Texture_Eyes>
+	<Gender>Male</Gender>
+	<UnitModelType>KingdomMale</UnitModelType>
+</UnitType>
+
+	
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- Pirate-->
+<!-- **************************************************************************************************************************************************************************** -->
+	
+	<UnitType InternalName="FEC_UNIT_Pirate">
+		<DisplayName>Pirate</DisplayName>
+		<Backstory>Brigands. Pirates. It's all the same to us. We serve the house Lamord, of old Ruvenna. In the time before this one, we were merchants. Back when there were rules, and ships to enforce them. No sense in rules now, are there?</Backstory>
+		<HasEssence>true</HasEssence>
+		<ModelPath>Gfx\HKB\Units\K_Male_Mesh_01.hkb</ModelPath>
+		<SkeletonPath>Gfx\HKB\Units\K_Male_Skeleton_01.hkb</SkeletonPath>
+		<EyeTexture>gfx\eyes\blinks\eyeblink_m1_grn.png</EyeTexture>
+		<AnimationPack>MaleSovereignAnimationPack</AnimationPack>
+		<SoundPack>SoundPack_Generic_Male</SoundPack>
+		<ShowAsSingleUnit>false</ShowAsSingleUnit>
+		<CutSceneDataPack>DefaultUnitCutscenePack</CutSceneDataPack>
+		<ModelScale>1.0000</ModelScale>
+		<TacticalModelScale>1.5000</TacticalModelScale>
+		<EquipmentScale>1.0000</EquipmentScale>
+		<ClothMapScale>1.6</ClothMapScale>
+		<BattleAnimationBehavior>Melee</BattleAnimationBehavior>
+		<MovementType>land</MovementType>
+		<BobbingFrequency>0.0000</BobbingFrequency>
+		<ClothPoseIndex>16</ClothPoseIndex>
+		<InfoCardBackground>BG25_Desert</InfoCardBackground>
+		<InfoCardBackgroundFlipped>0</InfoCardBackgroundFlipped>
+		<CanBeDesigned>0</CanBeDesigned>
+		<UserDesigned>true</UserDesigned>
+		<Medallions InternalName=""/>
+		<MovingSFX>TEMP_KnightMarching1</MovingSFX>
+
+		<LevelMilestone InternalName="">
+			<Level>1</Level>
+			<UnitStat_Accuracy>20.0000</UnitStat_Accuracy>
+			<UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+			<UnitStat_Constitution>12.0000</UnitStat_Constitution>
+			<UnitStat_Dexterity>8.0000</UnitStat_Dexterity>
+			<UnitStat_HitPoints>30.0000</UnitStat_HitPoints>
+			<UnitStat_Intelligence>8.0000</UnitStat_Intelligence>
+			<UnitStat_Strength>8.0000</UnitStat_Strength>
+		</LevelMilestone>
+		
+		<Treasure>
+			<Liklihood>100</Liklihood>
+			<GameModifier>
+				<ModType>Resource</ModType>
+				<Attribute>Gold</Attribute>
+				<Value>50</Value>
+			</GameModifier>
+		</Treasure>
+		
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>3</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L2">
+            <Level>2</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>2</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L3">
+            <Level>3</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>1</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L4">
+            <Level>4</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>0</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L5">
+            <Level>5</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-1</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L6">
+            <Level>6</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-2</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L7">
+            <Level>7</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-3</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L8">
+            <Level>8</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-4</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L9">
+            <Level>9</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-5</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L10">
+            <Level>10</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-6</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L11">
+            <Level>11</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-7</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L12">
+            <Level>12</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-8</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L13">
+            <Level>13</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-9</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L14">
+            <Level>14</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-10</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L15">
+            <Level>15</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-11</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L16">
+            <Level>16</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-12</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L17">
+            <Level>17</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-13</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L18">
+            <Level>18</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-14</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L19">
+            <Level>19</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-15</UnitStat_HitPoints>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L20">
+            <Level>20</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>3</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>3</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>3</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>-16</UnitStat_HitPoints>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Strength</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Inaccurate</SelectedAbilityBonusOption>
+        <Equipment>Shortsword</Equipment>
+        <Equipment>ThrowingKnives</Equipment>
+		<Equipment>K_Male_Head_05</Equipment>
+		<Equipment>Peasant_Pants_ID2</Equipment>
+		<Equipment>Sovereign_Bandit_Hair_ID1</Equipment>
+		<Equipment>Male_Warrior_Vest_ID1</Equipment>
+		<Equipment>Warrior_Boots_ID2</Equipment>
+		<Color_Clothing1>107,15,15,255</Color_Clothing1>
+		<Color_Clothing2>0,0,0,255</Color_Clothing2>
+		<Color_Metal>150,155,135,255</Color_Metal>
+		<Color_Skin>157,102,77,255</Color_Skin>
+		<Color_Hair>70,45,35,255</Color_Hair>
+		<Texture_Skin>K_Male_Bandit_Texture_01.png</Texture_Skin>
+		<Texture_Eyes>gfx\eyes\blinks\eyeblink_m1_grn.png</Texture_Eyes>
+		<Gender>Male</Gender>
+		<UnitModelType>TarthanMale</UnitModelType>
+		<NPCFreeRecruit>0</NPCFreeRecruit>
+		<Race>Race_Type_Altarians</Race>
+		<IgnoreItemTrainingCosts>false</IgnoreItemTrainingCosts>
+		<AdditionalTrainingTurns>0.0000</AdditionalTrainingTurns>
+		<WageOverride>0.0000</WageOverride>
+		<UnitTypeVersion>1</UnitTypeVersion>
+		<TileRadius>0</TileRadius>
+		<GetPerksOnLevelUp>0</GetPerksOnLevelUp>
+		<CanSqueeze>0</CanSqueeze>
+		<OnHitParticleName>Bloody_OnHit</OnHitParticleName>
+	</UnitType>
+	
+	
+<!-- **************************************************************************************************************************************************************************** -->
+<!-- Fell Dragon - same as sandbox game version, except without Trigger_Fear -->
+<!-- **************************************************************************************************************************************************************************** -->
+	
+    <UnitType InternalName="FEC_UNIT_FellDragon">
+        <DisplayName>Fell Dragon</DisplayName>
+        <CreatureType>Dragon</CreatureType>
+        <CanBeDesigned>0</CanBeDesigned>
+        <IsSovereign>0</IsSovereign>
+        <AllowGrouping>0</AllowGrouping>
+        <HasWages>0</HasWages>
+        <SpawnRating>13</SpawnRating>
+        <IsLimitedUnitType>1</IsLimitedUnitType>
+        <AdditionalTrainingTurns>900</AdditionalTrainingTurns>
+        <ProductionRequirement>
+            <Type>Resource</Type>
+            <Attribute>DiplomaticCapital</Attribute>
+            <Value>30</Value>
+        </ProductionRequirement>
+        <LevelMilestone InternalName="L1">
+            <Level>1</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>27</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>20</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>14</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>14</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>14</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L2">
+            <Level>2</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>29</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>21</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>15</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>15</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>15</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L3">
+            <Level>3</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>31</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>22</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>16</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>16</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>16</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L4">
+            <Level>4</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>33</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>23</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>17</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>17</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>17</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L5">
+            <Level>5</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>35</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>24</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>18</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>18</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>18</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L6">
+            <Level>6</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>37</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>25</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>19</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>19</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>19</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L7">
+            <Level>7</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>39</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>26</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>20</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>20</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>20</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L8">
+            <Level>8</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>41</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>27</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>21</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>21</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>21</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L9">
+            <Level>9</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>43</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>28</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>22</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>22</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>22</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L10">
+            <Level>10</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>45</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>29</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>23</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>23</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>23</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L11">
+            <Level>11</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>47</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>30</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>24</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>24</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>24</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L12">
+            <Level>12</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>49</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>31</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>25</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>25</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>25</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L13">
+            <Level>13</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>51</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>32</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>26</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>26</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>26</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L14">
+            <Level>14</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>53</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>33</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>27</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>27</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>27</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L15">
+            <Level>15</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>55</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>34</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>28</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>28</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>28</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L16">
+            <Level>16</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>57</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>35</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>29</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>29</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>29</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L17">
+            <Level>17</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>59</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>36</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>30</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>30</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>30</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L18">
+            <Level>18</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>61</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>37</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>31</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>31</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>31</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L19">
+            <Level>19</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>63</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>38</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>32</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>32</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>32</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <LevelMilestone InternalName="L20">
+            <Level>20</Level>
+            <UnitStat_Accuracy>75</UnitStat_Accuracy>
+            <UnitStat_Attack_Pierce>65</UnitStat_Attack_Pierce>
+            <UnitStat_ChanceToCrit>3</UnitStat_ChanceToCrit>
+            <UnitStat_CombatSpeed>39</UnitStat_CombatSpeed>
+            <UnitStat_Defense_Blunt>33</UnitStat_Defense_Blunt>
+            <UnitStat_Defense_Cutting>33</UnitStat_Defense_Cutting>
+            <UnitStat_Defense_Pierce>33</UnitStat_Defense_Pierce>
+            <UnitStat_HitPoints>60</UnitStat_HitPoints>
+            <UnitStat_Moves>4</UnitStat_Moves>
+            <UnitStat_WeightCapacity>100</UnitStat_WeightCapacity>
+        </LevelMilestone>
+        <SelectedAbilityBonusOption>Monsterous</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Sweep</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>FireBreath</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Overpower</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>Spell_Contagion</SelectedAbilityBonusOption>
+        <SelectedAbilityBonusOption>SpellResistance</SelectedAbilityBonusOption>
+        <Treasure>
+            <Liklihood>70</Liklihood>
+            <GameModifier>
+                <ModType>Resource</ModType>
+                <Title></Title>
+                <Attribute>Gold</Attribute>
+                <BoolVal1></BoolVal1>
+                <Value>18</Value>
+            </GameModifier>
+        </Treasure>
+        <Treasure>
+            <Liklihood>30</Liklihood>
+            <GameModifier>
+                <ModType>GiveItem</ModType>
+                <Title></Title>
+                <Attribute></Attribute>
+                <BoolVal1></BoolVal1>
+                <Value></Value>
+            </GameModifier>
+        </Treasure>
+        <Quote>I will drag you down into endless night and devour your power, your soul and when there is nothing left but sorrow, your body.</Quote>
+        <Backstory>Long before men walked upon Elemental, dragons filled the skies; for thousands of years, the Nine Broods dominated the world. They dug great caverns in the mountain ranges of the north and west; built burrows of unimaginable size in the deserts and jungles of the south and east. Then came man; then came the armies of Al-Ashteroth, bent on supremacy, seeking to obliterate any who stood in their path. Individually, the dragons were more than a match for any man; yet even their greatest broods were helpless against the overwhelming numbers of warrior-priests sent against them from the south.  Only a few dragons survived the slaughter; they  retreated to the fringes of the world, where they remain still, nursing their hatred of mankind. 
+
+The Fell Dragon seeks out the most barren, desolate places of the world to nest; any who dare to disturb it will most certainly pay a price.</Backstory>
+        <Medallions InternalName="">
+            <All>ObsidianDragon.png</All>
+        </Medallions>
+        <AlwaysInTileCenter>1</AlwaysInTileCenter>
+        <AnimationPack>DragonAnimationPack</AnimationPack>
+        <BattleAnimationBehavior>Stationary</BattleAnimationBehavior>
+        <ClothMapScale>0.615</ClothMapScale>
+        <Color_Skin>34,34,34,255</Color_Skin>
+        <CutSceneDataPack>DragonUnitCutscenePack</CutSceneDataPack>
+        <EyeTexture>gfx/eyes/male_brown_eye.png</EyeTexture>
+        <InfoCardBackground>BG18_Dark</InfoCardBackground>
+        <MaxScaleMainMap>0.45</MaxScaleMainMap>
+        <MaxScaleTacticalMap>1.2</MaxScaleTacticalMap>
+        <ModelPath>gfx/hkb/Dragons/D_Dragon_Mesh_01.hkb</ModelPath>
+        <ModelScale>1.2</ModelScale>
+        <ShowAsSingleUnit>1</ShowAsSingleUnit>
+        <SkeletonPath>gfx/hkb/Dragons/D_Dragon_Skeleton_01.hkb</SkeletonPath>
+        <SoundPack>SoundPack_Dragon1</SoundPack>
+        <Texture_Skin>gfx/hkb/Dragons/D_Dragon_Texture_03.dds</Texture_Skin>
+    </UnitType>
+
+	
+	
+	<!-- ROCK SPIDER CONTAINER -->
+	<UnitType InternalName="RockSpiderGroup">
+		<HideInHiergamenon>1</HideInHiergamenon>
+		<CanBeDesigned>0</CanBeDesigned>
+
+        <NPCPartyMember>RockSpider</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Single</PartyMemberGrouping>
+        <NPCPartyMember>RockSpiderDrone</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+        <NPCPartyMember>RockSpiderDrone</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+        <NPCPartyMember>RockSpiderDrone</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+        <NPCPartyMember>RockSpiderDrone</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+        <NPCPartyMember>RockSpiderDrone</NPCPartyMember>
+    </UnitType>
+	
+	
+	<!-- BANDIT CONTAINER -->
+	<UnitType InternalName="SmallBanditParty">
+		<HideInHiergamenon>1</HideInHiergamenon>
+		<CanBeDesigned>0</CanBeDesigned>
+
+        <NPCPartyMember>Bandit</NPCPartyMember>
+        <NPCPartyMember>Bandit</NPCPartyMember>
+        <NPCPartyMember>Bandit</NPCPartyMember>
+        <NPCPartyMember>Bandit</NPCPartyMember>
+        <NPCPartyMember>BanditArcher</NPCPartyMember>
+    </UnitType>
+
+	
+	<!-- WOLF CONTAINER -->
+	<UnitType InternalName="WolfContainer">
+		<HideInHiergamenon>1</HideInHiergamenon>
+		<CanBeDesigned>0</CanBeDesigned>
+
+        <NPCPartyMember>Wolf</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+    </UnitType>
+	
+	
+	<!-- SHRILL CONTAINER -->
+	<UnitType InternalName="ShrillContainer">
+		<HideInHiergamenon>1</HideInHiergamenon>
+		<CanBeDesigned>0</CanBeDesigned>
+
+        <NPCPartyMember>FireShrill</NPCPartyMember>
+        <NPCPartyMember>EarthShrill</NPCPartyMember>
+        <NPCPartyMember>AirShrill</NPCPartyMember>
+    </UnitType>
+	
+	
+	<!-- AIR ELEMENTAL CONTAINER -->
+	<UnitType InternalName="AirElementalContainer">
+		<HideInHiergamenon>1</HideInHiergamenon>
+		<CanBeDesigned>0</CanBeDesigned>
+
+        <NPCPartyMember>AirElemental</NPCPartyMember>
+        <NPCPartyMember>AirShrill</NPCPartyMember>
+        <NPCPartyMember>AirShrill</NPCPartyMember>
+        <NPCPartyMember>AirShrill</NPCPartyMember>
+    </UnitType>
+	
+	
+	<!-- YITHRIL ARMY AT MALAYA CONTAINER -->
+	<UnitType InternalName="YithrilContainer">
+		<HideInHiergamenon>1</HideInHiergamenon>
+		<CanBeDesigned>0</CanBeDesigned>
+
+        <NPCPartyMember>Unit_Light_Trog</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Group</PartyMemberGrouping>
+        <NPCPartyMember>Unit_Light_Trog</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Group</PartyMemberGrouping>
+        <NPCPartyMember>Unit_Archer_Trog</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+    </UnitType>
+	
+	
+	<!-- KRAX ARMY AT MALAYA CONTAINER 1 -->
+	<UnitType InternalName="KraxContainer1">
+		<HideInHiergamenon>1</HideInHiergamenon>
+		<CanBeDesigned>0</CanBeDesigned>
+
+        <NPCPartyMember>Unit_Medium_Krax</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+        <NPCPartyMember>Unit_Medium_Krax</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+        <NPCPartyMember>Unit_Light_Krax</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+        <NPCPartyMember>Unit_Light_Krax</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+        <NPCPartyMember>Unit_Archer_Krax</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+        <NPCPartyMember>Unit_Archer_Krax</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+    </UnitType>
+	
+	
+	<!-- KRAX ARMY AT MALAYA CONTAINER 2 -->
+	<UnitType InternalName="KraxContainer2">
+		<HideInHiergamenon>1</HideInHiergamenon>
+		<CanBeDesigned>0</CanBeDesigned>
+
+        <NPCPartyMember>Unit_Medium_Krax</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Group</PartyMemberGrouping>
+        <NPCPartyMember>Unit_Light_Krax</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Group</PartyMemberGrouping>
+        <NPCPartyMember>Unit_Archer_Krax</NPCPartyMember>
+        <PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+    </UnitType>
+
+
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- MAP 2 WILDING CONTAINER -->
+	<!-- **************************************************************************************************************************************************************************** -->
+
+	<UnitType InternalName="Map2WildingContainer">
+		<HideInHiergamenon>1</HideInHiergamenon>
+		<CanBeDesigned>0</CanBeDesigned>
+
+		<NPCPartyMember>WildingWarrior</NPCPartyMember>
+		<PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+
+		<NPCPartyMember>WildingWarrior</NPCPartyMember>
+		<PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+
+		<NPCPartyMember>WildingWarrior</NPCPartyMember>
+		<PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+
+	</UnitType>
+
+
+	<!-- **************************************************************************************************************************************************************************** -->
+	<!-- WILDING RIDER CONTAINER -->
+	<!-- **************************************************************************************************************************************************************************** -->
+
+	<UnitType InternalName="WildingRiderContainer">
+		<HideInHiergamenon>1</HideInHiergamenon>
+		<CanBeDesigned>0</CanBeDesigned>
+
+		<NPCPartyMember>WildingRider</NPCPartyMember>
+		<PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+
+		<NPCPartyMember>WildingRider</NPCPartyMember>
+		<PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+
+		<NPCPartyMember>WildingRider</NPCPartyMember>
+		<PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+
+		<NPCPartyMember>WildingRider</NPCPartyMember>
+		<PartyMemberGrouping>UnitGroupingType_Party</PartyMemberGrouping>
+		
+</UnitType>
+	
+</CampaignData>
